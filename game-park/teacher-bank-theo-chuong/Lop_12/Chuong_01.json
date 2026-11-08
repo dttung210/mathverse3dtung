@@ -1,0 +1,4129 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 12,
+      "chapter": 1,
+      "roman": "I",
+      "title": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "12-01-01",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Hàm số bậc ba y = x^{3} - 3x^{2} + 2 nghịch biến trên khoảng nào dưới đây?",
+          "choices": {
+            "A": "(0; 2)",
+            "B": "(-2; 0)",
+            "C": "(2; +∈fty)",
+            "D": "(-∈fty; 0)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hàm số bậc ba y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 2 nghịch biến trên khoảng nào dưới đây?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(0; 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-2; 0)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(2; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 0)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hàm số bậc ba y = x$^3$ - 3x$^2$ + 2 nghịch biến trên khoảng nào dưới đây?",
+            "choices": {
+              "A": "(0; 2)",
+              "B": "(-2; 0)",
+              "C": "(2; +$\\infty$)",
+              "D": "(-$\\infty$; 0)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-02",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (5x - 1)/(x - 3) lần lượt là.",
+          "choices": {
+            "A": "x = 5 và y = 3",
+            "B": "x = -3 và y = 5",
+            "C": "x = 3 và y = 5",
+            "D": "x = 3 và y = -1"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (5x - 1)/(x - 3) lần lượt là."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 5 và y = 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -3 và y = 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 3 và y = 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 3 và y = -1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (5x - 1)/(x - 3) lần lượt là.",
+            "choices": {
+              "A": "x = 5 và y = 3",
+              "B": "x = -3 và y = 5",
+              "C": "x = 3 và y = 5",
+              "D": "x = 3 và y = -1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-03",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương I, xét nội dung: Điểm cực đại của hàm số y = -x^{3} + 3x + 6 là. Đáp án đúng là",
+          "choices": {
+            "A": "x = 0",
+            "B": "x = -1",
+            "C": "x = 1",
+            "D": "y = 8"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương I, xét nội dung: Điểm cực đại của hàm số y = -"
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 3x + 6 là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = 8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương I, xét nội dung: Điểm cực đại của hàm số y = -x$^3$ + 3x + 6 là. Đáp án đúng là",
+            "choices": {
+              "A": "x = 0",
+              "B": "x = -1",
+              "C": "x = 1",
+              "D": "y = 8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-04",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương I (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số), hàm số bậc ba y = x^{3} - 3x^{2} + 5 nghịch biến trên khoảng nào dưới đây",
+          "choices": {
+            "A": "(-2; 0)",
+            "B": "(2; +∈fty)",
+            "C": "(0; 2)",
+            "D": "(-∈fty; 0)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương I (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số), hàm số bậc ba y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5 nghịch biến trên khoảng nào dưới đây"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-2; 0)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(2; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(0; 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 0)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương I (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số), hàm số bậc ba y = x$^3$ - 3x$^2$ + 5 nghịch biến trên khoảng nào dưới đây",
+            "choices": {
+              "A": "(-2; 0)",
+              "B": "(2; +$\\infty$)",
+              "C": "(0; 2)",
+              "D": "(-$\\infty$; 0)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-05",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (11x - 1)/(x - 6) lần lượt là",
+          "choices": {
+            "A": "x = 6 và y = -1",
+            "B": "x = 11 và y = 6",
+            "C": "x = -6 và y = 11",
+            "D": "x = 6 và y = 11"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (11x - 1)/(x - 6) lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 6 và y = -1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 11 và y = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -6 và y = 11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 6 và y = 11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (11x - 1)/(x - 6) lần lượt là",
+            "choices": {
+              "A": "x = 6 và y = -1",
+              "B": "x = 11 và y = 6",
+              "C": "x = -6 và y = 11",
+              "D": "x = 6 và y = 11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-06",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số, một học sinh gặp câu hỏi: Điểm cực đại của hàm số y = -x^{3} + 3x + 9 là. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "x = -1",
+            "B": "x = 1",
+            "C": "y = 11",
+            "D": "x = 0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số, một học sinh gặp câu hỏi: Điểm cực đại của hàm số y = -"
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 3x + 9 là. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = -1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y = 11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số, một học sinh gặp câu hỏi: Điểm cực đại của hàm số y = -x$^3$ + 3x + 9 là. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "x = -1",
+              "B": "x = 1",
+              "C": "y = 11",
+              "D": "x = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-07",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Hàm số bậc ba y = x^{3} - 3x^{2} + 8 nghịch biến trên khoảng nào dưới đây",
+          "choices": {
+            "A": "(-2; 0)",
+            "B": "(-∈fty; 0)",
+            "C": "(0; 2)",
+            "D": "(2; +∈fty)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Hàm số bậc ba y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 8 nghịch biến trên khoảng nào dưới đây"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-2; 0)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 0)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(0; 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(2; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Hàm số bậc ba y = x$^3$ - 3x$^2$ + 8 nghịch biến trên khoảng nào dưới đây",
+            "choices": {
+              "A": "(-2; 0)",
+              "B": "(-$\\infty$; 0)",
+              "C": "(0; 2)",
+              "D": "(2; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-08",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (17x - 1)/(x - 9) lần lượt là",
+          "choices": {
+            "A": "x = 9 và y = -1",
+            "B": "x = 9 và y = 17",
+            "C": "x = 17 và y = 9",
+            "D": "x = -9 và y = 17"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (17x - 1)/(x - 9) lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 9 và y = -1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 9 và y = 17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 17 và y = 9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -9 và y = 17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (17x - 1)/(x - 9) lần lượt là",
+            "choices": {
+              "A": "x = 9 và y = -1",
+              "B": "x = 9 và y = 17",
+              "C": "x = 17 và y = 9",
+              "D": "x = -9 và y = 17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-09",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Điểm cực đại của hàm số y = -x^{3} + 3x + 12 là",
+          "choices": {
+            "A": "x = -1",
+            "B": "x = 1",
+            "C": "y = 14",
+            "D": "x = 0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Điểm cực đại của hàm số y = -"
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 3x + 12 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = -1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y = 14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Điểm cực đại của hàm số y = -x$^3$ + 3x + 12 là",
+            "choices": {
+              "A": "x = -1",
+              "B": "x = 1",
+              "C": "y = 14",
+              "D": "x = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-10",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Hàm số bậc ba y = x^{3} - 3x^{2} + 11 nghịch biến trên khoảng nào dưới đây. Phương án chính xác là",
+          "choices": {
+            "A": "(-2; 0)",
+            "B": "(2; +∈fty)",
+            "C": "(-∈fty; 0)",
+            "D": "(0; 2)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Hàm số bậc ba y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 11 nghịch biến trên khoảng nào dưới đây. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-2; 0)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(2; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 0)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(0; 2)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Hàm số bậc ba y = x$^3$ - 3x$^2$ + 11 nghịch biến trên khoảng nào dưới đây. Phương án chính xác là",
+            "choices": {
+              "A": "(-2; 0)",
+              "B": "(2; +$\\infty$)",
+              "C": "(-$\\infty$; 0)",
+              "D": "(0; 2)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-11",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (23x - 1)/(x - 12) lần lượt là",
+          "choices": {
+            "A": "x = 12 và y = 23",
+            "B": "x = 23 và y = 12",
+            "C": "x = -12 và y = 23",
+            "D": "x = 12 và y = -1"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (23x - 1)/(x - 12) lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 12 và y = 23"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 23 và y = 12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -12 và y = 23"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 12 và y = -1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (23x - 1)/(x - 12) lần lượt là",
+            "choices": {
+              "A": "x = 12 và y = 23",
+              "B": "x = 23 và y = 12",
+              "C": "x = -12 và y = 23",
+              "D": "x = 12 và y = -1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-12",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Điểm cực đại của hàm số y = -x^{3} + 3x + 15 là",
+          "choices": {
+            "A": "x = -1",
+            "B": "x = 0",
+            "C": "x = 1",
+            "D": "y = 17"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Điểm cực đại của hàm số y = -"
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 3x + 15 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = -1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = 17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Điểm cực đại của hàm số y = -x$^3$ + 3x + 15 là",
+            "choices": {
+              "A": "x = -1",
+              "B": "x = 0",
+              "C": "x = 1",
+              "D": "y = 17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-13",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), hàm số bậc ba y = x^{3} - 3x^{2} + 14 nghịch biến trên khoảng nào dưới đây",
+          "choices": {
+            "A": "(0; 2)",
+            "B": "(-2; 0)",
+            "C": "(-∈fty; 0)",
+            "D": "(2; +∈fty)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), hàm số bậc ba y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 14 nghịch biến trên khoảng nào dưới đây"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(0; 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-2; 0)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 0)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(2; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), hàm số bậc ba y = x$^3$ - 3x$^2$ + 14 nghịch biến trên khoảng nào dưới đây",
+            "choices": {
+              "A": "(0; 2)",
+              "B": "(-2; 0)",
+              "C": "(-$\\infty$; 0)",
+              "D": "(2; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-14",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (29x - 1)/(x - 15) lần lượt là",
+          "choices": {
+            "A": "x = 15 và y = -1",
+            "B": "x = 15 và y = 29",
+            "C": "x = -15 và y = 29",
+            "D": "x = 29 và y = 15"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (29x - 1)/(x - 15) lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 15 và y = -1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 15 và y = 29"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -15 và y = 29"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 29 và y = 15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (29x - 1)/(x - 15) lần lượt là",
+            "choices": {
+              "A": "x = 15 và y = -1",
+              "B": "x = 15 và y = 29",
+              "C": "x = -15 và y = 29",
+              "D": "x = 29 và y = 15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-15",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương I: Điểm cực đại của hàm số y = -x^{3} + 3x + 18 là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "y = 20",
+            "B": "x = -1",
+            "C": "x = 0",
+            "D": "x = 1"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương I: Điểm cực đại của hàm số y = -"
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 3x + 18 là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y = 20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương I: Điểm cực đại của hàm số y = -x$^3$ + 3x + 18 là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "y = 20",
+              "B": "x = -1",
+              "C": "x = 0",
+              "D": "x = 1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-16",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Hàm số bậc ba y = x^{3} - 3x^{2} + 17 nghịch biến trên khoảng nào dưới đây",
+          "choices": {
+            "A": "(0; 2)",
+            "B": "(-2; 0)",
+            "C": "(2; +∈fty)",
+            "D": "(-∈fty; 0)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Hàm số bậc ba y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 17 nghịch biến trên khoảng nào dưới đây"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(0; 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-2; 0)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(2; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 0)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Hàm số bậc ba y = x$^3$ - 3x$^2$ + 17 nghịch biến trên khoảng nào dưới đây",
+            "choices": {
+              "A": "(0; 2)",
+              "B": "(-2; 0)",
+              "C": "(2; +$\\infty$)",
+              "D": "(-$\\infty$; 0)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-17",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (35x - 1)/(x - 18) lần lượt là?",
+          "choices": {
+            "A": "x = -18 và y = 35",
+            "B": "x = 35 và y = 18",
+            "C": "x = 18 và y = 35",
+            "D": "x = 18 và y = -1"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (35x - 1)/(x - 18) lần lượt là?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = -18 và y = 35"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 35 và y = 18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 18 và y = 35"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 18 và y = -1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (35x - 1)/(x - 18) lần lượt là?",
+            "choices": {
+              "A": "x = -18 và y = 35",
+              "B": "x = 35 và y = 18",
+              "C": "x = 18 và y = 35",
+              "D": "x = 18 và y = -1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-18",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương I: Điểm cực đại của hàm số y = -x^{3} + 3x + 21 là",
+          "choices": {
+            "A": "x = -1",
+            "B": "x = 0",
+            "C": "x = 1",
+            "D": "y = 23"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương I: Điểm cực đại của hàm số y = -"
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 3x + 21 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = -1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = 23"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương I: Điểm cực đại của hàm số y = -x$^3$ + 3x + 21 là",
+            "choices": {
+              "A": "x = -1",
+              "B": "x = 0",
+              "C": "x = 1",
+              "D": "y = 23"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-19",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Hàm số bậc ba y = x^{3} - 3x^{2} + 20 nghịch biến trên khoảng nào dưới đây. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "(-∈fty; 0)",
+            "B": "(-2; 0)",
+            "C": "(0; 2)",
+            "D": "(2; +∈fty)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Hàm số bậc ba y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 20 nghịch biến trên khoảng nào dưới đây. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 0)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-2; 0)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(0; 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(2; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Hàm số bậc ba y = x$^3$ - 3x$^2$ + 20 nghịch biến trên khoảng nào dưới đây. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "(-$\\infty$; 0)",
+              "B": "(-2; 0)",
+              "C": "(0; 2)",
+              "D": "(2; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-20",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (41x - 1)/(x - 21) lần lượt là",
+          "choices": {
+            "A": "x = 21 và y = -1",
+            "B": "x = 41 và y = 21",
+            "C": "x = -21 và y = 41",
+            "D": "x = 21 và y = 41"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (41x - 1)/(x - 21) lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 21 và y = -1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 41 và y = 21"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -21 và y = 41"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 21 và y = 41"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Phương trình đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số y = (41x - 1)/(x - 21) lần lượt là",
+            "choices": {
+              "A": "x = 21 và y = -1",
+              "B": "x = 41 và y = 21",
+              "C": "x = -21 và y = 41",
+              "D": "x = 21 và y = 41"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-21",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Giá trị lớn nhất của hàm số f(x) = x^{3} - 3x + 5 trên đoạn [0; 2] bằng",
+          "choices": {
+            "A": "3",
+            "B": "9",
+            "C": "5",
+            "D": "7"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giá trị lớn nhất của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 5 trên đoạn [0; 2] bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giá trị lớn nhất của hàm số f(x) = x$^3$ - 3x + 5 trên đoạn [0; 2] bằng",
+            "choices": {
+              "A": "3",
+              "B": "9",
+              "C": "5",
+              "D": "7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-22",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương I (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số) để giải bài toán: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 3 + 3/(x - 1) có phương trình là",
+          "choices": {
+            "A": "y = x + 3",
+            "B": "y = x - 1",
+            "C": "x = 1",
+            "D": "y = x + 6"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương I (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số) để giải bài toán: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 3 + 3/(x - 1) có phương trình là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y = x + 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = x - 1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = x + 6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương I (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số) để giải bài toán: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 3 + 3/(x - 1) có phương trình là",
+            "choices": {
+              "A": "y = x + 3",
+              "B": "y = x - 1",
+              "C": "x = 1",
+              "D": "y = x + 6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-23",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương I: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x^{3} - 3x + 6 bằng. Kết quả thu được là",
+          "choices": {
+            "A": "4",
+            "B": "0",
+            "C": "12",
+            "D": "6"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương I: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 6 bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương I: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x$^3$ - 3x + 6 bằng. Kết quả thu được là",
+            "choices": {
+              "A": "4",
+              "B": "0",
+              "C": "12",
+              "D": "6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-24",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Giá trị lớn nhất của hàm số f(x) = x^{3} - 3x + 8 trên đoạn [0; 2] bằng. Đáp án đúng là",
+          "choices": {
+            "A": "10",
+            "B": "8",
+            "C": "6",
+            "D": "12"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Giá trị lớn nhất của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 8 trên đoạn [0; 2] bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Giá trị lớn nhất của hàm số f(x) = x$^3$ - 3x + 8 trên đoạn [0; 2] bằng. Đáp án đúng là",
+            "choices": {
+              "A": "10",
+              "B": "8",
+              "C": "6",
+              "D": "12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-25",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 6 + 3/(x - 1) có phương trình là",
+          "choices": {
+            "A": "y = x - 1",
+            "B": "y = x + 9",
+            "C": "x = 1",
+            "D": "y = x + 6"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 6 + 3/(x - 1) có phương trình là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y = x - 1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = x + 9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = x + 6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 6 + 3/(x - 1) có phương trình là",
+            "choices": {
+              "A": "y = x - 1",
+              "B": "y = x + 9",
+              "C": "x = 1",
+              "D": "y = x + 6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-26",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x^{3} - 3x + 9 bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "18",
+            "B": "9",
+            "C": "0",
+            "D": "4"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 9 bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x$^3$ - 3x + 9 bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "18",
+              "B": "9",
+              "C": "0",
+              "D": "4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-27",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Giá trị lớn nhất của hàm số f(x) = x^{3} - 3x + 11 trên đoạn [0; 2] bằng",
+          "choices": {
+            "A": "13",
+            "B": "15",
+            "C": "9",
+            "D": "11"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Giá trị lớn nhất của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 11 trên đoạn [0; 2] bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Giá trị lớn nhất của hàm số f(x) = x$^3$ - 3x + 11 trên đoạn [0; 2] bằng",
+            "choices": {
+              "A": "13",
+              "B": "15",
+              "C": "9",
+              "D": "11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-28",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 9 + 3/(x - 1) có phương trình là",
+          "choices": {
+            "A": "y = x + 12",
+            "B": "y = x - 1",
+            "C": "x = 1",
+            "D": "y = x + 9"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 9 + 3/(x - 1) có phương trình là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y = x + 12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = x - 1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = x + 9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 9 + 3/(x - 1) có phương trình là",
+            "choices": {
+              "A": "y = x + 12",
+              "B": "y = x - 1",
+              "C": "x = 1",
+              "D": "y = x + 9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-29",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số): Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x^{3} - 3x + 12 bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "24",
+            "B": "0",
+            "C": "4",
+            "D": "12"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số): Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 12 bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số): Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x$^3$ - 3x + 12 bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "24",
+              "B": "0",
+              "C": "4",
+              "D": "12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-30",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Giá trị lớn nhất của hàm số f(x) = x^{3} - 3x + 14 trên đoạn [0; 2] bằng",
+          "choices": {
+            "A": "16",
+            "B": "14",
+            "C": "12",
+            "D": "18"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Giá trị lớn nhất của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 14 trên đoạn [0; 2] bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Giá trị lớn nhất của hàm số f(x) = x$^3$ - 3x + 14 trên đoạn [0; 2] bằng",
+            "choices": {
+              "A": "16",
+              "B": "14",
+              "C": "12",
+              "D": "18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-31",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 12 + 3/(x - 1) có phương trình là. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "x = 1",
+            "B": "y = x + 12",
+            "C": "y = x + 15",
+            "D": "y = x - 1"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 12 + 3/(x - 1) có phương trình là. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = x + 12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y = x + 15"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = x - 1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 12 + 3/(x - 1) có phương trình là. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "x = 1",
+              "B": "y = x + 12",
+              "C": "y = x + 15",
+              "D": "y = x - 1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-32",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x^{3} - 3x + 15 bằng",
+          "choices": {
+            "A": "30",
+            "B": "15",
+            "C": "4",
+            "D": "0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 15 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x$^3$ - 3x + 15 bằng",
+            "choices": {
+              "A": "30",
+              "B": "15",
+              "C": "4",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-33",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Giá trị lớn nhất của hàm số f(x) = x^{3} - 3x + 17 trên đoạn [0; 2] bằng",
+          "choices": {
+            "A": "15",
+            "B": "21",
+            "C": "19",
+            "D": "17"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Giá trị lớn nhất của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 17 trên đoạn [0; 2] bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Giá trị lớn nhất của hàm số f(x) = x$^3$ - 3x + 17 trên đoạn [0; 2] bằng",
+            "choices": {
+              "A": "15",
+              "B": "21",
+              "C": "19",
+              "D": "17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-34",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 15 + 3/(x - 1) có phương trình là",
+          "choices": {
+            "A": "x = 1",
+            "B": "y = x - 1",
+            "C": "y = x + 18",
+            "D": "y = x + 15"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 15 + 3/(x - 1) có phương trình là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = x - 1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y = x + 18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = x + 15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 15 + 3/(x - 1) có phương trình là",
+            "choices": {
+              "A": "x = 1",
+              "B": "y = x - 1",
+              "C": "y = x + 18",
+              "D": "y = x + 15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-35",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x^{3} - 3x + 18 bằng",
+          "choices": {
+            "A": "36",
+            "B": "4",
+            "C": "18",
+            "D": "0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 18 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x$^3$ - 3x + 18 bằng",
+            "choices": {
+              "A": "36",
+              "B": "4",
+              "C": "18",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-36",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số): Giá trị lớn nhất của hàm số f(x) = x^{3} - 3x + 20 trên đoạn [0; 2] bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "22",
+            "B": "20",
+            "C": "24",
+            "D": "18"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số): Giá trị lớn nhất của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 20 trên đoạn [0; 2] bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "22"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số): Giá trị lớn nhất của hàm số f(x) = x$^3$ - 3x + 20 trên đoạn [0; 2] bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "22",
+              "B": "20",
+              "C": "24",
+              "D": "18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-37",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 18 + 3/(x - 1) có phương trình là",
+          "choices": {
+            "A": "y = x + 18",
+            "B": "y = x - 1",
+            "C": "y = x + 21",
+            "D": "x = 1"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 18 + 3/(x - 1) có phương trình là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y = x + 18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = x - 1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y = x + 21"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 18 + 3/(x - 1) có phương trình là",
+            "choices": {
+              "A": "y = x + 18",
+              "B": "y = x - 1",
+              "C": "y = x + 21",
+              "D": "x = 1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-38",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương I: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x^{3} - 3x + 21 bằng. Kết luận đúng là",
+          "choices": {
+            "A": "4",
+            "B": "0",
+            "C": "21",
+            "D": "42"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương I: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 21 bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "42"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương I: Tổng giá trị cực đại và giá trị cực tiểu của hàm số y = x$^3$ - 3x + 21 bằng. Kết luận đúng là",
+            "choices": {
+              "A": "4",
+              "B": "0",
+              "C": "21",
+              "D": "42"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-39",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Giá trị lớn nhất của hàm số f(x) = x^{3} - 3x + 23 trên đoạn [0; 2] bằng",
+          "choices": {
+            "A": "21",
+            "B": "27",
+            "C": "23",
+            "D": "25"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Giá trị lớn nhất của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 23 trên đoạn [0; 2] bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Giá trị lớn nhất của hàm số f(x) = x$^3$ - 3x + 23 trên đoạn [0; 2] bằng",
+            "choices": {
+              "A": "21",
+              "B": "27",
+              "C": "23",
+              "D": "25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-40",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 21 + 3/(x - 1) có phương trình là",
+          "choices": {
+            "A": "y = x + 24",
+            "B": "y = x - 1",
+            "C": "x = 1",
+            "D": "y = x + 21"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 21 + 3/(x - 1) có phương trình là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y = x + 24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = x - 1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = x + 21"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Đường tiệm cận xiên của đồ thị hàm số phân thức y = x + 21 + 3/(x - 1) có phương trình là",
+            "choices": {
+              "A": "y = x + 24",
+              "B": "y = x - 1",
+              "C": "x = 1",
+              "D": "y = x + 21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-41",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 · x^{3} - mx^{2} + (3m - 2)x + 1 đồng biến trên toàn bộ \\mathbb{R}",
+          "choices": {
+            "A": "m ≥ 2",
+            "B": "1 ≤ m ≤ 2",
+            "C": "0 ≤ m ≤ 2",
+            "D": "m < 1 hoặc m > 2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "mx^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + (3m - 2)x + 1 đồng biến trên toàn bộ "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m < 1 hoặc m > 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 $\\cdot$ x$^3$ - mx$^2$ + (3m - 2)x + 1 đồng biến trên toàn bộ $\\mathbb{R}$",
+            "choices": {
+              "A": "m $\\ge$ 2",
+              "B": "1 $\\le$ m $\\le$ 2",
+              "C": "0 $\\le$ m $\\le$ 2",
+              "D": "m < 1 hoặc m > 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-42",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương I – Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số): Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -x^{2} + 50x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là. Kết quả đúng là",
+          "choices": {
+            "A": "x = 100 sản phẩm",
+            "B": "x = 15 sản phẩm",
+            "C": "x = 50 sản phẩm",
+            "D": "x = 25 sản phẩm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương I – Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số): Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 50x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 100 sản phẩm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 15 sản phẩm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 50 sản phẩm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 25 sản phẩm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương I – Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số): Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -x$^2$ + 50x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là. Kết quả đúng là",
+            "choices": {
+              "A": "x = 100 sản phẩm",
+              "B": "x = 15 sản phẩm",
+              "C": "x = 50 sản phẩm",
+              "D": "x = 25 sản phẩm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-43",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 · x^{3} - mx^{2} + (3m - 2)x + 1 đồng biến trên toàn bộ \\mathbb{R}",
+          "choices": {
+            "A": "m < 1 hoặc m > 2",
+            "B": "1 ≤ m ≤ 2",
+            "C": "m ≥ 2",
+            "D": "0 ≤ m ≤ 2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "mx^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + (3m - 2)x + 1 đồng biến trên toàn bộ "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m < 1 hoặc m > 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 $\\cdot$ x$^3$ - mx$^2$ + (3m - 2)x + 1 đồng biến trên toàn bộ $\\mathbb{R}$",
+            "choices": {
+              "A": "m < 1 hoặc m > 2",
+              "B": "1 $\\le$ m $\\le$ 2",
+              "C": "m $\\ge$ 2",
+              "D": "0 $\\le$ m $\\le$ 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-44",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương I: Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -x^{2} + 70x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là",
+          "choices": {
+            "A": "x = 25 sản phẩm",
+            "B": "x = 35 sản phẩm",
+            "C": "x = 100 sản phẩm",
+            "D": "x = 70 sản phẩm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương I: Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 70x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 25 sản phẩm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 35 sản phẩm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 100 sản phẩm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 70 sản phẩm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương I: Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -x$^2$ + 70x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là",
+            "choices": {
+              "A": "x = 25 sản phẩm",
+              "B": "x = 35 sản phẩm",
+              "C": "x = 100 sản phẩm",
+              "D": "x = 70 sản phẩm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-45",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 · x^{3} - mx^{2} + (3m - 2)x + 1 đồng biến trên toàn bộ \\mathbb{R}. Đáp số chính xác là",
+          "choices": {
+            "A": "m ≥ 2",
+            "B": "m < 1 hoặc m > 2",
+            "C": "1 ≤ m ≤ 2",
+            "D": "0 ≤ m ≤ 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "mx^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + (3m - 2)x + 1 đồng biến trên toàn bộ "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ". Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m < 1 hoặc m > 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 $\\cdot$ x$^3$ - mx$^2$ + (3m - 2)x + 1 đồng biến trên toàn bộ $\\mathbb{R}$. Đáp số chính xác là",
+            "choices": {
+              "A": "m $\\ge$ 2",
+              "B": "m < 1 hoặc m > 2",
+              "C": "1 $\\le$ m $\\le$ 2",
+              "D": "0 $\\le$ m $\\le$ 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-46",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -x^{2} + 50x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là",
+          "choices": {
+            "A": "x = 15 sản phẩm",
+            "B": "x = 50 sản phẩm",
+            "C": "x = 100 sản phẩm",
+            "D": "x = 25 sản phẩm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 50x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 15 sản phẩm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 50 sản phẩm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 100 sản phẩm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 25 sản phẩm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -x$^2$ + 50x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là",
+            "choices": {
+              "A": "x = 15 sản phẩm",
+              "B": "x = 50 sản phẩm",
+              "C": "x = 100 sản phẩm",
+              "D": "x = 25 sản phẩm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-47",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 · x^{3} - mx^{2} + (3m - 2)x + 1 đồng biến trên toàn bộ \\mathbb{R}",
+          "choices": {
+            "A": "m ≥ 2",
+            "B": "1 ≤ m ≤ 2",
+            "C": "0 ≤ m ≤ 2",
+            "D": "m < 1 hoặc m > 2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "mx^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + (3m - 2)x + 1 đồng biến trên toàn bộ "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m < 1 hoặc m > 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 $\\cdot$ x$^3$ - mx$^2$ + (3m - 2)x + 1 đồng biến trên toàn bộ $\\mathbb{R}$",
+            "choices": {
+              "A": "m $\\ge$ 2",
+              "B": "1 $\\le$ m $\\le$ 2",
+              "C": "0 $\\le$ m $\\le$ 2",
+              "D": "m < 1 hoặc m > 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-48",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -x^{2} + 70x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là",
+          "choices": {
+            "A": "x = 25 sản phẩm",
+            "B": "x = 100 sản phẩm",
+            "C": "x = 70 sản phẩm",
+            "D": "x = 35 sản phẩm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 70x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 25 sản phẩm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 100 sản phẩm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 70 sản phẩm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 35 sản phẩm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -x$^2$ + 70x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là",
+            "choices": {
+              "A": "x = 25 sản phẩm",
+              "B": "x = 100 sản phẩm",
+              "C": "x = 70 sản phẩm",
+              "D": "x = 35 sản phẩm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-49",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 · x^{3} - mx^{2} + (3m - 2)x + 1 đồng biến trên toàn bộ \\mathbb{R}",
+          "choices": {
+            "A": "1 ≤ m ≤ 2",
+            "B": "0 ≤ m ≤ 2",
+            "C": "m ≥ 2",
+            "D": "m < 1 hoặc m > 2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "mx^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + (3m - 2)x + 1 đồng biến trên toàn bộ "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m < 1 hoặc m > 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm tất cả các giá trị thực của tham số m để hàm số y = 1/3 $\\cdot$ x$^3$ - mx$^2$ + (3m - 2)x + 1 đồng biến trên toàn bộ $\\mathbb{R}$",
+            "choices": {
+              "A": "1 $\\le$ m $\\le$ 2",
+              "B": "0 $\\le$ m $\\le$ 2",
+              "C": "m $\\ge$ 2",
+              "D": "m < 1 hoặc m > 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-01-50",
+          "grade": 12,
+          "chapter": 1,
+          "chapterTitle": "ỨNG DỤNG ĐẠO HÀM ĐỂ KHẢO SÁT VÀ VẼ ĐỒ THỊ HÀM SỐ",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương I: Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -x^{2} + 50x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là. Phương án đúng là",
+          "choices": {
+            "A": "x = 100 sản phẩm",
+            "B": "x = 25 sản phẩm",
+            "C": "x = 15 sản phẩm",
+            "D": "x = 50 sản phẩm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương I: Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 50x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 100 sản phẩm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 25 sản phẩm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 15 sản phẩm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 50 sản phẩm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương I: Một cơ sở sản xuất bán x sản phẩm với lợi nhuận P(x) = -x$^2$ + 50x - 100 (triệu đồng). Số sản phẩm x cần bán để lợi nhuận đạt giá trị lớn nhất là. Phương án đúng là",
+            "choices": {
+              "A": "x = 100 sản phẩm",
+              "B": "x = 25 sản phẩm",
+              "C": "x = 15 sản phẩm",
+              "D": "x = 50 sản phẩm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.env
+.DS_Store
+node_modules/
+_site/
+.backup_v12_render_2026_11_08/
+*.log
+
+# R105: never commit tokens, OAuth data, temporary download links or licensed source archives
+R105_AGENT/_download_work/
+R105_AGENT/.tokens/
+.env.sketchfab
+*.r105-backup

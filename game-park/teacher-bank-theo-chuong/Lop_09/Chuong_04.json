@@ -1,0 +1,3921 @@
+{
+  "schemaVersion": 9,
+  "sourceType": "teacher-provided-original-LaTeX",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu/chương từ LaTeX gốc; bản Word 40 câu/chương dùng đối chiếu; không sinh câu mới.",
+  "questionsProvenance": "User uploaded PDF, Word and original LaTeX; preserves answer key and MathTeX",
+  "chapters": [
+    {
+      "grade": 9,
+      "chapter": 4,
+      "roman": "IV",
+      "title": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "9-04-01",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cho hai góc nhọn α và β phụ nhau (α + β = 90°). Hệ thức nào sau đây là ĐÚNG?",
+          "choices": {
+            "A": "sin α = sin β",
+            "B": "sin α = cot β",
+            "C": "sin α = cos β",
+            "D": "tan α = tan β"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho hai góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\beta"
+            },
+            {
+              "t": "txt",
+              "v": " phụ nhau ("
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\beta"
+            },
+            {
+              "t": "txt",
+              "v": " = 90°). Hệ thức nào sau đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = sin "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = cot "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = cos "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "tan "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = tan "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho hai góc nhọn $\\alpha$ và $\\beta$ phụ nhau ($\\alpha$ + $\\beta$ = 90°). Hệ thức nào sau đây là ĐÚNG?",
+            "choices": {
+              "A": "sin $\\alpha$ = sin $\\beta$",
+              "B": "sin $\\alpha$ = cot $\\beta$",
+              "C": "sin $\\alpha$ = cos $\\beta$",
+              "D": "tan $\\alpha$ = tan $\\beta$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-02",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Cho tam giác ABC vuông tại A có BC = 10 cm, AC = 6 cm. Giá trị của sin B bằng:",
+          "choices": {
+            "A": "(5)/(3)",
+            "B": "(4)/(5)",
+            "C": "(3)/(5)",
+            "D": "(3)/(4)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tam giác ABC vuông tại A có BC = 10 cm, AC = 6 cm. Giá trị của sin B bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{5}{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{4}{5}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{3}{5}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{3}{4}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tam giác ABC vuông tại A có BC = 10 cm, AC = 6 cm. Giá trị của sin B bằng:",
+            "choices": {
+              "A": "5/3",
+              "B": "4/5",
+              "C": "3/5",
+              "D": "3/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-03",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Giá trị của biểu thức lượng giác sin^(2) 35° + cos^(2) 35° bằng:",
+          "choices": {
+            "A": "0",
+            "B": "2",
+            "C": "(1)/(2)",
+            "D": "1"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giá trị của biểu thức lượng giác si"
+            },
+            {
+              "t": "math",
+              "v": "n^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " 35° + co"
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " 35° bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giá trị của biểu thức lượng giác sin$^2$ 35° + cos$^2$ 35° bằng:",
+            "choices": {
+              "A": "0",
+              "B": "2",
+              "C": "1/2",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-04",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 50 và nhỏ hơn 58 bằng cách liệt kê phần tử:",
+          "choices": {
+            "A": "K = {52; 56}",
+            "B": "K = {50; 52; 54; 56; 58}",
+            "C": "K = {51; 53; 55}",
+            "D": "K = {52; 54; 56}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 50 và nhỏ hơn 58 bằng cách liệt kê phần tử:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "K = {52; 56}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "K = {50; 52; 54; 56; 58}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "K = {51; 53; 55}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "K = {52; 54; 56}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 50 và nhỏ hơn 58 bằng cách liệt kê phần tử:",
+            "choices": {
+              "A": "K = {52; 56}",
+              "B": "K = {50; 52; 54; 56; 58}",
+              "C": "K = {51; 53; 55}",
+              "D": "K = {52; 54; 56}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-05",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Cho tập hợp H = {x ∈ ℕ | 25 ≤ x < 31}. Khẳng định nào dưới đây là ĐÚNG?",
+          "choices": {
+            "A": "25 ∈ H và 31 ∉ H",
+            "B": "24 ∈ H",
+            "C": "25 ∉ H và 31 ∈ H",
+            "D": "31 ∈ H"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tập hợp H = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}"
+            },
+            {
+              "t": "txt",
+              "v": " | 25 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " x < 31}. Khẳng định nào dưới đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "25 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H và 31 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H và 31 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "31 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tập hợp H = {x $\\in$ $\\mathbb{N}$ | 25 $\\le$ x < 31}. Khẳng định nào dưới đây là ĐÚNG?",
+            "choices": {
+              "A": "25 $\\in$ H và 31 $\\notin$ H",
+              "B": "24 $\\in$ H",
+              "C": "25 $\\notin$ H và 31 $\\in$ H",
+              "D": "31 $\\in$ H"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-06",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Trong hệ thập phân, số tự nhiên gồm 6 nghìn, 1 trăm và 2 đơn vị được viết là:",
+          "choices": {
+            "A": "9",
+            "B": "612",
+            "C": "6012",
+            "D": "6102"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong hệ thập phân, số tự nhiên gồm 6 nghìn, 1 trăm và 2 đơn vị được viết là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "612"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6012"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6102"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong hệ thập phân, số tự nhiên gồm 6 nghìn, 1 trăm và 2 đơn vị được viết là:",
+            "choices": {
+              "A": "9",
+              "B": "612",
+              "C": "6012",
+              "D": "6102"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-07",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Thương của phép chia hai lũy thừa cùng cơ số 2^(30) : 2^(3) bằng:",
+          "choices": {
+            "A": "1^(27)",
+            "B": "2^(27)",
+            "C": "2^(33)",
+            "D": "2^(90)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thương của phép chia hai lũy thừa cùng cơ số "
+            },
+            {
+              "t": "math",
+              "v": "2^{30}"
+            },
+            {
+              "t": "txt",
+              "v": " : "
+            },
+            {
+              "t": "math",
+              "v": "2^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "1^{27}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "2^{27}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "2^{33}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "2^{90}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thương của phép chia hai lũy thừa cùng cơ số 2$^{30}$ : 2$^{3}$ bằng:",
+            "choices": {
+              "A": "1$^{27}$",
+              "B": "2$^{27}$",
+              "C": "2$^{33}$",
+              "D": "2$^{90}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-08",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Với mọi cơ số a ≠ 0, giá trị của biểu thức P = (40)^(0) + 50 bằng:",
+          "choices": {
+            "A": "51",
+            "B": "50",
+            "C": "1",
+            "D": "90"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Với mọi cơ số a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(40)^{0}"
+            },
+            {
+              "t": "txt",
+              "v": " + 50 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "51"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Với mọi cơ số a $\\ne$ 0, giá trị của biểu thức P = (40)$^0$ + 50 bằng:",
+            "choices": {
+              "A": "51",
+              "B": "50",
+              "C": "1",
+              "D": "90"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-09",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Khi chia số tự nhiên 205 cho 8, số dư của phép chia đó bằng:",
+          "choices": {
+            "A": "5",
+            "B": "25",
+            "C": "3",
+            "D": "0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi chia số tự nhiên 205 cho 8, số dư của phép chia đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi chia số tự nhiên 205 cho 8, số dư của phép chia đó bằng:",
+            "choices": {
+              "A": "5",
+              "B": "25",
+              "C": "3",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-10",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 25 · a + 25 · b được viết gọn thành:",
+          "choices": {
+            "A": "25 · (a + b)",
+            "B": "50 · (a + b)",
+            "C": "25 · a · b",
+            "D": "625 · (a + b)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 25 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " a + 25 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b được viết gọn thành:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "25 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "50 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " a "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " b"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "625 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 25 $\\cdot$ a + 25 $\\cdot$ b được viết gọn thành:",
+            "choices": {
+              "A": "25 $\\cdot$ (a + b)",
+              "B": "50 $\\cdot$ (a + b)",
+              "C": "25 $\\cdot$ a $\\cdot$ b",
+              "D": "625 $\\cdot$ (a + b)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-11",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Để số tự nhiên có ba chữ số 52x chia hết cho 9 thì chữ số x phải bằng:",
+          "choices": {
+            "A": "7",
+            "B": "9",
+            "C": "4",
+            "D": "2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để số tự nhiên có ba chữ số 52x chia hết cho 9 thì chữ số x phải bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để số tự nhiên có ba chữ số 52x chia hết cho 9 thì chữ số x phải bằng:",
+            "choices": {
+              "A": "7",
+              "B": "9",
+              "C": "4",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-12",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Trong các số sau đây, số nào là bội của 28?",
+          "choices": {
+            "A": "112",
+            "B": "83",
+            "C": "59",
+            "D": "114"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các số sau đây, số nào là bội của 28?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "112"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "83"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "59"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "114"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các số sau đây, số nào là bội của 28?",
+            "choices": {
+              "A": "112",
+              "B": "83",
+              "C": "59",
+              "D": "114"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-13",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Khi so sánh hai số âm -33 và -27, khẳng định nào sau đây là ĐÚNG?",
+          "choices": {
+            "A": "|-33| < |-27|",
+            "B": "-33 < -27",
+            "C": "-33 = -27",
+            "D": "-33 > -27"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi so sánh hai số âm -33 và -27, khẳng định nào sau đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "|-33| < |-27|"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-33 < -27"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-33 = -27"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-33 > -27"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi so sánh hai số âm -33 và -27, khẳng định nào sau đây là ĐÚNG?",
+            "choices": {
+              "A": "|-33| < |-27|",
+              "B": "-33 < -27",
+              "C": "-33 = -27",
+              "D": "-33 > -27"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-14",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm số x thỏa mãn đẳng thức: x + 53 = 135:",
+          "choices": {
+            "A": "x = 68",
+            "B": "x = 188",
+            "C": "x = 82",
+            "D": "x = -82"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số x thỏa mãn đẳng thức: x + 53 = 135:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 68"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 188"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 82"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -82"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số x thỏa mãn đẳng thức: x + 53 = 135:",
+            "choices": {
+              "A": "x = 68",
+              "B": "x = 188",
+              "C": "x = 82",
+              "D": "x = -82"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-15",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Số nghịch đảo của phân số (26)/(55) là:",
+          "choices": {
+            "A": "1 - (26)/(55)",
+            "B": "(-55)/(26)",
+            "C": "(-26)/(55)",
+            "D": "(55)/(26)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số nghịch đảo của phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{26}{55}"
+            },
+            {
+              "t": "txt",
+              "v": " là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1 - "
+              },
+              {
+                "t": "math",
+                "v": "\\frac{26}{55}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{-55}{26}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{-26}{55}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{55}{26}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số nghịch đảo của phân số 26/55 là:",
+            "choices": {
+              "A": "1 - 26/55",
+              "B": "-55/26",
+              "C": "-26/55",
+              "D": "55/26"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-16",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Viết phân số (2)/(4) dưới dạng tỉ số phần trăm ta được:",
+          "choices": {
+            "A": "50%",
+            "B": "40%",
+            "C": "2,4%",
+            "D": "20%"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{2}{4}"
+            },
+            {
+              "t": "txt",
+              "v": " dưới dạng tỉ số phần trăm ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "50%"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "40%"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2,4%"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20%"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết phân số 2/4 dưới dạng tỉ số phần trăm ta được:",
+            "choices": {
+              "A": "50%",
+              "B": "40%",
+              "C": "2,4%",
+              "D": "20%"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-17",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Một tấm bìa hình chữ nhật có chiều dài 32 cm và chiều rộng 27 cm. Chu vi tấm bìa đó bằng:",
+          "choices": {
+            "A": "864 cm",
+            "B": "59 cm",
+            "C": "118 cm",
+            "D": "109 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một tấm bìa hình chữ nhật có chiều dài 32 cm và chiều rộng 27 cm. Chu vi tấm bìa đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "864 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "59 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "118 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "109 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một tấm bìa hình chữ nhật có chiều dài 32 cm và chiều rộng 27 cm. Chu vi tấm bìa đó bằng:",
+            "choices": {
+              "A": "864 cm",
+              "B": "59 cm",
+              "C": "118 cm",
+              "D": "109 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-18",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 50 cm và 28 cm thì có diện tích bằng:",
+          "choices": {
+            "A": "78 cm^(2)",
+            "B": "700 cm^(2)",
+            "C": "1400 cm^(2)",
+            "D": "350 cm^(2)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 50 cm và 28 cm thì có diện tích bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "78 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "700 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1400 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "350 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 50 cm và 28 cm thì có diện tích bằng:",
+            "choices": {
+              "A": "78 cm$^2$",
+              "B": "700 cm$^2$",
+              "C": "1400 cm$^2$",
+              "D": "350 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-19",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Số trung bình cộng của bốn số 25, 27, 31, 37 bằng:",
+          "choices": {
+            "A": "29",
+            "B": "30",
+            "C": "31",
+            "D": "120"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số trung bình cộng của bốn số 25, 27, 31, 37 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "29"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "31"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "120"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số trung bình cộng của bốn số 25, 27, 31, 37 bằng:",
+            "choices": {
+              "A": "29",
+              "B": "30",
+              "C": "31",
+              "D": "120"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-20",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Tại x = 3, biểu thức bậc nhất L(x) = 25x - 29 nhận giá trị bằng:",
+          "choices": {
+            "A": "46",
+            "B": "54",
+            "C": "104",
+            "D": "75"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tại x = 3, biểu thức bậc nhất L(x) = 25x - 29 nhận giá trị bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "46"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "54"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "104"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "75"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tại x = 3, biểu thức bậc nhất L(x) = 25x - 29 nhận giá trị bằng:",
+            "choices": {
+              "A": "46",
+              "B": "54",
+              "C": "104",
+              "D": "75"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-21",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Cho tam giác ABC vuông tại A có cạnh huyền BC = 8 cm và góc B = 60°. Độ dài cạnh AB bằng:",
+          "choices": {
+            "A": "4 cm",
+            "B": "8 cm",
+            "C": "4√(3) cm",
+            "D": "4√(2) cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tam giác ABC vuông tại A có cạnh huyền BC = 8 cm và góc B = 60°. Độ dài cạnh AB bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tam giác ABC vuông tại A có cạnh huyền BC = 8 cm và góc B = 60°. Độ dài cạnh AB bằng:",
+            "choices": {
+              "A": "4 cm",
+              "B": "8 cm",
+              "C": "4$\\sqrt{3}$ cm",
+              "D": "4$\\sqrt{2}$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-22",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 6 cm. Độ dài cạnh kề AC bằng:",
+          "choices": {
+            "A": "6√(3) cm",
+            "B": "12 cm",
+            "C": "6/√(3) cm",
+            "D": "6 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 6 cm. Độ dài cạnh kề AC bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6/"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 6 cm. Độ dài cạnh kề AC bằng:",
+            "choices": {
+              "A": "6$\\sqrt{3}$ cm",
+              "B": "12 cm",
+              "C": "6/$\\sqrt{3}$ cm",
+              "D": "6 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-23",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn biểu thức A = sin 22° - cos 68° + tan 32° · cot 32° ta được:",
+          "choices": {
+            "A": "-1",
+            "B": "2",
+            "C": "0",
+            "D": "1"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn biểu thức A = sin 22° - cos 68° + tan 32° "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " cot 32° ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn biểu thức A = sin 22° - cos 68° + tan 32° $\\cdot$ cot 32° ta được:",
+            "choices": {
+              "A": "-1",
+              "B": "2",
+              "C": "0",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-24",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Tính hợp lý tổng S = (92 + 95) + (5 - 82):",
+          "choices": {
+            "A": "90",
+            "B": "110",
+            "C": "100",
+            "D": "260"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính hợp lý tổng S = (92 + 95) + (5 - 82):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "90"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "110"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "260"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính hợp lý tổng S = (92 + 95) + (5 - 82):",
+            "choices": {
+              "A": "90",
+              "B": "110",
+              "C": "100",
+              "D": "260"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-25",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Giải phương trình: 4(x - 25) - 2(x - 28) = 64:",
+          "choices": {
+            "A": "x = 54",
+            "B": "x = 79",
+            "C": "x = 46",
+            "D": "x = 29"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giải phương trình: 4(x - 25) - 2(x - 28) = 64:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 54"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 79"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 46"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 29"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giải phương trình: 4(x - 25) - 2(x - 28) = 64:",
+            "choices": {
+              "A": "x = 54",
+              "B": "x = 79",
+              "C": "x = 46",
+              "D": "x = 29"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-26",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Hai lớp quyên góp được tổng cộng 274 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 58 quyển. Số sách lớp thứ nhất quyên góp là:",
+          "choices": {
+            "A": "216 quyển",
+            "B": "137 quyển",
+            "C": "108 quyển",
+            "D": "166 quyển"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hai lớp quyên góp được tổng cộng 274 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 58 quyển. Số sách lớp thứ nhất quyên góp là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "216 quyển"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "137 quyển"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "108 quyển"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "166 quyển"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hai lớp quyên góp được tổng cộng 274 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 58 quyển. Số sách lớp thứ nhất quyên góp là:",
+            "choices": {
+              "A": "216 quyển",
+              "B": "137 quyển",
+              "C": "108 quyển",
+              "D": "166 quyển"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-27",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 324 cm. Độ dài cạnh lớn nhất của tam giác là:",
+          "choices": {
+            "A": "135 cm",
+            "B": "162 cm",
+            "C": "108 cm",
+            "D": "81 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 324 cm. Độ dài cạnh lớn nhất của tam giác là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "135 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "162 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "108 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "81 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 324 cm. Độ dài cạnh lớn nhất của tam giác là:",
+            "choices": {
+              "A": "135 cm",
+              "B": "162 cm",
+              "C": "108 cm",
+              "D": "81 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-28",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Một hóa đơn mua hàng chưa tính thuế có giá 500.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+          "choices": {
+            "A": "550.000 đồng",
+            "B": "450.000 đồng",
+            "C": "510.000 đồng",
+            "D": "525.000 đồng"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hóa đơn mua hàng chưa tính thuế có giá 500.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "550.000 đồng"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "450.000 đồng"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "510.000 đồng"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "525.000 đồng"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hóa đơn mua hàng chưa tính thuế có giá 500.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+            "choices": {
+              "A": "550.000 đồng",
+              "B": "450.000 đồng",
+              "C": "510.000 đồng",
+              "D": "525.000 đồng"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-29",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3^(k + 1) - 3^(k) = 54:",
+          "choices": {
+            "A": "k = 2",
+            "B": "k = 4",
+            "C": "k = 5",
+            "D": "k = 3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số tự nhiên k thỏa mãn đẳng thức: "
+            },
+            {
+              "t": "math",
+              "v": "3^{k + 1}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3^{k}"
+            },
+            {
+              "t": "txt",
+              "v": " = 54:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "k = 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "k = 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "k = 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "k = 3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3$^{k + 1}$ - 3$^{k}$ = 54:",
+            "choices": {
+              "A": "k = 2",
+              "B": "k = 4",
+              "C": "k = 5",
+              "D": "k = 3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-30",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 50| = 31 bằng:",
+          "choices": {
+            "A": "50",
+            "B": "31",
+            "C": "0",
+            "D": "100"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 50| = 31 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "31"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 50| = 31 bằng:",
+            "choices": {
+              "A": "50",
+              "B": "31",
+              "C": "0",
+              "D": "100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-31",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn biểu thức H = (x + 27)^(2) + (x - 27)^(2) - 2x^(2) ta được kết quả không phụ thuộc vào x là:",
+          "choices": {
+            "A": "1458",
+            "B": "0",
+            "C": "108",
+            "D": "729"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn biểu thức H = "
+            },
+            {
+              "t": "math",
+              "v": "(x + 27)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 27)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được kết quả không phụ thuộc vào x là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1458"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "108"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "729"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn biểu thức H = (x + 27)$^2$ + (x - 27)$^2$ - 2x$^2$ ta được kết quả không phụ thuộc vào x là:",
+            "choices": {
+              "A": "1458",
+              "B": "0",
+              "C": "108",
+              "D": "729"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-32",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Khi thay x = -1 vào đa thức P(x) = x^(3) + 25x^(2) - 27x + 5, giá trị của P(-1) bằng:",
+          "choices": {
+            "A": "6",
+            "B": "56",
+            "C": "54",
+            "D": "-56"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi thay x = -1 vào đa thức P(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 25"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 27x + 5, giá trị của P(-1) bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "56"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "54"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-56"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi thay x = -1 vào đa thức P(x) = x$^3$ + 25x$^2$ - 27x + 5, giá trị của P(-1) bằng:",
+            "choices": {
+              "A": "6",
+              "B": "56",
+              "C": "54",
+              "D": "-56"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-33",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Biểu thức Q(x) = (x + 25) / [(x - 25)(x + 29)] xác định khi và chỉ khi:",
+          "choices": {
+            "A": "x ≠ 25 và x ≠ -29",
+            "B": "x ≠ -25 và x ≠ 29",
+            "C": "x ≠ 25",
+            "D": "x > 25"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biểu thức Q(x) = (x + 25) / [(x - 25)(x + 29)] xác định khi và chỉ khi:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 25 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -29"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -25 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 29"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 25"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biểu thức Q(x) = (x + 25) / [(x - 25)(x + 29)] xác định khi và chỉ khi:",
+            "choices": {
+              "A": "x $\\ne$ 25 và x $\\ne$ -29",
+              "B": "x $\\ne$ -25 và x $\\ne$ 29",
+              "C": "x $\\ne$ 25",
+              "D": "x > 25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-34",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Một ca nô có vận tốc riêng là 43 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+          "choices": {
+            "A": "80 km",
+            "B": "92 km",
+            "C": "86 km",
+            "D": "46 km"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một ca nô có vận tốc riêng là 43 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "80 km"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "92 km"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "86 km"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "46 km"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một ca nô có vận tốc riêng là 43 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+            "choices": {
+              "A": "80 km",
+              "B": "92 km",
+              "C": "86 km",
+              "D": "46 km"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-35",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Cho đoạn thẳng AB = 108 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+          "choices": {
+            "A": "79 cm",
+            "B": "81 cm",
+            "C": "27 cm",
+            "D": "54 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho đoạn thẳng AB = 108 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "79 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "81 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "27 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "54 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho đoạn thẳng AB = 108 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+            "choices": {
+              "A": "79 cm",
+              "B": "81 cm",
+              "C": "27 cm",
+              "D": "54 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-36",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Trong tứ giác lồi ABCD, biết góc A = 85°, góc B = 95° và góc C = 2 · góc D. Số đo góc D bằng:",
+          "choices": {
+            "A": "45°",
+            "B": "120°",
+            "C": "90°",
+            "D": "60°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong tứ giác lồi ABCD, biết góc A = 85°, góc B = 95° và góc C = 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " góc D. Số đo góc D bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "120°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong tứ giác lồi ABCD, biết góc A = 85°, góc B = 95° và góc C = 2 $\\cdot$ góc D. Số đo góc D bằng:",
+            "choices": {
+              "A": "45°",
+              "B": "120°",
+              "C": "90°",
+              "D": "60°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-37",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Một mảnh đất hình chữ nhật có chiều rộng 12 m và chiều dài 16 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+          "choices": {
+            "A": "24 m",
+            "B": "20 m",
+            "C": "28 m",
+            "D": "200 m"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một mảnh đất hình chữ nhật có chiều rộng 12 m và chiều dài 16 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "28 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "200 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một mảnh đất hình chữ nhật có chiều rộng 12 m và chiều dài 16 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+            "choices": {
+              "A": "24 m",
+              "B": "20 m",
+              "C": "28 m",
+              "D": "200 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-38",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 125 dm^(2) và chứa được tối đa 750 lít nước (1 dm^(3) = 1 lít). Chiều cao của thùng chứa là:",
+          "choices": {
+            "A": "18 dm",
+            "B": "6 dm",
+            "C": "5 dm",
+            "D": "12 dm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 125 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chứa được tối đa 750 lít nước (1 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 lít). Chiều cao của thùng chứa là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18 dm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 dm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5 dm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 dm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 125 dm$^2$ và chứa được tối đa 750 lít nước (1 dm$^3$ = 1 lít). Chiều cao của thùng chứa là:",
+            "choices": {
+              "A": "18 dm",
+              "B": "6 dm",
+              "C": "5 dm",
+              "D": "12 dm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-39",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Điểm trung bình của 4 bài kiểm tra là 8,0 điểm. Biết điểm của 3 bài đầu lần lượt là 7, 8 và 7. Điểm của bài kiểm tra thứ tư là:",
+          "choices": {
+            "A": "8 điểm",
+            "B": "10 điểm",
+            "C": "9 điểm",
+            "D": "7 điểm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Điểm trung bình của 4 bài kiểm tra là 8,0 điểm. Biết điểm của 3 bài đầu lần lượt là 7, 8 và 7. Điểm của bài kiểm tra thứ tư là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8 điểm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10 điểm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9 điểm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7 điểm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Điểm trung bình của 4 bài kiểm tra là 8,0 điểm. Biết điểm của 3 bài đầu lần lượt là 7, 8 và 7. Điểm của bài kiểm tra thứ tư là:",
+            "choices": {
+              "A": "8 điểm",
+              "B": "10 điểm",
+              "C": "9 điểm",
+              "D": "7 điểm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-40",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Trong một chiếc hộp có 29 thẻ đánh số từ 1 đến 29 và 31 thẻ đánh số từ 30 đến 60. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 29 là:",
+          "choices": {
+            "A": "(31)/(60)",
+            "B": "(1)/(60)",
+            "C": "(29)/(60)",
+            "D": "(30)/(60)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong một chiếc hộp có 29 thẻ đánh số từ 1 đến 29 và 31 thẻ đánh số từ 30 đến 60. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 29 là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{31}{60}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{60}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{29}{60}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{30}{60}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong một chiếc hộp có 29 thẻ đánh số từ 1 đến 29 và 31 thẻ đánh số từ 30 đến 60. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 29 là:",
+            "choices": {
+              "A": "31/60",
+              "B": "1/60",
+              "C": "29/60",
+              "D": "30/60"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-41",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Một chiếc thang dài 6 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng:",
+          "choices": {
+            "A": "3 m",
+            "B": "3√(2) m",
+            "C": "6 m",
+            "D": "3√(3) m"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một chiếc thang dài 6 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một chiếc thang dài 6 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng:",
+            "choices": {
+              "A": "3 m",
+              "B": "3$\\sqrt{2}$ m",
+              "C": "6 m",
+              "D": "3$\\sqrt{3}$ m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-42",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Cho góc nhọn α thỏa mãn sin α = (3)/(5). Giá trị của biểu thức P = 5·cos α + 4·tan α bằng:",
+          "choices": {
+            "A": "5",
+            "B": "7",
+            "C": "6",
+            "D": "8"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn sin "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{3}{5}"
+            },
+            {
+              "t": "txt",
+              "v": ". Giá trị của biểu thức P = 5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " + 4"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "tan "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho góc nhọn $\\alpha$ thỏa mãn sin $\\alpha$ = 3/5. Giá trị của biểu thức P = 5$\\cdot$cos $\\alpha$ + 4$\\cdot$tan $\\alpha$ bằng:",
+            "choices": {
+              "A": "5",
+              "B": "7",
+              "C": "6",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-43",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 25)^(2) + (x - 29)^(2) với mọi số thực x:",
+          "choices": {
+            "A": "0",
+            "B": "8 (đạt được khi x = 27)",
+            "C": "16",
+            "D": "4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị nhỏ nhất của biểu thức A(x) = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 25)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 29)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " với mọi số thực x:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 (đạt được khi x = 27)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 25)$^2$ + (x - 29)$^2$ với mọi số thực x:",
+            "choices": {
+              "A": "0",
+              "B": "8 (đạt được khi x = 27)",
+              "C": "16",
+              "D": "4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-44",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Giá trị lớn nhất của biểu thức phân thức B(x) = 112 / ((x + 25)^(2) + 4) với mọi x ∈ ℝ bằng:",
+          "choices": {
+            "A": "28",
+            "B": "14.0",
+            "C": "112",
+            "D": "4"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giá trị lớn nhất của biểu thức phân thức B(x) = 112 / ("
+            },
+            {
+              "t": "math",
+              "v": "(x + 25)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 4) với mọi x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "28"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14.0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "112"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giá trị lớn nhất của biểu thức phân thức B(x) = 112 / ((x + 25)$^2$ + 4) với mọi x $\\in$ $\\mathbb{R}$ bằng:",
+            "choices": {
+              "A": "28",
+              "B": "14.0",
+              "C": "112",
+              "D": "4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-45",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Tính tổng của 35 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (139):",
+          "choices": {
+            "A": "4970",
+            "B": "2415",
+            "C": "2485",
+            "D": "2450"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính tổng của 35 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (139):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4970"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2415"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2485"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2450"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính tổng của 35 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (139):",
+            "choices": {
+              "A": "4970",
+              "B": "2415",
+              "C": "2485",
+              "D": "2450"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-46",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Tính giá trị của tổng S = 2/(1·3) + 2/(3·5) + 2/(5·7) + ... + 2/(59·61):",
+          "choices": {
+            "A": "(1)/(61)",
+            "B": "(60)/(61)",
+            "C": "(59)/(61)",
+            "D": "(30)/(61)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính giá trị của tổng S = 2/(1"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "3) + 2/(3"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "5) + 2/(5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "7) + ... + 2/(59"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "61):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{61}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{60}{61}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{59}{61}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{30}{61}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính giá trị của tổng S = 2/(1$\\cdot$3) + 2/(3$\\cdot$5) + 2/(5$\\cdot$7) + ... + 2/(59$\\cdot$61):",
+            "choices": {
+              "A": "1/61",
+              "B": "60/61",
+              "C": "59/61",
+              "D": "30/61"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-47",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Có tất cả bao nhiêu số nguyên x (với x ≠ -25) sao cho biểu thức P = (3x + 86)/(x + 25) nhận giá trị là một số nguyên?",
+          "choices": {
+            "A": "6 số nguyên",
+            "B": "8 số nguyên",
+            "C": "2 số nguyên",
+            "D": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên ±1, ±11)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Có tất cả bao nhiêu số nguyên x (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -25) sao cho biểu thức P = (3x + 86)/(x + 25) nhận giá trị là một số nguyên?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 số nguyên"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 số nguyên"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2 số nguyên"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "1, "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "11)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Có tất cả bao nhiêu số nguyên x (với x $\\ne$ -25) sao cho biểu thức P = (3x + 86)/(x + 25) nhận giá trị là một số nguyên?",
+            "choices": {
+              "A": "6 số nguyên",
+              "B": "8 số nguyên",
+              "C": "2 số nguyên",
+              "D": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên $\\pm$1, $\\pm$11)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-48",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Vòi nước thứ nhất chảy riêng đầy bể trong 9 giờ, vòi thứ hai chảy riêng đầy bể trong 18 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+          "choices": {
+            "A": "6 giờ",
+            "B": "3 giờ",
+            "C": "13.5 giờ",
+            "D": "9 giờ"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vòi nước thứ nhất chảy riêng đầy bể trong 9 giờ, vòi thứ hai chảy riêng đầy bể trong 18 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 giờ"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3 giờ"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "13.5 giờ"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9 giờ"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vòi nước thứ nhất chảy riêng đầy bể trong 9 giờ, vòi thứ hai chảy riêng đầy bể trong 18 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+            "choices": {
+              "A": "6 giờ",
+              "B": "3 giờ",
+              "C": "13.5 giờ",
+              "D": "9 giờ"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-49",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Biết hai số thực u và v thỏa mãn u + v = 28 và u · v = 27. Giá trị của biểu thức T = u^(3) + v^(3) bằng:",
+          "choices": {
+            "A": "730",
+            "B": "19684",
+            "C": "21952",
+            "D": "24220"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biết hai số thực u và v thỏa mãn u + v = 28 và u "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " v = 27. Giá trị của biểu thức T = "
+            },
+            {
+              "t": "math",
+              "v": "u^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "v^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "730"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "19684"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21952"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24220"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biết hai số thực u và v thỏa mãn u + v = 28 và u $\\cdot$ v = 27. Giá trị của biểu thức T = u$^3$ + v$^3$ bằng:",
+            "choices": {
+              "A": "730",
+              "B": "19684",
+              "C": "21952",
+              "D": "24220"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        },
+        {
+          "id": "9-04-50",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 234 m^(2). Chiều rộng ban đầu của khu đất là:",
+          "choices": {
+            "A": "75 m",
+            "B": "50 m",
+            "C": "25 m",
+            "D": "28 m"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 234 "
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Chiều rộng ban đầu của khu đất là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "75 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "50 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "28 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 234 m$^2$. Chiều rộng ban đầu của khu đất là:",
+            "choices": {
+              "A": "75 m",
+              "B": "50 m",
+              "C": "25 m",
+              "D": "28 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV"
+          }
+        }
+      ]
+    }
+  ]
+}

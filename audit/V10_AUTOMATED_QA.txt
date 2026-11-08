@@ -1,0 +1,14 @@
+MATHVERSE GRAND CAMPUS V10 - AUTONOMOUS QA - 2026-11-01
+Source: MATHVERSE INFINITY TWIN WORLDS V9 FULL.
+New world: lab institute LEFT, petal museum RIGHT, symmetric roads, receptionist CENTER.
+
+R75 original SHA-256: 732/732 verified.
+V9 functional source immutable SHA-256 baseline: 1252 protected files verified.
+Integration suite: 49/49 passed; 0 failed.
+R75 graphics suite: 10/10 passed; 0 failed.
+Museum inventory: 230 WebP art originals, 7 class rooms.
+HTTP smoke: host startup and main routes passed (200).
+JavaScript syntax: dual/app.mjs and dual/grand-dome.mjs passed node --check.
+Windows GPU WebGL visual QA: NOT AVAILABLE in build environment (Chromium failed to complete initialization).
+Preserved transition logic: R75 original, Museum V8, avatar, camera, poster screens.
+Architecture design recommendations sourced from Three.js examples, Khronos glTF and glTF-Transform.

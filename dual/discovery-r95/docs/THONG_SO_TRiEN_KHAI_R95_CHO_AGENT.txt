@@ -1,0 +1,58 @@
+# MATHVERSE DISCOVERY R95 - PROMPT TRIEN KHAI TRUC TIEP TRONG ANTIGRAVITY IDE
+# VAI TRO: KY SU PHAN MEM WEBGL/THREE.JS + KIEM DINH TOAN HOC THCS/THPT + THIET KE BAO TANG SO
+
+BAN DANG LAM VIEC TRONG DU AN MATHVERSE R92 + DISCOVERY R93 (CO THE DA CAI ADDON R94).
+TOI KHONG BIET LAP TRINH. HAY THUC HIEN TRON GOI: KHONG DUNG O MUC DE XUAT, KHONG YEU CAU TOI TU SUA MA.
+DIEU QUAN TRONG NHAT: CHI CAP NHAT UNG DUNG HIEN CO. KHONG TAO DU AN MATHVERSE MOI, KHONG TAO LAI 1 BAN RUT GON, KHONG THAY THE DU LIEU CO SAN.
+
+## A. XAC DINH DU AN, SAO LUU VA BAO TOAN
+1. Tim thu muc goc hien tai co package.json, dual/app.mjs, dual/discovery-world.mjs. Neu chua thay DISCOVERY_R95_ADDON/, tim thu muc bo cai R95 vua giai nen; chi sao chep ADDON_DISCOVERY_R95 vao thu muc moi DISCOVERY_R95_ADDON, TUYET DOI KHONG GHI DE tep cu. Khong sao chep nguyen project R92/R93 tu noi khac vao.
+2. DOC CAC TEP: 00_README_CO_R95.md, docs/THIET_KE_LAI_2_PHONG_R95.md, docs/NGHIEM_THU_ANTIGRAVITY_R95.md, ADDON_DISCOVERY_R95/data/landmarks_add_r95.json, gallery_add_r95.json, ui/room-design-r95.json, ui/catalog-merge-r95.mjs.
+3. Tao ban sao luu co ngay-gio cho TAT CA tep can sua, it nhat dual/app.mjs, dual/index.html, dual/discovery-data.mjs, dual/discovery-world.mjs, dual/discovery-ui.mjs, dual/discovery-shapes.mjs va CSS tuong ung. Tao danh sach SHA-256 tep cua du an truoc khi sua (bo qua node_modules/.git), phan loai moi tep thay doi. Khong duoc xoa bat ky tep SGK, 310 mo hinh, Lab, Museum, game-park, quiz, lop 6-12, avatar hay assets cu.
+4. Giu nguyen bo khung Three.js, camera, physics/collision, controls, fast-access cua du an. Neu R94 da co, MERGE R95 VAO R94; khong thay the 13 dia danh, 8 tranh cua R94, khong xoa cac item R93.
+5. Truoc moi thay doi: doc API hien tai cua Discovery. Tranh sua cac module khong lien quan. Neu co xung dot ID, GIU BAN CU, ghi bao cao va skip/doi ID an toan, khong ghi de.
+
+## B. MUC TIEU R95 - MOT CONG TRINH, HAI PHONG
+GIU NGUYEN DISCOVERY LA CONG TRINH THU TU BEN CANH MUSEUM, LAB, CONG VIEN.
+- SANH: thiet ke lai tien sanh, bang chi duong, cua trai/phai ro rang; them anh sang ray, mai vom kin nhin duoc, goi mau navy/teal/vang nhat sang trong; dam bao khong che camera, dia cau, avatar.
+- PHONG A DIA CAU: giu mot qua dia cau 3D, them 32 moc DIA DANH MOI (khong mat moc cu), tim kiem tieng Viet khong dau, loc theo chau luc/chu de/lop, chon diem -> ten + quoc gia + vi tri + thong tin lich su co nguon + anh chup thuc neu phep + hinh SVG 2D + mo hinh GLB 3D khi co mo hinh dung. Dung React/Canvas neu du an hien khong dung: UA dung Three.js hien tai.
+- PHONG B TRANH: bao toan phong B nhung nang chat luong kien truc va khung anh; them 36 CHU DE MOI theo 6 bo suu tap. KHONG tao 36 khung 3D moi: toi da 8 khung vat ly, khi chon bo suu tap thi doi texture/nhan/chuc nang tren nhung khung do, dispose texture cu. Nhan E hoac click tranh -> anh thuc duoc cap phep va hinh ve SVG dung chinh xac, cong thuc LaTeX (neu can), tuy chon mo hinh GLB o nhung tranh phu hop.
+- Hai phong HOAN TOAN DOC LAP. Khong them phong thu ba, khong doi thanh app mo phong nghe nghiep, khong thay the Museum.
+- THEM MOT MUC "ĐỊA CẦU & TRIỂN LÃM HÌNH HỌC" TRONG "TRUY CẬP NHANH BẢO TÀNG" HOAC MENU DI CHUYEN CO SAN, neu muc Discovery da ton tai thi sua lien ket, KHONG tao nut duplicate. Khi click phai vao dung canh Discovery; khi quay lai van vao duoc Museum/Lab/Park.
+
+## C. NGUYEN TAC DUNG HINH VA DU LIEU CHINH XAC
+- Day la BO TAI NGUYEN BO SUNG, KHONG PHAI MO HINH KIEN TRUC NGUYEN BAN. Chuyen `ADDON_DISCOVERY_R95/models/*.glb` va `svg/**/*.svg` thanh asset duoc nap boi ung dung. Hien nhan "Mô hình toán học lý tưởng hóa" neu khong co ban ve kien truc CAD/GLTF chinh thong. Khong ngau nhien tao thap thanh khoi chop khi cong trinh that co ket cau khac.
+- Kiem tra hinh hoc 2D: phep doi xung, dong tam, hinh tron, duong thang, hinh chu nhat, hinh vuong, elip; 3D: so dinh/canh/mat, scale, huong mat, khong tu xuyen, camera orbit. Cac mo hinh 3D da tao gom Atomium: 9 mat cau va 20 thanh lien ket; Borobudur: 5 tang vuong + 3 tang tron; Chichen Itza: 9 tang ly tuong; Petronas: hai hinh vuong quay 45 do; Colosseum: vanh elip; Parthenon: luoi cot 8x17; EPCOT: mat cau luoi tam giac. DUOC DUNG NHU MO HINH NGUYEN LY, KHONG GHI LA BAN SAO THUC TE 1:1.
+- Chi co the dua anh chup THUC TE vao khi co nguon anh co phep, cap nhat author, license, license URL, attribution, file name va link Commons/nguon uy tin. Co the tham chieu Wikimedia Commons MediaWiki API imageinfo (extmetadata) theo tung File, uu tien tai anh ve assets local theo giay phep. KHONG BAT BUOC co anh neu chua xac minh: hien SVG minh hoa va nhan `Chưa có ảnh thực được thẩm định`. Khong dung tranh AI de gia mao anh chup.
+- Tiep tuc kiem chung `latitude`, `longitude`, thong tin lich su, ten chinh thuc cua moi dia danh, so lieu cong trinh truoc khi chuyen `publishReady=true`. KHONG tu dien ngay thang hay thong so neu nguon khong cung cap. Tuyet doi khong thay the toa do bang toa do gia khi loi request.
+- Con thieu 15 moc can doi chieu nguon chinh thuc (xem COUNTS_R95.json); can kiem tra tung moc. Neu chua duyet thi hien `Đang kiểm chứng`, khong thiet lap ten nguon gia.
+- Tap tin `geometry.latex` can ve bang MathJax/KaTeX neu du an ho tro, con khong thi hieu thi text LaTeX de giao vien sao chep Word. Khong thay ky tu doan hoc bang ky tu hinh anh.
+
+## D. TICH HOP MA NGUON AN TOAN - KHONG CAN XAY LAI
+1. Kiem tra `dual/discovery-data.mjs` dang dung object {id,name,lat,lng,...}, trong khi JSON R95 dung {id,title,latitude,longitude,...}. VIET ADAPTER MAP TRUONG, KHONG DOI API CUA CAC ITEM CU; dung `mergeByIdPreserveExisting` de them moi an toan. `gallery` R95 dua vao duong trinh xem tranh, group/collection tuong thich. `isReadyToPublish`/anh nguon phai duoc xu ly minh bach (noi dung minh hoa co the xem truoc, khong dung anh chua duyet).
+2. `dual/discovery-world.mjs`: them marker 3D theo data sau merge; cau truc marker phai xoay theo globePivot, dung cung he toa do UV do dia cau dang dung; kiem tra diem chon sau khi xoay. Tai tao khung vat ly 3D toi da 8, doi anh theo tap va reset raycast/near interaction. Khong thay cai cac toa do `DISCOVERY_SITE` hoac vi tri khuon vien neu chua co bang chung hien truong.
+3. `dual/discovery-ui.mjs`: khung loc Chau luc, tim kiem, danh sach item, bo suu tap B, chi tiet song song, nut `Ảnh thật`/`Hình 2D`/`Mô hình 3D` (chi bat neu asset ton tai), nguon anh, trang thai kiem duyet, tro ve. Dam bao long click, E va pointer event khong chong nhau.
+4. `dual/discovery-shapes.mjs`: nap GLB khi can dung GLTFLoader version tuong thich Three.js vendor, khong spawn renderer moi neu co the re-use renderer; test hien anh, dynamic resize, WebGL context lost. Fallback SVG dung va metadata neu 3D fail.
+5. CSS/HTML/HUD nhanh: Scoped prefix `discovery-r95-` hoac class rieng; tranh CSS lam hong Museum/Lab. Cac noi dung cu, nut quay ve cu, ban do chung con nguyen.
+6. Khong cai them thu vien nang neu khong can. Neu buoc phai cai, ghi version, license, ly do va kiem tra bundle.
+
+## E. KIEM THU NGHIEM THU - PHAI CO MINH CHUNG
+- Truoc: Chay test cua R93/R94 (neu co), chup ket qua, ghi baseline loi cu (checksum V10 khong so voi ban R92/R93). Khong sua du lieu de ep test di san.
+- Chay `node --test DISCOVERY_R95_ADDON/qa/verify_r95.test.mjs` (9 tests). Doi chieu 32 dia danh va 36 tranh duoc merge them, khong mat cac items cu. GLB duoc nap va day du nhan.
+- Chay ứng dung qua Node localhost (tranh file://). Dung Playwright hoac browser Agent chay Chrome/Edge voi WebGL, CHUP ANH screenshot 5 vi tri: mat tien cong trinh, sanh, A-dia-cau, panel thong tin dia danh Atomium hoac Borobudur, B-phong tranh va mot tranh co 2D/3D. Chung minh no la scene 3D that, khong chi mockup HTML.
+- Kiem tra va cham khi avatar vao ra cua, vao nhanh menu, nhan E khi gan, click marker xoay dia cau, tim kiem khong dau, doi 6 bo suu tap, nhan E tren khung, quay lai phong cu. Test Globe o cac diem chau My/Chau Au/Chau A, nhan dung lat/lng.
+- Kiem tra thong tin anh: anh chua duyet khong hien nhu anh that. Nhan vao nguon phai mo duoc va dung phep/ghi cong. Khong goi 'chinh xac kien truc' neu chi co hinh Toan ly tuong.
+- Giao dien desktop 1920x1080, 1366x768 va mobile 390x844; chu khong che, nut >44 px, frame cap hinh khong vuot tran, text khong be.
+- Doi 6 bo suu tap 20 lan, kiem tra renderer.info.memory khong tang vo han, can dispose texture, mesh, event listener, requestAnimationFrame.
+- Cuoi: SHA-256 doi chieu du an truoc/sau; liet ke CHI tiet source file chinh sua va data file ban dau 100% duoc bao toan (tru nhung tep cho phep sua va co backup). Khong duoc ket luan tat ca OK neu WebGL/ browser chua duoc nghiem thu.
+
+## F. BAO CAO CUOI CUNG CHO GIAO VIEN
+Xuat TIENG VIET:
+1) Danh sach dia danh R95 duoc hien thi va muc con cho kiem dinh.
+2) Bang 6 bo suu tap va 36 chu de da duoc ket noi.
+3) Anh chup thuc te giao dien (khong thay bang mockup) va ket qua WebGL.
+4) Danh sach tep sua, tep them, backup, hash, log test, rollback.
+5) ZIP TOAN BO DU AN CHI SAU KHI DA THUC SU CAP NHAT DU AN TAI MAY CUA TOI VA PASS CAC TEST; con bo KIT R95 hien tai khong phai app hoan chinh.
+6) Neu co loi chua sua: thong bao thang loi, vi tri va phuong an khac phuc.
+
+BAT DAU NGAY: kiem ke du an va tao backup, sau do thao tac cap nhat va kiem thu. KHONG DUOC DUNG O MUC DE XUAT.

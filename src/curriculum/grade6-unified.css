@@ -1,0 +1,57 @@
+/* R6.5: Class 6 uses the exact common specialized Lab layout employed by classes 7–12. */
+.mv-g6-unified{display:flex;flex-direction:column;gap:12px;min-width:0;width:100%}
+.mv-g6-warehouse-host{width:100%;min-width:0}
+.mv-g6-viewport{display:flex;align-items:center;justify-content:center;position:relative;height:clamp(420px,64vh,780px);min-height:420px;background:#112b3a;border:1px solid #b8d7e0;overflow:hidden}
+.mv-g6-viewport canvas{display:block;position:absolute;inset:0;width:100%;height:100%;touch-action:none;object-fit:contain}
+.mv-g6-viewport canvas.mv-g6-book{position:relative!important;inset:auto!important;width:min(100%,calc(clamp(380px,58vh,640px) * 23 / 14))!important;height:auto!important;max-width:100%!important;max-height:100%!important;aspect-ratio:23/14!important;object-fit:contain!important}
+.mv-g6-viewport canvas[hidden]{display:none!important}
+.mv-g6-viewport .mv-g6-three{cursor:grab;object-fit:fill}
+.mv-g6-viewport .mv-g6-three:active{cursor:grabbing}
+.mv-g6-toolbar{position:relative;z-index:1;align-items:center}
+.mv-g6-toolbar .mv-g7-button.active{background:#087e7b;color:white;border-color:#087e7b}
+.mv-g6-controls{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.mv-g6-controls .mv-r5-param{padding:10px;border:1px solid #d7e8ed;border-radius:9px}
+.mv-g6-inspector{padding:12px;background:#e9f5f5;border:1px solid #c6e2e1;border-radius:9px;color:#175869}
+.mv-g6-inspector h3{margin:0 0 6px;font-size:14px}
+.mv-g6-inspector p{margin:0;font-size:12px;line-height:1.5}
+.mv-g6-metric{display:block;padding:8px 12px;border:1px solid #d6e8ec;border-radius:8px;background:#eff9f9;font-size:13px;font-weight:650;color:#1b5968}
+.labshell-app .mv-g6-unified{height:100%;min-height:480px;overflow:auto}
+.labshell-app .mv-g6-unified .mv-g6-viewport{flex:0 0 auto;min-height:360px;height:clamp(360px,60vh,750px)}
+@media (max-width:850px){.mv-g6-viewport{min-height:330px;height:54vh}.mv-g6-controls{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.mv-g6-viewport{min-height:270px;height:42vh}.mv-g6-controls{grid-template-columns:1fr}.mv-g6-toolbar .mv-g7-button{font-size:11px;padding:8px}}
+
+/* R6.8 · Lab Toán 6 follows the same specialist laboratory structure as Grade 8:
+   statement -> large white-bordered stage -> status -> values -> playback -> timeline -> parameters. */
+.mv-r5-stage .mv-g6-warehouse-host{padding:0!important;background:transparent!important;border:0!important;}
+.mv-r5-stage .mv-g6-unified{width:100%;gap:12px;padding:0;color:#194f63;}
+.mv-r5-stage .mv-g6-unified .mv-r5-statement{background:#f5fafb;color:#245d73;padding:12px 14px;border-radius:10px;border:1px solid #dae8ef;margin:0;}
+.mv-r5-stage .mv-g6-viewport{
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  width:100%;min-width:0;min-height:360px!important;height:clamp(380px,58vh,640px)!important;
+  aspect-ratio:23/14;border-radius:12px;border:1px solid #b8d7e0;
+  background:#10283a;box-shadow:0 2px 18px rgba(3,40,58,.12);
+}
+.mv-r5-stage .mv-g6-viewport canvas.mv-g6-three{width:100%;height:100%;object-fit:fill;}
+/* Use the source Canvas ratio 920:560 to keep angles/lengths undistorted. */
+.mv-r5-stage .mv-g6-unified .mv-g7-status{background:#ecf9f4;color:#175f66;}
+.mv-r5-stage .mv-g6-unified .mv-r5-values{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));}
+.mv-r5-stage .mv-g6-unified .mv-g6-toolbar{background:transparent;padding:4px 0;}
+.mv-r5-stage .mv-g6-unified .mv-r5-params{background:#f6fafb;}
+.mv-r5-stage .mv-g6-unified .mv-r5-hint{color:#54778a;}
+.mv-r5-stage .mv-g6-unified .mv-g7-button[hidden]{display:none!important;}
+@media(max-width:800px){.mv-r5-stage .mv-g6-viewport{min-height:0!important}}
+
+/* R7.0: Grade-6 visual language matches the light, interactive Grade-7/8 stage. */
+.mv-r5-stage .mv-g6-viewport{background:#f1f8fb!important;border:1px solid #c5dce6!important;box-shadow:0 2px 16px rgba(18,65,86,.07)!important;}
+.mv-r5-stage .mv-g6-viewport canvas.mv-g6-book{
+  position:relative!important;inset:auto!important;
+  width:min(100%,calc(clamp(380px,58vh,640px) * 23 / 14))!important;
+  height:auto!important;max-width:100%!important;max-height:100%!important;
+  aspect-ratio:23/14!important;object-fit:contain!important;
+  background:#f1f8fb;cursor:crosshair;touch-action:none;
+}
+.mv-r5-stage .mv-g6-unified .mv-r5-statement{color:#184b65!important;background:#f3fafc!important;font-weight:600;border:1px solid #c5dce6!important;}
+.mv-r5-stage .mv-g6-unified .mv-g7-status{color:#17616b!important;background:#e9f9f5!important;}
+.mv-g6-direct-picker{grid-column:1/-1;display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:9px;background:#e4f4f6;color:#16435a;font-size:13px;font-weight:700;flex-wrap:wrap}
+.mv-g6-direct-picker select{background:#fff;border:1px solid #86bac5;border-radius:8px;padding:8px 10px;color:#143f55;flex:1;min-width:145px}
+.mv-r5-stage .mv-g6-toolbar{position:relative!important;z-index:2!important}

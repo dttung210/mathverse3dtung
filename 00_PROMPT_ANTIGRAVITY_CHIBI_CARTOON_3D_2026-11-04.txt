@@ -1,0 +1,49 @@
+PROMPT CHO ANTIGRAVITY IDE — MATHVERSE CHIBI CARTOON 3D | 04/11/2026
+
+Bạn là kỹ sư Three.js và nhà thiết kế game giáo dục Toán 6–12. HÃY LÀM VIỆC TRỰC TIẾP TRONG THƯ MỤC MATHVERSE HIỆN CÓ. KHÔNG TẠO ỨNG DỤNG MỚI, KHÔNG XÓA HOẶC THAY THẾ NHỮNG CHỨC NĂNG ĐANG HOẠT ĐỘNG.
+
+MỤC TIÊU
+Tích hợp, kiểm tra và nâng cấp bộ sưu tập 3D Chibi-Cartoon đã được đóng gói trong ZIP mới. Mục tiêu là 7 LAB Toán 6–12, bảo tàng mái vòm, khuôn viên và 11 trò chơi cùng sử dụng ngôn ngữ đồ họa hoạt hình 3D đồng bộ nhưng không làm sai kiến thức Toán.
+
+ĐẦU VÀO
+- Bộ cài mới: MATHVERSE_FINAL_CHIBI_CARTOON_3D_22_MODELS_2026-11-04.zip.
+- MATHVERSE mới nhất đang chạy trên máy giáo viên (nếu có phiên bản có hotfix mới hơn ZIP nguồn, ưu tiên giữ nó; dùng gói bổ sung `MATHVERSE_CHIBI_ADDON_CHO_BAN_DA_SUA.zip` trong ZIP đầy đủ, không ghi đè).
+- Ảnh mẫu nhân vật giáo viên từng cung cấp: nam học sinh đầu lớn, mắt to, kính tròn, tóc bồng, áo cam và ba lô. Chỉ tham khảo phong cách, không nhận là có sẵn mô hình 3D chính xác từ ảnh.
+
+NHIỆM VỤ CỤ THỂ
+1. SAO LƯU THƯ MỤC NGUỒN và chụp danh mục phiên bản; xác minh R75, cổng LAB, kho mô hình, bảo tàng infographic, công viên 11 trò và ngân hàng câu hỏi hoạt động trước khi nâng cấp.
+2. Kiểm tra thư viện `dual/cartoon-3d/assets` gồm đúng 22 tệp GLB: 10 nhân vật, 6 mẫu tòa LAB, 6 mẫu bảo tàng. Kiểm tra tất cả GLB có hình học thật, không chỉ ảnh giả lập; xuất lỗi nếu có GLB hỏng.
+3. Mở ứng dụng và kiểm tra nút `🎨 CHIBI 3D`. Cho phép giáo viên chọn: 10 Chibi và 4 nhân vật gốc; 7 ngoại thất LAB mới + mặc định; 7 mái vòm bảo tàng mới + mặc định; 3 cảnh quan mới + mặc định. Lựa chọn phải phản ánh ngay vào 3D và lưu trong localStorage.
+4. Đảm bảo nhân vật Chibi có Idle/Walk/Run/Jump, mắt/kiểu tóc/trang phục ba chiều; nhân vật có thể di chuyển, vào các cổng, chuyển khu và quay lại. Trong R75 chỉ thay hình ảnh avatar, không đổi vận tốc, logic va chạm hoặc vị trí tương tác.
+5. Ngoại thất LAB và bảo tàng: chỉ tạo lớp trang trí bên ngoài mái, tường và biển hiệu, tuyệt đối không lấp cửa; giữ nguyên tọa độ cửa, mã đích cổng, sân khấu mô hình và kết cấu phòng học phía sau.
+6. Kiểm tra phong cách ánh sáng Cartoon 3D, hiển thị trời/mặt nước/cây cối. Khi hiệu suất thấp, bật ECO và tắt bớt cảnh quan; không phá vỡ camera, mini map, nhảy hoặc chuyển cổng.
+7. Kiểm thử mọi lựa chọn. Đặc biệt chọn Chibi rồi vào LAB Toán 6, chọn phòng mô hình, quay lại khuôn viên; thử tiếp bảo tàng và 11 trò chơi. Nếu phát sinh lỗi, sửa tại chỗ, không thay toàn bộ engine.
+8. Chạy `npm run check:cartoon` và `npm run check:final`. Nếu bản MATHVERSE mới đã có bộ kiểm khác, đọc và cập nhật bộ kiểm phù hợp mà không xóa kiểm thử cũ.
+9. Lập báo cáo thử nghiệm: (a) những việc đã tích hợp thật, (b) những mẫu chỉ là phong cách minh họa, (c) các điểm chưa xác minh GPU/trình duyệt Windows, (d) tình trạng tương thích với phiên bản MATHVERSE mới nhất.
+
+TỆP ĐÃ TÍCH HỢP CẦN KIỂM TRA
+- dual/cartoon-3d/chibi-avatars.mjs
+- dual/cartoon-3d/architecture.mjs
+- dual/cartoon-3d/studio.mjs
+- dual/cartoon-3d/library.html và library.mjs
+- dual/cartoon-3d/model-catalog.json
+- dual/cartoon-3d/assets/characters/*.glb
+- dual/cartoon-3d/assets/architecture/*.glb
+- src/cartoon-3d/avatar-adapter.mjs
+- dual/app.mjs, dual/index.html, dual/style.css
+- tests/cartoon-3d-studio.test.mjs
+
+BẢO TOÀN TUYỆT ĐỐI
+- 7 lớp Toán 6–12, các phòng học, cổng chương, LAB nhóm, 310 chế độ mô hình (nếu có).
+- 7 phòng bảo tàng infographic/230 tranh, 11 khu trò chơi.
+- Kho nguồn Word/LaTeX/PDF, mọi đáp án, lịch sử hotfix ngân hàng câu hỏi, kiểm định và file manifest.
+- Nếu ZIP đã sửa gần đây có số lượng câu khả dụng khác ZIP gốc, KHÔNG dùng ZIP gốc ghi đè dữ liệu sửa. Các sửa về UI câu hỏi, mê cung và mặt bằng công viên phải giữ nguyên.
+
+YÊU CẦU CHẤT LƯỢNG
+- Hoạt động offline sau giải nén, không cần API trả phí và không bắt người dùng cài Python.
+- Tải mô hình nhanh, chất lượng hình ảnh phù hợp trình duyệt Windows; không che cổng tương tác.
+- Những tài sản bên ngoài như Kenney/Quaternius/KayKit chỉ được lấy từ nguồn có giấy phép rõ ràng; phải lưu chứng cứ nguồn & giấy phép nếu nhập thêm. Tệp GLB đóng gói đợt này là mô hình hình học tự dựng, không phải tệp tải trực tiếp từ các repo.
+- Kiểm thử thực chất trước khi tuyên bố không còn lỗi.
+
+CÁCH DÙNG CHO GIÁO VIÊN
+Giải nén ZIP vào thư mục mới → chạy `00_MO_MATHVERSE_FINAL.bat` → nhấn `🎨 CHIBI 3D` → chọn nhân vật + kiến trúc + cảnh quan → nhấn liên kết kho 22 mô hình GLB để xem/tải. Nếu đã có ZIP HOTFIX mới hơn, đọc `00_HUONG_DAN_CHIBI_CARTOON_3D_2026-11-04.md`, dùng gói tương thích nằm trong ZIP, không ghi đè.

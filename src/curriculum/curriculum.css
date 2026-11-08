@@ -1,0 +1,312 @@
+/* MATHVERSE R5 - curated 7-12 curriculum explorer; entirely isolated from museum UI. */
+body.mv-r5-open {overflow:hidden;}
+.mv-r5-backdrop[hidden]{display:none!important}
+.mv-r5-backdrop{position:fixed;inset:0;z-index:100050;background:#041b2ed9;display:grid;place-items:center;padding:16px;font-family:system-ui,'Segoe UI',sans-serif;color:#193c50}
+.mv-r5-window{display:flex;flex-direction:column;width:min(1580px,98vw);height:min(940px,96vh);min-height:520px;background:#fff;border:1px solid #c6dfed;border-radius:19px;overflow:hidden;box-shadow:0 22px 90px #0008}
+.mv-r5-header{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 23px;background:linear-gradient(95deg,#102f4d,#14566c);color:white}
+.mv-r5-heading{display:flex;flex-direction:column;gap:4px;letter-spacing:.3px;font-size:15px}.mv-r5-heading small{font-size:11px;color:#c9eaf3}.mv-r5-close{border:1px solid #ffffff67;background:#ffffff1a;border-radius:9px;color:white;padding:9px 16px;cursor:pointer;font-weight:600}
+.mv-r5-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:8px 16px;background:#edf6f8;border-bottom:1px solid #d1e2eb}.mv-r5-grades{display:flex;gap:5px;flex-wrap:wrap}.mv-r5-grade{background:white;border:1px solid #cbdfe8;border-radius:8px;padding:6px 10px;font-size:12.5px;font-weight:700;color:#345468;cursor:pointer}.mv-r5-grade.selected{background:#196477;color:white;border-color:#196477}
+.mv-r5-search{flex:0 1 320px;max-width:360px;min-width:170px;padding:7px 12px;font-size:12.5px;background:white;border-radius:9px;border:1px solid #c7dce6;color:#173746}.mv-r5-filter{display:flex;align-items:center;gap:6px;white-space:nowrap;font-size:12px}
+.mv-r5-body{display:grid;grid-template-columns:230px 254px minmax(340px,1fr);flex:1;min-height:0}.mv-r5-families,.mv-r5-cases,.mv-r5-stage{overflow:auto;padding:12px}.mv-r5-families{background:#f1f7f9;border-right:1px solid #d7e5eb}.mv-r5-cases{background:#fafcfd;border-right:1px solid #d7e5eb}.mv-r5-families h3,.mv-r5-cases h3{font-size:13px;margin:4px 6px 12px;line-height:1.4}
+.mv-r5-family,.mv-r5-case{width:100%;display:flex;flex-direction:column;align-items:flex-start;gap:5px;text-align:left;background:white;border:1px solid #d8e8ed;padding:11px;border-radius:9px;margin-bottom:7px;cursor:pointer;color:#255263}.mv-r5-family strong,.mv-r5-case strong{font-size:12px;line-height:1.43}.mv-r5-family small,.mv-r5-case small{font-size:10px;color:#638394}.mv-r5-family.active,.mv-r5-case.active{outline:2px solid #33a5aa;background:#ecfbf9}.mv-r5-case-id{font-family:monospace}
+.mv-r5-status{font-size:10px;padding:4px 7px;border-radius:12px;line-height:1.2}.mv-r5-status.ready{color:#126453;background:#d7f9e9}.mv-r5-status.pending{color:#855c39;background:#fff0da}
+.mv-r5-stage{padding:20px;min-width:0;background:white}.mv-r5-stage-header small{font-family:monospace;color:#528095;font-weight:700;font-size:11px}.mv-r5-stage-header h2{margin:6px 0 10px;font-size:22px;color:#163e56}.mv-r5-statement{font-size:13px;color:#376378;margin:5px 0 12px}.mv-r5-viewbox{height:min(38vh,380px);min-height:250px;border:1px solid #d9e9ec;border-radius:12px;overflow:hidden;background:#fff}.mv-r5-viewbox svg{width:100%;height:100%;display:block}
+.mv-r5-triangle-status{padding:9px 12px;border-radius:9px;font-size:12px;font-weight:700;margin:10px 0}.mv-r5-triangle-status.valid{background:#e2f7e9;color:#1c6449}.mv-r5-triangle-status.invalid{background:#fff1e6;color:#8b4b29}
+.mv-r5-values{display:grid;grid-template-columns:repeat(auto-fit,minmax(95px,1fr));gap:7px}.mv-r5-value{display:flex;flex-direction:column;background:#f1f8fa;border:1px solid #d9e8ea;border-radius:8px;padding:8px}.mv-r5-value small{font-size:10px;color:#54758a}.mv-r5-value strong{font-size:15px;color:#194f63}
+.mv-r5-stage-actions{display:flex;flex-wrap:wrap;gap:7px;margin:11px 0}.mv-r5-action,.mv-r5-copy{padding:9px 10px;border:1px solid #aacfd8;border-radius:9px;background:#e8f7f9;color:#22586c;font-size:12px;font-weight:650;cursor:pointer}
+.mv-r5-params{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:9px;background:#f6fafb;border-radius:10px;padding:12px}.mv-r5-param{display:grid;grid-template-columns:1fr auto;gap:6px;font-size:11px;color:#385c6b;align-items:center}.mv-r5-param input{grid-column:1/3;width:100%;accent-color:#058697}.mv-r5-param output{font-variant-numeric:tabular-nums;font-weight:700}.mv-r5-copy{margin-top:10px}.mv-r5-latex{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;background:#f1f5f8;border:1px solid #d7e4e9;padding:10px;border-radius:8px;color:#28455b;user-select:text}.mv-r5-hint{font-size:12px;line-height:1.6;color:#607c86}
+.mv-r5-design{padding:25px;background:#f6f9fb;border:1px solid #dce8ed;border-radius:12px;line-height:1.6}.mv-r5-design h3{font-size:16px}.mv-r5-design p{font-size:13px}.mv-r5-pending{color:#865e36;font-weight:700;background:#fff1dc;padding:9px;border-radius:9px;display:inline-block;font-size:11px}.mv-r5-design dt{font-size:11px;font-weight:750;color:#294e64;margin-top:14px}.mv-r5-design dd{font-size:13px;margin:4px 0 0}.mv-r5-empty{font-size:12px;color:#617e8d}.mv-r5-footer{padding:10px 18px;font-size:11px;color:#55727e;background:#f0f7f9;border-top:1px solid #d1e3e9}
+@media(max-width:1020px){.mv-r5-body{grid-template-columns:190px 200px minmax(280px,1fr)}.mv-r5-header{padding:12px}.mv-r5-stage{padding:11px}.mv-r5-stage-header h2{font-size:18px}}
+@media(max-width:710px){.mv-r5-backdrop{padding:5px}.mv-r5-window{width:100%;height:99vh}.mv-r5-body{grid-template-columns:1fr 1fr;grid-template-rows:minmax(160px,30%) 1fr}.mv-r5-families,.mv-r5-cases{padding:7px}.mv-r5-stage{grid-column:1/3;grid-row:2}.mv-r5-viewbox{min-height:220px}.mv-r5-header{padding:9px}.mv-r5-heading{font-size:11px}.mv-r5-toolbar{padding:5px}.mv-r5-search{min-width:110px}.mv-r5-footer{font-size:9px}}
+/* Giai doan 2: grade-7 direct-manipulation laboratory, intentionally isolated. */
+.mv-g7-host{display:flex;flex-direction:column;gap:11px;min-width:0}
+.mv-g7-viewport{height:clamp(280px,40vh,450px);min-height:280px;border:1px solid #bdd5df;border-radius:12px;background:#f5fafb;overflow:hidden;position:relative}
+.mv-g7-svg-stage svg{width:100%;height:100%;display:block}
+.mv-g7-3d-stage canvas{width:100%;height:100%;display:block;touch-action:none}
+.mv-g7-net{height:240px;background:#f5fafb;border:1px solid #bdd5df;border-radius:11px;overflow:hidden}
+.mv-g7-net svg{height:100%;width:100%;display:block}
+.mv-g7-status{font-size:12px;color:#175f66;font-weight:700;background:#ecf9f4;padding:10px;border-radius:9px}
+.mv-g7-fallback{padding:40px 18px;color:#973e31;line-height:1.7;font-size:14px}
+.mv-g7-buttons{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.mv-g7-button{border:1px solid #94c5d4;color:#135d6d;background:#e8f9fb;border-radius:8px;padding:10px 12px;font-weight:700;font-size:12px;cursor:pointer}
+.mv-g7-button:hover,.mv-g7-button:focus-visible{background:#c5f3f4;outline:2px solid #2497af;outline-offset:1px}
+.mv-g7-timeline{display:flex;align-items:center;gap:15px;font-size:12px;color:#285769}
+.mv-g7-timeline input{flex:1;accent-color:#0d93a9}
+.mv-g7-subheading{font-size:14px;color:#1c5266;margin:8px 0 0}
+@media(max-width:710px){.mv-g7-viewport{height:290px}.mv-g7-net{height:170px}.mv-g7-button{padding:8px}}
+
+/* Toan 8: chooser for faithful statistics views */
+.mv-g8-host .mv-r5-param select{grid-column:1/3;border:1px solid #abd3df;border-radius:6px;padding:7px;background:#fff;color:#16435b;font:inherit;min-width:0}
+
+/* R7.3 Visual & Direct-Manipulation Upgrade for Kho SGK 6–12 */
+.mv-r5-window{border:1px solid #9bd1e2;box-shadow:0 28px 100px rgba(3,18,34,.55),0 0 0 1px rgba(255,255,255,.35) inset}
+.mv-r5-header{background:linear-gradient(100deg,#0b2540 0%,#0f4c64 55%,#14748b 100%);border-bottom:1px solid rgba(255,255,255,.15)}
+.mv-r5-viewbox,.mv-g7-viewport{box-shadow:inset 0 2px 10px rgba(14,50,74,.06),0 6px 20px rgba(14,50,74,.05);border:1.5px solid #a8d0de;background:linear-gradient(180deg,#ffffff 0%,#f4fafd 100%);touch-action:none;user-select:none}
+.mv-r5-viewbox svg,.mv-g7-svg-stage svg{cursor:crosshair;touch-action:none;user-select:none}
+.mv-r5-viewbox svg [data-pt],
+.mv-r5-viewbox svg [data-point],
+.mv-r5-viewbox svg [data-handle],
+.mv-r5-viewbox svg [data-drag],
+.mv-g7-svg-stage svg [data-pt],
+.mv-g7-svg-stage svg [data-point],
+.mv-g7-svg-stage svg [data-handle],
+.mv-g7-svg-stage svg [data-drag]{
+  cursor:grab;
+  filter:drop-shadow(0 2px 5px rgba(217,119,6,.45));
+  transition:filter .15s ease,stroke-width .15s ease;
+}
+.mv-r5-viewbox svg [data-pt]:hover,
+.mv-r5-viewbox svg [data-point]:hover,
+.mv-r5-viewbox svg [data-handle]:hover,
+.mv-r5-viewbox svg [data-drag]:hover,
+.mv-g7-svg-stage svg [data-pt]:hover,
+.mv-g7-svg-stage svg [data-point]:hover,
+.mv-g7-svg-stage svg [data-handle]:hover,
+.mv-g7-svg-stage svg [data-drag]:hover{
+  stroke:#0f172a!important;
+  stroke-width:4px!important;
+  filter:drop-shadow(0 0 8px rgba(245,158,11,.85));
+}
+.mv-r5-viewbox svg [data-pt]:active,
+.mv-r5-viewbox svg [data-point]:active,
+.mv-r5-viewbox svg [data-handle]:active,
+.mv-r5-viewbox svg [data-drag]:active,
+.mv-g7-svg-stage svg [data-pt]:active,
+.mv-g7-svg-stage svg [data-point]:active,
+.mv-g7-svg-stage svg [data-handle]:active,
+.mv-g7-svg-stage svg [data-drag]:active{cursor:grabbing}
+.mv-r5-value{background:linear-gradient(180deg,#f7fcfe,#ebf6fa);border:1px solid #c3e0eb;border-radius:10px;padding:9px 11px;box-shadow:0 2px 6px rgba(15,60,85,.04);font-weight:700;color:#114860}
+.mv-g7-button{background:linear-gradient(180deg,#f0fcfe,#d8f4f8);border:1px solid #7ec2d3;color:#0e4f60;border-radius:9px;box-shadow:0 2px 5px rgba(14,79,96,.08);transition:transform .12s ease,background .15s ease,box-shadow .15s ease}
+.mv-g7-button:hover,.mv-g7-button:focus-visible{transform:translateY(-1px);box-shadow:0 4px 12px rgba(14,79,96,.15)}
+.mv-r5-family,.mv-r5-case{transition:transform .12s ease,box-shadow .15s ease,border-color .15s ease}
+.mv-r5-family:hover,.mv-r5-case:hover{border-color:#5bb8c4;box-shadow:0 4px 12px rgba(17,75,95,.08);transform:translateY(-1px)}
+.mv-r5-family.active,.mv-r5-case.active{outline:2px solid #0d9488;background:linear-gradient(135deg,#ecfdf5,#e6f9fb);box-shadow:0 4px 14px rgba(13,148,136,.14)}
+
+/* R7.4 Mathematical Formula Typesetting Engine (Zero-Dependency LaTeX Renderer) */
+.mv-r5-latex.mv-math-box-rendered{
+  white-space:normal;
+  font-family:'Cambria Math','STIX Two Math','Times New Roman',Georgia,serif;
+  font-size:17px;
+  line-height:1.7;
+  background:linear-gradient(135deg,#f0fdfa 0%,#f8fafc 100%);
+  border:1.5px solid #99d5e0;
+  border-left:4px solid #0d9488;
+  padding:12px 16px;
+  border-radius:11px;
+  color:#0c2e44;
+  box-shadow:0 2px 8px rgba(13,148,136,.07);
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:6px;
+}
+.mv-math-rendered{
+  display:inline-flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:2px;
+  font-family:'Cambria Math','STIX Two Math','Times New Roman',Georgia,serif;
+  line-height:1.45;
+  vertical-align:middle;
+}
+.mv-math-frac{
+  display:inline-flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  vertical-align:middle;
+  margin:0 4px;
+  line-height:1.15;
+}
+.mv-math-num{
+  padding:0 5px 2px;
+  border-bottom:1.6px solid currentColor;
+  text-align:center;
+  font-size:.92em;
+  width:100%;
+}
+.mv-math-den{
+  padding:2px 5px 0;
+  text-align:center;
+  font-size:.92em;
+  width:100%;
+}
+.mv-math-sqrt{
+  display:inline-flex;
+  align-items:stretch;
+  vertical-align:middle;
+  margin:0 2px;
+}
+.mv-math-surd{
+  font-size:1.18em;
+  line-height:1;
+  font-weight:700;
+  margin-right:-1px;
+  display:inline-flex;
+  align-items:center;
+}
+.mv-math-radicand{
+  border-top:1.6px solid currentColor;
+  padding:1px 4px 0 3px;
+  display:inline-flex;
+  align-items:center;
+}
+.mv-math-root-idx{
+  font-size:.68em;
+  transform:translateY(-.42em);
+  margin-right:-2px;
+}
+.mv-math-vec{
+  position:relative;
+  display:inline-block;
+  padding-top:.28em;
+  margin:0 2px;
+  font-style:italic;
+}
+.mv-math-vec::before{
+  content:"→";
+  position:absolute;
+  top:-.32em;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:.74em;
+  font-style:normal;
+  font-weight:700;
+  line-height:1;
+}
+.mv-math-overline{
+  display:inline-block;
+  border-top:1.5px solid currentColor;
+  padding-top:1px;
+  line-height:1.05;
+  margin:0 1px;
+}
+.mv-math-hat{
+  position:relative;
+  display:inline-block;
+  padding-top:.25em;
+  margin:0 2px;
+}
+.mv-math-hat::before{
+  content:"︿";
+  position:absolute;
+  top:-.35em;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:.72em;
+  font-style:normal;
+  line-height:1;
+}
+.mv-math-cases{
+  display:inline-flex;
+  align-items:center;
+  vertical-align:middle;
+  margin:2px 4px;
+}
+.mv-math-brace{
+  font-size:2.1em;
+  font-weight:300;
+  line-height:1;
+  margin-right:4px;
+  color:#0f766e;
+}
+.mv-math-cases-body{
+  display:inline-flex;
+  flex-direction:column;
+  gap:4px;
+  text-align:left;
+  border-left:2px solid rgba(13,148,136,.3);
+  padding-left:8px;
+}
+.mv-math-cases-row{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  white-space:nowrap;
+}
+.mv-math-binom{
+  display:inline-flex;
+  align-items:center;
+  vertical-align:middle;
+  margin:0 2px;
+}
+.mv-math-binom-paren{
+  font-size:1.5em;
+  line-height:1;
+}
+.mv-math-binom-col{
+  display:inline-flex;
+  flex-direction:column;
+  align-items:center;
+  font-size:.85em;
+  line-height:1.1;
+  padding:0 2px;
+}
+.mv-math-bigop{
+  display:inline-flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  vertical-align:middle;
+  margin:0 4px;
+  line-height:1;
+}
+.mv-math-bigop-sym{
+  font-size:1.35em;
+  font-style:normal;
+  line-height:1.05;
+}
+.mv-math-bigop-sup,.mv-math-bigop-sub{
+  font-size:.7em;
+  line-height:1.1;
+}
+.mv-math-fn{
+  font-style:normal;
+  font-weight:600;
+  margin-right:1px;
+}
+.mv-math-text{
+  font-family:system-ui,'Segoe UI',sans-serif;
+  font-style:normal;
+  font-size:.88em;
+  color:#1e3a5f;
+}
+.mv-math-space{display:inline-block;width:.85em}
+.mv-math-space-sm{display:inline-block;width:.35em}
+.mv-math-sup{font-size:.74em;line-height:0;vertical-align:super;margin-left:1px}
+.mv-math-sub{font-size:.74em;line-height:0;vertical-align:sub;margin-left:1px}
+
+/* R90: Integrated audit models inside Kho SGK by chapter -> lesson -> Lab */
+.mv-r90-lesson-divider{
+  margin:10px 2px 6px;
+  padding:5px 9px;
+  border-radius:7px;
+  background:#e0f2fe;
+  border-left:3px solid #1d4ed8;
+  color:#0f3d68;
+  font-size:11px;
+  font-weight:800;
+  line-height:1.35;
+}
+.mv-theme-dark .mv-r90-lesson-divider{
+  background:rgba(29,78,216,.22);
+  border-left-color:#60a5fa;
+  color:#dbeafe;
+}
+.mv-r90-exhibit-item{border-inline-start:4px solid #6D28D9!important;background:#f8f7ff!important}
+.mv-r90-linked-exhibit{display:flex;flex-direction:column;gap:10px;padding:8px 0;min-height:280px}
+.mv-r90-linked-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.mv-r90-linked-actions .mv-r5-action{background:#6D28D9;color:white;border-color:#5b21b6;padding:10px 14px}
+.mv-r90-linked-stage{position:relative;min-height:300px;height:min(45vh,440px);border-radius:12px;border:1.5px solid #b8cbdc;background:#f6fafc;overflow:hidden}
+.mv-r90-linked-stage>canvas,.mv-r90-linked-stage>svg{width:100%;height:100%;display:block}
+.mv-r90-color-legend{display:flex;gap:8px;flex-wrap:wrap;padding:10px 12px;border:1px solid #d9e8ed;border-radius:9px;background:#f6fafb}
+.mv-r90-color-legend span{display:inline-flex;align-items:center;gap:6px;color:#34465b;font-size:11px;font-weight:650}
+.mv-r90-color-legend span:before{content:'';display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--r90-key-color);border:1px solid #fff;box-shadow:0 0 0 1px #728399}
+.mv-r5-case .mv-r5-case-id{font-family:system-ui,Segoe UI,sans-serif;font-weight:700;line-height:1.5}
+.mv-r5-stage-header small{white-space:normal;line-height:1.55;overflow-wrap:anywhere}
+.mv-theme-dark .mv-r90-linked-stage{background:#15293a;border-color:#476074}
+.mv-theme-dark .mv-r90-color-legend{background:#203748;border-color:#476074}
+.mv-theme-dark .mv-r90-color-legend span{color:#e5eaf1}
+@media(max-width:710px){.mv-r90-linked-stage{min-height:270px;height:320px}.mv-r90-linked-actions .mv-r5-action{width:100%}}
+
+

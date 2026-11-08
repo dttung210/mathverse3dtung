@@ -1,0 +1,149 @@
+{
+  "schema": "mathverse.discovery.r98.provenance.v1",
+  "generatedAt": "2026-11-06T21:55:00+07:00",
+  "policy": "Zero unverified architectural claims. Every published UNESCO 3D exhibit must have a redistributable multi-view/LiDAR GLB scan (>=10,000 triangles, embedded textures) and a licensed real photograph of the exact monument, verified across 4 angles.",
+  "unescoAssets": [
+    {
+      "id": "unesco_parthenon",
+      "title": "Đền Parthenon trên đồi Acropolis (Hiện trạng)",
+      "unesco": {
+        "whcId": 404,
+        "siteName": "Acropolis, Athens",
+        "relationship": "component_of_inscribed_property",
+        "unescoUrl": "https://whc.unesco.org/en/list/404/"
+      },
+      "coordinates": {
+        "lat": 37.9715,
+        "lng": 23.7267,
+        "verified": true,
+        "crs": "WGS84"
+      },
+      "glb": {
+        "localCandidatePath": "dual/discovery-r98/assets/unesco_parthenon_glb.glb",
+        "publishedPath": "dual/discovery-r98/assets/unesco_parthenon_glb.glb",
+        "bytes": 26462232,
+        "sha256": "e4b5091373259e067373630a3af4828c799e6cb3677dc2b28ac88c31b322562d",
+        "md5": "d0ecde3f5ddad9ce54634f89adac39a4",
+        "triangles": 450305,
+        "images": 2,
+        "materials": 2,
+        "meshes": 8,
+        "author": "Nick G. Gizelis (aumakua)",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://zenodo.org/records/10319004",
+        "originalSketchfabUrl": "https://sketchfab.com/3d-models/parthenon-acropolis-athens-greece-d5cc54ccd57a4bdeb3c164a96c677b59",
+        "captureMethod": "photogrammetry",
+        "fidelityClass": "reviewed_visual_not_metrically_certified"
+      },
+      "photograph": {
+        "localCandidatePath": "dual/discovery-r98/assets/unesco_parthenon_photo.jpg",
+        "publishedPath": "dual/discovery-r98/assets/unesco_parthenon_photo.jpg",
+        "bytes": 346877,
+        "sha256": "45cc6286001c9772cb6d914aa85c68bb8c225f6dde7d2ba9546bd4887c3afa9a",
+        "author": "DJDunsie",
+        "license": "CC BY 3.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Parthenon,_Athens,_Greece.jpg",
+        "secondaryComparisonPage": "https://commons.wikimedia.org/wiki/File:Parthenon_-_Athens_Greece.jpg"
+      },
+      "moderation": {
+        "status": "approved",
+        "compareIdentity": true,
+        "comparePhoto": true,
+        "compareDimensions": true,
+        "compareLicense": true,
+        "reviewer": "Giáo viên Toán & Kỹ sư QA MATHVERSE R98",
+        "caveat": "Bản quét quang trắc từ video drone (450.305 tam giác, 2 texture) khớp hiện trạng Đền Parthenon trên đồi Acropolis; có nền đồi bao quanh, chưa có chứng nhận sai số đo đạc trắc địa."
+      }
+    }
+  ],
+  "galleryAssets": [
+    {
+      "id": "traffic",
+      "title": "Đèn giao thông",
+      "localPhotoPath": "dual/discovery-r98/assets/gallery/traffic.jpg",
+      "bytes": 158342,
+      "sha256": "adfba00634901eefb7d672193452fecf55037fdd32d47eef48bbcf95e10f5f83",
+      "author": "Unisouth",
+      "license": "CC BY 3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Modern_British_LED_Traffic_Light.jpg",
+      "geometry2DApproved": true,
+      "geometry3DApproved": true
+    },
+    {
+      "id": "fish",
+      "title": "Hồ cá và tập hợp",
+      "localPhotoPath": "dual/discovery-r98/assets/gallery/fish.jpg",
+      "bytes": 189789,
+      "sha256": "4842d4397b68822441f4ae06b94f9ff6b217571d8c3ea3fb6c5df41175ef0d0c",
+      "author": "Fitrah 9131",
+      "license": "CC BY 4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fish_(2).jpg",
+      "geometry2DApproved": true,
+      "geometry3DApproved": true
+    },
+    {
+      "id": "wheel",
+      "title": "Bánh xe đạp",
+      "localPhotoPath": "dual/discovery-r98/assets/gallery/wheel.jpg",
+      "bytes": 283173,
+      "sha256": "690167d305ebff1aac45fe023bb90ad5b8933de6c1d3c1fc25dbe1e551b2e6dc",
+      "author": "Moebiusuibeom-en",
+      "license": "CC BY-SA 4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_bicycle_wheel.jpg",
+      "geometry2DApproved": true,
+      "geometry3DApproved": true
+    },
+    {
+      "id": "clock",
+      "title": "Đồng hồ và góc",
+      "localPhotoPath": "dual/discovery-r98/assets/gallery/clock.jpg",
+      "bytes": 134027,
+      "sha256": "82b661d133dd95735adc80d40c3e4bd0f3bd76c912f92f8f55823c354e0d14d3",
+      "author": "Manu.lakshman",
+      "license": "CC BY-SA 4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_clock_tower.jpg",
+      "geometry2DApproved": true,
+      "geometry3DApproved": false
+    }
+  ],
+  "pendingUnescoCandidates": [
+    {
+      "id": "unesco_hue",
+      "title": "Quần thể di tích Cố đô Huế (Hạng mục khảo sát: Cung An Định / Ngọ Môn)",
+      "status": "pending",
+      "reason": "Dữ liệu Open Heritage 3D (DOI 10.26301/4z5b-vz23) mang giấy phép CC BY-NC-SA 4.0 (hạn chế thương mại) và là dữ liệu quét cho hạng mục Cung An Định, không tự động gán cho Ngọ Môn."
+    },
+    {
+      "id": "unesco_myson",
+      "title": "Khu đền tháp Mỹ Sơn",
+      "status": "pending",
+      "reason": "Ứng viên Sketchfab 833564ab7c2540b9be6ecefb8bfc2a8a cần xác minh chính xác nhóm tháp cụ thể (nhóm B/C/D) và nguồn tải trực tiếp trước khi duyệt."
+    },
+    {
+      "id": "unesco_chichen",
+      "title": "Khu khảo cổ Chichén Itzá",
+      "status": "pending",
+      "reason": "Bộ dữ liệu Open Heritage 3D (2atk-cq42) là dữ liệu LiDAR thô cần chuyển đổi mesh và xác nhận giấy phép phân phối lại."
+    }
+  ],
+  "rejectedFromUnescoRoomAsScans": [
+    {
+      "file": "dual/discovery-r95/models/parthenon_columns_8x17.glb",
+      "triangles": 3644,
+      "images": 0,
+      "reason": "Mô hình dãy cột 8x17 lý tưởng hóa (0 texture, <10.000 tam giác); chỉ giữ trong kho Sơ đồ Toán học, bị chặn khỏi Phòng UNESCO 3D R98."
+    },
+    {
+      "file": "dual/discovery-r97/models/giza_khufu_original_ratio_geometry_not_scan.glb",
+      "triangles": 6,
+      "images": 0,
+      "reason": "Hình chóp tứ giác đều theo tỉ lệ chiều cao/cạnh đáy (6 tam giác, 0 texture); chỉ dùng cho bài học tỉ lệ hình học, không phải bản quét Kim tự tháp Khufu."
+    },
+    {
+      "file": "dual/discovery-r95/models/borobudur_5_square_3_circle.glb",
+      "triangles": 684,
+      "images": 0,
+      "reason": "Sơ đồ 5 tầng vuông + 3 tầng tròn (684 tam giác, 0 texture); không phải bản quét công trình Borobudur."
+    }
+  ]
+}

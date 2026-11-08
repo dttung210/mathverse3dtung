@@ -1,0 +1,990 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>MATHVERSE R107 BIG UPDATE — 5 Phương Án Sơ Đồ Sảnh, 4 Khối Kiến Trúc, Phòng Học & Nhân Vật Chibi 3D</title>
+<style>
+  :root {
+    --bg: #071525;
+    --card: #0d2238;
+    --card-alt: #122c47;
+    --ink: #f8fafc;
+    --muted: #94a3b8;
+    --gold: #fbbf24;
+    --cyan: #38bdf8;
+    --emerald: #34d399;
+    --violet: #c084fc;
+    --rose: #fb7185;
+    --border: rgba(148, 163, 184, 0.22);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: radial-gradient(circle at 50% 0%, #102a45 0%, #05101c 100%);
+    color: var(--ink);
+    line-height: 1.55;
+  }
+  header.hero {
+    padding: 28px 24px 20px;
+    border-bottom: 1px solid var(--border);
+    background: rgba(7, 21, 37, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    backdrop-filter: blur(12px);
+  }
+  .hero-inner {
+    max-width: 1380px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  .eyebrow {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+  h1 {
+    margin: 4px 0 0;
+    font-size: clamp(20px, 2.4vw, 30px);
+    font-weight: 900;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgba(56, 189, 248, 0.45);
+    background: linear-gradient(135deg, #0f3554, #19517d);
+    color: #fff;
+    transition: all 0.2s;
+  }
+  .btn:hover {
+    border-color: var(--gold);
+    transform: translateY(-1px);
+  }
+  .btn-gold {
+    background: linear-gradient(135deg, #f59e0b, #eab308);
+    color: #081c2e;
+    border-color: #fde047;
+  }
+  .nav-tabs {
+    max-width: 1380px;
+    margin: 16px auto 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .tab-btn {
+    padding: 10px 18px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+    color: var(--ink);
+    font-weight: 800;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .tab-btn.active {
+    background: linear-gradient(135deg, rgba(56,189,248,0.22), rgba(251,191,36,0.22));
+    border-color: var(--gold);
+    color: #fff;
+  }
+  main {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .section-block {
+    margin-bottom: 42px;
+    background: rgba(13, 34, 56, 0.78);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 26px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+  }
+  .section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 12px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 14px;
+    margin-bottom: 22px;
+  }
+  .section-head h2 {
+    margin: 4px 0 0;
+    font-size: 24px;
+  }
+  .badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 800;
+    background: rgba(52, 211, 153, 0.16);
+    color: var(--emerald);
+    border: 1px solid rgba(52, 211, 153, 0.4);
+  }
+  .badge-gold {
+    background: rgba(251, 191, 36, 0.18);
+    color: var(--gold);
+    border-color: rgba(251, 191, 36, 0.45);
+  }
+  .option-pills {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .opt-pill {
+    padding: 10px 16px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: var(--card-alt);
+    color: var(--ink);
+    font-weight: 800;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .opt-pill.active {
+    background: linear-gradient(135deg, #1d4ed8, #0284c7);
+    border-color: var(--gold);
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.35);
+  }
+  .blueprint-layout {
+    display: grid;
+    grid-template-columns: 1.35fr 1fr;
+    gap: 22px;
+    align-items: stretch;
+  }
+  @media (max-width: 980px) {
+    .blueprint-layout { grid-template-columns: 1fr; }
+  }
+  .svg-stage {
+    background: #eef6ff;
+    border-radius: 18px;
+    padding: 14px;
+    border: 2px solid rgba(251, 191, 36, 0.55);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #0f172a;
+  }
+  .svg-stage svg {
+    width: 100%;
+    height: auto;
+    max-height: 520px;
+    display: block;
+  }
+  .info-panel {
+    background: var(--card-alt);
+    border-radius: 18px;
+    padding: 22px;
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .info-panel h3 {
+    margin: 6px 0 10px;
+    font-size: 22px;
+    color: var(--gold);
+  }
+  .pros-list {
+    margin: 10px 0;
+    padding-left: 18px;
+  }
+  .pros-list li {
+    margin-bottom: 7px;
+  }
+  .grid-5 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-top: 18px;
+  }
+  .mini-card {
+    background: var(--card-alt);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mini-card.recommended {
+    border: 2px solid var(--gold);
+    background: linear-gradient(160deg, rgba(251,191,36,0.12), rgba(18,44,71,0.95));
+  }
+  .mini-card h4 {
+    margin: 6px 0 8px;
+    font-size: 16px;
+    color: #fff;
+  }
+  table.comp-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  table.comp-table th, table.comp-table td {
+    border: 1px solid var(--border);
+    padding: 11px 13px;
+    text-align: left;
+  }
+  table.comp-table th {
+    background: rgba(15, 53, 84, 0.85);
+    color: var(--gold);
+  }
+  table.comp-table tr.rec-row {
+    background: rgba(52, 211, 153, 0.13);
+    font-weight: 700;
+  }
+  .toast-bar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-weight: 800;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.45);
+    display: none;
+    z-index: 100;
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">MATHVERSE R107 BIG UPDATE · HỒ SƠ QUY HOẠCH &amp; GIAO DIỆN ĐỐI XỨNG TOÀN DIỆN</div>
+      <h1>Sơ Đồ Sảnh, 4 Khối Kiến Trúc, Bố Trí Phòng &amp; Nhân Vật Chibi 3D Cartoon</h1>
+    </div>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="/?v=107.4">🚀 VÀO SẢNH 3D GRAND CAMPUS</a>
+      <a class="btn" href="/r75/">⚗ VÀO PHÒNG LAB R75</a>
+      <a class="btn" href="/dual/cartoon-3d/library.html">📦 KHO 22 MÔ HÌNH GLB</a>
+    </div>
+  </div>
+  <nav class="nav-tabs" aria-label="Chuyển nhanh hạng mục">
+    <a class="tab-btn active" href="#sec-lobby">1. Sơ Đồ Sảnh &amp; 4 Khu Đối Xứng (5 PA)</a>
+    <a class="tab-btn" href="#sec-arch">2. Cấu Trúc 4 Khối Kiến Trúc Đa Tầng (5 PA)</a>
+    <a class="tab-btn" href="#sec-rooms">3. Tổ Chức Các Phòng &amp; So Sánh Tầm Nhìn Học Sinh (Hiện Tại vs 5 PA)</a>
+    <a class="tab-btn" href="#sec-chibi">4. 5 Nhân Vật Chính Chibi 3D Cartoon &amp; Góc Nhìn Trên Cao</a>
+  </nav>
+</header>
+
+<main>
+  <!-- SECTION 1: 5 PHƯƠNG ÁN SƠ ĐỒ SẢNH -->
+  <section id="sec-lobby" class="section-block">
+    <div class="section-head">
+      <div>
+        <span class="badge badge-gold">HẠNG MỤC 1, 7, 8, 11 · KHÔNG ĐỤNG CHỨC NĂNG</span>
+        <h2>1. Đề Xuất 5 Phương Án Sơ Đồ Sảnh &amp; Tái Cấu Trúc Đối Xứng 4 Khu Vực</h2>
+      </div>
+      <span>Mặc định đang kích hoạt: <strong>PA4 (04/05) · Vòng Quỹ Đạo Tri Thức</strong></span>
+    </div>
+
+    <div class="option-pills" id="lobby-pills">
+      <button class="opt-pill" data-pa="pa1">01/05 · PA1: Đại Lộ Hoàng Gia Phân Nhánh Y</button>
+      <button class="opt-pill" data-pa="pa2">02/05 · PA2: Quảng Trường Sao Bát Giác</button>
+      <button class="opt-pill" data-pa="pa3">03/05 · PA3: Sảnh Vườn Địa Đàng Đồng Tâm</button>
+      <button class="opt-pill active" data-pa="pa4">04/05 · PA4: Vòng Quỹ Đạo Tri Thức (Khuyến nghị ★)</button>
+      <button class="opt-pill" data-pa="pa5">05/05 · PA5: Giao Lộ Pha Lê Đa Tầng Cầu Vồng</button>
+    </div>
+
+    <div class="blueprint-layout">
+      <div class="svg-stage" id="lobby-svg-container">
+        <!-- SVG rendered dynamically by JS below -->
+      </div>
+      <div class="info-panel" id="lobby-info-panel">
+        <!-- Info rendered dynamically by JS below -->
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: 5 PHƯƠNG ÁN CẤU TRÚC KIẾN TRÚC 4 KHỐI -->
+  <section id="sec-arch" class="section-block">
+    <div class="section-head">
+      <div>
+        <span class="badge">HẠNG MỤC 2, 5, 7 · ĐỐI XỨNG NHIỀU TẦNG NHIỀU PHÒNG</span>
+        <h2>2. Đề Xuất 5 Phương Án Cấu Trúc Kiến Trúc Của 4 Khối (LAB · MUSEUM · DISCOVERY · WONDER PARK)</h2>
+      </div>
+      <span>Tất cả 5 phương án đều đối xứng tâm &amp; đa tầng</span>
+    </div>
+
+    <div class="grid-5">
+      <div class="mini-card recommended">
+        <div>
+          <span class="badge badge-gold">KHUYẾN NGHỊ ★ · ĐANG ÁP DỤNG</span>
+          <h4>PA1 · Quần Thể Vòm Quỹ Đạo &amp; Tháp Khoa Học Đa Tầng (Quantum &amp; Orbital Quartet)</h4>
+          <p><strong>• LAB (Tây):</strong> Học viện 3 tầng đối xứng + 7 cánh phòng lớp (Lớp 6–12) + lõi nguyên tử Quantum xoay trên đỉnh.<br/>
+          <strong>• MUSEUM (Đông):</strong> Cung điện Hoa Sen 7 cánh vòm kính + vòm Orbital 3 vòng quỹ đạo vàng.<br/>
+          <strong>• DISCOVERY (Bắc):</strong> Đài Thiên Văn Địa Cầu 3D + 2 tầng triển lãm UNESCO &amp; Tự nhiên.<br/>
+          <strong>• WONDER PARK (Nam):</strong> Vòng tròn 10 trạm trò chơi đối xứng quanh Đền Thích Học Bá.</p>
+        </div>
+        <button class="btn btn-gold" onclick="applyArchPreset('quantum','orbital','orbital')">✓ Kích Hoạt PA1 Trong 3D</button>
+      </div>
+
+      <div class="mini-card">
+        <div>
+          <span class="badge">PHƯƠNG ÁN 02/05</span>
+          <h4>PA2 · Quần Thể Pha Lê Đa Diện Thông Tầng (Crystal Polyhedra Quartet)</h4>
+          <p><strong>• LAB:</strong> Mái tháp pha lê Octahedron đa tầng phản chiếu ánh sáng.<br/>
+          <strong>• MUSEUM:</strong> Vòm tinh thể 12 đỉnh pha lê ngọc bích &amp; thạch anh tím.<br/>
+          <strong>• DISCOVERY:</strong> Khối cầu Geodesic đa diện đều.<br/>
+          <strong>• WONDER PARK:</strong> Quảng trường pha lê 10 cổng ánh sáng.</p>
+        </div>
+        <button class="btn" onclick="applyArchPreset('crystal','crystal','starlight')">Kích Hoạt PA2 Trong 3D</button>
+      </div>
+
+      <div class="mini-card">
+        <div>
+          <span class="badge">PHƯƠNG ÁN 03/05</span>
+          <h4>PA3 · Quần Thể Sinh Thái Tổ Ong &amp; Hoa Sen (Hexa-Lotus Bio Quartet)</h4>
+          <p><strong>• LAB:</strong> Tổ hợp lục giác tổ ong (Honeycomb) 3 tầng liên thông.<br/>
+          <strong>• MUSEUM:</strong> Đại sảnh 10 cánh sen hồng – trắng xếp lớp đa tầng.<br/>
+          <strong>• DISCOVERY:</strong> Vườn treo sinh thái &amp; địa cầu xanh.<br/>
+          <strong>• WONDER PARK:</strong> Công viên hồ nước đài phun đối xứng.</p>
+        </div>
+        <button class="btn" onclick="applyArchPreset('honeycomb','lotus','fountain')">Kích Hoạt PA3 Trong 3D</button>
+      </div>
+
+      <div class="mini-card">
+        <div>
+          <span class="badge">PHƯƠNG ÁN 04/05</span>
+          <h4>PA4 · Quần Thể Vòm Cầu Geodesic &amp; Năng Lượng Mặt Trời (Solar Geodesic Quartet)</h4>
+          <p><strong>• LAB:</strong> Học viện năng lượng mặt trời Solar Future với hệ lam kính nghiêng.<br/>
+          <strong>• MUSEUM:</strong> Vòm cầu tam giác Geodesic trong suốt nhìn xuyên các tầng.<br/>
+          <strong>• DISCOVERY:</strong> Trạm vũ trụ mặt trời.<br/>
+          <strong>• WONDER PARK:</strong> Vòng đu quay mặt trời &amp; 10 trạm STEM.</p>
+        </div>
+        <button class="btn" onclick="applyArchPreset('solar','geodesic','pastel')">Kích Hoạt PA4 Trong 3D</button>
+      </div>
+
+      <div class="mini-card">
+        <div>
+          <span class="badge">PHƯƠNG ÁN 05/05</span>
+          <h4>PA5 · Quần Thể Thiên Hà Xoắn Ốc &amp; Sóng Khí Động (Nebula &amp; AeroWave Quartet)</h4>
+          <p><strong>• LAB:</strong> Mái sóng lượng tử hình sin (AeroWave) 3 tầng.<br/>
+          <strong>• MUSEUM:</strong> Tháp xoắn ốc thiên hà (Nebula Spiral) vươn cao 58m.<br/>
+          <strong>• DISCOVERY:</strong> Cổng cầu vồng liên sao.<br/>
+          <strong>• WONDER PARK:</strong> Đấu trường thiên hà 11 phân khu.</p>
+        </div>
+        <button class="btn" onclick="applyArchPreset('aerowave','nebula','skybridge')">Kích Hoạt PA5 Trong 3D</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: CÁCH TỔ CHỨC CÁC PHÒNG & SO SÁNH HIỆN TẠI VS 5 PHƯƠNG ÁN -->
+  <section id="sec-rooms" class="section-block">
+    <div class="section-head">
+      <div>
+        <span class="badge badge-gold">HẠNG MỤC 3, 5, 10 · SO SÁNH TRỰC QUAN &amp; CHỌN PHƯƠNG ÁN TỐI ƯU CHO HỌC SINH</span>
+        <h2>3. Đề Xuất 5 Phương Án Tổ Chức Phòng (LAB · MUSEUM · DISCOVERY · CÔNG VIÊN) &amp; So Sánh Với Hiện Tại</h2>
+      </div>
+      <span>Đánh giá trọng tâm: <strong>Phương án nào học sinh dễ quan sát nhất?</strong></span>
+    </div>
+
+    <div class="option-pills" id="room-pills">
+      <button class="opt-pill" data-rpa="current">Hiện Tại: Lưới Hàng Ngang / Hành Lang Dài</button>
+      <button class="opt-pill active" data-rpa="rpa1">PA1 (Khuyến nghị ★): Vòng Cung Khán Đài Đồng Tâm Đa Tầng</button>
+      <button class="opt-pill" data-rpa="rpa2">PA2: Giếng Trời Thông Tầng Bát Giác (Mezzanine)</button>
+      <button class="opt-pill" data-rpa="rpa3">PA3: Hoa Sen 6 Cánh Đối Xứng Tâm</button>
+      <button class="opt-pill" data-rpa="rpa4">PA4: Đại Lộ Xương Cá Nghiêng 45°</button>
+      <button class="opt-pill" data-rpa="rpa5">PA5: Quỹ Đạo Xoắn Ốc Vàng Fibonacci</button>
+    </div>
+
+    <div class="blueprint-layout">
+      <div class="svg-stage" id="room-svg-container"></div>
+      <div class="info-panel" id="room-info-panel"></div>
+    </div>
+
+    <table class="comp-table" aria-label="Bảng so sánh cách bày trí hiện tại và 5 phương án tái cấu trúc">
+      <thead>
+        <tr>
+          <th>Phương án bố trí phòng</th>
+          <th>Tỷ lệ bị che khuất tầm nhìn</th>
+          <th>Số bước di chuyển để thấy toàn bộ bài</th>
+          <th>Cấu trúc đa tầng đối xứng</th>
+          <th>Độ dễ quan sát cho học sinh</th>
+          <th>Đánh giá chung</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Hiện tại (Lưới 3×3 / Hành lang thẳng)</strong></td>
+          <td>~35% (Hàng bục trước che hàng sau ở góc nhìn thấp)</td>
+          <td>Phải đi dọc từng dãy để đọc tên mô hình</td>
+          <td>1 tầng phẳng</td>
+          <td>7.4 / 10</td>
+          <td>Quen thuộc nhưng dễ bị khuất bục phía sau</td>
+        </tr>
+        <tr class="rec-row">
+          <td><strong>★ PA1: Vòng Cung Khán Đài Đồng Tâm Đa Tầng (Khuyến nghị)</strong></td>
+          <td><strong>0% (Không che khuất — Mọi bục &amp; cổng hướng về tâm)</strong></td>
+          <td><strong>0 bước (Đứng tại đĩa la bàn tâm phòng thấy 100% cổng &amp; bục)</strong></td>
+          <td><strong>3 Cao độ bậc thang đồng tâm (0.0m · +0.6m · +1.2m)</strong></td>
+          <td><strong>9.9 / 10 (Tốt nhất)</strong></td>
+          <td><strong>Học sinh dễ quan sát nhất ở cả góc nhìn người thứ 3 và Trên cao</strong></td>
+        </tr>
+        <tr>
+          <td><strong>PA2: Giếng Trời Thông Tầng Bát Giác (2–3 Tầng)</strong></td>
+          <td>~5% (Nhìn từ lan can tầng lửng xuống toàn bộ sảnh)</td>
+          <td>Đi thang/cầu trượt ánh sáng lên tầng lửng</td>
+          <td>2–3 tầng có giếng trời thông tầng ở giữa</td>
+          <td>9.5 / 10</td>
+          <td>Rất sang trọng, hợp với Phòng B Discovery (2 tầng) &amp; Museum</td>
+        </tr>
+        <tr>
+          <td><strong>PA3: Hoa Sen 6 Cánh Đối Xứng Tâm</strong></td>
+          <td>~10% (Mỗi cánh hoa là 1 chuyên đề độc lập)</td>
+          <td>Đi vào từng cánh hoa theo chủ đề Đại số / Hình học</td>
+          <td>2 tầng cánh hoa xếp lớp</td>
+          <td>9.1 / 10</td>
+          <td>Phân nhóm kiến thức rõ ràng, thẩm mỹ cao</td>
+        </tr>
+        <tr>
+          <td><strong>PA4: Đại Lộ Xương Cá Nghiêng 45°</strong></td>
+          <td>~12% (Các bục xoay 45° về phía lối đi giữa)</td>
+          <td>Đi dọc 1 trục chính duy nhất</td>
+          <td>1–2 tầng bậc cấp dọc</td>
+          <td>8.8 / 10</td>
+          <td>Tốt cho phòng hẹp, dễ dẫn hướng</td>
+        </tr>
+        <tr>
+          <td><strong>PA5: Quỹ Đạo Xoắn Ốc Vàng Fibonacci</strong></td>
+          <td>~8% (Đường dốc xoắn ốc nâng cao dần)</td>
+          <td>Đi một vòng xoắn liên tục từ Bài 1 đến Bài cuối</td>
+          <td>Đa tầng liên hoàn dạng dốc thoải</td>
+          <td>9.3 / 10</td>
+          <td>Trải nghiệm dẫn chuyện tuyến tính thú vị</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- SECTION 4: 5 NHÂN VẬT CHIBI 3D CARTOON & GÓC NHÌN TRÊN CAO -->
+  <section id="sec-chibi" class="section-block">
+    <div class="section-head">
+      <div>
+        <span class="badge badge-gold">HẠNG MỤC 6 &amp; 11 · TÁI CẤU TRÚC ĐÚNG 5 NHÂN VẬT CHIBI 3D CARTOON &amp; ĐỒ HỌA TỪ TRÊN CAO</span>
+        <h2>4. Bộ 5 Nhân Vật Chính Tái Cấu Trúc Chibi 3D Cartoon (Riêng Sư Học Bá Là Sư Chùa Đầu Trọc Chibi)</h2>
+      </div>
+      <span>Bấm vào 1 trong 5 nhân vật để chọn làm nhân vật đại diện trong Sảnh &amp; Lab 3D</span>
+    </div>
+
+    <div class="grid-5">
+      <div class="mini-card recommended">
+        <div>
+          <span class="badge badge-gold">NHÂN VẬT CHÍNH #1</span>
+          <h4>👨‍🏫 Thầy Tùng (Chibi Mentor)</h4>
+          <p>Tỷ lệ đầu Chibi 1:2.2 bầu bĩnh, mắt Anime 3 lớp có đốm sáng sao kép, má hồng, mũ cử nhân mạ vàng có tua rua, kính tròn tri thức, vest xanh học viện &amp; huy hiệu Toán học.</p>
+        </div>
+        <button class="btn btn-gold" onclick="selectChibiAvatar('alex')">Chọn Thầy Tùng Chibi</button>
+      </div>
+      <div class="mini-card recommended">
+        <div>
+          <span class="badge badge-gold">NHÂN VẬT CHÍNH #2</span>
+          <h4>👦 Minh Triết (Chibi Explorer)</h4>
+          <p>Học sinh nam năng động với đầu Chibi tròn, mắt xanh sáng rạng rỡ, tóc mái spiky nhiều lớp, tai nghe headphone phát sáng Cyan, áo hoodie thể thao &amp; giày sneaker bo tròn.</p>
+        </div>
+        <button class="btn btn-gold" onclick="selectChibiAvatar('triet')">Chọn Minh Triết Chibi</button>
+      </div>
+      <div class="mini-card recommended">
+        <div>
+          <span class="badge badge-gold">NHÂN VẬT CHÍNH #3</span>
+          <h4>👧 Tuệ An (Chibi Scholar)</h4>
+          <p>Học sinh nữ thông thái với búi tóc đôi Chibi gắn nơ hồng đào, mắt tím long lanh, áo gile đỏ ruby, chân váy xếp ly, ba lô gắn tinh thể đa diện lấp lánh.</p>
+        </div>
+        <button class="btn btn-gold" onclick="selectChibiAvatar('an')">Chọn Tuệ An Chibi</button>
+      </div>
+      <div class="mini-card recommended">
+        <div>
+          <span class="badge badge-gold">NHÂN VẬT CHÍNH #4</span>
+          <h4>🤖 Bot Pi (Chibi Astro-Bot)</h4>
+          <p>Robot Chibi bầu bĩnh dễ thương màu trắng sứ – xanh ngọc, màn hình mặt kính phát sáng với đôi mắt cười xanh cyan + má hồng LED, ăng-ten quả cầu &amp; vòng quỹ đạo xoay.</p>
+        </div>
+        <button class="btn btn-gold" onclick="selectChibiAvatar('bot')">Chọn Bot Pi Chibi</button>
+      </div>
+      <div class="mini-card recommended">
+        <div>
+          <span class="badge badge-gold">NHÂN VẬT CHÍNH #5 · SƯ CHÙA CHIBI</span>
+          <h4>🧘 Sư Học Bá (Sư Chùa Đầu Trọc Chibi 3D)</h4>
+          <p><strong>Sư Chùa Đầu Trọc Chibi:</strong> Đầu trọc tròn nhẵn bóng hồng hào có <strong>6 chấm giới hương</strong> trên trán, đôi tai to dái tai dài phúc hậu, khoác <strong>Y Cà Sa đỏ cam – vàng nghệ</strong>, đeo <strong>chuỗi tràng hạt Bồ Đề</strong>, tay nâng bình bát vàng &amp; thiền trượng.</p>
+        </div>
+        <button class="btn btn-gold" onclick="selectChibiAvatar('suhocba')">Chọn Sư Học Bá (Sư Chùa Chibi)</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="toast" class="toast-bar">Đã lưu lựa chọn!</div>
+
+<script>
+const LOBBY_PLANS = {
+  pa4: {
+    code: '04 / 05',
+    badge: 'KẾT NỐI CAO NHẤT · PHƯƠNG ÁN HÌNH MẪU ĐANG KÍCH HOẠT ★',
+    title: 'VÒNG QUỸ ĐẠO TRI THỨC — Bốn cầu xuyên tâm & Vòng cầu liên đảo',
+    gardenStyle: 'orbital',
+    idea: 'Giữ bốn cầu chính tỏa ra từ Đảo Trung Tâm GRAND DOME theo 4 hướng chính Bắc (DISCOVERY) – Đông (MUSEUM) – Nam (WONDER PARK) – Tây (LAB), đồng thời thêm đường dạo bộ Vòng Cầu Liên Đảo mạ vàng nối liền 4 đảo vệ tinh trên biển mây.',
+    pros: [
+      'Đối xứng tâm & đối xứng trục tuyệt đối 100% khi nhìn từ trên cao (Top-Down Aerial View)',
+      'Vẫn có 4 hướng cầu chính đi thẳng từ Sảnh Trung Tâm GRAND DOME tới 4 phân khu',
+      'Học sinh có thể đi vòng liên hoàn giữa các đảo (LAB ↔ DISCOVERY ↔ MUSEUM ↔ WONDER PARK) mà không cần quay lại tâm',
+      'Tạo hình Quỹ Đạo Toán Học (Đường tròn đồng tâm & Hệ trục tọa độ Descartes Oxy) đặc trưng',
+      'Đã dọn sạch toàn bộ chi tiết rườm rà lệch tâm trong sảnh và tô màu lại toàn bộ bằng bảng màu Hoàng Kim – Ngọc Lục Bảo – Trắng Ngọc Trai – Xanh Lam Ngọc'
+    ],
+    svg: `
+      <svg viewBox="0 0 820 520" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="skyGrad" cx="50%" cy="50%" r="60%">
+            <stop offset="0%" stop-color="#f0f9ff"/>
+            <stop offset="100%" stop-color="#dbeafe"/>
+          </radialGradient>
+        </defs>
+        <rect width="820" height="520" rx="18" fill="url(#skyGrad)"/>
+        <!-- Clouds -->
+        <g fill="#ffffff" opacity="0.9">
+          <ellipse cx="120" cy="95" rx="52" ry="18"/><ellipse cx="145" cy="88" rx="35" ry="15"/>
+          <ellipse cx="700" cy="110" rx="58" ry="18"/><ellipse cx="675" cy="102" rx="38" ry="14"/>
+          <ellipse cx="690" cy="430" rx="54" ry="17"/><ellipse cx="130" cy="425" rx="48" ry="16"/>
+        </g>
+        <!-- Coordinate Axes dashed -->
+        <line x1="410" y1="40" x2="410" y2="480" stroke="#94a3b8" stroke-dasharray="5 5" stroke-width="1.5"/>
+        <line x1="80" y1="260" x2="740" y2="260" stroke="#94a3b8" stroke-dasharray="5 5" stroke-width="1.5"/>
+        <!-- Outer Orbital Ring Bridge -->
+        <ellipse cx="410" cy="260" rx="250" ry="165" fill="none" stroke="#d97706" stroke-width="18" opacity="0.28"/>
+        <ellipse cx="410" cy="260" rx="256" ry="171" fill="none" stroke="#eab308" stroke-width="4"/>
+        <ellipse cx="410" cy="260" rx="244" ry="159" fill="none" stroke="#eab308" stroke-width="3"/>
+        <!-- 4 Radial Bridges -->
+        <line x1="410" y1="95" x2="410" y2="425" stroke="#fffbeb" stroke-width="18"/>
+        <line x1="410" y1="95" x2="410" y2="425" stroke="#eab308" stroke-width="3" stroke-dasharray="8 4"/>
+        <line x1="160" y1="260" x2="660" y2="260" stroke="#fffbeb" stroke-width="18"/>
+        <line x1="160" y1="260" x2="660" y2="260" stroke="#eab308" stroke-width="3" stroke-dasharray="8 4"/>
+        <!-- Center Island: GRAND DOME -->
+        <ellipse cx="410" cy="260" rx="76" ry="56" fill="#a7f3d0" stroke="#eab308" stroke-width="4"/>
+        <ellipse cx="410" cy="260" rx="62" ry="44" fill="#fffbeb" stroke="#f59e0b" stroke-width="2.5"/>
+        <ellipse cx="410" cy="255" rx="38" ry="27" fill="#0f172a"/>
+        <ellipse cx="410" cy="255" rx="30" ry="21" fill="#38bdf8" stroke="#bae6fd" stroke-width="2"/>
+        <text x="410" y="292" text-anchor="middle" font-size="13" font-weight="900" fill="#1e293b">GRAND DOME</text>
+        <!-- North Island: DISCOVERY -->
+        <text x="410" y="28" text-anchor="middle" font-size="11" font-weight="800" fill="#475569">BẮC</text>
+        <ellipse cx="410" cy="95" rx="68" ry="46" fill="#a7f3d0" stroke="#eab308" stroke-width="3.5"/>
+        <ellipse cx="410" cy="92" rx="54" ry="34" fill="#f3e8ff" stroke="#a855f7" stroke-width="2"/>
+        <circle cx="410" cy="84" r="18" fill="none" stroke="#7e22ce" stroke-width="2.2"/>
+        <ellipse cx="410" cy="84" rx="9" ry="18" fill="none" stroke="#7e22ce" stroke-width="1.6"/>
+        <line x1="392" y1="84" x2="428" y2="84" stroke="#7e22ce" stroke-width="1.6"/>
+        <rect x="352" y="106" width="116" height="22" rx="6" fill="#ffffff" stroke="#7e22ce" stroke-width="2"/>
+        <text x="410" y="121" text-anchor="middle" font-size="11" font-weight="900" fill="#6b21a8">DISCOVERY</text>
+        <!-- West Island: LAB -->
+        <text x="62" y="264" text-anchor="middle" font-size="11" font-weight="800" fill="#475569">TÂY</text>
+        <ellipse cx="160" cy="260" rx="68" ry="48" fill="#a7f3d0" stroke="#eab308" stroke-width="3.5"/>
+        <ellipse cx="160" cy="256" rx="54" ry="36" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+        <rect x="138" y="232" width="44" height="30" rx="4" fill="#ffffff" stroke="#0284c7" stroke-width="2.2"/>
+        <rect x="102" y="274" width="116" height="22" rx="6" fill="#ffffff" stroke="#0284c7" stroke-width="2"/>
+        <text x="160" y="289" text-anchor="middle" font-size="11" font-weight="900" fill="#0369a1">LAB</text>
+        <!-- East Island: MUSEUM -->
+        <text x="758" y="264" text-anchor="middle" font-size="11" font-weight="800" fill="#475569">ĐÔNG</text>
+        <ellipse cx="660" cy="260" rx="68" ry="48" fill="#a7f3d0" stroke="#eab308" stroke-width="3.5"/>
+        <ellipse cx="660" cy="256" rx="54" ry="36" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+        <ellipse cx="660" cy="238" rx="22" ry="9" fill="#bae6fd" stroke="#d97706" stroke-width="2"/>
+        <rect x="642" y="245" width="36" height="20" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+        <rect x="602" y="274" width="116" height="22" rx="6" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+        <text x="660" y="289" text-anchor="middle" font-size="11" font-weight="900" fill="#b45309">MUSEUM</text>
+        <!-- South Island: WONDER PARK -->
+        <text x="410" y="504" text-anchor="middle" font-size="11" font-weight="800" fill="#475569">NAM</text>
+        <ellipse cx="410" cy="425" rx="68" ry="48" fill="#a7f3d0" stroke="#eab308" stroke-width="3.5"/>
+        <ellipse cx="410" cy="422" rx="54" ry="36" fill="#dcfce7" stroke="#10b981" stroke-width="2"/>
+        <circle cx="410" cy="410" r="16" fill="#fef08a" stroke="#059669" stroke-width="2"/>
+        <circle cx="410" cy="410" r="6" fill="#f59e0b"/>
+        <rect x="348" y="438" width="124" height="22" rx="6" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+        <text x="410" y="453" text-anchor="middle" font-size="11" font-weight="900" fill="#047857">WONDER PARK</text>
+      </svg>
+    `
+  },
+  pa1: {
+    code: '01 / 05',
+    badge: 'PHƯƠNG ÁN 01 · TRỤC ĐỐI XỨNG CỔ ĐIỂN',
+    title: 'ĐẠI LỘ HOÀNG GIA PHÂN NHÁNH Y — Trục Lễ Tân Đối Xứng Kinh Điển',
+    gardenStyle: 'pastel',
+    idea: 'Từ Cổng Tri Thức đi qua Quảng Trường Đài Phun Nước Möbius và Quầy Lễ Tân Trung Tâm, đại lộ tách thành 2 nhánh đối xứng gương sang LAB (-42, -60) và MUSEUM (+42, -60), trục Nam đi thẳng tới WONDER PARK (0, 138).',
+    pros: [
+      'Cấu trúc chữ Y kinh điển, khoảng cách từ Lễ Tân tới LAB và MUSEUM bằng nhau tuyệt đối',
+      'Tối giản số lượng cầu, hiệu năng dựng hình cực nhẹ trên các thiết bị cấu hình thấp',
+      'Điểm nhìn mặt tiền hướng thẳng vào Quầy Lễ Tân và vòm kính Grand Dome'
+    ],
+    svg: `
+      <svg viewBox="0 0 820 520" xmlns="http://www.w3.org/2000/svg">
+        <rect width="820" height="520" rx="18" fill="#eff6ff"/>
+        <line x1="410" y1="260" x2="210" y2="120" stroke="#fde047" stroke-width="22"/>
+        <line x1="410" y1="260" x2="610" y2="120" stroke="#fde047" stroke-width="22"/>
+        <line x1="410" y1="260" x2="410" y2="430" stroke="#fde047" stroke-width="22"/>
+        <line x1="410" y1="260" x2="140" y2="260" stroke="#a7f3d0" stroke-width="16"/>
+        <circle cx="410" cy="260" r="56" fill="#fffbeb" stroke="#eab308" stroke-width="5"/>
+        <text x="410" y="265" text-anchor="middle" font-weight="900" font-size="13" fill="#0f172a">SẢNH GRAND DOME</text>
+        <rect x="140" y="70" width="140" height="90" rx="16" fill="#bae6fd" stroke="#0284c7" stroke-width="4"/>
+        <text x="210" y="120" text-anchor="middle" font-weight="900" fill="#0369a1">MATHVERSE LAB</text>
+        <circle cx="610" cy="115" r="58" fill="#f3e8ff" stroke="#9333ea" stroke-width="4"/>
+        <text x="610" y="120" text-anchor="middle" font-weight="900" fill="#6b21a8">MUSEUM</text>
+        <rect x="65" y="220" width="120" height="80" rx="14" fill="#ccfbf1" stroke="#0d9488" stroke-width="4"/>
+        <text x="125" y="265" text-anchor="middle" font-weight="900" fill="#0f766e">DISCOVERY</text>
+        <circle cx="410" cy="430" r="58" fill="#dcfce7" stroke="#10b981" stroke-width="4"/>
+        <text x="410" y="435" text-anchor="middle" font-weight="900" fill="#047857">WONDER PARK</text>
+      </svg>
+    `
+  },
+  pa2: {
+    code: '02 / 05',
+    badge: 'PHƯƠNG ÁN 02 · HÌNH HỌC ĐA GIÁC ĐỀU',
+    title: 'QUẢNG TRƯỜNG SAO BÁT GIÁC — La Bàn 8 Hướng Toán Học',
+    gardenStyle: 'starlight',
+    idea: 'Sảnh trung tâm được thiết kế thành hình Ngôi Sao Bát Giác đều (Octagram) nội tiếp đường tròn, 4 đỉnh chính nối 4 khối kiến trúc, 4 đỉnh phụ đặt 4 Tháp Lăng Kính Tinh Thể chỉ hướng.',
+    pros: [
+      'Biểu tượng trực quan cho bài Đa Giác Đều & Phép Quay bảo toàn hình (Toán 6 & Toán 9)',
+      'Hiệu ứng lăng kính pha lê phát sáng nổi bật ở cả chế độ Ban ngày và Ban đêm',
+      'Nhìn từ trên cao tạo thành ngôi sao 8 cánh cân đối'
+    ],
+    svg: `
+      <svg viewBox="0 0 820 520" xmlns="http://www.w3.org/2000/svg">
+        <rect width="820" height="520" rx="18" fill="#f5f3ff"/>
+        <polygon points="410,90 465,205 580,260 465,315 410,430 355,315 240,260 355,205" fill="#fef3c7" stroke="#f59e0b" stroke-width="4"/>
+        <circle cx="410" cy="260" r="52" fill="#38bdf8" stroke="#eab308" stroke-width="4"/>
+        <text x="410" y="265" text-anchor="middle" font-weight="900" font-size="13" fill="#fff">GRAND DOME</text>
+        <circle cx="410" cy="85" r="44" fill="#f3e8ff" stroke="#9333ea" stroke-width="3.5"/><text x="410" y="90" text-anchor="middle" font-weight="900" font-size="12" fill="#6b21a8">DISCOVERY</text>
+        <circle cx="200" cy="260" r="48" fill="#e0f2fe" stroke="#0284c7" stroke-width="3.5"/><text x="200" y="265" text-anchor="middle" font-weight="900" font-size="12" fill="#0369a1">LAB</text>
+        <circle cx="620" cy="260" r="48" fill="#fef3c7" stroke="#d97706" stroke-width="3.5"/><text x="620" y="265" text-anchor="middle" font-weight="900" font-size="12" fill="#b45309">MUSEUM</text>
+        <circle cx="410" cy="435" r="48" fill="#dcfce7" stroke="#10b981" stroke-width="3.5"/><text x="410" y="440" text-anchor="middle" font-weight="900" font-size="12" fill="#047857">WONDER PARK</text>
+      </svg>
+    `
+  },
+  pa3: {
+    code: '03 / 05',
+    badge: 'PHƯƠNG ÁN 03 · CẢNH QUAN BẬC THANG',
+    title: 'SẢNH VƯỜN ĐỊA ĐÀNG ĐỒNG TÂM — Hồ Gương & Thảm Thực Vật 3 Tầng',
+    gardenStyle: 'fountain',
+    idea: 'Tổ chức sảnh thành 3 vành đai vườn & hồ nước đồng tâm xếp bậc thang nhẹ, trung tâm là Đài Phun Nước Vô Cực Möbius, 4 lối đi lát đá cẩm thạch băng qua mặt hồ dẫn tới 4 phân khu.',
+    pros: [
+      'Không gian xanh mát, thư giãn mắt cho học sinh khi chuyển tiếp giữa các giờ học',
+      'Mặt nước phản chiếu bầu trời và vòm kính Grand Dome',
+      'Tương phản màu sắc xanh lục bảo – vàng kim rất dịu mắt'
+    ],
+    svg: `
+      <svg viewBox="0 0 820 520" xmlns="http://www.w3.org/2000/svg">
+        <rect width="820" height="520" rx="18" fill="#ecfdf5"/>
+        <circle cx="410" cy="260" r="175" fill="#a7f3d0" stroke="#10b981" stroke-width="3"/>
+        <circle cx="410" cy="260" r="130" fill="#bae6fd" stroke="#0284c7" stroke-width="3"/>
+        <rect x="392" y="70" width="36" height="380" fill="#fffbeb" stroke="#eab308" stroke-width="2"/>
+        <rect x="170" y="242" width="480" height="36" fill="#fffbeb" stroke="#eab308" stroke-width="2"/>
+        <circle cx="410" cy="260" r="55" fill="#fffbeb" stroke="#eab308" stroke-width="4"/>
+        <text x="410" y="265" text-anchor="middle" font-weight="900" font-size="13" fill="#065f46">GRAND DOME</text>
+        <text x="410" y="60" text-anchor="middle" font-weight="900" fill="#6b21a8">▲ DISCOVERY</text>
+        <text x="120" y="265" text-anchor="middle" font-weight="900" fill="#0369a1">◄ LAB</text>
+        <text x="700" y="265" text-anchor="middle" font-weight="900" fill="#b45309">MUSEUM ►</text>
+        <text x="410" y="475" text-anchor="middle" font-weight="900" fill="#047857">▼ WONDER PARK</text>
+      </svg>
+    `
+  },
+  pa5: {
+    code: '05 / 05',
+    badge: 'PHƯƠNG ÁN 05 · ĐA TẦNG HIỆN ĐẠI',
+    title: 'GIAO LỘ PHA LÊ ĐA TẦNG CẦU VỒNG — Skybridge Nexus 2 Cao Độ',
+    gardenStyle: 'skybridge',
+    idea: 'Kết hợp Quảng trường mặt đất với Vòng Cầu Kính Trên Không (Elevated Skybridge Ring) kèm các cổng vòm pha lê đa sắc nối 4 khu vực, tạo hiệu ứng thị giác 2 tầng đường bộ.',
+    pros: [
+      'Thể hiện rõ tinh thần kiến trúc tương lai Sci-Fi / Cyberpunk giáo dục',
+      'Hệ cổng vòm pha lê dọc vòng cầu tạo nhịp điệu thị giác mạnh khi di chuyển',
+      'Phù hợp khi trình chiếu giới thiệu tổng quan dự án'
+    ],
+    svg: `
+      <svg viewBox="0 0 820 520" xmlns="http://www.w3.org/2000/svg">
+        <rect width="820" height="520" rx="18" fill="#0f172a"/>
+        <ellipse cx="410" cy="260" rx="250" ry="165" fill="none" stroke="#c084fc" stroke-width="14" opacity="0.55"/>
+        <ellipse cx="410" cy="260" rx="200" ry="130" fill="none" stroke="#38bdf8" stroke-width="8" stroke-dasharray="10 6"/>
+        <line x1="410" y1="95" x2="410" y2="425" stroke="#fde047" stroke-width="14"/>
+        <line x1="160" y1="260" x2="660" y2="260" stroke="#fde047" stroke-width="14"/>
+        <circle cx="410" cy="260" r="60" fill="#1e293b" stroke="#38bdf8" stroke-width="4"/>
+        <text x="410" y="265" text-anchor="middle" font-weight="900" font-size="13" fill="#38bdf8">SKYBRIDGE DOME</text>
+        <circle cx="410" cy="95" r="42" fill="#581c87" stroke="#e879f9" stroke-width="3"/><text x="410" y="99" text-anchor="middle" font-weight="900" font-size="11" fill="#fff">DISCOVERY</text>
+        <circle cx="160" cy="260" r="42" fill="#0c4a6e" stroke="#38bdf8" stroke-width="3"/><text x="160" y="264" text-anchor="middle" font-weight="900" font-size="11" fill="#fff">LAB</text>
+        <circle cx="660" cy="260" r="42" fill="#78350f" stroke="#fbbf24" stroke-width="3"/><text x="660" y="264" text-anchor="middle" font-weight="900" font-size="11" fill="#fff">MUSEUM</text>
+        <circle cx="410" cy="425" r="42" fill="#064e3b" stroke="#34d399" stroke-width="3"/><text x="410" y="429" text-anchor="middle" font-weight="900" font-size="11" fill="#fff">WONDER PARK</text>
+      </svg>
+    `
+  }
+};
+
+const ROOM_PLANS = {
+  current: {
+    badge: 'BỐ TRÍ HIỆN TẠI · ĐỂ ĐỐI CHIẾU',
+    title: 'Hiện Tại: Sơ Đồ Lưới Hàng Ngang / Hành Lang Dài',
+    idea: 'Các bục mô hình hoặc khung tranh được xếp thành lưới 3×3 hoặc dọc hai bên hành lang thẳng.',
+    pros: [
+      'Nhược điểm: Khi học sinh đứng ở cửa phòng, hàng bục thứ 1 che khuất ~35% tầm nhìn tới hàng bục thứ 2 và thứ 3.',
+      'Nhược điểm: Học sinh phải đi bộ sâu vào từng hàng mới đọc được hết tiêu đề mô hình/bài học.',
+      'Chưa tận dụng được chiều cao không gian đa tầng để tạo tầm nhìn toàn cảnh.'
+    ],
+    svg: `
+      <svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg">
+        <rect width="760" height="440" rx="16" fill="#f1f5f9"/>
+        <rect x="130" y="30" width="500" height="380" rx="12" fill="#ffffff" stroke="#334155" stroke-width="4"/>
+        <text x="380" y="62" text-anchor="middle" font-weight="900" font-size="15" fill="#0f172a">MẶT BẰNG LƯỚI 3×3 HIỆN TẠI (HÀNG TRƯỚC CHE HÀNG SAU)</text>
+        <!-- Sightline blocked rays -->
+        <line x1="380" y1="375" x2="240" y2="115" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="6 4"/>
+        <line x1="380" y1="375" x2="380" y2="115" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="6 4"/>
+        <line x1="380" y1="375" x2="520" y2="115" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="6 4"/>
+        <!-- 3x3 grid pedestals -->
+        <g fill="#cbd5e1" stroke="#475569" stroke-width="2.5">
+          <rect x="215" y="100" width="50" height="50" rx="8"/><rect x="355" y="100" width="50" height="50" rx="8"/><rect x="495" y="100" width="50" height="50" rx="8"/>
+          <rect x="215" y="190" width="50" height="50" rx="8"/><rect x="355" y="190" width="50" height="50" rx="8"/><rect x="495" y="190" width="50" height="50" rx="8"/>
+          <rect x="215" y="280" width="50" height="50" rx="8" fill="#bae6fd"/><rect x="355" y="280" width="50" height="50" rx="8" fill="#bae6fd"/><rect x="495" y="280" width="50" height="50" rx="8" fill="#bae6fd"/>
+        </g>
+        <circle cx="380" cy="375" r="18" fill="#0284c7" stroke="#fff" stroke-width="3"/>
+        <text x="380" y="404" text-anchor="middle" font-weight="900" font-size="12" fill="#0369a1">VỊ TRÍ HỌC SINH ĐỨNG Ở CỬA (BỊ KHUẤT 2 HÀNG SAU)</text>
+      </svg>
+    `
+  },
+  rpa1: {
+    badge: 'PHƯƠNG ÁN TỐI ƯU NHẤT CHO HỌC SINH ★ (ĐIỂM: 9.9 / 10)',
+    title: 'PA1 · Vòng Cung Khán Đài Đồng Tâm Đa Tầng (Amphitheater Concentric Arc)',
+    idea: 'Học sinh vừa bước qua cửa sẽ đứng tại Đĩa La Bàn Trung Tâm. Toàn bộ Cổng Chương SGK, Bục Mô Hình 3D (Lab) hoặc Khung Tranh (Museum / Discovery) được xếp theo 2–3 vòng cung đồng tâm nâng cao dần như khán đài nhà hát (Tầng 1: +0.0m, Tầng 2: +0.6m, Tầng 3: +1.2m), mọi bảng tên đều xoay hướng Pháp Tuyến nhìn thẳng vào mắt học sinh!',
+    pros: [
+      '0% BỊ CHE KHUẤT TẦM NHÌN: Vòng trong thấp, vòng ngoài cao hơn 0.6m–1.2m và xếp so le góc (staggered radial angles) nên không bục nào che bục nào!',
+      'ĐỨNG 1 CHỖ QUAN SÁT 100% PHÒNG: Học sinh chỉ cần xoay chuột nhẹ tại tâm là đọc rõ toàn bộ tên Chương, tên Mô hình 3D và tranh Infographic.',
+      'TIA DẪN ĐƯỜNG TRỰC QUAN: Dưới sàn có các tia la bàn phát sáng nối thẳng từ vị trí chân học sinh tới từng Cổng Chương / Bục mô hình.',
+      'ĐỐI XỨNG TUYỆT ĐỐI TỪ TRÊN CAO: Khi bật chế độ Góc nhìn Trên Cao (phím T) hoặc Toàn cảnh (phím O), cả phòng hiện ra như một đóa hoa đồng tâm hoàn hảo.'
+    ],
+    svg: `
+      <svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg">
+        <rect width="760" height="440" rx="16" fill="#ecfeff"/>
+        <!-- Stepped Concentric Arcs -->
+        <path d="M 100 370 A 280 280 0 0 1 660 370" fill="none" stroke="#fde047" stroke-width="36" opacity="0.35"/>
+        <path d="M 165 370 A 215 215 0 0 1 595 370" fill="none" stroke="#38bdf8" stroke-width="32" opacity="0.28"/>
+        <!-- Clear sightlines from Student at Center -->
+        <g stroke="#10b981" stroke-width="2" stroke-dasharray="5 4">
+          <line x1="380" y1="370" x2="145" y2="220"/>
+          <line x1="380" y1="370" x2="220" y2="125"/>
+          <line x1="380" y1="370" x2="380" y2="85"/>
+          <line x1="380" y1="370" x2="540" y2="125"/>
+          <line x1="380" y1="370" x2="615" y2="220"/>
+          <line x1="380" y1="370" x2="215" y2="255"/>
+          <line x1="380" y1="370" x2="310" y2="175"/>
+          <line x1="380" y1="370" x2="450" y2="175"/>
+          <line x1="380" y1="370" x2="545" y2="255"/>
+        </g>
+        <!-- Outer Tier (+1.2m) Chapter Portals / Exhibits -->
+        <g fill="#f59e0b" stroke="#fff" stroke-width="2.5">
+          <circle cx="145" cy="220" r="22"/><circle cx="220" cy="125" r="22"/><circle cx="380" cy="85" r="24"/><circle cx="540" cy="125" r="22"/><circle cx="615" cy="220" r="22"/>
+        </g>
+        <!-- Inner Tier (+0.6m) Staggered 3D Model Pedestals -->
+        <g fill="#0284c7" stroke="#fff" stroke-width="2.5">
+          <circle cx="215" cy="255" r="19"/><circle cx="310" cy="175" r="19"/><circle cx="450" cy="175" r="19"/><circle cx="545" cy="255" r="19"/>
+        </g>
+        <!-- Student at Compass Hub -->
+        <circle cx="380" cy="370" r="32" fill="#0f172a" stroke="#fbbf24" stroke-width="4"/>
+        <circle cx="380" cy="370" r="14" fill="#34d399"/>
+        <text x="380" y="34" text-anchor="middle" font-weight="900" font-size="15" fill="#0f172a">★ PA1: VÒNG CUNG KHÁN ĐÀI ĐỒNG TÂM ĐA TẦNG (100% TẦM NHÌN KHÔNG BỊ CHE)</text>
+        <text x="380" y="422" text-anchor="middle" font-weight="900" font-size="13" fill="#047857">ĐĨA LA BÀN HỌC SINH ĐỨNG · QUAN SÁT TRỌN VẸN CẢ 2 TẦNG VÒNG CUNG</text>
+      </svg>
+    `
+  },
+  rpa2: {
+    badge: 'PHƯƠNG ÁN ĐA TẦNG THÔNG TẦNG (ĐIỂM: 9.5 / 10)',
+    title: 'PA2 · Giếng Trời Thông Tầng Bát Giác (Multi-Story Octagonal Atrium & Mezzanine)',
+    idea: 'Phòng được xây 2–3 tầng đối xứng bát giác quanh một Giếng Trời Thông Tầng (Atrium) ở chính giữa. Tầng 1 trưng bày mô hình tương tác chính, Tầng 2 (Mezzanine) là hành lang vòng cung nhìn xuống Tầng 1 và treo các bộ sưu tập chuyên đề.',
+    pros: [
+      'Đứng ở lan can Tầng 2 có thể nhìn bao quát toàn bộ Tầng 1 bên dưới',
+      'Tăng gấp đôi diện tích trưng bày mà không làm phòng bị dài hay rộng quá mức',
+      'Đã được ứng dụng mẫu tại Phòng Tranh B (2 tầng: Tầng 1 Thiên nhiên, Tầng 2 Kỹ thuật) của khu Discovery R107!'
+    ],
+    svg: `
+      <svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg">
+        <rect width="760" height="440" rx="16" fill="#faf5ff"/>
+        <polygon points="270,50 490,50 640,150 640,310 490,410 270,410 120,310 120,150" fill="#f3e8ff" stroke="#7e22ce" stroke-width="4"/>
+        <polygon points="315,125 445,125 535,185 535,275 445,335 315,335 225,275 225,185" fill="#ffffff" stroke="#eab308" stroke-width="4" stroke-dasharray="8 4"/>
+        <circle cx="380" cy="230" r="46" fill="#bae6fd" stroke="#0284c7" stroke-width="3"/>
+        <text x="380" y="235" text-anchor="middle" font-weight="900" font-size="12" fill="#0369a1">GIẾNG TRỜI</text>
+        <text x="380" y="88" text-anchor="middle" font-weight="900" font-size="13" fill="#6b21a8">TẦNG LỬNG MEZZANINE (NHÌN XUỐNG TOÀN CẢNH TẦNG 1)</text>
+      </svg>
+    `
+  },
+  rpa3: {
+    badge: 'PHƯƠNG ÁN PHÂN NHÓM CHUYÊN ĐỀ (ĐIỂM: 9.1 / 10)',
+    title: 'PA3 · Hoa Sen 6 Cánh Đối Xứng Tâm (Radial Petal Alcoves)',
+    idea: 'Từ sảnh tròn trung tâm của phòng, không gian mở ra 6 cánh hoa đối xứng (mỗi cánh dành riêng cho 1 Chương SGK hoặc 1 chủ đề: Đại số, Hình học phẳng, Hình học không gian, Thống kê, Thực tiễn, Trò chơi).',
+    pros: [
+      'Không bị nhiễu thị giác giữa các chương khác nhau',
+      'Kiến trúc đồng bộ hoàn hảo với tòa Bảo tàng Hoa Sen 7 Cánh bên ngoài',
+      'Dễ dàng mở rộng thêm cánh phòng mới'
+    ],
+    svg: `
+      <svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg">
+        <rect width="760" height="440" rx="16" fill="#fff1f2"/>
+        <circle cx="380" cy="105" r="62" fill="#fecdd3" stroke="#e11d48" stroke-width="3"/>
+        <circle cx="380" cy="335" r="62" fill="#fecdd3" stroke="#e11d48" stroke-width="3"/>
+        <circle cx="255" cy="165" r="62" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+        <circle cx="505" cy="165" r="62" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+        <circle cx="255" cy="275" r="62" fill="#bae6fd" stroke="#0284c7" stroke-width="3"/>
+        <circle cx="505" cy="275" r="62" fill="#bae6fd" stroke="#0284c7" stroke-width="3"/>
+        <circle cx="380" cy="220" r="72" fill="#ffffff" stroke="#eab308" stroke-width="4"/>
+        <text x="380" y="225" text-anchor="middle" font-weight="900" font-size="13" fill="#0f172a">TÂM HOA SEN 6 CÁNH</text>
+      </svg>
+    `
+  },
+  rpa4: {
+    badge: 'PHƯƠNG ÁN HÀNH LANG NGHIÊNG (ĐIỂM: 8.8 / 10)',
+    title: 'PA4 · Đại Lộ Xương Cá Nghiêng 45° (Angled Herringbone Gallery)',
+    idea: 'Thay vì đặt vách tranh/bục song song với tường, toàn bộ vách và bục được xoay nghiêng 45° hướng về lối đi trung tâm.',
+    pros: [
+      'Học sinh vừa đi thẳng vừa nhìn thấy mặt chính diện của toàn bộ tranh và mô hình hai bên mà không cần quay đầu 90°',
+      'Giảm hiện tượng bóng lóa trên mặt tranh'
+    ],
+    svg: `
+      <svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg">
+        <rect width="760" height="440" rx="16" fill="#f0fdf4"/>
+        <rect x="340" y="40" width="80" height="360" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+        <g fill="#34d399" stroke="#065f46" stroke-width="2.5">
+          <rect x="210" y="90" width="90" height="24" transform="rotate(-30 255 102)"/>
+          <rect x="210" y="180" width="90" height="24" transform="rotate(-30 255 192)"/>
+          <rect x="210" y="270" width="90" height="24" transform="rotate(-30 255 282)"/>
+          <rect x="460" y="90" width="90" height="24" transform="rotate(30 505 102)"/>
+          <rect x="460" y="180" width="90" height="24" transform="rotate(30 505 192)"/>
+          <rect x="460" y="270" width="90" height="24" transform="rotate(30 505 282)"/>
+        </g>
+        <text x="380" y="32" text-anchor="middle" font-weight="900" font-size="14" fill="#065f46">PA4: BỤC &amp; VÁCH XOAY NGHIÊNG 45° HƯỚNG VỀ LỐI ĐI CHÍNH</text>
+      </svg>
+    `
+  },
+  rpa5: {
+    badge: 'PHƯƠNG ÁN DỐC XOẮN ỐC ĐA TẦNG (ĐIỂM: 9.3 / 10)',
+    title: 'PA5 · Quỹ Đạo Xoắn Ốc Vàng Fibonacci (Golden Spiral Multi-Tier Ramp)',
+    idea: 'Lấy cảm hứng từ bảo tàng Guggenheim và dãy số Fibonacci, lối đi là một đường dốc xoắn ốc nâng cao dần từ tâm ra ngoài (hoặc từ tầng trệt lên đỉnh vòm).',
+    pros: [
+      'Học sinh chỉ cần đi dọc một đường xoắn ốc duy nhất là xem hết 100% bài học theo đúng thứ tự SGK mà không bỏ sót bài nào',
+      'Hình dáng đường xoắn ốc vàng (Golden Spiral) chính là một biểu tượng Toán học tuyệt đẹp khi nhìn từ trên cao'
+    ],
+    svg: `
+      <svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg">
+        <rect width="760" height="440" rx="16" fill="#fffbeb"/>
+        <path d="M 380 220 m 0 0 a 20 20 0 1 0 40 0 a 45 45 0 1 0 -90 0 a 75 75 0 1 0 150 0 a 110 110 0 1 0 -220 0 a 150 150 0 1 0 300 0" fill="none" stroke="#f59e0b" stroke-width="18" stroke-linecap="round"/>
+        <circle cx="380" cy="220" r="18" fill="#0284c7"/>
+        <text x="380" y="34" text-anchor="middle" font-weight="900" font-size="14" fill="#92400e">PA5: ĐƯỜNG DỐC XOẮN ỐC VÀNG FIBONACCI ĐA TẦNG</text>
+      </svg>
+    `
+  }
+};
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.style.display = 'block';
+  clearTimeout(window.__toastTimer);
+  window.__toastTimer = setTimeout(() => { t.style.display = 'none'; }, 3200);
+}
+
+function renderLobbyPA(key) {
+  const data = LOBBY_PLANS[key] || LOBBY_PLANS.pa4;
+  document.getElementById('lobby-svg-container').innerHTML = data.svg;
+  document.getElementById('lobby-info-panel').innerHTML = `
+    <div>
+      <span class="badge badge-gold">${data.code} · ${data.badge}</span>
+      <h3>${data.title}</h3>
+      <p><strong>Ý tưởng quy hoạch:</strong> ${data.idea}</p>
+      <strong>Ưu điểm nổi bật:</strong>
+      <ul class="pros-list">
+        ${data.pros.map(p => `<li>${p}</li>`).join('')}
+      </ul>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;">
+      <button class="btn btn-gold" onclick="applyLobbyStyle('${data.gardenStyle}', '${data.title}')">🚀 Áp Dụng Sơ Đồ Này Vào Sảnh 3D</button>
+      <a class="btn" href="/?v=107.4">Mở Sảnh 3D Ngay ➔</a>
+    </div>
+  `;
+  document.querySelectorAll('#lobby-pills .opt-pill').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.pa === key);
+  });
+}
+
+function renderRoomPA(key) {
+  const data = ROOM_PLANS[key] || ROOM_PLANS.rpa1;
+  document.getElementById('room-svg-container').innerHTML = data.svg;
+  document.getElementById('room-info-panel').innerHTML = `
+    <div>
+      <span class="badge badge-gold">${data.badge}</span>
+      <h3>${data.title}</h3>
+      <p><strong>Cấu trúc không gian:</strong> ${data.idea}</p>
+      <strong>Phân tích tầm nhìn &amp; sư phạm:</strong>
+      <ul class="pros-list">
+        ${data.pros.map(p => `<li>${p}</li>`).join('')}
+      </ul>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;">
+      <a class="btn btn-gold" href="/r75/">⚗ Trải Nghiệm Vòng Cung Cổng Chương Trong LAB</a>
+      <a class="btn" href="/?v=107.4">🏛 Trải Nghiệm Trong Sảnh 3D</a>
+    </div>
+  `;
+  document.querySelectorAll('#room-pills .opt-pill').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.rpa === key);
+  });
+}
+
+window.applyLobbyStyle = function(styleId, title) {
+  try {
+    localStorage.setItem('mathverse-cartoon-garden', styleId);
+    showToast('Đã áp dụng: ' + title + ' vào Sảnh 3D!');
+  } catch {}
+};
+
+window.applyArchPreset = function(labId, museumId, gardenId) {
+  try {
+    localStorage.setItem('mathverse-cartoon-lab', labId);
+    localStorage.setItem('mathverse-cartoon-museum', museumId);
+    localStorage.setItem('mathverse-cartoon-garden', gardenId);
+    showToast('Đã lưu cấu trúc 4 khối kiến trúc (' + labId + ' / ' + museumId + ')! Mở Sảnh 3D để xem.');
+  } catch {}
+};
+
+window.selectChibiAvatar = function(avatarId) {
+  try {
+    localStorage.setItem('mathverse_avatar', avatarId);
+    showToast('Đã chọn nhân vật Chibi 3D Cartoon: ' + avatarId.toUpperCase() + '!');
+  } catch {}
+};
+
+document.querySelectorAll('#lobby-pills .opt-pill').forEach(btn => {
+  btn.addEventListener('click', () => renderLobbyPA(btn.dataset.pa));
+});
+document.querySelectorAll('#room-pills .opt-pill').forEach(btn => {
+  btn.addEventListener('click', () => renderRoomPA(btn.dataset.rpa));
+});
+
+renderLobbyPA('pa4');
+renderRoomPA('rpa1');
+</script>
+</body>
+</html>
+

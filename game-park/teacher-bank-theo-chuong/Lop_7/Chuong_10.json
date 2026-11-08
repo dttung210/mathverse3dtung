@@ -1,0 +1,4085 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 7,
+      "chapter": 10,
+      "roman": "X",
+      "title": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "7-10-01",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Một hình lập phương có độ dài cạnh bằng 3 cm. Thể tích của hình lập phương đó là",
+          "choices": {
+            "A": "27 cm^{3}",
+            "B": "27 cm^{3} (1)",
+            "C": "36 cm^{3}",
+            "D": "54 cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hình lập phương có độ dài cạnh bằng 3 cm. Thể tích của hình lập phương đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "27 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " (1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "54 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Một hình lập phương có độ dài cạnh bằng 3 cm. Thể tích của hình lập phương đó là",
+            "choices": {
+              "A": "27 cm$^3$",
+              "B": "27 cm$^3$ (1)",
+              "C": "36 cm$^3$",
+              "D": "54 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-02",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Một hình hộp chữ nhật có ba kích thước là 3 cm, 4 cm và 5 cm. Thể tích hình hộp chữ nhật đó bằng.",
+          "choices": {
+            "A": "60 cm^{3}",
+            "B": "70 cm^{3}",
+            "C": "12 cm^{3}",
+            "D": "24 cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Một hình hộp chữ nhật có ba kích thước là 3 cm, 4 cm và 5 cm. Thể tích hình hộp chữ nhật đó bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "70 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Một hình hộp chữ nhật có ba kích thước là 3 cm, 4 cm và 5 cm. Thể tích hình hộp chữ nhật đó bằng.",
+            "choices": {
+              "A": "60 cm$^3$",
+              "B": "70 cm$^3$",
+              "C": "12 cm$^3$",
+              "D": "24 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-03",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương X, xét nội dung: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt. Đáp án đúng là",
+          "choices": {
+            "A": "6 đỉnh, 6 cạnh, 5 mặt",
+            "B": "4 đỉnh, 6 cạnh, 4 mặt",
+            "C": "6 đỉnh, 9 cạnh, 5 mặt",
+            "D": "8 đỉnh, 12 cạnh, 6 mặt"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương X, xét nội dung: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 6 cạnh, 5 mặt"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 đỉnh, 6 cạnh, 4 mặt"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 9 cạnh, 5 mặt"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 đỉnh, 12 cạnh, 6 mặt"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương X, xét nội dung: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt. Đáp án đúng là",
+            "choices": {
+              "A": "6 đỉnh, 6 cạnh, 5 mặt",
+              "B": "4 đỉnh, 6 cạnh, 4 mặt",
+              "C": "6 đỉnh, 9 cạnh, 5 mặt",
+              "D": "8 đỉnh, 12 cạnh, 6 mặt"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-04",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương X (Một số hình khối trong thực tiễn), một hình lập phương có độ dài cạnh bằng 6 cm. Thể tích của hình lập phương đó là",
+          "choices": {
+            "A": "216 cm^{3} (1)",
+            "B": "144 cm^{3}",
+            "C": "216 cm^{3}",
+            "D": "72 cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương X (Một số hình khối trong thực tiễn), một hình lập phương có độ dài cạnh bằng 6 cm. Thể tích của hình lập phương đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "216 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " (1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "144 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "216 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "72 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương X (Một số hình khối trong thực tiễn), một hình lập phương có độ dài cạnh bằng 6 cm. Thể tích của hình lập phương đó là",
+            "choices": {
+              "A": "216 cm$^3$ (1)",
+              "B": "144 cm$^3$",
+              "C": "216 cm$^3$",
+              "D": "72 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-05",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Một hình hộp chữ nhật có ba kích thước là 6 cm, 7 cm và 8 cm. Thể tích hình hộp chữ nhật đó bằng",
+          "choices": {
+            "A": "21 cm^{3}",
+            "B": "84 cm^{3}",
+            "C": "208 cm^{3}",
+            "D": "336 cm^{3}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Một hình hộp chữ nhật có ba kích thước là 6 cm, 7 cm và 8 cm. Thể tích hình hộp chữ nhật đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "84 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "208 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "336 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Một hình hộp chữ nhật có ba kích thước là 6 cm, 7 cm và 8 cm. Thể tích hình hộp chữ nhật đó bằng",
+            "choices": {
+              "A": "21 cm$^3$",
+              "B": "84 cm$^3$",
+              "C": "208 cm$^3$",
+              "D": "336 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-06",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về một số hình khối trong thực tiễn, một học sinh gặp câu hỏi: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "4 đỉnh, 6 cạnh, 4 mặt",
+            "B": "6 đỉnh, 9 cạnh, 5 mặt",
+            "C": "6 đỉnh, 6 cạnh, 5 mặt",
+            "D": "8 đỉnh, 12 cạnh, 6 mặt"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về một số hình khối trong thực tiễn, một học sinh gặp câu hỏi: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 đỉnh, 6 cạnh, 4 mặt"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 9 cạnh, 5 mặt"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 6 cạnh, 5 mặt"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 đỉnh, 12 cạnh, 6 mặt"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về một số hình khối trong thực tiễn, một học sinh gặp câu hỏi: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "4 đỉnh, 6 cạnh, 4 mặt",
+              "B": "6 đỉnh, 9 cạnh, 5 mặt",
+              "C": "6 đỉnh, 6 cạnh, 5 mặt",
+              "D": "8 đỉnh, 12 cạnh, 6 mặt"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-07",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hình lập phương có độ dài cạnh bằng 9 cm. Thể tích của hình lập phương đó là",
+          "choices": {
+            "A": "324 cm^{3}",
+            "B": "486 cm^{3}",
+            "C": "108 cm^{3}",
+            "D": "729 cm^{3}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hình lập phương có độ dài cạnh bằng 9 cm. Thể tích của hình lập phương đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "324 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "486 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "108 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "729 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hình lập phương có độ dài cạnh bằng 9 cm. Thể tích của hình lập phương đó là",
+            "choices": {
+              "A": "324 cm$^3$",
+              "B": "486 cm$^3$",
+              "C": "108 cm$^3$",
+              "D": "729 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-08",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương X: Một hình hộp chữ nhật có ba kích thước là 9 cm, 10 cm và 11 cm. Thể tích hình hộp chữ nhật đó bằng",
+          "choices": {
+            "A": "418 cm^{3}",
+            "B": "990 cm^{3}",
+            "C": "30 cm^{3}",
+            "D": "180 cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương X: Một hình hộp chữ nhật có ba kích thước là 9 cm, 10 cm và 11 cm. Thể tích hình hộp chữ nhật đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "418 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "990 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "30 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "180 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương X: Một hình hộp chữ nhật có ba kích thước là 9 cm, 10 cm và 11 cm. Thể tích hình hộp chữ nhật đó bằng",
+            "choices": {
+              "A": "418 cm$^3$",
+              "B": "990 cm$^3$",
+              "C": "30 cm$^3$",
+              "D": "180 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-09",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt?",
+          "choices": {
+            "A": "6 đỉnh, 6 cạnh, 5 mặt",
+            "B": "8 đỉnh, 12 cạnh, 6 mặt",
+            "C": "6 đỉnh, 9 cạnh, 5 mặt",
+            "D": "4 đỉnh, 6 cạnh, 4 mặt"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 6 cạnh, 5 mặt"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 đỉnh, 12 cạnh, 6 mặt"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 9 cạnh, 5 mặt"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 đỉnh, 6 cạnh, 4 mặt"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt?",
+            "choices": {
+              "A": "6 đỉnh, 6 cạnh, 5 mặt",
+              "B": "8 đỉnh, 12 cạnh, 6 mặt",
+              "C": "6 đỉnh, 9 cạnh, 5 mặt",
+              "D": "4 đỉnh, 6 cạnh, 4 mặt"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-10",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Một hình lập phương có độ dài cạnh bằng 12 cm. Thể tích của hình lập phương đó là. Phương án chính xác là",
+          "choices": {
+            "A": "144 cm^{3}",
+            "B": "576 cm^{3}",
+            "C": "1728 cm^{3}",
+            "D": "864 cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Một hình lập phương có độ dài cạnh bằng 12 cm. Thể tích của hình lập phương đó là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "144 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "576 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1728 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "864 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Một hình lập phương có độ dài cạnh bằng 12 cm. Thể tích của hình lập phương đó là. Phương án chính xác là",
+            "choices": {
+              "A": "144 cm$^3$",
+              "B": "576 cm$^3$",
+              "C": "1728 cm$^3$",
+              "D": "864 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-11",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Một hình hộp chữ nhật có ba kích thước là 12 cm, 13 cm và 14 cm. Thể tích hình hộp chữ nhật đó bằng",
+          "choices": {
+            "A": "700 cm^{3}",
+            "B": "2184 cm^{3}",
+            "C": "312 cm^{3}",
+            "D": "39 cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Một hình hộp chữ nhật có ba kích thước là 12 cm, 13 cm và 14 cm. Thể tích hình hộp chữ nhật đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "700 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2184 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "312 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "39 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Một hình hộp chữ nhật có ba kích thước là 12 cm, 13 cm và 14 cm. Thể tích hình hộp chữ nhật đó bằng",
+            "choices": {
+              "A": "700 cm$^3$",
+              "B": "2184 cm$^3$",
+              "C": "312 cm$^3$",
+              "D": "39 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-12",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương X): Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt",
+          "choices": {
+            "A": "8 đỉnh, 12 cạnh, 6 mặt",
+            "B": "6 đỉnh, 9 cạnh, 5 mặt",
+            "C": "6 đỉnh, 6 cạnh, 5 mặt",
+            "D": "4 đỉnh, 6 cạnh, 4 mặt"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương X): Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8 đỉnh, 12 cạnh, 6 mặt"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 9 cạnh, 5 mặt"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 6 cạnh, 5 mặt"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 đỉnh, 6 cạnh, 4 mặt"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương X): Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt",
+            "choices": {
+              "A": "8 đỉnh, 12 cạnh, 6 mặt",
+              "B": "6 đỉnh, 9 cạnh, 5 mặt",
+              "C": "6 đỉnh, 6 cạnh, 5 mặt",
+              "D": "4 đỉnh, 6 cạnh, 4 mặt"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-13",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương X), một hình lập phương có độ dài cạnh bằng 15 cm. Thể tích của hình lập phương đó là",
+          "choices": {
+            "A": "3375 cm^{3}",
+            "B": "180 cm^{3}",
+            "C": "900 cm^{3}",
+            "D": "1350 cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương X), một hình lập phương có độ dài cạnh bằng 15 cm. Thể tích của hình lập phương đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3375 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "180 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "900 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1350 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương X), một hình lập phương có độ dài cạnh bằng 15 cm. Thể tích của hình lập phương đó là",
+            "choices": {
+              "A": "3375 cm$^3$",
+              "B": "180 cm$^3$",
+              "C": "900 cm$^3$",
+              "D": "1350 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-14",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Một hình hộp chữ nhật có ba kích thước là 15 cm, 16 cm và 17 cm. Thể tích hình hộp chữ nhật đó bằng",
+          "choices": {
+            "A": "1054 cm^{3}",
+            "B": "480 cm^{3}",
+            "C": "4080 cm^{3}",
+            "D": "48 cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Một hình hộp chữ nhật có ba kích thước là 15 cm, 16 cm và 17 cm. Thể tích hình hộp chữ nhật đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1054 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "480 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4080 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "48 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Một hình hộp chữ nhật có ba kích thước là 15 cm, 16 cm và 17 cm. Thể tích hình hộp chữ nhật đó bằng",
+            "choices": {
+              "A": "1054 cm$^3$",
+              "B": "480 cm$^3$",
+              "C": "4080 cm$^3$",
+              "D": "48 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-15",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương X: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "6 đỉnh, 6 cạnh, 5 mặt",
+            "B": "6 đỉnh, 9 cạnh, 5 mặt",
+            "C": "8 đỉnh, 12 cạnh, 6 mặt",
+            "D": "4 đỉnh, 6 cạnh, 4 mặt"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương X: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 6 cạnh, 5 mặt"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 9 cạnh, 5 mặt"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 đỉnh, 12 cạnh, 6 mặt"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 đỉnh, 6 cạnh, 4 mặt"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương X: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "6 đỉnh, 6 cạnh, 5 mặt",
+              "B": "6 đỉnh, 9 cạnh, 5 mặt",
+              "C": "8 đỉnh, 12 cạnh, 6 mặt",
+              "D": "4 đỉnh, 6 cạnh, 4 mặt"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-16",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Một hình lập phương có độ dài cạnh bằng 18 cm. Thể tích của hình lập phương đó là",
+          "choices": {
+            "A": "216 cm^{3}",
+            "B": "5832 cm^{3}",
+            "C": "1296 cm^{3}",
+            "D": "1944 cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Một hình lập phương có độ dài cạnh bằng 18 cm. Thể tích của hình lập phương đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "216 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5832 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1296 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1944 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Một hình lập phương có độ dài cạnh bằng 18 cm. Thể tích của hình lập phương đó là",
+            "choices": {
+              "A": "216 cm$^3$",
+              "B": "5832 cm$^3$",
+              "C": "1296 cm$^3$",
+              "D": "1944 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-17",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Một hình hộp chữ nhật có ba kích thước là 18 cm, 19 cm và 20 cm. Thể tích hình hộp chữ nhật đó bằng?",
+          "choices": {
+            "A": "684 cm^{3}",
+            "B": "6840 cm^{3}",
+            "C": "1480 cm^{3}",
+            "D": "57 cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Một hình hộp chữ nhật có ba kích thước là 18 cm, 19 cm và 20 cm. Thể tích hình hộp chữ nhật đó bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "684 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6840 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1480 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "57 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Một hình hộp chữ nhật có ba kích thước là 18 cm, 19 cm và 20 cm. Thể tích hình hộp chữ nhật đó bằng?",
+            "choices": {
+              "A": "684 cm$^3$",
+              "B": "6840 cm$^3$",
+              "C": "1480 cm$^3$",
+              "D": "57 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-18",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương X: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt",
+          "choices": {
+            "A": "4 đỉnh, 6 cạnh, 4 mặt",
+            "B": "8 đỉnh, 12 cạnh, 6 mặt",
+            "C": "6 đỉnh, 6 cạnh, 5 mặt",
+            "D": "6 đỉnh, 9 cạnh, 5 mặt"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương X: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 đỉnh, 6 cạnh, 4 mặt"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 đỉnh, 12 cạnh, 6 mặt"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 6 cạnh, 5 mặt"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6 đỉnh, 9 cạnh, 5 mặt"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương X: Hình lăng trụ đứng tam giác có tất cả bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu mặt",
+            "choices": {
+              "A": "4 đỉnh, 6 cạnh, 4 mặt",
+              "B": "8 đỉnh, 12 cạnh, 6 mặt",
+              "C": "6 đỉnh, 6 cạnh, 5 mặt",
+              "D": "6 đỉnh, 9 cạnh, 5 mặt"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-19",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Một hình lập phương có độ dài cạnh bằng 21 cm. Thể tích của hình lập phương đó là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "252 cm^{3}",
+            "B": "9261 cm^{3}",
+            "C": "1764 cm^{3}",
+            "D": "2646 cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Một hình lập phương có độ dài cạnh bằng 21 cm. Thể tích của hình lập phương đó là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "252 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9261 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1764 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2646 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Một hình lập phương có độ dài cạnh bằng 21 cm. Thể tích của hình lập phương đó là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "252 cm$^3$",
+              "B": "9261 cm$^3$",
+              "C": "1764 cm$^3$",
+              "D": "2646 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-20",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương X để giải quyết yêu cầu: Một hình hộp chữ nhật có ba kích thước là 21 cm, 22 cm và 23 cm. Thể tích hình hộp chữ nhật đó bằng",
+          "choices": {
+            "A": "1978 cm^{3}",
+            "B": "66 cm^{3}",
+            "C": "924 cm^{3}",
+            "D": "10626 cm^{3}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương X để giải quyết yêu cầu: Một hình hộp chữ nhật có ba kích thước là 21 cm, 22 cm và 23 cm. Thể tích hình hộp chữ nhật đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1978 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "66 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "924 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10626 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương X để giải quyết yêu cầu: Một hình hộp chữ nhật có ba kích thước là 21 cm, 22 cm và 23 cm. Thể tích hình hộp chữ nhật đó bằng",
+            "choices": {
+              "A": "1978 cm$^3$",
+              "B": "66 cm$^3$",
+              "C": "924 cm$^3$",
+              "D": "10626 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-21",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Một hình lập phương có diện tích xung quanh bằng 16 cm^{2}. Độ dài cạnh của hình lập phương đó là",
+          "choices": {
+            "A": "3 cm",
+            "B": "2 cm (1)",
+            "C": "4 cm",
+            "D": "2 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hình lập phương có diện tích xung quanh bằng 16 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Độ dài cạnh của hình lập phương đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2 cm (1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Một hình lập phương có diện tích xung quanh bằng 16 cm$^2$. Độ dài cạnh của hình lập phương đó là",
+            "choices": {
+              "A": "3 cm",
+              "B": "2 cm (1)",
+              "C": "4 cm",
+              "D": "2 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-22",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương X (Một số hình khối trong thực tiễn) để giải bài toán: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 14 cm và chiều cao bằng 6 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+          "choices": {
+            "A": "42 cm^{2}",
+            "B": "168 cm^{2}",
+            "C": "20 cm^{2}",
+            "D": "84 cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương X (Một số hình khối trong thực tiễn) để giải bài toán: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 14 cm và chiều cao bằng 6 cm. Diện tích xung quanh của hình lăng trụ đứng đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "42 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "168 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "84 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương X (Một số hình khối trong thực tiễn) để giải bài toán: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 14 cm và chiều cao bằng 6 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+            "choices": {
+              "A": "42 cm$^2$",
+              "B": "168 cm$^2$",
+              "C": "20 cm$^2$",
+              "D": "84 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-23",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương X: Một hình lăng trụ đứng có diện tích đáy bằng 21 dm^{2} và chiều cao bằng 6 dm. Thể tích của hình lăng trụ đứng đó bằng. Kết quả thu được là",
+          "choices": {
+            "A": "252 dm^{3}",
+            "B": "126 dm^{3}",
+            "C": "27 dm^{3}",
+            "D": "42 dm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương X: Một hình lăng trụ đứng có diện tích đáy bằng 21 "
+            },
+            {
+              "t": "math",
+              "v": "dm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao bằng 6 dm. Thể tích của hình lăng trụ đứng đó bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "252 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "126 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "27 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "42 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương X: Một hình lăng trụ đứng có diện tích đáy bằng 21 dm$^2$ và chiều cao bằng 6 dm. Thể tích của hình lăng trụ đứng đó bằng. Kết quả thu được là",
+            "choices": {
+              "A": "252 dm$^3$",
+              "B": "126 dm$^3$",
+              "C": "27 dm$^3$",
+              "D": "42 dm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-24",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Một hình lập phương có diện tích xung quanh bằng 100 cm^{2}. Độ dài cạnh của hình lập phương đó là. Đáp án đúng là",
+          "choices": {
+            "A": "5 cm",
+            "B": "6 cm",
+            "C": "10 cm",
+            "D": "25 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Một hình lập phương có diện tích xung quanh bằng 100 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Độ dài cạnh của hình lập phương đó là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "25 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Một hình lập phương có diện tích xung quanh bằng 100 cm$^2$. Độ dài cạnh của hình lập phương đó là. Đáp án đúng là",
+            "choices": {
+              "A": "5 cm",
+              "B": "6 cm",
+              "C": "10 cm",
+              "D": "25 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-25",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương X, hãy xác định: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 20 cm và chiều cao bằng 9 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+          "choices": {
+            "A": "180 cm^{2}",
+            "B": "29 cm^{2}",
+            "C": "360 cm^{2}",
+            "D": "90 cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương X, hãy xác định: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 20 cm và chiều cao bằng 9 cm. Diện tích xung quanh của hình lăng trụ đứng đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "180 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "29 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "360 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương X, hãy xác định: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 20 cm và chiều cao bằng 9 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+            "choices": {
+              "A": "180 cm$^2$",
+              "B": "29 cm$^2$",
+              "C": "360 cm$^2$",
+              "D": "90 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-26",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Một hình lăng trụ đứng có diện tích đáy bằng 30 dm^{2} và chiều cao bằng 9 dm. Thể tích của hình lăng trụ đứng đó bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "90 dm^{3}",
+            "B": "540 dm^{3}",
+            "C": "270 dm^{3}",
+            "D": "39 dm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Một hình lăng trụ đứng có diện tích đáy bằng 30 "
+            },
+            {
+              "t": "math",
+              "v": "dm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao bằng 9 dm. Thể tích của hình lăng trụ đứng đó bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "90 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "540 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "270 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "39 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Một hình lăng trụ đứng có diện tích đáy bằng 30 dm$^2$ và chiều cao bằng 9 dm. Thể tích của hình lăng trụ đứng đó bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "90 dm$^3$",
+              "B": "540 dm$^3$",
+              "C": "270 dm$^3$",
+              "D": "39 dm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-27",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương X vào bài tập sau: Một hình lập phương có diện tích xung quanh bằng 256 cm^{2}. Độ dài cạnh của hình lập phương đó là",
+          "choices": {
+            "A": "16 cm",
+            "B": "9 cm",
+            "C": "8 cm",
+            "D": "64 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương X vào bài tập sau: Một hình lập phương có diện tích xung quanh bằng 256 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Độ dài cạnh của hình lập phương đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "64 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương X vào bài tập sau: Một hình lập phương có diện tích xung quanh bằng 256 cm$^2$. Độ dài cạnh của hình lập phương đó là",
+            "choices": {
+              "A": "16 cm",
+              "B": "9 cm",
+              "C": "8 cm",
+              "D": "64 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-28",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 26 cm và chiều cao bằng 12 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+          "choices": {
+            "A": "156 cm^{2}",
+            "B": "38 cm^{2}",
+            "C": "624 cm^{2}",
+            "D": "312 cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 26 cm và chiều cao bằng 12 cm. Diện tích xung quanh của hình lăng trụ đứng đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "156 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "38 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "624 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "312 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 26 cm và chiều cao bằng 12 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+            "choices": {
+              "A": "156 cm$^2$",
+              "B": "38 cm$^2$",
+              "C": "624 cm$^2$",
+              "D": "312 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-29",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Một số hình khối trong thực tiễn): Một hình lăng trụ đứng có diện tích đáy bằng 39 dm^{2} và chiều cao bằng 12 dm. Thể tích của hình lăng trụ đứng đó bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "51 dm^{3}",
+            "B": "156 dm^{3}",
+            "C": "468 dm^{3}",
+            "D": "936 dm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Một số hình khối trong thực tiễn): Một hình lăng trụ đứng có diện tích đáy bằng 39 "
+            },
+            {
+              "t": "math",
+              "v": "dm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao bằng 12 dm. Thể tích của hình lăng trụ đứng đó bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "51 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "156 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "468 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "936 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Một số hình khối trong thực tiễn): Một hình lăng trụ đứng có diện tích đáy bằng 39 dm$^2$ và chiều cao bằng 12 dm. Thể tích của hình lăng trụ đứng đó bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "51 dm$^3$",
+              "B": "156 dm$^3$",
+              "C": "468 dm$^3$",
+              "D": "936 dm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-30",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương X, hãy tìm kết quả của bài toán: Một hình lập phương có diện tích xung quanh bằng 484 cm^{2}. Độ dài cạnh của hình lập phương đó là",
+          "choices": {
+            "A": "11 cm",
+            "B": "12 cm",
+            "C": "121 cm",
+            "D": "22 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương X, hãy tìm kết quả của bài toán: Một hình lập phương có diện tích xung quanh bằng 484 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Độ dài cạnh của hình lập phương đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "11 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "121 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "22 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương X, hãy tìm kết quả của bài toán: Một hình lập phương có diện tích xung quanh bằng 484 cm$^2$. Độ dài cạnh của hình lập phương đó là",
+            "choices": {
+              "A": "11 cm",
+              "B": "12 cm",
+              "C": "121 cm",
+              "D": "22 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-31",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương X nêu câu hỏi: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 32 cm và chiều cao bằng 15 cm. Diện tích xung quanh của hình lăng trụ đứng đó là. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "960 cm^{2}",
+            "B": "240 cm^{2}",
+            "C": "47 cm^{2}",
+            "D": "480 cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương X nêu câu hỏi: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 32 cm và chiều cao bằng 15 cm. Diện tích xung quanh của hình lăng trụ đứng đó là. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "960 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "240 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "47 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "480 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương X nêu câu hỏi: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 32 cm và chiều cao bằng 15 cm. Diện tích xung quanh của hình lăng trụ đứng đó là. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "960 cm$^2$",
+              "B": "240 cm$^2$",
+              "C": "47 cm$^2$",
+              "D": "480 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-32",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Một hình lăng trụ đứng có diện tích đáy bằng 48 dm^{2} và chiều cao bằng 15 dm. Thể tích của hình lăng trụ đứng đó bằng",
+          "choices": {
+            "A": "240 dm^{3}",
+            "B": "720 dm^{3}",
+            "C": "63 dm^{3}",
+            "D": "1440 dm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Một hình lăng trụ đứng có diện tích đáy bằng 48 "
+            },
+            {
+              "t": "math",
+              "v": "dm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao bằng 15 dm. Thể tích của hình lăng trụ đứng đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "240 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "720 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "63 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1440 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Một hình lăng trụ đứng có diện tích đáy bằng 48 dm$^2$ và chiều cao bằng 15 dm. Thể tích của hình lăng trụ đứng đó bằng",
+            "choices": {
+              "A": "240 dm$^3$",
+              "B": "720 dm$^3$",
+              "C": "63 dm$^3$",
+              "D": "1440 dm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-33",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương X: Một hình lập phương có diện tích xung quanh bằng 784 cm^{2}. Độ dài cạnh của hình lập phương đó là",
+          "choices": {
+            "A": "196 cm",
+            "B": "28 cm",
+            "C": "15 cm",
+            "D": "14 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương X: Một hình lập phương có diện tích xung quanh bằng 784 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Độ dài cạnh của hình lập phương đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "196 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "28 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương X: Một hình lập phương có diện tích xung quanh bằng 784 cm$^2$. Độ dài cạnh của hình lập phương đó là",
+            "choices": {
+              "A": "196 cm",
+              "B": "28 cm",
+              "C": "15 cm",
+              "D": "14 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-34",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 38 cm và chiều cao bằng 18 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+          "choices": {
+            "A": "56 cm^{2}",
+            "B": "342 cm^{2}",
+            "C": "684 cm^{2}",
+            "D": "1368 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 38 cm và chiều cao bằng 18 cm. Diện tích xung quanh của hình lăng trụ đứng đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "56 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "342 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "684 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1368 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 38 cm và chiều cao bằng 18 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+            "choices": {
+              "A": "56 cm$^2$",
+              "B": "342 cm$^2$",
+              "C": "684 cm$^2$",
+              "D": "1368 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-35",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương X, xét bài toán: Một hình lăng trụ đứng có diện tích đáy bằng 57 dm^{2} và chiều cao bằng 18 dm. Thể tích của hình lăng trụ đứng đó bằng",
+          "choices": {
+            "A": "75 dm^{3}",
+            "B": "342 dm^{3}",
+            "C": "1026 dm^{3}",
+            "D": "2052 dm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương X, xét bài toán: Một hình lăng trụ đứng có diện tích đáy bằng 57 "
+            },
+            {
+              "t": "math",
+              "v": "dm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao bằng 18 dm. Thể tích của hình lăng trụ đứng đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "75 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "342 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1026 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2052 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương X, xét bài toán: Một hình lăng trụ đứng có diện tích đáy bằng 57 dm$^2$ và chiều cao bằng 18 dm. Thể tích của hình lăng trụ đứng đó bằng",
+            "choices": {
+              "A": "75 dm$^3$",
+              "B": "342 dm$^3$",
+              "C": "1026 dm$^3$",
+              "D": "2052 dm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-36",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Một số hình khối trong thực tiễn): Một hình lập phương có diện tích xung quanh bằng 1156 cm^{2}. Độ dài cạnh của hình lập phương đó là. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "289 cm",
+            "B": "17 cm",
+            "C": "18 cm",
+            "D": "34 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Một số hình khối trong thực tiễn): Một hình lập phương có diện tích xung quanh bằng 1156 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Độ dài cạnh của hình lập phương đó là. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "289 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "17 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "34 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Một số hình khối trong thực tiễn): Một hình lập phương có diện tích xung quanh bằng 1156 cm$^2$. Độ dài cạnh của hình lập phương đó là. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "289 cm",
+              "B": "17 cm",
+              "C": "18 cm",
+              "D": "34 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-37",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 44 cm và chiều cao bằng 21 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+          "choices": {
+            "A": "1848 cm^{2}",
+            "B": "462 cm^{2}",
+            "C": "65 cm^{2}",
+            "D": "924 cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 44 cm và chiều cao bằng 21 cm. Diện tích xung quanh của hình lăng trụ đứng đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1848 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "462 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "65 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "924 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 44 cm và chiều cao bằng 21 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+            "choices": {
+              "A": "1848 cm$^2$",
+              "B": "462 cm$^2$",
+              "C": "65 cm$^2$",
+              "D": "924 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-38",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương X: Một hình lăng trụ đứng có diện tích đáy bằng 66 dm^{2} và chiều cao bằng 21 dm. Thể tích của hình lăng trụ đứng đó bằng. Kết luận đúng là",
+          "choices": {
+            "A": "87 dm^{3}",
+            "B": "462 dm^{3}",
+            "C": "1386 dm^{3}",
+            "D": "2772 dm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương X: Một hình lăng trụ đứng có diện tích đáy bằng 66 "
+            },
+            {
+              "t": "math",
+              "v": "dm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao bằng 21 dm. Thể tích của hình lăng trụ đứng đó bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "87 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "462 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1386 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2772 "
+              },
+              {
+                "t": "math",
+                "v": "dm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương X: Một hình lăng trụ đứng có diện tích đáy bằng 66 dm$^2$ và chiều cao bằng 21 dm. Thể tích của hình lăng trụ đứng đó bằng. Kết luận đúng là",
+            "choices": {
+              "A": "87 dm$^3$",
+              "B": "462 dm$^3$",
+              "C": "1386 dm$^3$",
+              "D": "2772 dm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-39",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương X: Một hình lập phương có diện tích xung quanh bằng 1600 cm^{2}. Độ dài cạnh của hình lập phương đó là",
+          "choices": {
+            "A": "20 cm",
+            "B": "40 cm",
+            "C": "21 cm",
+            "D": "400 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương X: Một hình lập phương có diện tích xung quanh bằng 1600 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Độ dài cạnh của hình lập phương đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "40 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "400 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương X: Một hình lập phương có diện tích xung quanh bằng 1600 cm$^2$. Độ dài cạnh của hình lập phương đó là",
+            "choices": {
+              "A": "20 cm",
+              "B": "40 cm",
+              "C": "21 cm",
+              "D": "400 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-40",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 50 cm và chiều cao bằng 24 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+          "choices": {
+            "A": "1200 cm^{2}",
+            "B": "74 cm^{2}",
+            "C": "2400 cm^{2}",
+            "D": "600 cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 50 cm và chiều cao bằng 24 cm. Diện tích xung quanh của hình lăng trụ đứng đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1200 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "74 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2400 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "600 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hình lăng trụ đứng tam giác có chu vi đáy bằng 50 cm và chiều cao bằng 24 cm. Diện tích xung quanh của hình lăng trụ đứng đó là",
+            "choices": {
+              "A": "1200 cm$^2$",
+              "B": "74 cm$^2$",
+              "C": "2400 cm$^2$",
+              "D": "600 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-41",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Một bể cá dạng hình hộp chữ nhật có chiều dài 8 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 dm^{3} = 1 lít)?",
+          "choices": {
+            "A": "240 lít",
+            "B": "180 lít",
+            "C": "120 lít",
+            "D": "60 lít"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bể cá dạng hình hộp chữ nhật có chiều dài 8 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 "
+            },
+            {
+              "t": "math",
+              "v": "dm^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 lít)?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "240 lít"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "180 lít"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "120 lít"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "60 lít"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bể cá dạng hình hộp chữ nhật có chiều dài 8 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 dm$^3$ = 1 lít)?",
+            "choices": {
+              "A": "240 lít",
+              "B": "180 lít",
+              "C": "120 lít",
+              "D": "60 lít"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-42",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương X – Một số hình khối trong thực tiễn): Một căn phòng hình hộp chữ nhật dài 7 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 m^{2}. Diện tích cần quét sơn là. Kết quả đúng là",
+          "choices": {
+            "A": "134 m^{2}",
+            "B": "102 m^{2}",
+            "C": "78 m^{2}",
+            "D": "106 m^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương X – Một số hình khối trong thực tiễn): Một căn phòng hình hộp chữ nhật dài 7 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 "
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Diện tích cần quét sơn là. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "134 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "102 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "78 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "106 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương X – Một số hình khối trong thực tiễn): Một căn phòng hình hộp chữ nhật dài 7 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 m$^2$. Diện tích cần quét sơn là. Kết quả đúng là",
+            "choices": {
+              "A": "134 m$^2$",
+              "B": "102 m$^2$",
+              "C": "78 m$^2$",
+              "D": "106 m$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-43",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương X để giải bài toán: Một bể cá dạng hình hộp chữ nhật có chiều dài 10 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 dm^{3} = 1 lít)",
+          "choices": {
+            "A": "75 lít",
+            "B": "150 lít",
+            "C": "225 lít",
+            "D": "300 lít"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương X để giải bài toán: Một bể cá dạng hình hộp chữ nhật có chiều dài 10 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 "
+            },
+            {
+              "t": "math",
+              "v": "dm^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 lít)"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "75 lít"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "150 lít"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "225 lít"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "300 lít"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương X để giải bài toán: Một bể cá dạng hình hộp chữ nhật có chiều dài 10 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 dm$^3$ = 1 lít)",
+            "choices": {
+              "A": "75 lít",
+              "B": "150 lít",
+              "C": "225 lít",
+              "D": "300 lít"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-44",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương X: Một căn phòng hình hộp chữ nhật dài 6 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 m^{2}. Diện tích cần quét sơn là",
+          "choices": {
+            "A": "70 m^{2}",
+            "B": "94 m^{2}",
+            "C": "118 m^{2}",
+            "D": "86 m^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương X: Một căn phòng hình hộp chữ nhật dài 6 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 "
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Diện tích cần quét sơn là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "70 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "94 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "118 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "86 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương X: Một căn phòng hình hộp chữ nhật dài 6 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 m$^2$. Diện tích cần quét sơn là",
+            "choices": {
+              "A": "70 m$^2$",
+              "B": "94 m$^2$",
+              "C": "118 m$^2$",
+              "D": "86 m$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-45",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương X: Một bể cá dạng hình hộp chữ nhật có chiều dài 12 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 dm^{3} = 1 lít). Đáp số chính xác là",
+          "choices": {
+            "A": "360 lít",
+            "B": "90 lít",
+            "C": "270 lít",
+            "D": "180 lít"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương X: Một bể cá dạng hình hộp chữ nhật có chiều dài 12 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 "
+            },
+            {
+              "t": "math",
+              "v": "dm^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 lít). Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "360 lít"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "90 lít"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "270 lít"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "180 lít"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương X: Một bể cá dạng hình hộp chữ nhật có chiều dài 12 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 dm$^3$ = 1 lít). Đáp số chính xác là",
+            "choices": {
+              "A": "360 lít",
+              "B": "90 lít",
+              "C": "270 lít",
+              "D": "180 lít"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-46",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương X để tìm đáp án cho bài toán: Một căn phòng hình hộp chữ nhật dài 8 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 m^{2}. Diện tích cần quét sơn là",
+          "choices": {
+            "A": "86 m^{2}",
+            "B": "118 m^{2} (1)",
+            "C": "118 m^{2}",
+            "D": "150 m^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương X để tìm đáp án cho bài toán: Một căn phòng hình hộp chữ nhật dài 8 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 "
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Diện tích cần quét sơn là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "86 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "118 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " (1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "118 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "150 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương X để tìm đáp án cho bài toán: Một căn phòng hình hộp chữ nhật dài 8 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 m$^2$. Diện tích cần quét sơn là",
+            "choices": {
+              "A": "86 m$^2$",
+              "B": "118 m$^2$ (1)",
+              "C": "118 m$^2$",
+              "D": "150 m$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-47",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương X: Một bể cá dạng hình hộp chữ nhật có chiều dài 14 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 dm^{3} = 1 lít)",
+          "choices": {
+            "A": "420 lít",
+            "B": "105 lít",
+            "C": "315 lít",
+            "D": "210 lít"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương X: Một bể cá dạng hình hộp chữ nhật có chiều dài 14 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 "
+            },
+            {
+              "t": "math",
+              "v": "dm^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 lít)"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "420 lít"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "105 lít"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "315 lít"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "210 lít"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương X: Một bể cá dạng hình hộp chữ nhật có chiều dài 14 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 dm$^3$ = 1 lít)",
+            "choices": {
+              "A": "420 lít",
+              "B": "105 lít",
+              "C": "315 lít",
+              "D": "210 lít"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-48",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương X): Một căn phòng hình hộp chữ nhật dài 7 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 m^{2}. Diện tích cần quét sơn là",
+          "choices": {
+            "A": "134 m^{2}",
+            "B": "102 m^{2}",
+            "C": "106 m^{2}",
+            "D": "78 m^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương X): Một căn phòng hình hộp chữ nhật dài 7 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 "
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Diện tích cần quét sơn là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "134 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "102 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "106 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "78 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương X): Một căn phòng hình hộp chữ nhật dài 7 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 m$^2$. Diện tích cần quét sơn là",
+            "choices": {
+              "A": "134 m$^2$",
+              "B": "102 m$^2$",
+              "C": "106 m$^2$",
+              "D": "78 m$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-49",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương X, hãy giải quyết bài toán: Một bể cá dạng hình hộp chữ nhật có chiều dài 16 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 dm^{3} = 1 lít)",
+          "choices": {
+            "A": "120 lít",
+            "B": "360 lít",
+            "C": "480 lít",
+            "D": "240 lít"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương X, hãy giải quyết bài toán: Một bể cá dạng hình hộp chữ nhật có chiều dài 16 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 "
+            },
+            {
+              "t": "math",
+              "v": "dm^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 lít)"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "120 lít"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "360 lít"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "480 lít"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "240 lít"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương X, hãy giải quyết bài toán: Một bể cá dạng hình hộp chữ nhật có chiều dài 16 dm, chiều rộng 5 dm và chiều cao 6 dm. Hiện bể đang chứa nước đến 3/4 chiều cao của bể. Thể tích nước trong bể là bao nhiêu lít (1 dm$^3$ = 1 lít)",
+            "choices": {
+              "A": "120 lít",
+              "B": "360 lít",
+              "C": "480 lít",
+              "D": "240 lít"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-10-50",
+          "grade": 7,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương X: Một căn phòng hình hộp chữ nhật dài 6 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 m^{2}. Diện tích cần quét sơn là. Phương án đúng là",
+          "choices": {
+            "A": "94 m^{2}",
+            "B": "70 m^{2}",
+            "C": "86 m^{2}",
+            "D": "118 m^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương X: Một căn phòng hình hộp chữ nhật dài 6 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 "
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Diện tích cần quét sơn là. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "94 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "70 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "86 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "118 "
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương X: Một căn phòng hình hộp chữ nhật dài 6 m, rộng 4 m, cao 4 m. Người ta muốn quét sơn trần nhà và bốn bức tường phía trong phòng, biết tổng diện tích các cửa là 10 m$^2$. Diện tích cần quét sơn là. Phương án đúng là",
+            "choices": {
+              "A": "94 m$^2$",
+              "B": "70 m$^2$",
+              "C": "86 m$^2$",
+              "D": "118 m$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

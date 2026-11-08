@@ -1,0 +1,1637 @@
+{
+  "version": "2026.10.25",
+  "grade": 6,
+  "source_title": "Toán 6 - Kết nối tri thức với cuộc sống (tập 1 & tập 2)",
+  "scope": "Mô hình độc lập theo loại hình; không phải mỗi hình trong SGK là một mục",
+  "models": [
+    {
+      "id": "toan6-tam-giac-deu",
+      "grade": 6,
+      "title": "Tam giác đều",
+      "group": "Hình phẳng 2D",
+      "engine": "polygon",
+      "variant": "triangle",
+      "source": {
+        "book": "T1",
+        "printed_page": 78,
+        "pdf_page": 79
+      },
+      "action": "Kéo đỉnh điều khiển, quay; đo cạnh và góc.",
+      "defaults": {
+        "a": 4,
+        "rotation": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-hinh-vuong",
+      "grade": 6,
+      "title": "Hình vuông",
+      "group": "Hình phẳng 2D",
+      "engine": "polygon",
+      "variant": "square",
+      "source": {
+        "book": "T1",
+        "printed_page": 79,
+        "pdf_page": 80
+      },
+      "action": "Kéo kích thước, quay, xem đường chéo.",
+      "defaults": {
+        "a": 4,
+        "rotation": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-luc-giac-deu",
+      "grade": 6,
+      "title": "Lục giác đều",
+      "group": "Hình phẳng 2D",
+      "engine": "polygon",
+      "variant": "hexagon",
+      "source": {
+        "book": "T1",
+        "printed_page": 80,
+        "pdf_page": 81
+      },
+      "action": "Kéo bán kính, quay và chia 6 tam giác đều.",
+      "defaults": {
+        "a": 3,
+        "rotation": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-chu-nhat",
+      "grade": 6,
+      "title": "Hình chữ nhật",
+      "group": "Hình phẳng 2D",
+      "engine": "polygon",
+      "variant": "rectangle",
+      "source": {
+        "book": "T1",
+        "printed_page": 83,
+        "pdf_page": 84
+      },
+      "action": "Kéo chiều dài/chiều rộng, đo đường chéo.",
+      "defaults": {
+        "a": 5,
+        "b": 3,
+        "rotation": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-hinh-thoi",
+      "grade": 6,
+      "title": "Hình thoi",
+      "group": "Hình phẳng 2D",
+      "engine": "polygon",
+      "variant": "rhombus",
+      "source": {
+        "book": "T1",
+        "printed_page": 85,
+        "pdf_page": 86
+      },
+      "action": "Điều chỉnh 2 đường chéo vẫn vuông góc, tính diện tích.",
+      "defaults": {
+        "a": 6,
+        "b": 4,
+        "rotation": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-binh-hanh",
+      "grade": 6,
+      "title": "Hình bình hành",
+      "group": "Hình phẳng 2D",
+      "engine": "polygon",
+      "variant": "parallelogram",
+      "source": {
+        "book": "T1",
+        "printed_page": 87,
+        "pdf_page": 88
+      },
+      "action": "Điều chỉnh góc nghiêng, chiều cao và đáy.",
+      "defaults": {
+        "a": 5,
+        "b": 3,
+        "skew": 1.3
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-thang-can",
+      "grade": 6,
+      "title": "Hình thang cân",
+      "group": "Hình phẳng 2D",
+      "engine": "polygon",
+      "variant": "trapezoid",
+      "source": {
+        "book": "T1",
+        "printed_page": 88,
+        "pdf_page": 89
+      },
+      "action": "Kéo hai đáy và chiều cao, giữ 2 cạnh bên bằng nhau.",
+      "defaults": {
+        "a": 6,
+        "b": 3,
+        "height": 3
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-ghep-luc-giac",
+      "grade": 6,
+      "title": "Ghép lục giác bằng 6 tam giác",
+      "group": "Cắt ghép và lát nền",
+      "engine": "composition",
+      "variant": "hexagon6",
+      "source": {
+        "book": "T1",
+        "printed_page": 80,
+        "pdf_page": 81
+      },
+      "action": "Kéo tách/ghép 6 tam giác đều.",
+      "defaults": {
+        "progress": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-ghep-vuong",
+      "grade": 6,
+      "title": "Gấp/cắt hình vuông thành tam giác",
+      "group": "Cắt ghép và lát nền",
+      "engine": "composition",
+      "variant": "squaretriangles",
+      "source": {
+        "book": "T1",
+        "printed_page": 81,
+        "pdf_page": 82
+      },
+      "action": "Điều khiển độ tách các mảnh.",
+      "defaults": {
+        "progress": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-lat-nen-da-giac",
+      "grade": 6,
+      "title": "Lát mặt phẳng bằng đa giác",
+      "group": "Cắt ghép và lát nền",
+      "engine": "tiling",
+      "variant": "mixed",
+      "source": {
+        "book": "T1",
+        "printed_page": 82,
+        "pdf_page": 83
+      },
+      "action": "Nhấp các ô để đổi màu và chọn mẫu lát.",
+      "defaults": {
+        "count": 5,
+        "type": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Konva",
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-cat-binh-hanh",
+      "grade": 6,
+      "title": "Cắt ghép diện tích hình bình hành",
+      "group": "Cắt ghép và lát nền",
+      "engine": "composition",
+      "variant": "parallelogram",
+      "source": {
+        "book": "T1",
+        "printed_page": 92,
+        "pdf_page": 93
+      },
+      "action": "Di chuyển tam giác sang phía đối diện, giữ nguyên diện tích.",
+      "defaults": {
+        "progress": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-cat-hinh-thoi",
+      "grade": 6,
+      "title": "Cắt ghép diện tích hình thoi",
+      "group": "Cắt ghép và lát nền",
+      "engine": "composition",
+      "variant": "rhombus",
+      "source": {
+        "book": "T1",
+        "printed_page": 93,
+        "pdf_page": 94
+      },
+      "action": "Cắt và ghép các phần hình thoi, so sánh diện tích.",
+      "defaults": {
+        "progress": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-dien-tich-ghep",
+      "grade": 6,
+      "title": "Diện tích hình ghép",
+      "group": "Cắt ghép và lát nền",
+      "engine": "composition",
+      "variant": "composite",
+      "source": {
+        "book": "T1",
+        "printed_page": 95,
+        "pdf_page": 96
+      },
+      "action": "Kéo tách hai vùng để kiểm tra tổng diện tích.",
+      "defaults": {
+        "progress": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-lat-gach-san",
+      "grade": 6,
+      "title": "Lát gạch nền thực tế",
+      "group": "Cắt ghép và lát nền",
+      "engine": "tiling",
+      "variant": "floor",
+      "source": {
+        "book": "T1",
+        "printed_page": 95,
+        "pdf_page": 96
+      },
+      "action": "Thay kích thước nền, đếm số viên gạch.",
+      "defaults": {
+        "count": 7,
+        "type": 1
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Konva",
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-doi-xung-truc",
+      "grade": 6,
+      "title": "Đối xứng qua trục",
+      "group": "Đối xứng và gấp hình",
+      "engine": "symmetry",
+      "variant": "axis",
+      "source": {
+        "book": "T1",
+        "printed_page": 99,
+        "pdf_page": 100
+      },
+      "action": "Kéo trục và điểm, xem ảnh phản xạ.",
+      "defaults": {
+        "position": 0,
+        "fold": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-doi-xung-tam",
+      "grade": 6,
+      "title": "Đối xứng qua tâm",
+      "group": "Đối xứng và gấp hình",
+      "engine": "symmetry",
+      "variant": "center",
+      "source": {
+        "book": "T1",
+        "printed_page": 104,
+        "pdf_page": 105
+      },
+      "action": "Kéo điểm và tâm, quay đúng 180 độ.",
+      "defaults": {
+        "position": 0,
+        "fold": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-buom-doi-xung",
+      "grade": 6,
+      "title": "Cánh bướm đối xứng",
+      "group": "Đối xứng và gấp hình",
+      "engine": "symmetry",
+      "variant": "butterfly",
+      "source": {
+        "book": "T1",
+        "printed_page": 99,
+        "pdf_page": 100
+      },
+      "action": "Điều khiển độ mở hai cánh đối xứng (mô phỏng hình phẳng).",
+      "defaults": {
+        "position": 0,
+        "fold": 30
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-gap-ngoi-sao",
+      "grade": 6,
+      "title": "Gấp và cắt ngôi sao",
+      "group": "Đối xứng và gấp hình",
+      "engine": "symmetry",
+      "variant": "star",
+      "source": {
+        "book": "T1",
+        "printed_page": 108,
+        "pdf_page": 109
+      },
+      "action": "Thay góc gấp và xem mô phỏng hình sao 2D (mẫu đơn giản).",
+      "defaults": {
+        "position": 0,
+        "fold": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-hoa-van-quay",
+      "grade": 6,
+      "title": "Hoa văn đối xứng tâm",
+      "group": "Đối xứng và gấp hình",
+      "engine": "symmetry",
+      "variant": "rosette",
+      "source": {
+        "book": "T1",
+        "printed_page": 110,
+        "pdf_page": 111
+      },
+      "action": "Quay mô-típ quanh tâm để tạo hoa văn.",
+      "defaults": {
+        "position": 0,
+        "fold": 30
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-diem-thuoc-duong",
+      "grade": 6,
+      "title": "Điểm thuộc/không thuộc đường",
+      "group": "Điểm – đường – góc",
+      "engine": "geometry",
+      "variant": "pointline",
+      "source": {
+        "book": "T2",
+        "printed_page": 44,
+        "pdf_page": 45
+      },
+      "action": "Kéo điểm A vào/ra khỏi đường thẳng d.",
+      "defaults": {
+        "angle": 0,
+        "measure": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-ba-diem-thang-hang",
+      "grade": 6,
+      "title": "Ba điểm thẳng hàng",
+      "group": "Điểm – đường – góc",
+      "engine": "geometry",
+      "variant": "collinear",
+      "source": {
+        "book": "T2",
+        "printed_page": 45,
+        "pdf_page": 46
+      },
+      "action": "Kéo điểm C, đánh giá điều kiện thẳng hàng.",
+      "defaults": {
+        "angle": 0,
+        "measure": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-hai-duong-thang",
+      "grade": 6,
+      "title": "Hai đường thẳng song song/cắt/trùng",
+      "group": "Điểm – đường – góc",
+      "engine": "geometry",
+      "variant": "pairlines",
+      "source": {
+        "book": "T2",
+        "printed_page": 46,
+        "pdf_page": 47
+      },
+      "action": "Xoay một đường, quan sát số giao điểm.",
+      "defaults": {
+        "angle": 35,
+        "measure": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-hai-tia-doi-nhau",
+      "grade": 6,
+      "title": "Hai tia đối nhau",
+      "group": "Điểm – đường – góc",
+      "engine": "geometry",
+      "variant": "rays",
+      "source": {
+        "book": "T2",
+        "printed_page": 49,
+        "pdf_page": 50
+      },
+      "action": "Xoay tia và thử hai tia đối nhau.",
+      "defaults": {
+        "angle": 180,
+        "measure": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-do-doan-thang",
+      "grade": 6,
+      "title": "Thước đo đoạn thẳng",
+      "group": "Điểm – đường – góc",
+      "engine": "geometry",
+      "variant": "ruler",
+      "source": {
+        "book": "T2",
+        "printed_page": 53,
+        "pdf_page": 54
+      },
+      "action": "Kéo A, B và đọc độ dài với thước ảo.",
+      "defaults": {
+        "angle": 0,
+        "measure": 5
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-trung-diem",
+      "grade": 6,
+      "title": "Trung điểm của đoạn thẳng",
+      "group": "Điểm – đường – góc",
+      "engine": "geometry",
+      "variant": "midpoint",
+      "source": {
+        "book": "T2",
+        "printed_page": 55,
+        "pdf_page": 56
+      },
+      "action": "Di chuyển A, B, trung điểm M luôn chia đều.",
+      "defaults": {
+        "angle": 0,
+        "measure": 5
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-goc-dong",
+      "grade": 6,
+      "title": "Góc động hai tia",
+      "group": "Điểm – đường – góc",
+      "engine": "geometry",
+      "variant": "angle",
+      "source": {
+        "book": "T2",
+        "printed_page": 58,
+        "pdf_page": 59
+      },
+      "action": "Kéo tia thứ hai, quan sát số đo góc thay đổi.",
+      "defaults": {
+        "angle": 55,
+        "measure": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-phan-loai-goc",
+      "grade": 6,
+      "title": "Phân loại góc",
+      "group": "Điểm – đường – góc",
+      "engine": "geometry",
+      "variant": "angletypes",
+      "source": {
+        "book": "T2",
+        "printed_page": 63,
+        "pdf_page": 64
+      },
+      "action": "Thay đổi số đo và nhận biết góc nhọn/vuông/tù/bẹt.",
+      "defaults": {
+        "angle": 95,
+        "measure": 0
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-dong-ho-goc",
+      "grade": 6,
+      "title": "Góc tạo bởi hai kim đồng hồ",
+      "group": "Điểm – đường – góc",
+      "engine": "geometry",
+      "variant": "clock",
+      "source": {
+        "book": "T2",
+        "printed_page": 63,
+        "pdf_page": 64
+      },
+      "action": "Điều khiển giờ/phút, xem góc nhỏ giữa hai kim.",
+      "defaults": {
+        "angle": 90,
+        "measure": 15
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-tap-hop-venn",
+      "grade": 6,
+      "title": "Sơ đồ tập hợp Venn",
+      "group": "Trục số và sơ đồ",
+      "engine": "venn",
+      "variant": "sets",
+      "source": {
+        "book": "T1",
+        "printed_page": 8,
+        "pdf_page": 9
+      },
+      "action": "Thay điều kiện các tập số và quan sát phần chung trong sơ đồ Venn.",
+      "defaults": {
+        "a": 4,
+        "b": 6
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Konva"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-gia-tri-hang-so",
+      "grade": 6,
+      "title": "Bảng giá trị các chữ số",
+      "group": "Trục số và sơ đồ",
+      "engine": "number",
+      "variant": "place",
+      "source": {
+        "book": "T1",
+        "printed_page": 9,
+        "pdf_page": 10
+      },
+      "action": "Thay số, tách hàng đơn vị/chục/trăm/nghìn.",
+      "defaults": {
+        "value": 2346
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-truc-so-tu-nhien",
+      "grade": 6,
+      "title": "Trục số tự nhiên",
+      "group": "Trục số và sơ đồ",
+      "engine": "number",
+      "variant": "natural",
+      "source": {
+        "book": "T1",
+        "printed_page": 13,
+        "pdf_page": 14
+      },
+      "action": "Kéo điểm trên trục số và đọc giá trị.",
+      "defaults": {
+        "value": 5,
+        "step": 3
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-truc-so-nguyen",
+      "grade": 6,
+      "title": "Trục số nguyên",
+      "group": "Trục số và sơ đồ",
+      "engine": "number",
+      "variant": "integer",
+      "source": {
+        "book": "T1",
+        "printed_page": 59,
+        "pdf_page": 60
+      },
+      "action": "Kéo sang trái/phải qua số 0.",
+      "defaults": {
+        "value": -3,
+        "step": 4
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-buoc-nhay-so-nguyen",
+      "grade": 6,
+      "title": "Cộng/trừ số nguyên bằng bước nhảy",
+      "group": "Trục số và sơ đồ",
+      "engine": "number",
+      "variant": "hops",
+      "source": {
+        "book": "T1",
+        "printed_page": 62,
+        "pdf_page": 63
+      },
+      "action": "Thay hai số, phát bước nhảy theo dấu.",
+      "defaults": {
+        "value": -3,
+        "step": 5
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-nhiet-ke",
+      "grade": 6,
+      "title": "Nhiệt kế số âm và số dương",
+      "group": "Trục số và sơ đồ",
+      "engine": "number",
+      "variant": "thermometer",
+      "source": {
+        "book": "T1",
+        "printed_page": 61,
+        "pdf_page": 62
+      },
+      "action": "Tăng/giảm nhiệt độ qua 0°C.",
+      "defaults": {
+        "value": -7,
+        "step": 2
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-cay-thua-so",
+      "grade": 6,
+      "title": "Sơ đồ cây phân tích thừa số nguyên tố",
+      "group": "Trục số và sơ đồ",
+      "engine": "number",
+      "variant": "factors",
+      "source": {
+        "book": "T1",
+        "printed_page": 40,
+        "pdf_page": 41
+      },
+      "action": "Nhập số và quan sát sơ đồ cây phân tích.",
+      "defaults": {
+        "value": 84,
+        "step": 2
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-binh-phuong-luy-thua",
+      "grade": 6,
+      "title": "Mảng ô minh họa lũy thừa",
+      "group": "Trục số và sơ đồ",
+      "engine": "number",
+      "variant": "powers",
+      "source": {
+        "book": "T1",
+        "printed_page": 23,
+        "pdf_page": 24
+      },
+      "action": "Thay cơ số, số mũ và đếm nhóm ô.",
+      "defaults": {
+        "value": 4,
+        "step": 2
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-thanh-phan-so",
+      "grade": 6,
+      "title": "Thanh biểu diễn phân số",
+      "group": "Phân số – số thập phân",
+      "engine": "fraction",
+      "variant": "bar",
+      "source": {
+        "book": "T2",
+        "printed_page": 5,
+        "pdf_page": 6
+      },
+      "action": "Thay tử, mẫu; kéo thanh tỷ lệ phần tô.",
+      "defaults": {
+        "numerator": 3,
+        "denominator": 5
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-luoi-phan-so",
+      "grade": 6,
+      "title": "Lưới phần bằng nhau",
+      "group": "Phân số – số thập phân",
+      "engine": "fraction",
+      "variant": "grid",
+      "source": {
+        "book": "T2",
+        "printed_page": 6,
+        "pdf_page": 7
+      },
+      "action": "Chọn số ô tô màu theo hàng/cột.",
+      "defaults": {
+        "numerator": 3,
+        "denominator": 8
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-banh-phan-so",
+      "grade": 6,
+      "title": "Bánh tròn phân số",
+      "group": "Phân số – số thập phân",
+      "engine": "fraction",
+      "variant": "circle",
+      "source": {
+        "book": "T2",
+        "printed_page": 26,
+        "pdf_page": 27
+      },
+      "action": "Tách, ghép miếng bánh theo phần.",
+      "defaults": {
+        "numerator": 3,
+        "denominator": 8
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-phan-so-bang-nhau",
+      "grade": 6,
+      "title": "Phân số bằng nhau",
+      "group": "Phân số – số thập phân",
+      "engine": "fraction",
+      "variant": "equivalent",
+      "source": {
+        "book": "T2",
+        "printed_page": 6,
+        "pdf_page": 7
+      },
+      "action": "Đổi hệ số nhân cả tử và mẫu, giữ giá trị.",
+      "defaults": {
+        "numerator": 2,
+        "denominator": 3,
+        "factor": 2
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-so-sanh-phan-so",
+      "grade": 6,
+      "title": "So sánh hai phân số",
+      "group": "Phân số – số thập phân",
+      "engine": "fraction",
+      "variant": "compare",
+      "source": {
+        "book": "T2",
+        "printed_page": 10,
+        "pdf_page": 11
+      },
+      "action": "Điều chỉnh tử số và quan sát phần diện tích.",
+      "defaults": {
+        "numerator": 3,
+        "denominator": 5,
+        "other": 4
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-phan-so-cua-so",
+      "grade": 6,
+      "title": "Tìm phân số của số cho trước",
+      "group": "Phân số – số thập phân",
+      "engine": "fraction",
+      "variant": "quantity",
+      "source": {
+        "book": "T2",
+        "printed_page": 22,
+        "pdf_page": 23
+      },
+      "action": "Chia số lượng vật thể thành các nhóm bằng nhau.",
+      "defaults": {
+        "numerator": 2,
+        "denominator": 5,
+        "total": 20
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-hang-thap-phan",
+      "grade": 6,
+      "title": "Các hàng số thập phân",
+      "group": "Phân số – số thập phân",
+      "engine": "fraction",
+      "variant": "decimal",
+      "source": {
+        "book": "T2",
+        "printed_page": 29,
+        "pdf_page": 30
+      },
+      "action": "Dịch điểm thập phân trên thang số.",
+      "defaults": {
+        "numerator": 24,
+        "denominator": 100
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-luoi-100-phan-tram",
+      "grade": 6,
+      "title": "Tỉ số phần trăm và lưới 100 ô",
+      "group": "Phân số – số thập phân",
+      "engine": "fraction",
+      "variant": "percent",
+      "source": {
+        "book": "T2",
+        "printed_page": 39,
+        "pdf_page": 40
+      },
+      "action": "Tô 0–100 ô, xem tỷ lệ phần trăm.",
+      "defaults": {
+        "numerator": 45,
+        "denominator": 100
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "JSXGraph",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-bang-kiem-dem",
+      "grade": 6,
+      "title": "Vạch kiểm đếm",
+      "group": "Thống kê – biểu đồ",
+      "engine": "chart",
+      "variant": "tally",
+      "source": {
+        "book": "T2",
+        "printed_page": 70,
+        "pdf_page": 71
+      },
+      "action": "Tăng/giảm số lần đếm và vạch theo nhóm 5.",
+      "defaults": {
+        "values": [
+          4,
+          7,
+          3,
+          6
+        ]
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Apache ECharts"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-bieu-do-tranh",
+      "grade": 6,
+      "title": "Biểu đồ tranh",
+      "group": "Thống kê – biểu đồ",
+      "engine": "chart",
+      "variant": "pictogram",
+      "source": {
+        "book": "T2",
+        "printed_page": 74,
+        "pdf_page": 75
+      },
+      "action": "Tăng/giảm số biểu tượng và thay giá trị đại diện.",
+      "defaults": {
+        "values": [
+          3,
+          5,
+          7,
+          4
+        ],
+        "unit": 2
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Apache ECharts"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-cot-don",
+      "grade": 6,
+      "title": "Biểu đồ cột đơn",
+      "group": "Thống kê – biểu đồ",
+      "engine": "chart",
+      "variant": "bar",
+      "source": {
+        "book": "T2",
+        "printed_page": 77,
+        "pdf_page": 78
+      },
+      "action": "Kéo đầu cột để đổi dữ liệu.",
+      "defaults": {
+        "values": [
+          12,
+          8,
+          16,
+          10
+        ]
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Apache ECharts"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-cot-ngang",
+      "grade": 6,
+      "title": "Biểu đồ thanh ngang",
+      "group": "Thống kê – biểu đồ",
+      "engine": "chart",
+      "variant": "horizontal",
+      "source": {
+        "book": "T2",
+        "printed_page": 78,
+        "pdf_page": 79
+      },
+      "action": "Kéo cuối thanh, đổi các giá trị.",
+      "defaults": {
+        "values": [
+          9,
+          15,
+          11,
+          7
+        ]
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Apache ECharts"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-cot-kep",
+      "grade": 6,
+      "title": "Biểu đồ cột kép",
+      "group": "Thống kê – biểu đồ",
+      "engine": "chart",
+      "variant": "double",
+      "source": {
+        "book": "T2",
+        "printed_page": 82,
+        "pdf_page": 83
+      },
+      "action": "Kéo từng cột theo hai nhóm dữ liệu.",
+      "defaults": {
+        "values": [
+          12,
+          18,
+          9,
+          5
+        ],
+        "otherValues": [
+          9,
+          16,
+          11,
+          7
+        ]
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Apache ECharts"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-bang-thu-thap",
+      "grade": 6,
+      "title": "Bảng dữ liệu thu thập",
+      "group": "Thống kê – biểu đồ",
+      "engine": "chart",
+      "variant": "table",
+      "source": {
+        "book": "T2",
+        "printed_page": 73,
+        "pdf_page": 74
+      },
+      "action": "Thay số liệu theo từng cột và quan sát bảng cập nhật.",
+      "defaults": {
+        "values": [
+          4,
+          7,
+          3,
+          6
+        ]
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Apache ECharts"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-vong-quay",
+      "grade": 6,
+      "title": "Vòng quay may mắn",
+      "group": "Thí nghiệm xác suất",
+      "engine": "chance",
+      "variant": "spinner",
+      "source": {
+        "book": "T2",
+        "printed_page": 90,
+        "pdf_page": 91
+      },
+      "action": "Nhấn thực hiện thí nghiệm, quan sát kết quả và tần suất.",
+      "defaults": {
+        "segments": 6
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Three.js",
+        "Rapier",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "chuyen-sang-renderer-chuyen-biet-neu-can"
+    },
+    {
+      "id": "toan6-xuc-xac",
+      "grade": 6,
+      "title": "Gieo xúc xắc sáu mặt",
+      "group": "Thí nghiệm xác suất",
+      "engine": "chance",
+      "variant": "dice",
+      "source": {
+        "book": "T2",
+        "printed_page": 90,
+        "pdf_page": 91
+      },
+      "action": "Nhấn gieo để xem mặt xúc xắc và bảng tần suất (hiển thị 2D).",
+      "defaults": {
+        "segments": 6
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Three.js",
+        "Rapier",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-rut-bong",
+      "grade": 6,
+      "title": "Rút bóng màu từ túi",
+      "group": "Thí nghiệm xác suất",
+      "engine": "chance",
+      "variant": "bag",
+      "source": {
+        "book": "T2",
+        "printed_page": 90,
+        "pdf_page": 91
+      },
+      "action": "Nhấn Rút; ghi các màu thu được.",
+      "defaults": {
+        "segments": 3
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Three.js",
+        "Rapier",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-dong-xu",
+      "grade": 6,
+      "title": "Tung đồng xu",
+      "group": "Thí nghiệm xác suất",
+      "engine": "chance",
+      "variant": "coin",
+      "source": {
+        "book": "T2",
+        "printed_page": 70,
+        "pdf_page": 71
+      },
+      "action": "Nhấn Tung, thống kê số lần sấp/ngửa.",
+      "defaults": {
+        "segments": 2
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Three.js",
+        "Rapier",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-o-tu-ti",
+      "grade": 6,
+      "title": "Oẳn tù tì",
+      "group": "Thí nghiệm xác suất",
+      "engine": "chance",
+      "variant": "rps",
+      "source": {
+        "book": "T2",
+        "printed_page": 90,
+        "pdf_page": 91
+      },
+      "action": "Nhấn Chơi, so sánh kết quả ba khả năng.",
+      "defaults": {
+        "segments": 3
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Three.js",
+        "Rapier",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-vong-quay-choi",
+      "grade": 6,
+      "title": "Vòng đu quay",
+      "group": "Mô hình thực tế",
+      "engine": "real",
+      "variant": "ferris",
+      "source": {
+        "book": "T2",
+        "printed_page": 56,
+        "pdf_page": 57
+      },
+      "action": "Điều khiển tốc độ và quan sát vòng đu quay 2D có cabin chuyển động.",
+      "defaults": {
+        "rotation": 0,
+        "speed": 1
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Three.js",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-giao-lo",
+      "grade": 6,
+      "title": "Đường giao thông giao nhau",
+      "group": "Mô hình thực tế",
+      "engine": "real",
+      "variant": "roads",
+      "source": {
+        "book": "T2",
+        "printed_page": 46,
+        "pdf_page": 47
+      },
+      "action": "Thay góc hai con đường và quan sát giao nhau.",
+      "defaults": {
+        "rotation": 35,
+        "speed": 1
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Three.js",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-thiep-gap",
+      "grade": 6,
+      "title": "Tấm thiệp gấp",
+      "group": "Mô hình thực tế",
+      "engine": "real",
+      "variant": "card",
+      "source": {
+        "book": "T1",
+        "printed_page": 111,
+        "pdf_page": 112
+      },
+      "action": "Thay góc mở thiệp trên hình chiếu phẳng (chưa mô phỏng gấp giấy 3D thật).",
+      "defaults": {
+        "rotation": 60,
+        "speed": 1
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Three.js",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-bac-thang-khoi",
+      "grade": 6,
+      "title": "Xếp bậc thang bằng khối lập phương",
+      "group": "Mô hình thực tế",
+      "engine": "real",
+      "variant": "cubes",
+      "source": {
+        "book": "T1",
+        "printed_page": 27,
+        "pdf_page": 28
+      },
+      "action": "Tăng giảm số tầng, quan sát tổng số khối.",
+      "defaults": {
+        "rotation": 0,
+        "speed": 4
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Three.js",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    },
+    {
+      "id": "toan6-mat-bang-phong-hoc",
+      "grade": 6,
+      "title": "Bố trí phòng học hình chữ nhật",
+      "group": "Mô hình thực tế",
+      "engine": "real",
+      "variant": "room",
+      "source": {
+        "book": "T1",
+        "printed_page": 112,
+        "pdf_page": 113
+      },
+      "action": "Nhấp chọn các bàn trong mặt bằng để làm nổi bật vị trí.",
+      "defaults": {
+        "rotation": 0,
+        "speed": 1
+      },
+      "note": "",
+      "source_scope": "mo-hinh-tu-xay-dung-lai-khong-chep-anh-SGK",
+      "recommended_repos": [
+        "Three.js",
+        "GSAP"
+      ],
+      "implementation": "canvas_demo_interactive_2d_or_projection",
+      "true_3d_implemented": false,
+      "next_step": "nang-cap-khong-gian-3d-va-hieu-ung-physical-trong-Threejs"
+    }
+  ]
+}

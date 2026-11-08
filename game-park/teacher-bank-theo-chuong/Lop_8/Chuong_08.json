@@ -1,0 +1,3425 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 8,
+      "chapter": 8,
+      "roman": "VIII",
+      "title": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "8-08-01",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Một hộp có 10 quả bóng được đánh số từ 1 đến 10. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là",
+          "choices": {
+            "A": "4 kết quả",
+            "B": "10 kết quả",
+            "C": "5 kết quả",
+            "D": "3 kết quả"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hộp có 10 quả bóng được đánh số từ 1 đến 10. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 kết quả"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10 kết quả"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5 kết quả"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3 kết quả"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hộp có 10 quả bóng được đánh số từ 1 đến 10. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là",
+            "choices": {
+              "A": "4 kết quả",
+              "B": "10 kết quả",
+              "C": "5 kết quả",
+              "D": "3 kết quả"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-02",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức.",
+          "choices": {
+            "A": "P(E) = n - k",
+            "B": "P(E) = k / n",
+            "C": "P(E) = k · n",
+            "D": "P(E) = n / k"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P(E) = n - k"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P(E) = k / n"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P(E) = k "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " n"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P(E) = n / k"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức.",
+            "choices": {
+              "A": "P(E) = n - k",
+              "B": "P(E) = k / n",
+              "C": "P(E) = k $\\cdot$ n",
+              "D": "P(E) = n / k"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-03",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương VIII, xét nội dung: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào. Đáp án đúng là: []",
+          "choices": {
+            "A": "Luôn bằng 1 []",
+            "B": "Ngày càng gần với xác suất lý thuyết của biến cố đó []",
+            "C": "Luôn bằng 0 []",
+            "D": "Tăng lên vô hạn"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương VIII, xét nội dung: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào. Đáp án đúng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 1 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Ngày càng gần với xác suất lý thuyết của biến cố đó []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 0 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tăng lên vô hạn"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương VIII, xét nội dung: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào. Đáp án đúng là: []",
+            "choices": {
+              "A": "Luôn bằng 1 []",
+              "B": "Ngày càng gần với xác suất lý thuyết của biến cố đó []",
+              "C": "Luôn bằng 0 []",
+              "D": "Tăng lên vô hạn"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-04",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương VIII (Mở đầu về tính xác suất của biến cố), một hộp có 16 quả bóng được đánh số từ 1 đến 16. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là",
+          "choices": {
+            "A": "3 kết quả",
+            "B": "16 kết quả",
+            "C": "5 kết quả",
+            "D": "4 kết quả"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương VIII (Mở đầu về tính xác suất của biến cố), một hộp có 16 quả bóng được đánh số từ 1 đến 16. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3 kết quả"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16 kết quả"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5 kết quả"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 kết quả"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương VIII (Mở đầu về tính xác suất của biến cố), một hộp có 16 quả bóng được đánh số từ 1 đến 16. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là",
+            "choices": {
+              "A": "3 kết quả",
+              "B": "16 kết quả",
+              "C": "5 kết quả",
+              "D": "4 kết quả"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-05",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức",
+          "choices": {
+            "A": "P(E) = n - k",
+            "B": "P(E) = k · n",
+            "C": "P(E) = n / k",
+            "D": "P(E) = k / n"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P(E) = n - k"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P(E) = k "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " n"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P(E) = n / k"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P(E) = k / n"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức",
+            "choices": {
+              "A": "P(E) = n - k",
+              "B": "P(E) = k $\\cdot$ n",
+              "C": "P(E) = n / k",
+              "D": "P(E) = k / n"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-06",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về mở đầu về tính xác suất của biến cố, một học sinh gặp câu hỏi: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào. Kết quả nào dưới đây đúng? []",
+          "choices": {
+            "A": "Ngày càng gần với xác suất lý thuyết của biến cố đó []",
+            "B": "Tăng lên vô hạn []",
+            "C": "Luôn bằng 1 []",
+            "D": "Luôn bằng 0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về mở đầu về tính xác suất của biến cố, một học sinh gặp câu hỏi: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào. Kết quả nào dưới đây đúng? []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Ngày càng gần với xác suất lý thuyết của biến cố đó []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Tăng lên vô hạn []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 1 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về mở đầu về tính xác suất của biến cố, một học sinh gặp câu hỏi: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào. Kết quả nào dưới đây đúng? []",
+            "choices": {
+              "A": "Ngày càng gần với xác suất lý thuyết của biến cố đó []",
+              "B": "Tăng lên vô hạn []",
+              "C": "Luôn bằng 1 []",
+              "D": "Luôn bằng 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-07",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hộp có 22 quả bóng được đánh số từ 1 đến 22. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là",
+          "choices": {
+            "A": "5 kết quả",
+            "B": "3 kết quả",
+            "C": "4 kết quả",
+            "D": "22 kết quả"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hộp có 22 quả bóng được đánh số từ 1 đến 22. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 kết quả"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3 kết quả"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 kết quả"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "22 kết quả"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hộp có 22 quả bóng được đánh số từ 1 đến 22. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là",
+            "choices": {
+              "A": "5 kết quả",
+              "B": "3 kết quả",
+              "C": "4 kết quả",
+              "D": "22 kết quả"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-08",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VIII: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức",
+          "choices": {
+            "A": "P(E) = k · n",
+            "B": "P(E) = n - k",
+            "C": "P(E) = n / k",
+            "D": "P(E) = k / n"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VIII: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P(E) = k "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " n"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P(E) = n - k"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P(E) = n / k"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P(E) = k / n"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VIII: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức",
+            "choices": {
+              "A": "P(E) = k $\\cdot$ n",
+              "B": "P(E) = n - k",
+              "C": "P(E) = n / k",
+              "D": "P(E) = k / n"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-09",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào? []",
+          "choices": {
+            "A": "Tăng lên vô hạn []",
+            "B": "Luôn bằng 1 []",
+            "C": "Ngày càng gần với xác suất lý thuyết của biến cố đó []",
+            "D": "Luôn bằng 0"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào? []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tăng lên vô hạn []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 1 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Ngày càng gần với xác suất lý thuyết của biến cố đó []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào? []",
+            "choices": {
+              "A": "Tăng lên vô hạn []",
+              "B": "Luôn bằng 1 []",
+              "C": "Ngày càng gần với xác suất lý thuyết của biến cố đó []",
+              "D": "Luôn bằng 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-10",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Một hộp có 28 quả bóng được đánh số từ 1 đến 28. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là. Phương án chính xác là",
+          "choices": {
+            "A": "4 kết quả",
+            "B": "28 kết quả",
+            "C": "3 kết quả",
+            "D": "5 kết quả"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Một hộp có 28 quả bóng được đánh số từ 1 đến 28. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 kết quả"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "28 kết quả"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3 kết quả"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5 kết quả"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Một hộp có 28 quả bóng được đánh số từ 1 đến 28. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là. Phương án chính xác là",
+            "choices": {
+              "A": "4 kết quả",
+              "B": "28 kết quả",
+              "C": "3 kết quả",
+              "D": "5 kết quả"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-11",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức",
+          "choices": {
+            "A": "P(E) = n / k",
+            "B": "P(E) = n - k",
+            "C": "P(E) = k · n",
+            "D": "P(E) = k / n"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P(E) = n / k"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P(E) = n - k"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P(E) = k "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " n"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P(E) = k / n"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức",
+            "choices": {
+              "A": "P(E) = n / k",
+              "B": "P(E) = n - k",
+              "C": "P(E) = k $\\cdot$ n",
+              "D": "P(E) = k / n"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-12",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VIII): Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào: []",
+          "choices": {
+            "A": "Luôn bằng 1 []",
+            "B": "Luôn bằng 0 []",
+            "C": "Tăng lên vô hạn []",
+            "D": "Ngày càng gần với xác suất lý thuyết của biến cố đó"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VIII): Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 1 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 0 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Tăng lên vô hạn []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Ngày càng gần với xác suất lý thuyết của biến cố đó"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VIII): Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào: []",
+            "choices": {
+              "A": "Luôn bằng 1 []",
+              "B": "Luôn bằng 0 []",
+              "C": "Tăng lên vô hạn []",
+              "D": "Ngày càng gần với xác suất lý thuyết của biến cố đó"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-13",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VIII), một hộp có 34 quả bóng được đánh số từ 1 đến 34. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là",
+          "choices": {
+            "A": "5 kết quả",
+            "B": "3 kết quả",
+            "C": "4 kết quả",
+            "D": "34 kết quả"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VIII), một hộp có 34 quả bóng được đánh số từ 1 đến 34. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 kết quả"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3 kết quả"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 kết quả"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "34 kết quả"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VIII), một hộp có 34 quả bóng được đánh số từ 1 đến 34. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là",
+            "choices": {
+              "A": "5 kết quả",
+              "B": "3 kết quả",
+              "C": "4 kết quả",
+              "D": "34 kết quả"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-14",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức",
+          "choices": {
+            "A": "P(E) = n / k",
+            "B": "P(E) = n - k",
+            "C": "P(E) = k · n",
+            "D": "P(E) = k / n"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P(E) = n / k"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P(E) = n - k"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P(E) = k "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " n"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P(E) = k / n"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức",
+            "choices": {
+              "A": "P(E) = n / k",
+              "B": "P(E) = n - k",
+              "C": "P(E) = k $\\cdot$ n",
+              "D": "P(E) = k / n"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-15",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương VIII: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào. Giá trị hoặc tính chất tương ứng là: []",
+          "choices": {
+            "A": "Luôn bằng 1 []",
+            "B": "Luôn bằng 0 []",
+            "C": "Ngày càng gần với xác suất lý thuyết của biến cố đó []",
+            "D": "Tăng lên vô hạn"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương VIII: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào. Giá trị hoặc tính chất tương ứng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 1 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 0 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Ngày càng gần với xác suất lý thuyết của biến cố đó []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tăng lên vô hạn"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương VIII: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào. Giá trị hoặc tính chất tương ứng là: []",
+            "choices": {
+              "A": "Luôn bằng 1 []",
+              "B": "Luôn bằng 0 []",
+              "C": "Ngày càng gần với xác suất lý thuyết của biến cố đó []",
+              "D": "Tăng lên vô hạn"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-16",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Một hộp có 40 quả bóng được đánh số từ 1 đến 40. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là",
+          "choices": {
+            "A": "4 kết quả",
+            "B": "40 kết quả",
+            "C": "5 kết quả",
+            "D": "3 kết quả"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Một hộp có 40 quả bóng được đánh số từ 1 đến 40. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 kết quả"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "40 kết quả"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5 kết quả"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3 kết quả"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Một hộp có 40 quả bóng được đánh số từ 1 đến 40. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là",
+            "choices": {
+              "A": "4 kết quả",
+              "B": "40 kết quả",
+              "C": "5 kết quả",
+              "D": "3 kết quả"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-17",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức?",
+          "choices": {
+            "A": "P(E) = k / n",
+            "B": "P(E) = n - k",
+            "C": "P(E) = k · n",
+            "D": "P(E) = n / k"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P(E) = k / n"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P(E) = n - k"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P(E) = k "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " n"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P(E) = n / k"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức?",
+            "choices": {
+              "A": "P(E) = k / n",
+              "B": "P(E) = n - k",
+              "C": "P(E) = k $\\cdot$ n",
+              "D": "P(E) = n / k"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-18",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương VIII: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào: []",
+          "choices": {
+            "A": "Luôn bằng 1 []",
+            "B": "Luôn bằng 0 []",
+            "C": "Ngày càng gần với xác suất lý thuyết của biến cố đó []",
+            "D": "Tăng lên vô hạn"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương VIII: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 1 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng 0 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Ngày càng gần với xác suất lý thuyết của biến cố đó []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tăng lên vô hạn"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương VIII: Khi số phép thử n ngày càng lớn thì xác suất thực nghiệm của một biến cố sẽ như thế nào: []",
+            "choices": {
+              "A": "Luôn bằng 1 []",
+              "B": "Luôn bằng 0 []",
+              "C": "Ngày càng gần với xác suất lý thuyết của biến cố đó []",
+              "D": "Tăng lên vô hạn"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-19",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Một hộp có 46 quả bóng được đánh số từ 1 đến 46. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "46 kết quả",
+            "B": "4 kết quả",
+            "C": "3 kết quả",
+            "D": "5 kết quả"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Một hộp có 46 quả bóng được đánh số từ 1 đến 46. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "46 kết quả"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 kết quả"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3 kết quả"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5 kết quả"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Một hộp có 46 quả bóng được đánh số từ 1 đến 46. Lấy ngẫu nhiên 1 quả. Số kết quả thuận lợi cho biến cố 'Lấy được quả bóng ghi số nhỏ hơn 5' là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "46 kết quả",
+              "B": "4 kết quả",
+              "C": "3 kết quả",
+              "D": "5 kết quả"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-20",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương VIII để giải quyết yêu cầu: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức",
+          "choices": {
+            "A": "P(E) = n / k",
+            "B": "P(E) = n - k",
+            "C": "P(E) = k · n",
+            "D": "P(E) = k / n"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương VIII để giải quyết yêu cầu: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P(E) = n / k"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P(E) = n - k"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P(E) = k "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " n"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P(E) = k / n"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương VIII để giải quyết yêu cầu: Nếu một biến cố E có k kết quả thuận lợi trong tổng số n kết quả đồng khả năng thì xác suất P(E) được tính bằng công thức",
+            "choices": {
+              "A": "P(E) = n / k",
+              "B": "P(E) = n - k",
+              "C": "P(E) = k $\\cdot$ n",
+              "D": "P(E) = k / n"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-21",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Một hộp có 4 bi trắng, 5 bi xanh và 6 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là",
+          "choices": {
+            "A": "11/15",
+            "B": "6/15",
+            "C": "5/15",
+            "D": "4/15"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hộp có 4 bi trắng, 5 bi xanh và 6 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "11/15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6/15"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5/15"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4/15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hộp có 4 bi trắng, 5 bi xanh và 6 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là",
+            "choices": {
+              "A": "11/15",
+              "B": "6/15",
+              "C": "5/15",
+              "D": "4/15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-22",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương VIII (Mở đầu về tính xác suất của biến cố) để giải bài toán: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+          "choices": {
+            "A": "3/10",
+            "B": "1/5",
+            "C": "2/5",
+            "D": "1/2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương VIII (Mở đầu về tính xác suất của biến cố) để giải bài toán: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương VIII (Mở đầu về tính xác suất của biến cố) để giải bài toán: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+            "choices": {
+              "A": "3/10",
+              "B": "1/5",
+              "C": "2/5",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-23",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương VIII: Trong một lô 700 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Kết quả thu được là",
+          "choices": {
+            "A": "685/700",
+            "B": "15/700",
+            "C": "15/100",
+            "D": "1/15"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương VIII: Trong một lô 700 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "685/700"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15/700"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15/100"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương VIII: Trong một lô 700 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Kết quả thu được là",
+            "choices": {
+              "A": "685/700",
+              "B": "15/700",
+              "C": "15/100",
+              "D": "1/15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-24",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Một hộp có 7 bi trắng, 8 bi xanh và 9 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là. Đáp án đúng là",
+          "choices": {
+            "A": "17/24",
+            "B": "9/24",
+            "C": "7/24",
+            "D": "8/24"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Một hộp có 7 bi trắng, 8 bi xanh và 9 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "17/24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9/24"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7/24"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8/24"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Một hộp có 7 bi trắng, 8 bi xanh và 9 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là. Đáp án đúng là",
+            "choices": {
+              "A": "17/24",
+              "B": "9/24",
+              "C": "7/24",
+              "D": "8/24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-25",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương VIII, hãy xác định: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+          "choices": {
+            "A": "2/5",
+            "B": "3/10",
+            "C": "1/2",
+            "D": "1/5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương VIII, hãy xác định: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương VIII, hãy xác định: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+            "choices": {
+              "A": "2/5",
+              "B": "3/10",
+              "C": "1/2",
+              "D": "1/5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-26",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Trong một lô 600 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "585/600",
+            "B": "15/600",
+            "C": "1/15",
+            "D": "15/100"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Trong một lô 600 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "585/600"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15/600"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15/100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Trong một lô 600 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "585/600",
+              "B": "15/600",
+              "C": "1/15",
+              "D": "15/100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-27",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương VIII vào bài tập sau: Một hộp có 10 bi trắng, 11 bi xanh và 12 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là",
+          "choices": {
+            "A": "10/33",
+            "B": "12/33",
+            "C": "11/33",
+            "D": "23/33"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương VIII vào bài tập sau: Một hộp có 10 bi trắng, 11 bi xanh và 12 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10/33"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12/33"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11/33"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "23/33"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương VIII vào bài tập sau: Một hộp có 10 bi trắng, 11 bi xanh và 12 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là",
+            "choices": {
+              "A": "10/33",
+              "B": "12/33",
+              "C": "11/33",
+              "D": "23/33"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-28",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+          "choices": {
+            "A": "2/5",
+            "B": "1/5",
+            "C": "1/2",
+            "D": "3/10"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3/10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+            "choices": {
+              "A": "2/5",
+              "B": "1/5",
+              "C": "1/2",
+              "D": "3/10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-29",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Mở đầu về tính xác suất của biến cố): Trong một lô 500 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "15/100",
+            "B": "1/15",
+            "C": "15/500",
+            "D": "485/500"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Mở đầu về tính xác suất của biến cố): Trong một lô 500 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15/100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15/500"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "485/500"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Mở đầu về tính xác suất của biến cố): Trong một lô 500 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "15/100",
+              "B": "1/15",
+              "C": "15/500",
+              "D": "485/500"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-30",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương VIII, hãy tìm kết quả của bài toán: Một hộp có 13 bi trắng, 14 bi xanh và 15 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là",
+          "choices": {
+            "A": "29/42",
+            "B": "14/42",
+            "C": "13/42",
+            "D": "15/42"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương VIII, hãy tìm kết quả của bài toán: Một hộp có 13 bi trắng, 14 bi xanh và 15 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "29/42"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14/42"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "13/42"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15/42"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương VIII, hãy tìm kết quả của bài toán: Một hộp có 13 bi trắng, 14 bi xanh và 15 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là",
+            "choices": {
+              "A": "29/42",
+              "B": "14/42",
+              "C": "13/42",
+              "D": "15/42"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-31",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương VIII nêu câu hỏi: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "1/5",
+            "B": "3/10",
+            "C": "2/5",
+            "D": "1/2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương VIII nêu câu hỏi: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương VIII nêu câu hỏi: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "1/5",
+              "B": "3/10",
+              "C": "2/5",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-32",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Trong một lô 800 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là",
+          "choices": {
+            "A": "1/15",
+            "B": "785/800",
+            "C": "15/800",
+            "D": "15/100"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Trong một lô 800 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "785/800"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15/800"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15/100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Trong một lô 800 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là",
+            "choices": {
+              "A": "1/15",
+              "B": "785/800",
+              "C": "15/800",
+              "D": "15/100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-33",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VIII: Một hộp có 16 bi trắng, 17 bi xanh và 18 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là",
+          "choices": {
+            "A": "18/51",
+            "B": "16/51",
+            "C": "17/51",
+            "D": "35/51"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VIII: Một hộp có 16 bi trắng, 17 bi xanh và 18 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18/51"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16/51"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "17/51"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "35/51"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VIII: Một hộp có 16 bi trắng, 17 bi xanh và 18 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là",
+            "choices": {
+              "A": "18/51",
+              "B": "16/51",
+              "C": "17/51",
+              "D": "35/51"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-34",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+          "choices": {
+            "A": "3/10",
+            "B": "1/5",
+            "C": "1/2",
+            "D": "2/5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+            "choices": {
+              "A": "3/10",
+              "B": "1/5",
+              "C": "1/2",
+              "D": "2/5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-35",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương VIII, xét bài toán: Trong một lô 700 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là",
+          "choices": {
+            "A": "1/15",
+            "B": "15/100",
+            "C": "685/700",
+            "D": "15/700"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương VIII, xét bài toán: Trong một lô 700 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15/100"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "685/700"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15/700"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương VIII, xét bài toán: Trong một lô 700 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là",
+            "choices": {
+              "A": "1/15",
+              "B": "15/100",
+              "C": "685/700",
+              "D": "15/700"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-36",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Mở đầu về tính xác suất của biến cố): Một hộp có 19 bi trắng, 20 bi xanh và 21 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "20/60",
+            "B": "21/60",
+            "C": "19/60",
+            "D": "41/60"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Mở đầu về tính xác suất của biến cố): Một hộp có 19 bi trắng, 20 bi xanh và 21 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20/60"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "21/60"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "19/60"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "41/60"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Mở đầu về tính xác suất của biến cố): Một hộp có 19 bi trắng, 20 bi xanh và 21 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "20/60",
+              "B": "21/60",
+              "C": "19/60",
+              "D": "41/60"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-37",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+          "choices": {
+            "A": "1/5",
+            "B": "2/5",
+            "C": "1/2",
+            "D": "3/10"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3/10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+            "choices": {
+              "A": "1/5",
+              "B": "2/5",
+              "C": "1/2",
+              "D": "3/10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-38",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương VIII: Trong một lô 600 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Kết luận đúng là",
+          "choices": {
+            "A": "15/100",
+            "B": "1/15",
+            "C": "15/600",
+            "D": "585/600"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương VIII: Trong một lô 600 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15/100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15/600"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "585/600"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương VIII: Trong một lô 600 chiếc bóng đèn có 15 bóng bị lỗi. Chọn ngẫu nhiên 1 bóng đèn. Xác suất chọn phải bóng đèn bị lỗi là. Kết luận đúng là",
+            "choices": {
+              "A": "15/100",
+              "B": "1/15",
+              "C": "15/600",
+              "D": "585/600"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-39",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VIII: Một hộp có 22 bi trắng, 23 bi xanh và 24 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là",
+          "choices": {
+            "A": "47/69",
+            "B": "22/69",
+            "C": "24/69",
+            "D": "23/69"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VIII: Một hộp có 22 bi trắng, 23 bi xanh và 24 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "47/69"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "22/69"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24/69"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "23/69"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VIII: Một hộp có 22 bi trắng, 23 bi xanh và 24 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi KHÔNG phải màu trắng là",
+            "choices": {
+              "A": "47/69",
+              "B": "22/69",
+              "C": "24/69",
+              "D": "23/69"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-40",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+          "choices": {
+            "A": "3/10",
+            "B": "2/5",
+            "C": "1/5",
+            "D": "1/2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Viết ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất của biến cố 'Số viết ra là ước của 6' bằng",
+            "choices": {
+              "A": "3/10",
+              "B": "2/5",
+              "C": "1/5",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-41",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng",
+          "choices": {
+            "A": "500 con",
+            "B": "400 con",
+            "C": "140 con",
+            "D": "320 con"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "500 con"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "400 con"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "140 con"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "320 con"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng",
+            "choices": {
+              "A": "500 con",
+              "B": "400 con",
+              "C": "140 con",
+              "D": "320 con"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-42",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương VIII – Mở đầu về tính xác suất của biến cố): Gieo đồng thời hai đồng xu cân đối và đồng chất. Xác suất để hai đồng xu xuất hiện hai mặt khác nhau (một Sấp, một Ngửa) bằng. Kết quả đúng là",
+          "choices": {
+            "A": "3/4",
+            "B": "1/2",
+            "C": "1/3",
+            "D": "1/4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương VIII – Mở đầu về tính xác suất của biến cố): Gieo đồng thời hai đồng xu cân đối và đồng chất. Xác suất để hai đồng xu xuất hiện hai mặt khác nhau (một Sấp, một Ngửa) bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương VIII – Mở đầu về tính xác suất của biến cố): Gieo đồng thời hai đồng xu cân đối và đồng chất. Xác suất để hai đồng xu xuất hiện hai mặt khác nhau (một Sấp, một Ngửa) bằng. Kết quả đúng là",
+            "choices": {
+              "A": "3/4",
+              "B": "1/2",
+              "C": "1/3",
+              "D": "1/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-43",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương VIII để giải bài toán: Một hộp chứa 15 viên bi gồm bi xanh và bi đỏ, biết xác suất lấy ngẫu nhiên được 1 viên bi xanh là 1/3. Số viên bi đỏ có trong hộp là",
+          "choices": {
+            "A": "10 viên bi đỏ",
+            "B": "14 viên bi đỏ",
+            "C": "5 viên bi đỏ",
+            "D": "8 viên bi đỏ"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương VIII để giải bài toán: Một hộp chứa 15 viên bi gồm bi xanh và bi đỏ, biết xác suất lấy ngẫu nhiên được 1 viên bi xanh là 1/3. Số viên bi đỏ có trong hộp là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10 viên bi đỏ"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14 viên bi đỏ"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5 viên bi đỏ"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 viên bi đỏ"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương VIII để giải bài toán: Một hộp chứa 15 viên bi gồm bi xanh và bi đỏ, biết xác suất lấy ngẫu nhiên được 1 viên bi xanh là 1/3. Số viên bi đỏ có trong hộp là",
+            "choices": {
+              "A": "10 viên bi đỏ",
+              "B": "14 viên bi đỏ",
+              "C": "5 viên bi đỏ",
+              "D": "8 viên bi đỏ"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-44",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương VIII: Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng",
+          "choices": {
+            "A": "500 con",
+            "B": "400 con",
+            "C": "320 con",
+            "D": "140 con"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương VIII: Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "500 con"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "400 con"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "320 con"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "140 con"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương VIII: Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng",
+            "choices": {
+              "A": "500 con",
+              "B": "400 con",
+              "C": "320 con",
+              "D": "140 con"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-45",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương VIII: Gieo đồng thời hai đồng xu cân đối và đồng chất. Xác suất để hai đồng xu xuất hiện hai mặt khác nhau (một Sấp, một Ngửa) bằng. Đáp số chính xác là",
+          "choices": {
+            "A": "3/4",
+            "B": "1/3",
+            "C": "1/2",
+            "D": "1/4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương VIII: Gieo đồng thời hai đồng xu cân đối và đồng chất. Xác suất để hai đồng xu xuất hiện hai mặt khác nhau (một Sấp, một Ngửa) bằng. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương VIII: Gieo đồng thời hai đồng xu cân đối và đồng chất. Xác suất để hai đồng xu xuất hiện hai mặt khác nhau (một Sấp, một Ngửa) bằng. Đáp số chính xác là",
+            "choices": {
+              "A": "3/4",
+              "B": "1/3",
+              "C": "1/2",
+              "D": "1/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-46",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương VIII để tìm đáp án cho bài toán: Một hộp chứa 24 viên bi gồm bi xanh và bi đỏ, biết xác suất lấy ngẫu nhiên được 1 viên bi xanh là 1/3. Số viên bi đỏ có trong hộp là",
+          "choices": {
+            "A": "11 viên bi đỏ",
+            "B": "16 viên bi đỏ",
+            "C": "23 viên bi đỏ",
+            "D": "8 viên bi đỏ"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương VIII để tìm đáp án cho bài toán: Một hộp chứa 24 viên bi gồm bi xanh và bi đỏ, biết xác suất lấy ngẫu nhiên được 1 viên bi xanh là 1/3. Số viên bi đỏ có trong hộp là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "11 viên bi đỏ"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16 viên bi đỏ"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "23 viên bi đỏ"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 viên bi đỏ"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương VIII để tìm đáp án cho bài toán: Một hộp chứa 24 viên bi gồm bi xanh và bi đỏ, biết xác suất lấy ngẫu nhiên được 1 viên bi xanh là 1/3. Số viên bi đỏ có trong hộp là",
+            "choices": {
+              "A": "11 viên bi đỏ",
+              "B": "16 viên bi đỏ",
+              "C": "23 viên bi đỏ",
+              "D": "8 viên bi đỏ"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-47",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VIII: Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng",
+          "choices": {
+            "A": "500 con",
+            "B": "320 con",
+            "C": "400 con",
+            "D": "140 con"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VIII: Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "500 con"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "320 con"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "400 con"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "140 con"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VIII: Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng",
+            "choices": {
+              "A": "500 con",
+              "B": "320 con",
+              "C": "400 con",
+              "D": "140 con"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-48",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VIII): Gieo đồng thời hai đồng xu cân đối và đồng chất. Xác suất để hai đồng xu xuất hiện hai mặt khác nhau (một Sấp, một Ngửa) bằng",
+          "choices": {
+            "A": "1/2",
+            "B": "1/4",
+            "C": "3/4",
+            "D": "1/3"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VIII): Gieo đồng thời hai đồng xu cân đối và đồng chất. Xác suất để hai đồng xu xuất hiện hai mặt khác nhau (một Sấp, một Ngửa) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VIII): Gieo đồng thời hai đồng xu cân đối và đồng chất. Xác suất để hai đồng xu xuất hiện hai mặt khác nhau (một Sấp, một Ngửa) bằng",
+            "choices": {
+              "A": "1/2",
+              "B": "1/4",
+              "C": "3/4",
+              "D": "1/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-49",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương VIII, hãy giải quyết bài toán: Một hộp chứa 33 viên bi gồm bi xanh và bi đỏ, biết xác suất lấy ngẫu nhiên được 1 viên bi xanh là 1/3. Số viên bi đỏ có trong hộp là",
+          "choices": {
+            "A": "14 viên bi đỏ",
+            "B": "32 viên bi đỏ",
+            "C": "11 viên bi đỏ",
+            "D": "22 viên bi đỏ"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương VIII, hãy giải quyết bài toán: Một hộp chứa 33 viên bi gồm bi xanh và bi đỏ, biết xác suất lấy ngẫu nhiên được 1 viên bi xanh là 1/3. Số viên bi đỏ có trong hộp là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14 viên bi đỏ"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32 viên bi đỏ"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11 viên bi đỏ"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "22 viên bi đỏ"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương VIII, hãy giải quyết bài toán: Một hộp chứa 33 viên bi gồm bi xanh và bi đỏ, biết xác suất lấy ngẫu nhiên được 1 viên bi xanh là 1/3. Số viên bi đỏ có trong hộp là",
+            "choices": {
+              "A": "14 viên bi đỏ",
+              "B": "32 viên bi đỏ",
+              "C": "11 viên bi đỏ",
+              "D": "22 viên bi đỏ"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-08-50",
+          "grade": 8,
+          "chapter": 8,
+          "chapterTitle": "MỞ ĐẦU VỀ TÍNH XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương VIII: Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng. Phương án đúng là",
+          "choices": {
+            "A": "140 con",
+            "B": "320 con",
+            "C": "500 con",
+            "D": "400 con"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương VIII: Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "140 con"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "320 con"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "500 con"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "400 con"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương VIII: Để ước lượng số cá trong hồ, người ta bắt lên 40 con cá, đánh dấu rồi thả lại xuống hồ. Sau đó bắt ngẫu nhiên 100 con thì thấy có 8 con đã được đánh dấu. Số cá trong hồ ước lượng khoảng. Phương án đúng là",
+            "choices": {
+              "A": "140 con",
+              "B": "320 con",
+              "C": "500 con",
+              "D": "400 con"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

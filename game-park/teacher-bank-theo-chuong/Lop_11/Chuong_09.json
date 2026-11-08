@@ -1,0 +1,4309 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 11,
+      "chapter": 9,
+      "roman": "IX",
+      "title": "ĐẠO HÀM",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "11-09-01",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Đạo hàm của hàm số đa thức y = x^{3} - 2x^{2} + 5x - 3 là",
+          "choices": {
+            "A": "y' = 3x^{2} - 4x + 5",
+            "B": "y' = 3x^{2} - 2x + 5",
+            "C": "y' = x^{2} - 4x + 5",
+            "D": "y' = 3x^{2} - 4x + 2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Đạo hàm của hàm số đa thức y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "2x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5x - 3 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 4x + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 2x + 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 4x + 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 4x + 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Đạo hàm của hàm số đa thức y = x$^3$ - 2x$^2$ + 5x - 3 là",
+            "choices": {
+              "A": "y' = 3x$^2$ - 4x + 5",
+              "B": "y' = 3x$^2$ - 2x + 5",
+              "C": "y' = x$^2$ - 4x + 5",
+              "D": "y' = 3x$^2$ - 4x + 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-02",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Đạo hàm của hàm số lượng giác y = sin x + cos x là.",
+          "choices": {
+            "A": "y' = cos x - sin x",
+            "B": "y' = sin x - cos x",
+            "C": "y' = cos x + sin x",
+            "D": "y' = -cos x - sin x"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Đạo hàm của hàm số lượng giác y = sin x + cos x là."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = cos x - sin x"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = sin x - cos x"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = cos x + sin x"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = -cos x - sin x"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Đạo hàm của hàm số lượng giác y = sin x + cos x là.",
+            "choices": {
+              "A": "y' = cos x - sin x",
+              "B": "y' = sin x - cos x",
+              "C": "y' = cos x + sin x",
+              "D": "y' = -cos x - sin x"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-03",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương IX, xét nội dung: Cho hàm số f(x) = x^{2} + 6x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x_0 = 1 bằng. Đáp án đúng là",
+          "choices": {
+            "A": "6",
+            "B": "8",
+            "C": "7",
+            "D": "2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương IX, xét nội dung: Cho hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 6x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương IX, xét nội dung: Cho hàm số f(x) = x$^2$ + 6x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x$_0$ = 1 bằng. Đáp án đúng là",
+            "choices": {
+              "A": "6",
+              "B": "8",
+              "C": "7",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-04",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương IX (Đạo hàm), đạo hàm của hàm số đa thức y = x^{3} - 5x^{2} + 5x - 3 là",
+          "choices": {
+            "A": "y' = 3x^{2} - 10x + 5",
+            "B": "y' = 3x^{2} - 5x + 5",
+            "C": "y' = 3x^{2} - 10x + 2",
+            "D": "y' = x^{2} - 10x + 5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương IX (Đạo hàm), đạo hàm của hàm số đa thức y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "5x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5x - 3 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 10x + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 5x + 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 10x + 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 10x + 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương IX (Đạo hàm), đạo hàm của hàm số đa thức y = x$^3$ - 5x$^2$ + 5x - 3 là",
+            "choices": {
+              "A": "y' = 3x$^2$ - 10x + 5",
+              "B": "y' = 3x$^2$ - 5x + 5",
+              "C": "y' = 3x$^2$ - 10x + 2",
+              "D": "y' = x$^2$ - 10x + 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-05",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Đạo hàm của hàm số lượng giác y = sin x + cos x là",
+          "choices": {
+            "A": "y' = -cos x - sin x",
+            "B": "y' = cos x - sin x",
+            "C": "y' = cos x + sin x",
+            "D": "y' = sin x - cos x"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Đạo hàm của hàm số lượng giác y = sin x + cos x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = -cos x - sin x"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = cos x - sin x"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = cos x + sin x"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = sin x - cos x"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Đạo hàm của hàm số lượng giác y = sin x + cos x là",
+            "choices": {
+              "A": "y' = -cos x - sin x",
+              "B": "y' = cos x - sin x",
+              "C": "y' = cos x + sin x",
+              "D": "y' = sin x - cos x"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-06",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về đạo hàm, một học sinh gặp câu hỏi: Cho hàm số f(x) = x^{2} + 12x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x_0 = 1 bằng. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "2",
+            "B": "12",
+            "C": "14",
+            "D": "13"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về đạo hàm, một học sinh gặp câu hỏi: Cho hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 12x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 bằng. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về đạo hàm, một học sinh gặp câu hỏi: Cho hàm số f(x) = x$^2$ + 12x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x$_0$ = 1 bằng. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "2",
+              "B": "12",
+              "C": "14",
+              "D": "13"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-07",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Đạo hàm của hàm số đa thức y = x^{3} - 8x^{2} + 5x - 3 là",
+          "choices": {
+            "A": "y' = 3x^{2} - 16x + 5",
+            "B": "y' = 3x^{2} - 8x + 5",
+            "C": "y' = 3x^{2} - 16x + 2",
+            "D": "y' = x^{2} - 16x + 5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Đạo hàm của hàm số đa thức y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "8x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5x - 3 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 16x + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 8x + 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 16x + 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 16x + 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Đạo hàm của hàm số đa thức y = x$^3$ - 8x$^2$ + 5x - 3 là",
+            "choices": {
+              "A": "y' = 3x$^2$ - 16x + 5",
+              "B": "y' = 3x$^2$ - 8x + 5",
+              "C": "y' = 3x$^2$ - 16x + 2",
+              "D": "y' = x$^2$ - 16x + 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-08",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IX: Đạo hàm của hàm số lượng giác y = sin x + cos x là",
+          "choices": {
+            "A": "y' = sin x - cos x",
+            "B": "y' = -cos x - sin x",
+            "C": "y' = cos x + sin x",
+            "D": "y' = cos x - sin x"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IX: Đạo hàm của hàm số lượng giác y = sin x + cos x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = sin x - cos x"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = -cos x - sin x"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = cos x + sin x"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = cos x - sin x"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IX: Đạo hàm của hàm số lượng giác y = sin x + cos x là",
+            "choices": {
+              "A": "y' = sin x - cos x",
+              "B": "y' = -cos x - sin x",
+              "C": "y' = cos x + sin x",
+              "D": "y' = cos x - sin x"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-09",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Cho hàm số f(x) = x^{2} + 18x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x_0 = 1 bằng",
+          "choices": {
+            "A": "18",
+            "B": "20",
+            "C": "2",
+            "D": "19"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Cho hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 18x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Cho hàm số f(x) = x$^2$ + 18x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x$_0$ = 1 bằng",
+            "choices": {
+              "A": "18",
+              "B": "20",
+              "C": "2",
+              "D": "19"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-10",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Đạo hàm của hàm số đa thức y = x^{3} - 11x^{2} + 5x - 3 là. Phương án chính xác là",
+          "choices": {
+            "A": "y' = x^{2} - 22x + 5",
+            "B": "y' = 3x^{2} - 22x + 5",
+            "C": "y' = 3x^{2} - 11x + 5",
+            "D": "y' = 3x^{2} - 22x + 2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Đạo hàm của hàm số đa thức y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "11x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5x - 3 là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 22x + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 22x + 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 11x + 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 22x + 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Đạo hàm của hàm số đa thức y = x$^3$ - 11x$^2$ + 5x - 3 là. Phương án chính xác là",
+            "choices": {
+              "A": "y' = x$^2$ - 22x + 5",
+              "B": "y' = 3x$^2$ - 22x + 5",
+              "C": "y' = 3x$^2$ - 11x + 5",
+              "D": "y' = 3x$^2$ - 22x + 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-11",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Đạo hàm của hàm số lượng giác y = sin x + cos x là",
+          "choices": {
+            "A": "y' = sin x - cos x",
+            "B": "y' = -cos x - sin x",
+            "C": "y' = cos x + sin x",
+            "D": "y' = cos x - sin x"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Đạo hàm của hàm số lượng giác y = sin x + cos x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = sin x - cos x"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = -cos x - sin x"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = cos x + sin x"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = cos x - sin x"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Đạo hàm của hàm số lượng giác y = sin x + cos x là",
+            "choices": {
+              "A": "y' = sin x - cos x",
+              "B": "y' = -cos x - sin x",
+              "C": "y' = cos x + sin x",
+              "D": "y' = cos x - sin x"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-12",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IX): Cho hàm số f(x) = x^{2} + 24x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x_0 = 1 bằng",
+          "choices": {
+            "A": "2",
+            "B": "26",
+            "C": "25",
+            "D": "24"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IX): Cho hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 24x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IX): Cho hàm số f(x) = x$^2$ + 24x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x$_0$ = 1 bằng",
+            "choices": {
+              "A": "2",
+              "B": "26",
+              "C": "25",
+              "D": "24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-13",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IX), đạo hàm của hàm số đa thức y = x^{3} - 14x^{2} + 5x - 3 là",
+          "choices": {
+            "A": "y' = 3x^{2} - 28x + 5",
+            "B": "y' = 3x^{2} - 28x + 2",
+            "C": "y' = 3x^{2} - 14x + 5",
+            "D": "y' = x^{2} - 28x + 5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IX), đạo hàm của hàm số đa thức y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "14x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5x - 3 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 28x + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 28x + 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 14x + 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 28x + 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IX), đạo hàm của hàm số đa thức y = x$^3$ - 14x$^2$ + 5x - 3 là",
+            "choices": {
+              "A": "y' = 3x$^2$ - 28x + 5",
+              "B": "y' = 3x$^2$ - 28x + 2",
+              "C": "y' = 3x$^2$ - 14x + 5",
+              "D": "y' = x$^2$ - 28x + 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-14",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Đạo hàm của hàm số lượng giác y = sin x + cos x là",
+          "choices": {
+            "A": "y' = -cos x - sin x",
+            "B": "y' = cos x + sin x",
+            "C": "y' = sin x - cos x",
+            "D": "y' = cos x - sin x"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Đạo hàm của hàm số lượng giác y = sin x + cos x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = -cos x - sin x"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = cos x + sin x"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = sin x - cos x"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = cos x - sin x"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Đạo hàm của hàm số lượng giác y = sin x + cos x là",
+            "choices": {
+              "A": "y' = -cos x - sin x",
+              "B": "y' = cos x + sin x",
+              "C": "y' = sin x - cos x",
+              "D": "y' = cos x - sin x"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-15",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương IX: Cho hàm số f(x) = x^{2} + 30x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x_0 = 1 bằng. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "2",
+            "B": "31",
+            "C": "30",
+            "D": "32"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương IX: Cho hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 30x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 bằng. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "31"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương IX: Cho hàm số f(x) = x$^2$ + 30x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x$_0$ = 1 bằng. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "2",
+              "B": "31",
+              "C": "30",
+              "D": "32"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-16",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Đạo hàm của hàm số đa thức y = x^{3} - 17x^{2} + 5x - 3 là",
+          "choices": {
+            "A": "y' = 3x^{2} - 34x + 2",
+            "B": "y' = 3x^{2} - 34x + 5",
+            "C": "y' = x^{2} - 34x + 5",
+            "D": "y' = 3x^{2} - 17x + 5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Đạo hàm của hàm số đa thức y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "17x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5x - 3 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 34x + 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 34x + 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 34x + 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 17x + 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Đạo hàm của hàm số đa thức y = x$^3$ - 17x$^2$ + 5x - 3 là",
+            "choices": {
+              "A": "y' = 3x$^2$ - 34x + 2",
+              "B": "y' = 3x$^2$ - 34x + 5",
+              "C": "y' = x$^2$ - 34x + 5",
+              "D": "y' = 3x$^2$ - 17x + 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-17",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Đạo hàm của hàm số lượng giác y = sin x + cos x là?",
+          "choices": {
+            "A": "y' = cos x - sin x",
+            "B": "y' = cos x + sin x",
+            "C": "y' = sin x - cos x",
+            "D": "y' = -cos x - sin x"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Đạo hàm của hàm số lượng giác y = sin x + cos x là?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = cos x - sin x"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = cos x + sin x"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = sin x - cos x"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = -cos x - sin x"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Đạo hàm của hàm số lượng giác y = sin x + cos x là?",
+            "choices": {
+              "A": "y' = cos x - sin x",
+              "B": "y' = cos x + sin x",
+              "C": "y' = sin x - cos x",
+              "D": "y' = -cos x - sin x"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-18",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương IX: Cho hàm số f(x) = x^{2} + 36x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x_0 = 1 bằng",
+          "choices": {
+            "A": "36",
+            "B": "37",
+            "C": "2",
+            "D": "38"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương IX: Cho hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 36x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "37"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "38"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương IX: Cho hàm số f(x) = x$^2$ + 36x. Hệ số góc của tiếp tuyến của đồ thị hàm số tại điểm có hoành độ x$_0$ = 1 bằng",
+            "choices": {
+              "A": "36",
+              "B": "37",
+              "C": "2",
+              "D": "38"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-19",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Đạo hàm của hàm số đa thức y = x^{3} - 20x^{2} + 5x - 3 là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "y' = x^{2} - 40x + 5",
+            "B": "y' = 3x^{2} - 40x + 5",
+            "C": "y' = 3x^{2} - 40x + 2",
+            "D": "y' = 3x^{2} - 20x + 5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Đạo hàm của hàm số đa thức y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "20x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5x - 3 là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 40x + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 40x + 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 40x + 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = "
+              },
+              {
+                "t": "math",
+                "v": "3x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 20x + 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Đạo hàm của hàm số đa thức y = x$^3$ - 20x$^2$ + 5x - 3 là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "y' = x$^2$ - 40x + 5",
+              "B": "y' = 3x$^2$ - 40x + 5",
+              "C": "y' = 3x$^2$ - 40x + 2",
+              "D": "y' = 3x$^2$ - 20x + 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-20",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương IX để giải quyết yêu cầu: Đạo hàm của hàm số lượng giác y = sin x + cos x là",
+          "choices": {
+            "A": "y' = -cos x - sin x",
+            "B": "y' = cos x + sin x",
+            "C": "y' = sin x - cos x",
+            "D": "y' = cos x - sin x"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương IX để giải quyết yêu cầu: Đạo hàm của hàm số lượng giác y = sin x + cos x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = -cos x - sin x"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = cos x + sin x"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = sin x - cos x"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = cos x - sin x"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương IX để giải quyết yêu cầu: Đạo hàm của hàm số lượng giác y = sin x + cos x là",
+            "choices": {
+              "A": "y' = -cos x - sin x",
+              "B": "y' = cos x + sin x",
+              "C": "y' = sin x - cos x",
+              "D": "y' = cos x - sin x"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-21",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Đạo hàm cấp hai f''(x) của hàm số f(x) = x^{4} - 2x^{2} + 7x tại x = 1 bằng",
+          "choices": {
+            "A": "8",
+            "B": "12",
+            "C": "7",
+            "D": "10"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Đạo hàm cấp hai f''(x) của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "2x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 7x tại x = 1 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Đạo hàm cấp hai f''(x) của hàm số f(x) = x$^4$ - 2x$^2$ + 7x tại x = 1 bằng",
+            "choices": {
+              "A": "8",
+              "B": "12",
+              "C": "7",
+              "D": "10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-22",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương IX (Đạo hàm) để giải bài toán: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 3) (với x \\ne 3) là",
+          "choices": {
+            "A": "y' = 7 / (x - 3)^{2}",
+            "B": "y' = -7 / (x - 3)^{2}",
+            "C": "y' = 2",
+            "D": "y' = -1 / (x - 3)^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương IX (Đạo hàm) để giải bài toán: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 3) (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 3) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = 7 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 3)^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = -7 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 3)^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = -1 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 3)^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương IX (Đạo hàm) để giải bài toán: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 3) (với x $\\ne$ 3) là",
+            "choices": {
+              "A": "y' = 7 / (x - 3)$^2$",
+              "B": "y' = -7 / (x - 3)$^2$",
+              "C": "y' = 2",
+              "D": "y' = -1 / (x - 3)$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-23",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương IX: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t^{3} - 3t^{2} + 18t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Kết quả thu được là",
+          "choices": {
+            "A": "24 m/s",
+            "B": "32 m/s",
+            "C": "6 m/s",
+            "D": "18 m/s"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương IX: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = "
+            },
+            {
+              "t": "math",
+              "v": "t^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3t^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 18t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24 m/s"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32 m/s"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 m/s"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18 m/s"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương IX: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t$^3$ - 3t$^2$ + 18t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Kết quả thu được là",
+            "choices": {
+              "A": "24 m/s",
+              "B": "32 m/s",
+              "C": "6 m/s",
+              "D": "18 m/s"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-24",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Đạo hàm cấp hai f''(x) của hàm số f(x) = x^{4} - 5x^{2} + 7x tại x = 1 bằng. Đáp án đúng là",
+          "choices": {
+            "A": "12",
+            "B": "7",
+            "C": "1",
+            "D": "2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Đạo hàm cấp hai f''(x) của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "5x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 7x tại x = 1 bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Đạo hàm cấp hai f''(x) của hàm số f(x) = x$^4$ - 5x$^2$ + 7x tại x = 1 bằng. Đáp án đúng là",
+            "choices": {
+              "A": "12",
+              "B": "7",
+              "C": "1",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-25",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương IX, hãy xác định: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 6) (với x \\ne 6) là",
+          "choices": {
+            "A": "y' = 2",
+            "B": "y' = -1 / (x - 6)^{2}",
+            "C": "y' = -13 / (x - 6)^{2}",
+            "D": "y' = 13 / (x - 6)^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương IX, hãy xác định: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 6) (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 6) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = -1 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 6)^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = -13 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 6)^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = 13 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 6)^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương IX, hãy xác định: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 6) (với x $\\ne$ 6) là",
+            "choices": {
+              "A": "y' = 2",
+              "B": "y' = -1 / (x - 6)$^2$",
+              "C": "y' = -13 / (x - 6)$^2$",
+              "D": "y' = 13 / (x - 6)$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-26",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t^{3} - 3t^{2} + 30t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "18 m/s",
+            "B": "30 m/s",
+            "C": "56 m/s",
+            "D": "36 m/s"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = "
+            },
+            {
+              "t": "math",
+              "v": "t^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3t^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 30t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18 m/s"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30 m/s"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "56 m/s"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36 m/s"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t$^3$ - 3t$^2$ + 30t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "18 m/s",
+              "B": "30 m/s",
+              "C": "56 m/s",
+              "D": "36 m/s"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-27",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương IX vào bài tập sau: Đạo hàm cấp hai f''(x) của hàm số f(x) = x^{4} - 8x^{2} + 7x tại x = 1 bằng",
+          "choices": {
+            "A": "-5",
+            "B": "-4",
+            "C": "12",
+            "D": "4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương IX vào bài tập sau: Đạo hàm cấp hai f''(x) của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "8x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 7x tại x = 1 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương IX vào bài tập sau: Đạo hàm cấp hai f''(x) của hàm số f(x) = x$^4$ - 8x$^2$ + 7x tại x = 1 bằng",
+            "choices": {
+              "A": "-5",
+              "B": "-4",
+              "C": "12",
+              "D": "4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-28",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 9) (với x \\ne 9) là",
+          "choices": {
+            "A": "y' = -1 / (x - 9)^{2}",
+            "B": "y' = 19 / (x - 9)^{2}",
+            "C": "y' = -19 / (x - 9)^{2}",
+            "D": "y' = 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 9) (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 9) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = -1 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 9)^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = 19 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 9)^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = -19 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 9)^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 9) (với x $\\ne$ 9) là",
+            "choices": {
+              "A": "y' = -1 / (x - 9)$^2$",
+              "B": "y' = 19 / (x - 9)$^2$",
+              "C": "y' = -19 / (x - 9)$^2$",
+              "D": "y' = 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-29",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Đạo hàm): Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t^{3} - 3t^{2} + 42t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "80 m/s",
+            "B": "30 m/s",
+            "C": "42 m/s",
+            "D": "48 m/s"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Đạo hàm): Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = "
+            },
+            {
+              "t": "math",
+              "v": "t^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3t^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 42t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "80 m/s"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30 m/s"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "42 m/s"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "48 m/s"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Đạo hàm): Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t$^3$ - 3t$^2$ + 42t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "80 m/s",
+              "B": "30 m/s",
+              "C": "42 m/s",
+              "D": "48 m/s"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-30",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương IX, hãy tìm kết quả của bài toán: Đạo hàm cấp hai f''(x) của hàm số f(x) = x^{4} - 11x^{2} + 7x tại x = 1 bằng",
+          "choices": {
+            "A": "1",
+            "B": "-11",
+            "C": "-10",
+            "D": "12"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương IX, hãy tìm kết quả của bài toán: Đạo hàm cấp hai f''(x) của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "11x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 7x tại x = 1 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-10"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương IX, hãy tìm kết quả của bài toán: Đạo hàm cấp hai f''(x) của hàm số f(x) = x$^4$ - 11x$^2$ + 7x tại x = 1 bằng",
+            "choices": {
+              "A": "1",
+              "B": "-11",
+              "C": "-10",
+              "D": "12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-31",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương IX nêu câu hỏi: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 12) (với x \\ne 12) là. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "y' = 2",
+            "B": "y' = -25 / (x - 12)^{2}",
+            "C": "y' = 25 / (x - 12)^{2}",
+            "D": "y' = -1 / (x - 12)^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương IX nêu câu hỏi: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 12) (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 12) là. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = -25 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 12)^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = 25 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 12)^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = -1 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 12)^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương IX nêu câu hỏi: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 12) (với x $\\ne$ 12) là. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "y' = 2",
+              "B": "y' = -25 / (x - 12)$^2$",
+              "C": "y' = 25 / (x - 12)$^2$",
+              "D": "y' = -1 / (x - 12)$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-32",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t^{3} - 3t^{2} + 54t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng",
+          "choices": {
+            "A": "60 m/s",
+            "B": "54 m/s",
+            "C": "104 m/s",
+            "D": "42 m/s"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = "
+            },
+            {
+              "t": "math",
+              "v": "t^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3t^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 54t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60 m/s"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "54 m/s"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "104 m/s"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "42 m/s"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t$^3$ - 3t$^2$ + 54t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng",
+            "choices": {
+              "A": "60 m/s",
+              "B": "54 m/s",
+              "C": "104 m/s",
+              "D": "42 m/s"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-33",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IX: Đạo hàm cấp hai f''(x) của hàm số f(x) = x^{4} - 14x^{2} + 7x tại x = 1 bằng",
+          "choices": {
+            "A": "12",
+            "B": "-2",
+            "C": "-16",
+            "D": "-17"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IX: Đạo hàm cấp hai f''(x) của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "14x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 7x tại x = 1 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IX: Đạo hàm cấp hai f''(x) của hàm số f(x) = x$^4$ - 14x$^2$ + 7x tại x = 1 bằng",
+            "choices": {
+              "A": "12",
+              "B": "-2",
+              "C": "-16",
+              "D": "-17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-34",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 15) (với x \\ne 15) là",
+          "choices": {
+            "A": "y' = -31 / (x - 15)^{2}",
+            "B": "y' = -1 / (x - 15)^{2}",
+            "C": "y' = 2",
+            "D": "y' = 31 / (x - 15)^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 15) (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 15) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = -31 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 15)^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = -1 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 15)^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = 31 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 15)^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 15) (với x $\\ne$ 15) là",
+            "choices": {
+              "A": "y' = -31 / (x - 15)$^2$",
+              "B": "y' = -1 / (x - 15)$^2$",
+              "C": "y' = 2",
+              "D": "y' = 31 / (x - 15)$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-35",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương IX, xét bài toán: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t^{3} - 3t^{2} + 66t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng",
+          "choices": {
+            "A": "72 m/s",
+            "B": "54 m/s",
+            "C": "66 m/s",
+            "D": "128 m/s"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương IX, xét bài toán: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = "
+            },
+            {
+              "t": "math",
+              "v": "t^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3t^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 66t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "72 m/s"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "54 m/s"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "66 m/s"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "128 m/s"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương IX, xét bài toán: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t$^3$ - 3t$^2$ + 66t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng",
+            "choices": {
+              "A": "72 m/s",
+              "B": "54 m/s",
+              "C": "66 m/s",
+              "D": "128 m/s"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-36",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Đạo hàm): Đạo hàm cấp hai f''(x) của hàm số f(x) = x^{4} - 17x^{2} + 7x tại x = 1 bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "-5",
+            "B": "12",
+            "C": "-23",
+            "D": "-22"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Đạo hàm): Đạo hàm cấp hai f''(x) của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "17x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 7x tại x = 1 bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-23"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-22"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Đạo hàm): Đạo hàm cấp hai f''(x) của hàm số f(x) = x$^4$ - 17x$^2$ + 7x tại x = 1 bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "-5",
+              "B": "12",
+              "C": "-23",
+              "D": "-22"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-37",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 18) (với x \\ne 18) là",
+          "choices": {
+            "A": "y' = -1 / (x - 18)^{2}",
+            "B": "y' = 37 / (x - 18)^{2}",
+            "C": "y' = 2",
+            "D": "y' = -37 / (x - 18)^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 18) (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 18) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = -1 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 18)^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = 37 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 18)^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = -37 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 18)^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 18) (với x $\\ne$ 18) là",
+            "choices": {
+              "A": "y' = -1 / (x - 18)$^2$",
+              "B": "y' = 37 / (x - 18)$^2$",
+              "C": "y' = 2",
+              "D": "y' = -37 / (x - 18)$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-38",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương IX: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t^{3} - 3t^{2} + 78t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Kết luận đúng là",
+          "choices": {
+            "A": "152 m/s",
+            "B": "78 m/s",
+            "C": "66 m/s",
+            "D": "84 m/s"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương IX: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = "
+            },
+            {
+              "t": "math",
+              "v": "t^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3t^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 78t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "152 m/s"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "78 m/s"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "66 m/s"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "84 m/s"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương IX: Một chất điểm chuyển động thẳng có phương trình quãng đường s(t) = t$^3$ - 3t$^2$ + 78t (m), với t tính bằng giây. Vận tốc tức thời v(t) = s'(t) của chất điểm tại thời điểm t = 2 (s) bằng. Kết luận đúng là",
+            "choices": {
+              "A": "152 m/s",
+              "B": "78 m/s",
+              "C": "66 m/s",
+              "D": "84 m/s"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-39",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IX: Đạo hàm cấp hai f''(x) của hàm số f(x) = x^{4} - 20x^{2} + 7x tại x = 1 bằng",
+          "choices": {
+            "A": "-28",
+            "B": "-29",
+            "C": "12",
+            "D": "-8"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IX: Đạo hàm cấp hai f''(x) của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "20x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 7x tại x = 1 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-28"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-29"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IX: Đạo hàm cấp hai f''(x) của hàm số f(x) = x$^4$ - 20x$^2$ + 7x tại x = 1 bằng",
+            "choices": {
+              "A": "-28",
+              "B": "-29",
+              "C": "12",
+              "D": "-8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-40",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 21) (với x \\ne 21) là",
+          "choices": {
+            "A": "y' = -1 / (x - 21)^{2}",
+            "B": "y' = -43 / (x - 21)^{2}",
+            "C": "y' = 43 / (x - 21)^{2}",
+            "D": "y' = 2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 21) (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 21) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y' = -1 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 21)^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y' = -43 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 21)^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y' = 43 / "
+              },
+              {
+                "t": "math",
+                "v": "(x - 21)^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y' = 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Đạo hàm của hàm phân thức y = (2x + 1)/(x - 21) (với x $\\ne$ 21) là",
+            "choices": {
+              "A": "y' = -1 / (x - 21)$^2$",
+              "B": "y' = -43 / (x - 21)$^2$",
+              "C": "y' = 43 / (x - 21)$^2$",
+              "D": "y' = 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-41",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Phương trình tiếp tuyến của đồ thị hàm số y = x^{3} - 3x + 2 tại điểm có hoành độ x_0 = 2 là",
+          "choices": {
+            "A": "y = 9x + 20",
+            "B": "y = 9x - 18",
+            "C": "y = 9x - 16",
+            "D": "y = 3x - 4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phương trình tiếp tuyến của đồ thị hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 2 tại điểm có hoành độ "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "txt",
+              "v": " = 2 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y = 9x + 20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = 9x - 18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y = 9x - 16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = 3x - 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phương trình tiếp tuyến của đồ thị hàm số y = x$^3$ - 3x + 2 tại điểm có hoành độ x$_0$ = 2 là",
+            "choices": {
+              "A": "y = 9x + 20",
+              "B": "y = 9x - 18",
+              "C": "y = 9x - 16",
+              "D": "y = 3x - 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-42",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương IX – Đạo hàm): Một vật chuyển động theo quy luật s(t) = -t^{3} + 6t^{2} + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng. Kết quả đúng là",
+          "choices": {
+            "A": "27 m/s",
+            "B": "21 m/s (tại t = 2 s)",
+            "C": "9 m/s",
+            "D": "15 m/s"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương IX – Đạo hàm): Một vật chuyển động theo quy luật s(t) = -"
+            },
+            {
+              "t": "math",
+              "v": "t^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "6t^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "27 m/s"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "21 m/s (tại t = 2 s)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9 m/s"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15 m/s"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương IX – Đạo hàm): Một vật chuyển động theo quy luật s(t) = -t$^3$ + 6t$^2$ + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng. Kết quả đúng là",
+            "choices": {
+              "A": "27 m/s",
+              "B": "21 m/s (tại t = 2 s)",
+              "C": "9 m/s",
+              "D": "15 m/s"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-43",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương IX để giải bài toán: Phương trình tiếp tuyến của đồ thị hàm số y = x^{3} - 3x + 4 tại điểm có hoành độ x_0 = 2 là",
+          "choices": {
+            "A": "y = 9x - 16",
+            "B": "y = 9x + 22",
+            "C": "y = 3x - 2",
+            "D": "y = 9x - 14"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương IX để giải bài toán: Phương trình tiếp tuyến của đồ thị hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 4 tại điểm có hoành độ "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "txt",
+              "v": " = 2 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y = 9x - 16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = 9x + 22"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y = 3x - 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = 9x - 14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương IX để giải bài toán: Phương trình tiếp tuyến của đồ thị hàm số y = x$^3$ - 3x + 4 tại điểm có hoành độ x$_0$ = 2 là",
+            "choices": {
+              "A": "y = 9x - 16",
+              "B": "y = 9x + 22",
+              "C": "y = 3x - 2",
+              "D": "y = 9x - 14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-44",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương IX: Một vật chuyển động theo quy luật s(t) = -t^{3} + 6t^{2} + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng",
+          "choices": {
+            "A": "27 m/s",
+            "B": "9 m/s",
+            "C": "21 m/s (tại t = 2 s)",
+            "D": "15 m/s"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương IX: Một vật chuyển động theo quy luật s(t) = -"
+            },
+            {
+              "t": "math",
+              "v": "t^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "6t^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "27 m/s"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9 m/s"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21 m/s (tại t = 2 s)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15 m/s"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương IX: Một vật chuyển động theo quy luật s(t) = -t$^3$ + 6t$^2$ + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng",
+            "choices": {
+              "A": "27 m/s",
+              "B": "9 m/s",
+              "C": "21 m/s (tại t = 2 s)",
+              "D": "15 m/s"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-45",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương IX: Phương trình tiếp tuyến của đồ thị hàm số y = x^{3} - 3x + 6 tại điểm có hoành độ x_0 = 2 là. Đáp số chính xác là",
+          "choices": {
+            "A": "y = 9x - 14",
+            "B": "y = 3x - 0",
+            "C": "y = 9x - 12",
+            "D": "y = 9x + 24"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương IX: Phương trình tiếp tuyến của đồ thị hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 6 tại điểm có hoành độ "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "txt",
+              "v": " = 2 là. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y = 9x - 14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = 3x - 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y = 9x - 12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = 9x + 24"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương IX: Phương trình tiếp tuyến của đồ thị hàm số y = x$^3$ - 3x + 6 tại điểm có hoành độ x$_0$ = 2 là. Đáp số chính xác là",
+            "choices": {
+              "A": "y = 9x - 14",
+              "B": "y = 3x - 0",
+              "C": "y = 9x - 12",
+              "D": "y = 9x + 24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-46",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương IX để tìm đáp án cho bài toán: Một vật chuyển động theo quy luật s(t) = -t^{3} + 6t^{2} + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng",
+          "choices": {
+            "A": "9 m/s",
+            "B": "15 m/s",
+            "C": "21 m/s (tại t = 2 s)",
+            "D": "27 m/s"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương IX để tìm đáp án cho bài toán: Một vật chuyển động theo quy luật s(t) = -"
+            },
+            {
+              "t": "math",
+              "v": "t^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "6t^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9 m/s"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15 m/s"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21 m/s (tại t = 2 s)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "27 m/s"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương IX để tìm đáp án cho bài toán: Một vật chuyển động theo quy luật s(t) = -t$^3$ + 6t$^2$ + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng",
+            "choices": {
+              "A": "9 m/s",
+              "B": "15 m/s",
+              "C": "21 m/s (tại t = 2 s)",
+              "D": "27 m/s"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-47",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IX: Phương trình tiếp tuyến của đồ thị hàm số y = x^{3} - 3x + 8 tại điểm có hoành độ x_0 = 2 là",
+          "choices": {
+            "A": "y = 3x - -2",
+            "B": "y = 9x - 12",
+            "C": "y = 9x - 10",
+            "D": "y = 9x + 26"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IX: Phương trình tiếp tuyến của đồ thị hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 8 tại điểm có hoành độ "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "txt",
+              "v": " = 2 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y = 3x - -2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = 9x - 12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y = 9x - 10"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = 9x + 26"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IX: Phương trình tiếp tuyến của đồ thị hàm số y = x$^3$ - 3x + 8 tại điểm có hoành độ x$_0$ = 2 là",
+            "choices": {
+              "A": "y = 3x - -2",
+              "B": "y = 9x - 12",
+              "C": "y = 9x - 10",
+              "D": "y = 9x + 26"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-48",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IX): Một vật chuyển động theo quy luật s(t) = -t^{3} + 6t^{2} + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng",
+          "choices": {
+            "A": "21 m/s (tại t = 2 s)",
+            "B": "27 m/s",
+            "C": "15 m/s",
+            "D": "9 m/s"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IX): Một vật chuyển động theo quy luật s(t) = -"
+            },
+            {
+              "t": "math",
+              "v": "t^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "6t^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21 m/s (tại t = 2 s)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27 m/s"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15 m/s"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9 m/s"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IX): Một vật chuyển động theo quy luật s(t) = -t$^3$ + 6t$^2$ + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng",
+            "choices": {
+              "A": "21 m/s (tại t = 2 s)",
+              "B": "27 m/s",
+              "C": "15 m/s",
+              "D": "9 m/s"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-49",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương IX, hãy giải quyết bài toán: Phương trình tiếp tuyến của đồ thị hàm số y = x^{3} - 3x + 10 tại điểm có hoành độ x_0 = 2 là",
+          "choices": {
+            "A": "y = 9x - 10",
+            "B": "y = 9x + 28",
+            "C": "y = 9x - 8",
+            "D": "y = 3x - -4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương IX, hãy giải quyết bài toán: Phương trình tiếp tuyến của đồ thị hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " - 3x + 10 tại điểm có hoành độ "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "txt",
+              "v": " = 2 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "y = 9x - 10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "y = 9x + 28"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "y = 9x - 8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "y = 3x - -4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương IX, hãy giải quyết bài toán: Phương trình tiếp tuyến của đồ thị hàm số y = x$^3$ - 3x + 10 tại điểm có hoành độ x$_0$ = 2 là",
+            "choices": {
+              "A": "y = 9x - 10",
+              "B": "y = 9x + 28",
+              "C": "y = 9x - 8",
+              "D": "y = 3x - -4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-09-50",
+          "grade": 11,
+          "chapter": 9,
+          "chapterTitle": "ĐẠO HÀM",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương IX: Một vật chuyển động theo quy luật s(t) = -t^{3} + 6t^{2} + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng. Phương án đúng là",
+          "choices": {
+            "A": "15 m/s",
+            "B": "21 m/s (tại t = 2 s)",
+            "C": "9 m/s",
+            "D": "27 m/s"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương IX: Một vật chuyển động theo quy luật s(t) = -"
+            },
+            {
+              "t": "math",
+              "v": "t^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "6t^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15 m/s"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "21 m/s (tại t = 2 s)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9 m/s"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "27 m/s"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương IX: Một vật chuyển động theo quy luật s(t) = -t$^3$ + 6t$^2$ + 9t (m). Vận tốc lớn nhất mà vật đạt được trong quá trình chuyển động bằng. Phương án đúng là",
+            "choices": {
+              "A": "15 m/s",
+              "B": "21 m/s (tại t = 2 s)",
+              "C": "9 m/s",
+              "D": "27 m/s"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

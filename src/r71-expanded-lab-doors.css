@@ -1,0 +1,24 @@
+/* MATHVERSE R7.1 – one compact UI action per room (physical Lab doors in 3D) */
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-hub {
+  max-height: 116px !important; min-height: 0 !important;
+  height: auto !important; bottom: auto !important;
+  overflow: hidden !important;
+}
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-buttons {
+  display:flex !important; flex-wrap:wrap; align-items:center; justify-content:flex-start;
+  height:auto !important; max-height:46px !important; overflow:visible !important;
+}
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-buttons .r71-lab-directory {
+  min-height:36px; padding:8px 16px; white-space:nowrap;
+  color:#eaf8f7; background:rgba(20,77,84,.8);
+  border:1px solid rgba(83,211,197,.46); border-radius:9px;
+  font-size:13px; font-weight:650; cursor:pointer;
+}
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-buttons .r71-lab-directory:hover,
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-buttons .r71-lab-directory:focus-visible {
+  background:#167d80; outline:2px solid #53d3c5; outline-offset:2px;
+}
+@media(max-width:800px){
+  html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-hub {max-height:136px !important;}
+  html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-buttons .r71-lab-directory {font-size:12px;}
+}

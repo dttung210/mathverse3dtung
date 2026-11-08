@@ -1,0 +1,74 @@
+
+> math-3d-museum-6-12@15.1.0 check:graphics
+> node --test tests/graphics-r74-visuals.test.mjs tests/exhibition-r74-integrated.test.mjs
+
+TAP version 13
+# Subtest: MATHVERSE R74 imports exhibition as part of its native source, no independent addon install
+ok 1 - MATHVERSE R74 imports exhibition as part of its native source, no independent addon install
+  ---
+  duration_ms: 1.816059
+  type: 'test'
+  ...
+# Subtest: 11 international mathematicians have portraits, short biographies and 2 relevant accomplishments
+ok 2 - 11 international mathematicians have portraits, short biographies and 2 relevant accomplishments
+  ---
+  duration_ms: 0.700051
+  type: 'test'
+  ...
+# Subtest: 7 grade walls contain exactly 14 individual 2D illustrations with correct modeId
+ok 3 - 7 grade walls contain exactly 14 individual 2D illustrations with correct modeId
+  ---
+  duration_ms: 3.382352
+  type: 'test'
+  ...
+# Subtest: 25 independent exhibition links all point to real 310 model IDs
+ok 4 - 25 independent exhibition links all point to real 310 model IDs
+  ---
+  duration_ms: 12.895824
+  type: 'test'
+  ...
+# Subtest: 3D exhibit room directly mounts 11 frames, 14 hallway boards and 2 GeoGebra pedestals
+ok 5 - 3D exhibit room directly mounts 11 frames, 14 hallway boards and 2 GeoGebra pedestals
+  ---
+  duration_ms: 34.209127
+  type: 'test'
+  ...
+# Subtest: R74 layout matches original central hall and all seven real grade doors
+ok 6 - R74 layout matches original central hall and all seven real grade doors
+  ---
+  duration_ms: 1.562138
+  type: 'test'
+  ...
+# Subtest: R74 architecture is built using vendored Three.js (no imported CDN engines)
+ok 7 - R74 architecture is built using vendored Three.js (no imported CDN engines)
+  ---
+  duration_ms: 23.05299
+  type: 'test'
+  ...
+# Subtest: R74 visuals switch between classic, eco and enhanced without changing the model
+ok 8 - R74 visuals switch between classic, eco and enhanced without changing the model
+  ---
+  duration_ms: 13.849059
+  type: 'test'
+  ...
+# Subtest: R74 source integrates visuals natively without altering math Lab modules
+ok 9 - R74 source integrates visuals natively without altering math Lab modules
+  ---
+  duration_ms: 2.325599
+  type: 'test'
+  ...
+# Subtest: R74 graphics UI button can toggle/reload its user preference without touching model routing
+ok 10 - R74 graphics UI button can toggle/reload its user preference without touching model routing
+  ---
+  duration_ms: 12.523864
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2191.640178

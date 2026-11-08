@@ -1,0 +1,4045 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 10,
+      "chapter": 2,
+      "roman": "II",
+      "title": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "10-02-01",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 2 > 0?",
+          "choices": {
+            "A": "(0; 5)",
+            "B": "(0; 3)",
+            "C": "(-2; 1)",
+            "D": "(1; 0)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 2 > 0?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(0; 5)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(0; 3)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-2; 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(1; 0)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 2 > 0?",
+            "choices": {
+              "A": "(0; 5)",
+              "B": "(0; 3)",
+              "C": "(-2; 1)",
+              "D": "(1; 0)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-02",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Hãy trả lời câu hỏi cơ bản sau: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y?",
+          "choices": {
+            "A": "x^{2} + 2y > 0",
+            "B": "3x - 3y ≤ 7",
+            "C": "x + y + z < 5",
+            "D": "2x - 3xy ≥ 4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy trả lời câu hỏi cơ bản sau: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2y > 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3x - 3y "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x + y + z < 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2x - 3xy "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy trả lời câu hỏi cơ bản sau: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y?",
+            "choices": {
+              "A": "x$^2$ + 2y > 0",
+              "B": "3x - 3y $\\le$ 7",
+              "C": "x + y + z < 5",
+              "D": "2x - 3xy $\\ge$ 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-03",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương II, xét nội dung: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây. Đáp án đúng là",
+          "choices": {
+            "A": "2x + 3y - 6 < 0",
+            "B": "2x + 3y + 6 < 0",
+            "C": "3x + y ≥ 3",
+            "D": "x - y > 4"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương II, xét nội dung: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2x + 3y - 6 < 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x + 3y + 6 < 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3x + y "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x - y > 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương II, xét nội dung: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây. Đáp án đúng là",
+            "choices": {
+              "A": "2x + 3y - 6 < 0",
+              "B": "2x + 3y + 6 < 0",
+              "C": "3x + y $\\ge$ 3",
+              "D": "x - y > 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-04",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương II (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn), cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 5 > 0",
+          "choices": {
+            "A": "(-5; 1)",
+            "B": "(1; 0)",
+            "C": "(0; 6)",
+            "D": "(0; 8)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương II (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn), cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 5 > 0"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-5; 1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(1; 0)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(0; 6)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(0; 8)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương II (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn), cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 5 > 0",
+            "choices": {
+              "A": "(-5; 1)",
+              "B": "(1; 0)",
+              "C": "(0; 6)",
+              "D": "(0; 8)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-05",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn phương án trả lời đúng nhất: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y?",
+          "choices": {
+            "A": "x^{2} + 5y > 0",
+            "B": "2x - 3xy ≥ 4",
+            "C": "3x - 6y ≤ 7",
+            "D": "x + y + z < 5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn phương án trả lời đúng nhất: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 5y > 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x - 3xy "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3x - 6y "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x + y + z < 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn phương án trả lời đúng nhất: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y?",
+            "choices": {
+              "A": "x$^2$ + 5y > 0",
+              "B": "2x - 3xy $\\ge$ 4",
+              "C": "3x - 6y $\\le$ 7",
+              "D": "x + y + z < 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-06",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về bất phương trình và hệ bất phương trình bậc nhất hai ẩn, một học sinh gặp câu hỏi: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "x - y > 7",
+            "B": "2x + 3y - 9 < 0",
+            "C": "2x + 3y + 9 < 0",
+            "D": "3x + y ≥ 6"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về bất phương trình và hệ bất phương trình bậc nhất hai ẩn, một học sinh gặp câu hỏi: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x - y > 7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x + 3y - 9 < 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x + 3y + 9 < 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3x + y "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về bất phương trình và hệ bất phương trình bậc nhất hai ẩn, một học sinh gặp câu hỏi: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "x - y > 7",
+              "B": "2x + 3y - 9 < 0",
+              "C": "2x + 3y + 9 < 0",
+              "D": "3x + y $\\ge$ 6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-07",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 8 > 0",
+          "choices": {
+            "A": "(0; 11)",
+            "B": "(-8; 1)",
+            "C": "(1; 0)",
+            "D": "(0; 9)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 8 > 0"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(0; 11)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-8; 1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(1; 0)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(0; 9)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 8 > 0",
+            "choices": {
+              "A": "(0; 11)",
+              "B": "(-8; 1)",
+              "C": "(1; 0)",
+              "D": "(0; 9)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-08",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y",
+          "choices": {
+            "A": "3x - 9y ≤ 7",
+            "B": "2x - 3xy ≥ 4",
+            "C": "x + y + z < 5",
+            "D": "x^{2} + 8y > 0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3x - 9y "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x - 3xy "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x + y + z < 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 8y > 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y",
+            "choices": {
+              "A": "3x - 9y $\\le$ 7",
+              "B": "2x - 3xy $\\ge$ 4",
+              "C": "x + y + z < 5",
+              "D": "x$^2$ + 8y > 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-09",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây?",
+          "choices": {
+            "A": "2x + 3y + 12 < 0",
+            "B": "3x + y ≥ 9",
+            "C": "2x + 3y - 12 < 0",
+            "D": "x - y > 10"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2x + 3y + 12 < 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3x + y "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x + 3y - 12 < 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x - y > 10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây?",
+            "choices": {
+              "A": "2x + 3y + 12 < 0",
+              "B": "3x + y $\\ge$ 9",
+              "C": "2x + 3y - 12 < 0",
+              "D": "x - y > 10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-10",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 11 > 0. Phương án chính xác là",
+          "choices": {
+            "A": "(0; 12)",
+            "B": "(1; 0)",
+            "C": "(-11; 1)",
+            "D": "(0; 14)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 11 > 0. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(0; 12)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(1; 0)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-11; 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(0; 14)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 11 > 0. Phương án chính xác là",
+            "choices": {
+              "A": "(0; 12)",
+              "B": "(1; 0)",
+              "C": "(-11; 1)",
+              "D": "(0; 14)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-11",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y",
+          "choices": {
+            "A": "2x - 3xy ≥ 4",
+            "B": "x^{2} + 11y > 0",
+            "C": "x + y + z < 5",
+            "D": "3x - 12y ≤ 7"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2x - 3xy "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 11y > 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x + y + z < 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3x - 12y "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y",
+            "choices": {
+              "A": "2x - 3xy $\\ge$ 4",
+              "B": "x$^2$ + 11y > 0",
+              "C": "x + y + z < 5",
+              "D": "3x - 12y $\\le$ 7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-12",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây",
+          "choices": {
+            "A": "x - y > 13",
+            "B": "3x + y ≥ 12",
+            "C": "2x + 3y - 15 < 0",
+            "D": "2x + 3y + 15 < 0"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x - y > 13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3x + y "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x + 3y - 15 < 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2x + 3y + 15 < 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây",
+            "choices": {
+              "A": "x - y > 13",
+              "B": "3x + y $\\ge$ 12",
+              "C": "2x + 3y - 15 < 0",
+              "D": "2x + 3y + 15 < 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-13",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 14 > 0",
+          "choices": {
+            "A": "(0; 17)",
+            "B": "(1; 0)",
+            "C": "(-14; 1)",
+            "D": "(0; 15)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 14 > 0"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(0; 17)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(1; 0)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-14; 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(0; 15)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 14 > 0",
+            "choices": {
+              "A": "(0; 17)",
+              "B": "(1; 0)",
+              "C": "(-14; 1)",
+              "D": "(0; 15)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-14",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y",
+          "choices": {
+            "A": "3x - 15y ≤ 7",
+            "B": "x + y + z < 5",
+            "C": "x^{2} + 14y > 0",
+            "D": "2x - 3xy ≥ 4"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3x - 15y "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x + y + z < 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 14y > 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2x - 3xy "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y",
+            "choices": {
+              "A": "3x - 15y $\\le$ 7",
+              "B": "x + y + z < 5",
+              "C": "x$^2$ + 14y > 0",
+              "D": "2x - 3xy $\\ge$ 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-15",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương II: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "2x + 3y + 18 < 0",
+            "B": "2x + 3y - 18 < 0",
+            "C": "x - y > 16",
+            "D": "3x + y ≥ 15"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương II: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2x + 3y + 18 < 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x + 3y - 18 < 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x - y > 16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3x + y "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương II: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "2x + 3y + 18 < 0",
+              "B": "2x + 3y - 18 < 0",
+              "C": "x - y > 16",
+              "D": "3x + y $\\ge$ 15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-16",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 17 > 0",
+          "choices": {
+            "A": "(1; 0)",
+            "B": "(-17; 1)",
+            "C": "(0; 18)",
+            "D": "(0; 20)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 17 > 0"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(1; 0)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-17; 1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(0; 18)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(0; 20)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 17 > 0",
+            "choices": {
+              "A": "(1; 0)",
+              "B": "(-17; 1)",
+              "C": "(0; 18)",
+              "D": "(0; 20)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-17",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y?",
+          "choices": {
+            "A": "x + y + z < 5",
+            "B": "2x - 3xy ≥ 4",
+            "C": "3x - 18y ≤ 7",
+            "D": "x^{2} + 17y > 0"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x + y + z < 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x - 3xy "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3x - 18y "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 17y > 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y?",
+            "choices": {
+              "A": "x + y + z < 5",
+              "B": "2x - 3xy $\\ge$ 4",
+              "C": "3x - 18y $\\le$ 7",
+              "D": "x$^2$ + 17y > 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-18",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương II: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây",
+          "choices": {
+            "A": "x - y > 19",
+            "B": "2x + 3y - 21 < 0",
+            "C": "3x + y ≥ 18",
+            "D": "2x + 3y + 21 < 0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương II: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x - y > 19"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x + 3y - 21 < 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3x + y "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2x + 3y + 21 < 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương II: Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây",
+            "choices": {
+              "A": "x - y > 19",
+              "B": "2x + 3y - 21 < 0",
+              "C": "3x + y $\\ge$ 18",
+              "D": "2x + 3y + 21 < 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-19",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 20 > 0. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "(0; 21)",
+            "B": "(-20; 1)",
+            "C": "(0; 23)",
+            "D": "(1; 0)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 20 > 0. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(0; 21)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-20; 1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(0; 23)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(1; 0)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Cặp số (x; y) nào dưới đây thuộc miền nghiệm của bất phương trình 2x - y + 20 > 0. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "(0; 21)",
+              "B": "(-20; 1)",
+              "C": "(0; 23)",
+              "D": "(1; 0)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-20",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y",
+          "choices": {
+            "A": "x + y + z < 5",
+            "B": "3x - 21y ≤ 7",
+            "C": "x^{2} + 20y > 0",
+            "D": "2x - 3xy ≥ 4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x + y + z < 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3x - 21y "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 20y > 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2x - 3xy "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn x, y",
+            "choices": {
+              "A": "x + y + z < 5",
+              "B": "3x - 21y $\\le$ 7",
+              "C": "x$^2$ + 20y > 0",
+              "D": "2x - 3xy $\\ge$ 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-21",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Cho hệ bất phương trình: x ≥ 0, y ≥ 0 và x + y ≤ 5. Điểm nào sau đây thuộc miền nghiệm của hệ?",
+          "choices": {
+            "A": "(4; 3)",
+            "B": "(1; 2)",
+            "C": "(-1; 2)",
+            "D": "(2; -1)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho hệ bất phương trình: x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 5. Điểm nào sau đây thuộc miền nghiệm của hệ?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(4; 3)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(1; 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-1; 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(2; -1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho hệ bất phương trình: x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 5. Điểm nào sau đây thuộc miền nghiệm của hệ?",
+            "choices": {
+              "A": "(4; 3)",
+              "B": "(1; 2)",
+              "C": "(-1; 2)",
+              "D": "(2; -1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-22",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương II (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn) để giải bài toán: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 6",
+          "choices": {
+            "A": "m > 4.5",
+            "B": "m > 1.5",
+            "C": "m < 1.5",
+            "D": "m ≤ 1.5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương II (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn) để giải bài toán: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 6"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m > 4.5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m > 1.5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m < 1.5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 1.5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương II (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn) để giải bài toán: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 6",
+            "choices": {
+              "A": "m > 4.5",
+              "B": "m > 1.5",
+              "C": "m < 1.5",
+              "D": "m $\\le$ 1.5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-23",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương II: Miền nghiệm của hệ bất phương trình x ≥ 0, y ≥ 0, x/5 + y/4 ≤ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Kết quả thu được là",
+          "choices": {
+            "A": "20 (đơn vị diện tích)",
+            "B": "10 (đơn vị diện tích)",
+            "C": "9 (đơn vị diện tích)",
+            "D": "5 (đơn vị diện tích)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương II: Miền nghiệm của hệ bất phương trình x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, x/5 + y/4 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20 (đơn vị diện tích)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10 (đơn vị diện tích)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9 (đơn vị diện tích)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5 (đơn vị diện tích)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương II: Miền nghiệm của hệ bất phương trình x $\\ge$ 0, y $\\ge$ 0, x/5 + y/4 $\\le$ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Kết quả thu được là",
+            "choices": {
+              "A": "20 (đơn vị diện tích)",
+              "B": "10 (đơn vị diện tích)",
+              "C": "9 (đơn vị diện tích)",
+              "D": "5 (đơn vị diện tích)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-24",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Cho hệ bất phương trình: x ≥ 0, y ≥ 0 và x + y ≤ 8. Điểm nào sau đây thuộc miền nghiệm của hệ. Đáp án đúng là",
+          "choices": {
+            "A": "(2; -1)",
+            "B": "(7; 3)",
+            "C": "(-1; 5)",
+            "D": "(1; 5)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Cho hệ bất phương trình: x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 8. Điểm nào sau đây thuộc miền nghiệm của hệ. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(2; -1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(7; 3)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-1; 5)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(1; 5)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Cho hệ bất phương trình: x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 8. Điểm nào sau đây thuộc miền nghiệm của hệ. Đáp án đúng là",
+            "choices": {
+              "A": "(2; -1)",
+              "B": "(7; 3)",
+              "C": "(-1; 5)",
+              "D": "(1; 5)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-25",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 9",
+          "choices": {
+            "A": "m > 3",
+            "B": "m > 6.0",
+            "C": "m < 3.0",
+            "D": "m ≤ 3.0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 9"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m > 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m > 6.0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m < 3.0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 3.0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 9",
+            "choices": {
+              "A": "m > 3",
+              "B": "m > 6.0",
+              "C": "m < 3.0",
+              "D": "m $\\le$ 3.0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-26",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Miền nghiệm của hệ bất phương trình x ≥ 0, y ≥ 0, x/8 + y/4 ≤ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "32 (đơn vị diện tích)",
+            "B": "8 (đơn vị diện tích)",
+            "C": "16 (đơn vị diện tích)",
+            "D": "12 (đơn vị diện tích)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Miền nghiệm của hệ bất phương trình x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, x/8 + y/4 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "32 (đơn vị diện tích)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 (đơn vị diện tích)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16 (đơn vị diện tích)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 (đơn vị diện tích)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Miền nghiệm của hệ bất phương trình x $\\ge$ 0, y $\\ge$ 0, x/8 + y/4 $\\le$ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "32 (đơn vị diện tích)",
+              "B": "8 (đơn vị diện tích)",
+              "C": "16 (đơn vị diện tích)",
+              "D": "12 (đơn vị diện tích)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-27",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Cho hệ bất phương trình: x ≥ 0, y ≥ 0 và x + y ≤ 11. Điểm nào sau đây thuộc miền nghiệm của hệ",
+          "choices": {
+            "A": "(-1; 8)",
+            "B": "(2; -1)",
+            "C": "(1; 8)",
+            "D": "(10; 3)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Cho hệ bất phương trình: x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 11. Điểm nào sau đây thuộc miền nghiệm của hệ"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-1; 8)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(2; -1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(1; 8)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(10; 3)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Cho hệ bất phương trình: x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 11. Điểm nào sau đây thuộc miền nghiệm của hệ",
+            "choices": {
+              "A": "(-1; 8)",
+              "B": "(2; -1)",
+              "C": "(1; 8)",
+              "D": "(10; 3)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-28",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 12",
+          "choices": {
+            "A": "m < 4.5",
+            "B": "m ≤ 4.5",
+            "C": "m > 4.5",
+            "D": "m > 7.5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 12"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m < 4.5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 4.5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m > 4.5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m > 7.5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 12",
+            "choices": {
+              "A": "m < 4.5",
+              "B": "m $\\le$ 4.5",
+              "C": "m > 4.5",
+              "D": "m > 7.5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-29",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn): Miền nghiệm của hệ bất phương trình x ≥ 0, y ≥ 0, x/11 + y/4 ≤ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "22 (đơn vị diện tích)",
+            "B": "11 (đơn vị diện tích)",
+            "C": "44 (đơn vị diện tích)",
+            "D": "15 (đơn vị diện tích)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn): Miền nghiệm của hệ bất phương trình x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, x/11 + y/4 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "22 (đơn vị diện tích)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "11 (đơn vị diện tích)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "44 (đơn vị diện tích)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15 (đơn vị diện tích)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn): Miền nghiệm của hệ bất phương trình x $\\ge$ 0, y $\\ge$ 0, x/11 + y/4 $\\le$ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "22 (đơn vị diện tích)",
+              "B": "11 (đơn vị diện tích)",
+              "C": "44 (đơn vị diện tích)",
+              "D": "15 (đơn vị diện tích)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-30",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Cho hệ bất phương trình: x ≥ 0, y ≥ 0 và x + y ≤ 14. Điểm nào sau đây thuộc miền nghiệm của hệ",
+          "choices": {
+            "A": "(13; 3)",
+            "B": "(2; -1)",
+            "C": "(1; 11)",
+            "D": "(-1; 11)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Cho hệ bất phương trình: x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 14. Điểm nào sau đây thuộc miền nghiệm của hệ"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(13; 3)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(2; -1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(1; 11)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-1; 11)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Cho hệ bất phương trình: x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 14. Điểm nào sau đây thuộc miền nghiệm của hệ",
+            "choices": {
+              "A": "(13; 3)",
+              "B": "(2; -1)",
+              "C": "(1; 11)",
+              "D": "(-1; 11)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-31",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 15. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "m ≤ 6.0",
+            "B": "m < 6.0",
+            "C": "m > 9.0",
+            "D": "m > 6"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 15. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 6.0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m < 6.0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m > 9.0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m > 6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 15. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "m $\\le$ 6.0",
+              "B": "m < 6.0",
+              "C": "m > 9.0",
+              "D": "m > 6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-32",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Miền nghiệm của hệ bất phương trình x ≥ 0, y ≥ 0, x/14 + y/4 ≤ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng",
+          "choices": {
+            "A": "28 (đơn vị diện tích)",
+            "B": "18 (đơn vị diện tích)",
+            "C": "56 (đơn vị diện tích)",
+            "D": "14 (đơn vị diện tích)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Miền nghiệm của hệ bất phương trình x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, x/14 + y/4 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "28 (đơn vị diện tích)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18 (đơn vị diện tích)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "56 (đơn vị diện tích)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14 (đơn vị diện tích)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Miền nghiệm của hệ bất phương trình x $\\ge$ 0, y $\\ge$ 0, x/14 + y/4 $\\le$ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng",
+            "choices": {
+              "A": "28 (đơn vị diện tích)",
+              "B": "18 (đơn vị diện tích)",
+              "C": "56 (đơn vị diện tích)",
+              "D": "14 (đơn vị diện tích)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-33",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Cho hệ bất phương trình: x ≥ 0, y ≥ 0 và x + y ≤ 17. Điểm nào sau đây thuộc miền nghiệm của hệ",
+          "choices": {
+            "A": "(16; 3)",
+            "B": "(2; -1)",
+            "C": "(1; 14)",
+            "D": "(-1; 14)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Cho hệ bất phương trình: x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 17. Điểm nào sau đây thuộc miền nghiệm của hệ"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(16; 3)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(2; -1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(1; 14)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-1; 14)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Cho hệ bất phương trình: x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 17. Điểm nào sau đây thuộc miền nghiệm của hệ",
+            "choices": {
+              "A": "(16; 3)",
+              "B": "(2; -1)",
+              "C": "(1; 14)",
+              "D": "(-1; 14)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-34",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 18",
+          "choices": {
+            "A": "m > 10.5",
+            "B": "m < 7.5",
+            "C": "m > 7.5",
+            "D": "m ≤ 7.5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 18"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m > 10.5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m < 7.5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m > 7.5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 7.5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 18",
+            "choices": {
+              "A": "m > 10.5",
+              "B": "m < 7.5",
+              "C": "m > 7.5",
+              "D": "m $\\le$ 7.5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-35",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Miền nghiệm của hệ bất phương trình x ≥ 0, y ≥ 0, x/17 + y/4 ≤ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng",
+          "choices": {
+            "A": "68 (đơn vị diện tích)",
+            "B": "34 (đơn vị diện tích)",
+            "C": "17 (đơn vị diện tích)",
+            "D": "21 (đơn vị diện tích)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Miền nghiệm của hệ bất phương trình x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, x/17 + y/4 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "68 (đơn vị diện tích)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "34 (đơn vị diện tích)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "17 (đơn vị diện tích)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "21 (đơn vị diện tích)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Miền nghiệm của hệ bất phương trình x $\\ge$ 0, y $\\ge$ 0, x/17 + y/4 $\\le$ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng",
+            "choices": {
+              "A": "68 (đơn vị diện tích)",
+              "B": "34 (đơn vị diện tích)",
+              "C": "17 (đơn vị diện tích)",
+              "D": "21 (đơn vị diện tích)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-36",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn): Cho hệ bất phương trình: x ≥ 0, y ≥ 0 và x + y ≤ 20. Điểm nào sau đây thuộc miền nghiệm của hệ. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "(-1; 17)",
+            "B": "(19; 3)",
+            "C": "(1; 17)",
+            "D": "(2; -1)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn): Cho hệ bất phương trình: x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 20. Điểm nào sau đây thuộc miền nghiệm của hệ. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-1; 17)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(19; 3)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(1; 17)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(2; -1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Bất phương trình và hệ bất phương trình bậc nhất hai ẩn): Cho hệ bất phương trình: x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 20. Điểm nào sau đây thuộc miền nghiệm của hệ. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "(-1; 17)",
+              "B": "(19; 3)",
+              "C": "(1; 17)",
+              "D": "(2; -1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-37",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 21",
+          "choices": {
+            "A": "m > 12.0",
+            "B": "m > 9",
+            "C": "m ≤ 9.0",
+            "D": "m < 9.0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 21"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m > 12.0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m > 9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 9.0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m < 9.0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 21",
+            "choices": {
+              "A": "m > 12.0",
+              "B": "m > 9",
+              "C": "m $\\le$ 9.0",
+              "D": "m < 9.0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-38",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương II: Miền nghiệm của hệ bất phương trình x ≥ 0, y ≥ 0, x/20 + y/4 ≤ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Kết luận đúng là",
+          "choices": {
+            "A": "20 (đơn vị diện tích)",
+            "B": "24 (đơn vị diện tích)",
+            "C": "40 (đơn vị diện tích)",
+            "D": "80 (đơn vị diện tích)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương II: Miền nghiệm của hệ bất phương trình x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, x/20 + y/4 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20 (đơn vị diện tích)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24 (đơn vị diện tích)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40 (đơn vị diện tích)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "80 (đơn vị diện tích)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương II: Miền nghiệm của hệ bất phương trình x $\\ge$ 0, y $\\ge$ 0, x/20 + y/4 $\\le$ 1 là một miền tam giác vuông OAB. Diện tích miền tam giác OAB đó bằng. Kết luận đúng là",
+            "choices": {
+              "A": "20 (đơn vị diện tích)",
+              "B": "24 (đơn vị diện tích)",
+              "C": "40 (đơn vị diện tích)",
+              "D": "80 (đơn vị diện tích)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-39",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Cho hệ bất phương trình: x ≥ 0, y ≥ 0 và x + y ≤ 23. Điểm nào sau đây thuộc miền nghiệm của hệ",
+          "choices": {
+            "A": "(-1; 20)",
+            "B": "(1; 20)",
+            "C": "(2; -1)",
+            "D": "(22; 3)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Cho hệ bất phương trình: x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 23. Điểm nào sau đây thuộc miền nghiệm của hệ"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-1; 20)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(1; 20)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(2; -1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(22; 3)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Cho hệ bất phương trình: x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 23. Điểm nào sau đây thuộc miền nghiệm của hệ",
+            "choices": {
+              "A": "(-1; 20)",
+              "B": "(1; 20)",
+              "C": "(2; -1)",
+              "D": "(22; 3)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-40",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 24",
+          "choices": {
+            "A": "m > 10.5",
+            "B": "m > 13.5",
+            "C": "m ≤ 10.5",
+            "D": "m < 10.5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 24"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m > 10.5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m > 13.5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 10.5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m < 10.5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tìm tất cả các giá trị của tham số m để điểm M(2; -1) thuộc miền nghiệm của bất phương trình mx - 3y > 24",
+            "choices": {
+              "A": "m > 10.5",
+              "B": "m > 13.5",
+              "C": "m $\\le$ 10.5",
+              "D": "m < 10.5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-41",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 4), B(2; 3), C(3; 0) bằng",
+          "choices": {
+            "A": "12",
+            "B": "8",
+            "C": "0",
+            "D": "9"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 4), B(2; 3), C(3; 0) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 4), B(2; 3), C(3; 0) bằng",
+            "choices": {
+              "A": "12",
+              "B": "8",
+              "C": "0",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-42",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương II – Bất phương trình và hệ bất phương trình bậc nhất hai ẩn): Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x ≥ 0, y ≥ 0 và x + y ≤ 4. Kết quả đúng là",
+          "choices": {
+            "A": "15 cặp",
+            "B": "25 cặp",
+            "C": "10 cặp",
+            "D": "16 cặp"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương II – Bất phương trình và hệ bất phương trình bậc nhất hai ẩn): Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 4. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15 cặp"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "25 cặp"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10 cặp"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16 cặp"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương II – Bất phương trình và hệ bất phương trình bậc nhất hai ẩn): Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 4. Kết quả đúng là",
+            "choices": {
+              "A": "15 cặp",
+              "B": "25 cặp",
+              "C": "10 cặp",
+              "D": "16 cặp"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-43",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 6), B(2; 5), C(3; 0) bằng",
+          "choices": {
+            "A": "0",
+            "B": "12",
+            "C": "16",
+            "D": "9"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 6), B(2; 5), C(3; 0) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 6), B(2; 5), C(3; 0) bằng",
+            "choices": {
+              "A": "0",
+              "B": "12",
+              "C": "16",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-44",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương II: Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x ≥ 0, y ≥ 0 và x + y ≤ 6",
+          "choices": {
+            "A": "21 cặp",
+            "B": "36 cặp",
+            "C": "28 cặp",
+            "D": "49 cặp"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương II: Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 6"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21 cặp"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "36 cặp"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "28 cặp"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "49 cặp"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương II: Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 6",
+            "choices": {
+              "A": "21 cặp",
+              "B": "36 cặp",
+              "C": "28 cặp",
+              "D": "49 cặp"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-45",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương II: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 8), B(2; 7), C(3; 0) bằng. Đáp số chính xác là",
+          "choices": {
+            "A": "9",
+            "B": "0",
+            "C": "20",
+            "D": "16"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương II: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 8), B(2; 7), C(3; 0) bằng. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương II: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 8), B(2; 7), C(3; 0) bằng. Đáp số chính xác là",
+            "choices": {
+              "A": "9",
+              "B": "0",
+              "C": "20",
+              "D": "16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-46",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x ≥ 0, y ≥ 0 và x + y ≤ 8",
+          "choices": {
+            "A": "45 cặp",
+            "B": "64 cặp",
+            "C": "36 cặp",
+            "D": "81 cặp"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 8"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "45 cặp"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "64 cặp"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36 cặp"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "81 cặp"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 8",
+            "choices": {
+              "A": "45 cặp",
+              "B": "64 cặp",
+              "C": "36 cặp",
+              "D": "81 cặp"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-47",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 10), B(2; 9), C(3; 0) bằng",
+          "choices": {
+            "A": "24",
+            "B": "0",
+            "C": "20",
+            "D": "9"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 10), B(2; 9), C(3; 0) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 10), B(2; 9), C(3; 0) bằng",
+            "choices": {
+              "A": "24",
+              "B": "0",
+              "C": "20",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-48",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x ≥ 0, y ≥ 0 và x + y ≤ 10",
+          "choices": {
+            "A": "100 cặp",
+            "B": "121 cặp",
+            "C": "66 cặp",
+            "D": "55 cặp"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 10"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100 cặp"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "121 cặp"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "66 cặp"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "55 cặp"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 10",
+            "choices": {
+              "A": "100 cặp",
+              "B": "121 cặp",
+              "C": "66 cặp",
+              "D": "55 cặp"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-49",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 12), B(2; 11), C(3; 0) bằng",
+          "choices": {
+            "A": "0",
+            "B": "24",
+            "C": "9",
+            "D": "28"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 12), B(2; 11), C(3; 0) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "28"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Giá trị lớn nhất của biểu thức F(x; y) = 3x + 2y trên miền đa giác có các đỉnh O(0; 0), A(0; 12), B(2; 11), C(3; 0) bằng",
+            "choices": {
+              "A": "0",
+              "B": "24",
+              "C": "9",
+              "D": "28"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-02-50",
+          "grade": 10,
+          "chapter": 2,
+          "chapterTitle": "BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương II: Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x ≥ 0, y ≥ 0 và x + y ≤ 12. Phương án đúng là",
+          "choices": {
+            "A": "78 cặp",
+            "B": "169 cặp",
+            "C": "91 cặp",
+            "D": "144 cặp"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương II: Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x + y "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 12. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "78 cặp"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "169 cặp"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "91 cặp"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "144 cặp"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương II: Có bao nhiêu cặp số nguyên không âm (x; y) thỏa mãn đồng thời x $\\ge$ 0, y $\\ge$ 0 và x + y $\\le$ 12. Phương án đúng là",
+            "choices": {
+              "A": "78 cặp",
+              "B": "169 cặp",
+              "C": "91 cặp",
+              "D": "144 cặp"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

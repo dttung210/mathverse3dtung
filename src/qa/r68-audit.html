@@ -1,0 +1,38 @@
+<!doctype html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MATHVERSE R6.8 - Bảng nghiệm thu 310 mô hình</title>
+<style>
+:root{font-family:'Segoe UI',Arial,sans-serif;color-scheme:dark;--navy:#0b1726;--pane:#142b3d;--line:#35546a;--teal:#58d6c8;--text:#ecf7fa;--muted:#aac5cd}
+*{box-sizing:border-box}body{margin:0;padding:22px;background:linear-gradient(125deg,#11273b,#071423);color:var(--text)}h1{margin:0 0 8px;font-size:26px}p{line-height:1.5;color:var(--muted)}small{color:var(--muted)}.top{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.stats{display:grid;grid-template-columns:repeat(4,minmax(100px,1fr));gap:12px;margin:18px 0}.card{padding:16px;background:var(--pane);border:1px solid var(--line);border-radius:12px}.card strong{display:block;font-size:26px;color:var(--teal)}.tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:12px}.tools input,.tools select,select{background:#142c3d;color:var(--text);padding:9px;border-radius:8px;border:1px solid var(--line);font:inherit}.tools input{flex:1;min-width:160px}button{background:#167d80;color:white;border-radius:8px;padding:10px 14px;border:1px solid #61c5bf;cursor:pointer;font:inherit}button:hover{background:#236d72}.wrap{height:63vh;overflow:auto;border:1px solid var(--line);border-radius:12px}table{width:100%;border-collapse:collapse;font-size:13px;min-width:920px}th{position:sticky;top:0;background:#264456;color:white;text-align:left}td,th{padding:9px;border-bottom:1px solid #244459}tbody tr:hover{background:#1b3b4d}td b{display:block;font-weight:700}td em{color:var(--muted);font-size:11px;font-style:normal}.tag{font-size:11px;padding:4px 7px;border-radius:12px;background:#1b6670}.note{margin-top:12px;padding:12px 15px;background:#172c3c;border-left:3px solid #d6b47c}.links a{color:var(--teal)}@media(max-width:650px){body{padding:12px}.stats{grid-template-columns:repeat(2,1fr)}h1{font-size:21px}}
+</style></head><body>
+<div class="top"><div><h1>MATHVERSE R6.8 · Bảng nghiệm thu từng mô hình</h1><p>34 phòng chuyên đề · 76 cửa Lab · 310 mô hình gốc. Phòng chỉ có cửa Lab; mô hình được mở trong Kho SGK.</p></div><div class="links"><a href="/" target="_blank" rel="noopener">Mở MATHVERSE trong tab mới</a></div></div>
+<div class="stats"><div class="card"><strong id="rooms">34</strong><small>Phòng chuyên đề</small></div><div class="card"><strong id="labs">76</strong><small>Cửa Lab</small></div><div class="card"><strong id="models">310</strong><small>Mô hình</small></div><div class="card"><strong id="checked">0</strong><small>Đã kiểm trực tiếp</small></div></div>
+<div class="tools"><select id="grade"><option value="0">Lọc tất cả lớp</option></select><input id="search" type="search" placeholder="Tìm mã, Lab, phòng hoặc tên mô hình" aria-label="Tìm mô hình"><button id="export">Xuất CSV nghiệm thu</button><button id="clear">Xóa dấu kiểm</button></div>
+<div class="wrap"><table><thead><tr><th>Lớp</th><th>Phòng</th><th>Cửa Lab</th><th>Chế độ</th><th>Loại</th><th>Hiển thị</th><th>Tương tác</th><th>Đúng Toán</th></tr></thead><tbody id="rows"></tbody></table></div>
+<div class="note"><b>Đánh dấu sau khi thử trên Windows:</b> chọn từng cửa Lab, mở mô hình trong Kho SGK, kiểm tra hình có đúng với tên, kéo/xoay hoặc điều khiển hoạt động và nội dung Toán đúng. <b>Không</b> hiểu kiểm thử mã nguồn là xác nhận GPU đã hoạt động. Kết quả được lưu trên chính trình duyệt của cô và có thể xuất CSV.</div>
+<script type="module">
+import {ROOM_BY_ID,MODE_BY_ID} from '/src/museum/r6-room-layout.js';
+import {getUnifiedLabByModeId,getLabDoorsForRoom} from '/src/museum/r68-unified-labs.mjs';
+import {isTrue3DCapable} from '/src/math6-lab/math6-taxonomy.mjs';
+import {grade7Solid} from '/src/curriculum/grade7-engine.mjs';
+import {grade8Solid} from '/src/curriculum/grade8-engine.mjs';
+import {grade9Solid} from '/src/curriculum/grade9-engine.mjs';
+import {grade11Is3D} from '/src/curriculum/grade11-engine.mjs';
+import {grade12Is3D} from '/src/curriculum/grade12-engine.mjs';
+const $=id=>document.getElementById(id),K='mathverse-r68-qa-310';let marks={};
+try{marks=JSON.parse(localStorage.getItem(K)||'{}')||{}}catch{}
+const rows=[...MODE_BY_ID.values()].map(m=>({mode:m,lab:getUnifiedLabByModeId(m.id)})).sort((a,b)=>a.mode.grade-b.mode.grade||a.mode.id.localeCompare(b.mode.id));
+const is3D=m=>m.grade===6?isTrue3DCapable(m.id):m.grade===7?grade7Solid(m.id):m.grade===8?grade8Solid(m.id):m.grade===9?grade9Solid(m.id):m.grade===11?grade11Is3D(m.id):m.grade===12?grade12Is3D(m.id):false;
+$('rooms').textContent=ROOM_BY_ID.size;$('labs').textContent=[...ROOM_BY_ID.values()].reduce((n,r)=>n+getLabDoorsForRoom(r.roomId).length,0);$('models').textContent=MODE_BY_ID.size;
+for(let g=6;g<=12;g++){const opt=document.createElement('option');opt.value=g;opt.textContent='Toán '+g;$('grade').append(opt)}
+const keys=['visual','interaction','mathematics'], vals=[['','Chưa kiểm'],['pass','Đạt'],['fail','Lỗi'],['na','Không áp dụng']];
+function render(){const q=$('search').value.toLocaleLowerCase('vi').trim(),filter=Number($('grade').value);$('rows').replaceChildren();
+ for(const {mode,lab} of rows){if(filter&&mode.grade!==filter)continue;if(q&&!`${mode.grade} ${mode.name} ${mode.id} ${lab.labId} ${lab.name} ${lab.roomId}`.toLocaleLowerCase('vi').includes(q))continue;
+ const tr=document.createElement('tr');const add=s=>{const td=document.createElement('td');td.textContent=s;tr.append(td);return td};
+ add(mode.grade);add(lab.roomId);add(`${lab.labId} · ${lab.name}`);const td=add('');const b=document.createElement('b');b.textContent=mode.name;const sm=document.createElement('em');sm.textContent=mode.id;td.append(b,sm);add(is3D(mode)?'WebGL 3D':'Hình 2D chuẩn SGK');
+ for(const key of keys){const cell=add(''),sel=document.createElement('select');for(const [v,text] of vals){const opt=document.createElement('option');opt.value=v;opt.textContent=text;sel.append(opt)}sel.value=marks[mode.id]?.[key]||'';sel.onchange=()=>{marks[mode.id]??={};marks[mode.id][key]=sel.value;localStorage.setItem(K,JSON.stringify(marks));recount()};cell.append(sel)}$('rows').append(tr)
+ }recount();}
+function recount(){$('checked').textContent=rows.filter(({mode})=>keys.every(k=>marks[mode.id]?.[k])).length}
+$('grade').onchange=render;$('search').oninput=render;
+$('clear').onclick=()=>{if(confirm('Xóa toàn bộ trạng thái kiểm tra?')){marks={};localStorage.removeItem(K);render()}};
+$('export').onclick=()=>{const quote=s=>'"'+String(s??'').replaceAll('"','""')+'"';const header=['Lop','Ma_phong','Ma_lab','Ten_Lab','Ma_mo_hinh','Ten_mo_hinh','Loai','Hien_thi','Tuong_tac','Dung_toan'];const records=rows.map(({mode,lab})=>[mode.grade,lab.roomId,lab.labId,lab.name,mode.id,mode.name,is3D(mode)?'WebGL_3D':'2D_SGK',...keys.map(k=>marks[mode.id]?.[k]||'chua-kiem')]);const text='﻿'+[header,...records].map(r=>r.map(quote).join(',')).join('\r\n');const a=document.createElement('a'),url=URL.createObjectURL(new Blob([text],{type:'text/csv;charset=utf-8'}));a.href=url;a.download='MATHVERSE_R68_NGHIEM_THU_310_MO_HINH.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),3000)};
+render();
+</script></body></html>

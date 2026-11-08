@@ -1,0 +1,3773 @@
+{
+  "schemaVersion": 9,
+  "sourceType": "teacher-provided-original-LaTeX",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu/chương từ LaTeX gốc; bản Word 40 câu/chương dùng đối chiếu; không sinh câu mới.",
+  "questionsProvenance": "User uploaded PDF, Word and original LaTeX; preserves answer key and MathTeX",
+  "chapters": [
+    {
+      "grade": 9,
+      "chapter": 9,
+      "roman": "IX",
+      "title": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "9-09-01",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cho tam giác ABC vuông tại A có cạnh huyền BC = 8 cm. Bán kính R của đường tròn ngoại tiếp tam giác ABC bằng:",
+          "choices": {
+            "A": "(4)/(2) cm",
+            "B": "4 cm",
+            "C": "8 cm",
+            "D": "4√(2) cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tam giác ABC vuông tại A có cạnh huyền BC = 8 cm. Bán kính R của đường tròn ngoại tiếp tam giác ABC bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{4}{2}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tam giác ABC vuông tại A có cạnh huyền BC = 8 cm. Bán kính R của đường tròn ngoại tiếp tam giác ABC bằng:",
+            "choices": {
+              "A": "4/2 cm",
+              "B": "4 cm",
+              "C": "8 cm",
+              "D": "4$\\sqrt{2}$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-02",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Cho tứ giác ABCD nội tiếp một đường tròn. Biết góc A = 77°, số đo góc đối diện C bằng:",
+          "choices": {
+            "A": "13°",
+            "B": "77°",
+            "C": "90°",
+            "D": "103°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tứ giác ABCD nội tiếp một đường tròn. Biết góc A = 77°, số đo góc đối diện C bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "13°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "77°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "103°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tứ giác ABCD nội tiếp một đường tròn. Biết góc A = 77°, số đo góc đối diện C bằng:",
+            "choices": {
+              "A": "13°",
+              "B": "77°",
+              "C": "90°",
+              "D": "103°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-03",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Tâm của đường tròn ngoại tiếp một tam giác là giao điểm của ba đường nào trong tam giác đó?",
+          "choices": {
+            "A": "Ba đường phân giác trong",
+            "B": "Ba đường trung trực",
+            "C": "Ba đường cao",
+            "D": "Ba đường trung tuyến"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tâm của đường tròn ngoại tiếp một tam giác là giao điểm của ba đường nào trong tam giác đó?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Ba đường phân giác trong"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Ba đường trung trực"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Ba đường cao"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Ba đường trung tuyến"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tâm của đường tròn ngoại tiếp một tam giác là giao điểm của ba đường nào trong tam giác đó?",
+            "choices": {
+              "A": "Ba đường phân giác trong",
+              "B": "Ba đường trung trực",
+              "C": "Ba đường cao",
+              "D": "Ba đường trung tuyến"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-04",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 60 và nhỏ hơn 68 bằng cách liệt kê phần tử:",
+          "choices": {
+            "A": "K = {60; 62; 64; 66; 68}",
+            "B": "K = {61; 63; 65}",
+            "C": "K = {62; 64; 66}",
+            "D": "K = {62; 66}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 60 và nhỏ hơn 68 bằng cách liệt kê phần tử:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "K = {60; 62; 64; 66; 68}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "K = {61; 63; 65}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "K = {62; 64; 66}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "K = {62; 66}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 60 và nhỏ hơn 68 bằng cách liệt kê phần tử:",
+            "choices": {
+              "A": "K = {60; 62; 64; 66; 68}",
+              "B": "K = {61; 63; 65}",
+              "C": "K = {62; 64; 66}",
+              "D": "K = {62; 66}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-05",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Cho tập hợp H = {x ∈ ℕ | 30 ≤ x < 36}. Khẳng định nào dưới đây là ĐÚNG?",
+          "choices": {
+            "A": "30 ∉ H và 36 ∈ H",
+            "B": "36 ∈ H",
+            "C": "29 ∈ H",
+            "D": "30 ∈ H và 36 ∉ H"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tập hợp H = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}"
+            },
+            {
+              "t": "txt",
+              "v": " | 30 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " x < 36}. Khẳng định nào dưới đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "30 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H và 36 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "36 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "29 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H và 36 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tập hợp H = {x $\\in$ $\\mathbb{N}$ | 30 $\\le$ x < 36}. Khẳng định nào dưới đây là ĐÚNG?",
+            "choices": {
+              "A": "30 $\\notin$ H và 36 $\\in$ H",
+              "B": "36 $\\in$ H",
+              "C": "29 $\\in$ H",
+              "D": "30 $\\in$ H và 36 $\\notin$ H"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-06",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Trong hệ thập phân, số tự nhiên gồm 4 nghìn, 1 trăm và 7 đơn vị được viết là:",
+          "choices": {
+            "A": "12",
+            "B": "4107",
+            "C": "417",
+            "D": "4017"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong hệ thập phân, số tự nhiên gồm 4 nghìn, 1 trăm và 7 đơn vị được viết là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4107"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "417"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4017"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong hệ thập phân, số tự nhiên gồm 4 nghìn, 1 trăm và 7 đơn vị được viết là:",
+            "choices": {
+              "A": "12",
+              "B": "4107",
+              "C": "417",
+              "D": "4017"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-07",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Thương của phép chia hai lũy thừa cùng cơ số 2^(35) : 2^(3) bằng:",
+          "choices": {
+            "A": "2^(32)",
+            "B": "2^(105)",
+            "C": "1^(32)",
+            "D": "2^(38)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thương của phép chia hai lũy thừa cùng cơ số "
+            },
+            {
+              "t": "math",
+              "v": "2^{35}"
+            },
+            {
+              "t": "txt",
+              "v": " : "
+            },
+            {
+              "t": "math",
+              "v": "2^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "2^{32}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "2^{105}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "1^{32}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "2^{38}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thương của phép chia hai lũy thừa cùng cơ số 2$^{35}$ : 2$^{3}$ bằng:",
+            "choices": {
+              "A": "2$^{32}$",
+              "B": "2$^{105}$",
+              "C": "1$^{32}$",
+              "D": "2$^{38}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-08",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Với mọi cơ số a ≠ 0, giá trị của biểu thức P = (45)^(0) + 60 bằng:",
+          "choices": {
+            "A": "60",
+            "B": "105",
+            "C": "61",
+            "D": "1"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Với mọi cơ số a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(45)^{0}"
+            },
+            {
+              "t": "txt",
+              "v": " + 60 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "105"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "61"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Với mọi cơ số a $\\ne$ 0, giá trị của biểu thức P = (45)$^0$ + 60 bằng:",
+            "choices": {
+              "A": "60",
+              "B": "105",
+              "C": "61",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-09",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Khi chia số tự nhiên 245 cho 8, số dư của phép chia đó bằng:",
+          "choices": {
+            "A": "5",
+            "B": "0",
+            "C": "3",
+            "D": "30"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi chia số tự nhiên 245 cho 8, số dư của phép chia đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi chia số tự nhiên 245 cho 8, số dư của phép chia đó bằng:",
+            "choices": {
+              "A": "5",
+              "B": "0",
+              "C": "3",
+              "D": "30"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-10",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 30 · a + 30 · b được viết gọn thành:",
+          "choices": {
+            "A": "60 · (a + b)",
+            "B": "30 · a · b",
+            "C": "900 · (a + b)",
+            "D": "30 · (a + b)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 30 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " a + 30 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b được viết gọn thành:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " a "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " b"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "900 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 30 $\\cdot$ a + 30 $\\cdot$ b được viết gọn thành:",
+            "choices": {
+              "A": "60 $\\cdot$ (a + b)",
+              "B": "30 $\\cdot$ a $\\cdot$ b",
+              "C": "900 $\\cdot$ (a + b)",
+              "D": "30 $\\cdot$ (a + b)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-11",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Để số tự nhiên có ba chữ số 32x chia hết cho 9 thì chữ số x phải bằng:",
+          "choices": {
+            "A": "9",
+            "B": "4",
+            "C": "6",
+            "D": "1"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để số tự nhiên có ba chữ số 32x chia hết cho 9 thì chữ số x phải bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để số tự nhiên có ba chữ số 32x chia hết cho 9 thì chữ số x phải bằng:",
+            "choices": {
+              "A": "9",
+              "B": "4",
+              "C": "6",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-12",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Trong các số sau đây, số nào là bội của 33?",
+          "choices": {
+            "A": "134",
+            "B": "98",
+            "C": "69",
+            "D": "132"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các số sau đây, số nào là bội của 33?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "134"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "98"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "69"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "132"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các số sau đây, số nào là bội của 33?",
+            "choices": {
+              "A": "134",
+              "B": "98",
+              "C": "69",
+              "D": "132"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-13",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Khi so sánh hai số âm -38 và -32, khẳng định nào sau đây là ĐÚNG?",
+          "choices": {
+            "A": "|-38| < |-32|",
+            "B": "-38 = -32",
+            "C": "-38 < -32",
+            "D": "-38 > -32"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi so sánh hai số âm -38 và -32, khẳng định nào sau đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "|-38| < |-32|"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-38 = -32"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-38 < -32"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-38 > -32"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi so sánh hai số âm -38 và -32, khẳng định nào sau đây là ĐÚNG?",
+            "choices": {
+              "A": "|-38| < |-32|",
+              "B": "-38 = -32",
+              "C": "-38 < -32",
+              "D": "-38 > -32"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-14",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm số x thỏa mãn đẳng thức: x + 63 = 160:",
+          "choices": {
+            "A": "x = 223",
+            "B": "x = 83",
+            "C": "x = 97",
+            "D": "x = -97"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số x thỏa mãn đẳng thức: x + 63 = 160:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 223"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 83"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 97"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -97"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số x thỏa mãn đẳng thức: x + 63 = 160:",
+            "choices": {
+              "A": "x = 223",
+              "B": "x = 83",
+              "C": "x = 97",
+              "D": "x = -97"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-15",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Số nghịch đảo của phân số (31)/(65) là:",
+          "choices": {
+            "A": "1 - (31)/(65)",
+            "B": "(-31)/(65)",
+            "C": "(-65)/(31)",
+            "D": "(65)/(31)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số nghịch đảo của phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{31}{65}"
+            },
+            {
+              "t": "txt",
+              "v": " là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1 - "
+              },
+              {
+                "t": "math",
+                "v": "\\frac{31}{65}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{-31}{65}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{-65}{31}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{65}{31}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số nghịch đảo của phân số 31/65 là:",
+            "choices": {
+              "A": "1 - 31/65",
+              "B": "-31/65",
+              "C": "-65/31",
+              "D": "65/31"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-16",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Viết phân số (3)/(4) dưới dạng tỉ số phần trăm ta được:",
+          "choices": {
+            "A": "60%",
+            "B": "30%",
+            "C": "75%",
+            "D": "3,4%"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{3}{4}"
+            },
+            {
+              "t": "txt",
+              "v": " dưới dạng tỉ số phần trăm ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60%"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30%"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "75%"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3,4%"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết phân số 3/4 dưới dạng tỉ số phần trăm ta được:",
+            "choices": {
+              "A": "60%",
+              "B": "30%",
+              "C": "75%",
+              "D": "3,4%"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-17",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Một tấm bìa hình chữ nhật có chiều dài 37 cm và chiều rộng 32 cm. Chu vi tấm bìa đó bằng:",
+          "choices": {
+            "A": "1184 cm",
+            "B": "69 cm",
+            "C": "138 cm",
+            "D": "129 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một tấm bìa hình chữ nhật có chiều dài 37 cm và chiều rộng 32 cm. Chu vi tấm bìa đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1184 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "69 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "138 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "129 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một tấm bìa hình chữ nhật có chiều dài 37 cm và chiều rộng 32 cm. Chu vi tấm bìa đó bằng:",
+            "choices": {
+              "A": "1184 cm",
+              "B": "69 cm",
+              "C": "138 cm",
+              "D": "129 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-18",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 60 cm và 33 cm thì có diện tích bằng:",
+          "choices": {
+            "A": "93 cm^(2)",
+            "B": "1980 cm^(2)",
+            "C": "990 cm^(2)",
+            "D": "495 cm^(2)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 60 cm và 33 cm thì có diện tích bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "93 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1980 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "990 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "495 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 60 cm và 33 cm thì có diện tích bằng:",
+            "choices": {
+              "A": "93 cm$^2$",
+              "B": "1980 cm$^2$",
+              "C": "990 cm$^2$",
+              "D": "495 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-19",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Số trung bình cộng của bốn số 30, 32, 36, 42 bằng:",
+          "choices": {
+            "A": "34",
+            "B": "35",
+            "C": "140",
+            "D": "36"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số trung bình cộng của bốn số 30, 32, 36, 42 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "34"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "140"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số trung bình cộng của bốn số 30, 32, 36, 42 bằng:",
+            "choices": {
+              "A": "34",
+              "B": "35",
+              "C": "140",
+              "D": "36"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-20",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Tại x = 3, biểu thức bậc nhất L(x) = 30x - 34 nhận giá trị bằng:",
+          "choices": {
+            "A": "124",
+            "B": "90",
+            "C": "56",
+            "D": "64"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tại x = 3, biểu thức bậc nhất L(x) = 30x - 34 nhận giá trị bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "124"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "90"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "56"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "64"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tại x = 3, biểu thức bậc nhất L(x) = 30x - 34 nhận giá trị bằng:",
+            "choices": {
+              "A": "124",
+              "B": "90",
+              "C": "56",
+              "D": "64"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-21",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Cho tam giác đều ABC có độ dài cạnh a = 6 cm. Bán kính R của đường tròn ngoại tiếp tam giác đều ABC bằng:",
+          "choices": {
+            "A": "6√(3) cm",
+            "B": "2√(3)/2 cm",
+            "C": "2√(3) cm",
+            "D": "2 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tam giác đều ABC có độ dài cạnh a = 6 cm. Bán kính R của đường tròn ngoại tiếp tam giác đều ABC bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": "/2 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tam giác đều ABC có độ dài cạnh a = 6 cm. Bán kính R của đường tròn ngoại tiếp tam giác đều ABC bằng:",
+            "choices": {
+              "A": "6$\\sqrt{3}$ cm",
+              "B": "2$\\sqrt{3}$/2 cm",
+              "C": "2$\\sqrt{3}$ cm",
+              "D": "2 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-22",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Một hình vuông ABCD nội tiếp đường tròn có bán kính R = 4√(2) cm. Độ dài cạnh của hình vuông ABCD bằng:",
+          "choices": {
+            "A": "16 cm",
+            "B": "4 cm",
+            "C": "4√(2) cm",
+            "D": "8 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hình vuông ABCD nội tiếp đường tròn có bán kính R = 4"
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{2}"
+            },
+            {
+              "t": "txt",
+              "v": " cm. Độ dài cạnh của hình vuông ABCD bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hình vuông ABCD nội tiếp đường tròn có bán kính R = 4$\\sqrt{2}$ cm. Độ dài cạnh của hình vuông ABCD bằng:",
+            "choices": {
+              "A": "16 cm",
+              "B": "4 cm",
+              "C": "4$\\sqrt{2}$ cm",
+              "D": "8 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-23",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Trong các tứ giác sau đây, tứ giác nào LUÔN nội tiếp được một đường tròn?",
+          "choices": {
+            "A": "Hình thang vuông bất kỳ",
+            "B": "Hình thoi có một góc bằng 60°",
+            "C": "Hình bình hành bất kỳ",
+            "D": "Hình thang cân, hình chữ nhật, hình vuông"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các tứ giác sau đây, tứ giác nào LUÔN nội tiếp được một đường tròn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Hình thang vuông bất kỳ"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Hình thoi có một góc bằng 60°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Hình bình hành bất kỳ"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Hình thang cân, hình chữ nhật, hình vuông"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các tứ giác sau đây, tứ giác nào LUÔN nội tiếp được một đường tròn?",
+            "choices": {
+              "A": "Hình thang vuông bất kỳ",
+              "B": "Hình thoi có một góc bằng 60°",
+              "C": "Hình bình hành bất kỳ",
+              "D": "Hình thang cân, hình chữ nhật, hình vuông"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-24",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Tính hợp lý tổng S = (107 + 105) + (-5 - 97):",
+          "choices": {
+            "A": "290",
+            "B": "110",
+            "C": "100",
+            "D": "90"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính hợp lý tổng S = (107 + 105) + (-5 - 97):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "290"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "110"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính hợp lý tổng S = (107 + 105) + (-5 - 97):",
+            "choices": {
+              "A": "290",
+              "B": "110",
+              "C": "100",
+              "D": "90"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-25",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Giải phương trình: 4(x - 30) - 2(x - 33) = 74:",
+          "choices": {
+            "A": "x = 94",
+            "B": "x = 34",
+            "C": "x = 56",
+            "D": "x = 64"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giải phương trình: 4(x - 30) - 2(x - 33) = 74:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 94"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 34"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 56"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 64"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giải phương trình: 4(x - 30) - 2(x - 33) = 74:",
+            "choices": {
+              "A": "x = 94",
+              "B": "x = 34",
+              "C": "x = 56",
+              "D": "x = 64"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-26",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Hai lớp quyên góp được tổng cộng 324 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 68 quyển. Số sách lớp thứ nhất quyên góp là:",
+          "choices": {
+            "A": "256 quyển",
+            "B": "162 quyển",
+            "C": "196 quyển",
+            "D": "128 quyển"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hai lớp quyên góp được tổng cộng 324 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 68 quyển. Số sách lớp thứ nhất quyên góp là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "256 quyển"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "162 quyển"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "196 quyển"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "128 quyển"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hai lớp quyên góp được tổng cộng 324 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 68 quyển. Số sách lớp thứ nhất quyên góp là:",
+            "choices": {
+              "A": "256 quyển",
+              "B": "162 quyển",
+              "C": "196 quyển",
+              "D": "128 quyển"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-27",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 384 cm. Độ dài cạnh lớn nhất của tam giác là:",
+          "choices": {
+            "A": "160 cm",
+            "B": "128 cm",
+            "C": "192 cm",
+            "D": "96 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 384 cm. Độ dài cạnh lớn nhất của tam giác là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "160 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "128 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "192 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "96 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 384 cm. Độ dài cạnh lớn nhất của tam giác là:",
+            "choices": {
+              "A": "160 cm",
+              "B": "128 cm",
+              "C": "192 cm",
+              "D": "96 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-28",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Một hóa đơn mua hàng chưa tính thuế có giá 600.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+          "choices": {
+            "A": "540.000 đồng",
+            "B": "610.000 đồng",
+            "C": "660.000 đồng",
+            "D": "630.000 đồng"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hóa đơn mua hàng chưa tính thuế có giá 600.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "540.000 đồng"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "610.000 đồng"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "660.000 đồng"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "630.000 đồng"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hóa đơn mua hàng chưa tính thuế có giá 600.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+            "choices": {
+              "A": "540.000 đồng",
+              "B": "610.000 đồng",
+              "C": "660.000 đồng",
+              "D": "630.000 đồng"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-29",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3^(k + 1) - 3^(k) = 162:",
+          "choices": {
+            "A": "k = 5",
+            "B": "k = 6",
+            "C": "k = 4",
+            "D": "k = 3"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số tự nhiên k thỏa mãn đẳng thức: "
+            },
+            {
+              "t": "math",
+              "v": "3^{k + 1}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3^{k}"
+            },
+            {
+              "t": "txt",
+              "v": " = 162:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "k = 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "k = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "k = 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "k = 3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3$^{k + 1}$ - 3$^{k}$ = 162:",
+            "choices": {
+              "A": "k = 5",
+              "B": "k = 6",
+              "C": "k = 4",
+              "D": "k = 3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-30",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 60| = 36 bằng:",
+          "choices": {
+            "A": "36",
+            "B": "120",
+            "C": "0",
+            "D": "60"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 60| = 36 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "120"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "60"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 60| = 36 bằng:",
+            "choices": {
+              "A": "36",
+              "B": "120",
+              "C": "0",
+              "D": "60"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-31",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn biểu thức H = (x + 32)^(2) + (x - 32)^(2) - 2x^(2) ta được kết quả không phụ thuộc vào x là:",
+          "choices": {
+            "A": "1024",
+            "B": "128",
+            "C": "2048",
+            "D": "0"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn biểu thức H = "
+            },
+            {
+              "t": "math",
+              "v": "(x + 32)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 32)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được kết quả không phụ thuộc vào x là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1024"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "128"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2048"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn biểu thức H = (x + 32)$^2$ + (x - 32)$^2$ - 2x$^2$ ta được kết quả không phụ thuộc vào x là:",
+            "choices": {
+              "A": "1024",
+              "B": "128",
+              "C": "2048",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-32",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Khi thay x = -1 vào đa thức P(x) = x^(3) + 30x^(2) - 32x + 5, giá trị của P(-1) bằng:",
+          "choices": {
+            "A": "64",
+            "B": "6",
+            "C": "66",
+            "D": "-66"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi thay x = -1 vào đa thức P(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 30"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 32x + 5, giá trị của P(-1) bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "64"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "66"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-66"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi thay x = -1 vào đa thức P(x) = x$^3$ + 30x$^2$ - 32x + 5, giá trị của P(-1) bằng:",
+            "choices": {
+              "A": "64",
+              "B": "6",
+              "C": "66",
+              "D": "-66"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-33",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Biểu thức Q(x) = (x + 30) / [(x - 30)(x + 34)] xác định khi và chỉ khi:",
+          "choices": {
+            "A": "x ≠ 30",
+            "B": "x > 30",
+            "C": "x ≠ -30 và x ≠ 34",
+            "D": "x ≠ 30 và x ≠ -34"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biểu thức Q(x) = (x + 30) / [(x - 30)(x + 34)] xác định khi và chỉ khi:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 30"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x > 30"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -30 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 34"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 30 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -34"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biểu thức Q(x) = (x + 30) / [(x - 30)(x + 34)] xác định khi và chỉ khi:",
+            "choices": {
+              "A": "x $\\ne$ 30",
+              "B": "x > 30",
+              "C": "x $\\ne$ -30 và x $\\ne$ 34",
+              "D": "x $\\ne$ 30 và x $\\ne$ -34"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-34",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Một ca nô có vận tốc riêng là 48 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+          "choices": {
+            "A": "51 km",
+            "B": "96 km",
+            "C": "102 km",
+            "D": "90 km"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một ca nô có vận tốc riêng là 48 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "51 km"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "96 km"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "102 km"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90 km"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một ca nô có vận tốc riêng là 48 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+            "choices": {
+              "A": "51 km",
+              "B": "96 km",
+              "C": "102 km",
+              "D": "90 km"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-35",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Cho đoạn thẳng AB = 128 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+          "choices": {
+            "A": "32 cm",
+            "B": "64 cm",
+            "C": "94 cm",
+            "D": "96 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho đoạn thẳng AB = 128 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "32 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "64 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "94 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "96 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho đoạn thẳng AB = 128 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+            "choices": {
+              "A": "32 cm",
+              "B": "64 cm",
+              "C": "94 cm",
+              "D": "96 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-36",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Trong tứ giác lồi ABCD, biết góc A = 75°, góc B = 105° và góc C = 2 · góc D. Số đo góc D bằng:",
+          "choices": {
+            "A": "45°",
+            "B": "120°",
+            "C": "60°",
+            "D": "90°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong tứ giác lồi ABCD, biết góc A = 75°, góc B = 105° và góc C = 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " góc D. Số đo góc D bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "120°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong tứ giác lồi ABCD, biết góc A = 75°, góc B = 105° và góc C = 2 $\\cdot$ góc D. Số đo góc D bằng:",
+            "choices": {
+              "A": "45°",
+              "B": "120°",
+              "C": "60°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-37",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+          "choices": {
+            "A": "14 m",
+            "B": "10 m",
+            "C": "12 m",
+            "D": "100 m"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+            "choices": {
+              "A": "14 m",
+              "B": "10 m",
+              "C": "12 m",
+              "D": "100 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-38",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 150 dm^(2) và chứa được tối đa 900 lít nước (1 dm^(3) = 1 lít). Chiều cao của thùng chứa là:",
+          "choices": {
+            "A": "6 dm",
+            "B": "18 dm",
+            "C": "5 dm",
+            "D": "12 dm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 150 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chứa được tối đa 900 lít nước (1 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 lít). Chiều cao của thùng chứa là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 dm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18 dm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5 dm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 dm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 150 dm$^2$ và chứa được tối đa 900 lít nước (1 dm$^3$ = 1 lít). Chiều cao của thùng chứa là:",
+            "choices": {
+              "A": "6 dm",
+              "B": "18 dm",
+              "C": "5 dm",
+              "D": "12 dm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-39",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:",
+          "choices": {
+            "A": "9 điểm",
+            "B": "7 điểm",
+            "C": "8 điểm",
+            "D": "6 điểm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9 điểm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7 điểm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 điểm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6 điểm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:",
+            "choices": {
+              "A": "9 điểm",
+              "B": "7 điểm",
+              "C": "8 điểm",
+              "D": "6 điểm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-40",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Trong một chiếc hộp có 34 thẻ đánh số từ 1 đến 34 và 36 thẻ đánh số từ 35 đến 70. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 34 là:",
+          "choices": {
+            "A": "(34)/(70)",
+            "B": "(35)/(70)",
+            "C": "(1)/(70)",
+            "D": "(36)/(70)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong một chiếc hộp có 34 thẻ đánh số từ 1 đến 34 và 36 thẻ đánh số từ 35 đến 70. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 34 là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{34}{70}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{35}{70}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{70}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{36}{70}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong một chiếc hộp có 34 thẻ đánh số từ 1 đến 34 và 36 thẻ đánh số từ 35 đến 70. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 34 là:",
+            "choices": {
+              "A": "34/70",
+              "B": "35/70",
+              "C": "1/70",
+              "D": "36/70"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-41",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Cho lục giác đều ABCDEF tâm O. Phép quay thuận chiều tâm O góc quay α nào dưới đây biến lục giác đều ABCDEF thành chính nó?",
+          "choices": {
+            "A": "60°",
+            "B": "45°",
+            "C": "150°",
+            "D": "90°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho lục giác đều ABCDEF tâm O. Phép quay thuận chiều tâm O góc quay "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " nào dưới đây biến lục giác đều ABCDEF thành chính nó?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "150°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho lục giác đều ABCDEF tâm O. Phép quay thuận chiều tâm O góc quay $\\alpha$ nào dưới đây biến lục giác đều ABCDEF thành chính nó?",
+            "choices": {
+              "A": "60°",
+              "B": "45°",
+              "C": "150°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-42",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Cho tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm, AC = 8 cm. Bán kính r của đường tròn nội tiếp tam giác ABC (r = (AB + AC - BC)/2) bằng:",
+          "choices": {
+            "A": "6 cm",
+            "B": "5.0 cm",
+            "C": "4 cm",
+            "D": "2 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm, AC = 8 cm. Bán kính r của đường tròn nội tiếp tam giác ABC (r = (AB + AC - BC)/2) bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5.0 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm, AC = 8 cm. Bán kính r của đường tròn nội tiếp tam giác ABC (r = (AB + AC - BC)/2) bằng:",
+            "choices": {
+              "A": "6 cm",
+              "B": "5.0 cm",
+              "C": "4 cm",
+              "D": "2 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-43",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 30)^(2) + (x - 34)^(2) với mọi số thực x:",
+          "choices": {
+            "A": "8 (đạt được khi x = 32)",
+            "B": "4",
+            "C": "0",
+            "D": "16"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị nhỏ nhất của biểu thức A(x) = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 30)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 34)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " với mọi số thực x:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8 (đạt được khi x = 32)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 30)$^2$ + (x - 34)$^2$ với mọi số thực x:",
+            "choices": {
+              "A": "8 (đạt được khi x = 32)",
+              "B": "4",
+              "C": "0",
+              "D": "16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-44",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Giá trị lớn nhất của biểu thức phân thức B(x) = 132 / ((x + 30)^(2) + 4) với mọi x ∈ ℝ bằng:",
+          "choices": {
+            "A": "16.5",
+            "B": "33",
+            "C": "4",
+            "D": "132"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giá trị lớn nhất của biểu thức phân thức B(x) = 132 / ("
+            },
+            {
+              "t": "math",
+              "v": "(x + 30)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 4) với mọi x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16.5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "33"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "132"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giá trị lớn nhất của biểu thức phân thức B(x) = 132 / ((x + 30)$^2$ + 4) với mọi x $\\in$ $\\mathbb{R}$ bằng:",
+            "choices": {
+              "A": "16.5",
+              "B": "33",
+              "C": "4",
+              "D": "132"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-45",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Tính tổng của 40 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (159):",
+          "choices": {
+            "A": "6480",
+            "B": "3160",
+            "C": "3240",
+            "D": "3200"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính tổng của 40 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (159):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6480"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3160"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3240"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3200"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính tổng của 40 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (159):",
+            "choices": {
+              "A": "6480",
+              "B": "3160",
+              "C": "3240",
+              "D": "3200"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-46",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Tính giá trị của tổng S = 2/(1·3) + 2/(3·5) + 2/(5·7) + ... + 2/(69·71):",
+          "choices": {
+            "A": "(69)/(71)",
+            "B": "(1)/(71)",
+            "C": "(70)/(71)",
+            "D": "(35)/(71)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính giá trị của tổng S = 2/(1"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "3) + 2/(3"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "5) + 2/(5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "7) + ... + 2/(69"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "71):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{69}{71}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{71}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{70}{71}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{35}{71}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính giá trị của tổng S = 2/(1$\\cdot$3) + 2/(3$\\cdot$5) + 2/(5$\\cdot$7) + ... + 2/(69$\\cdot$71):",
+            "choices": {
+              "A": "69/71",
+              "B": "1/71",
+              "C": "70/71",
+              "D": "35/71"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-47",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Có tất cả bao nhiêu số nguyên x (với x ≠ -30) sao cho biểu thức P = (3x + 101)/(x + 30) nhận giá trị là một số nguyên?",
+          "choices": {
+            "A": "6 số nguyên",
+            "B": "2 số nguyên",
+            "C": "8 số nguyên",
+            "D": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên ±1, ±11)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Có tất cả bao nhiêu số nguyên x (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -30) sao cho biểu thức P = (3x + 101)/(x + 30) nhận giá trị là một số nguyên?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 số nguyên"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2 số nguyên"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 số nguyên"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "1, "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "11)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Có tất cả bao nhiêu số nguyên x (với x $\\ne$ -30) sao cho biểu thức P = (3x + 101)/(x + 30) nhận giá trị là một số nguyên?",
+            "choices": {
+              "A": "6 số nguyên",
+              "B": "2 số nguyên",
+              "C": "8 số nguyên",
+              "D": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên $\\pm$1, $\\pm$11)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-48",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+          "choices": {
+            "A": "4 giờ",
+            "B": "9.0 giờ",
+            "C": "2 giờ",
+            "D": "6 giờ"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 giờ"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9.0 giờ"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2 giờ"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6 giờ"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+            "choices": {
+              "A": "4 giờ",
+              "B": "9.0 giờ",
+              "C": "2 giờ",
+              "D": "6 giờ"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-49",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Biết hai số thực u và v thỏa mãn u + v = 33 và u · v = 32. Giá trị của biểu thức T = u^(3) + v^(3) bằng:",
+          "choices": {
+            "A": "39105",
+            "B": "32769",
+            "C": "1025",
+            "D": "35937"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biết hai số thực u và v thỏa mãn u + v = 33 và u "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " v = 32. Giá trị của biểu thức T = "
+            },
+            {
+              "t": "math",
+              "v": "u^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "v^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "39105"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32769"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1025"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "35937"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biết hai số thực u và v thỏa mãn u + v = 33 và u $\\cdot$ v = 32. Giá trị của biểu thức T = u$^3$ + v$^3$ bằng:",
+            "choices": {
+              "A": "39105",
+              "B": "32769",
+              "C": "1025",
+              "D": "35937"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        },
+        {
+          "id": "9-09-50",
+          "grade": 9,
+          "chapter": 9,
+          "chapterTitle": "ĐƯỜNG TRÒN NGOẠI TIẾP VÀ ĐƯỜNG TRÒN NỘI TIẾP",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 279 m^(2). Chiều rộng ban đầu của khu đất là:",
+          "choices": {
+            "A": "33 m",
+            "B": "30 m",
+            "C": "60 m",
+            "D": "90 m"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 279 "
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Chiều rộng ban đầu của khu đất là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "33 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "60 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 279 m$^2$. Chiều rộng ban đầu của khu đất là:",
+            "choices": {
+              "A": "33 m",
+              "B": "30 m",
+              "C": "60 m",
+              "D": "90 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX"
+          }
+        }
+      ]
+    }
+  ]
+}

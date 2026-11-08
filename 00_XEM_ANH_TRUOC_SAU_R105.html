@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MATHVERSE R105 – Nghiệm Thu Trực Quan Trước / Sau Khi Nạp GLB Thật Lên Bục</title>
+  <style>
+    :root {
+      --bg: #07131f;
+      --panel: #0d2136;
+      --border: #1e4976;
+      --gold: #f3c663;
+      --cyan: #4dd0e1;
+      --green: #4caf50;
+      --amber: #ffb300;
+      --text: #eaf4fc;
+      --muted: #9ab8d3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 24px;
+    }
+    header {
+      max-width: 1440px;
+      margin: 0 auto 24px;
+      background: linear-gradient(135deg, #0b2239, #103252);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 26px;
+    }
+    header h1 { margin: 0 0 8px; color: var(--gold); font-size: 1.6rem; }
+    header p { margin: 4px 0; color: var(--muted); }
+    .summary-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .badge {
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: rgba(77, 208, 225, 0.14);
+      border: 1px solid var(--cyan);
+      color: var(--cyan);
+    }
+    .badge.green { background: rgba(76, 175, 80, 0.16); border-color: var(--green); color: #81c784; }
+    .badge.amber { background: rgba(255, 179, 0, 0.16); border-color: var(--amber); color: #ffd54f; }
+    .container { max-width: 1440px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 22px;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      padding-bottom: 10px;
+      margin-bottom: 14px;
+    }
+    .card-header h2 { margin: 0; font-size: 1.25rem; color: var(--gold); }
+    .meta { font-size: 0.9rem; color: var(--muted); }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+      gap: 14px;
+    }
+    figure {
+      margin: 0;
+      background: #06101a;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    figure img {
+      width: 100%;
+      display: block;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+    }
+    figcaption {
+      padding: 8px 12px;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid rgba(255,255,255,0.07);
+    }
+    figcaption strong { color: var(--text); }
+    a { color: var(--cyan); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MATHVERSE R105 – NGHIỆM THU TRỰC QUAN TRƯỚC / SAU KHI NẠP GLB THẬT LÊN BỤC</h1>
+    <p>So sánh trực tiếp từng bục trong Phòng Triển lãm UNESCO 3D: Trước khi nạp GLB (Hình học minh họa R104) và Sau khi nạp GLB thật có giấy phép <strong>CC BY 4.0</strong> (ở cả 2 độ phân giải <code>1920×1080</code> và <code>1366×768</code>).</p>
+    <div class="summary-badges">
+      <span class="badge green">9/10 Bục trong phòng có GLB thật (1 Parthenon R98 + 8 GLB CC BY 4.0)</span>
+      <span class="badge amber">1 Bục giữ Hình học minh họa 3D + Sketchfab Embed (Đền Artemis ở Ephesus)</span>
+      <span class="badge">FPS WebGL: 57.8 – 78.9 FPS (0 lỗi Console)</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="card-header">
+        <h2>0. Đền Parthenon (Khu 1 – Chuẩn gốc R98 giữ nguyên 100%)</h2>
+        <span class="meta">Tệp: <code>dual/discovery-r98/assets/unesco_parthenon_glb.glb</code> · SHA256: <code>e4b50913...322562d</code></span>
+      </div>
+      <div class="grid-3">
+        <figure><img src="R105_AGENT/qa_screenshots/before_unesco_parthenon_1920x1080.png" alt="Parthenon trước"><figcaption><strong>Trước cập nhật (1920×1080):</strong> Bản quét quang trắc R98 nguyên bản</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_unesco_parthenon_1920x1080.png" alt="Parthenon sau 1080p"><figcaption><strong>Sau cập nhật (1920×1080):</strong> Bảo toàn tuyệt đối byte-for-byte</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_unesco_parthenon_1366x768.png" alt="Parthenon sau 768p"><figcaption><strong>Sau cập nhật (1366×768):</strong> Hiển thị chuẩn trên màn hình laptop giáo viên</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>1. Đại kim tự tháp Giza – Khufu (Khu 1 – UNESCO)</h2>
+        <span class="meta">Trạng thái: <strong>NATIVE_GLB_CÓ_PHÉP</strong> · Tác giả: <code>ianicolo</code> · Giấy phép: <code>CC BY 4.0</code> · 360,321 tam giác · <a href="https://sketchfab.com/models/4a251113722f4d969b6cf2ca5f35c502" target="_blank">Nguồn Sketchfab</a></span>
+      </div>
+      <div class="grid-3">
+        <figure><img src="R105_AGENT/qa_screenshots/before_wonder_giza_1920x1080.png" alt="Giza trước"><figcaption><strong>Trước (R104):</strong> Mô hình hình học minh họa</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_wonder_giza_1920x1080.png" alt="Giza sau 1080p"><figcaption><strong>Sau (1920×1080):</strong> GLB quang trắc <code>wonder_giza.glb</code> trên bục</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_wonder_giza_1366x768.png" alt="Giza sau 768p"><figcaption><strong>Sau (1366×768):</strong> Kiểm định tỷ lệ và bảng ghi công</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>2. Đền Artemis ở Ephesus (Khu 1 – UNESCO · Giữ Hình học minh họa 3D)</h2>
+        <span class="meta">Trạng thái: <strong>MÔ_HÌNH_GIÁO_DỤC + SKETCHFAB_EMBED_ONLY</strong> · Embed: <code>WelsEvil</code> (Khóa tải GLB; không thay bằng đền ở Sardis)</span>
+      </div>
+      <div class="grid-3">
+        <figure><img src="R105_AGENT/qa_screenshots/before_wonder_artemis_1920x1080.png" alt="Artemis trước"><figcaption><strong>Trước (R104):</strong> Mô hình cột Dipteral Ionic minh họa</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_wonder_artemis_1920x1080.png" alt="Artemis sau 1080p"><figcaption><strong>Sau (1920×1080):</strong> Nhãn rõ ràng <code>HÌNH HỌC MINH HỌA · 3D TRỰC TIẾP</code></figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_wonder_artemis_1366x768.png" alt="Artemis sau 768p"><figcaption><strong>Sau (1366×768):</strong> Minh bạch học thuật, không đánh tráo mô hình</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>3. Đấu trường Colosseum (Khu 2 – New7Wonders 2007)</h2>
+        <span class="meta">Trạng thái: <strong>NATIVE_GLB_CÓ_PHÉP</strong> · Tác giả: <code>PanagiotaGalli</code> · Giấy phép: <code>CC BY 4.0</code> · 203,472 tam giác · <a href="https://sketchfab.com/models/6f1383bb894a4f8fb289fb6777688d68" target="_blank">Nguồn Sketchfab</a></span>
+      </div>
+      <div class="grid-3">
+        <figure><img src="R105_AGENT/qa_screenshots/before_wonder_colosseum_1920x1080.png" alt="Colosseum trước"><figcaption><strong>Trước (R104):</strong> Khối vòm elip hình học minh họa</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_wonder_colosseum_1920x1080.png" alt="Colosseum sau 1080p"><figcaption><strong>Sau (1920×1080):</strong> GLB quang trắc <code>wonder_colosseum.glb</code> trên bục</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_wonder_colosseum_1366x768.png" alt="Colosseum sau 768p"><figcaption><strong>Sau (1366×768):</strong> Đầy đủ hệ vòm và texture thực tế</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>4. Chichén Itzá – El Castillo (Khu 2 – New7Wonders 2007)</h2>
+        <span class="meta">Trạng thái: <strong>NATIVE_GLB_CÓ_PHÉP</strong> · Tác giả: <code>DavidOrdonez</code> · Giấy phép: <code>CC BY 4.0</code> · 28,496 tam giác · <a href="https://sketchfab.com/models/4bb4247ccc5740b8a5e1db834a62d1a1" target="_blank">Nguồn Sketchfab</a></span>
+      </div>
+      <div class="grid-3">
+        <figure><img src="R105_AGENT/qa_screenshots/before_wonder_chichen_1920x1080.png" alt="Chichen trước"><figcaption><strong>Trước (R104):</strong> Tháp bậc thang minh họa</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_wonder_chichen_1920x1080.png" alt="Chichen sau 1080p"><figcaption><strong>Sau (1920×1080):</strong> GLB <code>wonder_chichen.glb</code> đặt trên bục</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_wonder_chichen_1366x768.png" alt="Chichen sau 768p"><figcaption><strong>Sau (1366×768):</strong> Kiểm định ở màn hình 1366×768</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>5. Lăng Taj Mahal (Khu 2 – New7Wonders 2007)</h2>
+        <span class="meta">Trạng thái: <strong>NATIVE_GLB_CÓ_PHÉP</strong> · Tác giả: <code>Sahistaja</code> · Giấy phép: <code>CC BY 4.0</code> · 583,742 tam giác · <a href="https://sketchfab.com/models/5288bc889477472a889345e085931e1c" target="_blank">Nguồn Sketchfab</a></span>
+      </div>
+      <div class="grid-3">
+        <figure><img src="R105_AGENT/qa_screenshots/before_wonder_taj_1920x1080.png" alt="Taj trước"><figcaption><strong>Trước (R104):</strong> Khối vòm và 4 tháp minh họa</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_wonder_taj_1920x1080.png" alt="Taj sau 1080p"><figcaption><strong>Sau (1920×1080):</strong> GLB chi tiết cao <code>wonder_taj.glb</code> trên bục</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_wonder_taj_1366x768.png" alt="Taj sau 768p"><figcaption><strong>Sau (1366×768):</strong> Đầy đủ mái vòm trung tâm và 4 tháp góc</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>6. Tháp đôi Petronas (Khu 3 – Kiến trúc hình học)</h2>
+        <span class="meta">Trạng thái: <strong>NATIVE_GLB_CÓ_PHÉP</strong> · Tác giả: <code>NanoRay</code> · Giấy phép: <code>CC BY 4.0</code> · 47,772 tam giác · <a href="https://sketchfab.com/models/4111f3de53f24ab0a9547205723665b1" target="_blank">Nguồn Sketchfab</a></span>
+      </div>
+      <div class="grid-3">
+        <figure><img src="R105_AGENT/qa_screenshots/before_other_petronas_1920x1080.png" alt="Petronas trước"><figcaption><strong>Trước (R104):</strong> Khối hai tháp minh họa</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_other_petronas_1920x1080.png" alt="Petronas sau 1080p"><figcaption><strong>Sau (1920×1080):</strong> GLB <code>other_petronas.glb</code> với cầu Skybridge</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_other_petronas_1366x768.png" alt="Petronas sau 768p"><figcaption><strong>Sau (1366×768):</strong> Căn tâm chuẩn trên bệ</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>7. Kim tự tháp kính Louvre (Khu 3 – Kiến trúc hình học)</h2>
+        <span class="meta">Trạng thái: <strong>NATIVE_GLB_CÓ_PHÉP</strong> · Tác giả: <code>Le FabShop</code> · Giấy phép: <code>CC BY 4.0</code> · 11,648 tam giác · <a href="https://sketchfab.com/models/95b6b33f6a85407d854397640e9875f0" target="_blank">Nguồn Sketchfab</a></span>
+      </div>
+      <div class="grid-3">
+        <figure><img src="R105_AGENT/qa_screenshots/before_other_louvre_1920x1080.png" alt="Louvre trước"><figcaption><strong>Trước (R104):</strong> Chóp tứ giác đều minh họa</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_other_louvre_1920x1080.png" alt="Louvre sau 1080p"><figcaption><strong>Sau (1920×1080):</strong> GLB <code>other_louvre.glb</code> với hệ khung mắt cáo</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_other_louvre_1366x768.png" alt="Louvre sau 768p"><figcaption><strong>Sau (1366×768):</strong> Kiểm định ở màn hình 1366×768</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>8. Cầu Golden Gate (Khu 3 – Kiến trúc hình học)</h2>
+        <span class="meta">Trạng thái: <strong>NATIVE_GLB_CÓ_PHÉP</strong> · Tác giả: <code>JuanG3D</code> · Giấy phép: <code>CC BY 4.0</code> · 159,902 tam giác · <a href="https://sketchfab.com/models/a0ee5a9c285849c0819af5f366be3835" target="_blank">Nguồn Sketchfab</a></span>
+      </div>
+      <div class="grid-3">
+        <figure><img src="R105_AGENT/qa_screenshots/before_other_golden_gate_1920x1080.png" alt="Golden Gate trước"><figcaption><strong>Trước (R104):</strong> Mô hình cầu treo minh họa</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_other_golden_gate_1920x1080.png" alt="Golden Gate sau 1080p"><figcaption><strong>Sau (1920×1080):</strong> GLB <code>other_golden_gate.glb</code> với cáp treo & trụ tháp</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_other_golden_gate_1366x768.png" alt="Golden Gate sau 768p"><figcaption><strong>Sau (1366×768):</strong> Hiển thị rõ ràng trên bệ</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>9. Cổng vòm Gateway Arch (Khu 3 – Kiến trúc hình học)</h2>
+        <span class="meta">Trạng thái: <strong>NATIVE_GLB_CÓ_PHÉP</strong> · Tác giả: <code>joseph.e.mathis</code> · Giấy phép: <code>CC BY 4.0</code> · 101,704 tam giác · <a href="https://sketchfab.com/models/5015279eea634a0aa2822103c8e52fcd" target="_blank">Nguồn Sketchfab</a></span>
+      </div>
+      <div class="grid-3">
+        <figure><img src="R105_AGENT/qa_screenshots/before_other_gateway_1920x1080.png" alt="Gateway trước"><figcaption><strong>Trước (R104):</strong> Vòm dây xích minh họa</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_other_gateway_1920x1080.png" alt="Gateway sau 1080p"><figcaption><strong>Sau (1920×1080):</strong> GLB <code>other_gateway.glb</code> trên bục</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/after_other_gateway_1366x768.png" alt="Gateway sau 768p"><figcaption><strong>Sau (1366×768):</strong> Đường dây xích cosh(x) chuẩn xác</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>10. Giao diện Hộp thoại R100 (3 Tab), Tượng Zeus, Colossus Rhodes & Bảo toàn hệ thống</h2>
+        <span class="meta">Giữ nguyên R100 UI hai cột màu xanh đậm, 18 điểm Bản đồ/Địa cầu, Bảo tàng và Công viên</span>
+      </div>
+      <div class="grid-3">
+        <figure><img src="R105_AGENT/qa_screenshots/modal_colosseum_sketchfab_1920x1080.png" alt="Modal Sketchfab"><figcaption><strong>Hộp thoại R100 – Tab Sketchfab:</strong> Hiện rõ trạng thái GLB đã đăng ký & nguồn</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/modal_colosseum_3d_1920x1080.png" alt="Modal 3D"><figcaption><strong>Hộp thoại R100 – Tab Hình học 3D:</strong> Khối hình học tương tác và công thức LaTeX</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/modal_colosseum_2d_1920x1080.png" alt="Modal 2D"><figcaption><strong>Hộp thoại R100 – Tab Hình chiếu 2D:</strong> Bản vẽ mặt cắt trực giao SVG</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/modal_zeus_1920x1080.png" alt="Zeus"><figcaption><strong>Tượng thần Zeus ở Olympia:</strong> Giữ nguyên UID <code>3ef14e973af8440c8fa34bfeee6da3e0</code> + ảnh di tích</figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/modal_colossus_rhodes_1920x1080.png" alt="Rhodes"><figcaption><strong>Tượng Colossus ở Rhodes:</strong> Ảnh cảng Mandraki CC0 (Jebulon) + UID <code>011ee3d4483448b4abac63969bcfc475</code></figcaption></figure>
+        <figure><img src="R105_AGENT/qa_screenshots/discovery_world_map_18_pins_1920x1080.png" alt="Map 18 pins"><figcaption><strong>Bản đồ Thế giới 18 điểm:</strong> Bảo toàn 3 nhóm màu, không hiện nút chuyển vào phòng UNESCO</figcaption></figure>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+

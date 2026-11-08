@@ -1,0 +1,3837 @@
+{
+  "schemaVersion": 9,
+  "sourceType": "teacher-provided-original-LaTeX",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu/chương từ LaTeX gốc; bản Word 40 câu/chương dùng đối chiếu; không sinh câu mới.",
+  "questionsProvenance": "User uploaded PDF, Word and original LaTeX; preserves answer key and MathTeX",
+  "chapters": [
+    {
+      "grade": 8,
+      "chapter": 2,
+      "roman": "II",
+      "title": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "8-02-01",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Khai triển hằng đẳng thức (x + 2)^(2) ta được:",
+          "choices": {
+            "A": "x^(2) + 4",
+            "B": "x^(2) + 4x + 4",
+            "C": "x^(2) + 2x + 4",
+            "D": "x^(2) - 4x + 4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khai triển hằng đẳng thức "
+            },
+            {
+              "t": "math",
+              "v": "(x + 2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 4x + 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2x + 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 4x + 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khai triển hằng đẳng thức (x + 2)$^2$ ta được:",
+            "choices": {
+              "A": "x$^2$ + 4",
+              "B": "x$^2$ + 4x + 4",
+              "C": "x$^2$ + 2x + 4",
+              "D": "x$^2$ - 4x + 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-02",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Viết biểu thức x^(2) - 16 dưới dạng tích ta được:",
+          "choices": {
+            "A": "(x - 16)(x + 1)",
+            "B": "(x - 4)(x + 4)",
+            "C": "(x + 4)^(2)",
+            "D": "(x - 4)^(2)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 16 dưới dạng tích ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(x - 16)(x + 1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x - 4)(x + 4)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(x + 4)^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(x - 4)^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết biểu thức x$^2$ - 16 dưới dạng tích ta được:",
+            "choices": {
+              "A": "(x - 16)(x + 1)",
+              "B": "(x - 4)(x + 4)",
+              "C": "(x + 4)$^2$",
+              "D": "(x - 4)$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-03",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Phân tích đa thức 4x^(2) - 8x thành nhân tử ta được:",
+          "choices": {
+            "A": "4x(x + 2)",
+            "B": "x(4x - 2)",
+            "C": "4(x^(2) - 2)",
+            "D": "4x(x - 2)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích đa thức 4"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 8x thành nhân tử ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4x(x + 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x(4x - 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4x(x - 2)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích đa thức 4x$^2$ - 8x thành nhân tử ta được:",
+            "choices": {
+              "A": "4x(x + 2)",
+              "B": "x(4x - 2)",
+              "C": "4(x$^2$ - 2)",
+              "D": "4x(x - 2)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-04",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 36 và nhỏ hơn 44 bằng cách liệt kê phần tử:",
+          "choices": {
+            "A": "K = {38; 42}",
+            "B": "K = {38; 40; 42}",
+            "C": "K = {37; 39; 41}",
+            "D": "K = {36; 38; 40; 42; 44}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 36 và nhỏ hơn 44 bằng cách liệt kê phần tử:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "K = {38; 42}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "K = {38; 40; 42}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "K = {37; 39; 41}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "K = {36; 38; 40; 42; 44}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 36 và nhỏ hơn 44 bằng cách liệt kê phần tử:",
+            "choices": {
+              "A": "K = {38; 42}",
+              "B": "K = {38; 40; 42}",
+              "C": "K = {37; 39; 41}",
+              "D": "K = {36; 38; 40; 42; 44}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-05",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Cho tập hợp H = {x ∈ ℕ | 18 ≤ x < 24}. Khẳng định nào dưới đây là ĐÚNG?",
+          "choices": {
+            "A": "17 ∈ H",
+            "B": "24 ∈ H",
+            "C": "18 ∉ H và 24 ∈ H",
+            "D": "18 ∈ H và 24 ∉ H"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tập hợp H = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}"
+            },
+            {
+              "t": "txt",
+              "v": " | 18 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " x < 24}. Khẳng định nào dưới đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "17 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H và 24 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H và 24 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tập hợp H = {x $\\in$ $\\mathbb{N}$ | 18 $\\le$ x < 24}. Khẳng định nào dưới đây là ĐÚNG?",
+            "choices": {
+              "A": "17 $\\in$ H",
+              "B": "24 $\\in$ H",
+              "C": "18 $\\notin$ H và 24 $\\in$ H",
+              "D": "18 $\\in$ H và 24 $\\notin$ H"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-06",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Trong hệ thập phân, số tự nhiên gồm 6 nghìn, 4 trăm và 3 đơn vị được viết là:",
+          "choices": {
+            "A": "13",
+            "B": "6043",
+            "C": "6403",
+            "D": "643"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong hệ thập phân, số tự nhiên gồm 6 nghìn, 4 trăm và 3 đơn vị được viết là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6043"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6403"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "643"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong hệ thập phân, số tự nhiên gồm 6 nghìn, 4 trăm và 3 đơn vị được viết là:",
+            "choices": {
+              "A": "13",
+              "B": "6043",
+              "C": "6403",
+              "D": "643"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-07",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Thương của phép chia hai lũy thừa cùng cơ số 5^(23) : 5^(3) bằng:",
+          "choices": {
+            "A": "5^(26)",
+            "B": "5^(69)",
+            "C": "5^(20)",
+            "D": "1^(20)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thương của phép chia hai lũy thừa cùng cơ số "
+            },
+            {
+              "t": "math",
+              "v": "5^{23}"
+            },
+            {
+              "t": "txt",
+              "v": " : "
+            },
+            {
+              "t": "math",
+              "v": "5^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "5^{26}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "5^{69}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "5^{20}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "1^{20}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thương của phép chia hai lũy thừa cùng cơ số 5$^{23}$ : 5$^{3}$ bằng:",
+            "choices": {
+              "A": "5$^{26}$",
+              "B": "5$^{69}$",
+              "C": "5$^{20}$",
+              "D": "1$^{20}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-08",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Với mọi cơ số a ≠ 0, giá trị của biểu thức P = (33)^(0) + 36 bằng:",
+          "choices": {
+            "A": "1",
+            "B": "37",
+            "C": "69",
+            "D": "36"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Với mọi cơ số a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(33)^{0}"
+            },
+            {
+              "t": "txt",
+              "v": " + 36 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "37"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "69"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Với mọi cơ số a $\\ne$ 0, giá trị của biểu thức P = (33)$^0$ + 36 bằng:",
+            "choices": {
+              "A": "1",
+              "B": "37",
+              "C": "69",
+              "D": "36"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-09",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Khi chia số tự nhiên 149 cho 8, số dư của phép chia đó bằng:",
+          "choices": {
+            "A": "5",
+            "B": "0",
+            "C": "3",
+            "D": "18"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi chia số tự nhiên 149 cho 8, số dư của phép chia đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi chia số tự nhiên 149 cho 8, số dư của phép chia đó bằng:",
+            "choices": {
+              "A": "5",
+              "B": "0",
+              "C": "3",
+              "D": "18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-10",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 18 · a + 18 · b được viết gọn thành:",
+          "choices": {
+            "A": "18 · (a + b)",
+            "B": "18 · a · b",
+            "C": "36 · (a + b)",
+            "D": "324 · (a + b)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 18 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " a + 18 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b được viết gọn thành:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " a "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " b"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "324 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 18 $\\cdot$ a + 18 $\\cdot$ b được viết gọn thành:",
+            "choices": {
+              "A": "18 $\\cdot$ (a + b)",
+              "B": "18 $\\cdot$ a $\\cdot$ b",
+              "C": "36 $\\cdot$ (a + b)",
+              "D": "324 $\\cdot$ (a + b)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-11",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Để số tự nhiên có ba chữ số 52x chia hết cho 9 thì chữ số x phải bằng:",
+          "choices": {
+            "A": "2",
+            "B": "9",
+            "C": "4",
+            "D": "7"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để số tự nhiên có ba chữ số 52x chia hết cho 9 thì chữ số x phải bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để số tự nhiên có ba chữ số 52x chia hết cho 9 thì chữ số x phải bằng:",
+            "choices": {
+              "A": "2",
+              "B": "9",
+              "C": "4",
+              "D": "7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-12",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Trong các số sau đây, số nào là bội của 21?",
+          "choices": {
+            "A": "84",
+            "B": "86",
+            "C": "62",
+            "D": "45"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các số sau đây, số nào là bội của 21?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "84"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "86"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "62"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "45"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các số sau đây, số nào là bội của 21?",
+            "choices": {
+              "A": "84",
+              "B": "86",
+              "C": "62",
+              "D": "45"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-13",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Khi so sánh hai số âm -26 và -20, khẳng định nào sau đây là ĐÚNG?",
+          "choices": {
+            "A": "-26 = -20",
+            "B": "-26 > -20",
+            "C": "|-26| < |-20|",
+            "D": "-26 < -20"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi so sánh hai số âm -26 và -20, khẳng định nào sau đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-26 = -20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-26 > -20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "|-26| < |-20|"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-26 < -20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi so sánh hai số âm -26 và -20, khẳng định nào sau đây là ĐÚNG?",
+            "choices": {
+              "A": "-26 = -20",
+              "B": "-26 > -20",
+              "C": "|-26| < |-20|",
+              "D": "-26 < -20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-14",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm số x thỏa mãn đẳng thức: x + 39 = 100:",
+          "choices": {
+            "A": "x = 61",
+            "B": "x = -61",
+            "C": "x = 47",
+            "D": "x = 139"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số x thỏa mãn đẳng thức: x + 39 = 100:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 61"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -61"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 47"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 139"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số x thỏa mãn đẳng thức: x + 39 = 100:",
+            "choices": {
+              "A": "x = 61",
+              "B": "x = -61",
+              "C": "x = 47",
+              "D": "x = 139"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-15",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Số nghịch đảo của phân số (19)/(41) là:",
+          "choices": {
+            "A": "(41)/(19)",
+            "B": "1 - (19)/(41)",
+            "C": "(-19)/(41)",
+            "D": "(-41)/(19)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số nghịch đảo của phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{19}{41}"
+            },
+            {
+              "t": "txt",
+              "v": " là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{41}{19}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1 - "
+              },
+              {
+                "t": "math",
+                "v": "\\frac{19}{41}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{-19}{41}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{-41}{19}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số nghịch đảo của phân số 19/41 là:",
+            "choices": {
+              "A": "41/19",
+              "B": "1 - 19/41",
+              "C": "-19/41",
+              "D": "-41/19"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-16",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Viết phân số (3)/(4) dưới dạng tỉ số phần trăm ta được:",
+          "choices": {
+            "A": "30%",
+            "B": "3,4%",
+            "C": "60%",
+            "D": "75%"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{3}{4}"
+            },
+            {
+              "t": "txt",
+              "v": " dưới dạng tỉ số phần trăm ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "30%"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3,4%"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "60%"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "75%"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết phân số 3/4 dưới dạng tỉ số phần trăm ta được:",
+            "choices": {
+              "A": "30%",
+              "B": "3,4%",
+              "C": "60%",
+              "D": "75%"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-17",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Một tấm bìa hình chữ nhật có chiều dài 25 cm và chiều rộng 20 cm. Chu vi tấm bìa đó bằng:",
+          "choices": {
+            "A": "45 cm",
+            "B": "90 cm",
+            "C": "500 cm",
+            "D": "81 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một tấm bìa hình chữ nhật có chiều dài 25 cm và chiều rộng 20 cm. Chu vi tấm bìa đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "45 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "90 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "500 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "81 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một tấm bìa hình chữ nhật có chiều dài 25 cm và chiều rộng 20 cm. Chu vi tấm bìa đó bằng:",
+            "choices": {
+              "A": "45 cm",
+              "B": "90 cm",
+              "C": "500 cm",
+              "D": "81 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-18",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 36 cm và 21 cm thì có diện tích bằng:",
+          "choices": {
+            "A": "378 cm^(2)",
+            "B": "756 cm^(2)",
+            "C": "189 cm^(2)",
+            "D": "57 cm^(2)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 36 cm và 21 cm thì có diện tích bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "378 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "756 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "189 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "57 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 36 cm và 21 cm thì có diện tích bằng:",
+            "choices": {
+              "A": "378 cm$^2$",
+              "B": "756 cm$^2$",
+              "C": "189 cm$^2$",
+              "D": "57 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-19",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Số trung bình cộng của bốn số 18, 20, 24, 30 bằng:",
+          "choices": {
+            "A": "23",
+            "B": "92",
+            "C": "22",
+            "D": "24"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số trung bình cộng của bốn số 18, 20, 24, 30 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "92"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "22"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số trung bình cộng của bốn số 18, 20, 24, 30 bằng:",
+            "choices": {
+              "A": "23",
+              "B": "92",
+              "C": "22",
+              "D": "24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-20",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Tại x = 3, biểu thức bậc nhất L(x) = 18x - 22 nhận giá trị bằng:",
+          "choices": {
+            "A": "76",
+            "B": "32",
+            "C": "40",
+            "D": "54"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tại x = 3, biểu thức bậc nhất L(x) = 18x - 22 nhận giá trị bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "76"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "54"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tại x = 3, biểu thức bậc nhất L(x) = 18x - 22 nhận giá trị bằng:",
+            "choices": {
+              "A": "76",
+              "B": "32",
+              "C": "40",
+              "D": "54"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-21",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Tính nhanh giá trị của biểu thức P = x^(2) - 6x + 9 tại x = 103:",
+          "choices": {
+            "A": "10200",
+            "B": "10000",
+            "C": "1000",
+            "D": "100"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính nhanh giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 6x + 9 tại x = 103:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10200"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10000"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1000"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính nhanh giá trị của biểu thức P = x$^2$ - 6x + 9 tại x = 103:",
+            "choices": {
+              "A": "10200",
+              "B": "10000",
+              "C": "1000",
+              "D": "100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-22",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Tính nhanh hiệu hai bình phương: 56^(2) - 46^(2) bằng:",
+          "choices": {
+            "A": "102",
+            "B": "1020",
+            "C": "2040",
+            "D": "100"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính nhanh hiệu hai bình phương: 5"
+            },
+            {
+              "t": "math",
+              "v": "6^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4"
+            },
+            {
+              "t": "math",
+              "v": "6^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "102"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1020"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2040"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính nhanh hiệu hai bình phương: 56$^2$ - 46$^2$ bằng:",
+            "choices": {
+              "A": "102",
+              "B": "1020",
+              "C": "2040",
+              "D": "100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-23",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích đa thức x^(2) - 12x + 36 - y^(2) thành nhân tử ta được:",
+          "choices": {
+            "A": "(x + 6 - y)(x + 6 + y)",
+            "B": "(x - 6)(x + y)",
+            "C": "(x - 6 - y)(x - 6 + y)",
+            "D": "(x - y)^(2) - 36"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 12x + 36 - "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " thành nhân tử ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(x + 6 - y)(x + 6 + y)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x - 6)(x + y)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(x - 6 - y)(x - 6 + y)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(x - y)^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 36"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích đa thức x$^2$ - 12x + 36 - y$^2$ thành nhân tử ta được:",
+            "choices": {
+              "A": "(x + 6 - y)(x + 6 + y)",
+              "B": "(x - 6)(x + y)",
+              "C": "(x - 6 - y)(x - 6 + y)",
+              "D": "(x - y)$^2$ - 36"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-24",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Tính hợp lý tổng S = (71 + 81) + (19 - 61):",
+          "choices": {
+            "A": "100",
+            "B": "90",
+            "C": "218",
+            "D": "110"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính hợp lý tổng S = (71 + 81) + (19 - 61):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "90"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "218"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "110"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính hợp lý tổng S = (71 + 81) + (19 - 61):",
+            "choices": {
+              "A": "100",
+              "B": "90",
+              "C": "218",
+              "D": "110"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-25",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Giải phương trình: 4(x - 18) - 2(x - 21) = 50:",
+          "choices": {
+            "A": "x = 32",
+            "B": "x = 40",
+            "C": "x = 22",
+            "D": "x = 58"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giải phương trình: 4(x - 18) - 2(x - 21) = 50:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 32"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 40"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 22"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 58"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giải phương trình: 4(x - 18) - 2(x - 21) = 50:",
+            "choices": {
+              "A": "x = 32",
+              "B": "x = 40",
+              "C": "x = 22",
+              "D": "x = 58"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-26",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Hai lớp quyên góp được tổng cộng 204 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 44 quyển. Số sách lớp thứ nhất quyên góp là:",
+          "choices": {
+            "A": "160 quyển",
+            "B": "124 quyển",
+            "C": "80 quyển",
+            "D": "102 quyển"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hai lớp quyên góp được tổng cộng 204 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 44 quyển. Số sách lớp thứ nhất quyên góp là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "160 quyển"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "124 quyển"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "80 quyển"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "102 quyển"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hai lớp quyên góp được tổng cộng 204 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 44 quyển. Số sách lớp thứ nhất quyên góp là:",
+            "choices": {
+              "A": "160 quyển",
+              "B": "124 quyển",
+              "C": "80 quyển",
+              "D": "102 quyển"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-27",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 240 cm. Độ dài cạnh lớn nhất của tam giác là:",
+          "choices": {
+            "A": "120 cm",
+            "B": "100 cm",
+            "C": "80 cm",
+            "D": "60 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 240 cm. Độ dài cạnh lớn nhất của tam giác là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "120 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "80 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "60 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 240 cm. Độ dài cạnh lớn nhất của tam giác là:",
+            "choices": {
+              "A": "120 cm",
+              "B": "100 cm",
+              "C": "80 cm",
+              "D": "60 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-28",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Một hóa đơn mua hàng chưa tính thuế có giá 360.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+          "choices": {
+            "A": "378.000 đồng",
+            "B": "324.000 đồng",
+            "C": "396.000 đồng",
+            "D": "370.000 đồng"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hóa đơn mua hàng chưa tính thuế có giá 360.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "378.000 đồng"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "324.000 đồng"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "396.000 đồng"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "370.000 đồng"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hóa đơn mua hàng chưa tính thuế có giá 360.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+            "choices": {
+              "A": "378.000 đồng",
+              "B": "324.000 đồng",
+              "C": "396.000 đồng",
+              "D": "370.000 đồng"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-29",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3^(k + 1) - 3^(k) = 162:",
+          "choices": {
+            "A": "k = 3",
+            "B": "k = 4",
+            "C": "k = 5",
+            "D": "k = 6"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số tự nhiên k thỏa mãn đẳng thức: "
+            },
+            {
+              "t": "math",
+              "v": "3^{k + 1}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3^{k}"
+            },
+            {
+              "t": "txt",
+              "v": " = 162:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "k = 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "k = 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "k = 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "k = 6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3$^{k + 1}$ - 3$^{k}$ = 162:",
+            "choices": {
+              "A": "k = 3",
+              "B": "k = 4",
+              "C": "k = 5",
+              "D": "k = 6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-30",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 36| = 24 bằng:",
+          "choices": {
+            "A": "36",
+            "B": "0",
+            "C": "24",
+            "D": "72"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 36| = 24 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "72"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 36| = 24 bằng:",
+            "choices": {
+              "A": "36",
+              "B": "0",
+              "C": "24",
+              "D": "72"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-31",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn biểu thức H = (x + 20)^(2) + (x - 20)^(2) - 2x^(2) ta được kết quả không phụ thuộc vào x là:",
+          "choices": {
+            "A": "80",
+            "B": "400",
+            "C": "0",
+            "D": "800"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn biểu thức H = "
+            },
+            {
+              "t": "math",
+              "v": "(x + 20)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 20)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được kết quả không phụ thuộc vào x là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "80"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "400"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "800"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn biểu thức H = (x + 20)$^2$ + (x - 20)$^2$ - 2x$^2$ ta được kết quả không phụ thuộc vào x là:",
+            "choices": {
+              "A": "80",
+              "B": "400",
+              "C": "0",
+              "D": "800"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-32",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Khi thay x = -1 vào đa thức P(x) = x^(3) + 18x^(2) - 20x + 5, giá trị của P(-1) bằng:",
+          "choices": {
+            "A": "42",
+            "B": "6",
+            "C": "40",
+            "D": "-42"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi thay x = -1 vào đa thức P(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 18"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 20x + 5, giá trị của P(-1) bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "42"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-42"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi thay x = -1 vào đa thức P(x) = x$^3$ + 18x$^2$ - 20x + 5, giá trị của P(-1) bằng:",
+            "choices": {
+              "A": "42",
+              "B": "6",
+              "C": "40",
+              "D": "-42"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-33",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Biểu thức Q(x) = (x + 18) / [(x - 18)(x + 22)] xác định khi và chỉ khi:",
+          "choices": {
+            "A": "x ≠ 18",
+            "B": "x ≠ 18 và x ≠ -22",
+            "C": "x > 18",
+            "D": "x ≠ -18 và x ≠ 22"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biểu thức Q(x) = (x + 18) / [(x - 18)(x + 22)] xác định khi và chỉ khi:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 18 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -22"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > 18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -18 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 22"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biểu thức Q(x) = (x + 18) / [(x - 18)(x + 22)] xác định khi và chỉ khi:",
+            "choices": {
+              "A": "x $\\ne$ 18",
+              "B": "x $\\ne$ 18 và x $\\ne$ -22",
+              "C": "x > 18",
+              "D": "x $\\ne$ -18 và x $\\ne$ 22"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-34",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Một ca nô có vận tốc riêng là 36 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+          "choices": {
+            "A": "72 km",
+            "B": "39 km",
+            "C": "78 km",
+            "D": "66 km"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một ca nô có vận tốc riêng là 36 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "72 km"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "39 km"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "78 km"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "66 km"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một ca nô có vận tốc riêng là 36 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+            "choices": {
+              "A": "72 km",
+              "B": "39 km",
+              "C": "78 km",
+              "D": "66 km"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-35",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Cho đoạn thẳng AB = 80 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+          "choices": {
+            "A": "60 cm",
+            "B": "40 cm",
+            "C": "58 cm",
+            "D": "20 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho đoạn thẳng AB = 80 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "40 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "58 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho đoạn thẳng AB = 80 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+            "choices": {
+              "A": "60 cm",
+              "B": "40 cm",
+              "C": "58 cm",
+              "D": "20 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-36",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Trong tứ giác lồi ABCD, biết góc A = 78°, góc B = 102° và góc C = 2 · góc D. Số đo góc D bằng:",
+          "choices": {
+            "A": "60°",
+            "B": "45°",
+            "C": "90°",
+            "D": "120°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong tứ giác lồi ABCD, biết góc A = 78°, góc B = 102° và góc C = 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " góc D. Số đo góc D bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "120°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong tứ giác lồi ABCD, biết góc A = 78°, góc B = 102° và góc C = 2 $\\cdot$ góc D. Số đo góc D bằng:",
+            "choices": {
+              "A": "60°",
+              "B": "45°",
+              "C": "90°",
+              "D": "120°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-37",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+          "choices": {
+            "A": "12 m",
+            "B": "10 m",
+            "C": "14 m",
+            "D": "100 m"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+            "choices": {
+              "A": "12 m",
+              "B": "10 m",
+              "C": "14 m",
+              "D": "100 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-38",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 90 dm^(2) và chứa được tối đa 540 lít nước (1 dm^(3) = 1 lít). Chiều cao của thùng chứa là:",
+          "choices": {
+            "A": "5 dm",
+            "B": "18 dm",
+            "C": "6 dm",
+            "D": "12 dm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 90 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chứa được tối đa 540 lít nước (1 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 lít). Chiều cao của thùng chứa là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 dm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18 dm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 dm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 dm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 90 dm$^2$ và chứa được tối đa 540 lít nước (1 dm$^3$ = 1 lít). Chiều cao của thùng chứa là:",
+            "choices": {
+              "A": "5 dm",
+              "B": "18 dm",
+              "C": "6 dm",
+              "D": "12 dm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-39",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:",
+          "choices": {
+            "A": "6 điểm",
+            "B": "8 điểm",
+            "C": "7 điểm",
+            "D": "9 điểm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 điểm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 điểm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7 điểm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9 điểm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:",
+            "choices": {
+              "A": "6 điểm",
+              "B": "8 điểm",
+              "C": "7 điểm",
+              "D": "9 điểm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-40",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Trong một chiếc hộp có 22 thẻ đánh số từ 1 đến 22 và 24 thẻ đánh số từ 23 đến 46. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 22 là:",
+          "choices": {
+            "A": "(24)/(46)",
+            "B": "(23)/(46)",
+            "C": "(1)/(46)",
+            "D": "(22)/(46)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong một chiếc hộp có 22 thẻ đánh số từ 1 đến 22 và 24 thẻ đánh số từ 23 đến 46. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 22 là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{24}{46}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{23}{46}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{46}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{22}{46}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong một chiếc hộp có 22 thẻ đánh số từ 1 đến 22 và 24 thẻ đánh số từ 23 đến 46. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 22 là:",
+            "choices": {
+              "A": "24/46",
+              "B": "23/46",
+              "C": "1/46",
+              "D": "22/46"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-41",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Tìm giá trị nhỏ nhất của đa thức A = x^(2) - 6x + 14.",
+          "choices": {
+            "A": "3",
+            "B": "14",
+            "C": "5",
+            "D": "-5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị nhỏ nhất của đa thức A = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 6x + 14."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị nhỏ nhất của đa thức A = x$^2$ - 6x + 14.",
+            "choices": {
+              "A": "3",
+              "B": "14",
+              "C": "5",
+              "D": "-5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-42",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Cho x + y = 5 và x·y = 2. Giá trị của biểu thức S = x^(2) + y^(2) bằng:",
+          "choices": {
+            "A": "29",
+            "B": "21",
+            "C": "23",
+            "D": "25"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho x + y = 5 và x"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "y = 2. Giá trị của biểu thức S = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "29"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho x + y = 5 và x$\\cdot$y = 2. Giá trị của biểu thức S = x$^2$ + y$^2$ bằng:",
+            "choices": {
+              "A": "29",
+              "B": "21",
+              "C": "23",
+              "D": "25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-43",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 18)^(2) + (x - 22)^(2) với mọi số thực x:",
+          "choices": {
+            "A": "16",
+            "B": "0",
+            "C": "8 (đạt được khi x = 20)",
+            "D": "4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị nhỏ nhất của biểu thức A(x) = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 18)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 22)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " với mọi số thực x:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 (đạt được khi x = 20)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 18)$^2$ + (x - 22)$^2$ với mọi số thực x:",
+            "choices": {
+              "A": "16",
+              "B": "0",
+              "C": "8 (đạt được khi x = 20)",
+              "D": "4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-44",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Giá trị lớn nhất của biểu thức phân thức B(x) = 84 / ((x + 18)^(2) + 4) với mọi x ∈ ℝ bằng:",
+          "choices": {
+            "A": "84",
+            "B": "4",
+            "C": "10.5",
+            "D": "21"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giá trị lớn nhất của biểu thức phân thức B(x) = 84 / ("
+            },
+            {
+              "t": "math",
+              "v": "(x + 18)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 4) với mọi x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "84"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10.5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giá trị lớn nhất của biểu thức phân thức B(x) = 84 / ((x + 18)$^2$ + 4) với mọi x $\\in$ $\\mathbb{R}$ bằng:",
+            "choices": {
+              "A": "84",
+              "B": "4",
+              "C": "10.5",
+              "D": "21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-45",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Tính tổng của 28 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (111):",
+          "choices": {
+            "A": "3192",
+            "B": "1540",
+            "C": "1568",
+            "D": "1596"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính tổng của 28 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (111):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3192"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1540"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1568"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1596"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính tổng của 28 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (111):",
+            "choices": {
+              "A": "3192",
+              "B": "1540",
+              "C": "1568",
+              "D": "1596"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-46",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Tính giá trị của tổng S = 2/(1·3) + 2/(3·5) + 2/(5·7) + ... + 2/(45·47):",
+          "choices": {
+            "A": "(23)/(47)",
+            "B": "(46)/(47)",
+            "C": "(45)/(47)",
+            "D": "(1)/(47)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính giá trị của tổng S = 2/(1"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "3) + 2/(3"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "5) + 2/(5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "7) + ... + 2/(45"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "47):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{23}{47}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{46}{47}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{45}{47}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{47}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính giá trị của tổng S = 2/(1$\\cdot$3) + 2/(3$\\cdot$5) + 2/(5$\\cdot$7) + ... + 2/(45$\\cdot$47):",
+            "choices": {
+              "A": "23/47",
+              "B": "46/47",
+              "C": "45/47",
+              "D": "1/47"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-47",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Có tất cả bao nhiêu số nguyên x (với x ≠ -18) sao cho biểu thức P = (3x + 65)/(x + 18) nhận giá trị là một số nguyên?",
+          "choices": {
+            "A": "6 số nguyên",
+            "B": "8 số nguyên",
+            "C": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên ±1, ±11)",
+            "D": "2 số nguyên"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Có tất cả bao nhiêu số nguyên x (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -18) sao cho biểu thức P = (3x + 65)/(x + 18) nhận giá trị là một số nguyên?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 số nguyên"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 số nguyên"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "1, "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "11)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 số nguyên"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Có tất cả bao nhiêu số nguyên x (với x $\\ne$ -18) sao cho biểu thức P = (3x + 65)/(x + 18) nhận giá trị là một số nguyên?",
+            "choices": {
+              "A": "6 số nguyên",
+              "B": "8 số nguyên",
+              "C": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên $\\pm$1, $\\pm$11)",
+              "D": "2 số nguyên"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-48",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+          "choices": {
+            "A": "9.0 giờ",
+            "B": "4 giờ",
+            "C": "6 giờ",
+            "D": "2 giờ"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9.0 giờ"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 giờ"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 giờ"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 giờ"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+            "choices": {
+              "A": "9.0 giờ",
+              "B": "4 giờ",
+              "C": "6 giờ",
+              "D": "2 giờ"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-49",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Biết hai số thực u và v thỏa mãn u + v = 21 và u · v = 20. Giá trị của biểu thức T = u^(3) + v^(3) bằng:",
+          "choices": {
+            "A": "10521",
+            "B": "9261",
+            "C": "401",
+            "D": "8001"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biết hai số thực u và v thỏa mãn u + v = 21 và u "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " v = 20. Giá trị của biểu thức T = "
+            },
+            {
+              "t": "math",
+              "v": "u^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "v^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10521"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9261"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "401"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8001"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biết hai số thực u và v thỏa mãn u + v = 21 và u $\\cdot$ v = 20. Giá trị của biểu thức T = u$^3$ + v$^3$ bằng:",
+            "choices": {
+              "A": "10521",
+              "B": "9261",
+              "C": "401",
+              "D": "8001"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        },
+        {
+          "id": "8-02-50",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 171 m^(2). Chiều rộng ban đầu của khu đất là:",
+          "choices": {
+            "A": "36 m",
+            "B": "21 m",
+            "C": "18 m",
+            "D": "54 m"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 171 "
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Chiều rộng ban đầu của khu đất là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "21 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "54 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 171 m$^2$. Chiều rộng ban đầu của khu đất là:",
+            "choices": {
+              "A": "36 m",
+              "B": "21 m",
+              "C": "18 m",
+              "D": "54 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II"
+          }
+        }
+      ]
+    }
+  ]
+}

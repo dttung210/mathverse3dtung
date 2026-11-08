@@ -1,0 +1,41 @@
+{
+  "source": "MATHVERSE GRAND CAMPUS V10 (complete project)",
+  "release": "MATHVERSE GRAND CAMPUS V11 (complete project)",
+  "modified_existing_files": [
+    [
+      "00_MO_DU_AN_MOI_NHAT.bat",
+      "MODIFIED"
+    ],
+    [
+      "dual/style.css",
+      "MODIFIED"
+    ],
+    [
+      "dual/grand-dome.mjs",
+      "MODIFIED"
+    ],
+    [
+      "dual/index.html",
+      "MODIFIED"
+    ],
+    [
+      "dual/app.mjs",
+      "MODIFIED"
+    ]
+  ],
+  "added_files": [
+    "00_CHAY_GRAND_CAMPUS_V11.bat",
+    "00_DOC_TRUOC_V11.md",
+    "PROMPT_ANTIGRAVITY_GRAND_CAMPUS_V11.txt",
+    "REPO_GITHUB_V11_DA_DOI_CHIEU.md",
+    "02_KIEM_TRA_V11.bat",
+    "integration-tests/grand-campus-v11.test.mjs"
+  ],
+  "original_files_untouched": 1290,
+  "original_files_total": 1295,
+  "r75_sha256_verified": 732,
+  "infographic_originals_preserved": 230,
+  "functional_compatibility_tests": "54/54 integration; 10/10 graphics",
+  "webgl_visual_test": "NOT COMPLETED on user Windows hardware; source, scene geometry and HTTP tested",
+  "repo_integration_notes": "Only existing bundled Three.js is a live runtime dependency; camera-controls and troika supplied technical patterns, not installed packages."
+}

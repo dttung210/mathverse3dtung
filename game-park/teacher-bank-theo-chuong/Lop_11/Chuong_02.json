@@ -1,0 +1,4331 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 11,
+      "chapter": 2,
+      "roman": "II",
+      "title": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "11-02-01",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cho dãy số (u_n) có số hạng tổng quát u_n = 3n + 2. Số hạng thứ 5 (u_5) của dãy số bằng",
+          "choices": {
+            "A": "14",
+            "B": "17",
+            "C": "20",
+            "D": "7"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dãy số ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng tổng quát "
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": " = 3n + 2. Số hạng thứ 5 ("
+            },
+            {
+              "t": "math",
+              "v": "u_5"
+            },
+            {
+              "t": "txt",
+              "v": ") của dãy số bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dãy số ($u_n$) có số hạng tổng quát $u_n$ = 3n + 2. Số hạng thứ 5 (u$_5$) của dãy số bằng",
+            "choices": {
+              "A": "14",
+              "B": "17",
+              "C": "20",
+              "D": "7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-02",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Cho cấp số cộng (u_n) có số hạng đầu u_1 = 3 và công sai d = 4. Số hạng u_6 của cấp số cộng bằng.",
+          "choices": {
+            "A": "23",
+            "B": "19",
+            "C": "27",
+            "D": "12"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng đầu "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 3 và công sai d = 4. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "27"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Cho cấp số cộng ($u_n$) có số hạng đầu u$_1$ = 3 và công sai d = 4. Số hạng u$_6$ của cấp số cộng bằng.",
+            "choices": {
+              "A": "23",
+              "B": "19",
+              "C": "27",
+              "D": "12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-03",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương II, xét nội dung: Cho cấp số nhân (u_n) có u_1 = 4 và công bội q = 2. Số hạng u_4 của cấp số nhân bằng. Đáp án đúng là",
+          "choices": {
+            "A": "64",
+            "B": "32",
+            "C": "24",
+            "D": "16"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương II, xét nội dung: Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 4 và công bội q = 2. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_4"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "64"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương II, xét nội dung: Cho cấp số nhân ($u_n$) có u$_1$ = 4 và công bội q = 2. Số hạng u$_4$ của cấp số nhân bằng. Đáp án đúng là",
+            "choices": {
+              "A": "64",
+              "B": "32",
+              "C": "24",
+              "D": "16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-04",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương II (Dãy số. Cấp số cộng và cấp số nhân), cho dãy số (u_n) có số hạng tổng quát u_n = 3n + 5. Số hạng thứ 5 (u_5) của dãy số bằng",
+          "choices": {
+            "A": "17",
+            "B": "10",
+            "C": "20",
+            "D": "23"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương II (Dãy số. Cấp số cộng và cấp số nhân), cho dãy số ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng tổng quát "
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": " = 3n + 5. Số hạng thứ 5 ("
+            },
+            {
+              "t": "math",
+              "v": "u_5"
+            },
+            {
+              "t": "txt",
+              "v": ") của dãy số bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương II (Dãy số. Cấp số cộng và cấp số nhân), cho dãy số ($u_n$) có số hạng tổng quát $u_n$ = 3n + 5. Số hạng thứ 5 (u$_5$) của dãy số bằng",
+            "choices": {
+              "A": "17",
+              "B": "10",
+              "C": "20",
+              "D": "23"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-05",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Cho cấp số cộng (u_n) có số hạng đầu u_1 = 6 và công sai d = 4. Số hạng u_6 của cấp số cộng bằng",
+          "choices": {
+            "A": "24",
+            "B": "26",
+            "C": "30",
+            "D": "22"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng đầu "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 6 và công sai d = 4. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "22"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Cho cấp số cộng ($u_n$) có số hạng đầu u$_1$ = 6 và công sai d = 4. Số hạng u$_6$ của cấp số cộng bằng",
+            "choices": {
+              "A": "24",
+              "B": "26",
+              "C": "30",
+              "D": "22"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-06",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về dãy số. cấp số cộng và cấp số nhân, một học sinh gặp câu hỏi: Cho cấp số nhân (u_n) có u_1 = 7 và công bội q = 2. Số hạng u_4 của cấp số nhân bằng. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "56",
+            "B": "112",
+            "C": "28",
+            "D": "42"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về dãy số. cấp số cộng và cấp số nhân, một học sinh gặp câu hỏi: Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 7 và công bội q = 2. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_4"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "56"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "112"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "28"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "42"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về dãy số. cấp số cộng và cấp số nhân, một học sinh gặp câu hỏi: Cho cấp số nhân ($u_n$) có u$_1$ = 7 và công bội q = 2. Số hạng u$_4$ của cấp số nhân bằng. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "56",
+              "B": "112",
+              "C": "28",
+              "D": "42"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-07",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho dãy số (u_n) có số hạng tổng quát u_n = 3n + 8. Số hạng thứ 5 (u_5) của dãy số bằng",
+          "choices": {
+            "A": "23",
+            "B": "26",
+            "C": "13",
+            "D": "20"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho dãy số ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng tổng quát "
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": " = 3n + 8. Số hạng thứ 5 ("
+            },
+            {
+              "t": "math",
+              "v": "u_5"
+            },
+            {
+              "t": "txt",
+              "v": ") của dãy số bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho dãy số ($u_n$) có số hạng tổng quát $u_n$ = 3n + 8. Số hạng thứ 5 (u$_5$) của dãy số bằng",
+            "choices": {
+              "A": "23",
+              "B": "26",
+              "C": "13",
+              "D": "20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-08",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Cho cấp số cộng (u_n) có số hạng đầu u_1 = 9 và công sai d = 4. Số hạng u_6 của cấp số cộng bằng",
+          "choices": {
+            "A": "33",
+            "B": "29",
+            "C": "25",
+            "D": "36"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng đầu "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 9 và công sai d = 4. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "33"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "29"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Cho cấp số cộng ($u_n$) có số hạng đầu u$_1$ = 9 và công sai d = 4. Số hạng u$_6$ của cấp số cộng bằng",
+            "choices": {
+              "A": "33",
+              "B": "29",
+              "C": "25",
+              "D": "36"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-09",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Cho cấp số nhân (u_n) có u_1 = 10 và công bội q = 2. Số hạng u_4 của cấp số nhân bằng",
+          "choices": {
+            "A": "60",
+            "B": "40",
+            "C": "80",
+            "D": "160"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 10 và công bội q = 2. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_4"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "40"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "80"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "160"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Cho cấp số nhân ($u_n$) có u$_1$ = 10 và công bội q = 2. Số hạng u$_4$ của cấp số nhân bằng",
+            "choices": {
+              "A": "60",
+              "B": "40",
+              "C": "80",
+              "D": "160"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-10",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Cho dãy số (u_n) có số hạng tổng quát u_n = 3n + 11. Số hạng thứ 5 (u_5) của dãy số bằng. Phương án chính xác là",
+          "choices": {
+            "A": "29",
+            "B": "26",
+            "C": "16",
+            "D": "23"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Cho dãy số ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng tổng quát "
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": " = 3n + 11. Số hạng thứ 5 ("
+            },
+            {
+              "t": "math",
+              "v": "u_5"
+            },
+            {
+              "t": "txt",
+              "v": ") của dãy số bằng. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "29"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Cho dãy số ($u_n$) có số hạng tổng quát $u_n$ = 3n + 11. Số hạng thứ 5 (u$_5$) của dãy số bằng. Phương án chính xác là",
+            "choices": {
+              "A": "29",
+              "B": "26",
+              "C": "16",
+              "D": "23"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-11",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho cấp số cộng (u_n) có số hạng đầu u_1 = 12 và công sai d = 4. Số hạng u_6 của cấp số cộng bằng",
+          "choices": {
+            "A": "28",
+            "B": "32",
+            "C": "36",
+            "D": "48"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng đầu "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 12 và công sai d = 4. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "28"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "48"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho cấp số cộng ($u_n$) có số hạng đầu u$_1$ = 12 và công sai d = 4. Số hạng u$_6$ của cấp số cộng bằng",
+            "choices": {
+              "A": "28",
+              "B": "32",
+              "C": "36",
+              "D": "48"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-12",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Cho cấp số nhân (u_n) có u_1 = 13 và công bội q = 2. Số hạng u_4 của cấp số nhân bằng",
+          "choices": {
+            "A": "78",
+            "B": "52",
+            "C": "104",
+            "D": "208"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 13 và công bội q = 2. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_4"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "78"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "52"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "104"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "208"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Cho cấp số nhân ($u_n$) có u$_1$ = 13 và công bội q = 2. Số hạng u$_4$ của cấp số nhân bằng",
+            "choices": {
+              "A": "78",
+              "B": "52",
+              "C": "104",
+              "D": "208"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-13",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), cho dãy số (u_n) có số hạng tổng quát u_n = 3n + 14. Số hạng thứ 5 (u_5) của dãy số bằng",
+          "choices": {
+            "A": "29",
+            "B": "26",
+            "C": "19",
+            "D": "32"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), cho dãy số ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng tổng quát "
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": " = 3n + 14. Số hạng thứ 5 ("
+            },
+            {
+              "t": "math",
+              "v": "u_5"
+            },
+            {
+              "t": "txt",
+              "v": ") của dãy số bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "29"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), cho dãy số ($u_n$) có số hạng tổng quát $u_n$ = 3n + 14. Số hạng thứ 5 (u$_5$) của dãy số bằng",
+            "choices": {
+              "A": "29",
+              "B": "26",
+              "C": "19",
+              "D": "32"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-14",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Cho cấp số cộng (u_n) có số hạng đầu u_1 = 15 và công sai d = 4. Số hạng u_6 của cấp số cộng bằng",
+          "choices": {
+            "A": "31",
+            "B": "35",
+            "C": "39",
+            "D": "60"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng đầu "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 15 và công sai d = 4. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "31"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "39"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "60"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Cho cấp số cộng ($u_n$) có số hạng đầu u$_1$ = 15 và công sai d = 4. Số hạng u$_6$ của cấp số cộng bằng",
+            "choices": {
+              "A": "31",
+              "B": "35",
+              "C": "39",
+              "D": "60"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-15",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương II: Cho cấp số nhân (u_n) có u_1 = 16 và công bội q = 2. Số hạng u_4 của cấp số nhân bằng. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "256",
+            "B": "128",
+            "C": "64",
+            "D": "96"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương II: Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 16 và công bội q = 2. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_4"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "256"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "128"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "64"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "96"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương II: Cho cấp số nhân ($u_n$) có u$_1$ = 16 và công bội q = 2. Số hạng u$_4$ của cấp số nhân bằng. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "256",
+              "B": "128",
+              "C": "64",
+              "D": "96"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-16",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Cho dãy số (u_n) có số hạng tổng quát u_n = 3n + 17. Số hạng thứ 5 (u_5) của dãy số bằng",
+          "choices": {
+            "A": "32",
+            "B": "35",
+            "C": "29",
+            "D": "22"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Cho dãy số ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng tổng quát "
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": " = 3n + 17. Số hạng thứ 5 ("
+            },
+            {
+              "t": "math",
+              "v": "u_5"
+            },
+            {
+              "t": "txt",
+              "v": ") của dãy số bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "29"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "22"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Cho dãy số ($u_n$) có số hạng tổng quát $u_n$ = 3n + 17. Số hạng thứ 5 (u$_5$) của dãy số bằng",
+            "choices": {
+              "A": "32",
+              "B": "35",
+              "C": "29",
+              "D": "22"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-17",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho cấp số cộng (u_n) có số hạng đầu u_1 = 18 và công sai d = 4. Số hạng u_6 của cấp số cộng bằng?",
+          "choices": {
+            "A": "42",
+            "B": "38",
+            "C": "34",
+            "D": "72"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng đầu "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 18 và công sai d = 4. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "42"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "38"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "34"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "72"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho cấp số cộng ($u_n$) có số hạng đầu u$_1$ = 18 và công sai d = 4. Số hạng u$_6$ của cấp số cộng bằng?",
+            "choices": {
+              "A": "42",
+              "B": "38",
+              "C": "34",
+              "D": "72"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-18",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương II: Cho cấp số nhân (u_n) có u_1 = 19 và công bội q = 2. Số hạng u_4 của cấp số nhân bằng",
+          "choices": {
+            "A": "114",
+            "B": "152",
+            "C": "76",
+            "D": "304"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương II: Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 19 và công bội q = 2. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_4"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "114"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "152"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "76"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "304"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương II: Cho cấp số nhân ($u_n$) có u$_1$ = 19 và công bội q = 2. Số hạng u$_4$ của cấp số nhân bằng",
+            "choices": {
+              "A": "114",
+              "B": "152",
+              "C": "76",
+              "D": "304"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-19",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Cho dãy số (u_n) có số hạng tổng quát u_n = 3n + 20. Số hạng thứ 5 (u_5) của dãy số bằng. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "25",
+            "B": "32",
+            "C": "35",
+            "D": "38"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Cho dãy số ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng tổng quát "
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": " = 3n + 20. Số hạng thứ 5 ("
+            },
+            {
+              "t": "math",
+              "v": "u_5"
+            },
+            {
+              "t": "txt",
+              "v": ") của dãy số bằng. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "38"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Cho dãy số ($u_n$) có số hạng tổng quát $u_n$ = 3n + 20. Số hạng thứ 5 (u$_5$) của dãy số bằng. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "25",
+              "B": "32",
+              "C": "35",
+              "D": "38"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-20",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Cho cấp số cộng (u_n) có số hạng đầu u_1 = 21 và công sai d = 4. Số hạng u_6 của cấp số cộng bằng",
+          "choices": {
+            "A": "41",
+            "B": "45",
+            "C": "84",
+            "D": "37"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có số hạng đầu "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 21 và công sai d = 4. Số hạng "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "41"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "45"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "84"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "37"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Cho cấp số cộng ($u_n$) có số hạng đầu u$_1$ = 21 và công sai d = 4. Số hạng u$_6$ của cấp số cộng bằng",
+            "choices": {
+              "A": "41",
+              "B": "45",
+              "C": "84",
+              "D": "37"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-21",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Cho cấp số cộng (u_n) có u_1 = 3 và công sai d = 2. Tổng 10 số hạng đầu tiên S_1_0 của cấp số cộng bằng",
+          "choices": {
+            "A": "75",
+            "B": "120",
+            "C": "130",
+            "D": "105"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 3 và công sai d = 2. Tổng 10 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_1_0"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "75"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "120"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "130"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "105"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho cấp số cộng ($u_n$) có u$_1$ = 3 và công sai d = 2. Tổng 10 số hạng đầu tiên S$_1$$_0$ của cấp số cộng bằng",
+            "choices": {
+              "A": "75",
+              "B": "120",
+              "C": "130",
+              "D": "105"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-22",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương II (Dãy số. Cấp số cộng và cấp số nhân) để giải bài toán: Cho cấp số cộng (u_n) biết u_2 = 6 và u_6 = 18. Công sai d của cấp số cộng đó bằng",
+          "choices": {
+            "A": "d = 4",
+            "B": "d = 2",
+            "C": "d = 6",
+            "D": "d = 3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương II (Dãy số. Cấp số cộng và cấp số nhân) để giải bài toán: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") biết "
+            },
+            {
+              "t": "math",
+              "v": "u_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 6 và "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " = 18. Công sai d của cấp số cộng đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "d = 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "d = 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "d = 6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "d = 3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương II (Dãy số. Cấp số cộng và cấp số nhân) để giải bài toán: Cho cấp số cộng ($u_n$) biết u$_2$ = 6 và u$_6$ = 18. Công sai d của cấp số cộng đó bằng",
+            "choices": {
+              "A": "d = 4",
+              "B": "d = 2",
+              "C": "d = 6",
+              "D": "d = 3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-23",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương II: Cho cấp số nhân (u_n) có u_1 = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S_6 của cấp số nhân bằng. Kết quả thu được là",
+          "choices": {
+            "A": "381",
+            "B": "93",
+            "C": "189",
+            "D": "192"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương II: Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "381"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "93"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "189"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "192"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương II: Cho cấp số nhân ($u_n$) có u$_1$ = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S$_6$ của cấp số nhân bằng. Kết quả thu được là",
+            "choices": {
+              "A": "381",
+              "B": "93",
+              "C": "189",
+              "D": "192"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-24",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Cho cấp số cộng (u_n) có u_1 = 6 và công sai d = 2. Tổng 10 số hạng đầu tiên S_1_0 của cấp số cộng bằng. Đáp án đúng là",
+          "choices": {
+            "A": "160",
+            "B": "105",
+            "C": "120",
+            "D": "150"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 6 và công sai d = 2. Tổng 10 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_1_0"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "160"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "105"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "120"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "150"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Cho cấp số cộng ($u_n$) có u$_1$ = 6 và công sai d = 2. Tổng 10 số hạng đầu tiên S$_1$$_0$ của cấp số cộng bằng. Đáp án đúng là",
+            "choices": {
+              "A": "160",
+              "B": "105",
+              "C": "120",
+              "D": "150"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-25",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Cho cấp số cộng (u_n) biết u_2 = 9 và u_6 = 21. Công sai d của cấp số cộng đó bằng",
+          "choices": {
+            "A": "d = 2",
+            "B": "d = 6",
+            "C": "d = 3",
+            "D": "d = 4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") biết "
+            },
+            {
+              "t": "math",
+              "v": "u_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 9 và "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " = 21. Công sai d của cấp số cộng đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "d = 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "d = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "d = 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "d = 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Cho cấp số cộng ($u_n$) biết u$_2$ = 9 và u$_6$ = 21. Công sai d của cấp số cộng đó bằng",
+            "choices": {
+              "A": "d = 2",
+              "B": "d = 6",
+              "C": "d = 3",
+              "D": "d = 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-26",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Cho cấp số nhân (u_n) có u_1 = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S_6 của cấp số nhân bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "93",
+            "B": "381",
+            "C": "192",
+            "D": "189"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "93"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "381"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "192"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "189"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Cho cấp số nhân ($u_n$) có u$_1$ = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S$_6$ của cấp số nhân bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "93",
+              "B": "381",
+              "C": "192",
+              "D": "189"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-27",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Cho cấp số cộng (u_n) có u_1 = 9 và công sai d = 2. Tổng 10 số hạng đầu tiên S_1_0 của cấp số cộng bằng",
+          "choices": {
+            "A": "190",
+            "B": "135",
+            "C": "180 (1)",
+            "D": "180"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 9 và công sai d = 2. Tổng 10 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_1_0"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "190"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "135"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "180 (1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "180"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Cho cấp số cộng ($u_n$) có u$_1$ = 9 và công sai d = 2. Tổng 10 số hạng đầu tiên S$_1$$_0$ của cấp số cộng bằng",
+            "choices": {
+              "A": "190",
+              "B": "135",
+              "C": "180 (1)",
+              "D": "180"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-28",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho cấp số cộng (u_n) biết u_2 = 12 và u_6 = 24. Công sai d của cấp số cộng đó bằng",
+          "choices": {
+            "A": "d = 4",
+            "B": "d = 6",
+            "C": "d = 2",
+            "D": "d = 3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") biết "
+            },
+            {
+              "t": "math",
+              "v": "u_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 12 và "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " = 24. Công sai d của cấp số cộng đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "d = 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "d = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "d = 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "d = 3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho cấp số cộng ($u_n$) biết u$_2$ = 12 và u$_6$ = 24. Công sai d của cấp số cộng đó bằng",
+            "choices": {
+              "A": "d = 4",
+              "B": "d = 6",
+              "C": "d = 2",
+              "D": "d = 3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-29",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Dãy số. Cấp số cộng và cấp số nhân): Cho cấp số nhân (u_n) có u_1 = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S_6 của cấp số nhân bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "189",
+            "B": "192",
+            "C": "93",
+            "D": "381"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Dãy số. Cấp số cộng và cấp số nhân): Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "189"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "192"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "93"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "381"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Dãy số. Cấp số cộng và cấp số nhân): Cho cấp số nhân ($u_n$) có u$_1$ = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S$_6$ của cấp số nhân bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "189",
+              "B": "192",
+              "C": "93",
+              "D": "381"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-30",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Cho cấp số cộng (u_n) có u_1 = 12 và công sai d = 2. Tổng 10 số hạng đầu tiên S_1_0 của cấp số cộng bằng",
+          "choices": {
+            "A": "220",
+            "B": "150",
+            "C": "165",
+            "D": "210"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 12 và công sai d = 2. Tổng 10 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_1_0"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "220"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "150"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "165"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "210"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Cho cấp số cộng ($u_n$) có u$_1$ = 12 và công sai d = 2. Tổng 10 số hạng đầu tiên S$_1$$_0$ của cấp số cộng bằng",
+            "choices": {
+              "A": "220",
+              "B": "150",
+              "C": "165",
+              "D": "210"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-31",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Cho cấp số cộng (u_n) biết u_2 = 15 và u_6 = 27. Công sai d của cấp số cộng đó bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "d = 4",
+            "B": "d = 6",
+            "C": "d = 3",
+            "D": "d = 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") biết "
+            },
+            {
+              "t": "math",
+              "v": "u_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 15 và "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " = 27. Công sai d của cấp số cộng đó bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "d = 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "d = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "d = 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "d = 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Cho cấp số cộng ($u_n$) biết u$_2$ = 15 và u$_6$ = 27. Công sai d của cấp số cộng đó bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "d = 4",
+              "B": "d = 6",
+              "C": "d = 3",
+              "D": "d = 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-32",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Cho cấp số nhân (u_n) có u_1 = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S_6 của cấp số nhân bằng",
+          "choices": {
+            "A": "381",
+            "B": "192",
+            "C": "93",
+            "D": "189"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "381"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "192"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "93"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "189"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Cho cấp số nhân ($u_n$) có u$_1$ = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S$_6$ của cấp số nhân bằng",
+            "choices": {
+              "A": "381",
+              "B": "192",
+              "C": "93",
+              "D": "189"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-33",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Cho cấp số cộng (u_n) có u_1 = 15 và công sai d = 2. Tổng 10 số hạng đầu tiên S_1_0 của cấp số cộng bằng",
+          "choices": {
+            "A": "250",
+            "B": "240",
+            "C": "165",
+            "D": "195"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 15 và công sai d = 2. Tổng 10 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_1_0"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "250"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "240"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "165"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "195"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Cho cấp số cộng ($u_n$) có u$_1$ = 15 và công sai d = 2. Tổng 10 số hạng đầu tiên S$_1$$_0$ của cấp số cộng bằng",
+            "choices": {
+              "A": "250",
+              "B": "240",
+              "C": "165",
+              "D": "195"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-34",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho cấp số cộng (u_n) biết u_2 = 18 và u_6 = 30. Công sai d của cấp số cộng đó bằng",
+          "choices": {
+            "A": "d = 3",
+            "B": "d = 6",
+            "C": "d = 4",
+            "D": "d = 2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") biết "
+            },
+            {
+              "t": "math",
+              "v": "u_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 18 và "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " = 30. Công sai d của cấp số cộng đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "d = 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "d = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "d = 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "d = 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho cấp số cộng ($u_n$) biết u$_2$ = 18 và u$_6$ = 30. Công sai d của cấp số cộng đó bằng",
+            "choices": {
+              "A": "d = 3",
+              "B": "d = 6",
+              "C": "d = 4",
+              "D": "d = 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-35",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Cho cấp số nhân (u_n) có u_1 = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S_6 của cấp số nhân bằng",
+          "choices": {
+            "A": "93",
+            "B": "189",
+            "C": "192",
+            "D": "381"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "93"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "189"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "192"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "381"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Cho cấp số nhân ($u_n$) có u$_1$ = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S$_6$ của cấp số nhân bằng",
+            "choices": {
+              "A": "93",
+              "B": "189",
+              "C": "192",
+              "D": "381"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-36",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Dãy số. Cấp số cộng và cấp số nhân): Cho cấp số cộng (u_n) có u_1 = 18 và công sai d = 2. Tổng 10 số hạng đầu tiên S_1_0 của cấp số cộng bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "280",
+            "B": "225",
+            "C": "270",
+            "D": "180"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Dãy số. Cấp số cộng và cấp số nhân): Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 18 và công sai d = 2. Tổng 10 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_1_0"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "280"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "225"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "270"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "180"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Dãy số. Cấp số cộng và cấp số nhân): Cho cấp số cộng ($u_n$) có u$_1$ = 18 và công sai d = 2. Tổng 10 số hạng đầu tiên S$_1$$_0$ của cấp số cộng bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "280",
+              "B": "225",
+              "C": "270",
+              "D": "180"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-37",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho cấp số cộng (u_n) biết u_2 = 21 và u_6 = 33. Công sai d của cấp số cộng đó bằng",
+          "choices": {
+            "A": "d = 2",
+            "B": "d = 6",
+            "C": "d = 3",
+            "D": "d = 4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") biết "
+            },
+            {
+              "t": "math",
+              "v": "u_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 21 và "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " = 33. Công sai d của cấp số cộng đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "d = 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "d = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "d = 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "d = 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho cấp số cộng ($u_n$) biết u$_2$ = 21 và u$_6$ = 33. Công sai d của cấp số cộng đó bằng",
+            "choices": {
+              "A": "d = 2",
+              "B": "d = 6",
+              "C": "d = 3",
+              "D": "d = 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-38",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương II: Cho cấp số nhân (u_n) có u_1 = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S_6 của cấp số nhân bằng. Kết luận đúng là",
+          "choices": {
+            "A": "189",
+            "B": "93",
+            "C": "381",
+            "D": "192"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương II: Cho cấp số nhân ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_6"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số nhân bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "189"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "93"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "381"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "192"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương II: Cho cấp số nhân ($u_n$) có u$_1$ = 3 và công bội q = 2. Tổng 6 số hạng đầu tiên S$_6$ của cấp số nhân bằng. Kết luận đúng là",
+            "choices": {
+              "A": "189",
+              "B": "93",
+              "C": "381",
+              "D": "192"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-39",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Cho cấp số cộng (u_n) có u_1 = 21 và công sai d = 2. Tổng 10 số hạng đầu tiên S_1_0 của cấp số cộng bằng",
+          "choices": {
+            "A": "255",
+            "B": "195",
+            "C": "300",
+            "D": "310"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") có "
+            },
+            {
+              "t": "math",
+              "v": "u_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 21 và công sai d = 2. Tổng 10 số hạng đầu tiên "
+            },
+            {
+              "t": "math",
+              "v": "S_1_0"
+            },
+            {
+              "t": "txt",
+              "v": " của cấp số cộng bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "255"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "195"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "300"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "310"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Cho cấp số cộng ($u_n$) có u$_1$ = 21 và công sai d = 2. Tổng 10 số hạng đầu tiên S$_1$$_0$ của cấp số cộng bằng",
+            "choices": {
+              "A": "255",
+              "B": "195",
+              "C": "300",
+              "D": "310"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-40",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho cấp số cộng (u_n) biết u_2 = 24 và u_6 = 36. Công sai d của cấp số cộng đó bằng",
+          "choices": {
+            "A": "d = 6",
+            "B": "d = 4",
+            "C": "d = 3",
+            "D": "d = 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho cấp số cộng ("
+            },
+            {
+              "t": "math",
+              "v": "u_n"
+            },
+            {
+              "t": "txt",
+              "v": ") biết "
+            },
+            {
+              "t": "math",
+              "v": "u_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 24 và "
+            },
+            {
+              "t": "math",
+              "v": "u_6"
+            },
+            {
+              "t": "txt",
+              "v": " = 36. Công sai d của cấp số cộng đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "d = 6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "d = 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "d = 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "d = 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho cấp số cộng ($u_n$) biết u$_2$ = 24 và u$_6$ = 36. Công sai d của cấp số cộng đó bằng",
+            "choices": {
+              "A": "d = 6",
+              "B": "d = 4",
+              "C": "d = 3",
+              "D": "d = 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-41",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân",
+          "choices": {
+            "A": "x = 5",
+            "B": "x = 2",
+            "C": "x = 4",
+            "D": "x = 8"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân",
+            "choices": {
+              "A": "x = 5",
+              "B": "x = 2",
+              "C": "x = 4",
+              "D": "x = 8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-42",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương II – Dãy số. Cấp số cộng và cấp số nhân): Một rạp hát có 15 hàng ghế, hàng đầu tiên có 18 ghế, mỗi hàng sau nhiều hơn hàng liền trước 2 ghế. Tổng số ghế của rạp hát là. Kết quả đúng là",
+          "choices": {
+            "A": "690 ghế",
+            "B": "480 ghế",
+            "C": "375 ghế",
+            "D": "270 ghế"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương II – Dãy số. Cấp số cộng và cấp số nhân): Một rạp hát có 15 hàng ghế, hàng đầu tiên có 18 ghế, mỗi hàng sau nhiều hơn hàng liền trước 2 ghế. Tổng số ghế của rạp hát là. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "690 ghế"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "480 ghế"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "375 ghế"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "270 ghế"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương II – Dãy số. Cấp số cộng và cấp số nhân): Một rạp hát có 15 hàng ghế, hàng đầu tiên có 18 ghế, mỗi hàng sau nhiều hơn hàng liền trước 2 ghế. Tổng số ghế của rạp hát là. Kết quả đúng là",
+            "choices": {
+              "A": "690 ghế",
+              "B": "480 ghế",
+              "C": "375 ghế",
+              "D": "270 ghế"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-43",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Tìm số thực dương x để ba số 4; x; 36 theo thứ tự lập thành một cấp số nhân",
+          "choices": {
+            "A": "x = 8",
+            "B": "x = 36",
+            "C": "x = 12",
+            "D": "x = 20"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Tìm số thực dương x để ba số 4; x; 36 theo thứ tự lập thành một cấp số nhân"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 36"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Tìm số thực dương x để ba số 4; x; 36 theo thứ tự lập thành một cấp số nhân",
+            "choices": {
+              "A": "x = 8",
+              "B": "x = 36",
+              "C": "x = 12",
+              "D": "x = 20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-44",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương II: Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân",
+          "choices": {
+            "A": "x = 5",
+            "B": "x = 8",
+            "C": "x = 4",
+            "D": "x = 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương II: Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương II: Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân",
+            "choices": {
+              "A": "x = 5",
+              "B": "x = 8",
+              "C": "x = 4",
+              "D": "x = 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-45",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương II: Một rạp hát có 15 hàng ghế, hàng đầu tiên có 18 ghế, mỗi hàng sau nhiều hơn hàng liền trước 2 ghế. Tổng số ghế của rạp hát là. Đáp số chính xác là",
+          "choices": {
+            "A": "375 ghế",
+            "B": "270 ghế",
+            "C": "480 ghế",
+            "D": "690 ghế"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương II: Một rạp hát có 15 hàng ghế, hàng đầu tiên có 18 ghế, mỗi hàng sau nhiều hơn hàng liền trước 2 ghế. Tổng số ghế của rạp hát là. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "375 ghế"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "270 ghế"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "480 ghế"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "690 ghế"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương II: Một rạp hát có 15 hàng ghế, hàng đầu tiên có 18 ghế, mỗi hàng sau nhiều hơn hàng liền trước 2 ghế. Tổng số ghế của rạp hát là. Đáp số chính xác là",
+            "choices": {
+              "A": "375 ghế",
+              "B": "270 ghế",
+              "C": "480 ghế",
+              "D": "690 ghế"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-46",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Tìm số thực dương x để ba số 7; x; 63 theo thứ tự lập thành một cấp số nhân",
+          "choices": {
+            "A": "x = 21",
+            "B": "x = 63",
+            "C": "x = 14",
+            "D": "x = 35"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Tìm số thực dương x để ba số 7; x; 63 theo thứ tự lập thành một cấp số nhân"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 21"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 63"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 35"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Tìm số thực dương x để ba số 7; x; 63 theo thứ tự lập thành một cấp số nhân",
+            "choices": {
+              "A": "x = 21",
+              "B": "x = 63",
+              "C": "x = 14",
+              "D": "x = 35"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-47",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân",
+          "choices": {
+            "A": "x = 5",
+            "B": "x = 8",
+            "C": "x = 4",
+            "D": "x = 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân",
+            "choices": {
+              "A": "x = 5",
+              "B": "x = 8",
+              "C": "x = 4",
+              "D": "x = 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-48",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Một rạp hát có 15 hàng ghế, hàng đầu tiên có 18 ghế, mỗi hàng sau nhiều hơn hàng liền trước 2 ghế. Tổng số ghế của rạp hát là",
+          "choices": {
+            "A": "270 ghế",
+            "B": "690 ghế",
+            "C": "375 ghế",
+            "D": "480 ghế"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Một rạp hát có 15 hàng ghế, hàng đầu tiên có 18 ghế, mỗi hàng sau nhiều hơn hàng liền trước 2 ghế. Tổng số ghế của rạp hát là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "270 ghế"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "690 ghế"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "375 ghế"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "480 ghế"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Một rạp hát có 15 hàng ghế, hàng đầu tiên có 18 ghế, mỗi hàng sau nhiều hơn hàng liền trước 2 ghế. Tổng số ghế của rạp hát là",
+            "choices": {
+              "A": "270 ghế",
+              "B": "690 ghế",
+              "C": "375 ghế",
+              "D": "480 ghế"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-49",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Tìm số thực dương x để ba số 10; x; 90 theo thứ tự lập thành một cấp số nhân",
+          "choices": {
+            "A": "x = 20",
+            "B": "x = 30",
+            "C": "x = 50",
+            "D": "x = 90"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Tìm số thực dương x để ba số 10; x; 90 theo thứ tự lập thành một cấp số nhân"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 30"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 50"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 90"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Tìm số thực dương x để ba số 10; x; 90 theo thứ tự lập thành một cấp số nhân",
+            "choices": {
+              "A": "x = 20",
+              "B": "x = 30",
+              "C": "x = 50",
+              "D": "x = 90"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-02-50",
+          "grade": 11,
+          "chapter": 2,
+          "chapterTitle": "DÃY SỐ. CẤP SỐ CỘNG VÀ CẤP SỐ NHÂN",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương II: Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân. Phương án đúng là",
+          "choices": {
+            "A": "x = 8",
+            "B": "x = 5",
+            "C": "x = 2",
+            "D": "x = 4"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương II: Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương II: Tìm x dương để ba số 2; x; 8 theo thứ tự lập thành một cấp số nhân. Phương án đúng là",
+            "choices": {
+              "A": "x = 8",
+              "B": "x = 5",
+              "C": "x = 2",
+              "D": "x = 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

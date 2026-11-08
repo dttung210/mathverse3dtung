@@ -1,0 +1,4109 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 8,
+      "chapter": 10,
+      "roman": "X",
+      "title": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "8-10-01",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Một hình chóp tứ giác đều có diện tích đáy S = 12 cm^{2} và chiều cao h = 4 cm. Thể tích của hình chóp đó bằng",
+          "choices": {
+            "A": "144 cm^{3}",
+            "B": "48 cm^{3}",
+            "C": "16 cm^{3}",
+            "D": "24 cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hình chóp tứ giác đều có diện tích đáy S = 12 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao h = 4 cm. Thể tích của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "144 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "48 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hình chóp tứ giác đều có diện tích đáy S = 12 cm$^2$ và chiều cao h = 4 cm. Thể tích của hình chóp đó bằng",
+            "choices": {
+              "A": "144 cm$^3$",
+              "B": "48 cm$^3$",
+              "C": "16 cm$^3$",
+              "D": "24 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-02",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Hãy trả lời câu hỏi cơ bản sau: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì? []",
+          "choices": {
+            "A": "Các tam giác vuông []",
+            "B": "Các hình thang cân bằng nhau []",
+            "C": "Các hình chữ nhật bằng nhau []",
+            "D": "Các tam giác cân bằng nhau"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy trả lời câu hỏi cơ bản sau: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì? []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Các tam giác vuông []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Các hình thang cân bằng nhau []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Các hình chữ nhật bằng nhau []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Các tam giác cân bằng nhau"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy trả lời câu hỏi cơ bản sau: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì? []",
+            "choices": {
+              "A": "Các tam giác vuông []",
+              "B": "Các hình thang cân bằng nhau []",
+              "C": "Các hình chữ nhật bằng nhau []",
+              "D": "Các tam giác cân bằng nhau"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-03",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương X, xét nội dung: Một hình chóp tam giác đều có chu vi đáy bằng 30 cm và độ dài trung đoạn d = 7 cm. Diện tích xung quanh của hình chóp bằng. Đáp án đúng là",
+          "choices": {
+            "A": "210 cm^{2}",
+            "B": "70 cm^{2}",
+            "C": "105 cm^{2}",
+            "D": "420 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương X, xét nội dung: Một hình chóp tam giác đều có chu vi đáy bằng 30 cm và độ dài trung đoạn d = 7 cm. Diện tích xung quanh của hình chóp bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "210 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "70 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "105 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "420 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương X, xét nội dung: Một hình chóp tam giác đều có chu vi đáy bằng 30 cm và độ dài trung đoạn d = 7 cm. Diện tích xung quanh của hình chóp bằng. Đáp án đúng là",
+            "choices": {
+              "A": "210 cm$^2$",
+              "B": "70 cm$^2$",
+              "C": "105 cm$^2$",
+              "D": "420 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-04",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương X (Một số hình khối trong thực tiễn), một hình chóp tứ giác đều có diện tích đáy S = 21 cm^{2} và chiều cao h = 7 cm. Thể tích của hình chóp đó bằng",
+          "choices": {
+            "A": "49 cm^{3}",
+            "B": "73 cm^{3}",
+            "C": "441 cm^{3}",
+            "D": "147 cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương X (Một số hình khối trong thực tiễn), một hình chóp tứ giác đều có diện tích đáy S = 21 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao h = 7 cm. Thể tích của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "49 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "73 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "441 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "147 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương X (Một số hình khối trong thực tiễn), một hình chóp tứ giác đều có diện tích đáy S = 21 cm$^2$ và chiều cao h = 7 cm. Thể tích của hình chóp đó bằng",
+            "choices": {
+              "A": "49 cm$^3$",
+              "B": "73 cm$^3$",
+              "C": "441 cm$^3$",
+              "D": "147 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-05",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn phương án trả lời đúng nhất: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì? []",
+          "choices": {
+            "A": "Các hình thang cân bằng nhau []",
+            "B": "Các hình chữ nhật bằng nhau []",
+            "C": "Các tam giác vuông []",
+            "D": "Các tam giác cân bằng nhau"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn phương án trả lời đúng nhất: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì? []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Các hình thang cân bằng nhau []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Các hình chữ nhật bằng nhau []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Các tam giác vuông []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Các tam giác cân bằng nhau"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn phương án trả lời đúng nhất: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì? []",
+            "choices": {
+              "A": "Các hình thang cân bằng nhau []",
+              "B": "Các hình chữ nhật bằng nhau []",
+              "C": "Các tam giác vuông []",
+              "D": "Các tam giác cân bằng nhau"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-06",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về một số hình khối trong thực tiễn, một học sinh gặp câu hỏi: Một hình chóp tam giác đều có chu vi đáy bằng 48 cm và độ dài trung đoạn d = 10 cm. Diện tích xung quanh của hình chóp bằng. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "240 cm^{2}",
+            "B": "160 cm^{2}",
+            "C": "960 cm^{2}",
+            "D": "480 cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về một số hình khối trong thực tiễn, một học sinh gặp câu hỏi: Một hình chóp tam giác đều có chu vi đáy bằng 48 cm và độ dài trung đoạn d = 10 cm. Diện tích xung quanh của hình chóp bằng. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "240 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "160 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "960 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "480 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về một số hình khối trong thực tiễn, một học sinh gặp câu hỏi: Một hình chóp tam giác đều có chu vi đáy bằng 48 cm và độ dài trung đoạn d = 10 cm. Diện tích xung quanh của hình chóp bằng. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "240 cm$^2$",
+              "B": "160 cm$^2$",
+              "C": "960 cm$^2$",
+              "D": "480 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-07",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hình chóp tứ giác đều có diện tích đáy S = 30 cm^{2} và chiều cao h = 10 cm. Thể tích của hình chóp đó bằng",
+          "choices": {
+            "A": "300 cm^{3}",
+            "B": "100 cm^{3}",
+            "C": "150 cm^{3}",
+            "D": "900 cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hình chóp tứ giác đều có diện tích đáy S = 30 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao h = 10 cm. Thể tích của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "300 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "150 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "900 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hình chóp tứ giác đều có diện tích đáy S = 30 cm$^2$ và chiều cao h = 10 cm. Thể tích của hình chóp đó bằng",
+            "choices": {
+              "A": "300 cm$^3$",
+              "B": "100 cm$^3$",
+              "C": "150 cm$^3$",
+              "D": "900 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-08",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương X: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []",
+          "choices": {
+            "A": "Các tam giác vuông []",
+            "B": "Các hình thang cân bằng nhau []",
+            "C": "Các tam giác cân bằng nhau []",
+            "D": "Các hình chữ nhật bằng nhau"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương X: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Các tam giác vuông []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Các hình thang cân bằng nhau []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Các tam giác cân bằng nhau []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Các hình chữ nhật bằng nhau"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương X: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []",
+            "choices": {
+              "A": "Các tam giác vuông []",
+              "B": "Các hình thang cân bằng nhau []",
+              "C": "Các tam giác cân bằng nhau []",
+              "D": "Các hình chữ nhật bằng nhau"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-09",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Một hình chóp tam giác đều có chu vi đáy bằng 66 cm và độ dài trung đoạn d = 13 cm. Diện tích xung quanh của hình chóp bằng",
+          "choices": {
+            "A": "858 cm^{2}",
+            "B": "429 cm^{2}",
+            "C": "286 cm^{2}",
+            "D": "1716 cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Một hình chóp tam giác đều có chu vi đáy bằng 66 cm và độ dài trung đoạn d = 13 cm. Diện tích xung quanh của hình chóp bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "858 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "429 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "286 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1716 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Một hình chóp tam giác đều có chu vi đáy bằng 66 cm và độ dài trung đoạn d = 13 cm. Diện tích xung quanh của hình chóp bằng",
+            "choices": {
+              "A": "858 cm$^2$",
+              "B": "429 cm$^2$",
+              "C": "286 cm$^2$",
+              "D": "1716 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-10",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Một hình chóp tứ giác đều có diện tích đáy S = 39 cm^{2} và chiều cao h = 13 cm. Thể tích của hình chóp đó bằng. Phương án chính xác là",
+          "choices": {
+            "A": "1521 cm^{3}",
+            "B": "507 cm^{3}",
+            "C": "253 cm^{3}",
+            "D": "169 cm^{3}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Một hình chóp tứ giác đều có diện tích đáy S = 39 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao h = 13 cm. Thể tích của hình chóp đó bằng. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1521 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "507 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "253 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "169 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Một hình chóp tứ giác đều có diện tích đáy S = 39 cm$^2$ và chiều cao h = 13 cm. Thể tích của hình chóp đó bằng. Phương án chính xác là",
+            "choices": {
+              "A": "1521 cm$^3$",
+              "B": "507 cm$^3$",
+              "C": "253 cm$^3$",
+              "D": "169 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-11",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []",
+          "choices": {
+            "A": "Các hình chữ nhật bằng nhau []",
+            "B": "Các tam giác vuông []",
+            "C": "Các hình thang cân bằng nhau []",
+            "D": "Các tam giác cân bằng nhau"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Các hình chữ nhật bằng nhau []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Các tam giác vuông []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Các hình thang cân bằng nhau []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Các tam giác cân bằng nhau"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []",
+            "choices": {
+              "A": "Các hình chữ nhật bằng nhau []",
+              "B": "Các tam giác vuông []",
+              "C": "Các hình thang cân bằng nhau []",
+              "D": "Các tam giác cân bằng nhau"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-12",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương X): Một hình chóp tam giác đều có chu vi đáy bằng 84 cm và độ dài trung đoạn d = 16 cm. Diện tích xung quanh của hình chóp bằng",
+          "choices": {
+            "A": "2688 cm^{2}",
+            "B": "672 cm^{2}",
+            "C": "448 cm^{2}",
+            "D": "1344 cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương X): Một hình chóp tam giác đều có chu vi đáy bằng 84 cm và độ dài trung đoạn d = 16 cm. Diện tích xung quanh của hình chóp bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2688 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "672 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "448 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1344 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương X): Một hình chóp tam giác đều có chu vi đáy bằng 84 cm và độ dài trung đoạn d = 16 cm. Diện tích xung quanh của hình chóp bằng",
+            "choices": {
+              "A": "2688 cm$^2$",
+              "B": "672 cm$^2$",
+              "C": "448 cm$^2$",
+              "D": "1344 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-13",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương X), một hình chóp tứ giác đều có diện tích đáy S = 48 cm^{2} và chiều cao h = 16 cm. Thể tích của hình chóp đó bằng",
+          "choices": {
+            "A": "256 cm^{3}",
+            "B": "2304 cm^{3}",
+            "C": "384 cm^{3}",
+            "D": "768 cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương X), một hình chóp tứ giác đều có diện tích đáy S = 48 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao h = 16 cm. Thể tích của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "256 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2304 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "384 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "768 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương X), một hình chóp tứ giác đều có diện tích đáy S = 48 cm$^2$ và chiều cao h = 16 cm. Thể tích của hình chóp đó bằng",
+            "choices": {
+              "A": "256 cm$^3$",
+              "B": "2304 cm$^3$",
+              "C": "384 cm$^3$",
+              "D": "768 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-14",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []",
+          "choices": {
+            "A": "Các hình chữ nhật bằng nhau []",
+            "B": "Các tam giác vuông []",
+            "C": "Các tam giác cân bằng nhau []",
+            "D": "Các hình thang cân bằng nhau"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Các hình chữ nhật bằng nhau []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Các tam giác vuông []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Các tam giác cân bằng nhau []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Các hình thang cân bằng nhau"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []",
+            "choices": {
+              "A": "Các hình chữ nhật bằng nhau []",
+              "B": "Các tam giác vuông []",
+              "C": "Các tam giác cân bằng nhau []",
+              "D": "Các hình thang cân bằng nhau"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-15",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương X: Một hình chóp tam giác đều có chu vi đáy bằng 102 cm và độ dài trung đoạn d = 19 cm. Diện tích xung quanh của hình chóp bằng. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "969 cm^{2}",
+            "B": "1938 cm^{2}",
+            "C": "646 cm^{2}",
+            "D": "3876 cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương X: Một hình chóp tam giác đều có chu vi đáy bằng 102 cm và độ dài trung đoạn d = 19 cm. Diện tích xung quanh của hình chóp bằng. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "969 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1938 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "646 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3876 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương X: Một hình chóp tam giác đều có chu vi đáy bằng 102 cm và độ dài trung đoạn d = 19 cm. Diện tích xung quanh của hình chóp bằng. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "969 cm$^2$",
+              "B": "1938 cm$^2$",
+              "C": "646 cm$^2$",
+              "D": "3876 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-16",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Một hình chóp tứ giác đều có diện tích đáy S = 57 cm^{2} và chiều cao h = 19 cm. Thể tích của hình chóp đó bằng",
+          "choices": {
+            "A": "361 cm^{3}",
+            "B": "541 cm^{3}",
+            "C": "3249 cm^{3}",
+            "D": "1083 cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Một hình chóp tứ giác đều có diện tích đáy S = 57 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao h = 19 cm. Thể tích của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "361 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "541 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3249 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1083 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Một hình chóp tứ giác đều có diện tích đáy S = 57 cm$^2$ và chiều cao h = 19 cm. Thể tích của hình chóp đó bằng",
+            "choices": {
+              "A": "361 cm$^3$",
+              "B": "541 cm$^3$",
+              "C": "3249 cm$^3$",
+              "D": "1083 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-17",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì? []",
+          "choices": {
+            "A": "Các tam giác vuông []",
+            "B": "Các hình chữ nhật bằng nhau []",
+            "C": "Các hình thang cân bằng nhau []",
+            "D": "Các tam giác cân bằng nhau"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì? []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Các tam giác vuông []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Các hình chữ nhật bằng nhau []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Các hình thang cân bằng nhau []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Các tam giác cân bằng nhau"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì? []",
+            "choices": {
+              "A": "Các tam giác vuông []",
+              "B": "Các hình chữ nhật bằng nhau []",
+              "C": "Các hình thang cân bằng nhau []",
+              "D": "Các tam giác cân bằng nhau"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-18",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương X: Một hình chóp tam giác đều có chu vi đáy bằng 120 cm và độ dài trung đoạn d = 22 cm. Diện tích xung quanh của hình chóp bằng",
+          "choices": {
+            "A": "5280 cm^{2}",
+            "B": "2640 cm^{2}",
+            "C": "880 cm^{2}",
+            "D": "1320 cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương X: Một hình chóp tam giác đều có chu vi đáy bằng 120 cm và độ dài trung đoạn d = 22 cm. Diện tích xung quanh của hình chóp bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5280 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2640 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "880 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1320 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương X: Một hình chóp tam giác đều có chu vi đáy bằng 120 cm và độ dài trung đoạn d = 22 cm. Diện tích xung quanh của hình chóp bằng",
+            "choices": {
+              "A": "5280 cm$^2$",
+              "B": "2640 cm$^2$",
+              "C": "880 cm$^2$",
+              "D": "1320 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-19",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Một hình chóp tứ giác đều có diện tích đáy S = 66 cm^{2} và chiều cao h = 22 cm. Thể tích của hình chóp đó bằng. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "726 cm^{3}",
+            "B": "4356 cm^{3}",
+            "C": "1452 cm^{3}",
+            "D": "484 cm^{3}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Một hình chóp tứ giác đều có diện tích đáy S = 66 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chiều cao h = 22 cm. Thể tích của hình chóp đó bằng. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "726 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4356 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1452 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "484 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Một hình chóp tứ giác đều có diện tích đáy S = 66 cm$^2$ và chiều cao h = 22 cm. Thể tích của hình chóp đó bằng. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "726 cm$^3$",
+              "B": "4356 cm$^3$",
+              "C": "1452 cm$^3$",
+              "D": "484 cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-20",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương X để giải quyết yêu cầu: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []",
+          "choices": {
+            "A": "Các hình chữ nhật bằng nhau []",
+            "B": "Các tam giác vuông []",
+            "C": "Các tam giác cân bằng nhau []",
+            "D": "Các hình thang cân bằng nhau"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương X để giải quyết yêu cầu: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Các hình chữ nhật bằng nhau []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Các tam giác vuông []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Các tam giác cân bằng nhau []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Các hình thang cân bằng nhau"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương X để giải quyết yêu cầu: Các mặt bên của hình chóp tam giác đều và hình chóp tứ giác đều là những hình gì: []",
+            "choices": {
+              "A": "Các hình chữ nhật bằng nhau []",
+              "B": "Các tam giác vuông []",
+              "C": "Các tam giác cân bằng nhau []",
+              "D": "Các hình thang cân bằng nhau"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-21",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Một hình chóp tứ giác đều có cạnh đáy bằng 4 cm và trung đoạn bằng 6 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là",
+          "choices": {
+            "A": "24 cm^{2}",
+            "B": "48 cm^{2}",
+            "C": "64 cm^{2}",
+            "D": "96 cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hình chóp tứ giác đều có cạnh đáy bằng 4 cm và trung đoạn bằng 6 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "48 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "64 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "96 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hình chóp tứ giác đều có cạnh đáy bằng 4 cm và trung đoạn bằng 6 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là",
+            "choices": {
+              "A": "24 cm$^2$",
+              "B": "48 cm$^2$",
+              "C": "64 cm$^2$",
+              "D": "96 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-22",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương X (Một số hình khối trong thực tiễn) để giải bài toán: Một hình chóp tứ giác đều có cạnh đáy bằng 5 cm và trung đoạn bằng 6 cm. Diện tích toàn phần của hình chóp đó bằng",
+          "choices": {
+            "A": "150 cm^{2}",
+            "B": "145 cm^{2}",
+            "C": "85 cm^{2}",
+            "D": "60 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương X (Một số hình khối trong thực tiễn) để giải bài toán: Một hình chóp tứ giác đều có cạnh đáy bằng 5 cm và trung đoạn bằng 6 cm. Diện tích toàn phần của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "150 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "145 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "85 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "60 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương X (Một số hình khối trong thực tiễn) để giải bài toán: Một hình chóp tứ giác đều có cạnh đáy bằng 5 cm và trung đoạn bằng 6 cm. Diện tích toàn phần của hình chóp đó bằng",
+            "choices": {
+              "A": "150 cm$^2$",
+              "B": "145 cm$^2$",
+              "C": "85 cm$^2$",
+              "D": "60 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-23",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương X: Một hình chóp tứ giác đều có thể tích V = 64 cm^{3} và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Kết quả thu được là",
+          "choices": {
+            "A": "12 cm",
+            "B": "4 cm",
+            "C": "16 cm",
+            "D": "48 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương X: Một hình chóp tứ giác đều có thể tích V = 64 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "48 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương X: Một hình chóp tứ giác đều có thể tích V = 64 cm$^3$ và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Kết quả thu được là",
+            "choices": {
+              "A": "12 cm",
+              "B": "4 cm",
+              "C": "16 cm",
+              "D": "48 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-24",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Một hình chóp tứ giác đều có cạnh đáy bằng 7 cm và trung đoạn bằng 9 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là. Đáp án đúng là",
+          "choices": {
+            "A": "126 cm^{2}",
+            "B": "252 cm^{2}",
+            "C": "175 cm^{2}",
+            "D": "63 cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Một hình chóp tứ giác đều có cạnh đáy bằng 7 cm và trung đoạn bằng 9 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "126 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "252 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "175 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "63 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Một hình chóp tứ giác đều có cạnh đáy bằng 7 cm và trung đoạn bằng 9 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là. Đáp án đúng là",
+            "choices": {
+              "A": "126 cm$^2$",
+              "B": "252 cm$^2$",
+              "C": "175 cm$^2$",
+              "D": "63 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-25",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương X, hãy xác định: Một hình chóp tứ giác đều có cạnh đáy bằng 8 cm và trung đoạn bằng 9 cm. Diện tích toàn phần của hình chóp đó bằng",
+          "choices": {
+            "A": "208 cm^{2}",
+            "B": "576 cm^{2}",
+            "C": "352 cm^{2}",
+            "D": "144 cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương X, hãy xác định: Một hình chóp tứ giác đều có cạnh đáy bằng 8 cm và trung đoạn bằng 9 cm. Diện tích toàn phần của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "208 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "576 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "352 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "144 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương X, hãy xác định: Một hình chóp tứ giác đều có cạnh đáy bằng 8 cm và trung đoạn bằng 9 cm. Diện tích toàn phần của hình chóp đó bằng",
+            "choices": {
+              "A": "208 cm$^2$",
+              "B": "576 cm$^2$",
+              "C": "352 cm$^2$",
+              "D": "144 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-26",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Một hình chóp tứ giác đều có thể tích V = 112 cm^{3} và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "21 cm",
+            "B": "84 cm",
+            "C": "28 cm",
+            "D": "7 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Một hình chóp tứ giác đều có thể tích V = 112 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "84 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "28 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Một hình chóp tứ giác đều có thể tích V = 112 cm$^3$ và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "21 cm",
+              "B": "84 cm",
+              "C": "28 cm",
+              "D": "7 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-27",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương X vào bài tập sau: Một hình chóp tứ giác đều có cạnh đáy bằng 10 cm và trung đoạn bằng 12 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là",
+          "choices": {
+            "A": "120 cm^{2}",
+            "B": "240 cm^{2}",
+            "C": "480 cm^{2}",
+            "D": "340 cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương X vào bài tập sau: Một hình chóp tứ giác đều có cạnh đáy bằng 10 cm và trung đoạn bằng 12 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "120 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "240 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "480 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "340 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương X vào bài tập sau: Một hình chóp tứ giác đều có cạnh đáy bằng 10 cm và trung đoạn bằng 12 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là",
+            "choices": {
+              "A": "120 cm$^2$",
+              "B": "240 cm$^2$",
+              "C": "480 cm$^2$",
+              "D": "340 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-28",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hình chóp tứ giác đều có cạnh đáy bằng 11 cm và trung đoạn bằng 12 cm. Diện tích toàn phần của hình chóp đó bằng",
+          "choices": {
+            "A": "1452 cm^{2}",
+            "B": "385 cm^{2}",
+            "C": "264 cm^{2}",
+            "D": "649 cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hình chóp tứ giác đều có cạnh đáy bằng 11 cm và trung đoạn bằng 12 cm. Diện tích toàn phần của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1452 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "385 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "264 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "649 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hình chóp tứ giác đều có cạnh đáy bằng 11 cm và trung đoạn bằng 12 cm. Diện tích toàn phần của hình chóp đó bằng",
+            "choices": {
+              "A": "1452 cm$^2$",
+              "B": "385 cm$^2$",
+              "C": "264 cm$^2$",
+              "D": "649 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-29",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Một số hình khối trong thực tiễn): Một hình chóp tứ giác đều có thể tích V = 160 cm^{3} và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "10 cm",
+            "B": "40 cm",
+            "C": "30 cm",
+            "D": "120 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Một số hình khối trong thực tiễn): Một hình chóp tứ giác đều có thể tích V = 160 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "40 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "30 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "120 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Một số hình khối trong thực tiễn): Một hình chóp tứ giác đều có thể tích V = 160 cm$^3$ và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "10 cm",
+              "B": "40 cm",
+              "C": "30 cm",
+              "D": "120 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-30",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương X, hãy tìm kết quả của bài toán: Một hình chóp tứ giác đều có cạnh đáy bằng 13 cm và trung đoạn bằng 15 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là",
+          "choices": {
+            "A": "780 cm^{2}",
+            "B": "195 cm^{2}",
+            "C": "390 cm^{2}",
+            "D": "559 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương X, hãy tìm kết quả của bài toán: Một hình chóp tứ giác đều có cạnh đáy bằng 13 cm và trung đoạn bằng 15 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "780 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "195 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "390 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "559 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương X, hãy tìm kết quả của bài toán: Một hình chóp tứ giác đều có cạnh đáy bằng 13 cm và trung đoạn bằng 15 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là",
+            "choices": {
+              "A": "780 cm$^2$",
+              "B": "195 cm$^2$",
+              "C": "390 cm$^2$",
+              "D": "559 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-31",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương X nêu câu hỏi: Một hình chóp tứ giác đều có cạnh đáy bằng 14 cm và trung đoạn bằng 15 cm. Diện tích toàn phần của hình chóp đó bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "1036 cm^{2}",
+            "B": "2940 cm^{2}",
+            "C": "616 cm^{2}",
+            "D": "420 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương X nêu câu hỏi: Một hình chóp tứ giác đều có cạnh đáy bằng 14 cm và trung đoạn bằng 15 cm. Diện tích toàn phần của hình chóp đó bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1036 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2940 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "616 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "420 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương X nêu câu hỏi: Một hình chóp tứ giác đều có cạnh đáy bằng 14 cm và trung đoạn bằng 15 cm. Diện tích toàn phần của hình chóp đó bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "1036 cm$^2$",
+              "B": "2940 cm$^2$",
+              "C": "616 cm$^2$",
+              "D": "420 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-32",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Một hình chóp tứ giác đều có thể tích V = 208 cm^{3} và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng",
+          "choices": {
+            "A": "52 cm",
+            "B": "13 cm",
+            "C": "156 cm",
+            "D": "39 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Một hình chóp tứ giác đều có thể tích V = 208 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "52 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "13 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "156 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "39 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Một hình chóp tứ giác đều có thể tích V = 208 cm$^3$ và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng",
+            "choices": {
+              "A": "52 cm",
+              "B": "13 cm",
+              "C": "156 cm",
+              "D": "39 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-33",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương X: Một hình chóp tứ giác đều có cạnh đáy bằng 16 cm và trung đoạn bằng 18 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là",
+          "choices": {
+            "A": "288 cm^{2}",
+            "B": "832 cm^{2}",
+            "C": "576 cm^{2}",
+            "D": "1152 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương X: Một hình chóp tứ giác đều có cạnh đáy bằng 16 cm và trung đoạn bằng 18 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "288 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "832 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "576 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1152 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương X: Một hình chóp tứ giác đều có cạnh đáy bằng 16 cm và trung đoạn bằng 18 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là",
+            "choices": {
+              "A": "288 cm$^2$",
+              "B": "832 cm$^2$",
+              "C": "576 cm$^2$",
+              "D": "1152 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-34",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một hình chóp tứ giác đều có cạnh đáy bằng 17 cm và trung đoạn bằng 18 cm. Diện tích toàn phần của hình chóp đó bằng",
+          "choices": {
+            "A": "1513 cm^{2}",
+            "B": "5202 cm^{2}",
+            "C": "612 cm^{2}",
+            "D": "901 cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một hình chóp tứ giác đều có cạnh đáy bằng 17 cm và trung đoạn bằng 18 cm. Diện tích toàn phần của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1513 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5202 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "612 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "901 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một hình chóp tứ giác đều có cạnh đáy bằng 17 cm và trung đoạn bằng 18 cm. Diện tích toàn phần của hình chóp đó bằng",
+            "choices": {
+              "A": "1513 cm$^2$",
+              "B": "5202 cm$^2$",
+              "C": "612 cm$^2$",
+              "D": "901 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-35",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương X, xét bài toán: Một hình chóp tứ giác đều có thể tích V = 256 cm^{3} và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng",
+          "choices": {
+            "A": "48 cm",
+            "B": "16 cm",
+            "C": "192 cm",
+            "D": "64 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương X, xét bài toán: Một hình chóp tứ giác đều có thể tích V = 256 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "48 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "192 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "64 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương X, xét bài toán: Một hình chóp tứ giác đều có thể tích V = 256 cm$^3$ và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng",
+            "choices": {
+              "A": "48 cm",
+              "B": "16 cm",
+              "C": "192 cm",
+              "D": "64 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-36",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Một số hình khối trong thực tiễn): Một hình chóp tứ giác đều có cạnh đáy bằng 19 cm và trung đoạn bằng 21 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "399 cm^{2}",
+            "B": "798 cm^{2}",
+            "C": "1159 cm^{2}",
+            "D": "1596 cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Một số hình khối trong thực tiễn): Một hình chóp tứ giác đều có cạnh đáy bằng 19 cm và trung đoạn bằng 21 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "399 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "798 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1159 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1596 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Một số hình khối trong thực tiễn): Một hình chóp tứ giác đều có cạnh đáy bằng 19 cm và trung đoạn bằng 21 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "399 cm$^2$",
+              "B": "798 cm$^2$",
+              "C": "1159 cm$^2$",
+              "D": "1596 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-37",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hình chóp tứ giác đều có cạnh đáy bằng 20 cm và trung đoạn bằng 21 cm. Diện tích toàn phần của hình chóp đó bằng",
+          "choices": {
+            "A": "840 cm^{2}",
+            "B": "1240 cm^{2}",
+            "C": "2080 cm^{2}",
+            "D": "8400 cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hình chóp tứ giác đều có cạnh đáy bằng 20 cm và trung đoạn bằng 21 cm. Diện tích toàn phần của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "840 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1240 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2080 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8400 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hình chóp tứ giác đều có cạnh đáy bằng 20 cm và trung đoạn bằng 21 cm. Diện tích toàn phần của hình chóp đó bằng",
+            "choices": {
+              "A": "840 cm$^2$",
+              "B": "1240 cm$^2$",
+              "C": "2080 cm$^2$",
+              "D": "8400 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-38",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương X: Một hình chóp tứ giác đều có thể tích V = 304 cm^{3} và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Kết luận đúng là",
+          "choices": {
+            "A": "228 cm",
+            "B": "57 cm",
+            "C": "76 cm",
+            "D": "19 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương X: Một hình chóp tứ giác đều có thể tích V = 304 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "228 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "57 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "76 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "19 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương X: Một hình chóp tứ giác đều có thể tích V = 304 cm$^3$ và cạnh đáy bằng 4 cm. Chiều cao của hình chóp đó bằng. Kết luận đúng là",
+            "choices": {
+              "A": "228 cm",
+              "B": "57 cm",
+              "C": "76 cm",
+              "D": "19 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-39",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương X: Một hình chóp tứ giác đều có cạnh đáy bằng 22 cm và trung đoạn bằng 24 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là",
+          "choices": {
+            "A": "528 cm^{2}",
+            "B": "1540 cm^{2}",
+            "C": "1056 cm^{2}",
+            "D": "2112 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương X: Một hình chóp tứ giác đều có cạnh đáy bằng 22 cm và trung đoạn bằng 24 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "528 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1540 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1056 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2112 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương X: Một hình chóp tứ giác đều có cạnh đáy bằng 22 cm và trung đoạn bằng 24 cm. Diện tích xung quanh của hình chóp tứ giác đều đó là",
+            "choices": {
+              "A": "528 cm$^2$",
+              "B": "1540 cm$^2$",
+              "C": "1056 cm$^2$",
+              "D": "2112 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-40",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hình chóp tứ giác đều có cạnh đáy bằng 23 cm và trung đoạn bằng 24 cm. Diện tích toàn phần của hình chóp đó bằng",
+          "choices": {
+            "A": "12696 cm^{2}",
+            "B": "1104 cm^{2}",
+            "C": "1633 cm^{2}",
+            "D": "2737 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hình chóp tứ giác đều có cạnh đáy bằng 23 cm và trung đoạn bằng 24 cm. Diện tích toàn phần của hình chóp đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12696 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1104 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1633 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2737 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hình chóp tứ giác đều có cạnh đáy bằng 23 cm và trung đoạn bằng 24 cm. Diện tích toàn phần của hình chóp đó bằng",
+            "choices": {
+              "A": "12696 cm$^2$",
+              "B": "1104 cm$^2$",
+              "C": "1633 cm$^2$",
+              "D": "2737 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-41",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 6 cm và chiều cao SO = 4 cm. Độ dài trung đoạn SI của hình chóp bằng",
+          "choices": {
+            "A": "7 cm",
+            "B": "6 cm",
+            "C": "10 cm",
+            "D": "5 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 6 cm và chiều cao SO = 4 cm. Độ dài trung đoạn SI của hình chóp bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 6 cm và chiều cao SO = 4 cm. Độ dài trung đoạn SI của hình chóp bằng",
+            "choices": {
+              "A": "7 cm",
+              "B": "6 cm",
+              "C": "10 cm",
+              "D": "5 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-42",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương X – Một số hình khối trong thực tiễn): Một mái nhà chóp tứ giác đều có cạnh đáy dài 8 m và trung đoạn dài 5 m. Chi phí lợp ngói bốn mặt xung quanh mái là 250.000 đồng/m^{2}. Tổng tiền ngói cần mua là. Kết quả đúng là",
+          "choices": {
+            "A": "40000.000 đồng",
+            "B": "20000.000 đồng",
+            "C": "16000.000 đồng",
+            "D": "10000.000 đồng"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương X – Một số hình khối trong thực tiễn): Một mái nhà chóp tứ giác đều có cạnh đáy dài 8 m và trung đoạn dài 5 m. Chi phí lợp ngói bốn mặt xung quanh mái là 250.000 đồng/"
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Tổng tiền ngói cần mua là. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "40000.000 đồng"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20000.000 đồng"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16000.000 đồng"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10000.000 đồng"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương X – Một số hình khối trong thực tiễn): Một mái nhà chóp tứ giác đều có cạnh đáy dài 8 m và trung đoạn dài 5 m. Chi phí lợp ngói bốn mặt xung quanh mái là 250.000 đồng/m$^2$. Tổng tiền ngói cần mua là. Kết quả đúng là",
+            "choices": {
+              "A": "40000.000 đồng",
+              "B": "20000.000 đồng",
+              "C": "16000.000 đồng",
+              "D": "10000.000 đồng"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-43",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương X để giải bài toán: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 18 cm và chiều cao SO = 12 cm. Độ dài trung đoạn SI và diện tích xung quanh của hình chóp lần lượt là: []",
+          "choices": {
+            "A": "SI = 15 cm; S_{xq} = 1080 cm^{2} []",
+            "B": "SI = 21 cm; S_{xq} = 756 cm^{2} []",
+            "C": "SI = 15 cm; S_{xq} = 270 cm^{2} []",
+            "D": "SI = 15 cm; S_{xq} = 540 cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương X để giải bài toán: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 18 cm và chiều cao SO = 12 cm. Độ dài trung đoạn SI và diện tích xung quanh của hình chóp lần lượt là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "SI = 15 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1080 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "SI = 21 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 756 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "SI = 15 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 270 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "SI = 15 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 540 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương X để giải bài toán: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 18 cm và chiều cao SO = 12 cm. Độ dài trung đoạn SI và diện tích xung quanh của hình chóp lần lượt là: []",
+            "choices": {
+              "A": "SI = 15 cm; $S_{xq}$ = 1080 cm$^2$ []",
+              "B": "SI = 21 cm; $S_{xq}$ = 756 cm$^2$ []",
+              "C": "SI = 15 cm; $S_{xq}$ = 270 cm$^2$ []",
+              "D": "SI = 15 cm; $S_{xq}$ = 540 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-44",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương X: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 12 cm và chiều cao SO = 8 cm. Độ dài trung đoạn SI của hình chóp bằng",
+          "choices": {
+            "A": "14 cm",
+            "B": "20 cm",
+            "C": "12 cm",
+            "D": "10 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương X: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 12 cm và chiều cao SO = 8 cm. Độ dài trung đoạn SI của hình chóp bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương X: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 12 cm và chiều cao SO = 8 cm. Độ dài trung đoạn SI của hình chóp bằng",
+            "choices": {
+              "A": "14 cm",
+              "B": "20 cm",
+              "C": "12 cm",
+              "D": "10 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-45",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương X: Một mái nhà chóp tứ giác đều có cạnh đáy dài 8 m và trung đoạn dài 5 m. Chi phí lợp ngói bốn mặt xung quanh mái là 250.000 đồng/m^{2}. Tổng tiền ngói cần mua là. Đáp số chính xác là",
+          "choices": {
+            "A": "16000.000 đồng",
+            "B": "10000.000 đồng",
+            "C": "40000.000 đồng",
+            "D": "20000.000 đồng"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương X: Một mái nhà chóp tứ giác đều có cạnh đáy dài 8 m và trung đoạn dài 5 m. Chi phí lợp ngói bốn mặt xung quanh mái là 250.000 đồng/"
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Tổng tiền ngói cần mua là. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16000.000 đồng"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10000.000 đồng"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40000.000 đồng"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20000.000 đồng"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương X: Một mái nhà chóp tứ giác đều có cạnh đáy dài 8 m và trung đoạn dài 5 m. Chi phí lợp ngói bốn mặt xung quanh mái là 250.000 đồng/m$^2$. Tổng tiền ngói cần mua là. Đáp số chính xác là",
+            "choices": {
+              "A": "16000.000 đồng",
+              "B": "10000.000 đồng",
+              "C": "40000.000 đồng",
+              "D": "20000.000 đồng"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-46",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương X để tìm đáp án cho bài toán: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 36 cm và chiều cao SO = 24 cm. Độ dài trung đoạn SI và diện tích xung quanh của hình chóp lần lượt là: []",
+          "choices": {
+            "A": "SI = 30 cm; S_{xq} = 1080 cm^{2} []",
+            "B": "SI = 30 cm; S_{xq} = 4320 cm^{2} []",
+            "C": "SI = 30 cm; S_{xq} = 2160 cm^{2} []",
+            "D": "SI = 42 cm; S_{xq} = 3024 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương X để tìm đáp án cho bài toán: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 36 cm và chiều cao SO = 24 cm. Độ dài trung đoạn SI và diện tích xung quanh của hình chóp lần lượt là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "SI = 30 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1080 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "SI = 30 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 4320 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "SI = 30 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 2160 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "SI = 42 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 3024 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương X để tìm đáp án cho bài toán: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 36 cm và chiều cao SO = 24 cm. Độ dài trung đoạn SI và diện tích xung quanh của hình chóp lần lượt là: []",
+            "choices": {
+              "A": "SI = 30 cm; $S_{xq}$ = 1080 cm$^2$ []",
+              "B": "SI = 30 cm; $S_{xq}$ = 4320 cm$^2$ []",
+              "C": "SI = 30 cm; $S_{xq}$ = 2160 cm$^2$ []",
+              "D": "SI = 42 cm; $S_{xq}$ = 3024 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-47",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương X: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 6 cm và chiều cao SO = 4 cm. Độ dài trung đoạn SI của hình chóp bằng",
+          "choices": {
+            "A": "5 cm",
+            "B": "6 cm",
+            "C": "10 cm",
+            "D": "7 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương X: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 6 cm và chiều cao SO = 4 cm. Độ dài trung đoạn SI của hình chóp bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương X: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 6 cm và chiều cao SO = 4 cm. Độ dài trung đoạn SI của hình chóp bằng",
+            "choices": {
+              "A": "5 cm",
+              "B": "6 cm",
+              "C": "10 cm",
+              "D": "7 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-48",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương X): Một mái nhà chóp tứ giác đều có cạnh đáy dài 8 m và trung đoạn dài 5 m. Chi phí lợp ngói bốn mặt xung quanh mái là 250.000 đồng/m^{2}. Tổng tiền ngói cần mua là",
+          "choices": {
+            "A": "20000.000 đồng",
+            "B": "10000.000 đồng",
+            "C": "16000.000 đồng",
+            "D": "40000.000 đồng"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương X): Một mái nhà chóp tứ giác đều có cạnh đáy dài 8 m và trung đoạn dài 5 m. Chi phí lợp ngói bốn mặt xung quanh mái là 250.000 đồng/"
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Tổng tiền ngói cần mua là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20000.000 đồng"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10000.000 đồng"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16000.000 đồng"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "40000.000 đồng"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương X): Một mái nhà chóp tứ giác đều có cạnh đáy dài 8 m và trung đoạn dài 5 m. Chi phí lợp ngói bốn mặt xung quanh mái là 250.000 đồng/m$^2$. Tổng tiền ngói cần mua là",
+            "choices": {
+              "A": "20000.000 đồng",
+              "B": "10000.000 đồng",
+              "C": "16000.000 đồng",
+              "D": "40000.000 đồng"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-49",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương X, hãy giải quyết bài toán: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 54 cm và chiều cao SO = 36 cm. Độ dài trung đoạn SI và diện tích xung quanh của hình chóp lần lượt là: []",
+          "choices": {
+            "A": "SI = 45 cm; S_{xq} = 4860 cm^{2} []",
+            "B": "SI = 45 cm; S_{xq} = 9720 cm^{2} []",
+            "C": "SI = 45 cm; S_{xq} = 2430 cm^{2} []",
+            "D": "SI = 63 cm; S_{xq} = 6804 cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương X, hãy giải quyết bài toán: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 54 cm và chiều cao SO = 36 cm. Độ dài trung đoạn SI và diện tích xung quanh của hình chóp lần lượt là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "SI = 45 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 4860 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "SI = 45 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 9720 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "SI = 45 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 2430 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "SI = 63 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 6804 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương X, hãy giải quyết bài toán: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 54 cm và chiều cao SO = 36 cm. Độ dài trung đoạn SI và diện tích xung quanh của hình chóp lần lượt là: []",
+            "choices": {
+              "A": "SI = 45 cm; $S_{xq}$ = 4860 cm$^2$ []",
+              "B": "SI = 45 cm; $S_{xq}$ = 9720 cm$^2$ []",
+              "C": "SI = 45 cm; $S_{xq}$ = 2430 cm$^2$ []",
+              "D": "SI = 63 cm; $S_{xq}$ = 6804 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-10-50",
+          "grade": 8,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương X: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 12 cm và chiều cao SO = 8 cm. Độ dài trung đoạn SI của hình chóp bằng. Phương án đúng là",
+          "choices": {
+            "A": "20 cm",
+            "B": "10 cm",
+            "C": "12 cm",
+            "D": "14 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương X: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 12 cm và chiều cao SO = 8 cm. Độ dài trung đoạn SI của hình chóp bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương X: Cho hình chóp tứ giác đều S.ABCD có cạnh đáy AB = 12 cm và chiều cao SO = 8 cm. Độ dài trung đoạn SI của hình chóp bằng. Phương án đúng là",
+            "choices": {
+              "A": "20 cm",
+              "B": "10 cm",
+              "C": "12 cm",
+              "D": "14 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

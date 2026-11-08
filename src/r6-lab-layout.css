@@ -1,0 +1,299 @@
+/* ==========================================================================
+   MATHVERSE R6 — LAB LAYOUT EXPANSION (65%–75% VIEWPORT WIDTH)
+   Tối ưu hóa không gian làm việc cho màn hình lớn (1440px+), máy chiếu (1920x1080)
+   và chế độ co giãn tự nhiên (Responsive down to 1366, 1024, mobile).
+   Tất cả selector dùng scoped class/namespace, không ghi đè tính toán tọa độ con.
+   ========================================================================== */
+
+:root {
+  --mv-r6-lab-max-width: 1780px;
+  --mv-r6-lab-stage-ratio: 0.70; /* 70% vùng sân khấu */
+  --mv-r6-lab-side-width: 250px;
+}
+
+/* 1. MỞ RỘNG CỬA SỔ KHO CHUYÊN ĐỀ 7–12 (.mv-r5-window) */
+.mv-r5-window {
+  width: min(var(--mv-r6-lab-max-width), 98vw) !important;
+  height: min(960px, 96vh) !important;
+  max-width: 98vw !important;
+  transition: background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+/* Giao diện Đen Teal: Kích hoạt khi người dùng bật nút đổi màu */
+.mv-r5-backdrop.mv-theme-dark .mv-r5-window,
+.mv-r5-window.mv-theme-dark {
+  background: #0f2133 !important;
+  border: 1px solid rgba(83, 211, 197, 0.3) !important;
+  box-shadow: 0 25px 90px rgba(0, 0, 0, 0.75), 0 0 40px rgba(22, 125, 128, 0.25) !important;
+}
+
+/* ==========================================================================
+   GIAO DIỆN ĐEN TEAL: KÍCH HOẠT KHI NGƯỜI DÙNG BẬT NÚT ĐỔI MÀU (THEME: DARK)
+   ========================================================================== */
+.mv-r5-backdrop.mv-theme-dark .mv-r5-header {
+  background: linear-gradient(95deg, #0b1726, #142b3d 60%, #167d80) !important;
+  border-bottom: 1px solid rgba(83, 211, 197, 0.2) !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-toolbar {
+  background: #112638 !important;
+  border-bottom: 1px solid rgba(83, 211, 197, 0.15) !important;
+  color: #eaf4f4 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-grade {
+  background: #162f45 !important;
+  border: 1px solid rgba(175, 200, 209, 0.2) !important;
+  color: #afc8d1 !important;
+  transition: all 0.2s ease !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-grade.selected {
+  background: linear-gradient(135deg, #167d80, #1b9b9e) !important;
+  color: #ffffff !important;
+  border-color: #53d3c5 !important;
+  box-shadow: 0 0 12px rgba(83, 211, 197, 0.35) !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-search {
+  background: #0c1d2e !important;
+  border: 1px solid rgba(83, 211, 197, 0.25) !important;
+  color: #eaf4f4 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-search::placeholder {
+  color: #6d8e9e !important;
+}
+
+/* 2. CẤU TRÚC 3 CỘT CHO MÀN HÌNH RỘNG */
+@media (min-width: 1400px) {
+  .mv-r5-body {
+    grid-template-columns: 220px 240px 1fr !important;
+  }
+  
+  .mv-r5-backdrop.mv-theme-dark .mv-r5-families {
+    background: #0d1e2e !important;
+    border-right: 1px solid rgba(83, 211, 197, 0.12) !important;
+  }
+  
+  .mv-r5-backdrop.mv-theme-dark .mv-r5-cases {
+    background: #102437 !important;
+    border-right: 1px solid rgba(83, 211, 197, 0.12) !important;
+  }
+
+  .mv-r5-backdrop.mv-theme-dark .mv-r5-stage {
+    padding: 24px 30px !important;
+    background: #0c1c2b !important;
+    color: #eaf4f4 !important;
+  }
+
+  .mv-r5-viewbox {
+    height: clamp(380px, 48vh, 520px) !important;
+    border: 1.5px solid #d4ebf2 !important;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08) !important;
+    background: #ffffff !important;
+  }
+
+  .mv-g7-viewport {
+    height: clamp(380px, 52vh, 560px) !important;
+    border: 1.5px solid #d4ebf2 !important;
+    background: #ffffff !important;
+  }
+}
+
+@media (min-width: 1700px) {
+  .mv-r5-body {
+    grid-template-columns: 240px 260px 1fr !important;
+  }
+
+  .mv-r5-viewbox {
+    height: clamp(420px, 52vh, 580px) !important;
+  }
+
+  .mv-g7-viewport {
+    height: clamp(420px, 55vh, 600px) !important;
+  }
+}
+
+/* Thẻ Family & Case trong theme tối */
+.mv-r5-backdrop.mv-theme-dark .mv-r5-families {
+  background: #0d1e2e !important;
+}
+.mv-r5-backdrop.mv-theme-dark .mv-r5-cases {
+  background: #102437 !important;
+}
+.mv-r5-backdrop.mv-theme-dark .mv-r5-stage {
+  background: #0c1c2b !important;
+  color: #eaf4f4 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-family,
+.mv-r5-backdrop.mv-theme-dark .mv-r5-case {
+  background: #142b3d !important;
+  border: 1px solid rgba(83, 211, 197, 0.14) !important;
+  color: #eaf4f4 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-family strong,
+.mv-r5-backdrop.mv-theme-dark .mv-r5-case strong {
+  color: #eaf4f4 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-family small,
+.mv-r5-backdrop.mv-theme-dark .mv-r5-case small {
+  color: #afc8d1 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-family:hover,
+.mv-r5-backdrop.mv-theme-dark .mv-r5-case:hover {
+  background: #18374e !important;
+  border-color: #53d3c5 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-family.active,
+.mv-r5-backdrop.mv-theme-dark .mv-r5-case.active {
+  background: rgba(22, 125, 128, 0.35) !important;
+  border-color: #53d3c5 !important;
+  box-shadow: 0 0 14px rgba(83, 211, 197, 0.25) !important;
+  outline: none !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-stage-header h2 {
+  color: #ffffff !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-stage-header small {
+  color: #53d3c5 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-statement {
+  color: #cde4ec !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-params {
+  background: #102334 !important;
+  border: 1px solid rgba(83, 211, 197, 0.15) !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-param {
+  color: #afc8d1 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-param output {
+  color: #53d3c5 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-latex {
+  background: #091724 !important;
+  border: 1px solid rgba(83, 211, 197, 0.2) !important;
+  color: #f2cf90 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-action,
+.mv-r5-backdrop.mv-theme-dark .mv-r5-copy {
+  background: #133348 !important;
+  border: 1px solid rgba(83, 211, 197, 0.28) !important;
+  color: #eaf4f4 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-action:hover,
+.mv-r5-backdrop.mv-theme-dark .mv-r5-copy:hover {
+  background: #167d80 !important;
+  border-color: #53d3c5 !important;
+}
+
+.mv-r5-backdrop.mv-theme-dark .mv-r5-footer {
+  background: #0b1726 !important;
+  border-top: 1px solid rgba(83, 211, 197, 0.15) !important;
+  color: #8daab6 !important;
+}
+
+/* 3. MỞ RỘNG KHÔNG GIAN LABSHELL (.labshell-workspace) */
+/* R6.3: preserve the REAL 5-column resizable LabShell grid from v10-layout.css.
+   R6.2's 3-column !important override displaced the stage and resizer elements. */
+@media (min-width: 1050px) {
+  .labshell-app {--v10-left:220px; --v10-right:260px;}
+}
+@media (min-width: 1800px) {
+  .labshell-app {--v10-left:235px; --v10-right:275px;}
+}
+
+/* 4. CHẾ ĐỘ MÁY CHIẾU (1920x1080) ĐỘ TƯƠNG PHẢN CAO */
+.projector-master-mode .mv-r5-window,
+body.projector-mode .mv-r5-window {
+  width: 98vw !important;
+  height: 97vh !important;
+}
+
+.projector-master-mode .mv-r5-viewbox,
+body.projector-mode .mv-r5-viewbox {
+  height: 52vh !important;
+}
+
+.projector-master-mode .mv-g7-viewport,
+body.projector-mode .mv-g7-viewport {
+  height: 56vh !important;
+}
+
+/* R6.2: 3D Thematic Room panel is informational, never a full-screen blocker. */
+html[data-mv-ui="r6-museum"] body #mv14-portal-hub {
+  top: 110px !important;
+  bottom: auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: min(240px,30dvh) !important;
+  overflow-y: auto !important;
+  transform: none !important;
+}
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-hub {
+  max-height: 86px !important;
+}
+html[data-mv-ui="r6-museum"] body #mv14-portal-hub[hidden],
+html[data-mv-ui="r6-museum"] body #mv14-portal-buttons[hidden] {
+  display: none !important;
+}
+html[data-mv-ui="r6-museum"] body #mv14-portal-hub .mv14-portal-buttons {
+  grid-template-columns: repeat(auto-fit, minmax(135px,1fr));
+}
+html[data-mv-ui="r6-museum"] body #mv14-portal-hub .mv14-gate-button {
+  min-height: 52px;
+  flex-direction: column;
+  align-items: center;
+  white-space: normal;
+}
+html[data-mv-ui="r6-museum"] body #mv14-portal-hub .mv14-gate-button strong {
+  white-space: normal;
+  font-size: 12px;
+  line-height: 1.35;
+  text-align: center;
+}
+html[data-mv-ui="r6-museum"] body #mv14-portal-hub .mv14-gate-button small {
+  font-size: 10px;
+  font-weight: 500;
+  color: #b8d6dc;
+}
+.r6-lab-open-btn {
+  background: #157d80;
+  border: 1px solid rgba(83,211,197,.45);
+  color: #fff;
+  border-radius: 8px;
+  padding: 9px 12px;
+  margin: 5px 0;
+  width: 100%;
+  font: 650 13px/1.4 "Segoe UI",Arial,sans-serif;
+  cursor: pointer;
+}
+.r6-lab-open-btn:hover,.r6-lab-open-btn:focus-visible {background:#1b9292;outline:2px solid #53d3c5;outline-offset:2px}
+.labshell-app .stage-viewport-outer {min-height: 300px;}
+.labshell-app .stage-viewport {min-height: 260px;}
+.labshell-app .math6-exhibit-lab {min-height: 340px;}
+.labshell-app .math6-display {min-height: 240px;}
+.r6-lab-render-error {padding:16px 20px;color:#922c2c;background:#fff0eb;border:1px solid #f6b9aa;border-radius:12px;line-height:1.6;}
+@media(max-width:1100px){
+  html[data-mv-ui="r6-museum"] body #mv14-portal-hub {left:10px !important;right:10px !important;max-height:min(175px,28dvh) !important;}
+  html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-hub {max-height:85px !important;}
+}
+@media(max-width:600px){
+  html[data-mv-ui="r6-museum"] body #mv14-portal-hub {top:78px !important;max-height:185px !important;}
+  html[data-mv-ui="r6-museum"] body #mv14-portal-hub .mv14-gate-button {min-height:42px;}
+}

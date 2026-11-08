@@ -1,0 +1,4385 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 10,
+      "chapter": 7,
+      "roman": "VII",
+      "title": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "10-07-01",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cho đường thẳng \\Delta có phương trình tổng quát: 2x - 3y + 7 = 0. Một vectơ pháp tuyến của \\Delta là",
+          "choices": {
+            "A": "\\vec{n} = (3; 2)",
+            "B": "\\vec{n} = (-3; 2)",
+            "C": "\\vec{n} = (2; -3)",
+            "D": "\\vec{n} = (2; 3)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " có phương trình tổng quát: 2x - 3y + 7 = 0. Một vectơ pháp tuyến của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (3; 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (-3; 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (2; -3)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (2; 3)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho đường thẳng $\\Delta$ có phương trình tổng quát: 2x - 3y + 7 = 0. Một vectơ pháp tuyến của $\\Delta$ là",
+            "choices": {
+              "A": "$\\vec{n}$ = (3; 2)",
+              "B": "$\\vec{n}$ = (-3; 2)",
+              "C": "$\\vec{n}$ = (2; -3)",
+              "D": "$\\vec{n}$ = (2; 3)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-02",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Tâm I và bán kính R của đường tròn (C): (x - 3)^{2} + (y + 3)^{2} = 25 lần lượt là.",
+          "choices": {
+            "A": "I(3; -3), R = 25",
+            "B": "I(-3; 3), R = 5",
+            "C": "I(3; 3), R = 5",
+            "D": "I(3; -3), R = 5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Tâm I và bán kính R của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 3)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y + 3)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 25 lần lượt là."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "I(3; -3), R = 25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "I(-3; 3), R = 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "I(3; 3), R = 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "I(3; -3), R = 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Tâm I và bán kính R của đường tròn (C): (x - 3)$^2$ + (y + 3)$^2$ = 25 lần lượt là.",
+            "choices": {
+              "A": "I(3; -3), R = 25",
+              "B": "I(-3; 3), R = 5",
+              "C": "I(3; 3), R = 5",
+              "D": "I(3; -3), R = 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-03",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương VII, xét nội dung: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 5t, y = -1 - 4t là. Đáp án đúng là",
+          "choices": {
+            "A": "\\vec{u} = (5; -4)",
+            "B": "\\vec{u} = (5; 4)",
+            "C": "\\vec{u} = (4; 5)",
+            "D": "\\vec{u} = (2; -1)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương VII, xét nội dung: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 5t, y = -1 - 4t là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (5; -4)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (5; 4)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (4; 5)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (2; -1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương VII, xét nội dung: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 5t, y = -1 - 4t là. Đáp án đúng là",
+            "choices": {
+              "A": "$\\vec{u}$ = (5; -4)",
+              "B": "$\\vec{u}$ = (5; 4)",
+              "C": "$\\vec{u}$ = (4; 5)",
+              "D": "$\\vec{u}$ = (2; -1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-04",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương VII (Phương pháp tọa độ trong mặt phẳng), cho đường thẳng \\Delta có phương trình tổng quát: 5x - 3y + 7 = 0. Một vectơ pháp tuyến của \\Delta là",
+          "choices": {
+            "A": "\\vec{n} = (3; 5)",
+            "B": "\\vec{n} = (5; 3)",
+            "C": "\\vec{n} = (5; -3)",
+            "D": "\\vec{n} = (-3; 5)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương VII (Phương pháp tọa độ trong mặt phẳng), cho đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " có phương trình tổng quát: 5x - 3y + 7 = 0. Một vectơ pháp tuyến của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (3; 5)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (5; 3)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (5; -3)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (-3; 5)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương VII (Phương pháp tọa độ trong mặt phẳng), cho đường thẳng $\\Delta$ có phương trình tổng quát: 5x - 3y + 7 = 0. Một vectơ pháp tuyến của $\\Delta$ là",
+            "choices": {
+              "A": "$\\vec{n}$ = (3; 5)",
+              "B": "$\\vec{n}$ = (5; 3)",
+              "C": "$\\vec{n}$ = (5; -3)",
+              "D": "$\\vec{n}$ = (-3; 5)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-05",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Tâm I và bán kính R của đường tròn (C): (x - 6)^{2} + (y + 3)^{2} = 64 lần lượt là",
+          "choices": {
+            "A": "I(-6; 3), R = 8",
+            "B": "I(6; -3), R = 64",
+            "C": "I(6; -3), R = 8",
+            "D": "I(6; 3), R = 8"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Tâm I và bán kính R của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 6)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y + 3)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 64 lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "I(-6; 3), R = 8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "I(6; -3), R = 64"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "I(6; -3), R = 8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "I(6; 3), R = 8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Tâm I và bán kính R của đường tròn (C): (x - 6)$^2$ + (y + 3)$^2$ = 64 lần lượt là",
+            "choices": {
+              "A": "I(-6; 3), R = 8",
+              "B": "I(6; -3), R = 64",
+              "C": "I(6; -3), R = 8",
+              "D": "I(6; 3), R = 8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-06",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về phương pháp tọa độ trong mặt phẳng, một học sinh gặp câu hỏi: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 8t, y = -1 - 4t là. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "\\vec{u} = (8; 4)",
+            "B": "\\vec{u} = (8; -4)",
+            "C": "\\vec{u} = (4; 8)",
+            "D": "\\vec{u} = (2; -1)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về phương pháp tọa độ trong mặt phẳng, một học sinh gặp câu hỏi: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 8t, y = -1 - 4t là. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (8; 4)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (8; -4)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (4; 8)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (2; -1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về phương pháp tọa độ trong mặt phẳng, một học sinh gặp câu hỏi: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 8t, y = -1 - 4t là. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "$\\vec{u}$ = (8; 4)",
+              "B": "$\\vec{u}$ = (8; -4)",
+              "C": "$\\vec{u}$ = (4; 8)",
+              "D": "$\\vec{u}$ = (2; -1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-07",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho đường thẳng \\Delta có phương trình tổng quát: 8x - 3y + 7 = 0. Một vectơ pháp tuyến của \\Delta là",
+          "choices": {
+            "A": "\\vec{n} = (8; -3)",
+            "B": "\\vec{n} = (8; 3)",
+            "C": "\\vec{n} = (-3; 8)",
+            "D": "\\vec{n} = (3; 8)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " có phương trình tổng quát: 8x - 3y + 7 = 0. Một vectơ pháp tuyến của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (8; -3)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (8; 3)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (-3; 8)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (3; 8)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho đường thẳng $\\Delta$ có phương trình tổng quát: 8x - 3y + 7 = 0. Một vectơ pháp tuyến của $\\Delta$ là",
+            "choices": {
+              "A": "$\\vec{n}$ = (8; -3)",
+              "B": "$\\vec{n}$ = (8; 3)",
+              "C": "$\\vec{n}$ = (-3; 8)",
+              "D": "$\\vec{n}$ = (3; 8)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-08",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VII: Tâm I và bán kính R của đường tròn (C): (x - 9)^{2} + (y + 3)^{2} = 121 lần lượt là",
+          "choices": {
+            "A": "I(9; -3), R = 121",
+            "B": "I(-9; 3), R = 11",
+            "C": "I(9; 3), R = 11",
+            "D": "I(9; -3), R = 11"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VII: Tâm I và bán kính R của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 9)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y + 3)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 121 lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "I(9; -3), R = 121"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "I(-9; 3), R = 11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "I(9; 3), R = 11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "I(9; -3), R = 11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VII: Tâm I và bán kính R của đường tròn (C): (x - 9)$^2$ + (y + 3)$^2$ = 121 lần lượt là",
+            "choices": {
+              "A": "I(9; -3), R = 121",
+              "B": "I(-9; 3), R = 11",
+              "C": "I(9; 3), R = 11",
+              "D": "I(9; -3), R = 11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-09",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 11t, y = -1 - 4t là",
+          "choices": {
+            "A": "\\vec{u} = (2; -1)",
+            "B": "\\vec{u} = (4; 11)",
+            "C": "\\vec{u} = (11; 4)",
+            "D": "\\vec{u} = (11; -4)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 11t, y = -1 - 4t là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (2; -1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (4; 11)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (11; 4)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (11; -4)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 11t, y = -1 - 4t là",
+            "choices": {
+              "A": "$\\vec{u}$ = (2; -1)",
+              "B": "$\\vec{u}$ = (4; 11)",
+              "C": "$\\vec{u}$ = (11; 4)",
+              "D": "$\\vec{u}$ = (11; -4)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-10",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Cho đường thẳng \\Delta có phương trình tổng quát: 11x - 3y + 7 = 0. Một vectơ pháp tuyến của \\Delta là. Phương án chính xác là",
+          "choices": {
+            "A": "\\vec{n} = (-3; 11)",
+            "B": "\\vec{n} = (11; 3)",
+            "C": "\\vec{n} = (3; 11)",
+            "D": "\\vec{n} = (11; -3)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Cho đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " có phương trình tổng quát: 11x - 3y + 7 = 0. Một vectơ pháp tuyến của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (-3; 11)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (11; 3)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (3; 11)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (11; -3)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Cho đường thẳng $\\Delta$ có phương trình tổng quát: 11x - 3y + 7 = 0. Một vectơ pháp tuyến của $\\Delta$ là. Phương án chính xác là",
+            "choices": {
+              "A": "$\\vec{n}$ = (-3; 11)",
+              "B": "$\\vec{n}$ = (11; 3)",
+              "C": "$\\vec{n}$ = (3; 11)",
+              "D": "$\\vec{n}$ = (11; -3)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-11",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Tâm I và bán kính R của đường tròn (C): (x - 12)^{2} + (y + 3)^{2} = 196 lần lượt là",
+          "choices": {
+            "A": "I(12; -3), R = 14",
+            "B": "I(12; -3), R = 196",
+            "C": "I(-12; 3), R = 14",
+            "D": "I(12; 3), R = 14"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Tâm I và bán kính R của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 12)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y + 3)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 196 lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "I(12; -3), R = 14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "I(12; -3), R = 196"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "I(-12; 3), R = 14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "I(12; 3), R = 14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Tâm I và bán kính R của đường tròn (C): (x - 12)$^2$ + (y + 3)$^2$ = 196 lần lượt là",
+            "choices": {
+              "A": "I(12; -3), R = 14",
+              "B": "I(12; -3), R = 196",
+              "C": "I(-12; 3), R = 14",
+              "D": "I(12; 3), R = 14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-12",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VII): Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 14t, y = -1 - 4t là",
+          "choices": {
+            "A": "\\vec{u} = (14; 4)",
+            "B": "\\vec{u} = (14; -4)",
+            "C": "\\vec{u} = (4; 14)",
+            "D": "\\vec{u} = (2; -1)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VII): Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 14t, y = -1 - 4t là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (14; 4)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (14; -4)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (4; 14)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (2; -1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VII): Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 14t, y = -1 - 4t là",
+            "choices": {
+              "A": "$\\vec{u}$ = (14; 4)",
+              "B": "$\\vec{u}$ = (14; -4)",
+              "C": "$\\vec{u}$ = (4; 14)",
+              "D": "$\\vec{u}$ = (2; -1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-13",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VII), cho đường thẳng \\Delta có phương trình tổng quát: 14x - 3y + 7 = 0. Một vectơ pháp tuyến của \\Delta là",
+          "choices": {
+            "A": "\\vec{n} = (14; 3)",
+            "B": "\\vec{n} = (-3; 14)",
+            "C": "\\vec{n} = (14; -3)",
+            "D": "\\vec{n} = (3; 14)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VII), cho đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " có phương trình tổng quát: 14x - 3y + 7 = 0. Một vectơ pháp tuyến của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (14; 3)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (-3; 14)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (14; -3)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (3; 14)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VII), cho đường thẳng $\\Delta$ có phương trình tổng quát: 14x - 3y + 7 = 0. Một vectơ pháp tuyến của $\\Delta$ là",
+            "choices": {
+              "A": "$\\vec{n}$ = (14; 3)",
+              "B": "$\\vec{n}$ = (-3; 14)",
+              "C": "$\\vec{n}$ = (14; -3)",
+              "D": "$\\vec{n}$ = (3; 14)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-14",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Tâm I và bán kính R của đường tròn (C): (x - 15)^{2} + (y + 3)^{2} = 289 lần lượt là",
+          "choices": {
+            "A": "I(15; -3), R = 289",
+            "B": "I(15; 3), R = 17",
+            "C": "I(-15; 3), R = 17",
+            "D": "I(15; -3), R = 17"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Tâm I và bán kính R của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 15)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y + 3)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 289 lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "I(15; -3), R = 289"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "I(15; 3), R = 17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "I(-15; 3), R = 17"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "I(15; -3), R = 17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Tâm I và bán kính R của đường tròn (C): (x - 15)$^2$ + (y + 3)$^2$ = 289 lần lượt là",
+            "choices": {
+              "A": "I(15; -3), R = 289",
+              "B": "I(15; 3), R = 17",
+              "C": "I(-15; 3), R = 17",
+              "D": "I(15; -3), R = 17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-15",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương VII: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 17t, y = -1 - 4t là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "\\vec{u} = (17; -4)",
+            "B": "\\vec{u} = (4; 17)",
+            "C": "\\vec{u} = (2; -1)",
+            "D": "\\vec{u} = (17; 4)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương VII: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 17t, y = -1 - 4t là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (17; -4)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (4; 17)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (2; -1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (17; 4)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương VII: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 17t, y = -1 - 4t là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "$\\vec{u}$ = (17; -4)",
+              "B": "$\\vec{u}$ = (4; 17)",
+              "C": "$\\vec{u}$ = (2; -1)",
+              "D": "$\\vec{u}$ = (17; 4)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-16",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Cho đường thẳng \\Delta có phương trình tổng quát: 17x - 3y + 7 = 0. Một vectơ pháp tuyến của \\Delta là",
+          "choices": {
+            "A": "\\vec{n} = (17; 3)",
+            "B": "\\vec{n} = (3; 17)",
+            "C": "\\vec{n} = (17; -3)",
+            "D": "\\vec{n} = (-3; 17)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Cho đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " có phương trình tổng quát: 17x - 3y + 7 = 0. Một vectơ pháp tuyến của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (17; 3)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (3; 17)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (17; -3)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (-3; 17)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Cho đường thẳng $\\Delta$ có phương trình tổng quát: 17x - 3y + 7 = 0. Một vectơ pháp tuyến của $\\Delta$ là",
+            "choices": {
+              "A": "$\\vec{n}$ = (17; 3)",
+              "B": "$\\vec{n}$ = (3; 17)",
+              "C": "$\\vec{n}$ = (17; -3)",
+              "D": "$\\vec{n}$ = (-3; 17)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-17",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Tâm I và bán kính R của đường tròn (C): (x - 18)^{2} + (y + 3)^{2} = 400 lần lượt là?",
+          "choices": {
+            "A": "I(18; -3), R = 400",
+            "B": "I(18; 3), R = 20",
+            "C": "I(-18; 3), R = 20",
+            "D": "I(18; -3), R = 20"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Tâm I và bán kính R của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 18)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y + 3)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 400 lần lượt là?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "I(18; -3), R = 400"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "I(18; 3), R = 20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "I(-18; 3), R = 20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "I(18; -3), R = 20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Tâm I và bán kính R của đường tròn (C): (x - 18)$^2$ + (y + 3)$^2$ = 400 lần lượt là?",
+            "choices": {
+              "A": "I(18; -3), R = 400",
+              "B": "I(18; 3), R = 20",
+              "C": "I(-18; 3), R = 20",
+              "D": "I(18; -3), R = 20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-18",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương VII: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 20t, y = -1 - 4t là",
+          "choices": {
+            "A": "\\vec{u} = (2; -1)",
+            "B": "\\vec{u} = (4; 20)",
+            "C": "\\vec{u} = (20; 4)",
+            "D": "\\vec{u} = (20; -4)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương VII: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 20t, y = -1 - 4t là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (2; -1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (4; 20)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (20; 4)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{u}"
+              },
+              {
+                "t": "txt",
+                "v": " = (20; -4)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương VII: Một vectơ chỉ phương của đường thẳng có phương trình tham số x = 2 + 20t, y = -1 - 4t là",
+            "choices": {
+              "A": "$\\vec{u}$ = (2; -1)",
+              "B": "$\\vec{u}$ = (4; 20)",
+              "C": "$\\vec{u}$ = (20; 4)",
+              "D": "$\\vec{u}$ = (20; -4)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-19",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Cho đường thẳng \\Delta có phương trình tổng quát: 20x - 3y + 7 = 0. Một vectơ pháp tuyến của \\Delta là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "\\vec{n} = (20; -3)",
+            "B": "\\vec{n} = (20; 3)",
+            "C": "\\vec{n} = (-3; 20)",
+            "D": "\\vec{n} = (3; 20)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Cho đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " có phương trình tổng quát: 20x - 3y + 7 = 0. Một vectơ pháp tuyến của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (20; -3)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (20; 3)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (-3; 20)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\vec{n}"
+              },
+              {
+                "t": "txt",
+                "v": " = (3; 20)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Cho đường thẳng $\\Delta$ có phương trình tổng quát: 20x - 3y + 7 = 0. Một vectơ pháp tuyến của $\\Delta$ là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "$\\vec{n}$ = (20; -3)",
+              "B": "$\\vec{n}$ = (20; 3)",
+              "C": "$\\vec{n}$ = (-3; 20)",
+              "D": "$\\vec{n}$ = (3; 20)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-20",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương VII để giải quyết yêu cầu: Tâm I và bán kính R của đường tròn (C): (x - 21)^{2} + (y + 3)^{2} = 529 lần lượt là",
+          "choices": {
+            "A": "I(21; -3), R = 23",
+            "B": "I(21; -3), R = 529",
+            "C": "I(-21; 3), R = 23",
+            "D": "I(21; 3), R = 23"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương VII để giải quyết yêu cầu: Tâm I và bán kính R của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 21)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y + 3)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 529 lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "I(21; -3), R = 23"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "I(21; -3), R = 529"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "I(-21; 3), R = 23"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "I(21; 3), R = 23"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương VII để giải quyết yêu cầu: Tâm I và bán kính R của đường tròn (C): (x - 21)$^2$ + (y + 3)$^2$ = 529 lần lượt là",
+            "choices": {
+              "A": "I(21; -3), R = 23",
+              "B": "I(21; -3), R = 529",
+              "C": "I(-21; 3), R = 23",
+              "D": "I(21; 3), R = 23"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-21",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Khoảng cách từ điểm M(1; 2) đến đường thẳng \\Delta: 3x + 4y + -6 = 0 bằng",
+          "choices": {
+            "A": "1",
+            "B": "0.2",
+            "C": "2",
+            "D": "5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khoảng cách từ điểm M(1; 2) đến đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x + 4y + -6 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0.2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khoảng cách từ điểm M(1; 2) đến đường thẳng $\\Delta$: 3x + 4y + -6 = 0 bằng",
+            "choices": {
+              "A": "1",
+              "B": "0.2",
+              "C": "2",
+              "D": "5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-22",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương VII (Phương pháp tọa độ trong mặt phẳng) để giải bài toán: Số đo góc giữa hai đường thẳng d_1: x - 2y + 3 = 0 và d_2: 3x - y - 5 = 0 bằng",
+          "choices": {
+            "A": "45°",
+            "B": "60°",
+            "C": "30°",
+            "D": "90°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương VII (Phương pháp tọa độ trong mặt phẳng) để giải bài toán: Số đo góc giữa hai đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "d_1"
+            },
+            {
+              "t": "txt",
+              "v": ": x - 2y + 3 = 0 và "
+            },
+            {
+              "t": "math",
+              "v": "d_2"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x - y - 5 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "30°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương VII (Phương pháp tọa độ trong mặt phẳng) để giải bài toán: Số đo góc giữa hai đường thẳng d$_1$: x - 2y + 3 = 0 và d$_2$: 3x - y - 5 = 0 bằng",
+            "choices": {
+              "A": "45°",
+              "B": "60°",
+              "C": "30°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-23",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương VII: Cho elip (E): x^{2}/25 + y^{2}/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Kết quả thu được là: []",
+          "choices": {
+            "A": "Tiêu cự bằng 6, trục lớn bằng 10 []",
+            "B": "Tiêu cự bằng 8, trục lớn bằng 25 []",
+            "C": "Tiêu cự bằng 4, trục lớn bằng 5 []",
+            "D": "Tiêu cự bằng 8, trục lớn bằng 10"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương VII: Cho elip (E): "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/25 + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Kết quả thu được là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 6, trục lớn bằng 10 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 25 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 4, trục lớn bằng 5 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương VII: Cho elip (E): x$^2$/25 + y$^2$/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Kết quả thu được là: []",
+            "choices": {
+              "A": "Tiêu cự bằng 6, trục lớn bằng 10 []",
+              "B": "Tiêu cự bằng 8, trục lớn bằng 25 []",
+              "C": "Tiêu cự bằng 4, trục lớn bằng 5 []",
+              "D": "Tiêu cự bằng 8, trục lớn bằng 10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-24",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Khoảng cách từ điểm M(1; 2) đến đường thẳng \\Delta: 3x + 4y + 9 = 0 bằng. Đáp án đúng là",
+          "choices": {
+            "A": "4",
+            "B": "20",
+            "C": "5",
+            "D": "0.8"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Khoảng cách từ điểm M(1; 2) đến đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x + 4y + 9 = 0 bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0.8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Khoảng cách từ điểm M(1; 2) đến đường thẳng $\\Delta$: 3x + 4y + 9 = 0 bằng. Đáp án đúng là",
+            "choices": {
+              "A": "4",
+              "B": "20",
+              "C": "5",
+              "D": "0.8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-25",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương VII, hãy xác định: Số đo góc giữa hai đường thẳng d_1: x - 2y + 3 = 0 và d_2: 3x - y - 5 = 0 bằng",
+          "choices": {
+            "A": "45°",
+            "B": "30°",
+            "C": "90°",
+            "D": "60°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương VII, hãy xác định: Số đo góc giữa hai đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "d_1"
+            },
+            {
+              "t": "txt",
+              "v": ": x - 2y + 3 = 0 và "
+            },
+            {
+              "t": "math",
+              "v": "d_2"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x - y - 5 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương VII, hãy xác định: Số đo góc giữa hai đường thẳng d$_1$: x - 2y + 3 = 0 và d$_2$: 3x - y - 5 = 0 bằng",
+            "choices": {
+              "A": "45°",
+              "B": "30°",
+              "C": "90°",
+              "D": "60°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-26",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Cho elip (E): x^{2}/25 + y^{2}/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Giá trị cần tìm bằng: []",
+          "choices": {
+            "A": "Tiêu cự bằng 8, trục lớn bằng 10 []",
+            "B": "Tiêu cự bằng 4, trục lớn bằng 5 []",
+            "C": "Tiêu cự bằng 8, trục lớn bằng 25 []",
+            "D": "Tiêu cự bằng 6, trục lớn bằng 10"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Cho elip (E): "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/25 + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Giá trị cần tìm bằng: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 10 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 4, trục lớn bằng 5 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 25 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 6, trục lớn bằng 10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Cho elip (E): x$^2$/25 + y$^2$/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Giá trị cần tìm bằng: []",
+            "choices": {
+              "A": "Tiêu cự bằng 8, trục lớn bằng 10 []",
+              "B": "Tiêu cự bằng 4, trục lớn bằng 5 []",
+              "C": "Tiêu cự bằng 8, trục lớn bằng 25 []",
+              "D": "Tiêu cự bằng 6, trục lớn bằng 10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-27",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương VII vào bài tập sau: Khoảng cách từ điểm M(1; 2) đến đường thẳng \\Delta: 3x + 4y + 24 = 0 bằng",
+          "choices": {
+            "A": "8",
+            "B": "35",
+            "C": "7",
+            "D": "1.4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương VII vào bài tập sau: Khoảng cách từ điểm M(1; 2) đến đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x + 4y + 24 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1.4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương VII vào bài tập sau: Khoảng cách từ điểm M(1; 2) đến đường thẳng $\\Delta$: 3x + 4y + 24 = 0 bằng",
+            "choices": {
+              "A": "8",
+              "B": "35",
+              "C": "7",
+              "D": "1.4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-28",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Số đo góc giữa hai đường thẳng d_1: x - 2y + 3 = 0 và d_2: 3x - y - 5 = 0 bằng",
+          "choices": {
+            "A": "60°",
+            "B": "90°",
+            "C": "45°",
+            "D": "30°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Số đo góc giữa hai đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "d_1"
+            },
+            {
+              "t": "txt",
+              "v": ": x - 2y + 3 = 0 và "
+            },
+            {
+              "t": "math",
+              "v": "d_2"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x - y - 5 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Số đo góc giữa hai đường thẳng d$_1$: x - 2y + 3 = 0 và d$_2$: 3x - y - 5 = 0 bằng",
+            "choices": {
+              "A": "60°",
+              "B": "90°",
+              "C": "45°",
+              "D": "30°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-29",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Phương pháp tọa độ trong mặt phẳng): Cho elip (E): x^{2}/25 + y^{2}/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Phương án nào sau đây chính xác? []",
+          "choices": {
+            "A": "Tiêu cự bằng 8, trục lớn bằng 10 []",
+            "B": "Tiêu cự bằng 8, trục lớn bằng 25 []",
+            "C": "Tiêu cự bằng 6, trục lớn bằng 10 []",
+            "D": "Tiêu cự bằng 4, trục lớn bằng 5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Phương pháp tọa độ trong mặt phẳng): Cho elip (E): "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/25 + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Phương án nào sau đây chính xác? []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 10 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 25 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 6, trục lớn bằng 10 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 4, trục lớn bằng 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Phương pháp tọa độ trong mặt phẳng): Cho elip (E): x$^2$/25 + y$^2$/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Phương án nào sau đây chính xác? []",
+            "choices": {
+              "A": "Tiêu cự bằng 8, trục lớn bằng 10 []",
+              "B": "Tiêu cự bằng 8, trục lớn bằng 25 []",
+              "C": "Tiêu cự bằng 6, trục lớn bằng 10 []",
+              "D": "Tiêu cự bằng 4, trục lớn bằng 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-30",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương VII, hãy tìm kết quả của bài toán: Khoảng cách từ điểm M(1; 2) đến đường thẳng \\Delta: 3x + 4y + 39 = 0 bằng",
+          "choices": {
+            "A": "11",
+            "B": "10",
+            "C": "2.0",
+            "D": "50"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương VII, hãy tìm kết quả của bài toán: Khoảng cách từ điểm M(1; 2) đến đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x + 4y + 39 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2.0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương VII, hãy tìm kết quả của bài toán: Khoảng cách từ điểm M(1; 2) đến đường thẳng $\\Delta$: 3x + 4y + 39 = 0 bằng",
+            "choices": {
+              "A": "11",
+              "B": "10",
+              "C": "2.0",
+              "D": "50"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-31",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương VII nêu câu hỏi: Số đo góc giữa hai đường thẳng d_1: x - 2y + 3 = 0 và d_2: 3x - y - 5 = 0 bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "30°",
+            "B": "60°",
+            "C": "90°",
+            "D": "45°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương VII nêu câu hỏi: Số đo góc giữa hai đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "d_1"
+            },
+            {
+              "t": "txt",
+              "v": ": x - 2y + 3 = 0 và "
+            },
+            {
+              "t": "math",
+              "v": "d_2"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x - y - 5 = 0 bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "30°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương VII nêu câu hỏi: Số đo góc giữa hai đường thẳng d$_1$: x - 2y + 3 = 0 và d$_2$: 3x - y - 5 = 0 bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "30°",
+              "B": "60°",
+              "C": "90°",
+              "D": "45°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-32",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Cho elip (E): x^{2}/25 + y^{2}/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là: []",
+          "choices": {
+            "A": "Tiêu cự bằng 8, trục lớn bằng 25 []",
+            "B": "Tiêu cự bằng 8, trục lớn bằng 10 []",
+            "C": "Tiêu cự bằng 6, trục lớn bằng 10 []",
+            "D": "Tiêu cự bằng 4, trục lớn bằng 5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Cho elip (E): "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/25 + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 25 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 10 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 6, trục lớn bằng 10 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 4, trục lớn bằng 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Cho elip (E): x$^2$/25 + y$^2$/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là: []",
+            "choices": {
+              "A": "Tiêu cự bằng 8, trục lớn bằng 25 []",
+              "B": "Tiêu cự bằng 8, trục lớn bằng 10 []",
+              "C": "Tiêu cự bằng 6, trục lớn bằng 10 []",
+              "D": "Tiêu cự bằng 4, trục lớn bằng 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-33",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VII: Khoảng cách từ điểm M(1; 2) đến đường thẳng \\Delta: 3x + 4y + 54 = 0 bằng",
+          "choices": {
+            "A": "2.6",
+            "B": "13",
+            "C": "14",
+            "D": "65"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VII: Khoảng cách từ điểm M(1; 2) đến đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x + 4y + 54 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2.6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "65"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VII: Khoảng cách từ điểm M(1; 2) đến đường thẳng $\\Delta$: 3x + 4y + 54 = 0 bằng",
+            "choices": {
+              "A": "2.6",
+              "B": "13",
+              "C": "14",
+              "D": "65"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-34",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Số đo góc giữa hai đường thẳng d_1: x - 2y + 3 = 0 và d_2: 3x - y - 5 = 0 bằng",
+          "choices": {
+            "A": "45°",
+            "B": "30°",
+            "C": "60°",
+            "D": "90°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Số đo góc giữa hai đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "d_1"
+            },
+            {
+              "t": "txt",
+              "v": ": x - 2y + 3 = 0 và "
+            },
+            {
+              "t": "math",
+              "v": "d_2"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x - y - 5 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Số đo góc giữa hai đường thẳng d$_1$: x - 2y + 3 = 0 và d$_2$: 3x - y - 5 = 0 bằng",
+            "choices": {
+              "A": "45°",
+              "B": "30°",
+              "C": "60°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-35",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương VII, xét bài toán: Cho elip (E): x^{2}/25 + y^{2}/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là: []",
+          "choices": {
+            "A": "Tiêu cự bằng 4, trục lớn bằng 5 []",
+            "B": "Tiêu cự bằng 8, trục lớn bằng 10 []",
+            "C": "Tiêu cự bằng 6, trục lớn bằng 10 []",
+            "D": "Tiêu cự bằng 8, trục lớn bằng 25"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương VII, xét bài toán: Cho elip (E): "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/25 + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 4, trục lớn bằng 5 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 10 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 6, trục lớn bằng 10 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương VII, xét bài toán: Cho elip (E): x$^2$/25 + y$^2$/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là: []",
+            "choices": {
+              "A": "Tiêu cự bằng 4, trục lớn bằng 5 []",
+              "B": "Tiêu cự bằng 8, trục lớn bằng 10 []",
+              "C": "Tiêu cự bằng 6, trục lớn bằng 10 []",
+              "D": "Tiêu cự bằng 8, trục lớn bằng 25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-36",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Phương pháp tọa độ trong mặt phẳng): Khoảng cách từ điểm M(1; 2) đến đường thẳng \\Delta: 3x + 4y + 69 = 0 bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "17",
+            "B": "16",
+            "C": "80",
+            "D": "3.2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Phương pháp tọa độ trong mặt phẳng): Khoảng cách từ điểm M(1; 2) đến đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x + 4y + 69 = 0 bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "80"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3.2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Phương pháp tọa độ trong mặt phẳng): Khoảng cách từ điểm M(1; 2) đến đường thẳng $\\Delta$: 3x + 4y + 69 = 0 bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "17",
+              "B": "16",
+              "C": "80",
+              "D": "3.2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-37",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Số đo góc giữa hai đường thẳng d_1: x - 2y + 3 = 0 và d_2: 3x - y - 5 = 0 bằng",
+          "choices": {
+            "A": "45°",
+            "B": "30°",
+            "C": "60°",
+            "D": "90°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Số đo góc giữa hai đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "d_1"
+            },
+            {
+              "t": "txt",
+              "v": ": x - 2y + 3 = 0 và "
+            },
+            {
+              "t": "math",
+              "v": "d_2"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x - y - 5 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Số đo góc giữa hai đường thẳng d$_1$: x - 2y + 3 = 0 và d$_2$: 3x - y - 5 = 0 bằng",
+            "choices": {
+              "A": "45°",
+              "B": "30°",
+              "C": "60°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-38",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương VII: Cho elip (E): x^{2}/25 + y^{2}/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Kết luận đúng là: []",
+          "choices": {
+            "A": "Tiêu cự bằng 4, trục lớn bằng 5 []",
+            "B": "Tiêu cự bằng 8, trục lớn bằng 10 []",
+            "C": "Tiêu cự bằng 8, trục lớn bằng 25 []",
+            "D": "Tiêu cự bằng 6, trục lớn bằng 10"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương VII: Cho elip (E): "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/25 + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Kết luận đúng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 4, trục lớn bằng 5 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 10 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 8, trục lớn bằng 25 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tiêu cự bằng 6, trục lớn bằng 10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương VII: Cho elip (E): x$^2$/25 + y$^2$/9 = 1 (với a = 5, b = 3, c = 4). Độ dài tiêu cự 2c và độ dài trục lớn 2a của elip lần lượt là. Kết luận đúng là: []",
+            "choices": {
+              "A": "Tiêu cự bằng 4, trục lớn bằng 5 []",
+              "B": "Tiêu cự bằng 8, trục lớn bằng 10 []",
+              "C": "Tiêu cự bằng 8, trục lớn bằng 25 []",
+              "D": "Tiêu cự bằng 6, trục lớn bằng 10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-39",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VII: Khoảng cách từ điểm M(1; 2) đến đường thẳng \\Delta: 3x + 4y + 84 = 0 bằng",
+          "choices": {
+            "A": "3.8",
+            "B": "95",
+            "C": "20",
+            "D": "19"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VII: Khoảng cách từ điểm M(1; 2) đến đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x + 4y + 84 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3.8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "95"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VII: Khoảng cách từ điểm M(1; 2) đến đường thẳng $\\Delta$: 3x + 4y + 84 = 0 bằng",
+            "choices": {
+              "A": "3.8",
+              "B": "95",
+              "C": "20",
+              "D": "19"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-40",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Số đo góc giữa hai đường thẳng d_1: x - 2y + 3 = 0 và d_2: 3x - y - 5 = 0 bằng",
+          "choices": {
+            "A": "30°",
+            "B": "90°",
+            "C": "60°",
+            "D": "45°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Số đo góc giữa hai đường thẳng "
+            },
+            {
+              "t": "math",
+              "v": "d_1"
+            },
+            {
+              "t": "txt",
+              "v": ": x - 2y + 3 = 0 và "
+            },
+            {
+              "t": "math",
+              "v": "d_2"
+            },
+            {
+              "t": "txt",
+              "v": ": 3x - y - 5 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "30°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Số đo góc giữa hai đường thẳng d$_1$: x - 2y + 3 = 0 và d$_2$: 3x - y - 5 = 0 bằng",
+            "choices": {
+              "A": "30°",
+              "B": "90°",
+              "C": "60°",
+              "D": "45°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-41",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Phương trình tiếp tuyến của đường tròn (C): (x - 1)^{2} + (y - 2)^{2} = 25 tại tiếp điểm M(4; 6) là",
+          "choices": {
+            "A": "4x + 3y - 34 = 0",
+            "B": "3x + 4y - 25 = 0",
+            "C": "3x - 4y + 12 = 0",
+            "D": "3x + 4y - 36 = 0"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phương trình tiếp tuyến của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 1)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y - 2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 25 tại tiếp điểm M(4; 6) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4x + 3y - 34 = 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3x + 4y - 25 = 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3x - 4y + 12 = 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3x + 4y - 36 = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phương trình tiếp tuyến của đường tròn (C): (x - 1)$^2$ + (y - 2)$^2$ = 25 tại tiếp điểm M(4; 6) là",
+            "choices": {
+              "A": "4x + 3y - 34 = 0",
+              "B": "3x + 4y - 25 = 0",
+              "C": "3x - 4y + 12 = 0",
+              "D": "3x + 4y - 36 = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-42",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương VII – Phương pháp tọa độ trong mặt phẳng): Cho parabol có phương trình chính tắc (P): y^{2} = 12x. Tọa độ tiêu điểm F và phương trình đường chuẩn \\Delta của (P) là. Kết quả đúng là",
+          "choices": {
+            "A": "F(6; 0) và \\Delta: x + 6 = 0",
+            "B": "F(3; 0) và \\Delta: x + 3 = 0",
+            "C": "F(0; 3) và \\Delta: y + 3 = 0",
+            "D": "F(3; 0) và \\Delta: x - 3 = 0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương VII – Phương pháp tọa độ trong mặt phẳng): Cho parabol có phương trình chính tắc (P): "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 12x. Tọa độ tiêu điểm F và phương trình đường chuẩn "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " của (P) là. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(6; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x + 6 = 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(3; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x + 3 = 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(0; 3) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": y + 3 = 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(3; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x - 3 = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương VII – Phương pháp tọa độ trong mặt phẳng): Cho parabol có phương trình chính tắc (P): y$^2$ = 12x. Tọa độ tiêu điểm F và phương trình đường chuẩn $\\Delta$ của (P) là. Kết quả đúng là",
+            "choices": {
+              "A": "F(6; 0) và $\\Delta$: x + 6 = 0",
+              "B": "F(3; 0) và $\\Delta$: x + 3 = 0",
+              "C": "F(0; 3) và $\\Delta$: y + 3 = 0",
+              "D": "F(3; 0) và $\\Delta$: x - 3 = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-43",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương VII để giải bài toán: Phương trình tiếp tuyến của đường tròn (C): (x - 1)^{2} + (y - 2)^{2} = 25 tại tiếp điểm M(4; 6) là",
+          "choices": {
+            "A": "3x + 4y - 36 = 0",
+            "B": "3x + 4y - 25 = 0",
+            "C": "3x - 4y + 12 = 0",
+            "D": "4x + 3y - 34 = 0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương VII để giải bài toán: Phương trình tiếp tuyến của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 1)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y - 2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 25 tại tiếp điểm M(4; 6) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3x + 4y - 36 = 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3x + 4y - 25 = 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3x - 4y + 12 = 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4x + 3y - 34 = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương VII để giải bài toán: Phương trình tiếp tuyến của đường tròn (C): (x - 1)$^2$ + (y - 2)$^2$ = 25 tại tiếp điểm M(4; 6) là",
+            "choices": {
+              "A": "3x + 4y - 36 = 0",
+              "B": "3x + 4y - 25 = 0",
+              "C": "3x - 4y + 12 = 0",
+              "D": "4x + 3y - 34 = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-44",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương VII: Cho parabol có phương trình chính tắc (P): y^{2} = 20x. Tọa độ tiêu điểm F và phương trình đường chuẩn \\Delta của (P) là: []",
+          "choices": {
+            "A": "F(0; 5) và \\Delta: y + 5 = 0 []",
+            "B": "F(5; 0) và \\Delta: x + 5 = 0 []",
+            "C": "F(10; 0) và \\Delta: x + 10 = 0 []",
+            "D": "F(5; 0) và \\Delta: x - 5 = 0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương VII: Cho parabol có phương trình chính tắc (P): "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 20x. Tọa độ tiêu điểm F và phương trình đường chuẩn "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " của (P) là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(0; 5) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": y + 5 = 0 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(5; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x + 5 = 0 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(10; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x + 10 = 0 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(5; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x - 5 = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương VII: Cho parabol có phương trình chính tắc (P): y$^2$ = 20x. Tọa độ tiêu điểm F và phương trình đường chuẩn $\\Delta$ của (P) là: []",
+            "choices": {
+              "A": "F(0; 5) và $\\Delta$: y + 5 = 0 []",
+              "B": "F(5; 0) và $\\Delta$: x + 5 = 0 []",
+              "C": "F(10; 0) và $\\Delta$: x + 10 = 0 []",
+              "D": "F(5; 0) và $\\Delta$: x - 5 = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-45",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương VII: Phương trình tiếp tuyến của đường tròn (C): (x - 1)^{2} + (y - 2)^{2} = 25 tại tiếp điểm M(4; 6) là. Đáp số chính xác là",
+          "choices": {
+            "A": "3x - 4y + 12 = 0",
+            "B": "3x + 4y - 25 = 0",
+            "C": "4x + 3y - 34 = 0",
+            "D": "3x + 4y - 36 = 0"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương VII: Phương trình tiếp tuyến của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 1)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y - 2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 25 tại tiếp điểm M(4; 6) là. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3x - 4y + 12 = 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3x + 4y - 25 = 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4x + 3y - 34 = 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3x + 4y - 36 = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương VII: Phương trình tiếp tuyến của đường tròn (C): (x - 1)$^2$ + (y - 2)$^2$ = 25 tại tiếp điểm M(4; 6) là. Đáp số chính xác là",
+            "choices": {
+              "A": "3x - 4y + 12 = 0",
+              "B": "3x + 4y - 25 = 0",
+              "C": "4x + 3y - 34 = 0",
+              "D": "3x + 4y - 36 = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-46",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương VII để tìm đáp án cho bài toán: Cho parabol có phương trình chính tắc (P): y^{2} = 28x. Tọa độ tiêu điểm F và phương trình đường chuẩn \\Delta của (P) là: []",
+          "choices": {
+            "A": "F(7; 0) và \\Delta: x + 7 = 0 []",
+            "B": "F(14; 0) và \\Delta: x + 14 = 0 []",
+            "C": "F(0; 7) và \\Delta: y + 7 = 0 []",
+            "D": "F(7; 0) và \\Delta: x - 7 = 0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương VII để tìm đáp án cho bài toán: Cho parabol có phương trình chính tắc (P): "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 28x. Tọa độ tiêu điểm F và phương trình đường chuẩn "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " của (P) là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(7; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x + 7 = 0 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(14; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x + 14 = 0 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(0; 7) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": y + 7 = 0 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(7; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x - 7 = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương VII để tìm đáp án cho bài toán: Cho parabol có phương trình chính tắc (P): y$^2$ = 28x. Tọa độ tiêu điểm F và phương trình đường chuẩn $\\Delta$ của (P) là: []",
+            "choices": {
+              "A": "F(7; 0) và $\\Delta$: x + 7 = 0 []",
+              "B": "F(14; 0) và $\\Delta$: x + 14 = 0 []",
+              "C": "F(0; 7) và $\\Delta$: y + 7 = 0 []",
+              "D": "F(7; 0) và $\\Delta$: x - 7 = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-47",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VII: Phương trình tiếp tuyến của đường tròn (C): (x - 1)^{2} + (y - 2)^{2} = 25 tại tiếp điểm M(4; 6) là",
+          "choices": {
+            "A": "3x - 4y + 12 = 0",
+            "B": "3x + 4y - 36 = 0",
+            "C": "4x + 3y - 34 = 0",
+            "D": "3x + 4y - 25 = 0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VII: Phương trình tiếp tuyến của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 1)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y - 2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 25 tại tiếp điểm M(4; 6) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3x - 4y + 12 = 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3x + 4y - 36 = 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4x + 3y - 34 = 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3x + 4y - 25 = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VII: Phương trình tiếp tuyến của đường tròn (C): (x - 1)$^2$ + (y - 2)$^2$ = 25 tại tiếp điểm M(4; 6) là",
+            "choices": {
+              "A": "3x - 4y + 12 = 0",
+              "B": "3x + 4y - 36 = 0",
+              "C": "4x + 3y - 34 = 0",
+              "D": "3x + 4y - 25 = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-48",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VII): Cho parabol có phương trình chính tắc (P): y^{2} = 36x. Tọa độ tiêu điểm F và phương trình đường chuẩn \\Delta của (P) là: []",
+          "choices": {
+            "A": "F(18; 0) và \\Delta: x + 18 = 0 []",
+            "B": "F(0; 9) và \\Delta: y + 9 = 0 []",
+            "C": "F(9; 0) và \\Delta: x - 9 = 0 []",
+            "D": "F(9; 0) và \\Delta: x + 9 = 0"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VII): Cho parabol có phương trình chính tắc (P): "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 36x. Tọa độ tiêu điểm F và phương trình đường chuẩn "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " của (P) là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(18; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x + 18 = 0 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(0; 9) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": y + 9 = 0 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(9; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x - 9 = 0 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(9; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x + 9 = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VII): Cho parabol có phương trình chính tắc (P): y$^2$ = 36x. Tọa độ tiêu điểm F và phương trình đường chuẩn $\\Delta$ của (P) là: []",
+            "choices": {
+              "A": "F(18; 0) và $\\Delta$: x + 18 = 0 []",
+              "B": "F(0; 9) và $\\Delta$: y + 9 = 0 []",
+              "C": "F(9; 0) và $\\Delta$: x - 9 = 0 []",
+              "D": "F(9; 0) và $\\Delta$: x + 9 = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-49",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương VII, hãy giải quyết bài toán: Phương trình tiếp tuyến của đường tròn (C): (x - 1)^{2} + (y - 2)^{2} = 25 tại tiếp điểm M(4; 6) là",
+          "choices": {
+            "A": "3x + 4y - 36 = 0",
+            "B": "3x + 4y - 25 = 0",
+            "C": "3x - 4y + 12 = 0",
+            "D": "4x + 3y - 34 = 0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương VII, hãy giải quyết bài toán: Phương trình tiếp tuyến của đường tròn (C): "
+            },
+            {
+              "t": "math",
+              "v": "(x - 1)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(y - 2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 25 tại tiếp điểm M(4; 6) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3x + 4y - 36 = 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3x + 4y - 25 = 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3x - 4y + 12 = 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4x + 3y - 34 = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương VII, hãy giải quyết bài toán: Phương trình tiếp tuyến của đường tròn (C): (x - 1)$^2$ + (y - 2)$^2$ = 25 tại tiếp điểm M(4; 6) là",
+            "choices": {
+              "A": "3x + 4y - 36 = 0",
+              "B": "3x + 4y - 25 = 0",
+              "C": "3x - 4y + 12 = 0",
+              "D": "4x + 3y - 34 = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-07-50",
+          "grade": 10,
+          "chapter": 7,
+          "chapterTitle": "PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương VII: Cho parabol có phương trình chính tắc (P): y^{2} = 44x. Tọa độ tiêu điểm F và phương trình đường chuẩn \\Delta của (P) là. Phương án đúng là: []",
+          "choices": {
+            "A": "F(11; 0) và \\Delta: x + 11 = 0 []",
+            "B": "F(11; 0) và \\Delta: x - 11 = 0 []",
+            "C": "F(22; 0) và \\Delta: x + 22 = 0 []",
+            "D": "F(0; 11) và \\Delta: y + 11 = 0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương VII: Cho parabol có phương trình chính tắc (P): "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 44x. Tọa độ tiêu điểm F và phương trình đường chuẩn "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": " của (P) là. Phương án đúng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(11; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x + 11 = 0 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(11; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x - 11 = 0 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(22; 0) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": x + 22 = 0 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(0; 11) và "
+              },
+              {
+                "t": "math",
+                "v": "\\Delta"
+              },
+              {
+                "t": "txt",
+                "v": ": y + 11 = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương VII: Cho parabol có phương trình chính tắc (P): y$^2$ = 44x. Tọa độ tiêu điểm F và phương trình đường chuẩn $\\Delta$ của (P) là. Phương án đúng là: []",
+            "choices": {
+              "A": "F(11; 0) và $\\Delta$: x + 11 = 0 []",
+              "B": "F(11; 0) và $\\Delta$: x - 11 = 0 []",
+              "C": "F(22; 0) và $\\Delta$: x + 22 = 0 []",
+              "D": "F(0; 11) và $\\Delta$: y + 11 = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "VII",
+            "answerKey": "Bảng đáp án Chương VII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,995 @@
+﻿=== npm run audit:r105 ===
+
+> math-3d-museum-6-12@15.1.0 audit:r105
+> node tools/r105-sketchfab-pipeline.mjs --audit
+
+
+MATHVERSE R105 – 9 BỤC KIẾN TRÚC (không tính Parthenon GLB đã có)
+
+GLB_DA_DUYET_WEBGL                wonder_giza             Đại kim tự tháp Giza (Khufu)
+SKETCHFAB_CHUA_CO_GLB             wonder_artemis          Đền Artemis ở Ephesus
+GLB_DA_DUYET_WEBGL                wonder_colosseum        Đấu trường Colosseum
+GLB_DA_DUYET_WEBGL                wonder_chichen          Chichén Itzá (El Castillo)
+GLB_DA_DUYET_WEBGL                wonder_taj              Lăng Taj Mahal
+GLB_DA_DUYET_WEBGL                other_petronas          Tháp đôi Petronas
+GLB_DA_DUYET_WEBGL                other_louvre            Kim tự tháp kính Louvre
+GLB_DA_DUYET_WEBGL                other_golden_gate       Cầu Golden Gate
+GLB_DA_DUYET_WEBGL                other_gateway           Cổng vòm Gateway Arch
+
+GLB R98 Parthenon: bảo toàn nguyên trạng; không thuộc pipeline tải Sketchfab.
+=== npm run verify:r105 ===
+
+> math-3d-museum-6-12@15.1.0 verify:r105
+> node tools/r105-sketchfab-pipeline.mjs --verify
+
+
+MATHVERSE R105 – 9 BỤC KIẾN TRÚC (không tính Parthenon GLB đã có)
+
+GLB_DA_DUYET_WEBGL                wonder_giza             Đại kim tự tháp Giza (Khufu)
+SKETCHFAB_CHUA_CO_GLB             wonder_artemis          Đền Artemis ở Ephesus
+GLB_DA_DUYET_WEBGL                wonder_colosseum        Đấu trường Colosseum
+GLB_DA_DUYET_WEBGL                wonder_chichen          Chichén Itzá (El Castillo)
+GLB_DA_DUYET_WEBGL                wonder_taj              Lăng Taj Mahal
+GLB_DA_DUYET_WEBGL                other_petronas          Tháp đôi Petronas
+GLB_DA_DUYET_WEBGL                other_louvre            Kim tự tháp kính Louvre
+GLB_DA_DUYET_WEBGL                other_golden_gate       Cầu Golden Gate
+GLB_DA_DUYET_WEBGL                other_gateway           Cổng vòm Gateway Arch
+
+GLB R98 Parthenon: bảo toàn nguyên trạng; không thuộc pipeline tải Sketchfab.
+=== npm run test:r105 ===
+
+> math-3d-museum-6-12@15.1.0 test:r105
+> node --test tests/r105-sketchfab-ingestion.test.mjs tests/r104-true-model-podium.test.mjs tests/r98-fidelity-curation.test.mjs tests/r97-discovery-world-map.test.mjs tests/r96-unesco-discovery.test.mjs tests/r95-discovery-integration.test.mjs
+
+TAP version 13
+# Subtest: 9 physical UNESCO podiums all have native Three.js 3D models, not empty iframe panels
+ok 1 - 9 physical UNESCO podiums all have native Three.js 3D models, not empty iframe panels
+  ---
+  duration_ms: 3.3443
+  ...
+# Subtest: No screen-projected iframe on pedestals; clicks and drag act on real 3D scene meshes
+ok 2 - No screen-projected iframe on pedestals; clicks and drag act on real 3D scene meshes
+  ---
+  duration_ms: 1.779
+  ...
+# Subtest: Teacher can import authorized GLB for permanent native 3D podium replacement
+ok 3 - Teacher can import authorized GLB for permanent native 3D podium replacement
+  ---
+  duration_ms: 1.3115
+  ...
+# Subtest: Full 18 markers on map/globe remain untouched; no monument misleadingly labelled UNESCO 7 wonders
+ok 4 - Full 18 markers on map/globe remain untouched; no monument misleadingly labelled UNESCO 7 wonders
+  ---
+  duration_ms: 1.7258
+  ...
+# Subtest: Colosseum educational fallback now has 3 tiered, arched 3D walls rather than isolated pillars
+ok 5 - Colosseum educational fallback now has 3 tiered, arched 3D walls rather than isolated pillars
+  ---
+  duration_ms: 0.557
+  ...
+# Subtest: All 9 geometric previews are valid Three.js 3D objects with non-zero volumes
+ok 6 - All 9 geometric previews are valid Three.js 3D objects with non-zero volumes
+  ---
+  duration_ms: 195.4572
+  ...
+# Subtest: Parthenon R98 GLB present and remains a photogrammetric asset
+ok 7 - Parthenon R98 GLB present and remains a photogrammetric asset
+  ---
+  duration_ms: 0.5979
+  ...
+# Subtest: R105 uses same 9 UNESCO room podiums and 18 globe/map points as the uploaded R104
+ok 8 - R105 uses same 9 UNESCO room podiums and 18 globe/map points as the uploaded R104
+  ---
+  duration_ms: 2.6389
+  ...
+# Subtest: Never accept restricted, unknown, non-commercial or non-derivative licenses automatically
+ok 9 - Never accept restricted, unknown, non-commercial or non-derivative licenses automatically
+  ---
+  duration_ms: 0.9901
+  ...
+# Subtest: Reject untrusted ZIP path traversal and Windows drive paths
+ok 10 - Reject untrusted ZIP path traversal and Windows drive paths
+  ---
+  duration_ms: 0.7353
+  ...
+# Subtest: Read an authenticated Sketchfab-shaped glTF ZIP safely using only native Node.js
+ok 11 - Read an authenticated Sketchfab-shaped glTF ZIP safely using only native Node.js
+  ---
+  duration_ms: 3.2506
+  ...
+# Subtest: Reject tampered glTF ZIP compressed data using CRC validation
+ok 12 - Reject tampered glTF ZIP compressed data using CRC validation
+  ---
+  duration_ms: 0.7285
+  ...
+# Subtest: GLB native mesh parser counts actual triangle primitives from glTF 2.0 JSON chunk
+ok 13 - GLB native mesh parser counts actual triangle primitives from glTF 2.0 JSON chunk
+  ---
+  duration_ms: 3.0656
+  ...
+# Subtest: The R98 photogrammetry Parthenon asset remains present and not replaced
+ok 14 - The R98 photogrammetry Parthenon asset remains present and not replaced
+  ---
+  duration_ms: 1.4312
+  ...
+# Subtest: Registered GLB stays absent until a genuine, licensed file is installed
+ok 15 - Registered GLB stays absent until a genuine, licensed file is installed
+  ---
+  duration_ms: 305.3212
+  ...
+# Subtest: Fetch requires explicit model review and official Sketchfab authorization, never retrieves an iframe mesh
+ok 16 - Fetch requires explicit model review and official Sketchfab authorization, never retrieves an iframe mesh
+  ---
+  duration_ms: 2.2146
+  ...
+# Subtest: R100 dual-column modal survives and R105 adds source/GLB provenance
+ok 17 - R100 dual-column modal survives and R105 adds source/GLB provenance
+  ---
+  duration_ms: 1.6709
+  ...
+# Subtest: Antigravity prompt, offline audit and one primary R105 launcher are bundled
+ok 18 - Antigravity prompt, offline audit and one primary R105 launcher are bundled
+  ---
+  duration_ms: 0.9006
+  ...
+# Subtest: R95 Catalog merges 32 new landmarks (total 36) and 36 new artworks (total 40) without mutating R93
+ok 19 - R95 Catalog merges 32 new landmarks (total 36) and 36 new artworks (total 40) without mutating R93
+  ---
+  duration_ms: 4.7414
+  ...
+# Subtest: R95 Photo & Verification Policy: 32 new landmarks and 36 new exhibits never fake real photos
+ok 20 - R95 Photo & Verification Policy: 32 new landmarks and 36 new exhibits never fake real photos
+  ---
+  duration_ms: 0.9106
+  ...
+# Subtest: R95 Accent-insensitive Vietnamese search, continent filter, and grade filter work across all 36 landmarks
+ok 21 - R95 Accent-insensitive Vietnamese search, continent filter, and grade filter work across all 36 landmarks
+  ---
+  duration_ms: 3.5064
+  ...
+# Subtest: R95 Room B groups 6 new collections (6 items each) + R93 collection and bounds physical frames to 8
+ok 22 - R95 Room B groups 6 new collections (6 items each) + R93 collection and bounds physical frames to 8
+  ---
+  duration_ms: 0.4264
+  ...
+# Subtest: R95 World & UI wire Museum Quick Access, 8 physical frames, texture disposal, and GLB parser
+ok 23 - R95 World & UI wire Museum Quick Access, 8 physical frames, texture disposal, and GLB parser
+  ---
+  duration_ms: 1.4823
+  ...
+# Subtest: 18 World Cultural Heritage monuments, six from Vietnam and 12 worldwide, with UNESCO source IDs
+ok 24 - 18 World Cultural Heritage monuments, six from Vietnam and 12 worldwide, with UNESCO source IDs
+  ---
+  duration_ms: 2.2561
+  ...
+# Subtest: Sketchfab only embeds the curated 32-digit model IDs; never assumes the right to download GLB
+ok 25 - Sketchfab only embeds the curated 32-digit model IDs; never assumes the right to download GLB
+  ---
+  duration_ms: 0.5073
+  ...
+# Subtest: R95 originals retained unchanged: 40 art exhibits, 36 old points, UNESCO added separately
+ok 26 - R95 originals retained unchanged: 40 art exhibits, 36 old points, UNESCO added separately
+  ---
+  duration_ms: 1.9826
+  ...
+# Subtest: Three independent areas: foyer with one original Earth, left UNESCO frames, right preserved gallery
+ok 27 - Three independent areas: foyer with one original Earth, left UNESCO frames, right preserved gallery
+  ---
+  duration_ms: 1.9494
+  ...
+# Subtest: Image left, 2D / native GLB or embedded Sketchfab right, with legal attribution and no external redirect on selection
+ok 28 - Image left, 2D / native GLB or embedded Sketchfab right, with legal attribution and no external redirect on selection
+  ---
+  duration_ms: 1.6004
+  ...
+# Subtest: Wikimedia metadata must be checked; share-alike permitted, non-commercial assets rejected
+ok 29 - Wikimedia metadata must be checked; share-alike permitted, non-commercial assets rejected
+  ---
+  duration_ms: 1.7142
+  ...
+# Subtest: Natural Earth WGS84 map: consistent globe coordinates, offline borders and 50m upgrade
+ok 30 - Natural Earth WGS84 map: consistent globe coordinates, offline borders and 50m upgrade
+  ---
+  duration_ms: 9.146
+  ...
+# Subtest: Official UNESCO records: only cultural and geographically valid sites; no fabricated photo or 3D
+ok 31 - Official UNESCO records: only cultural and geographically valid sites; no fabricated photo or 3D
+  ---
+  duration_ms: 1.0124
+  ...
+# Subtest: Room UNESCO: only three structurally supported models, not 18 arbitrary GLB approximations
+ok 32 - Room UNESCO: only three structurally supported models, not 18 arbitrary GLB approximations
+  ---
+  duration_ms: 0.8453
+  ...
+# Subtest: Native GLB Giza has valid binary container; museum must not mislabel it as a scan
+ok 33 - Native GLB Giza has valid binary container; museum must not mislabel it as a scan
+  ---
+  duration_ms: 2.2236
+  ...
+# Subtest: Physically separated 3D map, rotating globe, verified UNESCO room and preserved 40-picture gallery
+ok 34 - Physically separated 3D map, rotating globe, verified UNESCO room and preserved 40-picture gallery
+  ---
+  duration_ms: 2.4335
+  ...
+# Subtest: R98 starts with ZERO approved scans and respects source-first policy
+ok 35 - R98 starts with ZERO approved scans and respects source-first policy
+  ---
+  duration_ms: 3.1133
+  ...
+# Subtest: R98 does not show schematic 3D UNESCO on pedestals or globe/map pins
+ok 36 - R98 does not show schematic 3D UNESCO on pedestals or globe/map pins
+  ---
+  duration_ms: 1.5902
+  ...
+# Subtest: Photo format validated using bytes, not filename
+ok 37 - Photo format validated using bytes, not filename
+  ---
+  duration_ms: 0.8366
+  ...
+# Subtest: Idealized R97 Giza and R95 column GLB are rejected as high-fidelity scan
+ok 38 - Idealized R97 Giza and R95 column GLB are rejected as high-fidelity scan
+  ---
+  duration_ms: 2.057
+  ...
+# Subtest: Only license-safe review path, explicit sources and four human checks
+ok 39 - Only license-safe review path, explicit sources and four human checks
+  ---
+  duration_ms: 0.7384
+  ...
+# Subtest: Antigravity bundle and admin, MapLibre/globe.gl references, R97 legacy preserved
+ok 40 - Antigravity bundle and admin, MapLibre/globe.gl references, R97 legacy preserved
+  ---
+  duration_ms: 1.4158
+  ...
+1..40
+# tests 40
+# suites 0
+# pass 40
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 450.6996
+=== npm run test:r104 ===
+
+> math-3d-museum-6-12@15.1.0 test:r104
+> node --test tests/r104-true-model-podium.test.mjs tests/r103-podium-3d-sketchfab.test.mjs tests/r102-discovery-geometric-gallery.test.mjs tests/r98-fidelity-curation.test.mjs tests/r97-discovery-world-map.test.mjs tests/r96-unesco-discovery.test.mjs tests/r95-discovery-integration.test.mjs
+
+TAP version 13
+# Subtest: 14 original architectural wonders and four other geometrical structures, not R99 natural wonders
+ok 1 - 14 original architectural wonders and four other geometrical structures, not R99 natural wonders
+  ---
+  duration_ms: 1.6172
+  ...
+# Subtest: three UNESCO room zones, 2 UNESCO + verified R98 Parthenon, three New7Wonders, four others
+ok 2 - three UNESCO room zones, 2 UNESCO + verified R98 Parthenon, three New7Wonders, four others
+  ---
+  duration_ms: 1.0222
+  ...
+# Subtest: R103 physical podiums use licensed GLB or proximity Sketchfab, and original vetted GLB remains
+ok 3 - R103 physical podiums use licensed GLB or proximity Sketchfab, and original vetted GLB remains
+  ---
+  duration_ms: 1.5793
+  ...
+# Subtest: scientifically correct mathematics: Golden Gate approximate parabola vs Gateway Arch catenary
+ok 4 - scientifically correct mathematics: Golden Gate approximate parabola vs Gateway Arch catenary
+  ---
+  duration_ms: 0.4982
+  ...
+# Subtest: R103 corrects over-filtering: restore original Zeus/Colossus model, Rhodes real harbor photo
+ok 5 - R103 corrects over-filtering: restore original Zeus/Colossus model, Rhodes real harbor photo
+  ---
+  duration_ms: 0.3701
+  ...
+# Subtest: R100 original modal styles preserved, extra math 3D/2D tabs only for room
+ok 6 - R100 original modal styles preserved, extra math 3D/2D tabs only for room
+  ---
+  duration_ms: 0.7337
+  ...
+# Subtest: world map has 18 pins and opens photo + biography + Sketchfab, no UNESCO room link
+ok 7 - world map has 18 pins and opens photo + biography + Sketchfab, no UNESCO room link
+  ---
+  duration_ms: 2.5661
+  ...
+# Subtest: nine selected structure classes have independent 2D SVG projections with math labels
+ok 8 - nine selected structure classes have independent 2D SVG projections with math labels
+  ---
+  duration_ms: 15.9324
+  ...
+# Subtest: geometry inspector has real 3D Three renderer, orthographic option and cleanup
+ok 9 - geometry inspector has real 3D Three renderer, orthographic option and cleanup
+  ---
+  duration_ms: 0.6276
+  ...
+# Subtest: R102 viewer renders SVG in 2D tab, Three canvas in 3D tab; not on map or globe
+ok 10 - R102 viewer renders SVG in 2D tab, Three canvas in 3D tab; not on map or globe
+  ---
+  duration_ms: 0.7479
+  ...
+# Subtest: The room extension hides only original shell and leaves R98 approved scan mounted
+ok 11 - The room extension hides only original shell and leaves R98 approved scan mounted
+  ---
+  duration_ms: 0.5227
+  ...
+# Subtest: 18 locations remain: 7 ancient, 7 New7Wonders, 4 other buildings
+ok 12 - 18 locations remain: 7 ancient, 7 New7Wonders, 4 other buildings
+  ---
+  duration_ms: 2.1487
+  ...
+# Subtest: Sketchfab iframe autostarts without Play click, source model UID verified format
+ok 13 - Sketchfab iframe autostarts without Play click, source model UID verified format
+  ---
+  duration_ms: 1.1889
+  ...
+# Subtest: Only nearest stand selected, hysteresis prevents frequent model reloads
+ok 14 - Only nearest stand selected, hysteresis prevents frequent model reloads
+  ---
+  duration_ms: 0.5207
+  ...
+# Subtest: Zeus keeps statue reconstruction, not unrelated whole Olympia model
+ok 15 - Zeus keeps statue reconstruction, not unrelated whole Olympia model
+  ---
+  duration_ms: 0.2402
+  ...
+# Subtest: Rhodes model remains actual Colossus; ONLY real-life photo becomes CC0 Mandraki harbor
+ok 16 - Rhodes model remains actual Colossus; ONLY real-life photo becomes CC0 Mandraki harbor
+  ---
+  duration_ms: 0.302
+  ...
+# Subtest: R103 direct model viewer is projected on real 3D physical plinth and drag enabled
+ok 17 - R103 direct model viewer is projected on real 3D physical plinth and drag enabled
+  ---
+  duration_ms: 2.7677
+  ...
+# Subtest: R104 podiums show explicit educational Three.js preview until licensed scan arrives
+ok 18 - R104 podiums show explicit educational Three.js preview until licensed scan arrives
+  ---
+  duration_ms: 0.4222
+  ...
+# Subtest: Teacher can add licensed GLB to the podium as actual native Three.js mesh
+ok 19 - Teacher can add licensed GLB to the podium as actual native Three.js mesh
+  ---
+  duration_ms: 0.5491
+  ...
+# Subtest: Room click behavior: source viewer rotates without opening modal; 2D/3D behind details
+ok 20 - Room click behavior: source viewer rotates without opening modal; 2D/3D behind details
+  ---
+  duration_ms: 1.144
+  ...
+# Subtest: Map / globe still use the same catalog and original display panels
+ok 21 - Map / globe still use the same catalog and original display panels
+  ---
+  duration_ms: 0.8434
+  ...
+# Subtest: R100 two-column heritage modal layout remains intact
+ok 22 - R100 two-column heritage modal layout remains intact
+  ---
+  duration_ms: 0.7925
+  ...
+# Subtest: Parthenon original GLB in the distribution is present and unchanged in R103 staging
+ok 23 - Parthenon original GLB in the distribution is present and unchanged in R103 staging
+  ---
+  duration_ms: 0.7363
+  ...
+# Subtest: 9 physical UNESCO podiums all have native Three.js 3D models, not empty iframe panels
+ok 24 - 9 physical UNESCO podiums all have native Three.js 3D models, not empty iframe panels
+  ---
+  duration_ms: 3.0622
+  ...
+# Subtest: No screen-projected iframe on pedestals; clicks and drag act on real 3D scene meshes
+ok 25 - No screen-projected iframe on pedestals; clicks and drag act on real 3D scene meshes
+  ---
+  duration_ms: 1.4704
+  ...
+# Subtest: Teacher can import authorized GLB for permanent native 3D podium replacement
+ok 26 - Teacher can import authorized GLB for permanent native 3D podium replacement
+  ---
+  duration_ms: 1.7622
+  ...
+# Subtest: Full 18 markers on map/globe remain untouched; no monument misleadingly labelled UNESCO 7 wonders
+ok 27 - Full 18 markers on map/globe remain untouched; no monument misleadingly labelled UNESCO 7 wonders
+  ---
+  duration_ms: 0.6664
+  ...
+# Subtest: Colosseum educational fallback now has 3 tiered, arched 3D walls rather than isolated pillars
+ok 28 - Colosseum educational fallback now has 3 tiered, arched 3D walls rather than isolated pillars
+  ---
+  duration_ms: 1.4775
+  ...
+# Subtest: All 9 geometric previews are valid Three.js 3D objects with non-zero volumes
+ok 29 - All 9 geometric previews are valid Three.js 3D objects with non-zero volumes
+  ---
+  duration_ms: 181.2572
+  ...
+# Subtest: Parthenon R98 GLB present and remains a photogrammetric asset
+ok 30 - Parthenon R98 GLB present and remains a photogrammetric asset
+  ---
+  duration_ms: 0.6474
+  ...
+# Subtest: R95 Catalog merges 32 new landmarks (total 36) and 36 new artworks (total 40) without mutating R93
+ok 31 - R95 Catalog merges 32 new landmarks (total 36) and 36 new artworks (total 40) without mutating R93
+  ---
+  duration_ms: 3.7995
+  ...
+# Subtest: R95 Photo & Verification Policy: 32 new landmarks and 36 new exhibits never fake real photos
+ok 32 - R95 Photo & Verification Policy: 32 new landmarks and 36 new exhibits never fake real photos
+  ---
+  duration_ms: 0.8929
+  ...
+# Subtest: R95 Accent-insensitive Vietnamese search, continent filter, and grade filter work across all 36 landmarks
+ok 33 - R95 Accent-insensitive Vietnamese search, continent filter, and grade filter work across all 36 landmarks
+  ---
+  duration_ms: 4.4133
+  ...
+# Subtest: R95 Room B groups 6 new collections (6 items each) + R93 collection and bounds physical frames to 8
+ok 34 - R95 Room B groups 6 new collections (6 items each) + R93 collection and bounds physical frames to 8
+  ---
+  duration_ms: 0.449
+  ...
+# Subtest: R95 World & UI wire Museum Quick Access, 8 physical frames, texture disposal, and GLB parser
+ok 35 - R95 World & UI wire Museum Quick Access, 8 physical frames, texture disposal, and GLB parser
+  ---
+  duration_ms: 1.7121
+  ...
+# Subtest: 18 World Cultural Heritage monuments, six from Vietnam and 12 worldwide, with UNESCO source IDs
+ok 36 - 18 World Cultural Heritage monuments, six from Vietnam and 12 worldwide, with UNESCO source IDs
+  ---
+  duration_ms: 3.6481
+  ...
+# Subtest: Sketchfab only embeds the curated 32-digit model IDs; never assumes the right to download GLB
+ok 37 - Sketchfab only embeds the curated 32-digit model IDs; never assumes the right to download GLB
+  ---
+  duration_ms: 0.9561
+  ...
+# Subtest: R95 originals retained unchanged: 40 art exhibits, 36 old points, UNESCO added separately
+ok 38 - R95 originals retained unchanged: 40 art exhibits, 36 old points, UNESCO added separately
+  ---
+  duration_ms: 2.2871
+  ...
+# Subtest: Three independent areas: foyer with one original Earth, left UNESCO frames, right preserved gallery
+ok 39 - Three independent areas: foyer with one original Earth, left UNESCO frames, right preserved gallery
+  ---
+  duration_ms: 1.779
+  ...
+# Subtest: Image left, 2D / native GLB or embedded Sketchfab right, with legal attribution and no external redirect on selection
+ok 40 - Image left, 2D / native GLB or embedded Sketchfab right, with legal attribution and no external redirect on selection
+  ---
+  duration_ms: 1.5788
+  ...
+# Subtest: Wikimedia metadata must be checked; share-alike permitted, non-commercial assets rejected
+ok 41 - Wikimedia metadata must be checked; share-alike permitted, non-commercial assets rejected
+  ---
+  duration_ms: 1.5091
+  ...
+# Subtest: Natural Earth WGS84 map: consistent globe coordinates, offline borders and 50m upgrade
+ok 42 - Natural Earth WGS84 map: consistent globe coordinates, offline borders and 50m upgrade
+  ---
+  duration_ms: 10.5674
+  ...
+# Subtest: Official UNESCO records: only cultural and geographically valid sites; no fabricated photo or 3D
+ok 43 - Official UNESCO records: only cultural and geographically valid sites; no fabricated photo or 3D
+  ---
+  duration_ms: 0.8518
+  ...
+# Subtest: Room UNESCO: only three structurally supported models, not 18 arbitrary GLB approximations
+ok 44 - Room UNESCO: only three structurally supported models, not 18 arbitrary GLB approximations
+  ---
+  duration_ms: 1.2163
+  ...
+# Subtest: Native GLB Giza has valid binary container; museum must not mislabel it as a scan
+ok 45 - Native GLB Giza has valid binary container; museum must not mislabel it as a scan
+  ---
+  duration_ms: 3.6498
+  ...
+# Subtest: Physically separated 3D map, rotating globe, verified UNESCO room and preserved 40-picture gallery
+ok 46 - Physically separated 3D map, rotating globe, verified UNESCO room and preserved 40-picture gallery
+  ---
+  duration_ms: 2.1694
+  ...
+# Subtest: R98 starts with ZERO approved scans and respects source-first policy
+ok 47 - R98 starts with ZERO approved scans and respects source-first policy
+  ---
+  duration_ms: 3.3477
+  ...
+# Subtest: R98 does not show schematic 3D UNESCO on pedestals or globe/map pins
+ok 48 - R98 does not show schematic 3D UNESCO on pedestals or globe/map pins
+  ---
+  duration_ms: 1.574
+  ...
+# Subtest: Photo format validated using bytes, not filename
+ok 49 - Photo format validated using bytes, not filename
+  ---
+  duration_ms: 0.7366
+  ...
+# Subtest: Idealized R97 Giza and R95 column GLB are rejected as high-fidelity scan
+ok 50 - Idealized R97 Giza and R95 column GLB are rejected as high-fidelity scan
+  ---
+  duration_ms: 2.2484
+  ...
+# Subtest: Only license-safe review path, explicit sources and four human checks
+ok 51 - Only license-safe review path, explicit sources and four human checks
+  ---
+  duration_ms: 1.804
+  ...
+# Subtest: Antigravity bundle and admin, MapLibre/globe.gl references, R97 legacy preserved
+ok 52 - Antigravity bundle and admin, MapLibre/globe.gl references, R97 legacy preserved
+  ---
+  duration_ms: 1.4885
+  ...
+1..52
+# tests 52
+# suites 0
+# pass 52
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 302.5844
+=== npm run test:r103 ===
+
+> math-3d-museum-6-12@15.1.0 test:r103
+> node --test tests/r103-podium-3d-sketchfab.test.mjs tests/r102-discovery-geometric-gallery.test.mjs tests/r98-fidelity-curation.test.mjs tests/r97-discovery-world-map.test.mjs tests/r96-unesco-discovery.test.mjs tests/r95-discovery-integration.test.mjs
+
+TAP version 13
+# Subtest: 14 original architectural wonders and four other geometrical structures, not R99 natural wonders
+ok 1 - 14 original architectural wonders and four other geometrical structures, not R99 natural wonders
+  ---
+  duration_ms: 1.6815
+  ...
+# Subtest: three UNESCO room zones, 2 UNESCO + verified R98 Parthenon, three New7Wonders, four others
+ok 2 - three UNESCO room zones, 2 UNESCO + verified R98 Parthenon, three New7Wonders, four others
+  ---
+  duration_ms: 0.903
+  ...
+# Subtest: R103 physical podiums use licensed GLB or proximity Sketchfab, and original vetted GLB remains
+ok 3 - R103 physical podiums use licensed GLB or proximity Sketchfab, and original vetted GLB remains
+  ---
+  duration_ms: 1.1662
+  ...
+# Subtest: scientifically correct mathematics: Golden Gate approximate parabola vs Gateway Arch catenary
+ok 4 - scientifically correct mathematics: Golden Gate approximate parabola vs Gateway Arch catenary
+  ---
+  duration_ms: 0.4205
+  ...
+# Subtest: R103 corrects over-filtering: restore original Zeus/Colossus model, Rhodes real harbor photo
+ok 5 - R103 corrects over-filtering: restore original Zeus/Colossus model, Rhodes real harbor photo
+  ---
+  duration_ms: 0.2523
+  ...
+# Subtest: R100 original modal styles preserved, extra math 3D/2D tabs only for room
+ok 6 - R100 original modal styles preserved, extra math 3D/2D tabs only for room
+  ---
+  duration_ms: 0.5568
+  ...
+# Subtest: world map has 18 pins and opens photo + biography + Sketchfab, no UNESCO room link
+ok 7 - world map has 18 pins and opens photo + biography + Sketchfab, no UNESCO room link
+  ---
+  duration_ms: 2.2811
+  ...
+# Subtest: nine selected structure classes have independent 2D SVG projections with math labels
+ok 8 - nine selected structure classes have independent 2D SVG projections with math labels
+  ---
+  duration_ms: 13.0717
+  ...
+# Subtest: geometry inspector has real 3D Three renderer, orthographic option and cleanup
+ok 9 - geometry inspector has real 3D Three renderer, orthographic option and cleanup
+  ---
+  duration_ms: 0.6224
+  ...
+# Subtest: R102 viewer renders SVG in 2D tab, Three canvas in 3D tab; not on map or globe
+ok 10 - R102 viewer renders SVG in 2D tab, Three canvas in 3D tab; not on map or globe
+  ---
+  duration_ms: 0.4704
+  ...
+# Subtest: The room extension hides only original shell and leaves R98 approved scan mounted
+ok 11 - The room extension hides only original shell and leaves R98 approved scan mounted
+  ---
+  duration_ms: 0.6121
+  ...
+# Subtest: 18 locations remain: 7 ancient, 7 New7Wonders, 4 other buildings
+ok 12 - 18 locations remain: 7 ancient, 7 New7Wonders, 4 other buildings
+  ---
+  duration_ms: 1.5389
+  ...
+# Subtest: Sketchfab iframe autostarts without Play click, source model UID verified format
+ok 13 - Sketchfab iframe autostarts without Play click, source model UID verified format
+  ---
+  duration_ms: 0.8081
+  ...
+# Subtest: Only nearest stand selected, hysteresis prevents frequent model reloads
+ok 14 - Only nearest stand selected, hysteresis prevents frequent model reloads
+  ---
+  duration_ms: 0.5445
+  ...
+# Subtest: Zeus keeps statue reconstruction, not unrelated whole Olympia model
+ok 15 - Zeus keeps statue reconstruction, not unrelated whole Olympia model
+  ---
+  duration_ms: 0.2899
+  ...
+# Subtest: Rhodes model remains actual Colossus; ONLY real-life photo becomes CC0 Mandraki harbor
+ok 16 - Rhodes model remains actual Colossus; ONLY real-life photo becomes CC0 Mandraki harbor
+  ---
+  duration_ms: 0.3504
+  ...
+# Subtest: R103 direct model viewer is projected on real 3D physical plinth and drag enabled
+ok 17 - R103 direct model viewer is projected on real 3D physical plinth and drag enabled
+  ---
+  duration_ms: 2.5226
+  ...
+# Subtest: R104 podiums show explicit educational Three.js preview until licensed scan arrives
+ok 18 - R104 podiums show explicit educational Three.js preview until licensed scan arrives
+  ---
+  duration_ms: 0.3793
+  ...
+# Subtest: Teacher can add licensed GLB to the podium as actual native Three.js mesh
+ok 19 - Teacher can add licensed GLB to the podium as actual native Three.js mesh
+  ---
+  duration_ms: 0.7914
+  ...
+# Subtest: Room click behavior: source viewer rotates without opening modal; 2D/3D behind details
+ok 20 - Room click behavior: source viewer rotates without opening modal; 2D/3D behind details
+  ---
+  duration_ms: 0.9989
+  ...
+# Subtest: Map / globe still use the same catalog and original display panels
+ok 21 - Map / globe still use the same catalog and original display panels
+  ---
+  duration_ms: 0.6211
+  ...
+# Subtest: R100 two-column heritage modal layout remains intact
+ok 22 - R100 two-column heritage modal layout remains intact
+  ---
+  duration_ms: 0.7133
+  ...
+# Subtest: Parthenon original GLB in the distribution is present and unchanged in R103 staging
+ok 23 - Parthenon original GLB in the distribution is present and unchanged in R103 staging
+  ---
+  duration_ms: 0.6341
+  ...
+# Subtest: R95 Catalog merges 32 new landmarks (total 36) and 36 new artworks (total 40) without mutating R93
+ok 24 - R95 Catalog merges 32 new landmarks (total 36) and 36 new artworks (total 40) without mutating R93
+  ---
+  duration_ms: 4.6716
+  ...
+# Subtest: R95 Photo & Verification Policy: 32 new landmarks and 36 new exhibits never fake real photos
+ok 25 - R95 Photo & Verification Policy: 32 new landmarks and 36 new exhibits never fake real photos
+  ---
+  duration_ms: 0.7649
+  ...
+# Subtest: R95 Accent-insensitive Vietnamese search, continent filter, and grade filter work across all 36 landmarks
+ok 26 - R95 Accent-insensitive Vietnamese search, continent filter, and grade filter work across all 36 landmarks
+  ---
+  duration_ms: 3.426
+  ...
+# Subtest: R95 Room B groups 6 new collections (6 items each) + R93 collection and bounds physical frames to 8
+ok 27 - R95 Room B groups 6 new collections (6 items each) + R93 collection and bounds physical frames to 8
+  ---
+  duration_ms: 0.5245
+  ...
+# Subtest: R95 World & UI wire Museum Quick Access, 8 physical frames, texture disposal, and GLB parser
+ok 28 - R95 World & UI wire Museum Quick Access, 8 physical frames, texture disposal, and GLB parser
+  ---
+  duration_ms: 1.8951
+  ...
+# Subtest: 18 World Cultural Heritage monuments, six from Vietnam and 12 worldwide, with UNESCO source IDs
+ok 29 - 18 World Cultural Heritage monuments, six from Vietnam and 12 worldwide, with UNESCO source IDs
+  ---
+  duration_ms: 1.9815
+  ...
+# Subtest: Sketchfab only embeds the curated 32-digit model IDs; never assumes the right to download GLB
+ok 30 - Sketchfab only embeds the curated 32-digit model IDs; never assumes the right to download GLB
+  ---
+  duration_ms: 0.6678
+  ...
+# Subtest: R95 originals retained unchanged: 40 art exhibits, 36 old points, UNESCO added separately
+ok 31 - R95 originals retained unchanged: 40 art exhibits, 36 old points, UNESCO added separately
+  ---
+  duration_ms: 2.5497
+  ...
+# Subtest: Three independent areas: foyer with one original Earth, left UNESCO frames, right preserved gallery
+ok 32 - Three independent areas: foyer with one original Earth, left UNESCO frames, right preserved gallery
+  ---
+  duration_ms: 1.608
+  ...
+# Subtest: Image left, 2D / native GLB or embedded Sketchfab right, with legal attribution and no external redirect on selection
+ok 33 - Image left, 2D / native GLB or embedded Sketchfab right, with legal attribution and no external redirect on selection
+  ---
+  duration_ms: 1.2521
+  ...
+# Subtest: Wikimedia metadata must be checked; share-alike permitted, non-commercial assets rejected
+ok 34 - Wikimedia metadata must be checked; share-alike permitted, non-commercial assets rejected
+  ---
+  duration_ms: 4.6713
+  ...
+# Subtest: Natural Earth WGS84 map: consistent globe coordinates, offline borders and 50m upgrade
+ok 35 - Natural Earth WGS84 map: consistent globe coordinates, offline borders and 50m upgrade
+  ---
+  duration_ms: 11.7743
+  ...
+# Subtest: Official UNESCO records: only cultural and geographically valid sites; no fabricated photo or 3D
+ok 36 - Official UNESCO records: only cultural and geographically valid sites; no fabricated photo or 3D
+  ---
+  duration_ms: 0.839
+  ...
+# Subtest: Room UNESCO: only three structurally supported models, not 18 arbitrary GLB approximations
+ok 37 - Room UNESCO: only three structurally supported models, not 18 arbitrary GLB approximations
+  ---
+  duration_ms: 0.8189
+  ...
+# Subtest: Native GLB Giza has valid binary container; museum must not mislabel it as a scan
+ok 38 - Native GLB Giza has valid binary container; museum must not mislabel it as a scan
+  ---
+  duration_ms: 1.5731
+  ...
+# Subtest: Physically separated 3D map, rotating globe, verified UNESCO room and preserved 40-picture gallery
+ok 39 - Physically separated 3D map, rotating globe, verified UNESCO room and preserved 40-picture gallery
+  ---
+  duration_ms: 1.5861
+  ...
+# Subtest: R98 starts with ZERO approved scans and respects source-first policy
+ok 40 - R98 starts with ZERO approved scans and respects source-first policy
+  ---
+  duration_ms: 3.747
+  ...
+# Subtest: R98 does not show schematic 3D UNESCO on pedestals or globe/map pins
+ok 41 - R98 does not show schematic 3D UNESCO on pedestals or globe/map pins
+  ---
+  duration_ms: 2.0625
+  ...
+# Subtest: Photo format validated using bytes, not filename
+ok 42 - Photo format validated using bytes, not filename
+  ---
+  duration_ms: 1.2572
+  ...
+# Subtest: Idealized R97 Giza and R95 column GLB are rejected as high-fidelity scan
+ok 43 - Idealized R97 Giza and R95 column GLB are rejected as high-fidelity scan
+  ---
+  duration_ms: 2.1066
+  ...
+# Subtest: Only license-safe review path, explicit sources and four human checks
+ok 44 - Only license-safe review path, explicit sources and four human checks
+  ---
+  duration_ms: 0.3775
+  ...
+# Subtest: Antigravity bundle and admin, MapLibre/globe.gl references, R97 legacy preserved
+ok 45 - Antigravity bundle and admin, MapLibre/globe.gl references, R97 legacy preserved
+  ---
+  duration_ms: 1.2277
+  ...
+1..45
+# tests 45
+# suites 0
+# pass 45
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 160.7678
+=== npm run test:r102 ===
+
+> math-3d-museum-6-12@15.1.0 test:r102
+> node --test tests/r102-discovery-geometric-gallery.test.mjs tests/r98-fidelity-curation.test.mjs tests/r97-discovery-world-map.test.mjs tests/r96-unesco-discovery.test.mjs tests/r95-discovery-integration.test.mjs
+
+TAP version 13
+# Subtest: 14 original architectural wonders and four other geometrical structures, not R99 natural wonders
+ok 1 - 14 original architectural wonders and four other geometrical structures, not R99 natural wonders
+  ---
+  duration_ms: 2.6617
+  ...
+# Subtest: three UNESCO room zones, 2 UNESCO + verified R98 Parthenon, three New7Wonders, four others
+ok 2 - three UNESCO room zones, 2 UNESCO + verified R98 Parthenon, three New7Wonders, four others
+  ---
+  duration_ms: 1.4446
+  ...
+# Subtest: R103 physical podiums use licensed GLB or proximity Sketchfab, and original vetted GLB remains
+ok 3 - R103 physical podiums use licensed GLB or proximity Sketchfab, and original vetted GLB remains
+  ---
+  duration_ms: 1.2843
+  ...
+# Subtest: scientifically correct mathematics: Golden Gate approximate parabola vs Gateway Arch catenary
+ok 4 - scientifically correct mathematics: Golden Gate approximate parabola vs Gateway Arch catenary
+  ---
+  duration_ms: 0.4679
+  ...
+# Subtest: R103 corrects over-filtering: restore original Zeus/Colossus model, Rhodes real harbor photo
+ok 5 - R103 corrects over-filtering: restore original Zeus/Colossus model, Rhodes real harbor photo
+  ---
+  duration_ms: 0.3299
+  ...
+# Subtest: R100 original modal styles preserved, extra math 3D/2D tabs only for room
+ok 6 - R100 original modal styles preserved, extra math 3D/2D tabs only for room
+  ---
+  duration_ms: 0.7295
+  ...
+# Subtest: world map has 18 pins and opens photo + biography + Sketchfab, no UNESCO room link
+ok 7 - world map has 18 pins and opens photo + biography + Sketchfab, no UNESCO room link
+  ---
+  duration_ms: 2.0185
+  ...
+# Subtest: nine selected structure classes have independent 2D SVG projections with math labels
+ok 8 - nine selected structure classes have independent 2D SVG projections with math labels
+  ---
+  duration_ms: 15.9637
+  ...
+# Subtest: geometry inspector has real 3D Three renderer, orthographic option and cleanup
+ok 9 - geometry inspector has real 3D Three renderer, orthographic option and cleanup
+  ---
+  duration_ms: 0.9793
+  ...
+# Subtest: R102 viewer renders SVG in 2D tab, Three canvas in 3D tab; not on map or globe
+ok 10 - R102 viewer renders SVG in 2D tab, Three canvas in 3D tab; not on map or globe
+  ---
+  duration_ms: 0.7071
+  ...
+# Subtest: The room extension hides only original shell and leaves R98 approved scan mounted
+ok 11 - The room extension hides only original shell and leaves R98 approved scan mounted
+  ---
+  duration_ms: 0.4723
+  ...
+# Subtest: R95 Catalog merges 32 new landmarks (total 36) and 36 new artworks (total 40) without mutating R93
+ok 12 - R95 Catalog merges 32 new landmarks (total 36) and 36 new artworks (total 40) without mutating R93
+  ---
+  duration_ms: 4.6772
+  ...
+# Subtest: R95 Photo & Verification Policy: 32 new landmarks and 36 new exhibits never fake real photos
+ok 13 - R95 Photo & Verification Policy: 32 new landmarks and 36 new exhibits never fake real photos
+  ---
+  duration_ms: 0.9054
+  ...
+# Subtest: R95 Accent-insensitive Vietnamese search, continent filter, and grade filter work across all 36 landmarks
+ok 14 - R95 Accent-insensitive Vietnamese search, continent filter, and grade filter work across all 36 landmarks
+  ---
+  duration_ms: 3.7129
+  ...
+# Subtest: R95 Room B groups 6 new collections (6 items each) + R93 collection and bounds physical frames to 8
+ok 15 - R95 Room B groups 6 new collections (6 items each) + R93 collection and bounds physical frames to 8
+  ---
+  duration_ms: 0.5131
+  ...
+# Subtest: R95 World & UI wire Museum Quick Access, 8 physical frames, texture disposal, and GLB parser
+ok 16 - R95 World & UI wire Museum Quick Access, 8 physical frames, texture disposal, and GLB parser
+  ---
+  duration_ms: 1.9574
+  ...
+# Subtest: 18 World Cultural Heritage monuments, six from Vietnam and 12 worldwide, with UNESCO source IDs
+ok 17 - 18 World Cultural Heritage monuments, six from Vietnam and 12 worldwide, with UNESCO source IDs
+  ---
+  duration_ms: 3.0027
+  ...
+# Subtest: Sketchfab only embeds the curated 32-digit model IDs; never assumes the right to download GLB
+ok 18 - Sketchfab only embeds the curated 32-digit model IDs; never assumes the right to download GLB
+  ---
+  duration_ms: 0.8214
+  ...
+# Subtest: R95 originals retained unchanged: 40 art exhibits, 36 old points, UNESCO added separately
+ok 19 - R95 originals retained unchanged: 40 art exhibits, 36 old points, UNESCO added separately
+  ---
+  duration_ms: 1.7171
+  ...
+# Subtest: Three independent areas: foyer with one original Earth, left UNESCO frames, right preserved gallery
+ok 20 - Three independent areas: foyer with one original Earth, left UNESCO frames, right preserved gallery
+  ---
+  duration_ms: 1.2029
+  ...
+# Subtest: Image left, 2D / native GLB or embedded Sketchfab right, with legal attribution and no external redirect on selection
+ok 21 - Image left, 2D / native GLB or embedded Sketchfab right, with legal attribution and no external redirect on selection
+  ---
+  duration_ms: 2.167
+  ...
+# Subtest: Wikimedia metadata must be checked; share-alike permitted, non-commercial assets rejected
+ok 22 - Wikimedia metadata must be checked; share-alike permitted, non-commercial assets rejected
+  ---
+  duration_ms: 2.7584
+  ...
+# Subtest: Natural Earth WGS84 map: consistent globe coordinates, offline borders and 50m upgrade
+ok 23 - Natural Earth WGS84 map: consistent globe coordinates, offline borders and 50m upgrade
+  ---
+  duration_ms: 9.8031
+  ...
+# Subtest: Official UNESCO records: only cultural and geographically valid sites; no fabricated photo or 3D
+ok 24 - Official UNESCO records: only cultural and geographically valid sites; no fabricated photo or 3D
+  ---
+  duration_ms: 0.7849
+  ...
+# Subtest: Room UNESCO: only three structurally supported models, not 18 arbitrary GLB approximations
+ok 25 - Room UNESCO: only three structurally supported models, not 18 arbitrary GLB approximations
+  ---
+  duration_ms: 0.6042
+  ...
+# Subtest: Native GLB Giza has valid binary container; museum must not mislabel it as a scan
+ok 26 - Native GLB Giza has valid binary container; museum must not mislabel it as a scan
+  ---
+  duration_ms: 3.1625
+  ...
+# Subtest: Physically separated 3D map, rotating globe, verified UNESCO room and preserved 40-picture gallery
+ok 27 - Physically separated 3D map, rotating globe, verified UNESCO room and preserved 40-picture gallery
+  ---
+  duration_ms: 3.0015
+  ...
+# Subtest: R98 starts with ZERO approved scans and respects source-first policy
+ok 28 - R98 starts with ZERO approved scans and respects source-first policy
+  ---
+  duration_ms: 4.2277
+  ...
+# Subtest: R98 does not show schematic 3D UNESCO on pedestals or globe/map pins
+ok 29 - R98 does not show schematic 3D UNESCO on pedestals or globe/map pins
+  ---
+  duration_ms: 0.8732
+  ...
+# Subtest: Photo format validated using bytes, not filename
+ok 30 - Photo format validated using bytes, not filename
+  ---
+  duration_ms: 1.2248
+  ...
+# Subtest: Idealized R97 Giza and R95 column GLB are rejected as high-fidelity scan
+ok 31 - Idealized R97 Giza and R95 column GLB are rejected as high-fidelity scan
+  ---
+  duration_ms: 1.9016
+  ...
+# Subtest: Only license-safe review path, explicit sources and four human checks
+ok 32 - Only license-safe review path, explicit sources and four human checks
+  ---
+  duration_ms: 0.3725
+  ...
+# Subtest: Antigravity bundle and admin, MapLibre/globe.gl references, R97 legacy preserved
+ok 33 - Antigravity bundle and admin, MapLibre/globe.gl references, R97 legacy preserved
+  ---
+  duration_ms: 0.9373
+  ...
+1..33
+# tests 33
+# suites 0
+# pass 33
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 172.6781
+=== npm run test:r100 ===
+
+> math-3d-museum-6-12@15.1.0 test:r100
+> node --test tests/r100-world-wonders.test.mjs
+
+TAP version 13
+# Subtest: R100 exactly 14 architectural wonders, 7 ancient and 7 new in 2007
+ok 1 - R100 exactly 14 architectural wonders, 7 ancient and 7 new in 2007
+  ---
+  duration_ms: 1.9059
+  ...
+# Subtest: 14 stands, a clickable Sketchfab booth each, matching globe and map pins
+ok 2 - 14 stands, a clickable Sketchfab booth each, matching globe and map pins
+  ---
+  duration_ms: 0.9233
+  ...
+# Subtest: R100 in-app Sketchfab viewer, real photo source and historical caveat
+ok 3 - R100 in-app Sketchfab viewer, real photo source and historical caveat
+  ---
+  duration_ms: 0.5913
+  ...
+# Subtest: R100 is mounted without running the former natural-wonders wing
+ok 4 - R100 is mounted without running the former natural-wonders wing
+  ---
+  duration_ms: 2.3031
+  ...
+# Subtest: R98 Parthenon scan and curation file are retained
+ok 5 - R98 Parthenon scan and curation file are retained
+  ---
+  duration_ms: 89.629
+  ...
+# Subtest: R100/R105 easy-start BATs and teacher-agent update prompt exist
+ok 6 - R100/R105 easy-start BATs and teacher-agent update prompt exist
+  ---
+  duration_ms: 0.6899
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 185.5798
+=== node --check ===
+ALL node --check PASSED (exit code 0)

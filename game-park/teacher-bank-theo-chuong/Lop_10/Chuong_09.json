@@ -1,0 +1,3957 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 10,
+      "chapter": 9,
+      "roman": "IX",
+      "title": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "10-09-01",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cho biến cố A có xác suất P(A) = 2/7. Xác suất của biến cố đối \\bar{A} là",
+          "choices": {
+            "A": "P(\\bar{A}) = 1/7",
+            "B": "P(\\bar{A}) = 2/7",
+            "C": "P(\\bar{A}) = 5/7",
+            "D": "P(\\bar{A}) = 7/2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho biến cố A có xác suất P(A) = 2/7. Xác suất của biến cố đối "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{A}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 1/7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 2/7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 5/7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 7/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho biến cố A có xác suất P(A) = 2/7. Xác suất của biến cố đối $\\bar{A}$ là",
+            "choices": {
+              "A": "P($\\bar{A}$) = 1/7",
+              "B": "P($\\bar{A}$) = 2/7",
+              "C": "P($\\bar{A}$) = 5/7",
+              "D": "P($\\bar{A}$) = 7/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-02",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n(\\Omega) bằng.",
+          "choices": {
+            "A": "6",
+            "B": "4",
+            "C": "9",
+            "D": "8"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n($\\Omega$) bằng.",
+            "choices": {
+              "A": "6",
+              "B": "4",
+              "C": "9",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-03",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương IX, xét nội dung: Một hộp có 5 bi đỏ và 5 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là. Đáp án đúng là",
+          "choices": {
+            "A": "1/5",
+            "B": "5/10",
+            "C": "5/5",
+            "D": "5/10 (1)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương IX, xét nội dung: Một hộp có 5 bi đỏ và 5 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5/10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5/10 (1)"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương IX, xét nội dung: Một hộp có 5 bi đỏ và 5 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là. Đáp án đúng là",
+            "choices": {
+              "A": "1/5",
+              "B": "5/10",
+              "C": "5/5",
+              "D": "5/10 (1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-04",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương IX (Tính xác suất theo định nghĩa cổ điển), cho biến cố A có xác suất P(A) = 5/13. Xác suất của biến cố đối \\bar{A} là",
+          "choices": {
+            "A": "P(\\bar{A}) = 5/13",
+            "B": "P(\\bar{A}) = 8/13",
+            "C": "P(\\bar{A}) = 1/13",
+            "D": "P(\\bar{A}) = 13/5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương IX (Tính xác suất theo định nghĩa cổ điển), cho biến cố A có xác suất P(A) = 5/13. Xác suất của biến cố đối "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{A}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 5/13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 8/13"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 1/13"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 13/5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương IX (Tính xác suất theo định nghĩa cổ điển), cho biến cố A có xác suất P(A) = 5/13. Xác suất của biến cố đối $\\bar{A}$ là",
+            "choices": {
+              "A": "P($\\bar{A}$) = 5/13",
+              "B": "P($\\bar{A}$) = 8/13",
+              "C": "P($\\bar{A}$) = 1/13",
+              "D": "P($\\bar{A}$) = 13/5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-05",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n(\\Omega) bằng",
+          "choices": {
+            "A": "6",
+            "B": "9",
+            "C": "4",
+            "D": "8"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n($\\Omega$) bằng",
+            "choices": {
+              "A": "6",
+              "B": "9",
+              "C": "4",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-06",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về tính xác suất theo định nghĩa cổ điển, một học sinh gặp câu hỏi: Một hộp có 5 bi đỏ và 8 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "1/5",
+            "B": "5/8",
+            "C": "5/13",
+            "D": "8/13"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về tính xác suất theo định nghĩa cổ điển, một học sinh gặp câu hỏi: Một hộp có 5 bi đỏ và 8 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5/8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5/13"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8/13"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về tính xác suất theo định nghĩa cổ điển, một học sinh gặp câu hỏi: Một hộp có 5 bi đỏ và 8 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "1/5",
+              "B": "5/8",
+              "C": "5/13",
+              "D": "8/13"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-07",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho biến cố A có xác suất P(A) = 8/19. Xác suất của biến cố đối \\bar{A} là",
+          "choices": {
+            "A": "P(\\bar{A}) = 11/19",
+            "B": "P(\\bar{A}) = 1/19",
+            "C": "P(\\bar{A}) = 19/8",
+            "D": "P(\\bar{A}) = 8/19"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho biến cố A có xác suất P(A) = 8/19. Xác suất của biến cố đối "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{A}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 11/19"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 1/19"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 19/8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 8/19"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho biến cố A có xác suất P(A) = 8/19. Xác suất của biến cố đối $\\bar{A}$ là",
+            "choices": {
+              "A": "P($\\bar{A}$) = 11/19",
+              "B": "P($\\bar{A}$) = 1/19",
+              "C": "P($\\bar{A}$) = 19/8",
+              "D": "P($\\bar{A}$) = 8/19"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-08",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IX: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n(\\Omega) bằng",
+          "choices": {
+            "A": "6",
+            "B": "9",
+            "C": "4",
+            "D": "8"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IX: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IX: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n($\\Omega$) bằng",
+            "choices": {
+              "A": "6",
+              "B": "9",
+              "C": "4",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-09",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Một hộp có 5 bi đỏ và 11 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là",
+          "choices": {
+            "A": "5/16",
+            "B": "1/5",
+            "C": "11/16",
+            "D": "5/11"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Một hộp có 5 bi đỏ và 11 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5/16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11/16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5/11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Một hộp có 5 bi đỏ và 11 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là",
+            "choices": {
+              "A": "5/16",
+              "B": "1/5",
+              "C": "11/16",
+              "D": "5/11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-10",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Cho biến cố A có xác suất P(A) = 11/25. Xác suất của biến cố đối \\bar{A} là. Phương án chính xác là",
+          "choices": {
+            "A": "P(\\bar{A}) = 14/25",
+            "B": "P(\\bar{A}) = 11/25",
+            "C": "P(\\bar{A}) = 25/11",
+            "D": "P(\\bar{A}) = 1/25"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Cho biến cố A có xác suất P(A) = 11/25. Xác suất của biến cố đối "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{A}"
+            },
+            {
+              "t": "txt",
+              "v": " là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 14/25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 11/25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 25/11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 1/25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Cho biến cố A có xác suất P(A) = 11/25. Xác suất của biến cố đối $\\bar{A}$ là. Phương án chính xác là",
+            "choices": {
+              "A": "P($\\bar{A}$) = 14/25",
+              "B": "P($\\bar{A}$) = 11/25",
+              "C": "P($\\bar{A}$) = 25/11",
+              "D": "P($\\bar{A}$) = 1/25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-11",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n(\\Omega) bằng",
+          "choices": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "9"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n($\\Omega$) bằng",
+            "choices": {
+              "A": "4",
+              "B": "6",
+              "C": "8",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-12",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IX): Một hộp có 5 bi đỏ và 14 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là",
+          "choices": {
+            "A": "5/19",
+            "B": "5/14",
+            "C": "1/5",
+            "D": "14/19"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IX): Một hộp có 5 bi đỏ và 14 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5/19"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5/14"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14/19"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IX): Một hộp có 5 bi đỏ và 14 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là",
+            "choices": {
+              "A": "5/19",
+              "B": "5/14",
+              "C": "1/5",
+              "D": "14/19"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-13",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IX), cho biến cố A có xác suất P(A) = 14/31. Xác suất của biến cố đối \\bar{A} là",
+          "choices": {
+            "A": "P(\\bar{A}) = 17/31",
+            "B": "P(\\bar{A}) = 14/31",
+            "C": "P(\\bar{A}) = 31/14",
+            "D": "P(\\bar{A}) = 1/31"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IX), cho biến cố A có xác suất P(A) = 14/31. Xác suất của biến cố đối "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{A}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 17/31"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 14/31"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 31/14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 1/31"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IX), cho biến cố A có xác suất P(A) = 14/31. Xác suất của biến cố đối $\\bar{A}$ là",
+            "choices": {
+              "A": "P($\\bar{A}$) = 17/31",
+              "B": "P($\\bar{A}$) = 14/31",
+              "C": "P($\\bar{A}$) = 31/14",
+              "D": "P($\\bar{A}$) = 1/31"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-14",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n(\\Omega) bằng",
+          "choices": {
+            "A": "8",
+            "B": "4",
+            "C": "9",
+            "D": "6"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n($\\Omega$) bằng",
+            "choices": {
+              "A": "8",
+              "B": "4",
+              "C": "9",
+              "D": "6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-15",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương IX: Một hộp có 5 bi đỏ và 17 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "1/5",
+            "B": "5/22",
+            "C": "17/22",
+            "D": "5/17"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương IX: Một hộp có 5 bi đỏ và 17 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5/22"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "17/22"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5/17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương IX: Một hộp có 5 bi đỏ và 17 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "1/5",
+              "B": "5/22",
+              "C": "17/22",
+              "D": "5/17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-16",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Cho biến cố A có xác suất P(A) = 17/37. Xác suất của biến cố đối \\bar{A} là",
+          "choices": {
+            "A": "P(\\bar{A}) = 1/37",
+            "B": "P(\\bar{A}) = 20/37",
+            "C": "P(\\bar{A}) = 37/17",
+            "D": "P(\\bar{A}) = 17/37"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Cho biến cố A có xác suất P(A) = 17/37. Xác suất của biến cố đối "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{A}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 1/37"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 20/37"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 37/17"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 17/37"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Cho biến cố A có xác suất P(A) = 17/37. Xác suất của biến cố đối $\\bar{A}$ là",
+            "choices": {
+              "A": "P($\\bar{A}$) = 1/37",
+              "B": "P($\\bar{A}$) = 20/37",
+              "C": "P($\\bar{A}$) = 37/17",
+              "D": "P($\\bar{A}$) = 17/37"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-17",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n(\\Omega) bằng?",
+          "choices": {
+            "A": "6",
+            "B": "8",
+            "C": "4",
+            "D": "9"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n($\\Omega$) bằng?",
+            "choices": {
+              "A": "6",
+              "B": "8",
+              "C": "4",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-18",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương IX: Một hộp có 5 bi đỏ và 20 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là",
+          "choices": {
+            "A": "5/25",
+            "B": "5/20",
+            "C": "20/25",
+            "D": "1/5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương IX: Một hộp có 5 bi đỏ và 20 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5/25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5/20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20/25"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương IX: Một hộp có 5 bi đỏ và 20 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được bi đỏ là",
+            "choices": {
+              "A": "5/25",
+              "B": "5/20",
+              "C": "20/25",
+              "D": "1/5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-19",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Cho biến cố A có xác suất P(A) = 20/43. Xác suất của biến cố đối \\bar{A} là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "P(\\bar{A}) = 23/43",
+            "B": "P(\\bar{A}) = 1/43",
+            "C": "P(\\bar{A}) = 20/43",
+            "D": "P(\\bar{A}) = 43/20"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Cho biến cố A có xác suất P(A) = 20/43. Xác suất của biến cố đối "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{A}"
+            },
+            {
+              "t": "txt",
+              "v": " là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 23/43"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 1/43"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 20/43"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "P("
+              },
+              {
+                "t": "math",
+                "v": "\\bar{A}"
+              },
+              {
+                "t": "txt",
+                "v": ") = 43/20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Cho biến cố A có xác suất P(A) = 20/43. Xác suất của biến cố đối $\\bar{A}$ là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "P($\\bar{A}$) = 23/43",
+              "B": "P($\\bar{A}$) = 1/43",
+              "C": "P($\\bar{A}$) = 20/43",
+              "D": "P($\\bar{A}$) = 43/20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-20",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương IX để giải quyết yêu cầu: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n(\\Omega) bằng",
+          "choices": {
+            "A": "4",
+            "B": "8",
+            "C": "6",
+            "D": "9"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương IX để giải quyết yêu cầu: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương IX để giải quyết yêu cầu: Gieo một đồng xu cân đối 3 lần liên tiếp. Số phần tử của không gian mẫu n($\\Omega$) bằng",
+            "choices": {
+              "A": "4",
+              "B": "8",
+              "C": "6",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-21",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng",
+          "choices": {
+            "A": "2/9",
+            "B": "5/9",
+            "C": "1/3",
+            "D": "4/9"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng",
+            "choices": {
+              "A": "2/9",
+              "B": "5/9",
+              "C": "1/3",
+              "D": "4/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-22",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương IX (Tính xác suất theo định nghĩa cổ điển) để giải bài toán: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng",
+          "choices": {
+            "A": "1/2",
+            "B": "15/16",
+            "C": "1/16",
+            "D": "3/4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương IX (Tính xác suất theo định nghĩa cổ điển) để giải bài toán: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15/16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương IX (Tính xác suất theo định nghĩa cổ điển) để giải bài toán: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng",
+            "choices": {
+              "A": "1/2",
+              "B": "15/16",
+              "C": "1/16",
+              "D": "3/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-23",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương IX: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng. Kết quả thu được là",
+          "choices": {
+            "A": "1/3",
+            "B": "2/9",
+            "C": "1/6",
+            "D": "5/18"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương IX: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5/18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương IX: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng. Kết quả thu được là",
+            "choices": {
+              "A": "1/3",
+              "B": "2/9",
+              "C": "1/6",
+              "D": "5/18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-24",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Một hộp có 6 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n(\\Omega) = C\\_{n}^{2} và xác suất lấy được 2 viên bi đen lần lượt là. Đáp án đúng là",
+          "choices": {
+            "A": "n(\\Omega) = 28; P = 1/28",
+            "B": "n(\\Omega) = 8; P = 2/8",
+            "C": "n(\\Omega) = 56; P = 1/56",
+            "D": "n(\\Omega) = 28; P = 2/28"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Một hộp có 6 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") = C\\_{n}"
+            },
+            {
+              "t": "math",
+              "v": "^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và xác suất lấy được 2 viên bi đen lần lượt là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 28; P = 1/28"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 8; P = 2/8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 56; P = 1/56"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 28; P = 2/28"
+              }
+            ]
+          },
+          "issues": [
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Một hộp có 6 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n($\\Omega$) = C\\_{n}$^{2}$ và xác suất lấy được 2 viên bi đen lần lượt là. Đáp án đúng là",
+            "choices": {
+              "A": "n($\\Omega$) = 28; P = 1/28",
+              "B": "n($\\Omega$) = 8; P = 2/8",
+              "C": "n($\\Omega$) = 56; P = 1/56",
+              "D": "n($\\Omega$) = 28; P = 2/28"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-25",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương IX, hãy xác định: Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng",
+          "choices": {
+            "A": "1/3",
+            "B": "2/9",
+            "C": "5/9",
+            "D": "4/9"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương IX, hãy xác định: Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương IX, hãy xác định: Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng",
+            "choices": {
+              "A": "1/3",
+              "B": "2/9",
+              "C": "5/9",
+              "D": "4/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-26",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "1/16",
+            "B": "1/2",
+            "C": "3/4",
+            "D": "15/16"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15/16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "1/16",
+              "B": "1/2",
+              "C": "3/4",
+              "D": "15/16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-27",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương IX vào bài tập sau: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng",
+          "choices": {
+            "A": "5/18",
+            "B": "2/9",
+            "C": "1/3",
+            "D": "1/6"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương IX vào bài tập sau: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5/18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương IX vào bài tập sau: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng",
+            "choices": {
+              "A": "5/18",
+              "B": "2/9",
+              "C": "1/3",
+              "D": "1/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-28",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hộp có 10 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n(\\Omega) = C\\_{n}^{2} và xác suất lấy được 2 viên bi đen lần lượt là",
+          "choices": {
+            "A": "n(\\Omega) = 12; P = 2/12",
+            "B": "n(\\Omega) = 132; P = 1/132",
+            "C": "n(\\Omega) = 66; P = 2/66",
+            "D": "n(\\Omega) = 66; P = 1/66"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hộp có 10 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") = C\\_{n}"
+            },
+            {
+              "t": "math",
+              "v": "^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và xác suất lấy được 2 viên bi đen lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 12; P = 2/12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 132; P = 1/132"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 66; P = 2/66"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 66; P = 1/66"
+              }
+            ]
+          },
+          "issues": [
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hộp có 10 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n($\\Omega$) = C\\_{n}$^{2}$ và xác suất lấy được 2 viên bi đen lần lượt là",
+            "choices": {
+              "A": "n($\\Omega$) = 12; P = 2/12",
+              "B": "n($\\Omega$) = 132; P = 1/132",
+              "C": "n($\\Omega$) = 66; P = 2/66",
+              "D": "n($\\Omega$) = 66; P = 1/66"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-29",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Tính xác suất theo định nghĩa cổ điển): Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "1/3",
+            "B": "4/9",
+            "C": "5/9",
+            "D": "2/9"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Tính xác suất theo định nghĩa cổ điển): Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Tính xác suất theo định nghĩa cổ điển): Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "1/3",
+              "B": "4/9",
+              "C": "5/9",
+              "D": "2/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-30",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương IX, hãy tìm kết quả của bài toán: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng",
+          "choices": {
+            "A": "3/4",
+            "B": "15/16",
+            "C": "1/16",
+            "D": "1/2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương IX, hãy tìm kết quả của bài toán: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15/16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương IX, hãy tìm kết quả của bài toán: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng",
+            "choices": {
+              "A": "3/4",
+              "B": "15/16",
+              "C": "1/16",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-31",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương IX nêu câu hỏi: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "5/18",
+            "B": "1/6",
+            "C": "1/3",
+            "D": "2/9"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương IX nêu câu hỏi: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5/18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương IX nêu câu hỏi: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "5/18",
+              "B": "1/6",
+              "C": "1/3",
+              "D": "2/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-32",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Một hộp có 14 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n(\\Omega) = C\\_{n}^{2} và xác suất lấy được 2 viên bi đen lần lượt là",
+          "choices": {
+            "A": "n(\\Omega) = 120; P = 1/120",
+            "B": "n(\\Omega) = 240; P = 1/240",
+            "C": "n(\\Omega) = 16; P = 2/16",
+            "D": "n(\\Omega) = 120; P = 2/120"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Một hộp có 14 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") = C\\_{n}"
+            },
+            {
+              "t": "math",
+              "v": "^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và xác suất lấy được 2 viên bi đen lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 120; P = 1/120"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 240; P = 1/240"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 16; P = 2/16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 120; P = 2/120"
+              }
+            ]
+          },
+          "issues": [
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Một hộp có 14 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n($\\Omega$) = C\\_{n}$^{2}$ và xác suất lấy được 2 viên bi đen lần lượt là",
+            "choices": {
+              "A": "n($\\Omega$) = 120; P = 1/120",
+              "B": "n($\\Omega$) = 240; P = 1/240",
+              "C": "n($\\Omega$) = 16; P = 2/16",
+              "D": "n($\\Omega$) = 120; P = 2/120"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-33",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IX: Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng",
+          "choices": {
+            "A": "5/9",
+            "B": "2/9",
+            "C": "4/9",
+            "D": "1/3"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IX: Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IX: Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng",
+            "choices": {
+              "A": "5/9",
+              "B": "2/9",
+              "C": "4/9",
+              "D": "1/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-34",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng",
+          "choices": {
+            "A": "3/4",
+            "B": "1/2",
+            "C": "1/16",
+            "D": "15/16"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15/16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng",
+            "choices": {
+              "A": "3/4",
+              "B": "1/2",
+              "C": "1/16",
+              "D": "15/16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-35",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương IX, xét bài toán: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng",
+          "choices": {
+            "A": "1/3",
+            "B": "2/9",
+            "C": "1/6",
+            "D": "5/18"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương IX, xét bài toán: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5/18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương IX, xét bài toán: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng",
+            "choices": {
+              "A": "1/3",
+              "B": "2/9",
+              "C": "1/6",
+              "D": "5/18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-36",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Tính xác suất theo định nghĩa cổ điển): Một hộp có 18 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n(\\Omega) = C\\_{n}^{2} và xác suất lấy được 2 viên bi đen lần lượt là. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "n(\\Omega) = 190; P = 2/190",
+            "B": "n(\\Omega) = 190; P = 1/190",
+            "C": "n(\\Omega) = 20; P = 2/20",
+            "D": "n(\\Omega) = 380; P = 1/380"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Tính xác suất theo định nghĩa cổ điển): Một hộp có 18 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") = C\\_{n}"
+            },
+            {
+              "t": "math",
+              "v": "^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và xác suất lấy được 2 viên bi đen lần lượt là. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 190; P = 2/190"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 190; P = 1/190"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 20; P = 2/20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 380; P = 1/380"
+              }
+            ]
+          },
+          "issues": [
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Tính xác suất theo định nghĩa cổ điển): Một hộp có 18 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n($\\Omega$) = C\\_{n}$^{2}$ và xác suất lấy được 2 viên bi đen lần lượt là. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "n($\\Omega$) = 190; P = 2/190",
+              "B": "n($\\Omega$) = 190; P = 1/190",
+              "C": "n($\\Omega$) = 20; P = 2/20",
+              "D": "n($\\Omega$) = 380; P = 1/380"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-37",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng",
+          "choices": {
+            "A": "4/9",
+            "B": "5/9",
+            "C": "1/3",
+            "D": "2/9"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu bằng",
+            "choices": {
+              "A": "4/9",
+              "B": "5/9",
+              "C": "1/3",
+              "D": "2/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-38",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương IX: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng. Kết luận đúng là",
+          "choices": {
+            "A": "1/16",
+            "B": "3/4",
+            "C": "1/2",
+            "D": "15/16"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương IX: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15/16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương IX: Gieo một đồng xu cân đối 4 lần liên tiếp. Xác suất để có ít nhất 1 lần xuất hiện mặt Ngửa bằng. Kết luận đúng là",
+            "choices": {
+              "A": "1/16",
+              "B": "3/4",
+              "C": "1/2",
+              "D": "15/16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-39",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IX: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng",
+          "choices": {
+            "A": "1/6",
+            "B": "2/9",
+            "C": "1/3",
+            "D": "5/18"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IX: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5/18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IX: Từ một tổ gồm 5 nam và 4 nữ, chọn ngẫu nhiên 2 người. Xác suất để cả 2 người được chọn đều là nữ bằng",
+            "choices": {
+              "A": "1/6",
+              "B": "2/9",
+              "C": "1/3",
+              "D": "5/18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-40",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hộp có 22 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n(\\Omega) = C\\_{n}^{2} và xác suất lấy được 2 viên bi đen lần lượt là",
+          "choices": {
+            "A": "n(\\Omega) = 552; P = 1/552",
+            "B": "n(\\Omega) = 24; P = 2/24",
+            "C": "n(\\Omega) = 276; P = 1/276",
+            "D": "n(\\Omega) = 276; P = 2/276"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hộp có 22 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n("
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": ") = C\\_{n}"
+            },
+            {
+              "t": "math",
+              "v": "^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và xác suất lấy được 2 viên bi đen lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 552; P = 1/552"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 24; P = 2/24"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 276; P = 1/276"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n("
+              },
+              {
+                "t": "math",
+                "v": "\\Omega"
+              },
+              {
+                "t": "txt",
+                "v": ") = 276; P = 2/276"
+              }
+            ]
+          },
+          "issues": [
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hộp có 22 viên bi trắng và 2 viên bi đen. Lấy ngẫu nhiên đồng thời 2 viên bi từ hộp. Số phần tử của không gian mẫu n($\\Omega$) = C\\_{n}$^{2}$ và xác suất lấy được 2 viên bi đen lần lượt là",
+            "choices": {
+              "A": "n($\\Omega$) = 552; P = 1/552",
+              "B": "n($\\Omega$) = 24; P = 2/24",
+              "C": "n($\\Omega$) = 276; P = 1/276",
+              "D": "n($\\Omega$) = 276; P = 2/276"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-41",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng",
+          "choices": {
+            "A": "1/5",
+            "B": "2/5",
+            "C": "3/5",
+            "D": "1/2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng",
+            "choices": {
+              "A": "1/5",
+              "B": "2/5",
+              "C": "3/5",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-42",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương IX – Tính xác suất theo định nghĩa cổ điển): Một hộp có 6 quả cầu trắng và 4 quả cầu đen. Lấy ngẫu nhiên đồng thời 3 quả cầu. Xác suất để trong 3 quả cầu lấy ra có ít nhất 1 quả cầu đen bằng. Kết quả đúng là",
+          "choices": {
+            "A": "5/6",
+            "B": "3/4",
+            "C": "2/3",
+            "D": "1/6"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương IX – Tính xác suất theo định nghĩa cổ điển): Một hộp có 6 quả cầu trắng và 4 quả cầu đen. Lấy ngẫu nhiên đồng thời 3 quả cầu. Xác suất để trong 3 quả cầu lấy ra có ít nhất 1 quả cầu đen bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5/6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương IX – Tính xác suất theo định nghĩa cổ điển): Một hộp có 6 quả cầu trắng và 4 quả cầu đen. Lấy ngẫu nhiên đồng thời 3 quả cầu. Xác suất để trong 3 quả cầu lấy ra có ít nhất 1 quả cầu đen bằng. Kết quả đúng là",
+            "choices": {
+              "A": "5/6",
+              "B": "3/4",
+              "C": "2/3",
+              "D": "1/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-43",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương IX để giải bài toán: Xếp ngẫu nhiên 6 quyển sách khác nhau (trong đó có 1 quyển Toán và 1 quyển Vật lí) thành một hàng ngang trên giá sách. Xác suất để hai quyển Toán và Vật lí đứng cạnh nhau là",
+          "choices": {
+            "A": "2/6",
+            "B": "1/6",
+            "C": "4/6",
+            "D": "2/30"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương IX để giải bài toán: Xếp ngẫu nhiên 6 quyển sách khác nhau (trong đó có 1 quyển Toán và 1 quyển Vật lí) thành một hàng ngang trên giá sách. Xác suất để hai quyển Toán và Vật lí đứng cạnh nhau là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4/6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/30"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương IX để giải bài toán: Xếp ngẫu nhiên 6 quyển sách khác nhau (trong đó có 1 quyển Toán và 1 quyển Vật lí) thành một hàng ngang trên giá sách. Xác suất để hai quyển Toán và Vật lí đứng cạnh nhau là",
+            "choices": {
+              "A": "2/6",
+              "B": "1/6",
+              "C": "4/6",
+              "D": "2/30"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-44",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương IX: Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng",
+          "choices": {
+            "A": "2/5",
+            "B": "1/5",
+            "C": "3/5",
+            "D": "1/2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương IX: Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương IX: Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng",
+            "choices": {
+              "A": "2/5",
+              "B": "1/5",
+              "C": "3/5",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-45",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương IX: Một hộp có 6 quả cầu trắng và 4 quả cầu đen. Lấy ngẫu nhiên đồng thời 3 quả cầu. Xác suất để trong 3 quả cầu lấy ra có ít nhất 1 quả cầu đen bằng. Đáp số chính xác là",
+          "choices": {
+            "A": "1/6",
+            "B": "2/3",
+            "C": "5/6",
+            "D": "3/4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương IX: Một hộp có 6 quả cầu trắng và 4 quả cầu đen. Lấy ngẫu nhiên đồng thời 3 quả cầu. Xác suất để trong 3 quả cầu lấy ra có ít nhất 1 quả cầu đen bằng. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5/6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương IX: Một hộp có 6 quả cầu trắng và 4 quả cầu đen. Lấy ngẫu nhiên đồng thời 3 quả cầu. Xác suất để trong 3 quả cầu lấy ra có ít nhất 1 quả cầu đen bằng. Đáp số chính xác là",
+            "choices": {
+              "A": "1/6",
+              "B": "2/3",
+              "C": "5/6",
+              "D": "3/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-46",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương IX để tìm đáp án cho bài toán: Xếp ngẫu nhiên 9 quyển sách khác nhau (trong đó có 1 quyển Toán và 1 quyển Vật lí) thành một hàng ngang trên giá sách. Xác suất để hai quyển Toán và Vật lí đứng cạnh nhau là",
+          "choices": {
+            "A": "2/9",
+            "B": "2/72",
+            "C": "1/9",
+            "D": "7/9"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương IX để tìm đáp án cho bài toán: Xếp ngẫu nhiên 9 quyển sách khác nhau (trong đó có 1 quyển Toán và 1 quyển Vật lí) thành một hàng ngang trên giá sách. Xác suất để hai quyển Toán và Vật lí đứng cạnh nhau là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/72"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương IX để tìm đáp án cho bài toán: Xếp ngẫu nhiên 9 quyển sách khác nhau (trong đó có 1 quyển Toán và 1 quyển Vật lí) thành một hàng ngang trên giá sách. Xác suất để hai quyển Toán và Vật lí đứng cạnh nhau là",
+            "choices": {
+              "A": "2/9",
+              "B": "2/72",
+              "C": "1/9",
+              "D": "7/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-47",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IX: Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng",
+          "choices": {
+            "A": "1/2",
+            "B": "3/5",
+            "C": "1/5",
+            "D": "2/5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IX: Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IX: Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng",
+            "choices": {
+              "A": "1/2",
+              "B": "3/5",
+              "C": "1/5",
+              "D": "2/5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-48",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IX): Một hộp có 6 quả cầu trắng và 4 quả cầu đen. Lấy ngẫu nhiên đồng thời 3 quả cầu. Xác suất để trong 3 quả cầu lấy ra có ít nhất 1 quả cầu đen bằng",
+          "choices": {
+            "A": "2/3",
+            "B": "3/4",
+            "C": "5/6",
+            "D": "1/6"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IX): Một hộp có 6 quả cầu trắng và 4 quả cầu đen. Lấy ngẫu nhiên đồng thời 3 quả cầu. Xác suất để trong 3 quả cầu lấy ra có ít nhất 1 quả cầu đen bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5/6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IX): Một hộp có 6 quả cầu trắng và 4 quả cầu đen. Lấy ngẫu nhiên đồng thời 3 quả cầu. Xác suất để trong 3 quả cầu lấy ra có ít nhất 1 quả cầu đen bằng",
+            "choices": {
+              "A": "2/3",
+              "B": "3/4",
+              "C": "5/6",
+              "D": "1/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-49",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương IX, hãy giải quyết bài toán: Xếp ngẫu nhiên 12 quyển sách khác nhau (trong đó có 1 quyển Toán và 1 quyển Vật lí) thành một hàng ngang trên giá sách. Xác suất để hai quyển Toán và Vật lí đứng cạnh nhau là",
+          "choices": {
+            "A": "2/12",
+            "B": "1/12",
+            "C": "10/12",
+            "D": "2/132"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương IX, hãy giải quyết bài toán: Xếp ngẫu nhiên 12 quyển sách khác nhau (trong đó có 1 quyển Toán và 1 quyển Vật lí) thành một hàng ngang trên giá sách. Xác suất để hai quyển Toán và Vật lí đứng cạnh nhau là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10/12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/132"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương IX, hãy giải quyết bài toán: Xếp ngẫu nhiên 12 quyển sách khác nhau (trong đó có 1 quyển Toán và 1 quyển Vật lí) thành một hàng ngang trên giá sách. Xác suất để hai quyển Toán và Vật lí đứng cạnh nhau là",
+            "choices": {
+              "A": "2/12",
+              "B": "1/12",
+              "C": "10/12",
+              "D": "2/132"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-09-50",
+          "grade": 10,
+          "chapter": 9,
+          "chapterTitle": "TÍNH XÁC SUẤT THEO ĐỊNH NGHĨA CỔ ĐIỂN",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương IX: Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng. Phương án đúng là",
+          "choices": {
+            "A": "1/5",
+            "B": "1/2",
+            "C": "3/5",
+            "D": "2/5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương IX: Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương IX: Xếp ngẫu nhiên 5 học sinh gồm A, B, C, D, E thành một hàng ngang. Xác suất để hai bạn A và B luôn đứng cạnh nhau bằng. Phương án đúng là",
+            "choices": {
+              "A": "1/5",
+              "B": "1/2",
+              "C": "3/5",
+              "D": "2/5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+/* MathLab6 additive in each original grade-six model; never a replacement for museum. */
+.labshell-app .math6-launch{background:#078779!important;color:white!important;border-color:#078779!important;font-weight:850!important;box-shadow:0 3px 14px rgba(6,103,101,.17)}
+.labshell-app .math6-launch:hover{background:#056e67!important;color:white!important}
+.labshell-app .math6-library-option{background:rgba(0,148,136,.07)}
+.labshell-app .math6-library-option.active{background:#058b84;color:white}
+.labshell-app .math6-library-option[hidden],.labshell-app .math6-launch[hidden]{display:none!important}
+.labshell-app.math6-active .stage-tools-top>.lab-tool-btn:not(.math6-launch),.labshell-app.math6-active .mv11-toolbar-more{display:none!important}
+.labshell-app.math6-active .v10-viewport-badge,.labshell-app.math6-active .stage-metrics-strip{display:none!important}
+.labshell-app.math6-active .labshell-inspector .inspector-desc,.labshell-app.math6-active .inspector-tab-bar,.labshell-app.math6-active .inspector-formula-box,.labshell-app.math6-active .inspector-curriculum{display:none!important}
+.labshell-app.math6-active .inspector-controls{display:block!important}
+.labshell-app.math6-active .stage-viewport-outer{margin:7px 10px 4px;min-height:0;background:#edf6f7;border-radius:16px}
+.labshell-app.math6-active .labshell-stage-wrap{background:#eff5f8}
+.labshell-app.math6-active .stage-subhead{padding:11px 15px;min-height:57px}
+.labshell-app.math6-active .stage-main-title{font-size:19px}
+.labshell-app.math6-active .stage-status{padding:8px 12px;font-size:11px;line-height:1.4}
+.labshell-app .math6-library-card .card-sub{font-size:10px;line-height:1.45}
+.labshell-app .math6-library-card.active{background:#e1f7f2;border-color:#36b1a4}
+.math6-exhibit-lab{display:flex;flex-direction:column;height:100%;min-height:0;width:100%;color:#25495e;background:#f4f9fb;font:12px/1.45 'Segoe UI',system-ui,sans-serif;overflow:hidden}
+.math6-exhibit-lab button,.math6-exhibit-lab select{font-family:inherit}
+.math6-portal-heading{padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex:0 0 auto;background:linear-gradient(100deg,#e5f5f3,#eff7fa);border-bottom:1px solid #d4e6eb}
+.math6-title-block{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1 1 auto}
+.math6-title-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.math6-model-title{margin:0;font-size:18px;font-weight:850;color:#0b4d58;line-height:1.3}
+.math6-badges{display:inline-flex;align-items:center;gap:6px}
+.math6-tax-badge{display:inline-block;padding:3px 9px;border-radius:6px;font-size:11px;font-weight:750;line-height:1.2}
+.math6-tax-plane_math_2d{background:#e0f2fe;color:#0369a1;border:1px solid #bae6fd}
+.math6-tax-solid_3d{background:#fef3c7;color:#92400e;border:1px solid #fde68a}
+.math6-tax-physical_object_3d{background:#dcfce7;color:#166534;border:1px solid #bbf7d0}
+.math6-tax-number_2d{background:#f3e8ff;color:#6b21a8;border:1px solid #e9d5ff}
+.math6-tax-data_2d{background:#ffedd5;color:#9a3412;border:1px solid #fed7aa}
+.math6-tax-probability_interactive{background:#fce7f3;color:#9d174d;border:1px solid #fbcfe8}
+.math6-curated-badge{display:inline-block;padding:3px 8px;border-radius:6px;font-size:11px;font-weight:750;line-height:1.2}
+.math6-curated-badge.featured{background:#059669;color:#ffffff}
+.math6-curated-badge.archived{background:#64748b;color:#ffffff}
+.math6-anchor-caption{font-size:11.5px;color:#436a7b;display:flex;align-items:center;gap:6px}
+.math6-anchor-caption strong{color:#1e4f60}
+.math6-anchor-caption small{color:#648999;font-weight:600}
+.math6-related-wrap{display:flex;align-items:center;gap:8px;min-width:0;max-width:45%;flex-shrink:0}
+.math6-related-wrap label{white-space:nowrap;font-weight:700;font-size:11px;color:#4c7083}
+.math6-related-wrap select{min-width:140px;max-width:320px;width:100%;font-size:12px;font-weight:600;color:#244e60;background:#fff;padding:7px 10px;border:1px solid #c6dfe7;border-radius:8px}
+.math6-modebar{padding:8px 14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;flex:0 0 auto;background:white;border-bottom:1px solid #d7e6ed}
+.math6-modebar button,.math6-savebar button,.math6-import{border:1px solid #cee0e7;border-radius:9px;background:#f9fbfc;color:#3b6577;cursor:pointer;padding:8px 13px;font-size:12px;font-weight:760;white-space:nowrap;transition:all .15s ease}
+.math6-modebar button.active{background:#068a83;color:#fff;border-color:#068a83;box-shadow:0 2px 8px rgba(6,138,131,.25)}
+.math6-modebar button:disabled{opacity:.45;cursor:not-allowed;background:#f1f5f9;color:#94a3b8;border-color:#e2e8f0}
+.math6-modebar button.math6-copy{margin-left:auto;background:#e3f6f1;color:#157669;border-color:#aadbcf}
+.math6-shape-tools{display:flex;gap:5px;align-items:center;max-width:100%;min-height:34px;padding:5px 10px;flex-shrink:0;overflow-x:auto;background:#f3fafb}
+.math6-shape-tools[hidden]{display:none!important}
+.math6-shape-tools .tool-chip{border:1px solid #bddce2;background:#fff;padding:6px 8px;border-radius:7px;color:#235f6a;font-size:10px;white-space:nowrap;cursor:grab}
+.math6-shape-tools .shape-tool-label{font-weight:800;white-space:nowrap;font-size:10px;color:#4e7284}
+.math6-display{position:relative;flex:1 1 auto;min-height:220px;background:#0d2332;margin:8px 14px;border:1px solid #cbdde5;border-radius:14px;overflow:hidden;box-shadow:0 8px 24px rgba(14,66,94,.14)}
+.math6-display canvas{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;touch-action:none;cursor:crosshair}
+.math6-display canvas[hidden]{display:none!important}
+.math6-lab-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:4px 16px 8px;flex:0 0 auto;font-size:12px;color:#297782;font-weight:750}
+.math6-source{font-size:11px;color:#54778c;text-align:right;white-space:nowrap}
+.math6-motion{flex:0 0 auto;margin:0 14px 6px;background:#fff;border:1px solid #d8e8ed;border-radius:10px}
+.math6-motion>summary{cursor:pointer;list-style:none;font-size:12px;font-weight:780;color:#2e6f79;padding:9px 14px}
+.math6-motion>summary::after{content:'⌄';float:right;font-size:15px}
+.math6-motion:not([open])>summary::after{content:'▸'}
+.math6-model-motion{padding:6px 14px 10px;display:grid;gap:6px}
+.math6-model-motion[hidden],.math6-studio-motion[hidden]{display:none!important}
+.math6-motion-description{font-size:11px;color:#587788;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.math6-motion-range{display:flex;align-items:center;gap:8px}
+.math6-motion-range input{flex:1;min-width:50px;accent-color:#07948b}
+.math6-motion-range output{white-space:nowrap;font-weight:750;font-size:10px;color:#517888}
+.math6-motion-actions{display:flex;gap:5px;flex-wrap:wrap}
+.math6-motion-actions button,.math6-motion-actions select{padding:6px 9px;border:1px solid #cde3e5;border-radius:7px;background:#eef8f8;color:#2e6d79;cursor:pointer;font-weight:740;font-size:10px}
+.math6-savebar{padding:5px 12px 7px;display:flex;gap:6px;justify-content:flex-end;flex:0 0 auto}
+.math6-savebar button,.math6-import{padding:6px 9px;font-size:10px}
+.math6-parameters,.math6-studio-inspector{display:grid;gap:9px;min-width:0}
+.math6-parameters[hidden],.math6-studio-inspector[hidden]{display:none!important}
+.math6-controls-title{margin:0;font-size:12px;font-weight:870;color:#236c73}
+.math6-controls-note{margin:0 0 4px;font-size:11px;color:#55778a;line-height:1.6}
+.math6-param-row{display:grid;gap:8px;padding:9px;border-radius:10px;background:#f7fbfc;border:1px solid #d5e7ec}
+.math6-param-head{display:flex;justify-content:space-between;gap:8px;font-size:10.5px;color:#375f72}
+.math6-param-head output{font-weight:850;font-size:13px;color:#138b88}
+.math6-param-row input{width:100%;accent-color:#0c9c96}
+.math6-chance-actions{display:flex;flex-wrap:wrap;gap:6px}
+.math6-chance-actions button,.math6-studio-inspector .studio-actions button{font-size:10px;color:#2c6677;background:#eaf8f5;border:1px solid #bddde0;padding:8px;border-radius:8px;cursor:pointer}
+.math6-controls-source{margin:0;color:#6c8a97;font-size:10px}
+.math6-studio-inspector h3{font-size:13px;color:#266a71;margin:0}
+.math6-studio-inspector .studio-layers{display:grid;gap:4px;max-height:170px;overflow:auto;border:1px solid #dbe8ed;padding:7px;border-radius:8px}
+.math6-studio-inspector .layer-row{font:620 11px system-ui;padding:7px 9px;border:0;border-radius:7px;background:#f6fafb;color:#466678;text-align:left}
+.math6-studio-inspector .layer-row.selected{color:#047878;background:#dff6ef}
+.math6-studio-inspector .studio-actions{display:flex;flex-wrap:wrap;gap:5px}
+.math6-studio-inspector .studio-metrics{padding:9px;background:#e4f7f0;border-radius:8px;color:#23766d;font-size:11px;font-weight:760}
+.math6-studio-inspector .studio-edit{display:grid;gap:4px;font-size:10px;color:#4e7284}
+.math6-studio-inspector .studio-edit input{min-width:0;border:1px solid #cfdee8;border-radius:7px;padding:7px;color:#315264;background:white}
+.math6-studio-inspector .studio-input-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.math6-studio-inspector .hint{font-size:10px;color:#5a8190;line-height:1.5}
+.math6-studio-motion{padding:8px;display:grid;gap:7px;max-height:140px;overflow:auto}
+.math6-studio-motion .motion-actions{display:flex;flex-wrap:wrap;gap:5px}
+.math6-studio-motion button,.math6-studio-motion select{border:1px solid #cde2e5;border-radius:7px;background:#effafa;padding:6px 9px;font-size:10px;color:#366c73}
+.math6-studio-motion .timeline-track{display:flex;align-items:center;gap:8px}
+.math6-studio-motion .timeline-track input{flex:1;accent-color:#128b86}
+.math6-studio-motion .frame-labels{display:flex;gap:5px;max-width:100%;overflow:auto}
+.labshell-app.theme-dark .math6-exhibit-lab{background:#1b3b4d;color:#e7f6fb}
+.labshell-app.theme-dark .math6-portal-heading,.labshell-app.theme-dark .math6-modebar,.labshell-app.theme-dark .math6-motion{background:#234455;border-color:#3b6276}
+.labshell-app.theme-dark .math6-context,.labshell-app.theme-dark .math6-related-wrap label,.labshell-app.theme-dark .math6-savebar{color:#b0e9e1}
+@media(max-width:1230px){.math6-portal-heading{display:block}.math6-context{max-width:none}.math6-related-wrap{max-width:none;margin-top:6px}.math6-display{min-height:190px}.math6-modebar{gap:4px}.math6-modebar button{font-size:10px;padding:7px}}
+@media(max-height:740px){.math6-motion{max-height:90px;overflow:auto}.math6-portal-heading{padding:5px 8px}.math6-display{min-height:150px;margin:4px 8px}.math6-modebar{padding:4px}}
+@media(max-width:780px){.labshell-app.math6-active .labshell-stage-wrap{min-height:550px}.math6-lab-footer{display:block}.math6-source{display:block;text-align:left}.math6-related-wrap select{max-width:100%}}

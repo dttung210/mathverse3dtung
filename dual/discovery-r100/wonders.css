@@ -1,0 +1,36 @@
+/* R100 heritage viewer. Fully inside MATHVERSE; no cross-site navigation for 3D. */
+.r100-cover[hidden]{display:none!important}.r100-cover{position:fixed;inset:0;z-index:10020;background:rgba(4,16,29,.88);display:grid;place-items:center;padding:12px;font-family:system-ui,'Segoe UI',sans-serif;color:#eaf5ef}
+.r100-window{width:min(1540px,98vw);height:min(96vh,1000px);background:#0b2234;border:1px solid #d6b476;border-radius:16px;box-shadow:0 15px 75px #0008;display:flex;flex-direction:column;overflow:hidden}
+.r100-top{padding:16px 20px;display:flex;gap:12px;align-items:start;justify-content:space-between;background:linear-gradient(110deg,#0c2133,#164558)}
+.r100-top small{font-size:12px;font-weight:800;color:#52dfd5;letter-spacing:.8px}.r100-top h2{font-size:clamp(19px,2.2vw,28px);margin:5px 0;color:#efd39b}.r100-top p{font-size:13px;color:#b7d7d9;margin:0}
+.r100-top button,.r100-tools button{background:#14394a;color:#f3e7cd;border:1px solid #bb9466;border-radius:9px;padding:11px 14px;font-size:13px;font-weight:800;cursor:pointer}
+.r100-tools{display:flex;flex-wrap:wrap;gap:9px;padding:10px 14px;background:#112d3e;border-top:1px solid #2b6972;border-bottom:1px solid #2b6972}
+.r100-tools input,.r100-tools select{background:#0a2335;border:1px solid #408c99;border-radius:8px;color:#f2f5ed;padding:9px 12px;font-size:14px;min-width:150px;flex:1}
+.r100-tools select{flex:0 1 240px}.r100-body{display:grid;grid-template-columns:260px 1fr;min-height:0;flex:1}
+.r100-list{overflow:auto;padding:10px;background:#0a1c2e;border-right:1px solid #376679;display:flex;flex-direction:column;gap:6px}
+.r100-entry{background:#132f40;color:#f3f7f6;border:1px solid #33596c;text-align:left;border-radius:8px;padding:10px;cursor:pointer;display:grid;gap:3px}
+.r100-entry b{font-size:13px}.r100-entry span{font-size:11px;color:#a4ced1}.r100-entry:hover,.r100-entry.current{background:#194952;border-color:#e5bd75}
+.r100-details{overflow:auto;padding:14px}.r100-subtitle{color:#55ddd0;font-size:12px;font-weight:800}.r100-details h3{font-size:clamp(19px,2vw,27px);color:#f3ce91;margin:4px 0 12px}
+.r100-media-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:12px}.r100-media-grid section{min-width:0}
+.r100-media-grid h4{font-size:14px;color:#bce6e3;margin:0 0 8px}.r100-photo-box,.r100-viewer{background:#071b2e;border:1px solid #25586b;border-radius:9px;position:relative;aspect-ratio:16/10;overflow:hidden}
+.r100-photo-box{display:grid;place-items:center}.r100-photo-box img{width:100%;height:100%;object-fit:contain}.r100-photo-box img[hidden]{display:none}
+#r100-photo-fallback{font-size:13px;text-align:center;padding:24px;color:#c8d8d8}.r100-viewer iframe{display:block;width:100%;height:100%;border:0}.r100-viewer-notice{position:absolute;bottom:0;left:0;right:0;background:#0b2539d4;color:#d8ebe6;padding:7px;font-size:11px;pointer-events:none}
+.r100-media-grid a,.r100-info a{display:block;color:#6ae1d6;font-size:12px;overflow-wrap:anywhere;margin:6px 0}
+.r100-info{line-height:1.55}.r100-info p{font-size:14px;color:#e2eae8;margin:12px 0}.r100-info dl{display:grid;grid-template-columns:140px 1fr;gap:7px;border-top:1px solid #3a6274;padding-top:12px;font-size:13px}.r100-info dt{font-weight:800;color:#59cfc5}.r100-info dd{margin:0;color:#e2ecef}.r100-info dd a{display:inline}
+#r100-caution{color:#f0cb8c;font-weight:600}.r100-window footer{padding:9px 17px;font-size:11px;color:#b9cfd4;background:#091d2a;border-top:1px solid #376479}
+.r100-no-result{color:#a6c8c8;padding:10px}
+@media(max-width:900px){.r100-body{grid-template-columns:1fr}.r100-list{display:flex;flex-direction:row;overflow:auto;max-height:112px;border-right:0;border-bottom:1px solid #33596c}.r100-entry{min-width:155px}.r100-media-grid{grid-template-columns:1fr}.r100-window{height:97vh}.r100-info dl{grid-template-columns:95px 1fr}.r100-tools{padding:7px}.r100-top{padding:9px}.r100-top p{display:none}}
+
+/* R102 additions respect the original verified R100 two-column UI. */
+.r100-cover [hidden]{display:none!important}
+.r102-tabs{display:flex;gap:6px;flex-wrap:wrap;padding:8px 0 0}
+.r102-tabs button{background:#142f43;border:1px solid #5c9cab;color:#c7e9ed;padding:7px 11px;border-radius:7px;cursor:pointer;font:600 12px system-ui}
+.r102-tabs button.active{background:#d9b778;border-color:#f0d296;color:#14283a}
+.r102-geometry-container{height:390px;position:relative;background:#081c2e;border:1px solid #286776;border-radius:9px;overflow:hidden;margin-top:10px}
+.r102-geometry-container canvas{width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+.r102-geometry-fallback{position:absolute;inset:0;display:grid;place-items:center;padding:20px;text-align:center;color:#f2ce93;background:#071a28cf}
+.r102-math-line{margin:6px 0;padding:9px 10px;background:#0f3449;display:flex;gap:10px;align-items:center;justify-content:space-between;border-radius:7px;color:#f4d39e;font:12px monospace}
+.r102-math-line button{background:#163f4c;color:#bce7e5;border:1px solid #5caead;border-radius:7px;padding:7px 10px;cursor:pointer}
+@media(max-width:900px){.r102-geometry-container{height:340px}}
+
+.r102-svg-2d{width:100%;height:100%;display:grid;place-items:center;padding:10px}

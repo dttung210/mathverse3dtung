@@ -1,0 +1,580 @@
+/* MATHVERSE DISCOVERY R93 + R95: independent styling, confined to the fourth zone & Museum Quick Access. */
+:root {
+  --r95-bg-navy: #091b2d;
+  --r95-bg-deep-teal: #113748;
+  --r95-accent-teal: #2dcab8;
+  --r95-accent-gold: #d9b471;
+  --r95-text-primary: #edf5f8;
+  --r95-text-muted: #9db4c0;
+}
+
+#lobby-menu .door-option.discovery {
+  border-color: var(--r95-accent-teal);
+  background: linear-gradient(145deg, rgba(17, 55, 72, 0.96), rgba(9, 27, 45, 0.96));
+}
+#lobby-menu .door-options {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+#discovery-quick-panel[hidden],
+#discovery-detail[hidden],
+#discovery-globe-tools[hidden],
+#discovery-quick-panel [hidden],
+#discovery-detail [hidden] {
+  display: none !important;
+}
+
+/* Museum Quick Access button for Discovery */
+#museum-quick-discovery.discovery-museum-shortcut {
+  background: linear-gradient(135deg, #113748, #091b2d);
+  color: #edf5f8;
+  border: 1.5px solid #2dcab8;
+  box-shadow: 0 4px 14px rgba(45, 202, 184, 0.22);
+  font-weight: 800;
+  margin-top: 6px;
+}
+#museum-quick-discovery.discovery-museum-shortcut:hover {
+  background: linear-gradient(135deg, #184f66, #113748);
+  border-color: #d9b471;
+}
+
+/* Left Kiosk Panel (Room A & Room B) */
+.discovery-quick {
+  position: absolute;
+  left: 16px;
+  top: 84px;
+  z-index: 21;
+  width: min(370px, calc(100vw - 32px));
+  padding: 15px;
+  border-radius: 18px;
+  color: var(--r95-text-primary);
+  background: linear-gradient(165deg, rgba(9, 27, 45, 0.95), rgba(17, 55, 72, 0.94));
+  border: 1px solid rgba(217, 180, 113, 0.42);
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.48);
+  max-height: min(78vh, 690px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.discovery-quick .discovery-eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--r95-accent-teal);
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+.discovery-quick strong#discovery-room-heading {
+  display: block;
+  font-size: 17px;
+  color: var(--r95-accent-gold);
+}
+.discovery-quick p#discovery-panel-hint {
+  font-size: 12px;
+  color: var(--r95-text-muted);
+  line-height: 1.45;
+  margin: 6px 0 8px;
+}
+
+/* R95 Search, Continent, Grade & Collection Controls */
+.discovery-r95-controls {
+  margin-bottom: 8px;
+}
+.r95-filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: rgba(9, 27, 45, 0.72);
+  border: 1px solid rgba(45, 202, 184, 0.28);
+  border-radius: 12px;
+  padding: 9px;
+}
+.r95-filter-group input[type="search"],
+.r95-filter-group select {
+  width: 100%;
+  background: #0b2236;
+  color: var(--r95-text-primary);
+  border: 1px solid rgba(217, 180, 113, 0.45);
+  border-radius: 8px;
+  padding: 7px 9px;
+  font-size: 12px;
+  min-height: 36px;
+}
+.r95-filter-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+.r95-filter-count {
+  font-size: 11px;
+  color: var(--r95-accent-teal);
+  font-weight: 700;
+}
+.r95-collection-label {
+  font-size: 10.5px;
+  font-weight: 800;
+  color: var(--r95-accent-gold);
+  letter-spacing: 0.04em;
+}
+.r95-collection-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-height: 110px;
+  overflow-y: auto;
+}
+#discovery-quick-panel .r95-col-pill {
+  font-size: 11px;
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: #0d283d;
+  border: 1px solid rgba(45, 202, 184, 0.35);
+  color: #cfe8f0;
+  cursor: pointer;
+}
+#discovery-quick-panel .r95-col-pill.active {
+  background: linear-gradient(135deg, #2dcab8, #1b998b);
+  color: #061826;
+  border-color: #d9b471;
+  font-weight: 900;
+}
+
+#discovery-item-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+  margin: 4px 0 8px;
+  overflow-y: auto;
+  flex: 1 1 auto;
+  min-height: 120px;
+  padding-right: 4px;
+}
+#discovery-quick-panel button {
+  background: #113748;
+  color: var(--r95-text-primary);
+  border: 1px solid rgba(217, 180, 113, 0.36);
+  border-radius: 10px;
+  padding: 8px 10px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+#discovery-quick-panel button:hover {
+  background: #1a4f66;
+  border-color: var(--r95-accent-teal);
+}
+#discovery-item-list button.discovery-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.discovery-list-item .item-main strong {
+  font-size: 13px;
+  color: #edf5f8;
+  margin-bottom: 2px;
+}
+.discovery-list-item .item-main small {
+  display: block;
+  font-size: 11px;
+  color: var(--r95-text-muted);
+}
+.discovery-list-item .item-badge {
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 3px 7px;
+  border-radius: 999px;
+  background: rgba(9, 27, 45, 0.85);
+  color: var(--r95-accent-gold);
+  border: 1px solid rgba(217, 180, 113, 0.45);
+}
+.discovery-list-item .item-badge.has-3d {
+  color: var(--r95-accent-teal);
+  border-color: rgba(45, 202, 184, 0.55);
+}
+
+#discovery-globe-tools,
+#discovery-quick-panel .discovery-quick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+#discovery-quick-panel .discovery-quick-actions button,
+#discovery-globe-tools button {
+  font-size: 11.5px;
+  font-weight: 800;
+  min-height: 36px;
+}
+
+/* Comparison Modal (42% Left Fact/Photo Card | 58% Right 2D/3D/LaTeX Card) */
+.discovery-dialog {
+  position: fixed;
+  inset: 0;
+  z-index: 2500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+}
+.discovery-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(4, 13, 24, 0.9);
+  backdrop-filter: blur(9px);
+}
+.discovery-dialog-panel {
+  position: relative;
+  width: min(1220px, 98vw);
+  max-height: 95vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--r95-bg-navy);
+  border: 1.5px solid var(--r95-accent-gold);
+  border-radius: 18px;
+  box-shadow: 0 26px 90px rgba(0, 0, 0, 0.68);
+  color: var(--r95-text-primary);
+}
+.discovery-dialog-panel > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 18px;
+  background: linear-gradient(90deg, #091b2d, #113748);
+  border-bottom: 1px solid rgba(217, 180, 113, 0.42);
+}
+.discovery-dialog-panel h2 {
+  font-size: 22px;
+  margin: 2px 0;
+  color: var(--r95-accent-gold);
+}
+#discovery-category {
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  color: var(--r95-accent-teal);
+}
+#discovery-detail-close {
+  background: #79393b;
+  color: white;
+  border: 1px solid #ad7570;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-weight: 800;
+  min-height: 44px;
+  cursor: pointer;
+}
+.discovery-detail-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 42fr) minmax(0, 58fr);
+  gap: 15px;
+  padding: 15px;
+  overflow-y: auto;
+}
+.discovery-fact-card,
+.discovery-math-card {
+  min-width: 0;
+  background: linear-gradient(170deg, #0d253a, #091b2d);
+  border: 1px solid rgba(45, 202, 184, 0.34);
+  border-radius: 14px;
+  padding: 14px;
+}
+.discovery-verify-badge {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: 800;
+}
+.discovery-verify-badge span {
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: rgba(17, 55, 72, 0.9);
+  border: 1px solid rgba(217, 180, 113, 0.45);
+  color: var(--r95-accent-gold);
+}
+.discovery-verify-badge.is-verified span:first-child {
+  border-color: var(--r95-accent-teal);
+  color: var(--r95-accent-teal);
+}
+
+.discovery-image-wrap {
+  height: min(38vh, 320px);
+  background: #0e2c40;
+  border: 1px solid rgba(217, 180, 113, 0.3);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+#discovery-photo {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.discovery-offline-picture {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  width: 100%;
+  height: 100%;
+  font-size: 38px;
+  color: var(--r95-accent-gold);
+}
+.discovery-offline-picture .discovery-r95-vector-preview {
+  width: 100%;
+  max-height: 185px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.discovery-offline-picture .discovery-r95-vector-preview svg {
+  width: 100%;
+  height: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+.discovery-offline-picture span {
+  font-size: 12px;
+  line-height: 1.45;
+  color: #cfecf3;
+}
+#discovery-source {
+  display: block;
+  color: var(--r95-accent-teal);
+  font-size: 11px;
+  line-height: 1.45;
+  margin-top: 10px;
+  overflow-wrap: anywhere;
+}
+#discovery-description {
+  font-size: 13px;
+  line-height: 1.62;
+  white-space: pre-line;
+  color: var(--r95-text-primary);
+}
+.discovery-switches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.discovery-switches button,
+.discovery-preview-controls button {
+  background: #113748;
+  border: 1px solid #2dcab8;
+  color: var(--r95-text-primary);
+  padding: 8px 12px;
+  border-radius: 9px;
+  font-size: 12px;
+  min-height: 40px;
+  cursor: pointer;
+}
+.discovery-switches button.selected {
+  background: var(--r95-accent-gold);
+  color: #082032;
+  border-color: #f6e0b5;
+  font-weight: 900;
+}
+.discovery-model-frame {
+  height: min(38vh, 330px);
+  border: 1px solid rgba(45, 202, 184, 0.45);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  background: #091b2d;
+}
+#discovery-preview {
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+}
+.discovery-preview-controls {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+  display: flex;
+  gap: 8px;
+}
+#discovery-svg-holder,
+#discovery-svg-holder svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.discovery-preview-status {
+  font-size: 11px;
+  color: var(--r95-text-muted);
+  margin: 8px 0;
+}
+.discovery-latex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: rgba(17, 55, 72, 0.78);
+  border: 1px solid rgba(217, 180, 113, 0.55);
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin: 8px 0;
+}
+.discovery-latex-box .latex-label {
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--r95-accent-gold);
+}
+.discovery-latex-box .latex-code {
+  font-family: "Courier New", Consolas, monospace;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #84f7e8;
+  background: rgba(6, 20, 34, 0.85);
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+.discovery-math-card dl {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 7px 9px;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 8px 0;
+}
+.discovery-math-card dt {
+  color: var(--r95-accent-teal);
+  font-weight: 800;
+}
+.discovery-math-card dd {
+  margin: 0;
+}
+.discovery-accuracy-note {
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: #ffe2af;
+  border-top: 1px solid rgba(217, 180, 113, 0.35);
+  margin: 10px 0 0;
+  padding-top: 8px;
+}
+
+@media (max-width: 780px) {
+  .discovery-dialog-panel {
+    max-height: 98vh;
+  }
+  .discovery-detail-grid {
+    grid-template-columns: 1fr;
+  }
+  .discovery-quick {
+    top: auto;
+    bottom: 92px;
+    max-height: 44vh;
+    width: calc(100vw - 24px);
+    left: 12px;
+  }
+  .discovery-quick button,
+  .r95-filter-group input[type="search"],
+  .r95-filter-group select,
+  .discovery-switches button {
+    min-height: 44px;
+  }
+  .discovery-image-wrap {
+    height: 190px;
+  }
+  .discovery-model-frame {
+    height: 230px;
+  }
+  .discovery-dialog-panel h2 {
+    font-size: 16px;
+  }
+}
+
+/* R96: UNESCO room, licensed real photographs, direct Sketchfab embeds. */
+#discovery-model-sketchfab.discovery-model-frame {position:relative;display:flex;flex-direction:column;padding:0;min-height:340px;overflow:hidden;}
+#discovery-sketchfab-iframe {display:block;border:0;width:100%;height:clamp(300px,42vh,520px);background:#061826;}
+.discovery-iframe-note {font-size:11px;line-height:1.4;padding:8px 12px;margin:0;color:#cbdde5;background:#0e2c40;}
+#discovery-show-sketchfab {border-color:#d9b471;}
+.discovery-real-photo-status {font-size:12px;color:#9fe5d7;margin-top:4px;}
+#discovery-detail .discovery-verify-badge.is-verified span:first-child {color:#94f1c9;}
+#discovery-item-list .unesco-list-item .item-badge {color:#f8d9a1;}
+#discovery-quick-panel .unesco-page-controls {display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:8px;}
+#discovery-quick-panel .unesco-page-controls button {text-align:center;flex:1;}
+#discovery-quick-panel .unesco-page-controls small {white-space:nowrap;color:#f2d09a;}
+#discovery-quick-panel .discovery-quick-actions button {min-width:115px;}
+@media(max-width:740px){
+  #discovery-model-sketchfab.discovery-model-frame {min-height:250px;}
+  #discovery-sketchfab-iframe {height:280px;}
+  #discovery-quick-panel .discovery-quick-actions button {min-width:0;flex:1;}
+}
+
+/* R96: source attribution for art/UNESCO exhibits. */
+#discovery-unesco-source, #discovery-sketchfab-source { display:block; margin-top:6px; font-size:11px; color:#9de6d8; line-height:1.4; overflow-wrap:anywhere; }
+#discovery-model-sketchfab .discovery-iframe-note{margin:8px 12px 2px;font-size:11px;line-height:1.45;color:#deebef;}
+#discovery-sketchfab-source { margin:0 12px 10px; }
+
+/* R98 independent curation launcher */
+.r98-curation-link {color:#091d31;background:#d9b573;border-radius:6px;padding:9px 12px;text-decoration:none;font-weight:800;display:inline-flex;align-items:center;justify-content:center;margin-top:6px;width:100%;}
+.r98-curation-link:hover{background:#f5d597;}
+
+/* R107: Collapsible Discovery Quick Panel — Focus on 3D Exhibition & Interaction */
+.discovery-quick-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.discovery-panel-toggle {
+  background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+  color: #07192b !important;
+  border: 1.5px solid #fef08a !important;
+  border-radius: 999px !important;
+  padding: 5px 12px !important;
+  font-size: 11px !important;
+  font-weight: 900 !important;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.discovery-quick-compact-bar {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 5px !important;
+  margin-bottom: 6px !important;
+}
+#discovery-quick-panel .discovery-quick-compact-bar button {
+  min-width: 0 !important;
+  padding: 6px 6px !important;
+  font-size: 11px !important;
+  border-radius: 8px !important;
+}
+.discovery-collapsible-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+  overflow: hidden;
+}
+#discovery-quick-panel.is-collapsed {
+  width: min(350px, calc(100vw - 28px));
+  max-height: none;
+  padding: 10px 12px;
+  top: 72px;
+}
+#discovery-quick-panel.is-collapsed .discovery-collapsible-body {
+  display: none !important;
+}
+#discovery-quick-panel.is-collapsed .discovery-quick-compact-bar {
+  margin-bottom: 0 !important;
+}

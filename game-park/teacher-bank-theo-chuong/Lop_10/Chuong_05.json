@@ -1,0 +1,4391 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 10,
+      "chapter": 5,
+      "roman": "V",
+      "title": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "10-05-01",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cho mẫu số liệu gồm 5 giá trị: 2, 4, 6, 8, 10. Số trung bình cộng \\bar{x} và trung vị M_e của mẫu số liệu đó bằng",
+          "choices": {
+            "A": "\\bar{x} = M_e = 6",
+            "B": "\\bar{x} = 6; M_e = 8",
+            "C": "\\bar{x} = 30; M_e = 6",
+            "D": "\\bar{x} = 5; M_e = 6"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho mẫu số liệu gồm 5 giá trị: 2, 4, 6, 8, 10. Số trung bình cộng "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{x}"
+            },
+            {
+              "t": "txt",
+              "v": " và trung vị "
+            },
+            {
+              "t": "math",
+              "v": "M_e"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 6"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 6; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 8"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 30; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 6"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 5; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho mẫu số liệu gồm 5 giá trị: 2, 4, 6, 8, 10. Số trung bình cộng $\\bar{x}$ và trung vị $M_e$ của mẫu số liệu đó bằng",
+            "choices": {
+              "A": "$\\bar{x}$ = $M_e$ = 6",
+              "B": "$\\bar{x}$ = 6; $M_e$ = 8",
+              "C": "$\\bar{x}$ = 30; $M_e$ = 6",
+              "D": "$\\bar{x}$ = 5; $M_e$ = 6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-02",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Khoảng biến thiên R của mẫu số liệu: 6, 13, 4, 20, 9 bằng.",
+          "choices": {
+            "A": "16",
+            "B": "20",
+            "C": "14",
+            "D": "17"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Khoảng biến thiên R của mẫu số liệu: 6, 13, 4, 20, 9 bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Khoảng biến thiên R của mẫu số liệu: 6, 13, 4, 20, 9 bằng.",
+            "choices": {
+              "A": "16",
+              "B": "20",
+              "C": "14",
+              "D": "17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-03",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương V, xét nội dung: Mốt (M_o) của mẫu số liệu: 4; 5; 8; 5; 8; 8; 8 là. Đáp án đúng là",
+          "choices": {
+            "A": "8 (1)",
+            "B": "8",
+            "C": "5",
+            "D": "4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương V, xét nội dung: Mốt ("
+            },
+            {
+              "t": "math",
+              "v": "M_o"
+            },
+            {
+              "t": "txt",
+              "v": ") của mẫu số liệu: 4; 5; 8; 5; 8; 8; 8 là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8 (1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương V, xét nội dung: Mốt ($M_o$) của mẫu số liệu: 4; 5; 8; 5; 8; 8; 8 là. Đáp án đúng là",
+            "choices": {
+              "A": "8 (1)",
+              "B": "8",
+              "C": "5",
+              "D": "4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-04",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương V (Các số đặc trưng của mẫu số liệu không ghép nhóm), cho mẫu số liệu gồm 5 giá trị: 5, 7, 9, 11, 13. Số trung bình cộng \\bar{x} và trung vị M_e của mẫu số liệu đó bằng",
+          "choices": {
+            "A": "\\bar{x} = 9; M_e = 11",
+            "B": "\\bar{x} = M_e = 9",
+            "C": "\\bar{x} = 8; M_e = 9",
+            "D": "\\bar{x} = 45; M_e = 9"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương V (Các số đặc trưng của mẫu số liệu không ghép nhóm), cho mẫu số liệu gồm 5 giá trị: 5, 7, 9, 11, 13. Số trung bình cộng "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{x}"
+            },
+            {
+              "t": "txt",
+              "v": " và trung vị "
+            },
+            {
+              "t": "math",
+              "v": "M_e"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 9; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 11"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 9"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 8; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 9"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 45; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương V (Các số đặc trưng của mẫu số liệu không ghép nhóm), cho mẫu số liệu gồm 5 giá trị: 5, 7, 9, 11, 13. Số trung bình cộng $\\bar{x}$ và trung vị $M_e$ của mẫu số liệu đó bằng",
+            "choices": {
+              "A": "$\\bar{x}$ = 9; $M_e$ = 11",
+              "B": "$\\bar{x}$ = $M_e$ = 9",
+              "C": "$\\bar{x}$ = 8; $M_e$ = 9",
+              "D": "$\\bar{x}$ = 45; $M_e$ = 9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-05",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Khoảng biến thiên R của mẫu số liệu: 9, 16, 7, 23, 12 bằng",
+          "choices": {
+            "A": "14",
+            "B": "17",
+            "C": "16",
+            "D": "23"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Khoảng biến thiên R của mẫu số liệu: 9, 16, 7, 23, 12 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Khoảng biến thiên R của mẫu số liệu: 9, 16, 7, 23, 12 bằng",
+            "choices": {
+              "A": "14",
+              "B": "17",
+              "C": "16",
+              "D": "23"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-06",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về các số đặc trưng của mẫu số liệu không ghép nhóm, một học sinh gặp câu hỏi: Mốt (M_o) của mẫu số liệu: 4; 5; 11; 5; 11; 11; 8 là. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "5",
+            "B": "4",
+            "C": "8",
+            "D": "11"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về các số đặc trưng của mẫu số liệu không ghép nhóm, một học sinh gặp câu hỏi: Mốt ("
+            },
+            {
+              "t": "math",
+              "v": "M_o"
+            },
+            {
+              "t": "txt",
+              "v": ") của mẫu số liệu: 4; 5; 11; 5; 11; 11; 8 là. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về các số đặc trưng của mẫu số liệu không ghép nhóm, một học sinh gặp câu hỏi: Mốt ($M_o$) của mẫu số liệu: 4; 5; 11; 5; 11; 11; 8 là. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "5",
+              "B": "4",
+              "C": "8",
+              "D": "11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-07",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho mẫu số liệu gồm 5 giá trị: 8, 10, 12, 14, 16. Số trung bình cộng \\bar{x} và trung vị M_e của mẫu số liệu đó bằng",
+          "choices": {
+            "A": "\\bar{x} = 12; M_e = 14",
+            "B": "\\bar{x} = 11; M_e = 12",
+            "C": "\\bar{x} = M_e = 12",
+            "D": "\\bar{x} = 60; M_e = 12"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho mẫu số liệu gồm 5 giá trị: 8, 10, 12, 14, 16. Số trung bình cộng "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{x}"
+            },
+            {
+              "t": "txt",
+              "v": " và trung vị "
+            },
+            {
+              "t": "math",
+              "v": "M_e"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 12; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 14"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 11; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 12"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 12"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 60; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho mẫu số liệu gồm 5 giá trị: 8, 10, 12, 14, 16. Số trung bình cộng $\\bar{x}$ và trung vị $M_e$ của mẫu số liệu đó bằng",
+            "choices": {
+              "A": "$\\bar{x}$ = 12; $M_e$ = 14",
+              "B": "$\\bar{x}$ = 11; $M_e$ = 12",
+              "C": "$\\bar{x}$ = $M_e$ = 12",
+              "D": "$\\bar{x}$ = 60; $M_e$ = 12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-08",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương V: Khoảng biến thiên R của mẫu số liệu: 12, 19, 10, 26, 15 bằng",
+          "choices": {
+            "A": "14",
+            "B": "16",
+            "C": "26",
+            "D": "17"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương V: Khoảng biến thiên R của mẫu số liệu: 12, 19, 10, 26, 15 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương V: Khoảng biến thiên R của mẫu số liệu: 12, 19, 10, 26, 15 bằng",
+            "choices": {
+              "A": "14",
+              "B": "16",
+              "C": "26",
+              "D": "17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-09",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Mốt (M_o) của mẫu số liệu: 4; 5; 14; 5; 14; 14; 8 là",
+          "choices": {
+            "A": "5",
+            "B": "8",
+            "C": "4",
+            "D": "14"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Mốt ("
+            },
+            {
+              "t": "math",
+              "v": "M_o"
+            },
+            {
+              "t": "txt",
+              "v": ") của mẫu số liệu: 4; 5; 14; 5; 14; 14; 8 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Mốt ($M_o$) của mẫu số liệu: 4; 5; 14; 5; 14; 14; 8 là",
+            "choices": {
+              "A": "5",
+              "B": "8",
+              "C": "4",
+              "D": "14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-10",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Cho mẫu số liệu gồm 5 giá trị: 11, 13, 15, 17, 19. Số trung bình cộng \\bar{x} và trung vị M_e của mẫu số liệu đó bằng. Phương án chính xác là",
+          "choices": {
+            "A": "\\bar{x} = 15; M_e = 17",
+            "B": "\\bar{x} = M_e = 15",
+            "C": "\\bar{x} = 75; M_e = 15",
+            "D": "\\bar{x} = 14; M_e = 15"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Cho mẫu số liệu gồm 5 giá trị: 11, 13, 15, 17, 19. Số trung bình cộng "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{x}"
+            },
+            {
+              "t": "txt",
+              "v": " và trung vị "
+            },
+            {
+              "t": "math",
+              "v": "M_e"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu đó bằng. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 15; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 17"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 15"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 75; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 15"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 14; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Cho mẫu số liệu gồm 5 giá trị: 11, 13, 15, 17, 19. Số trung bình cộng $\\bar{x}$ và trung vị $M_e$ của mẫu số liệu đó bằng. Phương án chính xác là",
+            "choices": {
+              "A": "$\\bar{x}$ = 15; $M_e$ = 17",
+              "B": "$\\bar{x}$ = $M_e$ = 15",
+              "C": "$\\bar{x}$ = 75; $M_e$ = 15",
+              "D": "$\\bar{x}$ = 14; $M_e$ = 15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-11",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Khoảng biến thiên R của mẫu số liệu: 15, 22, 13, 29, 18 bằng",
+          "choices": {
+            "A": "16",
+            "B": "29",
+            "C": "17",
+            "D": "14"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Khoảng biến thiên R của mẫu số liệu: 15, 22, 13, 29, 18 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "29"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Khoảng biến thiên R của mẫu số liệu: 15, 22, 13, 29, 18 bằng",
+            "choices": {
+              "A": "16",
+              "B": "29",
+              "C": "17",
+              "D": "14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-12",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương V): Mốt (M_o) của mẫu số liệu: 4; 5; 17; 5; 17; 17; 8 là",
+          "choices": {
+            "A": "5",
+            "B": "4",
+            "C": "8",
+            "D": "17"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương V): Mốt ("
+            },
+            {
+              "t": "math",
+              "v": "M_o"
+            },
+            {
+              "t": "txt",
+              "v": ") của mẫu số liệu: 4; 5; 17; 5; 17; 17; 8 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương V): Mốt ($M_o$) của mẫu số liệu: 4; 5; 17; 5; 17; 17; 8 là",
+            "choices": {
+              "A": "5",
+              "B": "4",
+              "C": "8",
+              "D": "17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-13",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương V), cho mẫu số liệu gồm 5 giá trị: 14, 16, 18, 20, 22. Số trung bình cộng \\bar{x} và trung vị M_e của mẫu số liệu đó bằng",
+          "choices": {
+            "A": "\\bar{x} = M_e = 18",
+            "B": "\\bar{x} = 90; M_e = 18",
+            "C": "\\bar{x} = 17; M_e = 18",
+            "D": "\\bar{x} = 18; M_e = 20"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương V), cho mẫu số liệu gồm 5 giá trị: 14, 16, 18, 20, 22. Số trung bình cộng "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{x}"
+            },
+            {
+              "t": "txt",
+              "v": " và trung vị "
+            },
+            {
+              "t": "math",
+              "v": "M_e"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 18"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 90; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 18"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 17; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 18"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 18; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương V), cho mẫu số liệu gồm 5 giá trị: 14, 16, 18, 20, 22. Số trung bình cộng $\\bar{x}$ và trung vị $M_e$ của mẫu số liệu đó bằng",
+            "choices": {
+              "A": "$\\bar{x}$ = $M_e$ = 18",
+              "B": "$\\bar{x}$ = 90; $M_e$ = 18",
+              "C": "$\\bar{x}$ = 17; $M_e$ = 18",
+              "D": "$\\bar{x}$ = 18; $M_e$ = 20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-14",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Khoảng biến thiên R của mẫu số liệu: 18, 25, 16, 32, 21 bằng",
+          "choices": {
+            "A": "17",
+            "B": "16",
+            "C": "32",
+            "D": "14"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Khoảng biến thiên R của mẫu số liệu: 18, 25, 16, 32, 21 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Khoảng biến thiên R của mẫu số liệu: 18, 25, 16, 32, 21 bằng",
+            "choices": {
+              "A": "17",
+              "B": "16",
+              "C": "32",
+              "D": "14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-15",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương V: Mốt (M_o) của mẫu số liệu: 4; 5; 20; 5; 20; 20; 8 là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "20",
+            "B": "8",
+            "C": "4",
+            "D": "5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương V: Mốt ("
+            },
+            {
+              "t": "math",
+              "v": "M_o"
+            },
+            {
+              "t": "txt",
+              "v": ") của mẫu số liệu: 4; 5; 20; 5; 20; 20; 8 là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương V: Mốt ($M_o$) của mẫu số liệu: 4; 5; 20; 5; 20; 20; 8 là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "20",
+              "B": "8",
+              "C": "4",
+              "D": "5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-16",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Cho mẫu số liệu gồm 5 giá trị: 17, 19, 21, 23, 25. Số trung bình cộng \\bar{x} và trung vị M_e của mẫu số liệu đó bằng",
+          "choices": {
+            "A": "\\bar{x} = 20; M_e = 21",
+            "B": "\\bar{x} = M_e = 21",
+            "C": "\\bar{x} = 105; M_e = 21",
+            "D": "\\bar{x} = 21; M_e = 23"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Cho mẫu số liệu gồm 5 giá trị: 17, 19, 21, 23, 25. Số trung bình cộng "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{x}"
+            },
+            {
+              "t": "txt",
+              "v": " và trung vị "
+            },
+            {
+              "t": "math",
+              "v": "M_e"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 20; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 21"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 21"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 105; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 21"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 21; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 23"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Cho mẫu số liệu gồm 5 giá trị: 17, 19, 21, 23, 25. Số trung bình cộng $\\bar{x}$ và trung vị $M_e$ của mẫu số liệu đó bằng",
+            "choices": {
+              "A": "$\\bar{x}$ = 20; $M_e$ = 21",
+              "B": "$\\bar{x}$ = $M_e$ = 21",
+              "C": "$\\bar{x}$ = 105; $M_e$ = 21",
+              "D": "$\\bar{x}$ = 21; $M_e$ = 23"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-17",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Khoảng biến thiên R của mẫu số liệu: 21, 28, 19, 35, 24 bằng?",
+          "choices": {
+            "A": "35",
+            "B": "16",
+            "C": "17",
+            "D": "14"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Khoảng biến thiên R của mẫu số liệu: 21, 28, 19, 35, 24 bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Khoảng biến thiên R của mẫu số liệu: 21, 28, 19, 35, 24 bằng?",
+            "choices": {
+              "A": "35",
+              "B": "16",
+              "C": "17",
+              "D": "14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-18",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương V: Mốt (M_o) của mẫu số liệu: 4; 5; 23; 5; 23; 23; 8 là",
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "8",
+            "D": "23"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương V: Mốt ("
+            },
+            {
+              "t": "math",
+              "v": "M_o"
+            },
+            {
+              "t": "txt",
+              "v": ") của mẫu số liệu: 4; 5; 23; 5; 23; 23; 8 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương V: Mốt ($M_o$) của mẫu số liệu: 4; 5; 23; 5; 23; 23; 8 là",
+            "choices": {
+              "A": "4",
+              "B": "5",
+              "C": "8",
+              "D": "23"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-19",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Cho mẫu số liệu gồm 5 giá trị: 20, 22, 24, 26, 28. Số trung bình cộng \\bar{x} và trung vị M_e của mẫu số liệu đó bằng. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "\\bar{x} = 24; M_e = 26",
+            "B": "\\bar{x} = 23; M_e = 24",
+            "C": "\\bar{x} = M_e = 24",
+            "D": "\\bar{x} = 120; M_e = 24"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Cho mẫu số liệu gồm 5 giá trị: 20, 22, 24, 26, 28. Số trung bình cộng "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{x}"
+            },
+            {
+              "t": "txt",
+              "v": " và trung vị "
+            },
+            {
+              "t": "math",
+              "v": "M_e"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu đó bằng. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 24; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 26"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 23; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 24"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 24"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{x}"
+              },
+              {
+                "t": "txt",
+                "v": " = 120; "
+              },
+              {
+                "t": "math",
+                "v": "M_e"
+              },
+              {
+                "t": "txt",
+                "v": " = 24"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Cho mẫu số liệu gồm 5 giá trị: 20, 22, 24, 26, 28. Số trung bình cộng $\\bar{x}$ và trung vị $M_e$ của mẫu số liệu đó bằng. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "$\\bar{x}$ = 24; $M_e$ = 26",
+              "B": "$\\bar{x}$ = 23; $M_e$ = 24",
+              "C": "$\\bar{x}$ = $M_e$ = 24",
+              "D": "$\\bar{x}$ = 120; $M_e$ = 24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-20",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương V để giải quyết yêu cầu: Khoảng biến thiên R của mẫu số liệu: 24, 31, 22, 38, 27 bằng",
+          "choices": {
+            "A": "38",
+            "B": "16",
+            "C": "14",
+            "D": "17"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương V để giải quyết yêu cầu: Khoảng biến thiên R của mẫu số liệu: 24, 31, 22, 38, 27 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "38"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương V để giải quyết yêu cầu: Khoảng biến thiên R của mẫu số liệu: 24, 31, 22, 38, 27 bằng",
+            "choices": {
+              "A": "38",
+              "B": "16",
+              "C": "14",
+              "D": "17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-21",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Quy tròn số gần đúng a = 12,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được",
+          "choices": {
+            "A": "12,4",
+            "B": "12,47",
+            "C": "12",
+            "D": "12,5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quy tròn số gần đúng a = 12,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12,4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12,47"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12,5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quy tròn số gần đúng a = 12,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được",
+            "choices": {
+              "A": "12,4",
+              "B": "12,47",
+              "C": "12",
+              "D": "12,5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-22",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương V (Các số đặc trưng của mẫu số liệu không ghép nhóm) để giải bài toán: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 2; 4; 5; 7; 9; 10; 13. Khoảng tứ phân vị \\Delta_Q = Q_3 - Q_1 bằng",
+          "choices": {
+            "A": "6",
+            "B": "4",
+            "C": "5",
+            "D": "11"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương V (Các số đặc trưng của mẫu số liệu không ghép nhóm) để giải bài toán: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 2; 4; 5; 7; 9; 10; 13. Khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương V (Các số đặc trưng của mẫu số liệu không ghép nhóm) để giải bài toán: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 2; 4; 5; 7; 9; 10; 13. Khoảng tứ phân vị $\\Delta_Q$ = Q$_3$ - Q$_1$ bằng",
+            "choices": {
+              "A": "6",
+              "B": "4",
+              "C": "5",
+              "D": "11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-23",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương V: Nếu phương sai của một mẫu số liệu bằng s^{2} = 16 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Kết quả thu được là",
+          "choices": {
+            "A": "s = 256",
+            "B": "s = \\pm4",
+            "C": "s = 4",
+            "D": "s = 2.0"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương V: Nếu phương sai của một mẫu số liệu bằng "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 16 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "s = 256"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "s = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "s = 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "s = 2.0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương V: Nếu phương sai của một mẫu số liệu bằng s$^2$ = 16 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Kết quả thu được là",
+            "choices": {
+              "A": "s = 256",
+              "B": "s = $\\pm$4",
+              "C": "s = 4",
+              "D": "s = 2.0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-24",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Quy tròn số gần đúng a = 15,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được. Đáp án đúng là",
+          "choices": {
+            "A": "15,4",
+            "B": "15,47",
+            "C": "15,5",
+            "D": "15"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Quy tròn số gần đúng a = 15,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15,4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15,47"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15,5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Quy tròn số gần đúng a = 15,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được. Đáp án đúng là",
+            "choices": {
+              "A": "15,4",
+              "B": "15,47",
+              "C": "15,5",
+              "D": "15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-25",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương V, hãy xác định: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 5; 7; 8; 10; 12; 13; 16. Khoảng tứ phân vị \\Delta_Q = Q_3 - Q_1 bằng",
+          "choices": {
+            "A": "6",
+            "B": "11",
+            "C": "4",
+            "D": "5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương V, hãy xác định: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 5; 7; 8; 10; 12; 13; 16. Khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương V, hãy xác định: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 5; 7; 8; 10; 12; 13; 16. Khoảng tứ phân vị $\\Delta_Q$ = Q$_3$ - Q$_1$ bằng",
+            "choices": {
+              "A": "6",
+              "B": "11",
+              "C": "4",
+              "D": "5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-26",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Nếu phương sai của một mẫu số liệu bằng s^{2} = 49 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "s = 7",
+            "B": "s = \\pm7",
+            "C": "s = 2401",
+            "D": "s = 3.5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Nếu phương sai của một mẫu số liệu bằng "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 49 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "s = 7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "s = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "s = 2401"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "s = 3.5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Nếu phương sai của một mẫu số liệu bằng s$^2$ = 49 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "s = 7",
+              "B": "s = $\\pm$7",
+              "C": "s = 2401",
+              "D": "s = 3.5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-27",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương V vào bài tập sau: Quy tròn số gần đúng a = 18,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được",
+          "choices": {
+            "A": "18",
+            "B": "18,4",
+            "C": "18,5",
+            "D": "18,47"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương V vào bài tập sau: Quy tròn số gần đúng a = 18,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18,4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18,5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18,47"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương V vào bài tập sau: Quy tròn số gần đúng a = 18,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được",
+            "choices": {
+              "A": "18",
+              "B": "18,4",
+              "C": "18,5",
+              "D": "18,47"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-28",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 8; 10; 11; 13; 15; 16; 19. Khoảng tứ phân vị \\Delta_Q = Q_3 - Q_1 bằng",
+          "choices": {
+            "A": "6",
+            "B": "5",
+            "C": "4",
+            "D": "11"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 8; 10; 11; 13; 15; 16; 19. Khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 8; 10; 11; 13; 15; 16; 19. Khoảng tứ phân vị $\\Delta_Q$ = Q$_3$ - Q$_1$ bằng",
+            "choices": {
+              "A": "6",
+              "B": "5",
+              "C": "4",
+              "D": "11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-29",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Các số đặc trưng của mẫu số liệu không ghép nhóm): Nếu phương sai của một mẫu số liệu bằng s^{2} = 100 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "s = 5.0",
+            "B": "s = \\pm10",
+            "C": "s = 10",
+            "D": "s = 10000"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Các số đặc trưng của mẫu số liệu không ghép nhóm): Nếu phương sai của một mẫu số liệu bằng "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 100 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "s = 5.0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "s = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "s = 10"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "s = 10000"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Các số đặc trưng của mẫu số liệu không ghép nhóm): Nếu phương sai của một mẫu số liệu bằng s$^2$ = 100 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "s = 5.0",
+              "B": "s = $\\pm$10",
+              "C": "s = 10",
+              "D": "s = 10000"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-30",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương V, hãy tìm kết quả của bài toán: Quy tròn số gần đúng a = 21,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được",
+          "choices": {
+            "A": "21,47",
+            "B": "21,5",
+            "C": "21",
+            "D": "21,4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương V, hãy tìm kết quả của bài toán: Quy tròn số gần đúng a = 21,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21,47"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "21,5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "21,4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương V, hãy tìm kết quả của bài toán: Quy tròn số gần đúng a = 21,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được",
+            "choices": {
+              "A": "21,47",
+              "B": "21,5",
+              "C": "21",
+              "D": "21,4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-31",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương V nêu câu hỏi: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 11; 13; 14; 16; 18; 19; 22. Khoảng tứ phân vị \\Delta_Q = Q_3 - Q_1 bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "5",
+            "B": "4",
+            "C": "11",
+            "D": "6"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương V nêu câu hỏi: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 11; 13; 14; 16; 18; 19; 22. Khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương V nêu câu hỏi: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 11; 13; 14; 16; 18; 19; 22. Khoảng tứ phân vị $\\Delta_Q$ = Q$_3$ - Q$_1$ bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "5",
+              "B": "4",
+              "C": "11",
+              "D": "6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-32",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Nếu phương sai của một mẫu số liệu bằng s^{2} = 169 thì độ lệch chuẩn s của mẫu số liệu đó bằng",
+          "choices": {
+            "A": "s = 28561",
+            "B": "s = \\pm13",
+            "C": "s = 13",
+            "D": "s = 6.5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Nếu phương sai của một mẫu số liệu bằng "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 169 thì độ lệch chuẩn s của mẫu số liệu đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "s = 28561"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "s = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "s = 13"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "s = 6.5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Nếu phương sai của một mẫu số liệu bằng s$^2$ = 169 thì độ lệch chuẩn s của mẫu số liệu đó bằng",
+            "choices": {
+              "A": "s = 28561",
+              "B": "s = $\\pm$13",
+              "C": "s = 13",
+              "D": "s = 6.5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-33",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương V: Quy tròn số gần đúng a = 24,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được",
+          "choices": {
+            "A": "24,47",
+            "B": "24,4",
+            "C": "24",
+            "D": "24,5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương V: Quy tròn số gần đúng a = 24,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24,47"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24,4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24,5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương V: Quy tròn số gần đúng a = 24,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được",
+            "choices": {
+              "A": "24,47",
+              "B": "24,4",
+              "C": "24",
+              "D": "24,5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-34",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 14; 16; 17; 19; 21; 22; 25. Khoảng tứ phân vị \\Delta_Q = Q_3 - Q_1 bằng",
+          "choices": {
+            "A": "5",
+            "B": "4",
+            "C": "11",
+            "D": "6"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 14; 16; 17; 19; 21; 22; 25. Khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 14; 16; 17; 19; 21; 22; 25. Khoảng tứ phân vị $\\Delta_Q$ = Q$_3$ - Q$_1$ bằng",
+            "choices": {
+              "A": "5",
+              "B": "4",
+              "C": "11",
+              "D": "6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-35",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương V, xét bài toán: Nếu phương sai của một mẫu số liệu bằng s^{2} = 256 thì độ lệch chuẩn s của mẫu số liệu đó bằng",
+          "choices": {
+            "A": "s = 16",
+            "B": "s = 8.0",
+            "C": "s = 65536",
+            "D": "s = \\pm16"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương V, xét bài toán: Nếu phương sai của một mẫu số liệu bằng "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 256 thì độ lệch chuẩn s của mẫu số liệu đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "s = 16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "s = 8.0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "s = 65536"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "s = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương V, xét bài toán: Nếu phương sai của một mẫu số liệu bằng s$^2$ = 256 thì độ lệch chuẩn s của mẫu số liệu đó bằng",
+            "choices": {
+              "A": "s = 16",
+              "B": "s = 8.0",
+              "C": "s = 65536",
+              "D": "s = $\\pm$16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-36",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Các số đặc trưng của mẫu số liệu không ghép nhóm): Quy tròn số gần đúng a = 27,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "27,5",
+            "B": "27",
+            "C": "27,4",
+            "D": "27,47"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Các số đặc trưng của mẫu số liệu không ghép nhóm): Quy tròn số gần đúng a = 27,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "27,5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "27,4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "27,47"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Các số đặc trưng của mẫu số liệu không ghép nhóm): Quy tròn số gần đúng a = 27,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "27,5",
+              "B": "27",
+              "C": "27,4",
+              "D": "27,47"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-37",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 17; 19; 20; 22; 24; 25; 28. Khoảng tứ phân vị \\Delta_Q = Q_3 - Q_1 bằng",
+          "choices": {
+            "A": "6",
+            "B": "11",
+            "C": "5",
+            "D": "4"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 17; 19; 20; 22; 24; 25; 28. Khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 17; 19; 20; 22; 24; 25; 28. Khoảng tứ phân vị $\\Delta_Q$ = Q$_3$ - Q$_1$ bằng",
+            "choices": {
+              "A": "6",
+              "B": "11",
+              "C": "5",
+              "D": "4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-38",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương V: Nếu phương sai của một mẫu số liệu bằng s^{2} = 361 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Kết luận đúng là",
+          "choices": {
+            "A": "s = 130321",
+            "B": "s = 19",
+            "C": "s = 9.5",
+            "D": "s = \\pm19"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương V: Nếu phương sai của một mẫu số liệu bằng "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 361 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "s = 130321"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "s = 19"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "s = 9.5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "s = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương V: Nếu phương sai của một mẫu số liệu bằng s$^2$ = 361 thì độ lệch chuẩn s của mẫu số liệu đó bằng. Kết luận đúng là",
+            "choices": {
+              "A": "s = 130321",
+              "B": "s = 19",
+              "C": "s = 9.5",
+              "D": "s = $\\pm$19"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-39",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương V: Quy tròn số gần đúng a = 30,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được",
+          "choices": {
+            "A": "30,4",
+            "B": "30,47",
+            "C": "30",
+            "D": "30,5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương V: Quy tròn số gần đúng a = 30,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "30,4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30,47"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30,5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương V: Quy tròn số gần đúng a = 30,4682 với độ chính xác d = 0,03 (quy tròn đến hàng phần mười) ta được",
+            "choices": {
+              "A": "30,4",
+              "B": "30,47",
+              "C": "30",
+              "D": "30,5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-40",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 20; 22; 23; 25; 27; 28; 31. Khoảng tứ phân vị \\Delta_Q = Q_3 - Q_1 bằng",
+          "choices": {
+            "A": "4",
+            "B": "11",
+            "C": "5",
+            "D": "6"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 20; 22; 23; 25; 27; 28; 31. Khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho mẫu số liệu đã sắp xếp tăng dần gồm 7 số: 20; 22; 23; 25; 27; 28; 31. Khoảng tứ phân vị $\\Delta_Q$ = Q$_3$ - Q$_1$ bằng",
+            "choices": {
+              "A": "4",
+              "B": "11",
+              "C": "5",
+              "D": "6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-41",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Cho mẫu số liệu gồm 4 số: 2, 4, 6, 8. Phương sai s^{2} của mẫu số liệu này bằng",
+          "choices": {
+            "A": "5",
+            "B": "2,5",
+            "C": "4",
+            "D": "\\sqrt{5}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho mẫu số liệu gồm 4 số: 2, 4, 6, 8. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2,5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\sqrt{5}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho mẫu số liệu gồm 4 số: 2, 4, 6, 8. Phương sai s$^2$ của mẫu số liệu này bằng",
+            "choices": {
+              "A": "5",
+              "B": "2,5",
+              "C": "4",
+              "D": "$\\sqrt{5}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-42",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương V – Các số đặc trưng của mẫu số liệu không ghép nhóm): Trong một mẫu số liệu có Q_1 = 12 và Q_3 = 20 (khoảng tứ phân vị \\Delta_Q = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > Q_3 + 1,5·\\Delta_Q, tức là khi. Kết quả đúng là",
+          "choices": {
+            "A": "x > 24",
+            "B": "x > 36",
+            "C": "x > 32",
+            "D": "x > 28"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương V – Các số đặc trưng của mẫu số liệu không ghép nhóm): Trong một mẫu số liệu có "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 12 và "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 20 (khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " + 1,5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": ", tức là khi. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x > 24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x > 36"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > 32"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 28"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương V – Các số đặc trưng của mẫu số liệu không ghép nhóm): Trong một mẫu số liệu có Q$_1$ = 12 và Q$_3$ = 20 (khoảng tứ phân vị $\\Delta_Q$ = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > Q$_3$ + 1,5$\\cdot$$\\Delta_Q$, tức là khi. Kết quả đúng là",
+            "choices": {
+              "A": "x > 24",
+              "B": "x > 36",
+              "C": "x > 32",
+              "D": "x > 28"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-43",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương V để giải bài toán: Cho mẫu số liệu gồm 4 số: 4, 6, 8, 10. Phương sai s^{2} của mẫu số liệu này bằng",
+          "choices": {
+            "A": "\\sqrt{5}",
+            "B": "2,5",
+            "C": "5",
+            "D": "4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương V để giải bài toán: Cho mẫu số liệu gồm 4 số: 4, 6, 8, 10. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\sqrt{5}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2,5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương V để giải bài toán: Cho mẫu số liệu gồm 4 số: 4, 6, 8, 10. Phương sai s$^2$ của mẫu số liệu này bằng",
+            "choices": {
+              "A": "$\\sqrt{5}$",
+              "B": "2,5",
+              "C": "5",
+              "D": "4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-44",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương V: Trong một mẫu số liệu có Q_1 = 16 và Q_3 = 24 (khoảng tứ phân vị \\Delta_Q = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > Q_3 + 1,5·\\Delta_Q, tức là khi",
+          "choices": {
+            "A": "x > 40",
+            "B": "x > 32",
+            "C": "x > 28",
+            "D": "x > 36"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương V: Trong một mẫu số liệu có "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 16 và "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 24 (khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " + 1,5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": ", tức là khi"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x > 40"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x > 32"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > 28"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 36"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương V: Trong một mẫu số liệu có Q$_1$ = 16 và Q$_3$ = 24 (khoảng tứ phân vị $\\Delta_Q$ = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > Q$_3$ + 1,5$\\cdot$$\\Delta_Q$, tức là khi",
+            "choices": {
+              "A": "x > 40",
+              "B": "x > 32",
+              "C": "x > 28",
+              "D": "x > 36"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-45",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương V: Cho mẫu số liệu gồm 4 số: 6, 8, 10, 12. Phương sai s^{2} của mẫu số liệu này bằng. Đáp số chính xác là",
+          "choices": {
+            "A": "5",
+            "B": "4",
+            "C": "2,5",
+            "D": "\\sqrt{5}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương V: Cho mẫu số liệu gồm 4 số: 6, 8, 10, 12. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu này bằng. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2,5"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\sqrt{5}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương V: Cho mẫu số liệu gồm 4 số: 6, 8, 10, 12. Phương sai s$^2$ của mẫu số liệu này bằng. Đáp số chính xác là",
+            "choices": {
+              "A": "5",
+              "B": "4",
+              "C": "2,5",
+              "D": "$\\sqrt{5}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-46",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương V để tìm đáp án cho bài toán: Trong một mẫu số liệu có Q_1 = 20 và Q_3 = 28 (khoảng tứ phân vị \\Delta_Q = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > Q_3 + 1,5·\\Delta_Q, tức là khi",
+          "choices": {
+            "A": "x > 44",
+            "B": "x > 32",
+            "C": "x > 36",
+            "D": "x > 40"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương V để tìm đáp án cho bài toán: Trong một mẫu số liệu có "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 20 và "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 28 (khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " + 1,5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": ", tức là khi"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x > 44"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x > 32"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > 36"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 40"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương V để tìm đáp án cho bài toán: Trong một mẫu số liệu có Q$_1$ = 20 và Q$_3$ = 28 (khoảng tứ phân vị $\\Delta_Q$ = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > Q$_3$ + 1,5$\\cdot$$\\Delta_Q$, tức là khi",
+            "choices": {
+              "A": "x > 44",
+              "B": "x > 32",
+              "C": "x > 36",
+              "D": "x > 40"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-47",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương V: Cho mẫu số liệu gồm 4 số: 8, 10, 12, 14. Phương sai s^{2} của mẫu số liệu này bằng",
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "2,5",
+            "D": "\\sqrt{5}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương V: Cho mẫu số liệu gồm 4 số: 8, 10, 12, 14. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2,5"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\sqrt{5}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương V: Cho mẫu số liệu gồm 4 số: 8, 10, 12, 14. Phương sai s$^2$ của mẫu số liệu này bằng",
+            "choices": {
+              "A": "4",
+              "B": "5",
+              "C": "2,5",
+              "D": "$\\sqrt{5}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-48",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương V): Trong một mẫu số liệu có Q_1 = 24 và Q_3 = 32 (khoảng tứ phân vị \\Delta_Q = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > Q_3 + 1,5·\\Delta_Q, tức là khi",
+          "choices": {
+            "A": "x > 48",
+            "B": "x > 36",
+            "C": "x > 44",
+            "D": "x > 40"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương V): Trong một mẫu số liệu có "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 24 và "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 32 (khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " + 1,5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": ", tức là khi"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x > 48"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x > 36"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > 44"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 40"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương V): Trong một mẫu số liệu có Q$_1$ = 24 và Q$_3$ = 32 (khoảng tứ phân vị $\\Delta_Q$ = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > Q$_3$ + 1,5$\\cdot$$\\Delta_Q$, tức là khi",
+            "choices": {
+              "A": "x > 48",
+              "B": "x > 36",
+              "C": "x > 44",
+              "D": "x > 40"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-49",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương V, hãy giải quyết bài toán: Cho mẫu số liệu gồm 4 số: 10, 12, 14, 16. Phương sai s^{2} của mẫu số liệu này bằng",
+          "choices": {
+            "A": "5",
+            "B": "2,5",
+            "C": "\\sqrt{5}",
+            "D": "4"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương V, hãy giải quyết bài toán: Cho mẫu số liệu gồm 4 số: 10, 12, 14, 16. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2,5"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\sqrt{5}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương V, hãy giải quyết bài toán: Cho mẫu số liệu gồm 4 số: 10, 12, 14, 16. Phương sai s$^2$ của mẫu số liệu này bằng",
+            "choices": {
+              "A": "5",
+              "B": "2,5",
+              "C": "$\\sqrt{5}$",
+              "D": "4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-05-50",
+          "grade": 10,
+          "chapter": 5,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG CỦA MẪU SỐ LIỆU KHÔNG GHÉP NHÓM",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương V: Trong một mẫu số liệu có Q_1 = 28 và Q_3 = 36 (khoảng tứ phân vị \\Delta_Q = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > Q_3 + 1,5·\\Delta_Q, tức là khi. Phương án đúng là",
+          "choices": {
+            "A": "x > 44",
+            "B": "x > 48",
+            "C": "x > 52",
+            "D": "x > 40"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương V: Trong một mẫu số liệu có "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 28 và "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 36 (khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " + 1,5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": ", tức là khi. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x > 44"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x > 48"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > 52"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 40"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương V: Trong một mẫu số liệu có Q$_1$ = 28 và Q$_3$ = 36 (khoảng tứ phân vị $\\Delta_Q$ = 8). Một giá trị x được coi là giá trị ngoại lệ (bất thường) nếu x > Q$_3$ + 1,5$\\cdot$$\\Delta_Q$, tức là khi. Phương án đúng là",
+            "choices": {
+              "A": "x > 44",
+              "B": "x > 48",
+              "C": "x > 52",
+              "D": "x > 40"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

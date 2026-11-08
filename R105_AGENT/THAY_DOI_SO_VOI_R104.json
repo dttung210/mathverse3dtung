@@ -1,0 +1,46 @@
+{
+  "source_file": "MATHVERSE_R104_GLB_TREN_BUC_FULL.zip",
+  "release_file": "MATHVERSE_R105_SKETCHFAB_GLB_ANTIGRAVITY_FULL.zip",
+  "original_files": 1369,
+  "current_files": 1385,
+  "modified": [
+    ".gitignore",
+    "dual/discovery-r100/wonders-ui.mjs",
+    "dual/discovery-r102/exhibition-room.mjs",
+    "dual/index.html",
+    "package.json",
+    "server/host.mjs"
+  ],
+  "added": [
+    ".agent/workflows/r105-nap-glb-sketchfab-vao-buc.md",
+    "00_DOC_TRUOC_KHI_CAP_NHAT_R105.md",
+    "00_MO_MATHVERSE_R105.bat",
+    "LEGACY_R104_LAUNCHERS/00_MO_MATHVERSE_R103.bat",
+    "LEGACY_R104_LAUNCHERS/00_MO_MATHVERSE_R104.bat",
+    "LEGACY_R104_LAUNCHERS/00_NAP_GLB_VAO_BUC_R104.bat",
+    "LEGACY_R104_LAUNCHERS/README.txt",
+    "R105_AGENT/BAO_CAO_QA_TRUOC_ANTIGRAVITY.md",
+    "R105_AGENT/BAO_CAO_TRANG_THAI.json",
+    "R105_AGENT/CHECKLIST_ANTIGRAVITY_NGHIEM_THU.md",
+    "R105_AGENT/DANH_MUC_NGUON_9_BUC.json",
+    "R105_AGENT/DANH_MUC_NGUON_9_BUC.md",
+    "R105_AGENT/HUONG_DAN_CHO_CO.md",
+    "R105_AGENT/PROMPT_ANTIGRAVITY_R105.md",
+    "R105_AGENT/QUY_TAC_BAO_VE_TOKEN_VA_BAN_QUYEN.md",
+    "tests/r105-sketchfab-ingestion.test.mjs",
+    "tools/r105-sketchfab-pipeline.mjs",
+    "tools/r105-source-catalog.mjs"
+  ],
+  "relocated_old_launcher_files": [
+    "00_MO_MATHVERSE_R103.bat",
+    "00_MO_MATHVERSE_R104.bat",
+    "00_NAP_GLB_VAO_BUC_R104.bat"
+  ],
+  "source_preserved": "R104 uploaded file is basis – untouched files retained",
+  "R98_Parthenon_sha256": "e4b5091373259e067373630a3af4828c799e6cb3677dc2b28ac88c31b322562d",
+  "native_Sketchfab_GLB_installed_count": 0,
+  "approved_sketchfab_glb_manifest": "dual/discovery-r103/assets/approved-local-models.json",
+  "why_empty": "Requires teacher-authorized Sketchfab OAuth Download API and individual model rights review in Antigravity IDE",
+  "tests": "40/40 R105 selected tests PASS; 18/18 Lab/Park regression tests PASS",
+  "visualQA": "Not completed: Chromium localhost was blocked by environment policy"
+}

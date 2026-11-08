@@ -1,0 +1,2109 @@
+:root{font-family:Inter,"Segoe UI",system-ui,sans-serif;color:#f6f8ff;background:#071422;font-size:14px}*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}button,select{font:inherit}button{cursor:pointer}button:focus-visible,select:focus-visible{outline:3px solid #f7d68a;outline-offset:2px}.glass{background:rgba(9,25,43,.92);border:1px solid rgba(195,228,255,.26);box-shadow:0 10px 28px rgba(0,0,0,.24)}#dual-canvas{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:0}.ambient-glow{position:fixed;z-index:0;inset:0;background:radial-gradient(ellipse at 58% 0,rgba(14,115,155,.09),transparent 50%);pointer-events:none}#topbar{position:absolute;z-index:15;left:14px;right:14px;top:12px;border-radius:18px;min-height:63px;display:flex;align-items:center;gap:20px;padding:9px 16px}.brand{display:flex;align-items:center;gap:10px;white-space:nowrap}.brand-mark{background:linear-gradient(145deg,#f7d68a,#b58a33);-webkit-background-clip:text;background-clip:text;color:transparent;font-size:36px;line-height:1}.brand strong{font-size:17px;letter-spacing:.06em}.brand strong em{font-size:11px;font-style:normal;color:#b8eafc}.brand small{display:block;color:#96b7cd;font-size:10px;letter-spacing:.11em}.mode{min-width:0;display:flex;gap:8px;align-items:center;flex:1}.mode-pill{display:inline-block;background:rgba(56,189,248,.14);color:#aeeaff;border:1px solid rgba(56,189,248,.35);border-radius:100px;padding:6px 12px;white-space:nowrap;font-size:11px;font-weight:800;letter-spacing:.07em}#room-name{font-size:12px;color:#d5dfec;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.top-actions{display:flex;align-items:center;gap:7px}.top-actions button,.top-actions select{border:1px solid rgba(156,192,218,.28);background:#142a41;color:#f6fafc;border-radius:10px;padding:9px 11px}.top-actions button:hover,.top-actions select:hover{background:#28506e}.avatar-label{font-size:10px;text-transform:uppercase;color:#9ccfe5}#screen{position:relative;z-index:2;height:100%;pointer-events:none}#screen button,#screen select,#screen section,#screen aside{pointer-events:auto}.crosshair{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:22px;font-weight:300;opacity:.4;pointer-events:none}#lobby-menu{position:absolute;left:50%;bottom:8%;width:min(700px,calc(100vw - 26px));transform:translateX(-50%);padding:19px 23px 15px;border-radius:23px;text-align:center}.eyebrow{font-size:10px;letter-spacing:.21em;font-weight:800;color:#9ed9e8}#lobby-menu h1{margin:4px 0;font-size:23px;letter-spacing:.06em;background:linear-gradient(90deg,#fff7d9,#9be6fa);background-clip:text;-webkit-background-clip:text;color:transparent}#lobby-menu p{margin:5px;color:#c1d3df}.door-options{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:13px}.door-option{min-height:108px;border:1px solid #618096;border-radius:14px;background:linear-gradient(145deg,rgba(20,56,73,.95),rgba(5,24,42,.94));color:white;padding:12px 11px;display:flex;flex-direction:column;align-items:center;gap:6px;transition:transform .15s,border-color .15s}.door-option.r75{border-color:rgba(212,175,55,.65)}.door-option.museum{border-color:rgba(72,187,170,.73)}.door-option:hover{transform:translateY(-3px);border-color:#fff}.door-option strong{font-size:14px;letter-spacing:.055em}.door-option small{font-size:11px;color:#b5ccd9}.door-icon{font-size:20px}.small{font-size:11px}.plain{border:0;background:transparent;color:#bde7f8;text-decoration:underline;font-size:12px;padding:8px}#museum-hud{position:absolute;bottom:74px;top:auto;left:15px;width:min(295px,calc(100vw - 30px));max-width:min(295px,94vw);border-radius:18px;padding:16px 17px;box-sizing:border-box}#museum-hud .grade-title{font-size:clamp(16px,2.2vw,20px);font-weight:800;color:#ffdfa0;letter-spacing:.03em;margin:4px 0 2px;line-height:1.25;word-break:break-word}.subtle{font-size:12px;color:#a7c4d5}.progress-track{height:5px;border-radius:8px;background:rgba(255,255,255,.14);margin-top:7px}.progress-track i{display:block;width:0;height:100%;background:#d9b45a;border-radius:8px}.museum-progress{margin-top:12px;font-size:11px;color:#d4e3ee}.mini-primary{margin-top:12px;padding:8px 10px;background:#b99142;border:0;color:#122639;border-radius:8px;font-weight:800;width:100%}#grade-nav{display:flex;flex-wrap:wrap;gap:5px;margin-top:13px}#grade-nav button{font-size:11px;border:1px solid #355874;border-radius:8px;background:#0b273d;color:#f2f7fd;padding:6px 8px}#grade-nav button[aria-current="true"]{background:#b99142;color:#0a1726;border-color:#f6d897}#status{position:absolute;left:50%;top:90px;transform:translateX(-50%);border-radius:10px;padding:9px 15px;font-size:12px;max-width:calc(100vw - 40px);text-align:center;opacity:0;transition:opacity .2s;pointer-events:none}#status.show{opacity:1}#near-prompt{position:absolute;left:50%;bottom:85px;transform:translateX(-50%);border-radius:14px;padding:11px 15px;font-weight:700;display:flex;gap:10px;align-items:center;white-space:nowrap;font-size:12px}#near-prompt[hidden]{display:none}kbd{border-radius:5px;color:#132738;background:#d8b66d;padding:5px 8px;font-size:15px}.controls-hint{position:absolute;bottom:13px;left:50%;transform:translateX(-50%);padding:9px 17px;color:#c4d6e2;border-radius:100px;white-space:nowrap;font-size:11px}#r75-shell{position:absolute;z-index:30;inset:0;background:#071523}#r75-shell[hidden]{display:none}#r75-frame{width:100%;height:100%;border:0;display:block}.r75-host-top{position:absolute;z-index:50;left:50%;bottom:14px;transform:translateX(-50%);display:flex;gap:13px;align-items:center;background:rgba(5,17,29,.9);border:1px solid rgba(212,175,55,.65);border-radius:12px;padding:7px 10px;box-shadow:0 4px 28px #0006}.r75-mode{font-size:11px;letter-spacing:.07em;color:#e3d9b4}.r75-host-top button{white-space:nowrap;border:0;border-radius:8px;padding:10px 15px;background:#d8b669;color:#13283c;font-weight:800}#poster-modal,#help-modal{position:absolute;z-index:80;inset:0}#poster-modal[hidden],#help-modal[hidden],#loading[hidden]{display:none}.poster-backdrop{position:absolute;inset:0;background:rgba(1,9,18,.9)}.poster-panel{position:absolute;inset:2% 4%;background:#0e1f32;border:1px solid #557287;border-radius:16px;display:flex;flex-direction:column;overflow:hidden}.poster-panel header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 18px;background:#152e44;border-bottom:1px solid #34536b}.poster-panel header strong{font-size:15px}.poster-panel header #poster-info{font-size:11px;color:#bed7e5;margin-top:3px}.poster-actions{display:flex;gap:5px;align-items:center}.poster-actions button{padding:7px 12px;border:1px solid #40617c;border-radius:8px;background:#213d54;color:white;font-weight:700}.poster-actions button:hover{background:#35607d}#poster-zoom-label{font-size:11px;min-width:42px;text-align:center}.poster-stage{flex:1;overflow:auto;display:flex;align-items:flex-start;justify-content:center;padding:20px;background:radial-gradient(circle at 50% 0,#254055,#091523)}.poster-stage img{display:block;width:min(630px,85%);height:auto;object-fit:contain;max-width:none;box-shadow:0 12px 40px #0007}.poster-panel footer{text-align:center;padding:9px 12px;font-size:11px;color:#9cb8c8;background:#152e44;border-top:1px solid #34536b}.help-panel{width:min(500px,calc(100vw - 25px));margin:18vh auto;padding:27px;border-radius:18px;position:relative}.help-panel .close{position:absolute;right:16px;top:12px;border:0;color:white;background:none;font-size:22px}.help-panel p{line-height:1.65}.loading-screen{position:absolute;z-index:100;inset:0;background:#071523;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px}.loading-screen .loading-logo{font-size:60px;color:#e6be70;animation:pulse 1.6s infinite}.loading-screen h2{letter-spacing:.1em}.loading-screen p{color:#a2cde0}@keyframes pulse{50%{opacity:.35;transform:scale(.93)}}#touchpad{display:none;position:absolute;bottom:85px;right:13px;align-items:flex-end;gap:15px}.dpad{text-align:center}.dpad>div{display:flex;gap:5px}.dpad button,.interact{width:49px;height:49px;color:white;background:#193f5bbf;border:1px solid #78b7db;border-radius:14px;font-weight:800;font-size:17px}.interact{border-color:#d1b374;color:#f5d891}#screen[hidden],#dual-canvas[hidden]{display:none}@media(max-width:900px){#topbar{gap:6px;padding:7px 9px;flex-wrap:wrap}.brand strong{font-size:13px}.brand-mark{font-size:23px}.mode{order:3;width:100%;flex-basis:100%}.top-actions{margin-left:auto}.avatar-label{display:none}.top-actions button,.top-actions select{padding:6px 7px;font-size:11px}.controls-hint{display:none}#lobby-menu{bottom:9px;padding:12px 13px}#lobby-menu h1{font-size:19px}.door-option{min-height:94px}#museum-hud{width:210px;padding:10px;bottom:74px;top:auto}#museum-hud .grade-title{font-size:20px}#near-prompt{bottom:148px}#touchpad{display:flex}.r75-mode{display:none}.poster-panel{inset:1% 1%}.poster-panel header{padding:9px;flex-wrap:wrap}.poster-actions button{padding:5px 8px}.poster-stage{padding:10px}}
+
+[hidden]{display:none!important}
+#fallback-actions{position:absolute;top:62%;z-index:101;display:flex;gap:12px}#fallback-actions a{border:1px solid #d4af37;color:white;background:#20405a;border-radius:10px;padding:13px;text-decoration:none}#fallback-actions[hidden]{display:none}
+
+/* CRYSTAL INFINITY MUSEUM V4 – visitor-first wayfinding; R75 UI untouched. */
+#museum-hud{background:linear-gradient(160deg,rgba(8,47,56,.93),rgba(7,27,45,.92));border:1px solid rgba(235,208,155,.66);box-shadow:0 12px 50px #04202a85,0 0 0 1px #83d7d622 inset}
+#museum-hud .grade-title{color:#ffda92}
+#grade-nav{gap:6px}#grade-nav button{font-size:13px;min-width:29px;background:rgba(19,91,101,.63);border-color:#71c7bd80}
+#grade-nav button[aria-current="true"]{background:#e7c17c;color:#07343a}
+.mini-secondary{width:100%;margin-top:7px;padding:8px 10px;background:transparent;color:#d4eced;border:1px solid #8ac9c57a;border-radius:8px}
+#room-map-modal{position:absolute;inset:0;z-index:79}#room-map-modal[hidden]{display:none}
+.room-map-panel{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(920px,calc(100vw - 30px));border:1px solid #e7c17c;border-radius:22px;padding:28px 32px;text-align:center;color:#fff;max-height:96vh;overflow:auto;background:linear-gradient(155deg,rgba(5,39,53,.97),rgba(9,29,54,.97))}
+.room-map-panel h2{margin:6px 0;font-size:clamp(19px,3vw,27px);color:#ffe0a3}
+.room-map-panel p{font-size:13px;color:#bbdbdf}
+.room-map-grid{position:relative;margin:20px auto 0;max-width:710px;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;align-items:end}
+.room-map-door{min-width:0;min-height:116px;background:linear-gradient(180deg,#0d5766,#11344a);border:2px solid #dabb7b;color:#fff4dd;border-radius:60px 60px 10px 10px;padding:15px 3px 8px;font-weight:800;box-shadow:0 0 20px #76cbd11f inset;transition:transform .17s,border-color .17s}
+.room-map-door:nth-child(1),.room-map-door:nth-child(7){transform:translateY(35px)}
+.room-map-door:nth-child(2),.room-map-door:nth-child(6){transform:translateY(15px)}
+.room-map-door:hover{border-color:#fff6ca;filter:brightness(1.22)}
+.room-map-center{width:210px;max-width:75%;margin:38px auto 0;border:3px solid #e7c17c;background:radial-gradient(circle,#1c7883,#0e354c);border-radius:100%;height:112px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:26px;color:#e7d9a9;box-shadow:0 0 22px #16cbd82e}
+.room-map-center span{font-size:12px;font-weight:800;color:#fff}.room-map-close{position:absolute;right:12px;top:12px;border:0;background:#d7b472;color:#142e38;border-radius:8px;padding:7px 11px;font-size:17px;font-weight:800}
+.room-map-note{margin-bottom:0}@media(max-width:620px){.room-map-panel{padding:22px 10px}.room-map-grid{gap:3px}.room-map-door{font-size:9px;min-height:75px;padding:12px 1px 4px}.room-map-center{margin-top:22px;height:78px}.room-map-panel p{font-size:11px}}
+
+/* CRYSTAL INFINITY MUSEUM — BIG UPDATE V5. CSS belongs to dual world, R75 remains untouched. */
+#topbar{gap:4px;padding:4px 6px;min-height:52px}
+#topbar .brand{padding-right:2px}
+#topbar .brand strong{font-size:13px}
+#topbar .top-actions{display:flex!important;flex-wrap:nowrap!important;align-items:center!important;gap:3px!important}
+#topbar .top-group{display:inline-flex!important;align-items:center!important;gap:2px!important;background:rgba(15,23,42,.88)!important;padding:2px 3px!important;border-radius:8px!important;border:1px solid rgba(148,163,184,.25)!important}
+#topbar .top-actions button,#topbar .top-actions select{padding:3.5px 5.5px!important;font-size:10.5px!important;min-height:26px!important;border-radius:5px!important;white-space:nowrap!important}
+#avatar-select{max-width:85px}
+#camera-mode{max-width:105px;min-width:82px}
+#avatar-next{background:linear-gradient(125deg,#31557a,#165b61)!important}
+#present-mode{border-color:#e7c17c!important;color:#f8dfaa!important}
+#present-mode[aria-pressed="true"]{background:linear-gradient(135deg,#bc9754,#fae9b1)!important;color:#14333d!important}
+#museum-hud{max-width:min(295px,94vw);padding:16px 17px;border-radius:18px}
+.hud-top{display:flex;justify-content:space-between;align-items:center}
+.hud-toggle{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#ffe2a4;border-radius:50%;width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;line-height:1;padding:0;cursor:pointer;transition:background .15s}
+.hud-toggle:hover{background:#d4af37;color:#0a1c28}
+#museum-hud.is-collapsed{padding:8px 12px;width:auto;min-width:0;border-radius:20px}
+#museum-hud.is-collapsed .hud-content{display:none}
+#museum-hud.is-collapsed .eyebrow{margin:0;font-size:11px}
+#museum-hud .mini-primary{width:100%;background:linear-gradient(120deg,#c99b55,#efd7a1);color:#14333d;margin-top:8px;font-weight:800}
+#museum-hud .mini-secondary{font-size:12px}
+#catalog-modal{position:absolute;inset:0;z-index:86;isolation:isolate}
+#catalog-modal[hidden]{display:none}
+.catalog-panel{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:min(1080px,calc(100vw - 28px));height:min(780px,90vh);display:flex;flex-direction:column;gap:8px;padding:24px 25px 18px;border-radius:22px;border:1px solid #e7c17c;background:linear-gradient(145deg,rgba(6,32,51,.97),rgba(6,42,51,.96));box-shadow:0 25px 70px #010f1cbe;overflow:hidden}
+.catalog-panel h2{margin:2px 0;color:#f7dfaa;font-size:clamp(19px,3vw,26px)}
+.catalog-panel p{margin:3px 0 8px;color:#b4d7de;font-size:13px}
+.catalog-grade-tabs{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:7px}
+.catalog-grade-tabs button{min-width:0;padding:10px 4px;border-radius:9px;border:1px solid #94bfc3;color:#e8f8f7;background:#163e53;font-weight:800}
+.catalog-grade-tabs button[aria-current="true"]{background:#efd39a;color:#173544;border-color:#ffe8b1}
+.catalog-search-row{display:flex;align-items:center;gap:14px;justify-content:space-between}
+#catalog-search{flex:1;min-width:0;padding:11px 14px;border-radius:11px;color:#e8f9f7;border:1px solid #76b7bd;background:#123a4c;font:inherit}
+#catalog-counter{color:#ffe2a3;white-space:nowrap;font-size:12px}
+.catalog-topic-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 6px}
+.catalog-topic-pill{padding:6px 12px;font-size:11px;font-weight:700;border-radius:100px;border:1px solid #4a7587;background:#113346;color:#d7ecf2;cursor:pointer;transition:all .15s}
+.catalog-topic-pill.active,.catalog-topic-pill:hover{background:#d4af37;color:#0a1c28;border-color:#ffe2a4}
+.catalog-grid{min-height:80px;flex:1;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));align-content:start;gap:13px;overflow:auto;padding:8px 3px 18px}
+.catalog-item{min-width:0;border:1px solid #7da9b080;border-radius:12px;padding:8px;background:#092b3d;transition:transform .15s,border-color .15s}
+.catalog-item:hover{border-color:#ffe2a4;transform:translateY(-2px)}
+.catalog-preview{width:100%;display:flex;flex-direction:column;align-items:center;gap:7px;background:none;color:white;border:0;padding:0}
+.catalog-preview img{height:160px;width:100%;object-fit:contain;border-radius:7px;background:#ffffff;padding:2px}
+.catalog-preview strong{height:38px;overflow:hidden;line-height:1.4;font-size:12px;text-align:center}
+.catalog-jump{width:100%;margin-top:8px;padding:8px 5px;border-radius:8px;background:#236c72;color:white;border:1px solid #80d0d3;font-size:11px;font-weight:700}
+.catalog-jump:hover{background:#2a858d;border-color:#ffe2a4;color:#ffe2a4}
+.catalog-footer{font-size:12px;color:#a6c9cf;text-align:center}
+.museum-presenting #museum-hud,.museum-presenting #control-hints{display:none!important}
+.museum-presenting #topbar{opacity:.35;transition:opacity .2s}
+.museum-presenting #topbar:hover,.museum-presenting #topbar:focus-within{opacity:1}
+@media(max-width:1150px){#topbar{left:7px;right:7px;padding:6px 9px}.mode{display:none}.avatar-label{display:none}.top-actions{gap:4px!important}.top-actions button,.top-actions select{padding:6px 7px!important}.brand small{font-size:9px}}
+@media(max-width:650px){#topbar .brand{display:none}#avatar-next{display:none}#camera-mode{max-width:98px;min-width:85px}#present-mode{max-width:110px;font-size:10px!important}.catalog-panel{padding:20px 9px 8px;height:min(760px,94vh)}.catalog-grade-tabs{gap:3px}.catalog-grade-tabs button{font-size:10px;padding:9px 1px}.catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.catalog-search-row{flex-direction:column;align-items:stretch;gap:4px}.catalog-preview img{height:115px}#catalog-counter{text-align:right}}
+
+/* GRAND DOME V6: building-first plaza, clear sky, on-scene NPC rather than the old full-screen door menu. */
+#topbar{background:rgba(10,34,53,.82)!important;border:1px solid rgba(230,198,144,.38)}
+#plaza-guide-hint{position:absolute;z-index:11;left:18px;bottom:23px;width:min(382px,calc(100vw - 35px));display:flex;flex-direction:column;gap:7px;padding:12px 15px;border-radius:15px;border-color:rgba(245,202,137,.55);background:linear-gradient(135deg,rgba(11,45,64,.87),rgba(11,31,52,.85))}
+#plaza-guide-hint strong{color:#ffdfaa;font-size:13px;letter-spacing:.1em}
+#plaza-guide-hint span{color:#d9f1f4;font-size:12px;line-height:1.35}
+#plaza-guide-hint button{align-self:flex-start;padding:8px 10px;border-radius:8px;border:1px solid #e4ba78;background:rgba(37,99,118,.77);color:#fff;font-size:11px;font-weight:700}
+body:has(#museum-hud:not([hidden])) #plaza-guide-hint,body:has(#r75-shell:not([hidden])) #plaza-guide-hint{display:none!important}
+#guide-dialog{position:absolute;inset:0;z-index:90}#guide-dialog[hidden]{display:none}
+.grand-guide{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:min(610px,calc(100vw - 25px));border-radius:22px;padding:29px 27px;background:linear-gradient(145deg,rgba(9,49,67,.98),rgba(14,27,52,.98));border:1px solid #e5c78b;box-shadow:0 20px 80px #020c20bb}
+.grand-guide h2{color:#ffdfaa;margin:10px 0 11px;font-size:clamp(18px,2.4vw,25px)}.grand-guide p{font-size:14px;line-height:1.75;color:#d9edef}.grand-guide small{display:block;margin-top:18px;opacity:.8}
+#guide-close{position:absolute;right:16px;top:13px;background:#e4c184;border:0;color:#123449;border-radius:7px;padding:7px 11px}
+.grand-guide-actions{display:grid;gap:9px;grid-template-columns:1fr 1fr}.grand-guide-actions button{min-height:48px;border-radius:11px;background:#175d72;border:1px solid #9adce5;color:white;font-weight:800}
+#guide-lab{background:#145c74}.grand-guide-actions #guide-speak{grid-column:span 2;background:#51456f;border-color:#c4acff}
+#lobby-menu{z-index:18;bottom:5%;width:min(630px,calc(100vw - 26px))}
+#lobby-shortcuts{border-color:#e0b87b!important;color:#ffdea6!important}
+@media (max-width:850px){#plaza-guide-hint{max-width:245px;bottom:83px;padding:9px;font-size:10px}#plaza-guide-hint span{font-size:10px}.grand-guide-actions{grid-template-columns:1fr}.grand-guide-actions #guide-speak{grid-column:span 1}}
+
+/* V7 circular exhibition wayfinding: complete 360-degree room plan. */
+.room-map-grid{display:block;position:relative;width:min(660px,100%);height:min(440px,54vh);min-height:300px;margin:18px auto 12px;border-radius:50%;
+  background:radial-gradient(circle at center,rgba(19,100,115,.34) 0 21%,transparent 21.5% 32%,rgba(230,188,108,.34) 32.4% 33%,transparent 33.4% 53%,rgba(30,127,146,.27) 53.5% 54.4%,transparent 55%);
+  border:2px solid rgba(239,208,149,.42)}
+.room-map-grid::after{content:'BỤC TRA CỨU\A 230 INFOGRAPHIC';white-space:pre;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:125px;height:82px;border:2px solid #d9bd7a;border-radius:45%;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(140deg,#14556b,#082636);text-align:center;font-size:12px;font-weight:800;line-height:1.5;color:#ffe2a4;pointer-events:none}
+.room-map-door,.room-map-door:nth-child(1),.room-map-door:nth-child(2),.room-map-door:nth-child(6),.room-map-door:nth-child(7){
+  position:absolute;transform:translate(-50%,-50%);min-height:0;width:100px;height:66px;padding:8px;display:grid;place-items:center;
+  background:linear-gradient(150deg,#124f67,#071f35);border-radius:12px;border:2px solid #c8ad74;font-size:13px;letter-spacing:.02em}
+.room-map-door:hover,.room-map-door:nth-child(1):hover,.room-map-door:nth-child(7):hover{transform:translate(-50%,-50%) scale(1.06);z-index:2}
+.room-map-center{display:none}
+.room-map-door[aria-current="true"]{border-color:#bff7f8;box-shadow:0 0 12px #77eef7}
+@media(max-width:620px){.room-map-grid{height:min(340px,50vh);min-height:260px;width:min(370px,100%)}
+  .room-map-door,.room-map-door:nth-child(1),.room-map-door:nth-child(7){width:63px;height:44px;font-size:10px;padding:2px}
+  .room-map-grid::after{width:90px;height:64px;font-size:9px}.room-map-panel{padding:18px 9px}}
+
+/* INFINITY TWIN WORLDS V9: interface is only restyled, NOT restructured. */
+#topbar{background:linear-gradient(110deg,rgba(8,37,62,.92),rgba(18,48,73,.86),rgba(39,34,72,.88))!important;
+  border:1px solid rgba(232,202,152,.60)!important;box-shadow:0 9px 38px rgba(6,27,50,.24),0 1px 0 rgba(255,231,184,.12) inset}
+.mode-pill{background:linear-gradient(100deg,rgba(29,131,159,.28),rgba(115,88,184,.24));
+  border-color:rgba(180,203,248,.60);color:#e6f5ff}
+#lobby-menu{border:1px solid rgba(233,198,150,.65);background:linear-gradient(120deg,rgba(7,43,62,.95),rgba(32,29,65,.95))}
+#plaza-guide-hint{border:1px solid rgba(230,201,153,.72);
+  background:linear-gradient(130deg,rgba(7,40,57,.94),rgba(29,38,70,.92));
+  box-shadow:0 18px 55px #081e387a,0 0 25px #8fc9e41a inset}
+#museum-hud{border-color:rgba(236,201,146,.67);box-shadow:0 14px 50px #07244283,0 0 26px #8ed8f51a inset}
+.door-option.r75{background:linear-gradient(130deg,rgba(15,100,119,.8),rgba(12,33,56,.95))}
+.door-option.museum{background:linear-gradient(130deg,rgba(85,62,141,.84),rgba(17,39,70,.95));border-color:#c0a6e5}
+.top-actions button,.top-actions select{box-shadow:0 1px 0 rgba(238,225,191,.12) inset}
+#poster-modal .poster-panel{border-color:#dfc28b;box-shadow:0 20px 70px #05172fc0}
+#poster-modal .poster-panel header{background:linear-gradient(135deg,#0c2336,#0a1b2a);padding:14px 20px;border-bottom:1px solid rgba(223,194,139,.4)}
+#poster-modal .poster-panel header strong{font-size:16px;color:#ffe2a4;letter-spacing:.02em}
+#poster-modal .poster-panel header #poster-info{font-size:12px;color:#a2c9dc;margin-top:3px}
+#poster-modal .poster-actions{gap:8px}
+#poster-modal .poster-actions button{padding:8px 14px;border-radius:8px;background:#1b394f;border:1px solid #426987;color:#fff;font-weight:750;transition:all .15s}
+#poster-modal .poster-actions button:hover{background:#2a577c;border-color:#ffe2a4;color:#ffe2a4}
+#poster-modal #poster-close{background:#8a2828!important;border-color:#ba4343!important}
+#poster-modal #poster-close:hover{background:#b82a2a!important}
+.zoom-actions{display:flex;align-items:center;gap:3px;background:#0d1d2b;border:1px solid #37566e;border-radius:8px;padding:2px 5px}
+.zoom-actions button{background:transparent!important;border:0!important;padding:5px 9px!important}
+#poster-zoom-label{font-size:12px;font-weight:800;color:#ffe2a4;min-width:44px;text-align:center}
+#poster-modal .poster-stage{background:radial-gradient(circle at 50% 10%,#132b3d,#060f18);padding:24px;display:flex;align-items:center;justify-content:center}
+#poster-modal .poster-stage img{background:#ffffff!important;padding:6px!important;border-radius:8px!important;box-shadow:0 20px 60px rgba(0,0,0,.65)!important;max-width:96%!important}
+#poster-modal .poster-panel footer{background:#0c2336;border-top:1px solid rgba(223,194,139,.3);color:#a2c9dc;font-size:12px;padding:11px 16px;display:flex;justify-content:center;align-items:center;gap:14px}
+/* GRAND CAMPUS V10: lobby-only complete visual/interface replacement.
+   Museum and R75 application controls are intentionally unchanged. */
+body.campus-lobby #topbar{
+  left:18px;right:18px;top:14px;min-height:66px;border-radius:18px;
+  background:linear-gradient(120deg,rgba(11,38,55,.94),rgba(13,60,69,.92),rgba(53,48,79,.93))!important;
+  border:1px solid rgba(238,202,139,.67)!important;
+  box-shadow:0 10px 40px #152b3c38,0 2px 1px #ffffff18 inset;
+}
+body.campus-lobby .brand-mark{color:#f4cd88;text-shadow:0 0 12px #c7a56b7d}
+body.campus-lobby #mode-pill{background:#d6ba7b!important;color:#112e42!important;
+  border-color:#f1d79a!important;font-weight:800;letter-spacing:.09em}
+body.campus-lobby #topbar .top-actions button,
+body.campus-lobby #topbar .top-actions select{
+  background:rgba(17,57,75,.82);border:1px solid rgba(170,211,218,.50);
+  border-radius:10px;color:#f5f5f0;
+}
+body.campus-lobby #lobby-shortcuts{background:#d8b978!important;color:#12324b!important;
+  border:1px solid #edce98!important;font-weight:800}
+body.campus-lobby #plaza-guide-hint{
+  left:26px;bottom:27px;width:min(360px,calc(100vw - 42px));max-width:none;
+  border-radius:17px;padding:15px 17px;gap:8px;
+  border:1px solid rgba(233,201,147,.75);
+  background:linear-gradient(145deg,rgba(11,53,65,.96),rgba(19,44,65,.95));
+  box-shadow:0 12px 32px #14304947,0 1px 0 #ffffff19 inset;
+}
+body.campus-lobby #plaza-guide-hint strong{font-size:13px;letter-spacing:.13em;color:#ffdd9e}
+body.campus-lobby #plaza-guide-hint span{font-size:12px;color:#eff9f6;line-height:1.52}
+body.campus-lobby #plaza-guide-hint button{padding:10px 13px;background:#caab74;
+  color:#17354b;border:1px solid #f5d7a1;border-radius:9px;font-weight:850;box-shadow:none}
+body.campus-lobby #lobby-menu{
+  position:absolute;left:50%;top:50%;bottom:auto;transform:translate(-50%,-50%);
+  width:min(670px,calc(100vw - 36px));padding:29px 29px 24px;
+  background:linear-gradient(150deg,rgba(8,47,66,.98),rgba(28,37,66,.98));
+  border:1px solid rgba(235,203,152,.72);border-radius:22px;
+  box-shadow:0 25px 80px #06172caf;
+}
+body.campus-lobby #lobby-menu .door-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+body.campus-lobby #lobby-menu .door-option{
+  min-height:150px;display:flex;flex-direction:column;align-items:flex-start;text-align:left;
+  gap:7px;padding:18px 16px;border-radius:15px;border:1px solid #8acbd39e;
+}
+body.campus-lobby #lobby-menu .door-option.r75{background:linear-gradient(145deg,#125769,#153047)}
+body.campus-lobby #lobby-menu .door-option.museum{background:linear-gradient(145deg,#684e86,#29314d);border-color:#d4a7db}
+body.campus-lobby .controls-hint{background:rgba(16,53,69,.91);border-color:#c1b58a}
+@media(max-width:850px){
+  body.campus-lobby #topbar{left:6px;right:6px;top:7px;border-radius:12px}
+  body.campus-lobby #plaza-guide-hint{bottom:78px;left:8px;width:min(280px,calc(100vw - 16px));padding:10px}
+}
+@media(max-width:550px){body.campus-lobby #lobby-menu .door-options{grid-template-columns:1fr}
+ body.campus-lobby #lobby-menu{padding:19px 12px} body.campus-lobby #lobby-menu .door-option{min-height:100px}}
+
+/* V11 independent character-camera dolly, no changes to poster or R75 controls. */
+.world-zoom{position:absolute;z-index:12;right:18px;bottom:28px;display:flex;align-items:center;gap:7px;
+  padding:8px 10px;border-radius:15px;border:1px solid #e9ca91;background:rgba(9,38,58,.89);
+  box-shadow:0 8px 28px rgba(9,33,51,.24)}
+.world-zoom-heading{font-weight:800;font-size:11px;letter-spacing:.04em;color:#ebd1a7;padding:0 4px}
+.world-zoom button{width:35px;height:35px;display:grid;place-items:center;border-radius:9px;border:1px solid rgba(240,207,157,.55);
+  color:#f5fafb;background:#194e63;font-size:23px;font-weight:750;cursor:pointer}
+.world-zoom button:hover,.world-zoom button:focus-visible{background:#30738b;outline:2px solid #cceef8;outline-offset:2px}
+.world-zoom output{font-size:12px;min-width:43px;color:#fff;display:inline-block;text-align:center;font-variant-numeric:tabular-nums}
+@media(max-width:900px){.world-zoom{right:8px;bottom:133px;gap:4px;padding:5px}.world-zoom-heading{display:none}
+  .world-zoom button{height:33px;width:31px;font-size:19px}.world-zoom output{min-width:35px;font-size:10px}}
+@media(max-width:500px){.world-zoom{bottom:147px;right:8px}}
+
+/* V12 Grade Guides & Dialogue */
+#grade-guide-dialog{position:absolute;inset:0;z-index:90}
+#grade-guide-dialog[hidden]{display:none}
+.grade-guide-panel{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:min(640px,calc(100vw - 25px));border-radius:24px;padding:30px 28px;background:linear-gradient(145deg,rgba(8,38,58,.98),rgba(12,24,46,.98));border:1px solid #e5c78b;box-shadow:0 25px 85px #020c20d0}
+.grade-guide-panel h2{color:#ffdfaa;margin:8px 0 10px;font-size:clamp(18px,2.5vw,24px)}
+.grade-guide-panel p{font-size:14px;line-height:1.7;color:#d9edef;margin:8px 0}
+.grade-guide-panel blockquote{border-left:3px solid #e7c17c;padding-left:12px;margin:12px 0;color:#fce4a6;font-style:italic;font-size:13.5px}
+.grade-guide-actions{display:grid;gap:9px;grid-template-columns:1fr 1fr 1fr;margin-top:14px}
+.grade-guide-actions button{min-height:46px;border-radius:10px;background:#175d72;border:1px solid #9adce5;color:white;font-weight:800;font-size:12px;cursor:pointer;transition:background .15s}
+.grade-guide-actions button:hover{background:#227a94;border-color:#ffe2a4}
+#grade-guide-close{position:absolute;right:16px;top:13px;background:#e4c184;border:0;color:#123449;border-radius:7px;padding:7px 11px;font-weight:800;cursor:pointer}
+
+/* V15: Quick Lesson Navigation in HUD */
+.lesson-quick-nav{display:flex;gap:7px;margin-top:10px}
+.lesson-nav-btn{flex:1;background:linear-gradient(135deg,rgba(16,49,69,.92),rgba(8,30,48,.92));border:1px solid rgba(231,193,124,.55);color:#ffeed1;border-radius:9px;padding:8px 6px;font-size:12px;font-weight:750;cursor:pointer;transition:all .18s;display:inline-flex;align-items:center;justify-content:center}
+.lesson-nav-btn:hover{background:linear-gradient(135deg,#236e88,#174f63);border-color:#ffd690;color:#fff;transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,.3)}
+.lesson-nav-btn:active{transform:translateY(0)}
+
+
+
+/* ==========================================================================
+   V16: COMPREHENSIVE UI UPGRADE FOR GRAND CAMPUS LOBBY, LAB & MUSEUM
+   ========================================================================== */
+
+/* 1. TOPBAR THƯỢNG ĐỈNH GLASSMORPHIIC 2.0 & FPS COUNTER */
+.fps-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(16, 42, 60, 0.85);
+  border: 1px solid rgba(82, 196, 170, 0.5);
+  border-radius: 100px;
+  padding: 3px 9px;
+  font-size: 11px;
+  font-weight: 750;
+  color: #5ef3b8;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  box-shadow: 0 0 10px rgba(94, 243, 184, 0.2);
+}
+.fps-pill::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #5ef3b8;
+  box-shadow: 0 0 6px #5ef3b8;
+  animation: fps-pulse 2s infinite ease-in-out;
+}
+@keyframes fps-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.45; transform: scale(0.85); }
+}
+
+/* 2. CAMPUS SATELLITE MINI-RADAR (SẢNH CHUNG) */
+.campus-radar {
+  position: absolute;
+  top: 76px;
+  right: 18px;
+  z-index: 15;
+  width: 146px;
+  padding: 8px 10px 10px;
+  border-radius: 18px;
+  background: linear-gradient(145deg, rgba(7, 24, 38, 0.94), rgba(11, 35, 54, 0.92));
+  border: 1px solid rgba(138, 203, 211, 0.55);
+  box-shadow: 0 12px 35px rgba(2, 12, 22, 0.65), 0 0 18px rgba(34, 180, 205, 0.15) inset;
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  user-select: none;
+  transition: opacity 0.25s, transform 0.25s;
+}
+.campus-radar.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-8px) scale(0.95);
+}
+.radar-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #7ce7f5;
+  border-bottom: 1px solid rgba(124, 231, 245, 0.2);
+  padding-bottom: 4px;
+}
+.radar-north {
+  color: #f7d692;
+  font-weight: 900;
+}
+#radar-canvas {
+  width: 126px;
+  height: 126px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(14, 52, 75, 0.9), rgba(5, 17, 27, 0.98));
+  border: 1.5px solid rgba(235, 203, 152, 0.65);
+  box-shadow: 0 0 12px rgba(110, 220, 240, 0.2) inset, 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+.radar-hud-labels {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 9.5px;
+  font-weight: 800;
+}
+.radar-lab-lbl {
+  color: #62d6eb;
+}
+.radar-museum-lbl {
+  color: #d19ff0;
+}
+@media (max-width: 850px) {
+  .campus-radar {
+    top: 70px;
+    right: 8px;
+    width: 124px;
+    padding: 6px 8px;
+  }
+  #radar-canvas {
+    width: 106px;
+    height: 106px;
+  }
+}
+
+/* 3. 3D HERO CARDS TRONG LOBBY MENU (SẢNH CHUNG) */
+.door-option.hero-card-lab {
+  background: linear-gradient(150deg, rgba(16, 75, 94, 0.95), rgba(12, 38, 58, 0.95));
+  border: 1.5px solid #48c9df;
+  box-shadow: 0 10px 30px rgba(18, 90, 110, 0.35);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+.door-option.hero-card-lab:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-color: #79edff;
+  box-shadow: 0 16px 42px rgba(45, 185, 219, 0.55), 0 0 20px rgba(121, 237, 255, 0.3) inset;
+}
+.door-option.hero-card-museum {
+  background: linear-gradient(150deg, rgba(94, 58, 126, 0.95), rgba(38, 30, 62, 0.95));
+  border: 1.5px solid #c288e8;
+  box-shadow: 0 10px 30px rgba(100, 50, 130, 0.35);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+.door-option.hero-card-museum:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-color: #e5afff;
+  box-shadow: 0 16px 42px rgba(194, 136, 232, 0.55), 0 0 20px rgba(229, 175, 255, 0.3) inset;
+}
+.hero-card-badge {
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  padding: 3px 9px;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 2px;
+}
+.hero-card-lab .hero-card-badge {
+  background: rgba(43, 177, 204, 0.3);
+  border-color: #55dbf2;
+  color: #92f1ff;
+}
+.hero-card-museum .hero-card-badge {
+  background: rgba(162, 97, 219, 0.3);
+  border-color: #d89eff;
+  color: #f1d5ff;
+}
+.hero-card-desc {
+  font-size: 12px;
+  line-height: 1.45;
+  color: #dbeef3;
+  margin: 3px 0 6px;
+}
+.hero-card-btn {
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.05em;
+  color: #ffe6aa;
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* 4. SCI-FI TECH COMMAND DECK CHO PHÒNG LAB (R75 SHELL) */
+#r75-shell {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+  background: #06111d;
+  display: flex;
+  flex-direction: column;
+}
+#r75-shell[hidden] {
+  display: none;
+}
+.r75-command-deck {
+  height: 56px;
+  min-height: 56px;
+  background: linear-gradient(90deg, rgba(8, 30, 48, 0.97), rgba(11, 46, 68, 0.95), rgba(7, 26, 42, 0.97));
+  border-bottom: 1.5px solid rgba(118, 218, 235, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  gap: 14px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+  transition: all 0.25s ease;
+  z-index: 60;
+}
+.r75-deck-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.r75-deck-icon {
+  font-size: 22px;
+  filter: drop-shadow(0 0 6px #59dcf2);
+}
+.r75-deck-titles {
+  display: flex;
+  flex-direction: column;
+}
+.r75-deck-titles strong {
+  font-size: 13.5px;
+  letter-spacing: 0.06em;
+  color: #8beeff;
+  line-height: 1.2;
+}
+.r75-deck-titles small {
+  font-size: 10px;
+  color: #badbe3;
+  letter-spacing: 0.04em;
+}
+.r75-deck-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#r75-focus-mode {
+  background: rgba(18, 54, 76, 0.85);
+  border: 1px solid #75d4e5;
+  color: #dcf6fb;
+  border-radius: 9px;
+  padding: 7px 12px;
+  font-size: 11.5px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+#r75-focus-mode:hover {
+  background: #1e708a;
+  border-color: #a4f0ff;
+  color: #fff;
+}
+.r75-exit-btn {
+  background: linear-gradient(135deg, #c7964b, #eed39c);
+  border: 1px solid #ffe8b5;
+  color: #0d2838;
+  border-radius: 9px;
+  padding: 7px 14px;
+  font-size: 12px;
+  font-weight: 850;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+.r75-exit-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(220, 160, 70, 0.4);
+}
+#r75-frame {
+  flex: 1;
+  width: 100%;
+  border: 0;
+  background: #000;
+}
+.r75-controls-cheatsheet {
+  position: absolute;
+  bottom: 12px;
+  right: 16px;
+  z-index: 55;
+  padding: 6px 12px;
+  border-radius: 10px;
+  background: rgba(6, 23, 36, 0.82);
+  border: 1px solid rgba(138, 203, 211, 0.4);
+  font-size: 11px;
+  color: #d1edf2;
+  pointer-events: none;
+  backdrop-filter: blur(8px);
+}
+/* R75 Focus Mode: hides header, frame goes 100% full screen */
+#r75-shell.is-focus-mode .r75-command-deck {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  height: auto;
+  min-height: 0;
+  padding: 6px 10px;
+  border-radius: 12px;
+  background: rgba(7, 24, 38, 0.85);
+  border: 1px solid #75d4e5;
+  backdrop-filter: blur(12px);
+}
+#r75-shell.is-focus-mode .r75-deck-brand,
+#r75-shell.is-focus-mode .r75-deck-quick-dock {
+  display: none;
+}
+#r75-shell.is-focus-mode #r75-frame {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+}
+
+/* 5. CURATOR HUD AUTO-TOUR BUTTON (BẢO TÀNG) */
+.mini-tour-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #1b6278, #2a8da7);
+  border: 1.5px solid #71e0f4;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 9px 8px;
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  margin-top: 7px;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(27, 98, 120, 0.35);
+}
+.mini-tour-btn:hover {
+  background: linear-gradient(135deg, #24819d, #3ab0cf);
+  border-color: #a4f3ff;
+  box-shadow: 0 6px 20px rgba(58, 176, 207, 0.55);
+  transform: translateY(-1px);
+}
+.mini-tour-btn.is-touring {
+  background: linear-gradient(135deg, #c73659, #e85077) !important;
+  border-color: #ffa1b7 !important;
+  color: #fff !important;
+  animation: tour-pulse 1.6s infinite ease-in-out;
+}
+@keyframes tour-pulse {
+  0%, 100% { box-shadow: 0 0 14px rgba(232, 80, 119, 0.6); }
+  50% { box-shadow: 0 0 28px rgba(255, 161, 183, 0.9); }
+}
+
+/* 6. MASTER CATALOG 2.0 (SEMESTER TABS & GRID / LIST VIEW) */
+.catalog-sub-filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 3px 0 8px;
+  flex-wrap: wrap;
+}
+.catalog-semester-tabs {
+  display: flex;
+  gap: 6px;
+}
+.catalog-sem-pill {
+  padding: 5px 12px;
+  font-size: 11.5px;
+  font-weight: 750;
+  border-radius: 8px;
+  border: 1px solid #45788d;
+  background: #0f3042;
+  color: #cbe6ed;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.catalog-sem-pill:hover,
+.catalog-sem-pill.active {
+  background: #257896;
+  border-color: #7de3f5;
+  color: #fff;
+}
+.catalog-view-mode {
+  display: flex;
+  gap: 4px;
+  background: #0c2738;
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid #336175;
+}
+.catalog-view-mode button {
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 800;
+  border-radius: 6px;
+  border: 0;
+  background: transparent;
+  color: #abd3dd;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.catalog-view-mode button.active {
+  background: #f0cb85;
+  color: #0d2838;
+}
+/* Catalog List View */
+.catalog-grid.list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.catalog-list-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: rgba(14, 46, 66, 0.75);
+  border: 1px solid rgba(125, 203, 218, 0.35);
+  transition: all 0.15s;
+  cursor: pointer;
+}
+.catalog-list-row:hover {
+  background: rgba(26, 75, 105, 0.9);
+  border-color: #ffd891;
+  transform: translateX(4px);
+}
+.catalog-list-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.catalog-list-num {
+  font-size: 13px;
+  font-weight: 850;
+  color: #ffd996;
+  min-width: 58px;
+}
+.catalog-list-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #eff9fa;
+}
+.catalog-list-badge {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: rgba(240, 203, 133, 0.2);
+  color: #f7dfaa;
+  border: 1px solid rgba(240, 203, 133, 0.4);
+}
+
+/* 7. MASTER POSTER VIEWER 2.0 MINIMAP PAN VIEW */
+.poster-minimap {
+  position: absolute;
+  bottom: 16px;
+  right: 18px;
+  z-index: 85;
+  width: 120px;
+  height: 160px;
+  border-radius: 10px;
+  border: 1.5px solid rgba(235, 203, 152, 0.7);
+  background: rgba(5, 17, 27, 0.9);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  pointer-events: none;
+  backdrop-filter: blur(8px);
+}
+.poster-minimap[hidden] {
+  display: none;
+}
+#poster-minimap-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.85;
+}
+#poster-minimap-box {
+  position: absolute;
+  border: 2px solid #5ef3b8;
+  background: rgba(94, 243, 184, 0.25);
+  box-shadow: 0 0 8px rgba(94, 243, 184, 0.4);
+  pointer-events: none;
+}
+
+/* WONDER PARK V1: 3rd real gate and full-screen embedded amusement park. */
+#topbar .park-quick-enter{border-color:#f6cf79!important;color:#ffe9ac!important;background:linear-gradient(140deg,#376264,#23445d)!important;font-weight:800;white-space:nowrap}
+body.campus-lobby #lobby-menu{width:min(840px,calc(100vw - 28px));max-height:calc(100vh - 115px);overflow:auto}
+body.campus-lobby #lobby-menu .door-options{grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}
+body.campus-lobby #lobby-menu .hero-card-park{background:linear-gradient(140deg,#275a47,#123c42);border-color:#e7bd71;color:#fff5d8}
+body.campus-lobby #lobby-menu .hero-card-park .hero-card-badge{background:#806238;color:#fff4d4;border-color:#e8c583}
+#guide-park{background:#316e55;border-color:#f4cf82}
+@media(max-width:920px){body.campus-lobby #lobby-menu .door-options{grid-template-columns:1fr 1fr}#topbar .park-quick-enter{font-size:10px!important}body.campus-lobby #lobby-menu .door-option{min-height:120px}}
+
+/* WONDER PARK V2: native geographic extension of the existing 3D lobby. */
+#park-aerial,#campus-park-aerial,#park-open-menu{font-size:11px;padding:8px 9px;border-radius:9px;border:1px solid #316789;background:#0a334a;color:#e4f9ff;white-space:nowrap}
+#park-aerial:hover,#campus-park-aerial:hover,#park-open-menu:hover{background:#135778;border-color:#65d8ed}
+.mvpark-sheet{position:fixed;z-index:85;top:77px;right:16px;bottom:22px;width:min(430px,calc(100vw - 26px));display:flex;flex-direction:column;gap:12px;overflow-y:auto;padding:16px;border:1px solid rgba(121,216,242,.48);border-radius:20px;background:linear-gradient(160deg,rgba(11,33,51,.97),rgba(6,20,34,.98));box-shadow:0 18px 65px rgba(0,0,0,.5);color:#eafbff;backdrop-filter:blur(12px)}
+.mvpark-sheet[hidden]{display:none!important}
+.mvpark-header{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:4px}
+.mvpark-header small{font-size:10px;color:#95dded;letter-spacing:.1em}
+.mvpark-header h2{font-size:19px;line-height:1.25;margin:4px 0 0;color:#fff3cb}
+.mvpark-header button{background:#173f57;color:#fff;border:1px solid #3e7a95;border-radius:9px;padding:6px 10px;font-size:17px}
+.mvpark-npc{display:flex;align-items:flex-start;gap:12px;padding:11px;background:rgba(82,194,216,.12);border:1px solid #386884;border-radius:14px}
+.mvpark-npc>span{font-size:31px}
+.mvpark-npc strong{font-size:14px;color:#ffe2a4}
+.mvpark-npc p{font-size:13px;line-height:1.5;color:#dcf6ff;margin:6px 0 10px}
+.mvpark-npc button,.mvpark-footer button{font-size:12px;padding:8px 11px;background:#1b5070;color:#fff;border:1px solid #36799c;border-radius:9px}
+.mvpark-primary{display:block;width:100%;font-weight:800;font-size:13px;border:1px solid #f3cb78;border-radius:12px;background:linear-gradient(110deg,#ffe8ac,#f0b75b);padding:13px 8px;color:#163345}
+.mvpark-primary[hidden]{display:none!important}
+.mvpark-section{font-size:11px;color:#9dd4e9;font-weight:900;letter-spacing:.08em;margin-top:4px}
+.mvpark-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mvpark-grid button{font-size:11px;line-height:1.3;padding:10px 7px;text-align:left;border-radius:9px;border:1px solid #326586;background:#143e5a;color:#e5f4ff;min-height:42px}
+.mvpark-grid button:hover{background:#23688a;border-color:#85cfe4}
+.mvpark-footer{display:flex;gap:10px}
+.mvpark-footer button{flex:1}
+.mvpark-note{font-size:11px;color:#a8c9df;line-height:1.5;margin:4px 0 0}
+.mvpark-quiz-stats{display:flex;justify-content:space-between;align-items:center;background:#113852;border:1px solid #285b77;border-radius:10px;padding:9px 12px;font-size:12px}
+.mvpark-progress-group{display:flex;align-items:center;gap:9px}
+.mvpark-quiz-stats strong{font-size:19px;color:#ffdc8e}
+.mvpark-diff-badge{display:inline-flex;align-items:center;padding:2.5px 8px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:0.3px;text-transform:uppercase}
+.mvpark-diff-badge[data-diff="Dễ"],.mvpark-diff-badge[data-diff="Nhận biết"]{background:rgba(16,185,129,0.22);color:#34d399;border:1px solid rgba(52,211,153,0.5)}
+.mvpark-diff-badge[data-diff="Trung bình"],.mvpark-diff-badge[data-diff="Thông hiểu"]{background:rgba(245,158,11,0.22);color:#fbbf24;border:1px solid rgba(251,191,36,0.5)}
+.mvpark-diff-badge[data-diff="Khó"],.mvpark-diff-badge[data-diff="Vận dụng"],.mvpark-diff-badge[data-diff="Vận dụng cao"]{background:rgba(239,68,68,0.22);color:#f87171;border:1px solid rgba(248,113,113,0.5)}
+.mvpark-question{font-size:17px;font-weight:650;line-height:1.6;color:#fff7e9;overflow-wrap:anywhere}
+.mvpark-answers{display:grid;gap:8px}
+.mvpark-answer{display:flex;gap:12px;align-items:center;text-align:left;border-radius:12px;border:1px solid #42718c;background:#153b58;padding:12px;color:#f7fdff;font-size:14px;line-height:1.55;cursor:pointer}
+.mvpark-answer strong{flex-shrink:0;width:32px;height:32px;display:grid;place-items:center;border-radius:100%;background:#25698a;color:#fff}
+.mvpark-answer:hover:not(:disabled){background:#206285;border-color:#82d7ed}
+.mvpark-answer.correct{background:#1d513c;border-color:#58da9a}
+.mvpark-answer.wrong{background:#5b2535;border-color:#ff989c}
+.mvpark-answer:disabled{cursor:default}
+.mvpark-feedback{font-size:12px;color:#b8dce9;line-height:1.55}
+.mvpark-feedback[data-result=correct]{color:#8df5b4}
+.mvpark-feedback[data-result=wrong]{color:#ffc2be}
+.mvpark-question math,.mvpark-answer math{display:inline-block;vertical-align:middle;font-size:1.04em;margin:0 .12em;color:inherit}
+#mvpark-result{background:rgba(255,226,149,.08);padding:16px;border:1px solid #b39e65;border-radius:13px}
+#mvpark-result[hidden]{display:none}
+#mvpark-result h3{color:#ffe5a3;font-size:22px;margin:0 0 8px}
+#mvpark-result p{line-height:1.65;color:#e4f6ff;font-size:14px}
+@media (max-width:750px){#park-aerial,#campus-park-aerial{font-size:10px;padding:6px}.mvpark-sheet{top:95px;right:8px;bottom:12px;width:min(390px,calc(100vw - 16px));padding:12px}}
+
+
+/* MATHVERSE MASTERPLAN V3 — editable, interactive vector campus floorplan. */
+#topbar .campus-map-open{background:linear-gradient(120deg,#ffc976,#f4e2af)!important;color:#173d50!important;border:1px solid #ffdc91!important;font-weight:900!important}
+.campus-map-dialog{position:fixed;inset:0;z-index:120;padding:22px;display:flex;align-items:center;justify-content:center;background:rgba(0,10,23,.87);backdrop-filter:blur(12px)}
+.campus-map-dialog[hidden]{display:none!important}
+.campus-map-shell{width:min(1480px,99vw);height:min(870px,96vh);display:flex;flex-direction:column;overflow:hidden;border-radius:24px;border:1px solid #7ab7bd;box-shadow:0 26px 90px rgba(0,0,0,.67);color:#eafaff;background:linear-gradient(155deg,#0e3345,#0b2039)}
+.campus-map-header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:17px 22px;border-bottom:1px solid #3f7382;background:linear-gradient(110deg,#123d52,#162d48)}
+.campus-map-eyebrow{font-size:11px;letter-spacing:2px;color:#9adae1;font-weight:900}
+.campus-map-header h2{margin:6px 0;font-size:23px;color:#fff0c1}
+.campus-map-header p{margin:0;color:#b8d8e6;font-size:13px}
+#campus-map-close{flex:0 0 auto;font-size:22px;border-radius:12px;border:1px solid #73aab4;background:#153c56;color:white;min-width:43px;min-height:42px}
+.campus-map-main{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:14px;padding:14px}
+.campus-map-canvas{display:flex;flex-direction:column;min-height:0;border-radius:17px;overflow:hidden;border:1px solid #416f83;background:#0a2941}
+#campus-map-svg{width:100%;height:100%;min-height:0;display:block;flex:1}
+.campus-map-node{cursor:pointer;outline:none;transition:filter .15s}
+.campus-map-node:hover,.campus-map-node:focus{filter:brightness(1.22) drop-shadow(0 0 6px #b5ffff)}
+.campus-map-footnote{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;padding:7px 11px;background:#0a2b41;color:#d9eff5;font-size:11px}
+.campus-map-person{width:10px;height:10px;display:inline-block;border-radius:50%;background:#ffe38c;box-shadow:0 0 0 2px #f9ffff}
+.campus-map-sidebar{display:flex;flex-direction:column;gap:10px;overflow:auto;padding:4px}
+.campus-map-buttons{display:grid;grid-template-columns:1fr;gap:8px}
+.campus-map-buttons button{font-size:12px;padding:12px 9px;font-weight:900;border:1px solid #a6dcd6;color:#0c3345;background:linear-gradient(110deg,#9be9d3,#f9d88e);border-radius:11px}
+.campus-map-sidebar h3{color:#ffd990;font-size:13px;margin:8px 0 0;letter-spacing:.07em}
+#campus-map-legend{display:grid;grid-template-columns:1fr;gap:5px}
+#campus-map-legend button{font-size:12px;color:#e4f9ff;text-align:left;background:#15405d;border:1px solid #366e85;border-radius:9px;padding:8px 10px;cursor:pointer}
+#campus-map-legend button:hover{background:#246780;color:#fff}
+.campus-map-sidebar p{font-size:11px;color:#b4d4de;line-height:1.55}
+@media(max-width:960px){.campus-map-dialog{padding:8px}.campus-map-main{grid-template-columns:1fr;grid-template-rows:minmax(290px,53vh) 1fr}.campus-map-sidebar{padding-bottom:14px}.campus-map-header{padding:10px 13px}.campus-map-header h2{font-size:17px}#campus-map-legend{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:550px){.campus-map-main{grid-template-rows:minmax(235px,41vh) 1fr;padding:8px}.campus-map-header p{display:none}#campus-map-legend button{font-size:11px;padding:7px 8px}}
+
+
+/* WONDER PARK V5 — three attractons share one 3D scene; pop-up keeps models visible. */
+.mvpark-room-controls{display:flex;gap:7px;flex-wrap:wrap}
+.mvpark-room-controls button,.mvpark-game-tools button,.mvpark-quiet{background:#542e26;color:#ffe8b5;border:1px solid #b17b46;border-radius:10px;padding:9px 11px;font-size:12px;font-weight:800;cursor:pointer}
+.mvpark-room-controls button[hidden],.mvpark-game-tools button[hidden],.mvpark-draw-lot[hidden]{display:none!important}
+#mvpark-game-shade{position:fixed;inset:0;z-index:80;background:radial-gradient(circle at 35% 50%,transparent 18%,rgba(5,13,22,.28) 90%);pointer-events:none}
+#mvpark-game-shade[hidden],#mvpark-chicken-beak[hidden]{display:none!important}
+#mvpark-chicken-beak{position:fixed;z-index:86;pointer-events:none;bottom:18px;left:39%;transform:translateX(-50%);display:flex;align-items:center;gap:10px;border-radius:30px;padding:7px 15px;background:rgba(8,40,54,.72);border:1px solid rgba(121,219,255,.52);color:#d6f4ff;font-size:11px;font-weight:800;letter-spacing:.09em}
+#mvpark-chicken-beak span{font-size:25px}
+.mvpark-sheet.mvpark-quiz{top:50%;bottom:auto;right:18px;left:auto;transform:translateY(-50%);width:min(445px,39vw);max-height:calc(100dvh - 108px);border:2px solid rgba(155,227,255,.62);box-shadow:0 20px 75px rgba(0,0,0,.62),0 0 0 2px rgba(42,135,175,.1)}
+.mvpark-game-tools{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.mvpark-game-tools span{font-size:10px;font-weight:800;letter-spacing:.1em;color:#9bd0ef}
+.mvpark-quiz .mvpark-question{border-radius:12px;padding:12px;background:rgba(230,241,255,.05);border-left:3px solid #f0d19b}
+.mvpark-quiz .mvpark-answer{transition:transform .16s,background .16s}
+.mvpark-quiz .mvpark-answer:hover:not(:disabled){transform:translateY(-2px)}
+.mvpark-draw-lot{background:linear-gradient(135deg,#873f29,#e5ab64);color:#fff9df!important;border:1px solid #f8d99b}
+.mvpark-sheet button:focus-visible{outline:3px solid #ffdc93;outline-offset:2px}
+@media(max-width:960px){.mvpark-sheet.mvpark-quiz{right:8px;top:auto;bottom:10px;transform:none;width:min(95vw,455px);max-height:72dvh}#mvpark-chicken-beak{left:25%}}
+@media(max-width:600px){.mvpark-sheet.mvpark-quiz{right:6px;left:6px;width:auto;max-height:65dvh;top:auto;bottom:5px;padding:10px}#mvpark-chicken-beak{left:50%;bottom:68dvh;font-size:9px;opacity:.85}}
+
+/* V6: compact floating quiz keeps the attraction visible; mobile jump button. */
+#touch-jump{min-width:62px;font-size:11px;border-color:#8ef1c9;background:#175d69dd}
+.mvpark-sheet.mvpark-quiz{background:linear-gradient(160deg,rgba(9,29,48,.965),rgba(5,18,30,.965));}
+@media (max-width:900px){#touchpad{gap:7px}#touch-jump{min-width:56px}}
+
+/* MATHVERSE V7: Millionaire lifelines and 8-level maze panel. */
+.mvpark-lifelines{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.mvpark-lifelines[hidden],.mvpark-prize-ladder[hidden],.mvpark-lifeline-result[hidden],.mvpark-maze-hud[hidden]{display:none!important}
+.mvpark-lifelines button{border:1px solid #d1b16b;background:linear-gradient(140deg,#213a71,#17274a);color:#fff3c6;border-radius:14px;padding:10px 12px;font-weight:800;cursor:pointer}
+.mvpark-lifelines button:disabled{opacity:.38;cursor:default}
+.mvpark-lifeline-result{border-left:3px solid #c7a75c;background:rgba(13,32,68,.85);padding:11px 13px;color:#e8ecff;font-size:13px;line-height:1.5;border-radius:10px}
+.mvpark-prize-ladder{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;max-height:175px;overflow:auto;margin:11px 0;padding:7px;background:#091e35;border-radius:14px;border:1px solid rgba(240,198,108,.3)}
+.mvpark-prize-item{font-size:11px;padding:6px 5px;white-space:nowrap;color:#c1d9ea;border:1px solid rgba(120,160,193,.22);border-radius:6px;text-align:center}
+.mvpark-prize-item.milestone{border-color:#eac878;color:#ffe29e;font-weight:800}
+.mvpark-prize-item.current{background:#a97520;border-color:#ffdd85;color:#fff;font-weight:900}
+.mvpark-help-removed{opacity:.2!important;pointer-events:none!important;filter:grayscale(1)}
+.mvpark-maze-hud{position:fixed;top:105px;left:20px;z-index:2200;width:min(430px,calc(100vw - 40px));background:linear-gradient(145deg,rgba(9,35,57,.96),rgba(11,22,39,.95));border:1px solid #70c8d9;border-radius:18px;padding:17px;box-shadow:0 16px 42px rgba(0,0,0,.5);color:#e8faff}
+.mvpark-maze-hud header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.mvpark-maze-hud header button,.mvpark-maze-hud>button{border:1px solid #77cad9;background:#194a6b;color:#fff;border-radius:10px;padding:8px 12px;cursor:pointer}
+.mvpark-maze-hud p{line-height:1.5;color:#c6eaf7}
+.mvpark-maze-controls{padding:10px;border-radius:9px;background:rgba(255,255,255,.065);font-size:12px;color:#c7d6e6;margin-bottom:10px}
+@media (max-width:690px){.mvpark-prize-ladder{grid-template-columns:repeat(2,minmax(0,1fr));max-height:140px}.mvpark-maze-hud{top:78px}}
+
+
+/* MATHVERSE V8 — high-contrast teacher curriculum selector and individual game rules. */
+.mvpark-learning-setup,.mvpark-rules-card{border:1px solid rgba(128,206,238,.4);border-radius:18px;padding:13px;background:linear-gradient(145deg,rgba(16,60,87,.74),rgba(7,30,51,.72));box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
+.mvpark-learning-setup[hidden],.mvpark-rules-card[hidden],.mvpark-chapter-wrap[hidden]{display:none!important}
+.mvpark-setup-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+.mvpark-setup-heading small{color:#88d8ed;font-size:10px;font-weight:900;letter-spacing:.14em}
+.mvpark-setup-heading h3{margin:5px 0 0;font-size:17px;color:#ffe4a9;letter-spacing:.01em}
+.mvpark-setup-heading>span{font-size:10px;color:#aedbf2;border:1px solid #376d86;border-radius:40px;padding:6px 9px;white-space:nowrap}
+.mvpark-setup-grid{display:grid;grid-template-columns:1fr 1.18fr;gap:10px}
+.mvpark-setup-grid label{display:flex;flex-direction:column;gap:6px;font-size:12px;color:#c4e4f5;font-weight:750;min-width:0}
+.mvpark-setup-grid label.mvpark-chapter-wrap{grid-column:1/-1}
+.mvpark-setup-grid select{width:100%;min-width:0;background:#0a2743;border:1px solid #5591b1;border-radius:11px;color:#fff6df;font-size:14px;font-weight:650;padding:11px 12px;cursor:pointer;outline-offset:2px}
+.mvpark-setup-grid select:focus-visible,.mvpark-teacher-actions button:focus-visible{outline:2px solid #ffe39e}
+.mvpark-bank-status{font-size:12px;line-height:1.55;color:#c5e7ff;background:rgba(4,17,33,.6);border:1px solid #356b89;padding:10px 12px;border-radius:12px;margin-top:12px;overflow-wrap:anywhere}
+.mvpark-bank-status[data-ready="yes"]{border-color:#429e87;color:#b3f4d5;background:rgba(14,65,55,.44)}
+.mvpark-bank-status[data-ready="no"]{border-color:#c58d55;color:#ffe2b3;background:rgba(90,48,19,.32)}
+.mvpark-teacher-tools{margin-top:12px;border-top:1px dashed rgba(138,208,239,.3);padding-top:10px;font-size:12px}
+.mvpark-teacher-tools summary{cursor:pointer;color:#dbebff;font-weight:800;line-height:1.5}
+.mvpark-teacher-tools p{font-size:11px;color:#b1d8e8;line-height:1.45;margin:9px 0}
+.mvpark-teacher-tools input{display:block;max-width:100%;margin:8px 0;font-size:11px;color:#e9faff}
+.mvpark-teacher-actions{display:flex;gap:8px;flex-wrap:wrap}
+.mvpark-teacher-actions button{border:1px solid #3e92b9;background:#205779;color:#f6fdff;border-radius:10px;padding:8px 10px;font-size:11px;font-weight:800}
+.mvpark-rules-card{border-color:#987e4a;background:linear-gradient(145deg,rgba(76,60,36,.72),rgba(28,39,46,.74))}
+.mvpark-rules-card ol,.mvpark-quiz-rules ol{padding-left:22px;margin:9px 0;display:grid;gap:9px;color:#e7f6ff;font-size:13px;line-height:1.45}
+.mvpark-rules-card li::marker,.mvpark-quiz-rules li::marker{color:#ffce7c;font-weight:900}
+.mvpark-rule-goal{font-weight:800;font-size:12px;color:#ffe1a8;padding:10px;border-radius:12px;margin:10px 0 0;background:rgba(255,213,141,.11)}
+#mvpark-start:disabled{opacity:.46;cursor:not-allowed;filter:grayscale(.65);box-shadow:none}
+.mvpark-quiz-scope{font-size:12px;color:#b8f4ee;background:rgba(14,84,85,.4);border:1px solid rgba(80,183,177,.45);border-radius:9px;padding:7px 10px;font-weight:750}
+.mvpark-quiz-rules{border:1px solid rgba(190,205,226,.22);border-radius:10px;background:rgba(5,24,41,.72);padding:8px 11px;font-size:12px;color:#d8edff}
+.mvpark-quiz-rules summary{cursor:pointer;font-weight:800}
+.mvpark-quiz-rules ol{font-size:11px;gap:6px}
+.mvpark-sheet.mvpark-quiz{border-color:#72c4df}
+.mvpark-answer.correct{box-shadow:0 0 0 1px rgba(89,245,163,.25)}
+.mvpark-grid button{transition:background .16s,transform .16s,border-color .16s}
+.mvpark-grid button:hover{transform:translateY(-1px)}
+@media(max-width:600px){.mvpark-learning-setup,.mvpark-rules-card{padding:11px}.mvpark-setup-heading h3{font-size:15px}.mvpark-rules-card ol{font-size:12px}}
+
+/* V9: readable offline mathematical typesetting for long fractions, powers and vectors */
+.mvpark-question,.mvpark-answer span{font-family:Inter,'Segoe UI',Arial,sans-serif;font-kerning:normal;letter-spacing:0;line-height:1.9}
+.mvpark-question math,.mvpark-answer math{font-family:math,STIXGeneral,'Cambria Math',serif;font-size:1.16em;vertical-align:-.08em;padding:0 .06em;max-width:100%;overflow:visible}
+.mvpark-answer span{min-width:0;overflow-wrap:break-word}
+.mvpark-answer{min-height:53px}
+.mvpark-quiz .mvpark-question{background:rgba(232,243,255,.075);border-left:4px solid #ffe0a0;padding:14px 16px}
+@media(max-width:700px){.mvpark-question{font-size:16px}.mvpark-answer{font-size:14px}.mvpark-question math,.mvpark-answer math{font-size:1.06em}}
+
+/* MATHVERSE FINAL: comfortably readable mathematical question sheet. */
+.mvpark-quiz .mvpark-question{font-size:clamp(16px,1.3vw,20px);line-height:1.85;max-width:100%;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;word-break:normal}
+.mvpark-quiz .mvpark-answer{align-items:flex-start;min-height:54px;font-size:clamp(14px,1.04vw,16px);padding:12px 13px;gap:12px}
+.mvpark-quiz .mvpark-answer>span{display:block;min-width:0;max-width:100%;flex:1;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;line-height:1.85}
+.mvpark-quiz math,.mvpark-question math,.mvpark-answer math{font-family:math,'Cambria Math','STIX Two Math','Segoe UI Symbol',serif;font-size:1.16em;max-width:100%;white-space:nowrap;vertical-align:-.13em;overflow:visible}
+.mvpark-quiz .mvpark-answer strong{position:sticky;left:0;top:0}
+@media(max-width:700px){.mvpark-quiz .mvpark-question{font-size:16px}.mvpark-quiz .mvpark-answer{font-size:14px;padding:10px}}
+
+
+/* MATHVERSE 2026-11-02: make long questions and ALL four choices accessible on every screen. */
+#mvpark-quiz.mvpark-sheet.mvpark-quiz{
+ top:clamp(56px,7vh,76px);bottom:clamp(8px,2vh,18px);right:12px;left:auto;
+ transform:none;max-height:none;height:auto;width:min(560px,46vw);min-width:min(380px,calc(100vw - 16px));
+ display:flex;flex-direction:column;overflow:hidden;padding:13px 15px;gap:8px;
+}
+#mvpark-quiz>.mvpark-header,#mvpark-quiz>.mvpark-game-tools,
+#mvpark-quiz>.mvpark-quiz-stats,#mvpark-quiz>.mvpark-quiz-scope,
+#mvpark-quiz>.mvpark-quiz-rules{flex:0 0 auto}
+#mvpark-quiz .mvpark-quiz-body{
+ min-height:0;flex:1 1 auto;display:flex;flex-direction:column;gap:10px;
+ padding:2px 5px 12px 1px;overflow-y:auto;overflow-x:hidden;
+ overscroll-behavior:contain;scrollbar-gutter:stable;scrollbar-width:thin;
+}
+#mvpark-quiz .mvpark-question{flex:0 0 auto;white-space:normal;overflow-wrap:anywhere;overflow-x:visible;overflow-y:visible;line-height:1.65}
+#mvpark-quiz .mvpark-answers{flex:0 0 auto;display:grid;gap:9px;width:100%;}
+#mvpark-quiz .mvpark-answer{width:100%;min-height:54px;box-sizing:border-box;white-space:normal}
+#mvpark-quiz .mvpark-answer>span{overflow-wrap:anywhere;word-break:normal;white-space:normal;overflow-x:visible;overflow-y:visible}
+#mvpark-quiz .mvpark-note{margin-top:5px;font-size:11px}
+#mvpark-quiz .mvpark-lifeline-result{flex:0 0 auto;overflow-wrap:anywhere;}
+#mvpark-quiz .mvpark-header h2{font-size:17px}
+@media(max-width:980px){#mvpark-quiz.mvpark-sheet.mvpark-quiz{width:min(520px,58vw);min-width:min(355px,calc(100vw - 16px))}}
+@media(max-width:730px){#mvpark-quiz.mvpark-sheet.mvpark-quiz{top:57px;bottom:8px;right:7px;left:7px;width:auto;min-width:0;padding:10px;gap:6px}
+ #mvpark-quiz .mvpark-header h2{font-size:15px}#mvpark-quiz .mvpark-question{font-size:16px}
+ #mvpark-quiz .mvpark-answer{font-size:14px;padding:10px}}
+@media(max-height:700px){#mvpark-quiz.mvpark-sheet.mvpark-quiz{top:46px;bottom:6px;padding-top:8px;padding-bottom:8px;gap:5px}
+ #mvpark-quiz .mvpark-header h2{font-size:15px}#mvpark-quiz .mvpark-quiz-body{gap:7px}}
+
+/* ==========================================================================
+   MATHVERSE BIG UPDATE: UPGRADE GIAO DIỆN & ĐỒ HOẠ TRÒ CHƠI + SƯ HỌC BÁ
+   ========================================================================== */
+#avatar-select option[value="suhocba"] {
+  background: #3d2314;
+  color: #ffdf9e;
+  font-weight: 700;
+}
+
+.mvpark-sheet {
+  background: linear-gradient(165deg, rgba(16, 38, 58, 0.94), rgba(24, 21, 38, 0.94)) !important;
+  border: 1px solid rgba(255, 215, 140, 0.35) !important;
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.55), 0 0 24px rgba(230, 168, 70, 0.18) !important;
+  backdrop-filter: blur(14px);
+}
+
+.mvpark-header h2 {
+  text-shadow: 0 2px 10px rgba(255, 220, 120, 0.3);
+  letter-spacing: 0.5px;
+}
+
+.mvpark-answer {
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  border-radius: 8px;
+}
+
+.mvpark-answer:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35), 0 0 12px rgba(110, 215, 240, 0.25);
+  border-color: #6ed7f0;
+}
+
+.mvpark-answer:active {
+  transform: translateY(0);
+}
+
+.mvpark-answer.selected {
+  border-color: #ffcc00 !important;
+  background: rgba(255, 204, 0, 0.16) !important;
+  box-shadow: 0 0 16px rgba(255, 204, 0, 0.4) !important;
+}
+
+.mvpark-answer.correct {
+  border-color: #4cd964 !important;
+  background: rgba(76, 217, 100, 0.22) !important;
+  box-shadow: 0 0 20px rgba(76, 217, 100, 0.5) !important;
+}
+
+.mvpark-answer.wrong {
+  border-color: #ff3b30 !important;
+  background: rgba(255, 59, 48, 0.22) !important;
+  box-shadow: 0 0 20px rgba(255, 59, 48, 0.5) !important;
+}
+
+.mvpark-btn-start {
+  background: linear-gradient(135deg, #f6b73c, #e67e22) !important;
+  color: #1a1005 !important;
+  font-weight: 800 !important;
+  text-shadow: none !important;
+  box-shadow: 0 4px 14px rgba(230, 126, 34, 0.45);
+  transition: all 0.2s ease;
+}
+
+.mvpark-btn-start:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(246, 183, 60, 0.65);
+}
+
+.mvpark-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mvpark-expand-btn {
+  background: rgba(40, 90, 130, 0.45);
+  border: 1px solid rgba(110, 215, 240, 0.5);
+  color: #c8f5ff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.mvpark-expand-btn:hover {
+  background: rgba(56, 189, 248, 0.3);
+  border-color: #38bdf8;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+}
+
+#mvpark-quiz {
+  resize: both;
+  min-width: 380px;
+  min-height: 480px;
+  max-width: 95vw;
+  max-height: 92vh;
+}
+
+#mvpark-quiz.expanded {
+  top: 5vh !important;
+  bottom: 5vh !important;
+  left: 5vw !important;
+  right: 5vw !important;
+  width: 90vw !important;
+  max-width: 90vw !important;
+  height: 90vh !important;
+  max-height: 90vh !important;
+  z-index: 9999 !important;
+  padding: 20px 24px;
+}
+
+#mvpark-quiz.expanded .mvpark-question {
+  font-size: 22px !important;
+  line-height: 1.8 !important;
+}
+
+#mvpark-quiz.expanded .mvpark-answer {
+  font-size: 18px !important;
+  padding: 16px 18px !important;
+}
+
+#mvpark-quiz.expanded .mvpark-answers {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px !important;
+}
+
+@media(max-width: 768px) {
+  #mvpark-quiz.expanded .mvpark-answers {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mvpark-quiz-resizer {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 14px;
+  height: 14px;
+  cursor: se-resize;
+  background: linear-gradient(135deg, transparent 50%, rgba(255, 215, 140, 0.6) 50%);
+  border-radius: 0 0 4px 0;
+}
+
+
+
+
+.mvpark-cam-cycle-btn {
+  background: rgba(56, 189, 248, 0.22);
+  border: 1px solid rgba(56, 189, 248, 0.55);
+  color: #e0f2fe;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.mvpark-cam-cycle-btn:hover {
+  background: rgba(56, 189, 248, 0.42);
+  border-color: #38bdf8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.35);
+}
+
+
+/* =========================================================================
+   MATHVERSE BIG UPDATE: CYBER-GLASSMORPHISM UI & ROYAL 3D GRAPHICS
+   ========================================================================= */
+
+/* --- 1. Topbar Cyber-Glassmorphism Pro --- */
+#topbar.glass {
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.90), rgba(30, 41, 59, 0.82)) !important;
+  backdrop-filter: blur(28px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(190%) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.45) !important;
+}
+
+#topbar .brand {
+  gap: 10px;
+}
+
+#topbar .brand-mark {
+  color: #fbbf24;
+  text-shadow: 0 0 14px rgba(251, 191, 36, 0.75);
+  animation: pulseStar 2.8s ease-in-out infinite alternate;
+}
+
+@keyframes pulseStar {
+  from { transform: scale(1); filter: drop-shadow(0 0 4px #fbbf24); }
+  to { transform: scale(1.15) rotate(15deg); filter: drop-shadow(0 0 16px #f59e0b); }
+}
+
+#topbar .top-actions button,
+#topbar .top-actions select {
+  background: rgba(30, 41, 59, 0.75) !important;
+  border: 1px solid rgba(148, 163, 184, 0.28) !important;
+  color: #f8fafc !important;
+  border-radius: 10px !important;
+  font-weight: 700 !important;
+  padding: 8px 12px !important;
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+#topbar .top-actions button:hover,
+#topbar .top-actions select:hover {
+  background: rgba(51, 65, 85, 0.9) !important;
+  border-color: rgba(56, 189, 248, 0.7) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 18px rgba(56, 189, 248, 0.3) !important;
+}
+
+#topbar .park-quick-enter {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.35), rgba(217, 119, 6, 0.5)) !important;
+  border: 1.5px solid #f59e0b !important;
+  color: #fef3c7 !important;
+  box-shadow: 0 0 18px rgba(245, 158, 11, 0.4) !important;
+}
+
+#topbar .park-quick-enter:hover {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.55), rgba(217, 119, 6, 0.75)) !important;
+  box-shadow: 0 0 28px rgba(245, 158, 11, 0.7) !important;
+  transform: translateY(-2px) scale(1.02) !important;
+}
+
+/* --- 2. Royal Quiz 3D Tactile Cards & Badges --- */
+#mvpark-quiz.mvpark-sheet.mvpark-quiz {
+  background: linear-gradient(165deg, rgba(15, 23, 42, 0.97), rgba(10, 16, 26, 0.98)) !important;
+  border: 1px solid rgba(56, 189, 248, 0.4) !important;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.12) !important;
+  border-radius: 20px !important;
+}
+
+.mvpark-quiz .mvpark-question {
+  background: linear-gradient(145deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.7)) !important;
+  border: 1px solid rgba(56, 189, 248, 0.28) !important;
+  border-left: 5px solid #38bdf8 !important;
+  border-radius: 14px !important;
+  padding: 16px 18px !important;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* 4 Individual Answer Badges */
+.mvpark-badge {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 16px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mvpark-badge-a {
+  background: linear-gradient(135deg, #0284c7, #0369a1);
+  color: #f0f9ff;
+  border: 1.5px solid #38bdf8;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.5);
+}
+
+.mvpark-badge-b {
+  background: linear-gradient(135deg, #059669, #047857);
+  color: #ecfdf5;
+  border: 1.5px solid #34d399;
+  box-shadow: 0 0 12px rgba(52, 211, 153, 0.5);
+}
+
+.mvpark-badge-c {
+  background: linear-gradient(135deg, #d97706, #b45309);
+  color: #fffbeb;
+  border: 1.5px solid #fbbf24;
+  box-shadow: 0 0 12px rgba(251, 191, 36, 0.5);
+}
+
+.mvpark-badge-d {
+  background: linear-gradient(135deg, #7c3aed, #6d28d9);
+  color: #f5f3ff;
+  border: 1.5px solid #a78bfa;
+  box-shadow: 0 0 12px rgba(167, 139, 250, 0.5);
+}
+
+/* Answer Card Interaction */
+.mvpark-answer {
+  background: rgba(30, 41, 59, 0.72) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 14px !important;
+  padding: 12px 16px !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25) !important;
+}
+
+.mvpark-answer-a:hover:not(:disabled) {
+  border-color: #38bdf8 !important;
+  background: rgba(2, 132, 199, 0.22) !important;
+  box-shadow: 0 8px 24px rgba(56, 189, 248, 0.3) !important;
+  transform: translateY(-3px) scale(1.01) !important;
+}
+
+.mvpark-answer-b:hover:not(:disabled) {
+  border-color: #34d399 !important;
+  background: rgba(5, 150, 105, 0.22) !important;
+  box-shadow: 0 8px 24px rgba(52, 211, 153, 0.3) !important;
+  transform: translateY(-3px) scale(1.01) !important;
+}
+
+.mvpark-answer-c:hover:not(:disabled) {
+  border-color: #fbbf24 !important;
+  background: rgba(217, 119, 6, 0.22) !important;
+  box-shadow: 0 8px 24px rgba(251, 191, 36, 0.3) !important;
+  transform: translateY(-3px) scale(1.01) !important;
+}
+
+.mvpark-answer-d:hover:not(:disabled) {
+  border-color: #a78bfa !important;
+  background: rgba(124, 58, 237, 0.22) !important;
+  box-shadow: 0 8px 24px rgba(167, 139, 250, 0.3) !important;
+  transform: translateY(-3px) scale(1.01) !important;
+}
+
+/* Correct & Wrong Animations */
+.mvpark-answer.correct {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.38), rgba(5, 150, 105, 0.28)) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 0 24px rgba(16, 185, 129, 0.6) !important;
+  animation: correctPulse 1.2s ease-in-out infinite alternate !important;
+}
+
+@keyframes correctPulse {
+  from { box-shadow: 0 0 16px rgba(16, 185, 129, 0.4); }
+  to { box-shadow: 0 0 32px rgba(16, 185, 129, 0.85); }
+}
+
+.mvpark-answer.wrong {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.38), rgba(185, 28, 28, 0.28)) !important;
+  border-color: #ef4444 !important;
+  animation: wrongShake 0.42s ease !important;
+}
+
+@keyframes wrongShake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+/* --- 3. Progress Energy Tube --- */
+.mvpark-energy-tube {
+  width: 100%;
+  height: 8px;
+  background: rgba(15, 23, 42, 0.7);
+  border-radius: 9999px;
+  overflow: hidden;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  margin: 6px 0 10px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.mvpark-energy-bar {
+  height: 100%;
+  width: 10%;
+  background: linear-gradient(90deg, #38bdf8, #10b981, #f59e0b);
+  border-radius: 9999px;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.8);
+}
+
+/* --- 4. Confetti Canvas & Victory Trophy --- */
+.mvpark-celebration-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.mvpark-trophy-badge {
+  font-size: 54px;
+  text-align: center;
+  margin: 10px auto;
+  filter: drop-shadow(0 0 18px rgba(245, 158, 11, 0.8));
+  animation: trophyFloat 2s ease-in-out infinite alternate;
+}
+
+@keyframes trophyFloat {
+  from { transform: translateY(0) scale(1); }
+  to { transform: translateY(-8px) scale(1.12); }
+}
+
+/* --- 5. Grade & Curriculum Setup Polish --- */
+.mvpark-learning-setup {
+  background: linear-gradient(150deg, rgba(15, 23, 42, 0.96), rgba(30, 41, 59, 0.92)) !important;
+  border: 1.5px solid rgba(56, 189, 248, 0.4) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5) !important;
+}
+
+#mvpark-grade option[value="6"] { color: #10b981; font-weight: 700; }
+#mvpark-grade option[value="7"] { color: #0284c7; font-weight: 700; }
+#mvpark-grade option[value="8"] { color: #f97316; font-weight: 700; }
+#mvpark-grade option[value="9"] { color: #e11d48; font-weight: 700; }
+#mvpark-grade option[value="10"] { color: #8b5cf6; font-weight: 700; }
+#mvpark-grade option[value="11"] { color: #0891b2; font-weight: 700; }
+#mvpark-grade option[value="12"] { color: #eab308; font-weight: 700; }
+
+/* MATHVERSE CARTOON 3D STUDIO & BIG UPDATE R107 */
+.cartoon-studio-btn{
+  background:linear-gradient(135deg,#0f3550,#184f73) !important;
+  border-color:rgba(138,243,255,.72) !important;
+  color:#edfdff !important;
+  font-weight:900 !important;
+  box-shadow:0 6px 18px rgba(0,210,255,.18);
+}
+.cartoon-studio-btn:hover{
+  border-color:#ffd778 !important;
+  box-shadow:0 8px 22px rgba(255,215,120,.26);
+}
+.cartoon-studio-overlay{
+  position:fixed;inset:0;z-index:84;
+  display:grid;place-items:center;padding:18px;
+  background:rgba(4,13,22,.72);
+  backdrop-filter:blur(12px);
+}
+.cartoon-studio-overlay[hidden]{display:none !important;}
+.cartoon-studio-card{
+  width:min(780px,95vw);
+  border-radius:18px;padding:22px 24px;
+  color:var(--ink);
+  background:linear-gradient(160deg,rgba(8,26,43,.96),rgba(13,38,60,.94));
+  border:1px solid rgba(130,235,255,.42);
+  box-shadow:0 26px 70px rgba(0,0,0,.62);
+}
+.cartoon-studio-head{
+  display:flex;justify-content:space-between;align-items:flex-start;gap:14px;
+}
+.cartoon-studio-head h2{margin:4px 0 0;font-size:clamp(20px,2.4vw,28px);}
+.cartoon-studio-note{margin:10px 0 16px;color:var(--muted);line-height:1.5;font-size:14px;}
+.cartoon-studio-grid{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;
+}
+.cartoon-studio-grid label{
+  display:flex;flex-direction:column;gap:7px;
+  padding:12px 13px;border-radius:12px;
+  background:rgba(255,255,255,.05);
+  border:1px solid rgba(154,225,244,.22);
+}
+.cartoon-studio-grid span{font-size:12px;font-weight:800;color:#bfefff;letter-spacing:.04em;text-transform:uppercase;}
+.cartoon-studio-grid select{width:100%;height:38px;font-weight:800;}
+.cartoon-studio-actions{
+  margin-top:16px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;
+}
+.cartoon-glb-link{
+  display:inline-flex;align-items:center;min-height:38px;padding:0 14px;border-radius:10px;
+  color:#062235;background:linear-gradient(135deg,#7ef2df,#ffd778);
+  font-weight:900;text-decoration:none;font-size:13px;
+}
+@media (max-width:680px){
+  .cartoon-studio-grid{grid-template-columns:1fr;}
+}
+
+/* =========================================================================
+   MATHVERSE R107 BIG UPDATE: COMPACT OMNI-HUB ORB, COLLAPSIBLE HUDS & 4-ZONE GUIDE
+   ========================================================================= */
+
+/* 1. Compact Single-Line Topbar & Collapsible Mode */
+body.topbar-is-collapsed #topbar {
+  transform: translateY(-130%);
+  opacity: 0;
+  pointer-events: none;
+}
+#topbar {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease;
+  min-height: 48px !important;
+  padding: 5px 12px !important;
+  gap: 8px !important;
+}
+#topbar .top-actions {
+  gap: 6px !important;
+}
+#topbar .top-actions button,
+#topbar .top-actions select {
+  padding: 5px 10px !important;
+  font-size: 11.5px !important;
+  min-height: 32px !important;
+  border-radius: 999px !important;
+}
+#avatar-select {
+  max-width: 145px !important;
+}
+#camera-mode {
+  max-width: 122px !important;
+}
+
+/* Nút Tròn Đa Năng Mở Tất Cả Các Kho & Sơ Đồ (Omni-Hub Orb Button) */
+.mv-omni-orb-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background: linear-gradient(135deg, #f59e0b, #d97706) !important;
+  color: #07192b !important;
+  border: 2px solid #fef08a !important;
+  border-radius: 999px !important;
+  padding: 5px 13px 5px 8px !important;
+  font-weight: 900 !important;
+  font-size: 11.5px !important;
+  box-shadow: 0 0 18px rgba(251, 191, 36, 0.55) !important;
+  cursor: pointer;
+}
+.mv-omni-orb-btn .mv-orb-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #07192b;
+  color: #fde047;
+  display: inline-grid;
+  place-items: center;
+  font-size: 13px;
+  font-weight: 900;
+}
+.mv-omni-orb-btn:hover,
+.mv-omni-orb-btn.is-active {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b) !important;
+  color: #04101c !important;
+  transform: scale(1.04) !important;
+  box-shadow: 0 0 26px rgba(253, 224, 71, 0.85) !important;
+}
+.mv-orb-mini-btn {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  display: inline-grid !important;
+  place-items: center !important;
+  font-size: 11px !important;
+}
+.mv-floating-reopen-pill {
+  position: fixed;
+  top: 10px;
+  right: 16px;
+  z-index: 65;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(11, 38, 58, 0.94), rgba(18, 58, 84, 0.94));
+  border: 1.5px solid #fbbf24;
+  color: #fef08a;
+  font-weight: 850;
+  font-size: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.45);
+}
+
+/* 2. Hộp Trung Tâm Tất Cả Các Kho & Sơ Đồ (#mv-omni-hub-popover) */
+.mv-omni-hub-popover {
+  position: fixed;
+  top: 66px;
+  right: 16px;
+  z-index: 82;
+  width: min(860px, calc(100vw - 24px));
+  max-height: calc(100vh - 82px);
+  overflow-y: auto;
+  border-radius: 22px;
+  padding: 18px 20px;
+  background: linear-gradient(160deg, rgba(7, 23, 39, 0.97), rgba(12, 37, 58, 0.97));
+  border: 1.5px solid rgba(251, 191, 36, 0.68);
+  box-shadow: 0 26px 75px rgba(0, 0, 0, 0.72), 0 0 30px rgba(56, 189, 248, 0.18) inset;
+  color: #f8fafc;
+}
+.mv-omni-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25);
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+.mv-omni-eyebrow {
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: #38bdf8;
+}
+.mv-omni-head h3 {
+  margin: 3px 0 0;
+  font-size: 17px;
+  color: #fde68a;
+}
+.mv-omni-close {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(251, 191, 36, 0.5);
+  background: rgba(251, 191, 36, 0.18);
+  color: #fde68a;
+  font-weight: 900;
+}
+.mv-omni-section {
+  margin-bottom: 14px;
+}
+.mv-omni-sec-title {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  color: #93c5fd;
+  margin-bottom: 8px;
+}
+.mv-omni-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 9px;
+}
+.mv-omni-card {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 10px 13px;
+  border-radius: 14px;
+  background: rgba(20, 45, 72, 0.82);
+  border: 1px solid rgba(148, 163, 184, 0.32);
+  color: #f8fafc;
+  text-align: left;
+  text-decoration: none;
+  transition: all 0.18s ease;
+  cursor: pointer;
+}
+.mv-omni-card:hover {
+  transform: translateY(-2px);
+  border-color: #fbbf24;
+  background: rgba(30, 64, 100, 0.92);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+}
+.mv-omni-card-gold {
+  border-color: rgba(251, 191, 36, 0.65);
+  background: linear-gradient(135deg, rgba(120, 83, 18, 0.42), rgba(20, 45, 72, 0.9));
+}
+.mv-omni-card-cyan {
+  border-color: rgba(56, 189, 248, 0.65);
+  background: linear-gradient(135deg, rgba(14, 92, 130, 0.48), rgba(20, 45, 72, 0.9));
+}
+.mv-omni-card-emerald {
+  border-color: rgba(52, 211, 153, 0.65);
+  background: linear-gradient(135deg, rgba(12, 95, 72, 0.45), rgba(20, 45, 72, 0.9));
+}
+.mv-omni-card-amber {
+  border-color: rgba(245, 158, 11, 0.65);
+}
+.mv-omni-card-violet {
+  border-color: rgba(192, 132, 252, 0.65);
+}
+.mv-card-ico {
+  font-size: 24px;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.mv-omni-card strong {
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+.mv-omni-card small {
+  display: block;
+  font-size: 11px;
+  color: #cbd5e1;
+  margin-top: 2px;
+  line-height: 1.3;
+}
+.mv-omni-grade-strip {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 7px 10px;
+  border-radius: 11px;
+  background: rgba(15, 23, 42, 0.68);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  font-size: 11.5px;
+  color: #bae6fd;
+  font-weight: 700;
+}
+.mv-omni-grade-strip button {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(56, 189, 248, 0.45);
+  background: #133b5c;
+  color: #f0f9ff;
+  font-size: 11px;
+  font-weight: 800;
+}
+.mv-omni-grade-strip button:hover {
+  background: #fbbf24;
+  color: #081c2e;
+  border-color: #fef08a;
+}
+.mv-omni-tools-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+}
+.mv-omni-tools-row button,
+.mv-omni-tools-row select {
+  padding: 6px 11px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  background: #15324d;
+  color: #f1f5f9;
+  font-size: 11.5px;
+  font-weight: 750;
+}
+.mv-omni-quality-lbl {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #cbd5e1;
+}
+
+/* 3. Inline Hub Modal (Mở Sơ Đồ 11 Hạng Mục hoặc Kho Câu Hỏi Ngay Trong Ứng Dụng) */
+.inline-hub-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 92;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+.inline-hub-modal[hidden] {
+  display: none !important;
+}
+.inline-hub-panel {
+  position: relative;
+  z-index: 2;
+  width: min(1360px, 96vw);
+  height: min(880px, 92vh);
+  border-radius: 20px;
+  border: 1.5px solid #fbbf24;
+  background: #071525;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.8);
+}
+.inline-hub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: linear-gradient(90deg, #0b2238, #143858);
+  border-bottom: 1px solid rgba(251, 191, 36, 0.4);
+}
+.inline-hub-header strong {
+  color: #fde68a;
+  font-size: 14px;
+}
+.inline-hub-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.inline-hub-link {
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: rgba(56, 189, 248, 0.2);
+  border: 1px solid #38bdf8;
+  color: #e0f2fe;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+}
+#inline-hub-close {
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: #dc2626;
+  border: 1px solid #f87171;
+  color: #fff;
+  font-weight: 800;
+  font-size: 12px;
+}
+#inline-hub-frame {
+  flex: 1;
+  width: 100%;
+  border: 0;
+  background: #071525;
+}
+
+/* 4. Bổ Sung Nút KHU DISCOVERY 3D Vào Bảng Lễ Tân (#guide-dialog — Ảnh 1) */
+.grand-guide-actions .guide-btn-discovery {
+  background: linear-gradient(135deg, #5b21b6, #0d9488) !important;
+  border-color: #a78bfa !important;
+  color: #fff !important;
+  box-shadow: 0 6px 18px rgba(139, 92, 246, 0.35);
+}
+.grand-guide-actions .guide-btn-park {
+  background: linear-gradient(135deg, #15803d, #0f766e) !important;
+  border-color: #6ee7b7 !important;
+  color: #fff !important;
+}
+.grand-guide-actions button:hover {
+  filter: brightness(1.12);
+  transform: translateY(-1px);
+}
+
+/* 5. Thu Gọn Quầy Lễ Tân Góc Trái Dưới (#plaza-guide-hint) & Radar Vệ Tinh (#campus-radar) */
+.plaza-guide-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.plaza-guide-toggle,
+.radar-collapse-btn {
+  width: 22px;
+  height: 22px;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  display: inline-grid !important;
+  place-items: center !important;
+  background: rgba(255, 255, 255, 0.14) !important;
+  border: 1px solid rgba(251, 191, 36, 0.5) !important;
+  color: #fde68a !important;
+  font-size: 13px !important;
+  font-weight: 900 !important;
+}
+#plaza-guide-hint.is-compact {
+  width: auto !important;
+  max-width: 310px !important;
+  padding: 8px 12px !important;
+  border-radius: 999px !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+#plaza-guide-hint.is-compact .plaza-guide-body {
+  display: none !important;
+}
+#plaza-guide-hint.is-compact .plaza-guide-btns button {
+  padding: 5px 10px !important;
+  font-size: 11px !important;
+  border-radius: 999px !important;
+}
+#campus-radar.is-collapsed #radar-canvas,
+#campus-radar.is-collapsed .radar-hud-labels {
+  display: none !important;
+}
+#campus-radar.is-collapsed {
+  width: auto !important;
+  padding: 6px 12px !important;
+  border-radius: 999px !important;
+}
+#campus-radar.is-collapsed .radar-header {
+  border-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  gap: 8px !important;
+}
+
+/* 6. Tối Ưu Thanh Công Cụ Phòng Lab (#r75-shell — Ảnh 3) */
+.r75-collapsible-tools {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.r75-collapsible-tools[hidden] {
+  display: none !important;
+}
+#r75-shell.is-focus-mode .r75-command-deck {
+  top: 8px !important;
+  right: 12px !important;
+  left: auto !important;
+  padding: 5px 8px !important;
+  border-radius: 999px !important;
+  background: rgba(7, 24, 38, 0.92) !important;
+  border: 1.5px solid rgba(251, 191, 36, 0.65) !important;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   7. R107 BIG UPDATE V6 — AUTO-COLLAPSE QUIZ POPUP FOR 3D ANIMATION (ẢNH 4)
+      & 3D GRAPHICS / SHADOW / RENDER STUDIO ENGINE (ẢNH 3)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Khi học sinh chọn đáp án Đúng hoặc Sai: tự động thu gọn popup về góc dưới phải
+   để nhường trọn màn hình xem hoạt ảnh 3D đúng/sai của trò chơi */
+#mvpark-quiz.watching-3d-anim {
+  top: auto !important;
+  bottom: 14px !important;
+  right: 16px !important;
+  left: auto !important;
+  transform: none !important;
+  width: min(440px, calc(100vw - 32px)) !important;
+  max-height: 220px !important;
+  padding: 10px 14px !important;
+  background: rgba(6, 18, 34, 0.88) !important;
+  border: 1.5px solid rgba(245, 158, 11, 0.65) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.55) !important;
+  backdrop-filter: blur(10px) !important;
+  transition: all 0.28s cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+#mvpark-quiz.watching-3d-anim .mvpark-question,
+#mvpark-quiz.watching-3d-anim .mvpark-quiz-rules,
+#mvpark-quiz.watching-3d-anim .mvpark-lifelines,
+#mvpark-quiz.watching-3d-anim .mvpark-prize-ladder,
+#mvpark-quiz.watching-3d-anim .mvpark-game-switcher {
+  display: none !important;
+}
+#mvpark-quiz.watching-3d-anim .mvpark-answers {
+  grid-template-columns: 1fr 1fr !important;
+  gap: 6px !important;
+  margin: 6px 0 !important;
+}
+#mvpark-quiz.watching-3d-anim .mvpark-choice {
+  padding: 6px 10px !important;
+  min-height: 34px !important;
+  font-size: 12px !important;
+}
+#mvpark-quiz.watching-3d-anim .mvpark-choice:not(.correct):not(.wrong) {
+  display: none !important;
+}
+#mvpark-quiz.watching-3d-anim .mvpark-feedback {
+  margin-top: 4px !important;
+  padding: 8px 10px !important;
+  font-size: 12.5px !important;
+}
+
+/* Nút ✨ ĐỒ HỌA 3D trên thanh công cụ chính */
+.mv-gfx-orb-btn {
+  background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 52%, #f59e0b 100%) !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgba(253, 224, 71, 0.85) !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.03em;
+  box-shadow: 0 4px 16px rgba(14, 165, 233, 0.4);
+}
+.mv-gfx-orb-btn:hover {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 6px 22px rgba(245, 158, 11, 0.55);
+}
+
+/* Bảng Công Cụ Đồ Họa 3D & Đổ Bóng Chuyên Nghiệp (#gfx-studio-modal) */
+.mv-gfx-studio-panel {
+  width: min(640px, 94vw);
+  max-height: 88vh;
+  overflow-y: auto;
+  background: linear-gradient(165deg, rgba(7, 19, 36, 0.97), rgba(12, 28, 52, 0.97));
+  border: 1.5px solid rgba(245, 158, 11, 0.65);
+  border-radius: 22px;
+  padding: 22px 24px;
+  color: #f8fafc;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.72), 0 0 0 1px rgba(56, 189, 248, 0.22) inset;
+}
+.mv-gfx-studio-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.22);
+}
+.mv-gfx-studio-head h2 {
+  margin: 4px 0 0;
+  font-size: 20px;
+  color: #fef3c7;
+}
+.mv-gfx-section {
+  margin-top: 16px;
+}
+.mv-gfx-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #7dd3fc;
+  margin-bottom: 10px;
+}
+.mv-gfx-preset-pills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(112px, 1fr));
+  gap: 8px;
+}
+.mv-gfx-preset-pills button {
+  padding: 9px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 800;
+  background: rgba(15, 35, 62, 0.85);
+  border: 1px solid rgba(125, 211, 252, 0.28);
+  color: #e2e8f0;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.mv-gfx-preset-pills button.active,
+.mv-gfx-preset-pills button:hover {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: #081420;
+  border-color: #fde68a;
+  box-shadow: 0 6px 18px rgba(245, 158, 11, 0.38);
+}
+.mv-gfx-sliders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 16px;
+  margin-top: 16px;
+  background: rgba(6, 15, 29, 0.65);
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(56, 189, 248, 0.18);
+}
+.mv-gfx-sliders label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12.5px;
+  color: #cbd5e1;
+}
+.mv-gfx-sliders label span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mv-gfx-sliders label strong {
+  color: #fbbf24;
+  font-family: monospace;
+}
+.mv-gfx-sliders input[type="range"] {
+  width: 100%;
+  accent-color: #f59e0b;
+  cursor: pointer;
+}
+.mv-gfx-toggles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 14px;
+  margin-top: 14px;
+}
+.mv-gfx-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #e2e8f0;
+  background: rgba(15, 32, 56, 0.72);
+  padding: 9px 12px;
+  border-radius: 11px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  cursor: pointer;
+}
+.mv-gfx-check input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #10b981;
+}
+.mv-gfx-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(148, 163, 184, 0.2);
+}
+.mv-gfx-shot-btn {
+  background: linear-gradient(135deg, #10b981, #0ea5e9) !important;
+  color: #04131d !important;
+  font-weight: 900 !important;
+  border: 1px solid #a7f3d0 !important;
+  padding: 10px 16px !important;
+  border-radius: 12px !important;
+}
+.mv-gfx-reset-btn {
+  background: rgba(30, 41, 59, 0.9) !important;
+  color: #f8fafc !important;
+  border: 1px solid rgba(148, 163, 184, 0.4) !important;
+  padding: 10px 14px !important;
+  border-radius: 12px !important;
+}
+
+/* Khung Render Điện Ảnh (Cinematic Render Frame Vignette) */
+body.mv-cinema-render-frame::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 4;
+  box-shadow:
+    inset 0 0 85px rgba(2, 8, 20, 0.52),
+    inset 0 0 0 2px rgba(245, 158, 11, 0.22);
+}
+
+/* 8. R107 V16 — TÍCH HỢP NÚT 4 KHU GỌN GÀNG, NÚT VỀ SẢNH CHÍNH, XE ĐẠP (SHIFT) & THUYẾT MINH TIẾNG VIỆT */
+.topbar-zones-dropdown {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.topbar-zones-toggle {
+  background: linear-gradient(135deg, #0284c7, #1d4ed8) !important;
+  color: #f8fafc !important;
+  border: 1.5px solid rgba(125, 211, 252, 0.85) !important;
+  font-weight: 800 !important;
+  padding: 6px 12px !important;
+  border-radius: 999px !important;
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.35) !important;
+}
+.topbar-zones-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 235px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px;
+  border-radius: 14px;
+  background: rgba(7, 19, 34, 0.96) !important;
+  border: 1.5px solid rgba(56, 189, 248, 0.65) !important;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.65) !important;
+  z-index: 99999;
+}
+.topbar-zones-menu[hidden] {
+  display: none !important;
+}
+.topbar-zones-menu button {
+  width: 100%;
+  text-align: left;
+  justify-content: flex-start;
+  padding: 8px 12px !important;
+  border-radius: 10px !important;
+  font-weight: 800 !important;
+  font-size: 12.5px !important;
+}
+.topbar-lobby-btn {
+  background: linear-gradient(135deg, #d97706, #b45309) !important;
+  color: #fffbeb !important;
+  border: 1.5px solid rgba(253, 224, 71, 0.85) !important;
+  font-weight: 800 !important;
+  padding: 6px 12px !important;
+  border-radius: 999px !important;
+}
+.topbar-bike-btn {
+  background: linear-gradient(135deg, #059669, #0d9488) !important;
+  color: #ecfdf5 !important;
+  border: 1.5px solid rgba(110, 231, 183, 0.8) !important;
+  font-weight: 800 !important;
+  padding: 6px 12px !important;
+  border-radius: 999px !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.topbar-bike-btn.is-active,
+.topbar-bike-btn[aria-pressed="true"] {
+  background: linear-gradient(135deg, #f59e0b, #ea580c) !important;
+  color: #fff7ed !important;
+  border-color: #fde047 !important;
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.65) !important;
+  transform: scale(1.03);
+}
+.topbar-tts-btn {
+  background: linear-gradient(135deg, #6d28d9, #9333ea) !important;
+  color: #faf5ff !important;
+  border: 1.5px solid rgba(216, 180, 254, 0.85) !important;
+  font-weight: 800 !important;
+  padding: 6px 12px !important;
+  border-radius: 999px !important;
+}
+.topbar-tts-btn.is-speaking,
+.topbar-tts-btn[aria-pressed="true"] {
+  background: linear-gradient(135deg, #db2777, #e11d48) !important;
+  border-color: #fbcfe8 !important;
+  box-shadow: 0 0 16px rgba(225, 29, 72, 0.65) !important;
+}
+.cam-preset-btn {
+  padding: 4px 8px !important;
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  border-radius: 8px !important;
+  background: rgba(15, 35, 58, 0.88) !important;
+  color: #e0f2fe !important;
+  border: 1px solid rgba(56, 189, 248, 0.45) !important;
+  cursor: pointer;
+}
+.cam-preset-btn:hover,
+.cam-preset-btn.is-active {
+  background: linear-gradient(135deg, #0284c7, #2563eb) !important;
+  color: #ffffff !important;
+  border-color: #fde047 !important;
+}
+
+

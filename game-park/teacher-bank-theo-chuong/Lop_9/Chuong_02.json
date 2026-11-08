@@ -1,0 +1,4107 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 9,
+      "chapter": 2,
+      "roman": "II",
+      "title": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "9-02-01",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Tập nghiệm của phương trình tích (x - 2)(x + 5) = 0 là",
+          "choices": {
+            "A": "S = {2; -5}",
+            "B": "S = {2}",
+            "C": "S = {-2; 5}",
+            "D": "S = {2; 5}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tập nghiệm của phương trình tích (x - 2)(x + 5) = 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = {2; -5}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = {2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = {-2; 5}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = {2; 5}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tập nghiệm của phương trình tích (x - 2)(x + 5) = 0 là",
+            "choices": {
+              "A": "S = {2; -5}",
+              "B": "S = {2}",
+              "C": "S = {-2; 5}",
+              "D": "S = {2; 5}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-02",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Điều kiện xác định của phương trình 3/(x - 2) + 2/(x + 4) = 1 là.",
+          "choices": {
+            "A": "x \\ne -2 và x \\ne 4",
+            "B": "x \\ne 2 và x \\ne -4",
+            "C": "x > 2",
+            "D": "x \\ne 2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Điều kiện xác định của phương trình 3/(x - 2) + 2/(x + 4) = 1 là."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -2 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 2 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Điều kiện xác định của phương trình 3/(x - 2) + 2/(x + 4) = 1 là.",
+            "choices": {
+              "A": "x $\\ne$ -2 và x $\\ne$ 4",
+              "B": "x $\\ne$ 2 và x $\\ne$ -4",
+              "C": "x > 2",
+              "D": "x $\\ne$ 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-03",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương II, xét nội dung: Nghiệm của bất phương trình 2x - 10 > 0 là. Đáp án đúng là",
+          "choices": {
+            "A": "x ≥ 5",
+            "B": "x > -5",
+            "C": "x > 5",
+            "D": "x < 5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương II, xét nội dung: Nghiệm của bất phương trình 2x - 10 > 0 là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x > -5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x < 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương II, xét nội dung: Nghiệm của bất phương trình 2x - 10 > 0 là. Đáp án đúng là",
+            "choices": {
+              "A": "x $\\ge$ 5",
+              "B": "x > -5",
+              "C": "x > 5",
+              "D": "x < 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-04",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương II (Phương trình và bất phương trình bậc nhất một ẩn), tập nghiệm của phương trình tích (x - 5)(x + 8) = 0 là",
+          "choices": {
+            "A": "S = {5; 8}",
+            "B": "S = {-5; 8}",
+            "C": "S = {5; -8}",
+            "D": "S = {5}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương II (Phương trình và bất phương trình bậc nhất một ẩn), tập nghiệm của phương trình tích (x - 5)(x + 8) = 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = {5; 8}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = {-5; 8}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = {5; -8}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = {5}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương II (Phương trình và bất phương trình bậc nhất một ẩn), tập nghiệm của phương trình tích (x - 5)(x + 8) = 0 là",
+            "choices": {
+              "A": "S = {5; 8}",
+              "B": "S = {-5; 8}",
+              "C": "S = {5; -8}",
+              "D": "S = {5}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-05",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Điều kiện xác định của phương trình 3/(x - 5) + 2/(x + 4) = 1 là",
+          "choices": {
+            "A": "x \\ne 5",
+            "B": "x \\ne 5 và x \\ne -4",
+            "C": "x \\ne -5 và x \\ne 4",
+            "D": "x > 5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Điều kiện xác định của phương trình 3/(x - 5) + 2/(x + 4) = 1 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 5 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -5 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Điều kiện xác định của phương trình 3/(x - 5) + 2/(x + 4) = 1 là",
+            "choices": {
+              "A": "x $\\ne$ 5",
+              "B": "x $\\ne$ 5 và x $\\ne$ -4",
+              "C": "x $\\ne$ -5 và x $\\ne$ 4",
+              "D": "x > 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-06",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về phương trình và bất phương trình bậc nhất một ẩn, một học sinh gặp câu hỏi: Nghiệm của bất phương trình 2x - 16 > 0 là. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "x ≥ 8",
+            "B": "x < 8",
+            "C": "x > 8",
+            "D": "x > -8"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về phương trình và bất phương trình bậc nhất một ẩn, một học sinh gặp câu hỏi: Nghiệm của bất phương trình 2x - 16 > 0 là. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x < 8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > 8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > -8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về phương trình và bất phương trình bậc nhất một ẩn, một học sinh gặp câu hỏi: Nghiệm của bất phương trình 2x - 16 > 0 là. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "x $\\ge$ 8",
+              "B": "x < 8",
+              "C": "x > 8",
+              "D": "x > -8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-07",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Tập nghiệm của phương trình tích (x - 8)(x + 11) = 0 là",
+          "choices": {
+            "A": "S = {8; 11}",
+            "B": "S = {8; -11}",
+            "C": "S = {8}",
+            "D": "S = {-8; 11}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Tập nghiệm của phương trình tích (x - 8)(x + 11) = 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = {8; 11}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = {8; -11}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = {8}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = {-8; 11}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Tập nghiệm của phương trình tích (x - 8)(x + 11) = 0 là",
+            "choices": {
+              "A": "S = {8; 11}",
+              "B": "S = {8; -11}",
+              "C": "S = {8}",
+              "D": "S = {-8; 11}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-08",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Điều kiện xác định của phương trình 3/(x - 8) + 2/(x + 4) = 1 là",
+          "choices": {
+            "A": "x \\ne 8",
+            "B": "x \\ne -8 và x \\ne 4",
+            "C": "x > 8",
+            "D": "x \\ne 8 và x \\ne -4"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Điều kiện xác định của phương trình 3/(x - 8) + 2/(x + 4) = 1 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -8 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > 8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 8 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Điều kiện xác định của phương trình 3/(x - 8) + 2/(x + 4) = 1 là",
+            "choices": {
+              "A": "x $\\ne$ 8",
+              "B": "x $\\ne$ -8 và x $\\ne$ 4",
+              "C": "x > 8",
+              "D": "x $\\ne$ 8 và x $\\ne$ -4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-09",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Nghiệm của bất phương trình 2x - 22 > 0 là",
+          "choices": {
+            "A": "x < 11",
+            "B": "x > -11",
+            "C": "x ≥ 11",
+            "D": "x > 11"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Nghiệm của bất phương trình 2x - 22 > 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x < 11"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x > -11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Nghiệm của bất phương trình 2x - 22 > 0 là",
+            "choices": {
+              "A": "x < 11",
+              "B": "x > -11",
+              "C": "x $\\ge$ 11",
+              "D": "x > 11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-10",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Tập nghiệm của phương trình tích (x - 11)(x + 14) = 0 là. Phương án chính xác là",
+          "choices": {
+            "A": "S = {-11; 14}",
+            "B": "S = {11}",
+            "C": "S = {11; 14}",
+            "D": "S = {11; -14}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Tập nghiệm của phương trình tích (x - 11)(x + 14) = 0 là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = {-11; 14}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = {11}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = {11; 14}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = {11; -14}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Tập nghiệm của phương trình tích (x - 11)(x + 14) = 0 là. Phương án chính xác là",
+            "choices": {
+              "A": "S = {-11; 14}",
+              "B": "S = {11}",
+              "C": "S = {11; 14}",
+              "D": "S = {11; -14}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-11",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Điều kiện xác định của phương trình 3/(x - 11) + 2/(x + 4) = 1 là",
+          "choices": {
+            "A": "x \\ne 11",
+            "B": "x \\ne 11 và x \\ne -4",
+            "C": "x > 11",
+            "D": "x \\ne -11 và x \\ne 4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Điều kiện xác định của phương trình 3/(x - 11) + 2/(x + 4) = 1 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 11"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 11 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > 11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -11 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Điều kiện xác định của phương trình 3/(x - 11) + 2/(x + 4) = 1 là",
+            "choices": {
+              "A": "x $\\ne$ 11",
+              "B": "x $\\ne$ 11 và x $\\ne$ -4",
+              "C": "x > 11",
+              "D": "x $\\ne$ -11 và x $\\ne$ 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-12",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Nghiệm của bất phương trình 2x - 28 > 0 là",
+          "choices": {
+            "A": "x < 14",
+            "B": "x > -14",
+            "C": "x ≥ 14",
+            "D": "x > 14"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Nghiệm của bất phương trình 2x - 28 > 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x < 14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x > -14"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Nghiệm của bất phương trình 2x - 28 > 0 là",
+            "choices": {
+              "A": "x < 14",
+              "B": "x > -14",
+              "C": "x $\\ge$ 14",
+              "D": "x > 14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-13",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), tập nghiệm của phương trình tích (x - 14)(x + 17) = 0 là",
+          "choices": {
+            "A": "S = {-14; 17}",
+            "B": "S = {14; 17}",
+            "C": "S = {14; -17}",
+            "D": "S = {14}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), tập nghiệm của phương trình tích (x - 14)(x + 17) = 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = {-14; 17}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = {14; 17}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = {14; -17}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = {14}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), tập nghiệm của phương trình tích (x - 14)(x + 17) = 0 là",
+            "choices": {
+              "A": "S = {-14; 17}",
+              "B": "S = {14; 17}",
+              "C": "S = {14; -17}",
+              "D": "S = {14}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-14",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Điều kiện xác định của phương trình 3/(x - 14) + 2/(x + 4) = 1 là",
+          "choices": {
+            "A": "x \\ne -14 và x \\ne 4",
+            "B": "x \\ne 14 và x \\ne -4",
+            "C": "x \\ne 14",
+            "D": "x > 14"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Điều kiện xác định của phương trình 3/(x - 14) + 2/(x + 4) = 1 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -14 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 14 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Điều kiện xác định của phương trình 3/(x - 14) + 2/(x + 4) = 1 là",
+            "choices": {
+              "A": "x $\\ne$ -14 và x $\\ne$ 4",
+              "B": "x $\\ne$ 14 và x $\\ne$ -4",
+              "C": "x $\\ne$ 14",
+              "D": "x > 14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-15",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương II: Nghiệm của bất phương trình 2x - 34 > 0 là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "x ≥ 17",
+            "B": "x > 17",
+            "C": "x > -17",
+            "D": "x < 17"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương II: Nghiệm của bất phương trình 2x - 34 > 0 là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x > 17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x > -17"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x < 17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương II: Nghiệm của bất phương trình 2x - 34 > 0 là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "x $\\ge$ 17",
+              "B": "x > 17",
+              "C": "x > -17",
+              "D": "x < 17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-16",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Tập nghiệm của phương trình tích (x - 17)(x + 20) = 0 là",
+          "choices": {
+            "A": "S = {17; -20}",
+            "B": "S = {17; 20}",
+            "C": "S = {-17; 20}",
+            "D": "S = {17}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Tập nghiệm của phương trình tích (x - 17)(x + 20) = 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = {17; -20}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = {17; 20}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = {-17; 20}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = {17}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Tập nghiệm của phương trình tích (x - 17)(x + 20) = 0 là",
+            "choices": {
+              "A": "S = {17; -20}",
+              "B": "S = {17; 20}",
+              "C": "S = {-17; 20}",
+              "D": "S = {17}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-17",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Điều kiện xác định của phương trình 3/(x - 17) + 2/(x + 4) = 1 là?",
+          "choices": {
+            "A": "x \\ne 17 và x \\ne -4",
+            "B": "x \\ne 17",
+            "C": "x \\ne -17 và x \\ne 4",
+            "D": "x > 17"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Điều kiện xác định của phương trình 3/(x - 17) + 2/(x + 4) = 1 là?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 17 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -17 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Điều kiện xác định của phương trình 3/(x - 17) + 2/(x + 4) = 1 là?",
+            "choices": {
+              "A": "x $\\ne$ 17 và x $\\ne$ -4",
+              "B": "x $\\ne$ 17",
+              "C": "x $\\ne$ -17 và x $\\ne$ 4",
+              "D": "x > 17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-18",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương II: Nghiệm của bất phương trình 2x - 40 > 0 là",
+          "choices": {
+            "A": "x > -20",
+            "B": "x < 20",
+            "C": "x ≥ 20",
+            "D": "x > 20"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương II: Nghiệm của bất phương trình 2x - 40 > 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x > -20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x < 20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương II: Nghiệm của bất phương trình 2x - 40 > 0 là",
+            "choices": {
+              "A": "x > -20",
+              "B": "x < 20",
+              "C": "x $\\ge$ 20",
+              "D": "x > 20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-19",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Tập nghiệm của phương trình tích (x - 20)(x + 23) = 0 là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "S = {20}",
+            "B": "S = {20; -23}",
+            "C": "S = {-20; 23}",
+            "D": "S = {20; 23}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Tập nghiệm của phương trình tích (x - 20)(x + 23) = 0 là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = {20}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = {20; -23}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = {-20; 23}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = {20; 23}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Tập nghiệm của phương trình tích (x - 20)(x + 23) = 0 là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "S = {20}",
+              "B": "S = {20; -23}",
+              "C": "S = {-20; 23}",
+              "D": "S = {20; 23}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-20",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Điều kiện xác định của phương trình 3/(x - 20) + 2/(x + 4) = 1 là",
+          "choices": {
+            "A": "x \\ne 20 và x \\ne -4",
+            "B": "x \\ne -20 và x \\ne 4",
+            "C": "x \\ne 20",
+            "D": "x > 20"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Điều kiện xác định của phương trình 3/(x - 20) + 2/(x + 4) = 1 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 20 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -20 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Điều kiện xác định của phương trình 3/(x - 20) + 2/(x + 4) = 1 là",
+            "choices": {
+              "A": "x $\\ne$ 20 và x $\\ne$ -4",
+              "B": "x $\\ne$ -20 và x $\\ne$ 4",
+              "C": "x $\\ne$ 20",
+              "D": "x > 20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-21",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Giải bất phương trình: -3x + 12 ≤ 0.",
+          "choices": {
+            "A": "x ≥ 4",
+            "B": "x ≤ 4",
+            "C": "x ≤ -4",
+            "D": "x ≥ -4"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giải bất phương trình: -3x + 12 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " -4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giải bất phương trình: -3x + 12 $\\le$ 0.",
+            "choices": {
+              "A": "x $\\ge$ 4",
+              "B": "x $\\le$ 4",
+              "C": "x $\\le$ -4",
+              "D": "x $\\ge$ -4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-22",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương II (Phương trình và bất phương trình bậc nhất một ẩn) để giải bài toán: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+          "choices": {
+            "A": "-2a + 4 > -2b + 4",
+            "B": "a - 4 > b - 4",
+            "C": "-2a + 4 < -2b + 4",
+            "D": "2a + 4 > 2b + 4"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương II (Phương trình và bất phương trình bậc nhất một ẩn) để giải bài toán: Cho a < b. Khẳng định nào sau đây là ĐÚNG"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-2a + 4 > -2b + 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "a - 4 > b - 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-2a + 4 < -2b + 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2a + 4 > 2b + 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương II (Phương trình và bất phương trình bậc nhất một ẩn) để giải bài toán: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+            "choices": {
+              "A": "-2a + 4 > -2b + 4",
+              "B": "a - 4 > b - 4",
+              "C": "-2a + 4 < -2b + 4",
+              "D": "2a + 4 > 2b + 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-23",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương II: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 5)/(x - 1) = 3 (với x \\ne 1) là. Kết quả thu được là",
+          "choices": {
+            "A": "x = 1",
+            "B": "x = -8",
+            "C": "x = 8",
+            "D": "x = 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương II: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 5)/(x - 1) = 3 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1) là. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương II: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 5)/(x - 1) = 3 (với x $\\ne$ 1) là. Kết quả thu được là",
+            "choices": {
+              "A": "x = 1",
+              "B": "x = -8",
+              "C": "x = 8",
+              "D": "x = 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-24",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Giải bất phương trình: -3x + 21 ≤ 0.. Đáp án đúng là",
+          "choices": {
+            "A": "x ≥ -7",
+            "B": "x ≤ 7",
+            "C": "x ≤ -7",
+            "D": "x ≥ 7"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Giải bất phương trình: -3x + 21 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0.. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " -7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Giải bất phương trình: -3x + 21 $\\le$ 0.. Đáp án đúng là",
+            "choices": {
+              "A": "x $\\ge$ -7",
+              "B": "x $\\le$ 7",
+              "C": "x $\\le$ -7",
+              "D": "x $\\ge$ 7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-25",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+          "choices": {
+            "A": "-2a + 7 > -2b + 7",
+            "B": "-2a + 7 < -2b + 7",
+            "C": "2a + 7 > 2b + 7",
+            "D": "a - 7 > b - 7"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Cho a < b. Khẳng định nào sau đây là ĐÚNG"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-2a + 7 > -2b + 7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-2a + 7 < -2b + 7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2a + 7 > 2b + 7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "a - 7 > b - 7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+            "choices": {
+              "A": "-2a + 7 > -2b + 7",
+              "B": "-2a + 7 < -2b + 7",
+              "C": "2a + 7 > 2b + 7",
+              "D": "a - 7 > b - 7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-26",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 8)/(x - 1) = 3 (với x \\ne 1) là. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "x = 11",
+            "B": "x = 5",
+            "C": "x = 1",
+            "D": "x = -11"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 8)/(x - 1) = 3 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1) là. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 11"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 8)/(x - 1) = 3 (với x $\\ne$ 1) là. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "x = 11",
+              "B": "x = 5",
+              "C": "x = 1",
+              "D": "x = -11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-27",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Giải bất phương trình: -3x + 30 ≤ 0.",
+          "choices": {
+            "A": "x ≥ 10",
+            "B": "x ≤ -10",
+            "C": "x ≤ 10",
+            "D": "x ≥ -10"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Giải bất phương trình: -3x + 30 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 10"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " -10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Giải bất phương trình: -3x + 30 $\\le$ 0.",
+            "choices": {
+              "A": "x $\\ge$ 10",
+              "B": "x $\\le$ -10",
+              "C": "x $\\le$ 10",
+              "D": "x $\\ge$ -10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-28",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+          "choices": {
+            "A": "a - 10 > b - 10",
+            "B": "2a + 10 > 2b + 10",
+            "C": "-2a + 10 < -2b + 10",
+            "D": "-2a + 10 > -2b + 10"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho a < b. Khẳng định nào sau đây là ĐÚNG"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "a - 10 > b - 10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2a + 10 > 2b + 10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-2a + 10 < -2b + 10"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-2a + 10 > -2b + 10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+            "choices": {
+              "A": "a - 10 > b - 10",
+              "B": "2a + 10 > 2b + 10",
+              "C": "-2a + 10 < -2b + 10",
+              "D": "-2a + 10 > -2b + 10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-29",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Phương trình và bất phương trình bậc nhất một ẩn): Nghiệm của phương trình chứa ẩn ở mẫu (2x + 11)/(x - 1) = 3 (với x \\ne 1) là. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "x = 14",
+            "B": "x = 8",
+            "C": "x = -14",
+            "D": "x = 1"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Phương trình và bất phương trình bậc nhất một ẩn): Nghiệm của phương trình chứa ẩn ở mẫu (2x + 11)/(x - 1) = 3 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1) là. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Phương trình và bất phương trình bậc nhất một ẩn): Nghiệm của phương trình chứa ẩn ở mẫu (2x + 11)/(x - 1) = 3 (với x $\\ne$ 1) là. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "x = 14",
+              "B": "x = 8",
+              "C": "x = -14",
+              "D": "x = 1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-30",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Giải bất phương trình: -3x + 39 ≤ 0.",
+          "choices": {
+            "A": "x ≥ 13",
+            "B": "x ≤ 13",
+            "C": "x ≤ -13",
+            "D": "x ≥ -13"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Giải bất phương trình: -3x + 39 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 13"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -13"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " -13"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Giải bất phương trình: -3x + 39 $\\le$ 0.",
+            "choices": {
+              "A": "x $\\ge$ 13",
+              "B": "x $\\le$ 13",
+              "C": "x $\\le$ -13",
+              "D": "x $\\ge$ -13"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-31",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Cho a < b. Khẳng định nào sau đây là ĐÚNG. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "2a + 13 > 2b + 13",
+            "B": "a - 13 > b - 13",
+            "C": "-2a + 13 > -2b + 13",
+            "D": "-2a + 13 < -2b + 13"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Cho a < b. Khẳng định nào sau đây là ĐÚNG. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2a + 13 > 2b + 13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "a - 13 > b - 13"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-2a + 13 > -2b + 13"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-2a + 13 < -2b + 13"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Cho a < b. Khẳng định nào sau đây là ĐÚNG. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "2a + 13 > 2b + 13",
+              "B": "a - 13 > b - 13",
+              "C": "-2a + 13 > -2b + 13",
+              "D": "-2a + 13 < -2b + 13"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-32",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 14)/(x - 1) = 3 (với x \\ne 1) là",
+          "choices": {
+            "A": "x = 11",
+            "B": "x = 17",
+            "C": "x = -17",
+            "D": "x = 1"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 14)/(x - 1) = 3 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 11"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -17"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 14)/(x - 1) = 3 (với x $\\ne$ 1) là",
+            "choices": {
+              "A": "x = 11",
+              "B": "x = 17",
+              "C": "x = -17",
+              "D": "x = 1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-33",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Giải bất phương trình: -3x + 48 ≤ 0.",
+          "choices": {
+            "A": "x ≥ -16",
+            "B": "x ≤ 16",
+            "C": "x ≤ -16",
+            "D": "x ≥ 16"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Giải bất phương trình: -3x + 48 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " -16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Giải bất phương trình: -3x + 48 $\\le$ 0.",
+            "choices": {
+              "A": "x $\\ge$ -16",
+              "B": "x $\\le$ 16",
+              "C": "x $\\le$ -16",
+              "D": "x $\\ge$ 16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-34",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+          "choices": {
+            "A": "a - 16 > b - 16",
+            "B": "-2a + 16 > -2b + 16",
+            "C": "2a + 16 > 2b + 16",
+            "D": "-2a + 16 < -2b + 16"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho a < b. Khẳng định nào sau đây là ĐÚNG"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "a - 16 > b - 16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-2a + 16 > -2b + 16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2a + 16 > 2b + 16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-2a + 16 < -2b + 16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+            "choices": {
+              "A": "a - 16 > b - 16",
+              "B": "-2a + 16 > -2b + 16",
+              "C": "2a + 16 > 2b + 16",
+              "D": "-2a + 16 < -2b + 16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-35",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 17)/(x - 1) = 3 (với x \\ne 1) là",
+          "choices": {
+            "A": "x = 14",
+            "B": "x = -20",
+            "C": "x = 1",
+            "D": "x = 20"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 17)/(x - 1) = 3 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 17)/(x - 1) = 3 (với x $\\ne$ 1) là",
+            "choices": {
+              "A": "x = 14",
+              "B": "x = -20",
+              "C": "x = 1",
+              "D": "x = 20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-36",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Phương trình và bất phương trình bậc nhất một ẩn): Giải bất phương trình: -3x + 57 ≤ 0.. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "x ≥ -19",
+            "B": "x ≥ 19",
+            "C": "x ≤ 19",
+            "D": "x ≤ -19"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Phương trình và bất phương trình bậc nhất một ẩn): Giải bất phương trình: -3x + 57 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0.. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " -19"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 19"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 19"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -19"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Phương trình và bất phương trình bậc nhất một ẩn): Giải bất phương trình: -3x + 57 $\\le$ 0.. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "x $\\ge$ -19",
+              "B": "x $\\ge$ 19",
+              "C": "x $\\le$ 19",
+              "D": "x $\\le$ -19"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-37",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+          "choices": {
+            "A": "-2a + 19 > -2b + 19",
+            "B": "a - 19 > b - 19",
+            "C": "2a + 19 > 2b + 19",
+            "D": "-2a + 19 < -2b + 19"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho a < b. Khẳng định nào sau đây là ĐÚNG"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-2a + 19 > -2b + 19"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "a - 19 > b - 19"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2a + 19 > 2b + 19"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-2a + 19 < -2b + 19"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+            "choices": {
+              "A": "-2a + 19 > -2b + 19",
+              "B": "a - 19 > b - 19",
+              "C": "2a + 19 > 2b + 19",
+              "D": "-2a + 19 < -2b + 19"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-38",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương II: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 20)/(x - 1) = 3 (với x \\ne 1) là. Kết luận đúng là",
+          "choices": {
+            "A": "x = 17",
+            "B": "x = 23",
+            "C": "x = 1",
+            "D": "x = -23"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương II: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 20)/(x - 1) = 3 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1) là. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 23"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -23"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương II: Nghiệm của phương trình chứa ẩn ở mẫu (2x + 20)/(x - 1) = 3 (với x $\\ne$ 1) là. Kết luận đúng là",
+            "choices": {
+              "A": "x = 17",
+              "B": "x = 23",
+              "C": "x = 1",
+              "D": "x = -23"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-39",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Giải bất phương trình: -3x + 66 ≤ 0.",
+          "choices": {
+            "A": "x ≥ 22",
+            "B": "x ≤ 22",
+            "C": "x ≤ -22",
+            "D": "x ≥ -22"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Giải bất phương trình: -3x + 66 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 22"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 22"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -22"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " -22"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Giải bất phương trình: -3x + 66 $\\le$ 0.",
+            "choices": {
+              "A": "x $\\ge$ 22",
+              "B": "x $\\le$ 22",
+              "C": "x $\\le$ -22",
+              "D": "x $\\ge$ -22"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-40",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+          "choices": {
+            "A": "-2a + 22 > -2b + 22",
+            "B": "a - 22 > b - 22",
+            "C": "-2a + 22 < -2b + 22",
+            "D": "2a + 22 > 2b + 22"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho a < b. Khẳng định nào sau đây là ĐÚNG"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-2a + 22 > -2b + 22"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "a - 22 > b - 22"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-2a + 22 < -2b + 22"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2a + 22 > 2b + 22"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho a < b. Khẳng định nào sau đây là ĐÚNG",
+            "choices": {
+              "A": "-2a + 22 > -2b + 22",
+              "B": "a - 22 > b - 22",
+              "C": "-2a + 22 < -2b + 22",
+              "D": "2a + 22 > 2b + 22"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-41",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Số nghiệm nguyên dương của bất phương trình 3x - 5 ≤ x + 7 là",
+          "choices": {
+            "A": "6 nghiệm (1)",
+            "B": "6 nghiệm",
+            "C": "7 nghiệm",
+            "D": "5 nghiệm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số nghiệm nguyên dương của bất phương trình 3x - 5 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " x + 7 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 nghiệm (1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 nghiệm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7 nghiệm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5 nghiệm"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Số nghiệm nguyên dương của bất phương trình 3x - 5 $\\le$ x + 7 là",
+            "choices": {
+              "A": "6 nghiệm (1)",
+              "B": "6 nghiệm",
+              "C": "7 nghiệm",
+              "D": "5 nghiệm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-42",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương II – Phương trình và bất phương trình bậc nhất một ẩn): Cho hai số thực dương x, y thỏa mãn x + y = 10. Giá trị lớn nhất của tích P = x·y bằng. Kết quả đúng là",
+          "choices": {
+            "A": "50",
+            "B": "26",
+            "C": "25",
+            "D": "10"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương II – Phương trình và bất phương trình bậc nhất một ẩn): Cho hai số thực dương x, y thỏa mãn x + y = 10. Giá trị lớn nhất của tích P = x"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "y bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương II – Phương trình và bất phương trình bậc nhất một ẩn): Cho hai số thực dương x, y thỏa mãn x + y = 10. Giá trị lớn nhất của tích P = x$\\cdot$y bằng. Kết quả đúng là",
+            "choices": {
+              "A": "50",
+              "B": "26",
+              "C": "25",
+              "D": "10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-43",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Số nghiệm nguyên dương của bất phương trình 3x - 5 ≤ x + 11 là",
+          "choices": {
+            "A": "9 nghiệm",
+            "B": "7 nghiệm",
+            "C": "8 nghiệm",
+            "D": "10 nghiệm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Số nghiệm nguyên dương của bất phương trình 3x - 5 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " x + 11 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9 nghiệm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7 nghiệm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 nghiệm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10 nghiệm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Số nghiệm nguyên dương của bất phương trình 3x - 5 $\\le$ x + 11 là",
+            "choices": {
+              "A": "9 nghiệm",
+              "B": "7 nghiệm",
+              "C": "8 nghiệm",
+              "D": "10 nghiệm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-44",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương II: Cho hai số thực dương x, y thỏa mãn x + y = 14. Giá trị lớn nhất của tích P = x·y bằng",
+          "choices": {
+            "A": "14",
+            "B": "50",
+            "C": "98",
+            "D": "49"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương II: Cho hai số thực dương x, y thỏa mãn x + y = 14. Giá trị lớn nhất của tích P = x"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "y bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "98"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "49"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương II: Cho hai số thực dương x, y thỏa mãn x + y = 14. Giá trị lớn nhất của tích P = x$\\cdot$y bằng",
+            "choices": {
+              "A": "14",
+              "B": "50",
+              "C": "98",
+              "D": "49"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-45",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương II: Số nghiệm nguyên dương của bất phương trình 3x - 5 ≤ x + 15 là. Đáp số chính xác là",
+          "choices": {
+            "A": "10 nghiệm",
+            "B": "9 nghiệm",
+            "C": "11 nghiệm",
+            "D": "14 nghiệm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương II: Số nghiệm nguyên dương của bất phương trình 3x - 5 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " x + 15 là. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10 nghiệm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9 nghiệm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11 nghiệm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14 nghiệm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương II: Số nghiệm nguyên dương của bất phương trình 3x - 5 $\\le$ x + 15 là. Đáp số chính xác là",
+            "choices": {
+              "A": "10 nghiệm",
+              "B": "9 nghiệm",
+              "C": "11 nghiệm",
+              "D": "14 nghiệm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-46",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Cho hai số thực dương x, y thỏa mãn x + y = 18. Giá trị lớn nhất của tích P = x·y bằng",
+          "choices": {
+            "A": "162",
+            "B": "18",
+            "C": "82",
+            "D": "81"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Cho hai số thực dương x, y thỏa mãn x + y = 18. Giá trị lớn nhất của tích P = x"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "y bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "162"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "82"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "81"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Cho hai số thực dương x, y thỏa mãn x + y = 18. Giá trị lớn nhất của tích P = x$\\cdot$y bằng",
+            "choices": {
+              "A": "162",
+              "B": "18",
+              "C": "82",
+              "D": "81"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-47",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Số nghiệm nguyên dương của bất phương trình 3x - 5 ≤ x + 19 là",
+          "choices": {
+            "A": "11 nghiệm",
+            "B": "13 nghiệm",
+            "C": "18 nghiệm",
+            "D": "12 nghiệm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Số nghiệm nguyên dương của bất phương trình 3x - 5 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " x + 19 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "11 nghiệm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "13 nghiệm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18 nghiệm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 nghiệm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Số nghiệm nguyên dương của bất phương trình 3x - 5 $\\le$ x + 19 là",
+            "choices": {
+              "A": "11 nghiệm",
+              "B": "13 nghiệm",
+              "C": "18 nghiệm",
+              "D": "12 nghiệm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-48",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Cho hai số thực dương x, y thỏa mãn x + y = 22. Giá trị lớn nhất của tích P = x·y bằng",
+          "choices": {
+            "A": "22",
+            "B": "121",
+            "C": "242",
+            "D": "122"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Cho hai số thực dương x, y thỏa mãn x + y = 22. Giá trị lớn nhất của tích P = x"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "y bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "22"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "121"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "242"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "122"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Cho hai số thực dương x, y thỏa mãn x + y = 22. Giá trị lớn nhất của tích P = x$\\cdot$y bằng",
+            "choices": {
+              "A": "22",
+              "B": "121",
+              "C": "242",
+              "D": "122"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-49",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Số nghiệm nguyên dương của bất phương trình 3x - 5 ≤ x + 23 là",
+          "choices": {
+            "A": "22 nghiệm",
+            "B": "15 nghiệm",
+            "C": "13 nghiệm",
+            "D": "14 nghiệm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Số nghiệm nguyên dương của bất phương trình 3x - 5 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " x + 23 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "22 nghiệm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15 nghiệm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "13 nghiệm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14 nghiệm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Số nghiệm nguyên dương của bất phương trình 3x - 5 $\\le$ x + 23 là",
+            "choices": {
+              "A": "22 nghiệm",
+              "B": "15 nghiệm",
+              "C": "13 nghiệm",
+              "D": "14 nghiệm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-02-50",
+          "grade": 9,
+          "chapter": 2,
+          "chapterTitle": "PHƯƠNG TRÌNH VÀ BẤT PHƯƠNG TRÌNH BẬC NHẤT MỘT ẨN",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương II: Cho hai số thực dương x, y thỏa mãn x + y = 26. Giá trị lớn nhất của tích P = x·y bằng. Phương án đúng là",
+          "choices": {
+            "A": "26",
+            "B": "169",
+            "C": "170",
+            "D": "338"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương II: Cho hai số thực dương x, y thỏa mãn x + y = 26. Giá trị lớn nhất của tích P = x"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "y bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "169"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "170"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "338"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương II: Cho hai số thực dương x, y thỏa mãn x + y = 26. Giá trị lớn nhất của tích P = x$\\cdot$y bằng. Phương án đúng là",
+            "choices": {
+              "A": "26",
+              "B": "169",
+              "C": "170",
+              "D": "338"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

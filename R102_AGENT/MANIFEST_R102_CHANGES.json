@@ -1,0 +1,48 @@
+{
+  "project": "MATHVERSE R102 (UNESCO / New7Wonders / Other Architecture, 3D/2D)",
+  "input_zip": "MATHVERSE_R100_TOI_UU_BO_CAI_DAY_DU (1).zip",
+  "original_files": 1537,
+  "release_files": 1550,
+  "added": [
+    "00_DOC_TRUOC_R102.md",
+    "00_MO_MATHVERSE_R102.bat",
+    "LEGACY_R100_LAUNCHERS/00_CHAY_MATHVERSE_R100.bat",
+    "LEGACY_R100_LAUNCHERS/00_COP_PROMPT_ANTIGRAVITY_R100.bat",
+    "LEGACY_R100_LAUNCHERS/00_XEM_TRUOC_SAU_R100.bat",
+    "LEGACY_R100_LAUNCHERS/CAI_DAT_AI.bat",
+    "LEGACY_R100_LAUNCHERS/CAI_THU_VIEN_MO_RONG.bat",
+    "LEGACY_R100_LAUNCHERS/README_LEGACY.txt",
+    "R102_AGENT/00_HUONG_DAN_CAI_DAT_R102.md",
+    "R102_AGENT/BAO_CAO_QA_R102.md",
+    "R102_AGENT/NGUON_3D_HINH_HOC.md",
+    "R102_AGENT/PROMPT_ANTIGRAVITY_MATHVERSE_R102.md",
+    "dual/discovery-r102/catalog.mjs",
+    "dual/discovery-r102/exhibition-room.mjs",
+    "dual/discovery-r102/geometry-2d.mjs",
+    "dual/discovery-r102/geometry-models.mjs",
+    "dual/discovery-r102/geometry-viewer.mjs",
+    "tests/r102-discovery-geometric-gallery.test.mjs"
+  ],
+  "modified": [
+    "dual/app.mjs",
+    "dual/discovery-r100/wonders-ui.mjs",
+    "dual/discovery-r100/wonders.css",
+    "dual/discovery-r97/world-map-ui.mjs",
+    "dual/index.html",
+    "package.json",
+    "server/host.mjs"
+  ],
+  "old_paths_relocated_to_legacy": [
+    "00_CHAY_MATHVERSE_R100.bat",
+    "00_COP_PROMPT_ANTIGRAVITY_R100.bat",
+    "00_XEM_TRUOC_SAU_R100.bat",
+    "CAI_DAT_AI.bat",
+    "CAI_THU_VIEN_MO_RONG.bat"
+  ],
+  "school_safe_statue_photos": true,
+  "physical_teaching_pedestals": 9,
+  "preserved_R98_scan_pedestals": 1,
+  "map_globe_points": 18,
+  "test_summary": "33/33 Node tests PASS + 9/9 math meshes load without browser",
+  "WebGL_visual_QA": "NOT VERIFIED due Chromium network policy; test on Windows / Antigravity"
+}

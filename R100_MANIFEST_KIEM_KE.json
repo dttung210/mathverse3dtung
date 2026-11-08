@@ -1,0 +1,116 @@
+{
+  "release": "MATHVERSE R100 (architectural wonders, not natural wonders)",
+  "source_zip": "MATHVERSE_R99_DISCOVERY_7PLUS7_3D_FULL.zip",
+  "source_count": 2424,
+  "new_project_count": 2443,
+  "added": [
+    {
+      "path": "00_CHAY_MATHVERSE_R100.bat",
+      "size": 341
+    },
+    {
+      "path": "00_COP_PROMPT_ANTIGRAVITY_R100.bat",
+      "size": 366
+    },
+    {
+      "path": "00_HUONG_DAN_R100_CHO_CO.md",
+      "size": 2952
+    },
+    {
+      "path": "00_KIEM_TRA_R100.bat",
+      "size": 198
+    },
+    {
+      "path": "00_README_FIRST_R100.md",
+      "size": 1071
+    },
+    {
+      "path": "00_XEM_TRUOC_SAU_R100.bat",
+      "size": 64
+    },
+    {
+      "path": "CHANGELOG_R100_DISCOVERY_14_KY_QUAN.md",
+      "size": 794
+    },
+    {
+      "path": "PROMPT_ANTIGRAVITY_UPDATE_R100.md",
+      "size": 7667
+    },
+    {
+      "path": "R100_BAO_CAO_NGHIEM_THU.md",
+      "size": 3275
+    },
+    {
+      "path": "R100_NGUON_SKETCHFAB_14_KY_QUAN.csv",
+      "size": 5300
+    },
+    {
+      "path": "R100_NGUON_VA_GIAY_PHEP.md",
+      "size": 1088
+    },
+    {
+      "path": "R100_TRUOC_R99_DOI_CHIEU.png",
+      "size": 430173
+    },
+    {
+      "path": "R100_XEM_TRUOC_SAU.html",
+      "size": 11263
+    },
+    {
+      "path": "dual/discovery-r100/wonders-14-catalog.json",
+      "size": 18510
+    },
+    {
+      "path": "dual/discovery-r100/wonders-data.mjs",
+      "size": 18107
+    },
+    {
+      "path": "dual/discovery-r100/wonders-ui.mjs",
+      "size": 9358
+    },
+    {
+      "path": "dual/discovery-r100/wonders-world.mjs",
+      "size": 8220
+    },
+    {
+      "path": "dual/discovery-r100/wonders.css",
+      "size": 3894
+    },
+    {
+      "path": "tests/r100-world-wonders.test.mjs",
+      "size": 3632
+    }
+  ],
+  "changed": [
+    {
+      "path": "dual/app.mjs",
+      "size": 66158,
+      "old_size": 66207
+    },
+    {
+      "path": "dual/discovery-r97/world-map-ui.mjs",
+      "size": 14655,
+      "old_size": 14676
+    },
+    {
+      "path": "dual/index.html",
+      "size": 37103,
+      "old_size": 37135
+    },
+    {
+      "path": "package.json",
+      "size": 4675,
+      "old_size": 4430
+    },
+    {
+      "path": "server/host.mjs",
+      "size": 12347,
+      "old_size": 12346
+    }
+  ],
+  "deleted": [],
+  "approved_parthenon_glb_path": "dual/discovery-r98/assets/unesco_parthenon_glb.glb",
+  "sketchfab": "14 linked iframe viewers; no Sketchfab mesh redistributed",
+  "qa": "23/23 Node.js tests pass; server smoke HTML+module+GLB OK; WebGL interactive not verified",
+  "preview": "R99 real screenshot + R100 layout diagram, not postrender screenshot"
+}

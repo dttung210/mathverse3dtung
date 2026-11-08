@@ -1,0 +1,3369 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 7,
+      "chapter": 8,
+      "roman": "VIII",
+      "title": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "7-08-01",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Xác suất của biến cố chắc chắn luôn bằng",
+          "choices": {
+            "A": "1",
+            "B": "0",
+            "C": "1/2",
+            "D": "100"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác suất của biến cố chắc chắn luôn bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác suất của biến cố chắc chắn luôn bằng",
+            "choices": {
+              "A": "1",
+              "B": "0",
+              "C": "1/2",
+              "D": "100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-02",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Xác suất của biến cố không thể luôn bằng.",
+          "choices": {
+            "A": "0,5",
+            "B": "1/6",
+            "C": "0",
+            "D": "1"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Xác suất của biến cố không thể luôn bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0,5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Xác suất của biến cố không thể luôn bằng.",
+            "choices": {
+              "A": "0,5",
+              "B": "1/6",
+              "C": "0",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-03",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương VIII, xét nội dung: Gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng. Đáp án đúng là",
+          "choices": {
+            "A": "2/3",
+            "B": "1/2",
+            "C": "1/6",
+            "D": "1/3"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương VIII, xét nội dung: Gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương VIII, xét nội dung: Gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng. Đáp án đúng là",
+            "choices": {
+              "A": "2/3",
+              "B": "1/2",
+              "C": "1/6",
+              "D": "1/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-04",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương VIII (Làm quen với biến cố và xác suất của biến cố), trong một hộp có 8 chiếc bút bi xanh được đánh số từ 1 đến 8. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là: []",
+          "choices": {
+            "A": "Biến cố ngẫu nhiên có xác suất 1/2 []",
+            "B": "Biến cố chắc chắn (có xác suất bằng 1) []",
+            "C": "Biến cố không thể (có xác suất bằng 0) []",
+            "D": "Biến cố có xác suất 1/8"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương VIII (Làm quen với biến cố và xác suất của biến cố), trong một hộp có 8 chiếc bút bi xanh được đánh số từ 1 đến 8. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Biến cố ngẫu nhiên có xác suất 1/2 []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Biến cố chắc chắn (có xác suất bằng 1) []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Biến cố không thể (có xác suất bằng 0) []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Biến cố có xác suất 1/8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương VIII (Làm quen với biến cố và xác suất của biến cố), trong một hộp có 8 chiếc bút bi xanh được đánh số từ 1 đến 8. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là: []",
+            "choices": {
+              "A": "Biến cố ngẫu nhiên có xác suất 1/2 []",
+              "B": "Biến cố chắc chắn (có xác suất bằng 1) []",
+              "C": "Biến cố không thể (có xác suất bằng 0) []",
+              "D": "Biến cố có xác suất 1/8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-05",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Một hộp có 8 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 8. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là",
+          "choices": {
+            "A": "2/8",
+            "B": "1/8",
+            "C": "0",
+            "D": "1"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Một hộp có 8 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 8. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Một hộp có 8 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 8. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là",
+            "choices": {
+              "A": "2/8",
+              "B": "1/8",
+              "C": "0",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-06",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về làm quen với biến cố và xác suất của biến cố, một học sinh gặp câu hỏi: Xác suất của biến cố chắc chắn luôn bằng. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "100",
+            "B": "0",
+            "C": "1/2",
+            "D": "1"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về làm quen với biến cố và xác suất của biến cố, một học sinh gặp câu hỏi: Xác suất của biến cố chắc chắn luôn bằng. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về làm quen với biến cố và xác suất của biến cố, một học sinh gặp câu hỏi: Xác suất của biến cố chắc chắn luôn bằng. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "100",
+              "B": "0",
+              "C": "1/2",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-07",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Xác suất của biến cố không thể luôn bằng",
+          "choices": {
+            "A": "1",
+            "B": "1/6",
+            "C": "0",
+            "D": "0,5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Xác suất của biến cố không thể luôn bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0,5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Xác suất của biến cố không thể luôn bằng",
+            "choices": {
+              "A": "1",
+              "B": "1/6",
+              "C": "0",
+              "D": "0,5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-08",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VIII: Gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng",
+          "choices": {
+            "A": "1/3",
+            "B": "2/3",
+            "C": "1/2",
+            "D": "1/6"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VIII: Gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VIII: Gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng",
+            "choices": {
+              "A": "1/3",
+              "B": "2/3",
+              "C": "1/2",
+              "D": "1/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-09",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Trong một hộp có 13 chiếc bút bi xanh được đánh số từ 1 đến 13. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là: []",
+          "choices": {
+            "A": "Biến cố chắc chắn (có xác suất bằng 1) []",
+            "B": "Biến cố có xác suất 1/13 []",
+            "C": "Biến cố không thể (có xác suất bằng 0) []",
+            "D": "Biến cố ngẫu nhiên có xác suất 1/2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Trong một hộp có 13 chiếc bút bi xanh được đánh số từ 1 đến 13. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Biến cố chắc chắn (có xác suất bằng 1) []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Biến cố có xác suất 1/13 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Biến cố không thể (có xác suất bằng 0) []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Biến cố ngẫu nhiên có xác suất 1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Trong một hộp có 13 chiếc bút bi xanh được đánh số từ 1 đến 13. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là: []",
+            "choices": {
+              "A": "Biến cố chắc chắn (có xác suất bằng 1) []",
+              "B": "Biến cố có xác suất 1/13 []",
+              "C": "Biến cố không thể (có xác suất bằng 0) []",
+              "D": "Biến cố ngẫu nhiên có xác suất 1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-10",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Một hộp có 13 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 13. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là. Phương án chính xác là",
+          "choices": {
+            "A": "2/13",
+            "B": "0",
+            "C": "1/13",
+            "D": "1"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Một hộp có 13 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 13. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/13"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Một hộp có 13 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 13. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là. Phương án chính xác là",
+            "choices": {
+              "A": "2/13",
+              "B": "0",
+              "C": "1/13",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-11",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Xác suất của biến cố chắc chắn luôn bằng",
+          "choices": {
+            "A": "1",
+            "B": "100",
+            "C": "1/2",
+            "D": "0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Xác suất của biến cố chắc chắn luôn bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Xác suất của biến cố chắc chắn luôn bằng",
+            "choices": {
+              "A": "1",
+              "B": "100",
+              "C": "1/2",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-12",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VIII): Xác suất của biến cố không thể luôn bằng",
+          "choices": {
+            "A": "0,5",
+            "B": "0",
+            "C": "1",
+            "D": "1/6"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VIII): Xác suất của biến cố không thể luôn bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0,5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VIII): Xác suất của biến cố không thể luôn bằng",
+            "choices": {
+              "A": "0,5",
+              "B": "0",
+              "C": "1",
+              "D": "1/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-13",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VIII), gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng",
+          "choices": {
+            "A": "1/6",
+            "B": "1/3",
+            "C": "2/3",
+            "D": "1/2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VIII), gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VIII), gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng",
+            "choices": {
+              "A": "1/6",
+              "B": "1/3",
+              "C": "2/3",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-14",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Trong một hộp có 18 chiếc bút bi xanh được đánh số từ 1 đến 18. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là: []",
+          "choices": {
+            "A": "Biến cố chắc chắn (có xác suất bằng 1) []",
+            "B": "Biến cố có xác suất 1/18 []",
+            "C": "Biến cố ngẫu nhiên có xác suất 1/2 []",
+            "D": "Biến cố không thể (có xác suất bằng 0)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Trong một hộp có 18 chiếc bút bi xanh được đánh số từ 1 đến 18. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Biến cố chắc chắn (có xác suất bằng 1) []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Biến cố có xác suất 1/18 []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Biến cố ngẫu nhiên có xác suất 1/2 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Biến cố không thể (có xác suất bằng 0)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Trong một hộp có 18 chiếc bút bi xanh được đánh số từ 1 đến 18. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là: []",
+            "choices": {
+              "A": "Biến cố chắc chắn (có xác suất bằng 1) []",
+              "B": "Biến cố có xác suất 1/18 []",
+              "C": "Biến cố ngẫu nhiên có xác suất 1/2 []",
+              "D": "Biến cố không thể (có xác suất bằng 0)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-15",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương VIII: Một hộp có 18 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 18. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "1/18",
+            "B": "1",
+            "C": "2/18",
+            "D": "0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương VIII: Một hộp có 18 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 18. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2/18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương VIII: Một hộp có 18 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 18. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "1/18",
+              "B": "1",
+              "C": "2/18",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-16",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Xác suất của biến cố chắc chắn luôn bằng",
+          "choices": {
+            "A": "100",
+            "B": "0",
+            "C": "1/2",
+            "D": "1"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Xác suất của biến cố chắc chắn luôn bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Xác suất của biến cố chắc chắn luôn bằng",
+            "choices": {
+              "A": "100",
+              "B": "0",
+              "C": "1/2",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-17",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Xác suất của biến cố không thể luôn bằng?",
+          "choices": {
+            "A": "0",
+            "B": "0,5",
+            "C": "1/6",
+            "D": "1"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Xác suất của biến cố không thể luôn bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0,5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Xác suất của biến cố không thể luôn bằng?",
+            "choices": {
+              "A": "0",
+              "B": "0,5",
+              "C": "1/6",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-18",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương VIII: Gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng",
+          "choices": {
+            "A": "2/3",
+            "B": "1/2",
+            "C": "1/3",
+            "D": "1/6"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương VIII: Gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương VIII: Gieo một con xúc xắc 6 mặt cân đối và đồng chất. Xác suất của biến cố 'Số chấm xuất hiện là số chẵn' bằng",
+            "choices": {
+              "A": "2/3",
+              "B": "1/2",
+              "C": "1/3",
+              "D": "1/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-19",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Trong một hộp có 23 chiếc bút bi xanh được đánh số từ 1 đến 23. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là. Hãy chọn phương án đúng: []",
+          "choices": {
+            "A": "Biến cố không thể (có xác suất bằng 0) []",
+            "B": "Biến cố chắc chắn (có xác suất bằng 1) []",
+            "C": "Biến cố có xác suất 1/23 []",
+            "D": "Biến cố ngẫu nhiên có xác suất 1/2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Trong một hộp có 23 chiếc bút bi xanh được đánh số từ 1 đến 23. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là. Hãy chọn phương án đúng: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Biến cố không thể (có xác suất bằng 0) []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Biến cố chắc chắn (có xác suất bằng 1) []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Biến cố có xác suất 1/23 []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Biến cố ngẫu nhiên có xác suất 1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Trong một hộp có 23 chiếc bút bi xanh được đánh số từ 1 đến 23. Lấy ngẫu nhiên 1 chiếc bút, biến cố 'Lấy được chiếc bút bi màu xanh' là. Hãy chọn phương án đúng: []",
+            "choices": {
+              "A": "Biến cố không thể (có xác suất bằng 0) []",
+              "B": "Biến cố chắc chắn (có xác suất bằng 1) []",
+              "C": "Biến cố có xác suất 1/23 []",
+              "D": "Biến cố ngẫu nhiên có xác suất 1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-20",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương VIII để giải quyết yêu cầu: Một hộp có 23 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 23. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là",
+          "choices": {
+            "A": "1/23",
+            "B": "0",
+            "C": "2/23",
+            "D": "1"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương VIII để giải quyết yêu cầu: Một hộp có 23 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 23. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/23"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2/23"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương VIII để giải quyết yêu cầu: Một hộp có 23 tấm thẻ ghi các số tự nhiên liên tiếp từ 1 đến 23. Rút ngẫu nhiên 1 tấm thẻ, xác suất để rút được tấm thẻ ghi số 1 là",
+            "choices": {
+              "A": "1/23",
+              "B": "0",
+              "C": "2/23",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-21",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Một hộp có 10 chiếc thẻ cùng loại được đánh số từ 1 đến 10. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng",
+          "choices": {
+            "A": "1/10",
+            "B": "4/10",
+            "C": "1/3",
+            "D": "1/2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hộp có 10 chiếc thẻ cùng loại được đánh số từ 1 đến 10. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4/10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hộp có 10 chiếc thẻ cùng loại được đánh số từ 1 đến 10. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng",
+            "choices": {
+              "A": "1/10",
+              "B": "4/10",
+              "C": "1/3",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-22",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương VIII (Làm quen với biến cố và xác suất của biến cố) để giải bài toán: Một túi đựng 4 viên bi xanh và 6 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+          "choices": {
+            "A": "6/10",
+            "B": "4/10",
+            "C": "4/6",
+            "D": "1/4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương VIII (Làm quen với biến cố và xác suất của biến cố) để giải bài toán: Một túi đựng 4 viên bi xanh và 6 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6/10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4/10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4/6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương VIII (Làm quen với biến cố và xác suất của biến cố) để giải bài toán: Một túi đựng 4 viên bi xanh và 6 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+            "choices": {
+              "A": "6/10",
+              "B": "4/10",
+              "C": "4/6",
+              "D": "1/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-23",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương VIII: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Kết quả thu được là",
+          "choices": {
+            "A": "2/3",
+            "B": "1/2",
+            "C": "1/3",
+            "D": "1/6"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương VIII: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương VIII: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Kết quả thu được là",
+            "choices": {
+              "A": "2/3",
+              "B": "1/2",
+              "C": "1/3",
+              "D": "1/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-24",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Một hộp có 16 chiếc thẻ cùng loại được đánh số từ 1 đến 16. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng. Đáp án đúng là",
+          "choices": {
+            "A": "7/16",
+            "B": "1/16",
+            "C": "1/3",
+            "D": "1/2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Một hộp có 16 chiếc thẻ cùng loại được đánh số từ 1 đến 16. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7/16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Một hộp có 16 chiếc thẻ cùng loại được đánh số từ 1 đến 16. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng. Đáp án đúng là",
+            "choices": {
+              "A": "7/16",
+              "B": "1/16",
+              "C": "1/3",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-25",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương VIII, hãy xác định: Một túi đựng 7 viên bi xanh và 9 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+          "choices": {
+            "A": "7/9",
+            "B": "7/16",
+            "C": "1/7",
+            "D": "9/16"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương VIII, hãy xác định: Một túi đựng 7 viên bi xanh và 9 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7/16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9/16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương VIII, hãy xác định: Một túi đựng 7 viên bi xanh và 9 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+            "choices": {
+              "A": "7/9",
+              "B": "7/16",
+              "C": "1/7",
+              "D": "9/16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-26",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "1/3",
+            "B": "2/3",
+            "C": "1/2",
+            "D": "1/6"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "1/3",
+              "B": "2/3",
+              "C": "1/2",
+              "D": "1/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-27",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương VIII vào bài tập sau: Một hộp có 22 chiếc thẻ cùng loại được đánh số từ 1 đến 22. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng",
+          "choices": {
+            "A": "1/22",
+            "B": "1/2",
+            "C": "1/3",
+            "D": "10/22"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương VIII vào bài tập sau: Một hộp có 22 chiếc thẻ cùng loại được đánh số từ 1 đến 22. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/22"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10/22"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương VIII vào bài tập sau: Một hộp có 22 chiếc thẻ cùng loại được đánh số từ 1 đến 22. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng",
+            "choices": {
+              "A": "1/22",
+              "B": "1/2",
+              "C": "1/3",
+              "D": "10/22"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-28",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một túi đựng 10 viên bi xanh và 12 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+          "choices": {
+            "A": "10/12",
+            "B": "12/22",
+            "C": "10/22",
+            "D": "1/10"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một túi đựng 10 viên bi xanh và 12 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10/12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12/22"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10/22"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một túi đựng 10 viên bi xanh và 12 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+            "choices": {
+              "A": "10/12",
+              "B": "12/22",
+              "C": "10/22",
+              "D": "1/10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-29",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Làm quen với biến cố và xác suất của biến cố): Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "1/2",
+            "B": "2/3",
+            "C": "1/6",
+            "D": "1/3"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Làm quen với biến cố và xác suất của biến cố): Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Làm quen với biến cố và xác suất của biến cố): Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "1/2",
+              "B": "2/3",
+              "C": "1/6",
+              "D": "1/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-30",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương VIII, hãy tìm kết quả của bài toán: Một hộp có 28 chiếc thẻ cùng loại được đánh số từ 1 đến 28. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng",
+          "choices": {
+            "A": "1/2",
+            "B": "13/28",
+            "C": "1/3",
+            "D": "1/28"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương VIII, hãy tìm kết quả của bài toán: Một hộp có 28 chiếc thẻ cùng loại được đánh số từ 1 đến 28. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "13/28"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/28"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương VIII, hãy tìm kết quả của bài toán: Một hộp có 28 chiếc thẻ cùng loại được đánh số từ 1 đến 28. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng",
+            "choices": {
+              "A": "1/2",
+              "B": "13/28",
+              "C": "1/3",
+              "D": "1/28"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-31",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương VIII nêu câu hỏi: Một túi đựng 13 viên bi xanh và 15 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "15/28",
+            "B": "13/15",
+            "C": "1/13",
+            "D": "13/28"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương VIII nêu câu hỏi: Một túi đựng 13 viên bi xanh và 15 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15/28"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "13/15"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/13"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "13/28"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương VIII nêu câu hỏi: Một túi đựng 13 viên bi xanh và 15 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "15/28",
+              "B": "13/15",
+              "C": "1/13",
+              "D": "13/28"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-32",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng",
+          "choices": {
+            "A": "2/3",
+            "B": "1/2",
+            "C": "1/3",
+            "D": "1/6"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng",
+            "choices": {
+              "A": "2/3",
+              "B": "1/2",
+              "C": "1/3",
+              "D": "1/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-33",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VIII: Một hộp có 34 chiếc thẻ cùng loại được đánh số từ 1 đến 34. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng",
+          "choices": {
+            "A": "1/34",
+            "B": "16/34",
+            "C": "1/3",
+            "D": "1/2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VIII: Một hộp có 34 chiếc thẻ cùng loại được đánh số từ 1 đến 34. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/34"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16/34"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VIII: Một hộp có 34 chiếc thẻ cùng loại được đánh số từ 1 đến 34. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng",
+            "choices": {
+              "A": "1/34",
+              "B": "16/34",
+              "C": "1/3",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-34",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một túi đựng 16 viên bi xanh và 18 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+          "choices": {
+            "A": "1/16",
+            "B": "18/34",
+            "C": "16/34",
+            "D": "16/18"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một túi đựng 16 viên bi xanh và 18 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18/34"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16/34"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16/18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một túi đựng 16 viên bi xanh và 18 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+            "choices": {
+              "A": "1/16",
+              "B": "18/34",
+              "C": "16/34",
+              "D": "16/18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-35",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương VIII, xét bài toán: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng",
+          "choices": {
+            "A": "1/6",
+            "B": "1/2",
+            "C": "2/3",
+            "D": "1/3"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương VIII, xét bài toán: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương VIII, xét bài toán: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng",
+            "choices": {
+              "A": "1/6",
+              "B": "1/2",
+              "C": "2/3",
+              "D": "1/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-36",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Làm quen với biến cố và xác suất của biến cố): Một hộp có 40 chiếc thẻ cùng loại được đánh số từ 1 đến 40. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "1/3",
+            "B": "1/2",
+            "C": "1/40",
+            "D": "19/40"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Làm quen với biến cố và xác suất của biến cố): Một hộp có 40 chiếc thẻ cùng loại được đánh số từ 1 đến 40. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/40"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "19/40"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Làm quen với biến cố và xác suất của biến cố): Một hộp có 40 chiếc thẻ cùng loại được đánh số từ 1 đến 40. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "1/3",
+              "B": "1/2",
+              "C": "1/40",
+              "D": "19/40"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-37",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một túi đựng 19 viên bi xanh và 21 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+          "choices": {
+            "A": "19/40",
+            "B": "1/19",
+            "C": "21/40",
+            "D": "19/21"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một túi đựng 19 viên bi xanh và 21 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "19/40"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/19"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21/40"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "19/21"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một túi đựng 19 viên bi xanh và 21 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+            "choices": {
+              "A": "19/40",
+              "B": "1/19",
+              "C": "21/40",
+              "D": "19/21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-38",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương VIII: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Kết luận đúng là",
+          "choices": {
+            "A": "1/6",
+            "B": "1/3",
+            "C": "2/3",
+            "D": "1/2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương VIII: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương VIII: Gieo một con xúc xắc cân đối. Xác suất của biến cố 'Số chấm xuất hiện là số nguyên tố' (gồm 2, 3, 5) bằng. Kết luận đúng là",
+            "choices": {
+              "A": "1/6",
+              "B": "1/3",
+              "C": "2/3",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-39",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VIII: Một hộp có 46 chiếc thẻ cùng loại được đánh số từ 1 đến 46. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng",
+          "choices": {
+            "A": "1/46",
+            "B": "1/3",
+            "C": "1/2",
+            "D": "22/46"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VIII: Một hộp có 46 chiếc thẻ cùng loại được đánh số từ 1 đến 46. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/46"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "22/46"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VIII: Một hộp có 46 chiếc thẻ cùng loại được đánh số từ 1 đến 46. Rút ngẫu nhiên một thẻ. Xác suất của biến cố 'Số ghi trên thẻ là số chẵn' bằng",
+            "choices": {
+              "A": "1/46",
+              "B": "1/3",
+              "C": "1/2",
+              "D": "22/46"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-40",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một túi đựng 22 viên bi xanh và 24 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+          "choices": {
+            "A": "22/24",
+            "B": "24/46",
+            "C": "1/22",
+            "D": "22/46"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một túi đựng 22 viên bi xanh và 24 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "22/24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24/46"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/22"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "22/46"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một túi đựng 22 viên bi xanh và 24 viên bi đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi xanh là",
+            "choices": {
+              "A": "22/24",
+              "B": "24/46",
+              "C": "1/22",
+              "D": "22/46"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-41",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Từ các thẻ ghi các số tự nhiên từ 1 đến 12, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng",
+          "choices": {
+            "A": "1/4",
+            "B": "1/3",
+            "C": "1/2",
+            "D": "2/3"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Từ các thẻ ghi các số tự nhiên từ 1 đến 12, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Từ các thẻ ghi các số tự nhiên từ 1 đến 12, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng",
+            "choices": {
+              "A": "1/4",
+              "B": "1/3",
+              "C": "1/2",
+              "D": "2/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-42",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương VIII – Làm quen với biến cố và xác suất của biến cố): Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng. Kết quả đúng là",
+          "choices": {
+            "A": "6/99",
+            "B": "1/10",
+            "C": "1/12",
+            "D": "1/15"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương VIII – Làm quen với biến cố và xác suất của biến cố): Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6/99"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương VIII – Làm quen với biến cố và xác suất của biến cố): Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng. Kết quả đúng là",
+            "choices": {
+              "A": "6/99",
+              "B": "1/10",
+              "C": "1/12",
+              "D": "1/15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-43",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương VIII để giải bài toán: Từ các thẻ ghi các số tự nhiên từ 1 đến 18, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng",
+          "choices": {
+            "A": "1/4",
+            "B": "2/3",
+            "C": "1/3",
+            "D": "1/2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương VIII để giải bài toán: Từ các thẻ ghi các số tự nhiên từ 1 đến 18, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương VIII để giải bài toán: Từ các thẻ ghi các số tự nhiên từ 1 đến 18, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng",
+            "choices": {
+              "A": "1/4",
+              "B": "2/3",
+              "C": "1/3",
+              "D": "1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-44",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương VIII: Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng",
+          "choices": {
+            "A": "6/99",
+            "B": "1/12",
+            "C": "1/10",
+            "D": "1/15"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương VIII: Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6/99"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/10"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương VIII: Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng",
+            "choices": {
+              "A": "6/99",
+              "B": "1/12",
+              "C": "1/10",
+              "D": "1/15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-45",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương VIII: Từ các thẻ ghi các số tự nhiên từ 1 đến 12, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng. Đáp số chính xác là",
+          "choices": {
+            "A": "1/2",
+            "B": "2/3",
+            "C": "1/3",
+            "D": "1/4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương VIII: Từ các thẻ ghi các số tự nhiên từ 1 đến 12, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương VIII: Từ các thẻ ghi các số tự nhiên từ 1 đến 12, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng. Đáp số chính xác là",
+            "choices": {
+              "A": "1/2",
+              "B": "2/3",
+              "C": "1/3",
+              "D": "1/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-46",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương VIII để tìm đáp án cho bài toán: Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng",
+          "choices": {
+            "A": "1/15",
+            "B": "1/12",
+            "C": "6/99",
+            "D": "1/10"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương VIII để tìm đáp án cho bài toán: Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6/99"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương VIII để tìm đáp án cho bài toán: Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng",
+            "choices": {
+              "A": "1/15",
+              "B": "1/12",
+              "C": "6/99",
+              "D": "1/10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-47",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VIII: Từ các thẻ ghi các số tự nhiên từ 1 đến 18, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng",
+          "choices": {
+            "A": "1/3",
+            "B": "2/3",
+            "C": "1/2",
+            "D": "1/4"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VIII: Từ các thẻ ghi các số tự nhiên từ 1 đến 18, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VIII: Từ các thẻ ghi các số tự nhiên từ 1 đến 18, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng",
+            "choices": {
+              "A": "1/3",
+              "B": "2/3",
+              "C": "1/2",
+              "D": "1/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-48",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VIII): Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng",
+          "choices": {
+            "A": "1/10",
+            "B": "1/12",
+            "C": "6/99",
+            "D": "1/15"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VIII): Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6/99"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VIII): Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng",
+            "choices": {
+              "A": "1/10",
+              "B": "1/12",
+              "C": "6/99",
+              "D": "1/15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-49",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương VIII, hãy giải quyết bài toán: Từ các thẻ ghi các số tự nhiên từ 1 đến 12, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng",
+          "choices": {
+            "A": "2/3",
+            "B": "1/2",
+            "C": "1/3",
+            "D": "1/4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương VIII, hãy giải quyết bài toán: Từ các thẻ ghi các số tự nhiên từ 1 đến 12, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương VIII, hãy giải quyết bài toán: Từ các thẻ ghi các số tự nhiên từ 1 đến 12, rút ngẫu nhiên 1 thẻ. Xác suất của biến cố 'Số ghi trên thẻ chia hết cho 3' bằng",
+            "choices": {
+              "A": "2/3",
+              "B": "1/2",
+              "C": "1/3",
+              "D": "1/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-08-50",
+          "grade": 7,
+          "chapter": 8,
+          "chapterTitle": "LÀM QUEN VỚI BIẾN CỐ VÀ XÁC SUẤT CỦA BIẾN CỐ",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương VIII: Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng. Phương án đúng là",
+          "choices": {
+            "A": "1/12",
+            "B": "1/10",
+            "C": "6/99",
+            "D": "1/15"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương VIII: Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6/99"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương VIII: Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để chọn được một số chính phương (gồm 16, 25, 36, 49, 64, 81) bằng. Phương án đúng là",
+            "choices": {
+              "A": "1/12",
+              "B": "1/10",
+              "C": "6/99",
+              "D": "1/15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

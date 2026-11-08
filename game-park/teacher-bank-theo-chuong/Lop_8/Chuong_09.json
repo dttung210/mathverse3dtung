@@ -1,0 +1,4641 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 8,
+      "chapter": 9,
+      "roman": "IX",
+      "title": "TAM GIÁC ĐỒNG DẠNG",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "8-09-01",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số đồng dạng k = 2/3. Khi đó tỉ số chu vi của \\DeltaABC và \\DeltaDEF bằng",
+          "choices": {
+            "A": "4/9",
+            "B": "2/3",
+            "C": "3/2",
+            "D": "9/4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số đồng dạng k = 2/3. Khi đó tỉ số chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC và "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số đồng dạng k = 2/3. Khi đó tỉ số chu vi của $\\Delta$ABC và $\\Delta$DEF bằng",
+            "choices": {
+              "A": "4/9",
+              "B": "2/3",
+              "C": "3/2",
+              "D": "9/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-02",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng.",
+          "choices": {
+            "A": "10 cm",
+            "B": "14 cm",
+            "C": "50 cm",
+            "D": "12 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "50 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng.",
+            "choices": {
+              "A": "10 cm",
+              "B": "14 cm",
+              "C": "50 cm",
+              "D": "12 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-03",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương IX, xét nội dung: Cho \\DeltaABC \\sim \\DeltaMNP theo tỉ số đồng dạng k = 4. Tỉ số diện tích S(ABC) / S(MNP) bằng. Đáp án đúng là",
+          "choices": {
+            "A": "4",
+            "B": "8",
+            "C": "1/16",
+            "D": "16"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương IX, xét nội dung: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "MNP theo tỉ số đồng dạng k = 4. Tỉ số diện tích S(ABC) / S(MNP) bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương IX, xét nội dung: Cho $\\Delta$ABC $\\sim$ $\\Delta$MNP theo tỉ số đồng dạng k = 4. Tỉ số diện tích S(ABC) / S(MNP) bằng. Đáp án đúng là",
+            "choices": {
+              "A": "4",
+              "B": "8",
+              "C": "1/16",
+              "D": "16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-04",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương IX (Tam giác đồng dạng), cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số đồng dạng k = 5/3. Khi đó tỉ số chu vi của \\DeltaABC và \\DeltaDEF bằng",
+          "choices": {
+            "A": "3/5",
+            "B": "5/3",
+            "C": "25/9",
+            "D": "9/25"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương IX (Tam giác đồng dạng), cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số đồng dạng k = 5/3. Khi đó tỉ số chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC và "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9/25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương IX (Tam giác đồng dạng), cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số đồng dạng k = 5/3. Khi đó tỉ số chu vi của $\\Delta$ABC và $\\Delta$DEF bằng",
+            "choices": {
+              "A": "3/5",
+              "B": "5/3",
+              "C": "25/9",
+              "D": "9/25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-05",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng",
+          "choices": {
+            "A": "50 cm",
+            "B": "12 cm",
+            "C": "10 cm",
+            "D": "14 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "50 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng",
+            "choices": {
+              "A": "50 cm",
+              "B": "12 cm",
+              "C": "10 cm",
+              "D": "14 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-06",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về tam giác đồng dạng, một học sinh gặp câu hỏi: Cho \\DeltaABC \\sim \\DeltaMNP theo tỉ số đồng dạng k = 7. Tỉ số diện tích S(ABC) / S(MNP) bằng. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "49",
+            "B": "1/49",
+            "C": "14",
+            "D": "7"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về tam giác đồng dạng, một học sinh gặp câu hỏi: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "MNP theo tỉ số đồng dạng k = 7. Tỉ số diện tích S(ABC) / S(MNP) bằng. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "49"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/49"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về tam giác đồng dạng, một học sinh gặp câu hỏi: Cho $\\Delta$ABC $\\sim$ $\\Delta$MNP theo tỉ số đồng dạng k = 7. Tỉ số diện tích S(ABC) / S(MNP) bằng. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "49",
+              "B": "1/49",
+              "C": "14",
+              "D": "7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-07",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số đồng dạng k = 8/3. Khi đó tỉ số chu vi của \\DeltaABC và \\DeltaDEF bằng",
+          "choices": {
+            "A": "9/64",
+            "B": "64/9",
+            "C": "3/8",
+            "D": "8/3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số đồng dạng k = 8/3. Khi đó tỉ số chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC và "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9/64"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "64/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số đồng dạng k = 8/3. Khi đó tỉ số chu vi của $\\Delta$ABC và $\\Delta$DEF bằng",
+            "choices": {
+              "A": "9/64",
+              "B": "64/9",
+              "C": "3/8",
+              "D": "8/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-08",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IX: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng",
+          "choices": {
+            "A": "10 cm",
+            "B": "14 cm",
+            "C": "12 cm",
+            "D": "50 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IX: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "50 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IX: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng",
+            "choices": {
+              "A": "10 cm",
+              "B": "14 cm",
+              "C": "12 cm",
+              "D": "50 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-09",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Cho \\DeltaABC \\sim \\DeltaMNP theo tỉ số đồng dạng k = 10. Tỉ số diện tích S(ABC) / S(MNP) bằng",
+          "choices": {
+            "A": "100",
+            "B": "10",
+            "C": "1/100",
+            "D": "20"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "MNP theo tỉ số đồng dạng k = 10. Tỉ số diện tích S(ABC) / S(MNP) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/100"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Cho $\\Delta$ABC $\\sim$ $\\Delta$MNP theo tỉ số đồng dạng k = 10. Tỉ số diện tích S(ABC) / S(MNP) bằng",
+            "choices": {
+              "A": "100",
+              "B": "10",
+              "C": "1/100",
+              "D": "20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-10",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số đồng dạng k = 11/3. Khi đó tỉ số chu vi của \\DeltaABC và \\DeltaDEF bằng. Phương án chính xác là",
+          "choices": {
+            "A": "121/9",
+            "B": "9/121",
+            "C": "3/11",
+            "D": "11/3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số đồng dạng k = 11/3. Khi đó tỉ số chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC và "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "121/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9/121"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "11/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số đồng dạng k = 11/3. Khi đó tỉ số chu vi của $\\Delta$ABC và $\\Delta$DEF bằng. Phương án chính xác là",
+            "choices": {
+              "A": "121/9",
+              "B": "9/121",
+              "C": "3/11",
+              "D": "11/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-11",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng",
+          "choices": {
+            "A": "14 cm",
+            "B": "50 cm",
+            "C": "10 cm",
+            "D": "12 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "50 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng",
+            "choices": {
+              "A": "14 cm",
+              "B": "50 cm",
+              "C": "10 cm",
+              "D": "12 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-12",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IX): Cho \\DeltaABC \\sim \\DeltaMNP theo tỉ số đồng dạng k = 13. Tỉ số diện tích S(ABC) / S(MNP) bằng",
+          "choices": {
+            "A": "1/169",
+            "B": "169",
+            "C": "13",
+            "D": "26"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IX): Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "MNP theo tỉ số đồng dạng k = 13. Tỉ số diện tích S(ABC) / S(MNP) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/169"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "169"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IX): Cho $\\Delta$ABC $\\sim$ $\\Delta$MNP theo tỉ số đồng dạng k = 13. Tỉ số diện tích S(ABC) / S(MNP) bằng",
+            "choices": {
+              "A": "1/169",
+              "B": "169",
+              "C": "13",
+              "D": "26"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-13",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IX), cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số đồng dạng k = 14/3. Khi đó tỉ số chu vi của \\DeltaABC và \\DeltaDEF bằng",
+          "choices": {
+            "A": "14/3",
+            "B": "3/14",
+            "C": "196/9",
+            "D": "9/196"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IX), cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số đồng dạng k = 14/3. Khi đó tỉ số chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC và "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/14"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "196/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9/196"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IX), cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số đồng dạng k = 14/3. Khi đó tỉ số chu vi của $\\Delta$ABC và $\\Delta$DEF bằng",
+            "choices": {
+              "A": "14/3",
+              "B": "3/14",
+              "C": "196/9",
+              "D": "9/196"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-14",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng",
+          "choices": {
+            "A": "50 cm",
+            "B": "14 cm",
+            "C": "10 cm",
+            "D": "12 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "50 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng",
+            "choices": {
+              "A": "50 cm",
+              "B": "14 cm",
+              "C": "10 cm",
+              "D": "12 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-15",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương IX: Cho \\DeltaABC \\sim \\DeltaMNP theo tỉ số đồng dạng k = 16. Tỉ số diện tích S(ABC) / S(MNP) bằng. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "32",
+            "B": "256",
+            "C": "16",
+            "D": "1/256"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương IX: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "MNP theo tỉ số đồng dạng k = 16. Tỉ số diện tích S(ABC) / S(MNP) bằng. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "256"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/256"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương IX: Cho $\\Delta$ABC $\\sim$ $\\Delta$MNP theo tỉ số đồng dạng k = 16. Tỉ số diện tích S(ABC) / S(MNP) bằng. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "32",
+              "B": "256",
+              "C": "16",
+              "D": "1/256"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-16",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số đồng dạng k = 17/3. Khi đó tỉ số chu vi của \\DeltaABC và \\DeltaDEF bằng",
+          "choices": {
+            "A": "17/3",
+            "B": "3/17",
+            "C": "9/289",
+            "D": "289/9"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số đồng dạng k = 17/3. Khi đó tỉ số chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC và "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "17/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9/289"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "289/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số đồng dạng k = 17/3. Khi đó tỉ số chu vi của $\\Delta$ABC và $\\Delta$DEF bằng",
+            "choices": {
+              "A": "17/3",
+              "B": "3/17",
+              "C": "9/289",
+              "D": "289/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-17",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng?",
+          "choices": {
+            "A": "10 cm",
+            "B": "12 cm",
+            "C": "50 cm",
+            "D": "14 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "50 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng?",
+            "choices": {
+              "A": "10 cm",
+              "B": "12 cm",
+              "C": "50 cm",
+              "D": "14 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-18",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương IX: Cho \\DeltaABC \\sim \\DeltaMNP theo tỉ số đồng dạng k = 19. Tỉ số diện tích S(ABC) / S(MNP) bằng",
+          "choices": {
+            "A": "1/361",
+            "B": "38",
+            "C": "361",
+            "D": "19"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương IX: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "MNP theo tỉ số đồng dạng k = 19. Tỉ số diện tích S(ABC) / S(MNP) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/361"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "38"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "361"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương IX: Cho $\\Delta$ABC $\\sim$ $\\Delta$MNP theo tỉ số đồng dạng k = 19. Tỉ số diện tích S(ABC) / S(MNP) bằng",
+            "choices": {
+              "A": "1/361",
+              "B": "38",
+              "C": "361",
+              "D": "19"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-19",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số đồng dạng k = 20/3. Khi đó tỉ số chu vi của \\DeltaABC và \\DeltaDEF bằng. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "3/20",
+            "B": "400/9",
+            "C": "9/400",
+            "D": "20/3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số đồng dạng k = 20/3. Khi đó tỉ số chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC và "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "400/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9/400"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số đồng dạng k = 20/3. Khi đó tỉ số chu vi của $\\Delta$ABC và $\\Delta$DEF bằng. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "3/20",
+              "B": "400/9",
+              "C": "9/400",
+              "D": "20/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-20",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương IX để giải quyết yêu cầu: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng",
+          "choices": {
+            "A": "10 cm",
+            "B": "50 cm",
+            "C": "14 cm",
+            "D": "12 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương IX để giải quyết yêu cầu: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "50 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương IX để giải quyết yêu cầu: Tam giác ABC vuông tại A có hai cạnh góc vuông AB = 6 cm và AC = 8 cm. Theo định lí Pythagore, độ dài cạnh huyền BC bằng",
+            "choices": {
+              "A": "10 cm",
+              "B": "50 cm",
+              "C": "14 cm",
+              "D": "12 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-21",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số k = 2/3. Biết chu vi \\DeltaABC bằng 12 cm, chu vi của \\DeltaDEF bằng",
+          "choices": {
+            "A": "24 cm",
+            "B": "18 cm",
+            "C": "8 cm",
+            "D": "27 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số k = 2/3. Biết chu vi "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 12 cm, chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "27 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số k = 2/3. Biết chu vi $\\Delta$ABC bằng 12 cm, chu vi của $\\Delta$DEF bằng",
+            "choices": {
+              "A": "24 cm",
+              "B": "18 cm",
+              "C": "8 cm",
+              "D": "27 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-22",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương IX (Tam giác đồng dạng) để giải bài toán: Cho \\DeltaABC \\sim \\DeltaA'B'C' theo tỉ số đồng dạng k = 1/3. Biết diện tích \\DeltaABC bằng 12 cm^{2}, diện tích \\DeltaA'B'C' bằng",
+          "choices": {
+            "A": "24 cm^{2}",
+            "B": "108 cm^{2}",
+            "C": "4.0 cm^{2}",
+            "D": "36 cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương IX (Tam giác đồng dạng) để giải bài toán: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' theo tỉ số đồng dạng k = 1/3. Biết diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 12 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ", diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "108 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4.0 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương IX (Tam giác đồng dạng) để giải bài toán: Cho $\\Delta$ABC $\\sim$ $\\Delta$A'B'C' theo tỉ số đồng dạng k = 1/3. Biết diện tích $\\Delta$ABC bằng 12 cm$^2$, diện tích $\\Delta$A'B'C' bằng",
+            "choices": {
+              "A": "24 cm$^2$",
+              "B": "108 cm$^2$",
+              "C": "4.0 cm$^2$",
+              "D": "36 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-23",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương IX: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Kết quả thu được là",
+          "choices": {
+            "A": "4 cm, 5 cm, 6 cm",
+            "B": "6 cm, 7 cm, 8 cm",
+            "C": "9 cm, 12 cm, 15 cm",
+            "D": "5 cm, 10 cm, 12 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương IX: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 cm, 5 cm, 6 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 cm, 7 cm, 8 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9 cm, 12 cm, 15 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5 cm, 10 cm, 12 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương IX: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Kết quả thu được là",
+            "choices": {
+              "A": "4 cm, 5 cm, 6 cm",
+              "B": "6 cm, 7 cm, 8 cm",
+              "C": "9 cm, 12 cm, 15 cm",
+              "D": "5 cm, 10 cm, 12 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-24",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số k = 2/3. Biết chu vi \\DeltaABC bằng 24 cm, chu vi của \\DeltaDEF bằng. Đáp án đúng là",
+          "choices": {
+            "A": "36 cm",
+            "B": "54 cm",
+            "C": "48 cm",
+            "D": "14 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số k = 2/3. Biết chu vi "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 24 cm, chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "54 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "48 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số k = 2/3. Biết chu vi $\\Delta$ABC bằng 24 cm, chu vi của $\\Delta$DEF bằng. Đáp án đúng là",
+            "choices": {
+              "A": "36 cm",
+              "B": "54 cm",
+              "C": "48 cm",
+              "D": "14 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-25",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương IX, hãy xác định: Cho \\DeltaABC \\sim \\DeltaA'B'C' theo tỉ số đồng dạng k = 1/6. Biết diện tích \\DeltaABC bằng 18 cm^{2}, diện tích \\DeltaA'B'C' bằng",
+          "choices": {
+            "A": "36 cm^{2}",
+            "B": "108 cm^{2}",
+            "C": "648 cm^{2}",
+            "D": "3.0 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương IX, hãy xác định: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' theo tỉ số đồng dạng k = 1/6. Biết diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 18 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ", diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "108 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "648 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3.0 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương IX, hãy xác định: Cho $\\Delta$ABC $\\sim$ $\\Delta$A'B'C' theo tỉ số đồng dạng k = 1/6. Biết diện tích $\\Delta$ABC bằng 18 cm$^2$, diện tích $\\Delta$A'B'C' bằng",
+            "choices": {
+              "A": "36 cm$^2$",
+              "B": "108 cm$^2$",
+              "C": "648 cm$^2$",
+              "D": "3.0 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-26",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "6 cm, 7 cm, 8 cm",
+            "B": "8 cm, 15 cm, 17 cm",
+            "C": "5 cm, 10 cm, 12 cm",
+            "D": "4 cm, 5 cm, 6 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 cm, 7 cm, 8 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 cm, 15 cm, 17 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5 cm, 10 cm, 12 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 cm, 5 cm, 6 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "6 cm, 7 cm, 8 cm",
+              "B": "8 cm, 15 cm, 17 cm",
+              "C": "5 cm, 10 cm, 12 cm",
+              "D": "4 cm, 5 cm, 6 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-27",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương IX vào bài tập sau: Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số k = 2/3. Biết chu vi \\DeltaABC bằng 36 cm, chu vi của \\DeltaDEF bằng",
+          "choices": {
+            "A": "72 cm",
+            "B": "81 cm",
+            "C": "20 cm",
+            "D": "54 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương IX vào bài tập sau: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số k = 2/3. Biết chu vi "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 36 cm, chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "72 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "81 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "54 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương IX vào bài tập sau: Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số k = 2/3. Biết chu vi $\\Delta$ABC bằng 36 cm, chu vi của $\\Delta$DEF bằng",
+            "choices": {
+              "A": "72 cm",
+              "B": "81 cm",
+              "C": "20 cm",
+              "D": "54 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-28",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho \\DeltaABC \\sim \\DeltaA'B'C' theo tỉ số đồng dạng k = 1/9. Biết diện tích \\DeltaABC bằng 24 cm^{2}, diện tích \\DeltaA'B'C' bằng",
+          "choices": {
+            "A": "1944 cm^{2}",
+            "B": "2.7 cm^{2}",
+            "C": "48 cm^{2}",
+            "D": "216 cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' theo tỉ số đồng dạng k = 1/9. Biết diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 24 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ", diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1944 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2.7 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "48 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "216 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho $\\Delta$ABC $\\sim$ $\\Delta$A'B'C' theo tỉ số đồng dạng k = 1/9. Biết diện tích $\\Delta$ABC bằng 24 cm$^2$, diện tích $\\Delta$A'B'C' bằng",
+            "choices": {
+              "A": "1944 cm$^2$",
+              "B": "2.7 cm$^2$",
+              "C": "48 cm$^2$",
+              "D": "216 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-29",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Tam giác đồng dạng): Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "4 cm, 5 cm, 6 cm",
+            "B": "5 cm, 12 cm, 13 cm",
+            "C": "5 cm, 10 cm, 12 cm",
+            "D": "6 cm, 7 cm, 8 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Tam giác đồng dạng): Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 cm, 5 cm, 6 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5 cm, 12 cm, 13 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5 cm, 10 cm, 12 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6 cm, 7 cm, 8 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Tam giác đồng dạng): Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "4 cm, 5 cm, 6 cm",
+              "B": "5 cm, 12 cm, 13 cm",
+              "C": "5 cm, 10 cm, 12 cm",
+              "D": "6 cm, 7 cm, 8 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-30",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương IX, hãy tìm kết quả của bài toán: Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số k = 2/3. Biết chu vi \\DeltaABC bằng 48 cm, chu vi của \\DeltaDEF bằng",
+          "choices": {
+            "A": "72 cm",
+            "B": "108 cm",
+            "C": "96 cm",
+            "D": "26 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương IX, hãy tìm kết quả của bài toán: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số k = 2/3. Biết chu vi "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 48 cm, chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "72 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "108 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "96 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "26 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương IX, hãy tìm kết quả của bài toán: Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số k = 2/3. Biết chu vi $\\Delta$ABC bằng 48 cm, chu vi của $\\Delta$DEF bằng",
+            "choices": {
+              "A": "72 cm",
+              "B": "108 cm",
+              "C": "96 cm",
+              "D": "26 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-31",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương IX nêu câu hỏi: Cho \\DeltaABC \\sim \\DeltaA'B'C' theo tỉ số đồng dạng k = 1/12. Biết diện tích \\DeltaABC bằng 30 cm^{2}, diện tích \\DeltaA'B'C' bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "60 cm^{2}",
+            "B": "2.5 cm^{2}",
+            "C": "360 cm^{2}",
+            "D": "4320 cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương IX nêu câu hỏi: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' theo tỉ số đồng dạng k = 1/12. Biết diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 30 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ", diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2.5 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "360 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4320 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương IX nêu câu hỏi: Cho $\\Delta$ABC $\\sim$ $\\Delta$A'B'C' theo tỉ số đồng dạng k = 1/12. Biết diện tích $\\Delta$ABC bằng 30 cm$^2$, diện tích $\\Delta$A'B'C' bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "60 cm$^2$",
+              "B": "2.5 cm$^2$",
+              "C": "360 cm$^2$",
+              "D": "4320 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-32",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông",
+          "choices": {
+            "A": "5 cm, 10 cm, 12 cm",
+            "B": "6 cm, 7 cm, 8 cm",
+            "C": "7 cm, 24 cm, 25 cm",
+            "D": "4 cm, 5 cm, 6 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 cm, 10 cm, 12 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 cm, 7 cm, 8 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7 cm, 24 cm, 25 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 cm, 5 cm, 6 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông",
+            "choices": {
+              "A": "5 cm, 10 cm, 12 cm",
+              "B": "6 cm, 7 cm, 8 cm",
+              "C": "7 cm, 24 cm, 25 cm",
+              "D": "4 cm, 5 cm, 6 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-33",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IX: Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số k = 2/3. Biết chu vi \\DeltaABC bằng 60 cm, chu vi của \\DeltaDEF bằng",
+          "choices": {
+            "A": "32 cm",
+            "B": "90 cm",
+            "C": "120 cm",
+            "D": "135 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IX: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số k = 2/3. Biết chu vi "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 60 cm, chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "32 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "90 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "120 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "135 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IX: Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số k = 2/3. Biết chu vi $\\Delta$ABC bằng 60 cm, chu vi của $\\Delta$DEF bằng",
+            "choices": {
+              "A": "32 cm",
+              "B": "90 cm",
+              "C": "120 cm",
+              "D": "135 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-34",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho \\DeltaABC \\sim \\DeltaA'B'C' theo tỉ số đồng dạng k = 1/15. Biết diện tích \\DeltaABC bằng 36 cm^{2}, diện tích \\DeltaA'B'C' bằng",
+          "choices": {
+            "A": "72 cm^{2}",
+            "B": "540 cm^{2}",
+            "C": "8100 cm^{2}",
+            "D": "2.4 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' theo tỉ số đồng dạng k = 1/15. Biết diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 36 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ", diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "72 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "540 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8100 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2.4 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho $\\Delta$ABC $\\sim$ $\\Delta$A'B'C' theo tỉ số đồng dạng k = 1/15. Biết diện tích $\\Delta$ABC bằng 36 cm$^2$, diện tích $\\Delta$A'B'C' bằng",
+            "choices": {
+              "A": "72 cm$^2$",
+              "B": "540 cm$^2$",
+              "C": "8100 cm$^2$",
+              "D": "2.4 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-35",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương IX, xét bài toán: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông",
+          "choices": {
+            "A": "5 cm, 10 cm, 12 cm",
+            "B": "9 cm, 12 cm, 15 cm",
+            "C": "6 cm, 7 cm, 8 cm",
+            "D": "4 cm, 5 cm, 6 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương IX, xét bài toán: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 cm, 10 cm, 12 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9 cm, 12 cm, 15 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 cm, 7 cm, 8 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 cm, 5 cm, 6 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương IX, xét bài toán: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông",
+            "choices": {
+              "A": "5 cm, 10 cm, 12 cm",
+              "B": "9 cm, 12 cm, 15 cm",
+              "C": "6 cm, 7 cm, 8 cm",
+              "D": "4 cm, 5 cm, 6 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-36",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Tam giác đồng dạng): Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số k = 2/3. Biết chu vi \\DeltaABC bằng 72 cm, chu vi của \\DeltaDEF bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "144 cm",
+            "B": "162 cm",
+            "C": "38 cm",
+            "D": "108 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Tam giác đồng dạng): Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số k = 2/3. Biết chu vi "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 72 cm, chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "144 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "162 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "38 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "108 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Tam giác đồng dạng): Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số k = 2/3. Biết chu vi $\\Delta$ABC bằng 72 cm, chu vi của $\\Delta$DEF bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "144 cm",
+              "B": "162 cm",
+              "C": "38 cm",
+              "D": "108 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-37",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho \\DeltaABC \\sim \\DeltaA'B'C' theo tỉ số đồng dạng k = 1/18. Biết diện tích \\DeltaABC bằng 42 cm^{2}, diện tích \\DeltaA'B'C' bằng",
+          "choices": {
+            "A": "13608 cm^{2}",
+            "B": "84 cm^{2}",
+            "C": "756 cm^{2}",
+            "D": "2.3 cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' theo tỉ số đồng dạng k = 1/18. Biết diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 42 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ", diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "13608 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "84 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "756 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2.3 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho $\\Delta$ABC $\\sim$ $\\Delta$A'B'C' theo tỉ số đồng dạng k = 1/18. Biết diện tích $\\Delta$ABC bằng 42 cm$^2$, diện tích $\\Delta$A'B'C' bằng",
+            "choices": {
+              "A": "13608 cm$^2$",
+              "B": "84 cm$^2$",
+              "C": "756 cm$^2$",
+              "D": "2.3 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-38",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương IX: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Kết luận đúng là",
+          "choices": {
+            "A": "5 cm, 10 cm, 12 cm",
+            "B": "4 cm, 5 cm, 6 cm",
+            "C": "8 cm, 15 cm, 17 cm",
+            "D": "6 cm, 7 cm, 8 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương IX: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 cm, 10 cm, 12 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 cm, 5 cm, 6 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 cm, 15 cm, 17 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6 cm, 7 cm, 8 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương IX: Bộ ba số đo nào sau đây là độ dài ba cạnh của một tam giác vuông. Kết luận đúng là",
+            "choices": {
+              "A": "5 cm, 10 cm, 12 cm",
+              "B": "4 cm, 5 cm, 6 cm",
+              "C": "8 cm, 15 cm, 17 cm",
+              "D": "6 cm, 7 cm, 8 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-39",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IX: Cho \\DeltaABC \\sim \\DeltaDEF theo tỉ số k = 2/3. Biết chu vi \\DeltaABC bằng 84 cm, chu vi của \\DeltaDEF bằng",
+          "choices": {
+            "A": "126 cm",
+            "B": "168 cm",
+            "C": "44 cm",
+            "D": "189 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IX: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF theo tỉ số k = 2/3. Biết chu vi "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 84 cm, chu vi của "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "126 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "168 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "44 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "189 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IX: Cho $\\Delta$ABC $\\sim$ $\\Delta$DEF theo tỉ số k = 2/3. Biết chu vi $\\Delta$ABC bằng 84 cm, chu vi của $\\Delta$DEF bằng",
+            "choices": {
+              "A": "126 cm",
+              "B": "168 cm",
+              "C": "44 cm",
+              "D": "189 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-40",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho \\DeltaABC \\sim \\DeltaA'B'C' theo tỉ số đồng dạng k = 1/21. Biết diện tích \\DeltaABC bằng 48 cm^{2}, diện tích \\DeltaA'B'C' bằng",
+          "choices": {
+            "A": "1008 cm^{2}",
+            "B": "96 cm^{2}",
+            "C": "21168 cm^{2}",
+            "D": "2.3 cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC "
+            },
+            {
+              "t": "math",
+              "v": "\\sim"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' theo tỉ số đồng dạng k = 1/21. Biết diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC bằng 48 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ", diện tích "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "A'B'C' bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1008 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "96 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21168 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2.3 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho $\\Delta$ABC $\\sim$ $\\Delta$A'B'C' theo tỉ số đồng dạng k = 1/21. Biết diện tích $\\Delta$ABC bằng 48 cm$^2$, diện tích $\\Delta$A'B'C' bằng",
+            "choices": {
+              "A": "1008 cm$^2$",
+              "B": "96 cm$^2$",
+              "C": "21168 cm$^2$",
+              "D": "2.3 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-41",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Một cột cờ thẳng đứng có bóng trên mặt đất dài 6 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là",
+          "choices": {
+            "A": "4.5 m",
+            "B": "8.0 m",
+            "C": "7.5 m",
+            "D": "9.0 m"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một cột cờ thẳng đứng có bóng trên mặt đất dài 6 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4.5 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8.0 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7.5 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9.0 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một cột cờ thẳng đứng có bóng trên mặt đất dài 6 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là",
+            "choices": {
+              "A": "4.5 m",
+              "B": "8.0 m",
+              "C": "7.5 m",
+              "D": "9.0 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-42",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương IX – Tam giác đồng dạng): Cho tam giác ABC có diện tích bằng 45 cm^{2}. Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng. Kết quả đúng là",
+          "choices": {
+            "A": "20 cm^{2}",
+            "B": "30 cm^{2}",
+            "C": "25 cm^{2}",
+            "D": "15 cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương IX – Tam giác đồng dạng): Cho tam giác ABC có diện tích bằng 45 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương IX – Tam giác đồng dạng): Cho tam giác ABC có diện tích bằng 45 cm$^2$. Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng. Kết quả đúng là",
+            "choices": {
+              "A": "20 cm$^2$",
+              "B": "30 cm$^2$",
+              "C": "25 cm$^2$",
+              "D": "15 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-43",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương IX để giải bài toán: Một cột cờ thẳng đứng có bóng trên mặt đất dài 10 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là",
+          "choices": {
+            "A": "15.0 m",
+            "B": "7.5 m",
+            "C": "11.5 m",
+            "D": "13.3 m"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương IX để giải bài toán: Một cột cờ thẳng đứng có bóng trên mặt đất dài 10 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15.0 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7.5 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11.5 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "13.3 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương IX để giải bài toán: Một cột cờ thẳng đứng có bóng trên mặt đất dài 10 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là",
+            "choices": {
+              "A": "15.0 m",
+              "B": "7.5 m",
+              "C": "11.5 m",
+              "D": "13.3 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-44",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương IX: Cho tam giác ABC có diện tích bằng 63 cm^{2}. Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng",
+          "choices": {
+            "A": "21 cm^{2}",
+            "B": "28 cm^{2}",
+            "C": "42 cm^{2}",
+            "D": "35 cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương IX: Cho tam giác ABC có diện tích bằng 63 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "28 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "42 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "35 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương IX: Cho tam giác ABC có diện tích bằng 63 cm$^2$. Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng",
+            "choices": {
+              "A": "21 cm$^2$",
+              "B": "28 cm$^2$",
+              "C": "42 cm$^2$",
+              "D": "35 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-45",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương IX: Một cột cờ thẳng đứng có bóng trên mặt đất dài 14 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là. Đáp số chính xác là",
+          "choices": {
+            "A": "10.5 m",
+            "B": "18.7 m",
+            "C": "15.5 m",
+            "D": "21.0 m"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương IX: Một cột cờ thẳng đứng có bóng trên mặt đất dài 14 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10.5 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18.7 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15.5 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "21.0 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương IX: Một cột cờ thẳng đứng có bóng trên mặt đất dài 14 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là. Đáp số chính xác là",
+            "choices": {
+              "A": "10.5 m",
+              "B": "18.7 m",
+              "C": "15.5 m",
+              "D": "21.0 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-46",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương IX để tìm đáp án cho bài toán: Cho tam giác ABC có diện tích bằng 45 cm^{2}. Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng",
+          "choices": {
+            "A": "15 cm^{2}",
+            "B": "20 cm^{2}",
+            "C": "25 cm^{2}",
+            "D": "30 cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương IX để tìm đáp án cho bài toán: Cho tam giác ABC có diện tích bằng 45 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương IX để tìm đáp án cho bài toán: Cho tam giác ABC có diện tích bằng 45 cm$^2$. Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng",
+            "choices": {
+              "A": "15 cm$^2$",
+              "B": "20 cm$^2$",
+              "C": "25 cm$^2$",
+              "D": "30 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-47",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IX: Một cột cờ thẳng đứng có bóng trên mặt đất dài 18 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là",
+          "choices": {
+            "A": "19.5 m",
+            "B": "13.5 m",
+            "C": "24.0 m",
+            "D": "27.0 m"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IX: Một cột cờ thẳng đứng có bóng trên mặt đất dài 18 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "19.5 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "13.5 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24.0 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "27.0 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IX: Một cột cờ thẳng đứng có bóng trên mặt đất dài 18 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là",
+            "choices": {
+              "A": "19.5 m",
+              "B": "13.5 m",
+              "C": "24.0 m",
+              "D": "27.0 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-48",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IX): Cho tam giác ABC có diện tích bằng 63 cm^{2}. Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng",
+          "choices": {
+            "A": "35 cm^{2}",
+            "B": "42 cm^{2}",
+            "C": "21 cm^{2}",
+            "D": "28 cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IX): Cho tam giác ABC có diện tích bằng 63 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "35 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "42 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "28 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IX): Cho tam giác ABC có diện tích bằng 63 cm$^2$. Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng",
+            "choices": {
+              "A": "35 cm$^2$",
+              "B": "42 cm$^2$",
+              "C": "21 cm$^2$",
+              "D": "28 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-49",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương IX, hãy giải quyết bài toán: Một cột cờ thẳng đứng có bóng trên mặt đất dài 22 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là",
+          "choices": {
+            "A": "23.5 m",
+            "B": "29.3 m",
+            "C": "33.0 m",
+            "D": "16.5 m"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương IX, hãy giải quyết bài toán: Một cột cờ thẳng đứng có bóng trên mặt đất dài 22 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "23.5 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "29.3 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "33.0 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16.5 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương IX, hãy giải quyết bài toán: Một cột cờ thẳng đứng có bóng trên mặt đất dài 22 m. Cùng thời điểm đó, một thanh sắt cao 1,5 m cắm vuông góc với mặt đất có bóng dài 2 m. Chiều cao của cột cờ là",
+            "choices": {
+              "A": "23.5 m",
+              "B": "29.3 m",
+              "C": "33.0 m",
+              "D": "16.5 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-09-50",
+          "grade": 8,
+          "chapter": 9,
+          "chapterTitle": "TAM GIÁC ĐỒNG DẠNG",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương IX: Cho tam giác ABC có diện tích bằng 45 cm^{2}. Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng. Phương án đúng là",
+          "choices": {
+            "A": "20 cm^{2}",
+            "B": "15 cm^{2}",
+            "C": "30 cm^{2}",
+            "D": "25 cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương IX: Cho tam giác ABC có diện tích bằng 45 "
+            },
+            {
+              "t": "math",
+              "v": "cm^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "30 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "25 "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương IX: Cho tam giác ABC có diện tích bằng 45 cm$^2$. Trên cạnh AB lấy điểm M sao cho AM = 2/3 AB, qua M kẻ đường thẳng song song với BC cắt AC tại N. Diện tích tam giác AMN bằng. Phương án đúng là",
+            "choices": {
+              "A": "20 cm$^2$",
+              "B": "15 cm$^2$",
+              "C": "30 cm$^2$",
+              "D": "25 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "IX",
+            "answerKey": "Bảng đáp án Chương IX",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

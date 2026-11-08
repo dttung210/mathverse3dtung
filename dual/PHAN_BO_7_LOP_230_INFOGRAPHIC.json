@@ -1,0 +1,88 @@
+{
+  "title": "PHÂN BỔ 7 PHÒNG TOÁN 6–12 THEO HÀNG NGANG CHỮ S",
+  "totalRooms": 7,
+  "totalRows": 30,
+  "totalInfographics": 230,
+  "rooms": {
+    "6": {
+      "grade": 6,
+      "total": 43,
+      "rows": [
+        {"row": 1, "count": 6, "startLesson": 1, "endLesson": 6, "direction": "left_to_right"},
+        {"row": 2, "count": 7, "startLesson": 7, "endLesson": 13, "direction": "right_to_left"},
+        {"row": 3, "count": 9, "startLesson": 14, "endLesson": 22, "direction": "left_to_right"},
+        {"row": 4, "count": 10, "startLesson": 23, "endLesson": 32, "direction": "right_to_left"},
+        {"row": 5, "count": 11, "startLesson": 33, "endLesson": 43, "direction": "left_to_right"}
+      ],
+      "returnGate": {"side": "right", "afterLesson": 43}
+    },
+    "7": {
+      "grade": 7,
+      "total": 37,
+      "rows": [
+        {"row": 1, "count": 5, "startLesson": 1, "endLesson": 5, "direction": "left_to_right"},
+        {"row": 2, "count": 6, "startLesson": 6, "endLesson": 11, "direction": "right_to_left"},
+        {"row": 3, "count": 7, "startLesson": 12, "endLesson": 18, "direction": "left_to_right"},
+        {"row": 4, "count": 9, "startLesson": 19, "endLesson": 27, "direction": "right_to_left"},
+        {"row": 5, "count": 10, "startLesson": 28, "endLesson": 37, "direction": "left_to_right"}
+      ],
+      "returnGate": {"side": "right", "afterLesson": 37}
+    },
+    "8": {
+      "grade": 8,
+      "total": 39,
+      "rows": [
+        {"row": 1, "count": 5, "startLesson": 1, "endLesson": 5, "direction": "left_to_right"},
+        {"row": 2, "count": 7, "startLesson": 6, "endLesson": 12, "direction": "right_to_left"},
+        {"row": 3, "count": 8, "startLesson": 13, "endLesson": 20, "direction": "left_to_right"},
+        {"row": 4, "count": 9, "startLesson": 21, "endLesson": 29, "direction": "right_to_left"},
+        {"row": 5, "count": 10, "startLesson": 30, "endLesson": 39, "direction": "left_to_right"}
+      ],
+      "returnGate": {"side": "right", "afterLesson": 39}
+    },
+    "9": {
+      "grade": 9,
+      "total": 32,
+      "rows": [
+        {"row": 1, "count": 6, "startLesson": 1, "endLesson": 6, "direction": "left_to_right"},
+        {"row": 2, "count": 7, "startLesson": 7, "endLesson": 13, "direction": "right_to_left"},
+        {"row": 3, "count": 9, "startLesson": 14, "endLesson": 22, "direction": "left_to_right"},
+        {"row": 4, "count": 10, "startLesson": 23, "endLesson": 32, "direction": "right_to_left"}
+      ],
+      "returnGate": {"side": "left", "afterLesson": 32}
+    },
+    "10": {
+      "grade": 10,
+      "total": 27,
+      "rows": [
+        {"row": 1, "count": 5, "startLesson": 1, "endLesson": 5, "direction": "left_to_right"},
+        {"row": 2, "count": 6, "startLesson": 6, "endLesson": 11, "direction": "right_to_left"},
+        {"row": 3, "count": 8, "startLesson": 12, "endLesson": 19, "direction": "left_to_right"},
+        {"row": 4, "count": 8, "startLesson": 20, "endLesson": 27, "direction": "right_to_left"}
+      ],
+      "returnGate": {"side": "left", "afterLesson": 27}
+    },
+    "11": {
+      "grade": 11,
+      "total": 33,
+      "rows": [
+        {"row": 1, "count": 6, "startLesson": 1, "endLesson": 6, "direction": "left_to_right"},
+        {"row": 2, "count": 8, "startLesson": 7, "endLesson": 14, "direction": "right_to_left"},
+        {"row": 3, "count": 9, "startLesson": 15, "endLesson": 23, "direction": "left_to_right"},
+        {"row": 4, "count": 10, "startLesson": 24, "endLesson": 33, "direction": "right_to_left"}
+      ],
+      "returnGate": {"side": "left", "afterLesson": 33}
+    },
+    "12": {
+      "grade": 12,
+      "total": 19,
+      "rows": [
+        {"row": 1, "count": 5, "startLesson": 1, "endLesson": 5, "direction": "left_to_right"},
+        {"row": 2, "count": 6, "startLesson": 6, "endLesson": 11, "direction": "right_to_left"},
+        {"row": 3, "count": 8, "startLesson": 12, "endLesson": 19, "direction": "left_to_right"}
+      ],
+      "returnGate": {"side": "right", "afterLesson": 19}
+    }
+  }
+}
+

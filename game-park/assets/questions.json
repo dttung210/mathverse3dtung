@@ -1,0 +1,2269 @@
+{
+  "meta": {
+    "grade": 6,
+    "chapter": 1,
+    "title": "Tập Hợp Các Số Tự Nhiên",
+    "source": "Phieu_Hoc_Tap_Toan_6_KNTT.pdf",
+    "teacherReviewRequired": true
+  },
+  "questions": [
+    {
+      "id": "6-01-01",
+      "number": 1,
+      "page": 1,
+      "difficulty": "Dễ",
+      "prompt": "Cho tập hợp A = {x ∈ℕ | x < 5}. Số phần tử của tập hợp A là bao nhiêu?",
+      "choices": {
+        "A": "5 phần tử",
+        "B": "3 phần tử",
+        "C": "4 phần tử",
+        "D": "6 phần tử"
+      },
+      "answer": "A",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Cho tập hợp "
+        },
+        {
+          "t": "math",
+          "v": "A=\\{x\\in \\mathbb{N}\\mid x<5\\}",
+          "source": "A = {x ∈ℕ | x < 5}"
+        },
+        {
+          "t": "txt",
+          "v": ". Số phần tử của tập hợp A là bao nhiêu?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "5 phần tử"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "3 phần tử"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "4 phần tử"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "6 phần tử"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-02",
+      "number": 2,
+      "page": 1,
+      "difficulty": "Dễ",
+      "prompt": "Số liền sau của số tự nhiên 137 là số nào?",
+      "choices": {
+        "A": "137",
+        "B": "138",
+        "C": "139",
+        "D": "136"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Số liền sau của số tự nhiên 137 là số nào?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "137"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "138"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "139"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "136"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-03",
+      "number": 3,
+      "page": 1,
+      "difficulty": "Dễ",
+      "prompt": "Kết quả của phép nhân hai lũy thừa 4^4 · 4^3 viết dưới dạng một lũy thừa là:",
+      "choices": {
+        "A": "4^7",
+        "B": "4^6",
+        "C": "4^12",
+        "D": "8^7"
+      },
+      "answer": "A",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Kết quả của phép nhân hai lũy thừa "
+        },
+        {
+          "t": "math",
+          "v": "4^4 \\cdot  4^3",
+          "source": "4^4 · 4^3"
+        },
+        {
+          "t": "txt",
+          "v": " viết dưới dạng một lũy thừa là:"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "4^7",
+            "source": "4^7"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "4^6",
+            "source": "4^6"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "4^12",
+            "source": "4^12"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "8^7",
+            "source": "8^7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-04",
+      "number": 4,
+      "page": 1,
+      "difficulty": "Dễ",
+      "prompt": "Trong số tự nhiên 6782, chữ số 7 có giá trị bằng bao nhiêu?",
+      "choices": {
+        "A": "70",
+        "B": "7000",
+        "C": "700",
+        "D": "7"
+      },
+      "answer": "C",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Trong số tự nhiên 6782, chữ số 7 có giá trị bằng bao nhiêu?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "70"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "7000"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "700"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-05",
+      "number": 5,
+      "page": 1,
+      "difficulty": "Dễ",
+      "prompt": "Giá trị của lũy thừa 3^4 bằng:",
+      "choices": {
+        "A": "83",
+        "B": "12",
+        "C": "27",
+        "D": "81"
+      },
+      "answer": "D",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Giá trị của lũy thừa "
+        },
+        {
+          "t": "math",
+          "v": "3^4",
+          "source": "3^4"
+        },
+        {
+          "t": "txt",
+          "v": " bằng:"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "83"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "12"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "27"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "81"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-06",
+      "number": 6,
+      "page": 1,
+      "difficulty": "Dễ",
+      "prompt": "Cho tập hợp A = {x ∈ℕ | x < 10}. Số phần tử của tập hợp A là bao nhiêu?",
+      "choices": {
+        "A": "8 phần tử",
+        "B": "10 phần tử",
+        "C": "9 phần tử",
+        "D": "11 phần tử"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Cho tập hợp "
+        },
+        {
+          "t": "math",
+          "v": "A=\\{x\\in \\mathbb{N}\\mid x<10\\}",
+          "source": "A = {x ∈ℕ | x < 10}"
+        },
+        {
+          "t": "txt",
+          "v": ". Số phần tử của tập hợp A là bao nhiêu?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "8 phần tử"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "10 phần tử"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "9 phần tử"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "11 phần tử"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-07",
+      "number": 7,
+      "page": 1,
+      "difficulty": "Dễ",
+      "prompt": "Số liền sau của số tự nhiên 222 là số nào?",
+      "choices": {
+        "A": "222",
+        "B": "224",
+        "C": "223",
+        "D": "221"
+      },
+      "answer": "C",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Số liền sau của số tự nhiên 222 là số nào?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "222"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "224"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "223"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "221"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-08",
+      "number": 8,
+      "page": 1,
+      "difficulty": "Dễ",
+      "prompt": "Kết quả của phép nhân hai lũy thừa 5^9 · 5^3 viết dưới dạng một lũy thừa là:",
+      "choices": {
+        "A": "10^12",
+        "B": "5^12",
+        "C": "5^11",
+        "D": "5^27"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Kết quả của phép nhân hai lũy thừa "
+        },
+        {
+          "t": "math",
+          "v": "5^9 \\cdot  5^3",
+          "source": "5^9 · 5^3"
+        },
+        {
+          "t": "txt",
+          "v": " viết dưới dạng một lũy thừa là:"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "10^12",
+            "source": "10^12"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "5^12",
+            "source": "5^12"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "5^11",
+            "source": "5^11"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "5^27",
+            "source": "5^27"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-09",
+      "number": 9,
+      "page": 1,
+      "difficulty": "Dễ",
+      "prompt": "Trong số tự nhiên 5782, chữ số 7 có giá trị bằng bao nhiêu?",
+      "choices": {
+        "A": "7000",
+        "B": "7",
+        "C": "70",
+        "D": "700"
+      },
+      "answer": "D",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Trong số tự nhiên 5782, chữ số 7 có giá trị bằng bao nhiêu?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "7000"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "7"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "70"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "700"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-10",
+      "number": 10,
+      "page": 1,
+      "difficulty": "Dễ",
+      "prompt": "Giá trị của lũy thừa 2^3 bằng:",
+      "choices": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "answer": "C",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Giá trị của lũy thừa "
+        },
+        {
+          "t": "math",
+          "v": "2^3",
+          "source": "2^3"
+        },
+        {
+          "t": "txt",
+          "v": " bằng:"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "4"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "6"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "8"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-11",
+      "number": 11,
+      "page": 1,
+      "difficulty": "Dễ",
+      "prompt": "Cho tập hợp A = {x ∈ℕ | x < 15}. Số phần tử của tập hợp A là bao nhiêu?",
+      "choices": {
+        "A": "15 phần tử",
+        "B": "14 phần tử",
+        "C": "16 phần tử",
+        "D": "13 phần tử"
+      },
+      "answer": "A",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Cho tập hợp "
+        },
+        {
+          "t": "math",
+          "v": "A=\\{x\\in \\mathbb{N}\\mid x<15\\}",
+          "source": "A = {x ∈ℕ | x < 15}"
+        },
+        {
+          "t": "txt",
+          "v": ". Số phần tử của tập hợp A là bao nhiêu?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "15 phần tử"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "14 phần tử"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "16 phần tử"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "13 phần tử"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-12",
+      "number": 12,
+      "page": 2,
+      "difficulty": "Dễ",
+      "prompt": "Số liền sau của số tự nhiên 307 là số nào?",
+      "choices": {
+        "A": "307",
+        "B": "306",
+        "C": "309",
+        "D": "308"
+      },
+      "answer": "D",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Số liền sau của số tự nhiên 307 là số nào?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "307"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "306"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "309"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "308"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-13",
+      "number": 13,
+      "page": 2,
+      "difficulty": "Dễ",
+      "prompt": "Kết quả của phép nhân hai lũy thừa 2^14 · 2^3 viết dưới dạng một lũy thừa là:",
+      "choices": {
+        "A": "2^42",
+        "B": "4^17",
+        "C": "2^16",
+        "D": "2^17"
+      },
+      "answer": "D",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Kết quả của phép nhân hai lũy thừa "
+        },
+        {
+          "t": "math",
+          "v": "2^14 \\cdot  2^3",
+          "source": "2^14 · 2^3"
+        },
+        {
+          "t": "txt",
+          "v": " viết dưới dạng một lũy thừa là:"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "2^42",
+            "source": "2^42"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "4^17",
+            "source": "4^17"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "2^16",
+            "source": "2^16"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "2^17",
+            "source": "2^17"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-14",
+      "number": 14,
+      "page": 2,
+      "difficulty": "Dễ",
+      "prompt": "Trong số tự nhiên 4782, chữ số 7 có giá trị bằng bao nhiêu?",
+      "choices": {
+        "A": "70",
+        "B": "700",
+        "C": "7000",
+        "D": "7"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Trong số tự nhiên 4782, chữ số 7 có giá trị bằng bao nhiêu?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "70"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "700"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "7000"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-15",
+      "number": 15,
+      "page": 2,
+      "difficulty": "Dễ",
+      "prompt": "Giá trị của lũy thừa 4^5 bằng:",
+      "choices": {
+        "A": "256",
+        "B": "1024",
+        "C": "1026",
+        "D": "20"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Giá trị của lũy thừa "
+        },
+        {
+          "t": "math",
+          "v": "4^5",
+          "source": "4^5"
+        },
+        {
+          "t": "txt",
+          "v": " bằng:"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "256"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "1024"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "1026"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "20"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-16",
+      "number": 16,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tính nhanh giá trị của biểu thức P = 25 · 64 + 25 · 36.",
+      "choices": {
+        "A": "2564",
+        "B": "2750",
+        "C": "2250",
+        "D": "2500"
+      },
+      "answer": "D",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tính nhanh giá trị của biểu thức "
+        },
+        {
+          "t": "math",
+          "v": "P = 25 \\cdot  64 + 25 \\cdot  36",
+          "source": "P = 25 · 64 + 25 · 36"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "2564"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "2750"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "2250"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "2500"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-17",
+      "number": 17,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tìm số tự nhiên x, biết: 2 · x + 12 = 56.",
+      "choices": {
+        "A": "x = 27",
+        "B": "x = 22",
+        "C": "x = 19",
+        "D": "x = 44"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tìm số tự nhiên x, biết: "
+        },
+        {
+          "t": "math",
+          "v": "2 \\cdot  x + 12 = 56",
+          "source": "2 · x + 12 = 56"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "x = 27",
+            "source": "x = 27"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "x = 22",
+            "source": "x = 22"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "x = 19",
+            "source": "x = 19"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "x = 44",
+            "source": "x = 44"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-18",
+      "number": 18,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tập hợp B = {x ∈ℕ* | x ≤ 24} có bao nhiêu phần tử?",
+      "choices": {
+        "A": "25 phần tử",
+        "B": "23 phần tử",
+        "C": "22 phần tử",
+        "D": "24 phần tử"
+      },
+      "answer": "D",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tập hợp "
+        },
+        {
+          "t": "math",
+          "v": "B=\\{x\\in \\mathbb{N}^{*}\\mid x\\le24\\}",
+          "source": "B = {x ∈ℕ* | x ≤ 24}"
+        },
+        {
+          "t": "txt",
+          "v": " có bao nhiêu phần tử?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "25 phần tử"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "23 phần tử"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "22 phần tử"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "24 phần tử"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-19",
+      "number": 19,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tính nhanh giá trị của biểu thức P = 28 · 64 + 28 · 36.",
+      "choices": {
+        "A": "2800",
+        "B": "2864",
+        "C": "3080",
+        "D": "2520"
+      },
+      "answer": "A",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tính nhanh giá trị của biểu thức "
+        },
+        {
+          "t": "math",
+          "v": "P = 28 \\cdot  64 + 28 \\cdot  36",
+          "source": "P = 28 · 64 + 28 · 36"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "2800"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "2864"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "3080"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "2520"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-20",
+      "number": 20,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tìm số tự nhiên x, biết: 2 · x + 18 = 74.",
+      "choices": {
+        "A": "x = 56",
+        "B": "x = 28",
+        "C": "x = 33",
+        "D": "x = 25"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tìm số tự nhiên x, biết: "
+        },
+        {
+          "t": "math",
+          "v": "2 \\cdot  x + 18 = 74",
+          "source": "2 · x + 18 = 74"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "x = 56",
+            "source": "x = 56"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "x = 28",
+            "source": "x = 28"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "x = 33",
+            "source": "x = 33"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "x = 25",
+            "source": "x = 25"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-21",
+      "number": 21,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tập hợp B = {x ∈ℕ* | x ≤ 33} có bao nhiêu phần tử?",
+      "choices": {
+        "A": "34 phần tử",
+        "B": "32 phần tử",
+        "C": "33 phần tử",
+        "D": "31 phần tử"
+      },
+      "answer": "C",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tập hợp "
+        },
+        {
+          "t": "math",
+          "v": "B=\\{x\\in \\mathbb{N}^{*}\\mid x\\le33\\}",
+          "source": "B = {x ∈ℕ* | x ≤ 33}"
+        },
+        {
+          "t": "txt",
+          "v": " có bao nhiêu phần tử?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "34 phần tử"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "32 phần tử"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "33 phần tử"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "31 phần tử"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-22",
+      "number": 22,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tính nhanh giá trị của biểu thức P = 31 · 64 + 31 · 36.",
+      "choices": {
+        "A": "3410",
+        "B": "2790",
+        "C": "3164",
+        "D": "3100"
+      },
+      "answer": "D",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tính nhanh giá trị của biểu thức "
+        },
+        {
+          "t": "math",
+          "v": "P = 31 \\cdot  64 + 31 \\cdot  36",
+          "source": "P = 31 · 64 + 31 · 36"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "3410"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "2790"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "3164"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "3100"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-23",
+      "number": 23,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tìm số tự nhiên x, biết: 2 · x + 24 = 92.",
+      "choices": {
+        "A": "x = 39",
+        "B": "x = 34",
+        "C": "x = 68",
+        "D": "x = 31"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tìm số tự nhiên x, biết: "
+        },
+        {
+          "t": "math",
+          "v": "2 \\cdot  x + 24 = 92",
+          "source": "2 · x + 24 = 92"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "x = 39",
+            "source": "x = 39"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "x = 34",
+            "source": "x = 34"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "x = 68",
+            "source": "x = 68"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "x = 31",
+            "source": "x = 31"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-24",
+      "number": 24,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tập hợp B = {x ∈ℕ* | x ≤ 42} có bao nhiêu phần tử?",
+      "choices": {
+        "A": "43 phần tử",
+        "B": "42 phần tử",
+        "C": "41 phần tử",
+        "D": "40 phần tử"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tập hợp "
+        },
+        {
+          "t": "math",
+          "v": "B=\\{x\\in \\mathbb{N}^{*}\\mid x\\le42\\}",
+          "source": "B = {x ∈ℕ* | x ≤ 42}"
+        },
+        {
+          "t": "txt",
+          "v": " có bao nhiêu phần tử?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "43 phần tử"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "42 phần tử"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "41 phần tử"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "40 phần tử"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-25",
+      "number": 25,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tính nhanh giá trị của biểu thức P = 34 · 64 + 34 · 36.",
+      "choices": {
+        "A": "3740",
+        "B": "3464",
+        "C": "3060",
+        "D": "3400"
+      },
+      "answer": "D",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tính nhanh giá trị của biểu thức "
+        },
+        {
+          "t": "math",
+          "v": "P = 34 \\cdot  64 + 34 \\cdot  36",
+          "source": "P = 34 · 64 + 34 · 36"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "3740"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "3464"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "3060"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "3400"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-26",
+      "number": 26,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tìm số tự nhiên x, biết: 2 · x + 30 = 110.",
+      "choices": {
+        "A": "x = 80",
+        "B": "x = 40",
+        "C": "x = 37",
+        "D": "x = 45"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tìm số tự nhiên x, biết: "
+        },
+        {
+          "t": "math",
+          "v": "2 \\cdot  x + 30 = 110",
+          "source": "2 · x + 30 = 110"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "x = 80",
+            "source": "x = 80"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "x = 40",
+            "source": "x = 40"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "x = 37",
+            "source": "x = 37"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "x = 45",
+            "source": "x = 45"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-27",
+      "number": 27,
+      "page": 2,
+      "difficulty": "Trung bình",
+      "prompt": "Tập hợp B = {x ∈ℕ* | x ≤ 51} có bao nhiêu phần tử?",
+      "choices": {
+        "A": "52 phần tử",
+        "B": "50 phần tử",
+        "C": "51 phần tử",
+        "D": "49 phần tử"
+      },
+      "answer": "C",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tập hợp "
+        },
+        {
+          "t": "math",
+          "v": "B=\\{x\\in \\mathbb{N}^{*}\\mid x\\le51\\}",
+          "source": "B = {x ∈ℕ* | x ≤ 51}"
+        },
+        {
+          "t": "txt",
+          "v": " có bao nhiêu phần tử?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "52 phần tử"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "50 phần tử"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "51 phần tử"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "49 phần tử"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-28",
+      "number": 28,
+      "page": 3,
+      "difficulty": "Trung bình",
+      "prompt": "Tính nhanh giá trị của biểu thức P = 37 · 64 + 37 · 36.",
+      "choices": {
+        "A": "3700",
+        "B": "3330",
+        "C": "3764",
+        "D": "4070"
+      },
+      "answer": "A",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tính nhanh giá trị của biểu thức "
+        },
+        {
+          "t": "math",
+          "v": "P = 37 \\cdot  64 + 37 \\cdot  36",
+          "source": "P = 37 · 64 + 37 · 36"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "3700"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "3330"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "3764"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "4070"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-29",
+      "number": 29,
+      "page": 3,
+      "difficulty": "Trung bình",
+      "prompt": "Tìm số tự nhiên x, biết: 2 · x + 36 = 128.",
+      "choices": {
+        "A": "x = 92",
+        "B": "x = 51",
+        "C": "x = 46",
+        "D": "x = 43"
+      },
+      "answer": "C",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tìm số tự nhiên x, biết: "
+        },
+        {
+          "t": "math",
+          "v": "2 \\cdot  x + 36 = 128",
+          "source": "2 · x + 36 = 128"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "x = 92",
+            "source": "x = 92"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "x = 51",
+            "source": "x = 51"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "x = 46",
+            "source": "x = 46"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "x = 43",
+            "source": "x = 43"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-30",
+      "number": 30,
+      "page": 3,
+      "difficulty": "Trung bình",
+      "prompt": "Tập hợp B = {x ∈ℕ* | x ≤ 60} có bao nhiêu phần tử?",
+      "choices": {
+        "A": "58 phần tử",
+        "B": "59 phần tử",
+        "C": "60 phần tử",
+        "D": "61 phần tử"
+      },
+      "answer": "C",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tập hợp "
+        },
+        {
+          "t": "math",
+          "v": "B=\\{x\\in \\mathbb{N}^{*}\\mid x\\le60\\}",
+          "source": "B = {x ∈ℕ* | x ≤ 60}"
+        },
+        {
+          "t": "txt",
+          "v": " có bao nhiêu phần tử?"
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "txt",
+            "v": "58 phần tử"
+          }
+        ],
+        "B": [
+          {
+            "t": "txt",
+            "v": "59 phần tử"
+          }
+        ],
+        "C": [
+          {
+            "t": "txt",
+            "v": "60 phần tử"
+          }
+        ],
+        "D": [
+          {
+            "t": "txt",
+            "v": "61 phần tử"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-31",
+      "number": 31,
+      "page": 3,
+      "difficulty": "Khó",
+      "prompt": "Tìm số tự nhiên n thỏa mãn: 2^(n + 1) + 2^n = 12.",
+      "choices": {
+        "A": "n = 2",
+        "B": "n = 1",
+        "C": "n = 3",
+        "D": "n = 4"
+      },
+      "answer": "A",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tìm số tự nhiên n thỏa mãn: "
+        },
+        {
+          "t": "math",
+          "v": "2^{n+1} + 2^n = 12",
+          "source": "2^(n + 1) + 2^n = 12"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "n = 2",
+            "source": "n = 2"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "n = 1",
+            "source": "n = 1"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "n = 3",
+            "source": "n = 3"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "n = 4",
+            "source": "n = 4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-32",
+      "number": 32,
+      "page": 3,
+      "difficulty": "Khó",
+      "prompt": "Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 44.",
+      "choices": {
+        "A": "S = 528",
+        "B": "S = 484",
+        "C": "S = 529",
+        "D": "S = 506"
+      },
+      "answer": "D",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tính tổng dãy số cách đều "
+        },
+        {
+          "t": "math",
+          "v": "S = 2 + 4 + 6 + \\cdots  + 44",
+          "source": "S = 2 + 4 + 6 + ... + 44"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "S = 528",
+            "source": "S = 528"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "S = 484",
+            "source": "S = 484"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "S = 529",
+            "source": "S = 529"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "S = 506",
+            "source": "S = 506"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-33",
+      "number": 33,
+      "page": 3,
+      "difficulty": "Khó",
+      "prompt": "Tìm số tự nhiên n thỏa mãn: 2^(n + 1) + 2^n = 48.",
+      "choices": {
+        "A": "n = 5",
+        "B": "n = 4",
+        "C": "n = 3",
+        "D": "n = 6"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tìm số tự nhiên n thỏa mãn: "
+        },
+        {
+          "t": "math",
+          "v": "2^{n+1} + 2^n = 48",
+          "source": "2^(n + 1) + 2^n = 48"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "n = 5",
+            "source": "n = 5"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "n = 4",
+            "source": "n = 4"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "n = 3",
+            "source": "n = 3"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "n = 6",
+            "source": "n = 6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-34",
+      "number": 34,
+      "page": 3,
+      "difficulty": "Khó",
+      "prompt": "Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 52.",
+      "choices": {
+        "A": "S = 702",
+        "B": "S = 729",
+        "C": "S = 676",
+        "D": "S = 728"
+      },
+      "answer": "A",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tính tổng dãy số cách đều "
+        },
+        {
+          "t": "math",
+          "v": "S = 2 + 4 + 6 + \\cdots  + 52",
+          "source": "S = 2 + 4 + 6 + ... + 52"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "S = 702",
+            "source": "S = 702"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "S = 729",
+            "source": "S = 729"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "S = 676",
+            "source": "S = 676"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "S = 728",
+            "source": "S = 728"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-35",
+      "number": 35,
+      "page": 3,
+      "difficulty": "Khó",
+      "prompt": "Tìm số tự nhiên n thỏa mãn: 2^(n + 1) + 2^n = 192.",
+      "choices": {
+        "A": "n = 5",
+        "B": "n = 6",
+        "C": "n = 7",
+        "D": "n = 8"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tìm số tự nhiên n thỏa mãn: "
+        },
+        {
+          "t": "math",
+          "v": "2^{n+1} + 2^n = 192",
+          "source": "2^(n + 1) + 2^n = 192"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "n = 5",
+            "source": "n = 5"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "n = 6",
+            "source": "n = 6"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "n = 7",
+            "source": "n = 7"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "n = 8",
+            "source": "n = 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-36",
+      "number": 36,
+      "page": 3,
+      "difficulty": "Khó",
+      "prompt": "Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 60.",
+      "choices": {
+        "A": "S = 930",
+        "B": "S = 961",
+        "C": "S = 900",
+        "D": "S = 960"
+      },
+      "answer": "A",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tính tổng dãy số cách đều "
+        },
+        {
+          "t": "math",
+          "v": "S = 2 + 4 + 6 + \\cdots  + 60",
+          "source": "S = 2 + 4 + 6 + ... + 60"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "S = 930",
+            "source": "S = 930"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "S = 961",
+            "source": "S = 961"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "S = 900",
+            "source": "S = 900"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "S = 960",
+            "source": "S = 960"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-37",
+      "number": 37,
+      "page": 3,
+      "difficulty": "Khó",
+      "prompt": "Tìm số tự nhiên n thỏa mãn: 2^(n + 1) + 2^n = 768.",
+      "choices": {
+        "A": "n = 10",
+        "B": "n = 7",
+        "C": "n = 9",
+        "D": "n = 8"
+      },
+      "answer": "D",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tìm số tự nhiên n thỏa mãn: "
+        },
+        {
+          "t": "math",
+          "v": "2^{n+1} + 2^n = 768",
+          "source": "2^(n + 1) + 2^n = 768"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "n = 10",
+            "source": "n = 10"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "n = 7",
+            "source": "n = 7"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "n = 9",
+            "source": "n = 9"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "n = 8",
+            "source": "n = 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-38",
+      "number": 38,
+      "page": 3,
+      "difficulty": "Khó",
+      "prompt": "Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 68.",
+      "choices": {
+        "A": "S = 1225",
+        "B": "S = 1190",
+        "C": "S = 1224",
+        "D": "S = 1156"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tính tổng dãy số cách đều "
+        },
+        {
+          "t": "math",
+          "v": "S = 2 + 4 + 6 + \\cdots  + 68",
+          "source": "S = 2 + 4 + 6 + ... + 68"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "S = 1225",
+            "source": "S = 1225"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "S = 1190",
+            "source": "S = 1190"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "S = 1224",
+            "source": "S = 1224"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "S = 1156",
+            "source": "S = 1156"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-39",
+      "number": 39,
+      "page": 3,
+      "difficulty": "Khó",
+      "prompt": "Tìm số tự nhiên n thỏa mãn: 2^(n + 1) + 2^n = 3072.",
+      "choices": {
+        "A": "n = 9",
+        "B": "n = 12",
+        "C": "n = 11",
+        "D": "n = 10"
+      },
+      "answer": "D",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tìm số tự nhiên n thỏa mãn: "
+        },
+        {
+          "t": "math",
+          "v": "2^{n+1} + 2^n = 3072",
+          "source": "2^(n + 1) + 2^n = 3072"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "n = 9",
+            "source": "n = 9"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "n = 12",
+            "source": "n = 12"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "n = 11",
+            "source": "n = 11"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "n = 10",
+            "source": "n = 10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-01-40",
+      "number": 40,
+      "page": 3,
+      "difficulty": "Khó",
+      "prompt": "Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 76.",
+      "choices": {
+        "A": "S = 1520",
+        "B": "S = 1482",
+        "C": "S = 1521",
+        "D": "S = 1444"
+      },
+      "answer": "B",
+      "issues": [],
+      "prompt_segments": [
+        {
+          "t": "txt",
+          "v": "Tính tổng dãy số cách đều "
+        },
+        {
+          "t": "math",
+          "v": "S = 2 + 4 + 6 + \\cdots  + 76",
+          "source": "S = 2 + 4 + 6 + ... + 76"
+        },
+        {
+          "t": "txt",
+          "v": "."
+        }
+      ],
+      "choice_segments": {
+        "A": [
+          {
+            "t": "math",
+            "v": "S = 1520",
+            "source": "S = 1520"
+          }
+        ],
+        "B": [
+          {
+            "t": "math",
+            "v": "S = 1482",
+            "source": "S = 1482"
+          }
+        ],
+        "C": [
+          {
+            "t": "math",
+            "v": "S = 1521",
+            "source": "S = 1521"
+          }
+        ],
+        "D": [
+          {
+            "t": "math",
+            "v": "S = 1444",
+            "source": "S = 1444"
+          }
+        ]
+      }
+    }
+  ]
+}

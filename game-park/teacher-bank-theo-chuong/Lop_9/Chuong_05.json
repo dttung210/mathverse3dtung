@@ -1,0 +1,4257 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 9,
+      "chapter": 5,
+      "roman": "V",
+      "title": "ĐƯỜNG TRÒN",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "9-05-01",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Trong đường tròn (O; 5 cm), độ dài của dây cung lớn nhất (đường kính) bằng",
+          "choices": {
+            "A": "25\\pi cm",
+            "B": "10 cm",
+            "C": "5 cm",
+            "D": "15 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong đường tròn (O; 5 cm), độ dài của dây cung lớn nhất (đường kính) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "25"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong đường tròn (O; 5 cm), độ dài của dây cung lớn nhất (đường kính) bằng",
+            "choices": {
+              "A": "25$\\pi$ cm",
+              "B": "10 cm",
+              "C": "5 cm",
+              "D": "15 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-02",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 56°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng.",
+          "choices": {
+            "A": "90°",
+            "B": "112°",
+            "C": "28°",
+            "D": "56°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 56°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "112°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "28°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "56°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 56°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng.",
+            "choices": {
+              "A": "90°",
+              "B": "112°",
+              "C": "28°",
+              "D": "56°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-03",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương V, xét nội dung: Cho đường tròn (O; 6 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 6 cm. Vị trí tương đối của d và (O) là. Đáp án đúng là: []",
+          "choices": {
+            "A": "Đường thẳng d đi qua tâm O []",
+            "B": "Đường thẳng d tiếp xúc với đường tròn (O) []",
+            "C": "Đường thẳng d và (O) không giao nhau []",
+            "D": "Đường thẳng d cắt đường tròn (O) tại hai điểm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương V, xét nội dung: Cho đường tròn (O; 6 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 6 cm. Vị trí tương đối của d và (O) là. Đáp án đúng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d đi qua tâm O []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d tiếp xúc với đường tròn (O) []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d và (O) không giao nhau []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d cắt đường tròn (O) tại hai điểm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương V, xét nội dung: Cho đường tròn (O; 6 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 6 cm. Vị trí tương đối của d và (O) là. Đáp án đúng là: []",
+            "choices": {
+              "A": "Đường thẳng d đi qua tâm O []",
+              "B": "Đường thẳng d tiếp xúc với đường tròn (O) []",
+              "C": "Đường thẳng d và (O) không giao nhau []",
+              "D": "Đường thẳng d cắt đường tròn (O) tại hai điểm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-04",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương V (Đường tròn), trong đường tròn (O; 8 cm), độ dài của dây cung lớn nhất (đường kính) bằng",
+          "choices": {
+            "A": "8 cm",
+            "B": "24 cm",
+            "C": "16 cm",
+            "D": "64\\pi cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương V (Đường tròn), trong đường tròn (O; 8 cm), độ dài của dây cung lớn nhất (đường kính) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "64"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương V (Đường tròn), trong đường tròn (O; 8 cm), độ dài của dây cung lớn nhất (đường kính) bằng",
+            "choices": {
+              "A": "8 cm",
+              "B": "24 cm",
+              "C": "16 cm",
+              "D": "64$\\pi$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-05",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 74°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng",
+          "choices": {
+            "A": "90°",
+            "B": "37°",
+            "C": "148°",
+            "D": "74°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 74°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "37°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "148°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "74°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 74°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng",
+            "choices": {
+              "A": "90°",
+              "B": "37°",
+              "C": "148°",
+              "D": "74°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-06",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về đường tròn, một học sinh gặp câu hỏi: Cho đường tròn (O; 9 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 9 cm. Vị trí tương đối của d và (O) là. Kết quả nào dưới đây đúng? []",
+          "choices": {
+            "A": "Đường thẳng d tiếp xúc với đường tròn (O) []",
+            "B": "Đường thẳng d cắt đường tròn (O) tại hai điểm []",
+            "C": "Đường thẳng d và (O) không giao nhau []",
+            "D": "Đường thẳng d đi qua tâm O"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về đường tròn, một học sinh gặp câu hỏi: Cho đường tròn (O; 9 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 9 cm. Vị trí tương đối của d và (O) là. Kết quả nào dưới đây đúng? []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d tiếp xúc với đường tròn (O) []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d cắt đường tròn (O) tại hai điểm []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d và (O) không giao nhau []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d đi qua tâm O"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về đường tròn, một học sinh gặp câu hỏi: Cho đường tròn (O; 9 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 9 cm. Vị trí tương đối của d và (O) là. Kết quả nào dưới đây đúng? []",
+            "choices": {
+              "A": "Đường thẳng d tiếp xúc với đường tròn (O) []",
+              "B": "Đường thẳng d cắt đường tròn (O) tại hai điểm []",
+              "C": "Đường thẳng d và (O) không giao nhau []",
+              "D": "Đường thẳng d đi qua tâm O"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-07",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Trong đường tròn (O; 11 cm), độ dài của dây cung lớn nhất (đường kính) bằng",
+          "choices": {
+            "A": "121\\pi cm",
+            "B": "33 cm",
+            "C": "11 cm",
+            "D": "22 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Trong đường tròn (O; 11 cm), độ dài của dây cung lớn nhất (đường kính) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "121"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "33 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "22 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Trong đường tròn (O; 11 cm), độ dài của dây cung lớn nhất (đường kính) bằng",
+            "choices": {
+              "A": "121$\\pi$ cm",
+              "B": "33 cm",
+              "C": "11 cm",
+              "D": "22 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-08",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương V: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 92°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng",
+          "choices": {
+            "A": "92°",
+            "B": "46°",
+            "C": "90°",
+            "D": "184°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương V: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 92°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "92°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "46°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "184°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương V: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 92°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng",
+            "choices": {
+              "A": "92°",
+              "B": "46°",
+              "C": "90°",
+              "D": "184°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-09",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Cho đường tròn (O; 12 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 12 cm. Vị trí tương đối của d và (O) là: []",
+          "choices": {
+            "A": "Đường thẳng d tiếp xúc với đường tròn (O) []",
+            "B": "Đường thẳng d và (O) không giao nhau []",
+            "C": "Đường thẳng d đi qua tâm O []",
+            "D": "Đường thẳng d cắt đường tròn (O) tại hai điểm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Cho đường tròn (O; 12 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 12 cm. Vị trí tương đối của d và (O) là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d tiếp xúc với đường tròn (O) []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d và (O) không giao nhau []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d đi qua tâm O []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d cắt đường tròn (O) tại hai điểm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Cho đường tròn (O; 12 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 12 cm. Vị trí tương đối của d và (O) là: []",
+            "choices": {
+              "A": "Đường thẳng d tiếp xúc với đường tròn (O) []",
+              "B": "Đường thẳng d và (O) không giao nhau []",
+              "C": "Đường thẳng d đi qua tâm O []",
+              "D": "Đường thẳng d cắt đường tròn (O) tại hai điểm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-10",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Trong đường tròn (O; 14 cm), độ dài của dây cung lớn nhất (đường kính) bằng. Phương án chính xác là",
+          "choices": {
+            "A": "14 cm",
+            "B": "196\\pi cm",
+            "C": "42 cm",
+            "D": "28 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Trong đường tròn (O; 14 cm), độ dài của dây cung lớn nhất (đường kính) bằng. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "196"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "42 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "28 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Trong đường tròn (O; 14 cm), độ dài của dây cung lớn nhất (đường kính) bằng. Phương án chính xác là",
+            "choices": {
+              "A": "14 cm",
+              "B": "196$\\pi$ cm",
+              "C": "42 cm",
+              "D": "28 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-11",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 110°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng",
+          "choices": {
+            "A": "55°",
+            "B": "110°",
+            "C": "220°",
+            "D": "90°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 110°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "55°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "110°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "220°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 110°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng",
+            "choices": {
+              "A": "55°",
+              "B": "110°",
+              "C": "220°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-12",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương V): Cho đường tròn (O; 15 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 15 cm. Vị trí tương đối của d và (O) là: []",
+          "choices": {
+            "A": "Đường thẳng d đi qua tâm O []",
+            "B": "Đường thẳng d và (O) không giao nhau []",
+            "C": "Đường thẳng d tiếp xúc với đường tròn (O) []",
+            "D": "Đường thẳng d cắt đường tròn (O) tại hai điểm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương V): Cho đường tròn (O; 15 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 15 cm. Vị trí tương đối của d và (O) là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d đi qua tâm O []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d và (O) không giao nhau []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d tiếp xúc với đường tròn (O) []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d cắt đường tròn (O) tại hai điểm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương V): Cho đường tròn (O; 15 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 15 cm. Vị trí tương đối của d và (O) là: []",
+            "choices": {
+              "A": "Đường thẳng d đi qua tâm O []",
+              "B": "Đường thẳng d và (O) không giao nhau []",
+              "C": "Đường thẳng d tiếp xúc với đường tròn (O) []",
+              "D": "Đường thẳng d cắt đường tròn (O) tại hai điểm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-13",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương V), trong đường tròn (O; 17 cm), độ dài của dây cung lớn nhất (đường kính) bằng",
+          "choices": {
+            "A": "51 cm",
+            "B": "17 cm",
+            "C": "34 cm",
+            "D": "289\\pi cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương V), trong đường tròn (O; 17 cm), độ dài của dây cung lớn nhất (đường kính) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "51 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "17 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "34 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "289"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương V), trong đường tròn (O; 17 cm), độ dài của dây cung lớn nhất (đường kính) bằng",
+            "choices": {
+              "A": "51 cm",
+              "B": "17 cm",
+              "C": "34 cm",
+              "D": "289$\\pi$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-14",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 128°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng",
+          "choices": {
+            "A": "64°",
+            "B": "256°",
+            "C": "90°",
+            "D": "128°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 128°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "64°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "256°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "128°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 128°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng",
+            "choices": {
+              "A": "64°",
+              "B": "256°",
+              "C": "90°",
+              "D": "128°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-15",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương V: Cho đường tròn (O; 18 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 18 cm. Vị trí tương đối của d và (O) là. Giá trị hoặc tính chất tương ứng là: []",
+          "choices": {
+            "A": "Đường thẳng d cắt đường tròn (O) tại hai điểm []",
+            "B": "Đường thẳng d và (O) không giao nhau []",
+            "C": "Đường thẳng d đi qua tâm O []",
+            "D": "Đường thẳng d tiếp xúc với đường tròn (O)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương V: Cho đường tròn (O; 18 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 18 cm. Vị trí tương đối của d và (O) là. Giá trị hoặc tính chất tương ứng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d cắt đường tròn (O) tại hai điểm []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d và (O) không giao nhau []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d đi qua tâm O []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d tiếp xúc với đường tròn (O)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương V: Cho đường tròn (O; 18 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 18 cm. Vị trí tương đối của d và (O) là. Giá trị hoặc tính chất tương ứng là: []",
+            "choices": {
+              "A": "Đường thẳng d cắt đường tròn (O) tại hai điểm []",
+              "B": "Đường thẳng d và (O) không giao nhau []",
+              "C": "Đường thẳng d đi qua tâm O []",
+              "D": "Đường thẳng d tiếp xúc với đường tròn (O)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-16",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Trong đường tròn (O; 20 cm), độ dài của dây cung lớn nhất (đường kính) bằng",
+          "choices": {
+            "A": "60 cm",
+            "B": "40 cm",
+            "C": "20 cm",
+            "D": "400\\pi cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Trong đường tròn (O; 20 cm), độ dài của dây cung lớn nhất (đường kính) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "40 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "400"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Trong đường tròn (O; 20 cm), độ dài của dây cung lớn nhất (đường kính) bằng",
+            "choices": {
+              "A": "60 cm",
+              "B": "40 cm",
+              "C": "20 cm",
+              "D": "400$\\pi$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-17",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 146°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng?",
+          "choices": {
+            "A": "292°",
+            "B": "90°",
+            "C": "146°",
+            "D": "73°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 146°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "292°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "146°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "73°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 146°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng?",
+            "choices": {
+              "A": "292°",
+              "B": "90°",
+              "C": "146°",
+              "D": "73°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-18",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương V: Cho đường tròn (O; 21 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 21 cm. Vị trí tương đối của d và (O) là: []",
+          "choices": {
+            "A": "Đường thẳng d tiếp xúc với đường tròn (O) []",
+            "B": "Đường thẳng d cắt đường tròn (O) tại hai điểm []",
+            "C": "Đường thẳng d và (O) không giao nhau []",
+            "D": "Đường thẳng d đi qua tâm O"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương V: Cho đường tròn (O; 21 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 21 cm. Vị trí tương đối của d và (O) là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d tiếp xúc với đường tròn (O) []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d cắt đường tròn (O) tại hai điểm []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d và (O) không giao nhau []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Đường thẳng d đi qua tâm O"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương V: Cho đường tròn (O; 21 cm) và đường thẳng d có khoảng cách từ tâm O đến d là OH = 21 cm. Vị trí tương đối của d và (O) là: []",
+            "choices": {
+              "A": "Đường thẳng d tiếp xúc với đường tròn (O) []",
+              "B": "Đường thẳng d cắt đường tròn (O) tại hai điểm []",
+              "C": "Đường thẳng d và (O) không giao nhau []",
+              "D": "Đường thẳng d đi qua tâm O"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-19",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Trong đường tròn (O; 23 cm), độ dài của dây cung lớn nhất (đường kính) bằng. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "46 cm",
+            "B": "69 cm",
+            "C": "23 cm",
+            "D": "529\\pi cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Trong đường tròn (O; 23 cm), độ dài của dây cung lớn nhất (đường kính) bằng. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "46 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "69 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "23 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "529"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Trong đường tròn (O; 23 cm), độ dài của dây cung lớn nhất (đường kính) bằng. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "46 cm",
+              "B": "69 cm",
+              "C": "23 cm",
+              "D": "529$\\pi$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-20",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương V để giải quyết yêu cầu: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 164°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng",
+          "choices": {
+            "A": "82°",
+            "B": "164°",
+            "C": "328°",
+            "D": "90°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương V để giải quyết yêu cầu: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 164°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "82°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "164°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "328°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương V để giải quyết yêu cầu: Trong một đường tròn, góc ở tâm chắn cung AB có số đo bằng 164°. Góc nội tiếp cùng chắn cung AB đó có số đo bằng",
+            "choices": {
+              "A": "82°",
+              "B": "164°",
+              "C": "328°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-21",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng",
+          "choices": {
+            "A": "6 cm",
+            "B": "2 cm",
+            "C": "4 cm",
+            "D": "3 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng",
+            "choices": {
+              "A": "6 cm",
+              "B": "2 cm",
+              "C": "4 cm",
+              "D": "3 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-22",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương V (Đường tròn) để giải bài toán: Độ dài cung 60° của một đường tròn có bán kính R = 9 cm bằng",
+          "choices": {
+            "A": "3\\pi cm",
+            "B": "18\\pi cm",
+            "C": "9\\pi cm",
+            "D": "6\\pi cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương V (Đường tròn) để giải bài toán: Độ dài cung 60° của một đường tròn có bán kính R = 9 cm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương V (Đường tròn) để giải bài toán: Độ dài cung 60° của một đường tròn có bán kính R = 9 cm bằng",
+            "choices": {
+              "A": "3$\\pi$ cm",
+              "B": "18$\\pi$ cm",
+              "C": "9$\\pi$ cm",
+              "D": "6$\\pi$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-23",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương V: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Kết quả thu được là",
+          "choices": {
+            "A": "3\\pi cm^{2}",
+            "B": "36\\pi cm^{2}",
+            "C": "6\\pi cm^{2}",
+            "D": "12\\pi cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương V: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương V: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Kết quả thu được là",
+            "choices": {
+              "A": "3$\\pi$ cm$^2$",
+              "B": "36$\\pi$ cm$^2$",
+              "C": "6$\\pi$ cm$^2$",
+              "D": "12$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-24",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng. Đáp án đúng là",
+          "choices": {
+            "A": "3 cm",
+            "B": "6 cm",
+            "C": "2 cm",
+            "D": "4 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng. Đáp án đúng là",
+            "choices": {
+              "A": "3 cm",
+              "B": "6 cm",
+              "C": "2 cm",
+              "D": "4 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-25",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương V, hãy xác định: Độ dài cung 60° của một đường tròn có bán kính R = 18 cm bằng",
+          "choices": {
+            "A": "12\\pi cm",
+            "B": "6\\pi cm",
+            "C": "18\\pi cm",
+            "D": "36\\pi cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương V, hãy xác định: Độ dài cung 60° của một đường tròn có bán kính R = 18 cm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương V, hãy xác định: Độ dài cung 60° của một đường tròn có bán kính R = 18 cm bằng",
+            "choices": {
+              "A": "12$\\pi$ cm",
+              "B": "6$\\pi$ cm",
+              "C": "18$\\pi$ cm",
+              "D": "36$\\pi$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-26",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "12\\pi cm^{2}",
+            "B": "6\\pi cm^{2}",
+            "C": "3\\pi cm^{2}",
+            "D": "36\\pi cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "12$\\pi$ cm$^2$",
+              "B": "6$\\pi$ cm$^2$",
+              "C": "3$\\pi$ cm$^2$",
+              "D": "36$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-27",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương V vào bài tập sau: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng",
+          "choices": {
+            "A": "6 cm",
+            "B": "3 cm",
+            "C": "4 cm",
+            "D": "2 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương V vào bài tập sau: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương V vào bài tập sau: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng",
+            "choices": {
+              "A": "6 cm",
+              "B": "3 cm",
+              "C": "4 cm",
+              "D": "2 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-28",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Độ dài cung 60° của một đường tròn có bán kính R = 27 cm bằng",
+          "choices": {
+            "A": "18\\pi cm",
+            "B": "27\\pi cm",
+            "C": "9\\pi cm",
+            "D": "54\\pi cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Độ dài cung 60° của một đường tròn có bán kính R = 27 cm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "54"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Độ dài cung 60° của một đường tròn có bán kính R = 27 cm bằng",
+            "choices": {
+              "A": "18$\\pi$ cm",
+              "B": "27$\\pi$ cm",
+              "C": "9$\\pi$ cm",
+              "D": "54$\\pi$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-29",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Đường tròn): Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "36\\pi cm^{2}",
+            "B": "3\\pi cm^{2}",
+            "C": "12\\pi cm^{2}",
+            "D": "6\\pi cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Đường tròn): Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Đường tròn): Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "36$\\pi$ cm$^2$",
+              "B": "3$\\pi$ cm$^2$",
+              "C": "12$\\pi$ cm$^2$",
+              "D": "6$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-30",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương V, hãy tìm kết quả của bài toán: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng",
+          "choices": {
+            "A": "6 cm",
+            "B": "3 cm",
+            "C": "4 cm",
+            "D": "2 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương V, hãy tìm kết quả của bài toán: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương V, hãy tìm kết quả của bài toán: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng",
+            "choices": {
+              "A": "6 cm",
+              "B": "3 cm",
+              "C": "4 cm",
+              "D": "2 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-31",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương V nêu câu hỏi: Độ dài cung 60° của một đường tròn có bán kính R = 36 cm bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "12\\pi cm",
+            "B": "24\\pi cm",
+            "C": "36\\pi cm",
+            "D": "72\\pi cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương V nêu câu hỏi: Độ dài cung 60° của một đường tròn có bán kính R = 36 cm bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "72"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương V nêu câu hỏi: Độ dài cung 60° của một đường tròn có bán kính R = 36 cm bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "12$\\pi$ cm",
+              "B": "24$\\pi$ cm",
+              "C": "36$\\pi$ cm",
+              "D": "72$\\pi$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-32",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng",
+          "choices": {
+            "A": "36\\pi cm^{2}",
+            "B": "12\\pi cm^{2}",
+            "C": "3\\pi cm^{2}",
+            "D": "6\\pi cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng",
+            "choices": {
+              "A": "36$\\pi$ cm$^2$",
+              "B": "12$\\pi$ cm$^2$",
+              "C": "3$\\pi$ cm$^2$",
+              "D": "6$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-33",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương V: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng",
+          "choices": {
+            "A": "2 cm",
+            "B": "6 cm",
+            "C": "4 cm",
+            "D": "3 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương V: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương V: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng",
+            "choices": {
+              "A": "2 cm",
+              "B": "6 cm",
+              "C": "4 cm",
+              "D": "3 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-34",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Độ dài cung 60° của một đường tròn có bán kính R = 45 cm bằng",
+          "choices": {
+            "A": "90\\pi cm",
+            "B": "30\\pi cm",
+            "C": "45\\pi cm",
+            "D": "15\\pi cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Độ dài cung 60° của một đường tròn có bán kính R = 45 cm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "90"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "45"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Độ dài cung 60° của một đường tròn có bán kính R = 45 cm bằng",
+            "choices": {
+              "A": "90$\\pi$ cm",
+              "B": "30$\\pi$ cm",
+              "C": "45$\\pi$ cm",
+              "D": "15$\\pi$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-35",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương V, xét bài toán: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng",
+          "choices": {
+            "A": "6\\pi cm^{2}",
+            "B": "36\\pi cm^{2}",
+            "C": "12\\pi cm^{2}",
+            "D": "3\\pi cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương V, xét bài toán: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương V, xét bài toán: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng",
+            "choices": {
+              "A": "6$\\pi$ cm$^2$",
+              "B": "36$\\pi$ cm$^2$",
+              "C": "12$\\pi$ cm$^2$",
+              "D": "3$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-36",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Đường tròn): Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "3 cm",
+            "B": "4 cm",
+            "C": "6 cm",
+            "D": "2 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Đường tròn): Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Đường tròn): Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "3 cm",
+              "B": "4 cm",
+              "C": "6 cm",
+              "D": "2 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-37",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Độ dài cung 60° của một đường tròn có bán kính R = 54 cm bằng",
+          "choices": {
+            "A": "108\\pi cm",
+            "B": "54\\pi cm",
+            "C": "18\\pi cm",
+            "D": "36\\pi cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Độ dài cung 60° của một đường tròn có bán kính R = 54 cm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "108"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "54"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Độ dài cung 60° của một đường tròn có bán kính R = 54 cm bằng",
+            "choices": {
+              "A": "108$\\pi$ cm",
+              "B": "54$\\pi$ cm",
+              "C": "18$\\pi$ cm",
+              "D": "36$\\pi$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-38",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương V: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Kết luận đúng là",
+          "choices": {
+            "A": "12\\pi cm^{2}",
+            "B": "6\\pi cm^{2}",
+            "C": "36\\pi cm^{2}",
+            "D": "3\\pi cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương V: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương V: Diện tích hình quạt tròn bán kính R = 6 cm ứng với cung 60° bằng. Kết luận đúng là",
+            "choices": {
+              "A": "12$\\pi$ cm$^2$",
+              "B": "6$\\pi$ cm$^2$",
+              "C": "36$\\pi$ cm$^2$",
+              "D": "3$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-39",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương V: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng",
+          "choices": {
+            "A": "2 cm",
+            "B": "6 cm",
+            "C": "3 cm",
+            "D": "4 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương V: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương V: Trong đường tròn (O; R = 5 cm), cho dây cung AB = 8 cm. Khoảng cách từ tâm O đến dây AB bằng",
+            "choices": {
+              "A": "2 cm",
+              "B": "6 cm",
+              "C": "3 cm",
+              "D": "4 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-40",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Độ dài cung 60° của một đường tròn có bán kính R = 63 cm bằng",
+          "choices": {
+            "A": "63\\pi cm",
+            "B": "21\\pi cm",
+            "C": "126\\pi cm",
+            "D": "42\\pi cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Độ dài cung 60° của một đường tròn có bán kính R = 63 cm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "63"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "21"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "126"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "42"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Độ dài cung 60° của một đường tròn có bán kính R = 63 cm bằng",
+            "choices": {
+              "A": "63$\\pi$ cm",
+              "B": "21$\\pi$ cm",
+              "C": "126$\\pi$ cm",
+              "D": "42$\\pi$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-41",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng",
+          "choices": {
+            "A": "6 cm",
+            "B": "2 cm",
+            "C": "8 cm",
+            "D": "4 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng",
+            "choices": {
+              "A": "6 cm",
+              "B": "2 cm",
+              "C": "8 cm",
+              "D": "4 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-42",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương V – Đường tròn): Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính R_1 = 7 cm và R_2 = 5 cm bằng. Kết quả đúng là",
+          "choices": {
+            "A": "4\\pi cm^{2}",
+            "B": "49\\pi cm^{2}",
+            "C": "12\\pi cm^{2}",
+            "D": "24\\pi cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương V – Đường tròn): Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính "
+            },
+            {
+              "t": "math",
+              "v": "R_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 7 cm và "
+            },
+            {
+              "t": "math",
+              "v": "R_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 5 cm bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "49"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương V – Đường tròn): Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính R$_1$ = 7 cm và R$_2$ = 5 cm bằng. Kết quả đúng là",
+            "choices": {
+              "A": "4$\\pi$ cm$^2$",
+              "B": "49$\\pi$ cm$^2$",
+              "C": "12$\\pi$ cm$^2$",
+              "D": "24$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-43",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương V để giải bài toán: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng",
+          "choices": {
+            "A": "4 cm",
+            "B": "8 cm",
+            "C": "2 cm",
+            "D": "6 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương V để giải bài toán: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương V để giải bài toán: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng",
+            "choices": {
+              "A": "4 cm",
+              "B": "8 cm",
+              "C": "2 cm",
+              "D": "6 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-44",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương V: Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính R_1 = 9 cm và R_2 = 7 cm bằng",
+          "choices": {
+            "A": "4\\pi cm^{2}",
+            "B": "32\\pi cm^{2}",
+            "C": "81\\pi cm^{2}",
+            "D": "16\\pi cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương V: Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính "
+            },
+            {
+              "t": "math",
+              "v": "R_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 9 cm và "
+            },
+            {
+              "t": "math",
+              "v": "R_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 7 cm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "81"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương V: Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính R$_1$ = 9 cm và R$_2$ = 7 cm bằng",
+            "choices": {
+              "A": "4$\\pi$ cm$^2$",
+              "B": "32$\\pi$ cm$^2$",
+              "C": "81$\\pi$ cm$^2$",
+              "D": "16$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-45",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương V: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng. Đáp số chính xác là",
+          "choices": {
+            "A": "6 cm",
+            "B": "8 cm",
+            "C": "2 cm",
+            "D": "4 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương V: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương V: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng. Đáp số chính xác là",
+            "choices": {
+              "A": "6 cm",
+              "B": "8 cm",
+              "C": "2 cm",
+              "D": "4 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-46",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương V để tìm đáp án cho bài toán: Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính R_1 = 11 cm và R_2 = 9 cm bằng",
+          "choices": {
+            "A": "4\\pi cm^{2}",
+            "B": "121\\pi cm^{2}",
+            "C": "40\\pi cm^{2}",
+            "D": "20\\pi cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương V để tìm đáp án cho bài toán: Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính "
+            },
+            {
+              "t": "math",
+              "v": "R_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 11 cm và "
+            },
+            {
+              "t": "math",
+              "v": "R_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 9 cm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "121"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương V để tìm đáp án cho bài toán: Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính R$_1$ = 11 cm và R$_2$ = 9 cm bằng",
+            "choices": {
+              "A": "4$\\pi$ cm$^2$",
+              "B": "121$\\pi$ cm$^2$",
+              "C": "40$\\pi$ cm$^2$",
+              "D": "20$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-47",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương V: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng",
+          "choices": {
+            "A": "4 cm",
+            "B": "6 cm",
+            "C": "2 cm",
+            "D": "8 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương V: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương V: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng",
+            "choices": {
+              "A": "4 cm",
+              "B": "6 cm",
+              "C": "2 cm",
+              "D": "8 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-48",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương V): Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính R_1 = 13 cm và R_2 = 11 cm bằng",
+          "choices": {
+            "A": "24\\pi cm^{2}",
+            "B": "169\\pi cm^{2}",
+            "C": "4\\pi cm^{2}",
+            "D": "48\\pi cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương V): Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính "
+            },
+            {
+              "t": "math",
+              "v": "R_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 13 cm và "
+            },
+            {
+              "t": "math",
+              "v": "R_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 11 cm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "169"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "48"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương V): Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính R$_1$ = 13 cm và R$_2$ = 11 cm bằng",
+            "choices": {
+              "A": "24$\\pi$ cm$^2$",
+              "B": "169$\\pi$ cm$^2$",
+              "C": "4$\\pi$ cm$^2$",
+              "D": "48$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-49",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương V, hãy giải quyết bài toán: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng",
+          "choices": {
+            "A": "6 cm",
+            "B": "8 cm",
+            "C": "2 cm",
+            "D": "4 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương V, hãy giải quyết bài toán: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương V, hãy giải quyết bài toán: Từ điểm M nằm ngoài đường tròn (O; R = 3 cm) cách tâm O một khoảng OM = 5 cm, kẻ hai tiếp tuyến MA, MB tới đường tròn (A, B là hai tiếp điểm). Độ dài đoạn tiếp tuyến MA bằng",
+            "choices": {
+              "A": "6 cm",
+              "B": "8 cm",
+              "C": "2 cm",
+              "D": "4 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-05-50",
+          "grade": 9,
+          "chapter": 5,
+          "chapterTitle": "ĐƯỜNG TRÒN",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương V: Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính R_1 = 15 cm và R_2 = 13 cm bằng. Phương án đúng là",
+          "choices": {
+            "A": "28\\pi cm^{2}",
+            "B": "4\\pi cm^{2}",
+            "C": "225\\pi cm^{2}",
+            "D": "56\\pi cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương V: Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính "
+            },
+            {
+              "t": "math",
+              "v": "R_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 15 cm và "
+            },
+            {
+              "t": "math",
+              "v": "R_2"
+            },
+            {
+              "t": "txt",
+              "v": " = 13 cm bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "28"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "225"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "56"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương V: Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính R$_1$ = 15 cm và R$_2$ = 13 cm bằng. Phương án đúng là",
+            "choices": {
+              "A": "28$\\pi$ cm$^2$",
+              "B": "4$\\pi$ cm$^2$",
+              "C": "225$\\pi$ cm$^2$",
+              "D": "56$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "V",
+            "answerKey": "Bảng đáp án Chương V",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

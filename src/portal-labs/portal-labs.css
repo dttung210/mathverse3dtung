@@ -1,0 +1,104 @@
+/* MATHVERSE V14: five exclusive portal studios, contextual and lightweight. */
+.mv14-portal-hub{position:fixed;top:76px;left:calc(var(--sidebar-width,280px) + 15px);right:275px;z-index:25;
+  border:1px solid rgba(126,231,226,.32);border-radius:19px;padding:10px 13px;box-shadow:0 13px 36px rgba(5,23,39,.3);
+  background:linear-gradient(115deg,rgba(12,35,56,.95),rgba(21,49,66,.93));backdrop-filter:blur(18px);color:#eafcfc;}
+.mv14-portal-hub[hidden],.mv14-math6-drawer[hidden]{display:none!important}
+.mv14-portal-heading{display:flex;justify-content:space-between;gap:9px;align-items:center;margin-bottom:8px;font:800 11px system-ui;letter-spacing:.065em;color:#b4efea;}
+.mv14-portal-heading span:last-child{font:500 10px system-ui;letter-spacing:0;color:#aac7d5;}
+.mv14-portal-buttons{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px;}
+.mv14-gate-button{display:flex;align-items:center;justify-content:center;gap:6px;min-width:0;cursor:pointer;padding:8px 4px;border-radius:10px;
+  color:#e3f6ff;border:1px solid rgba(154,196,224,.28);background:rgba(255,255,255,.065);font:700 10.5px system-ui;transition:transform .18s,background .18s,border-color .18s;}
+.mv14-gate-button span{font-size:17px;color:#80e5d9}
+.mv14-gate-button strong{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.mv14-gate-button:hover,.mv14-gate-button:focus-visible{transform:translateY(-1px);border-color:#51cabb;background:rgba(37,151,163,.22);}
+.mv14-gate-button.active{background:rgba(38,175,167,.32);border-color:#5bf4cb;box-shadow:inset 0 0 0 1px rgba(75,225,211,.12);}
+.mv14-portal-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:7px;}
+.mv14-portal-actions button{border:1px solid rgba(132,218,213,.3);background:rgba(84,162,177,.13);color:#e6fbff;padding:5px 9px;font:700 10px system-ui;border-radius:8px;cursor:pointer;}
+.mv14-portal-actions button:hover{background:rgba(84,205,196,.28);}
+.mv14-math6-drawer{position:fixed;inset:0;z-index:85;display:grid;place-items:center;padding:18px;background:rgba(3,17,32,.76);backdrop-filter:blur(5px);}
+.mv14-math6-sheet{display:flex;flex-direction:column;width:min(800px,94vw);height:min(680px,88vh);padding:22px;background:#f6fbfd;color:#173c54;border-radius:21px;box-shadow:0 22px 84px #0008;}
+.mv14-math6-sheet header{display:flex;align-items:center;justify-content:space-between;gap:12px;}
+.mv14-math6-sheet h2{font-size:21px;margin:0 0 8px;}
+.mv14-math6-sheet header button{background:#d9e7ed;color:#264c60;border:0;border-radius:10px;font-size:24px;cursor:pointer;width:36px;height:36px;}
+.mv14-math6-sheet p{color:#54758a;font-size:12px;margin:0 0 15px;}
+.mv14-math6-sheet>input{height:42px;border:1px solid #b9d4df;border-radius:11px;padding:12px;background:#fff;}
+.mv14-math6-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;overflow:auto;margin-top:13px;padding:2px;}
+.mv14-math6-drawer-card{display:grid;gap:6px;text-align:left;border:1px solid #d2e4e8;border-radius:12px;background:#fff;padding:13px 15px;color:#244d5c;cursor:pointer;}
+.mv14-math6-drawer-card strong{font-size:12px;}.mv14-math6-drawer-card small{color:#6a8797;}
+.mv14-math6-drawer-card:hover{border-color:#30bbb0;box-shadow:0 3px 10px #125b6a18;}
+/* The old model-view and V11 2D/3D composer toolbars remain source-compatible but do not appear in V14. */
+.labshell-app.mv14-specialty-active .mv13-mode-nav,.labshell-app.mv14-specialty-active .stage-tools-top,
+.labshell-app.mv14-specialty-active .stage-metrics-strip,.labshell-app.mv14-specialty-active .stage-viewport-outer>.v10-viewport-badge,
+.labshell-app.mv14-specialty-active .stage-viewport-outer>.stage-drop-target,
+.labshell-app.mv14-specialty-active .inspector-desc,.labshell-app.mv14-specialty-active .inspector-formula-box,
+.labshell-app.mv14-specialty-active .inspector-curriculum,.labshell-app.mv14-specialty-active .inspector-tab-bar,
+.labshell-app.mv14-specialty-active .library-modes,.labshell-app.mv14-specialty-active .filter-tabs,
+.labshell-app.mv14-specialty-active .mv13-library-categories{display:none!important;}
+.labshell-app.mv14-specialty-active .stage-subhead{display:flex!important;min-height:64px;padding:12px 17px;}
+.labshell-app.mv14-specialty-active .stage-main-title{font-size:20px;max-width:100%;}
+.labshell-app.mv14-specialty-active .stage-viewport-outer{margin:6px 10px 9px;border:1px solid #cfe3eb;border-radius:16px;min-height:0;}
+.labshell-app.mv14-specialty-active .stage-viewport{height:100%;overflow:hidden;}
+.labshell-app.mv14-specialty-active .labshell-inspector{background:#f7fbfd;padding:12px;}
+.labshell-app.mv14-specialty-active .inspector-controls{display:block!important;overflow:visible!important;}
+.labshell-app.mv14-specialty-active .inspector-header{border-bottom:1px solid #d8e6eb;padding-bottom:9px;}
+.labshell-app.mv14-specialty-active .labshell-sidebar{background:#f4f9fa;}
+.mv14-library-card{display:flex;gap:10px;align-items:center;width:100%;text-align:left;border:1px solid #d9e7ec;background:#fff;color:#2e566b;
+  padding:10px;border-radius:12px;cursor:pointer;margin-bottom:7px;}
+.mv14-library-card:hover{background:#e7f7f3;border-color:#7bc6c1;}
+.mv14-library-icon{display:grid;place-items:center;flex:0 0 35px;height:35px;border-radius:10px;color:#037b83;background:#dbf3ef;font-size:21px;}
+.mv14-library-text{min-width:0;display:grid;gap:3px;}.mv14-library-text strong{font-size:11.5px;line-height:1.4;}
+.mv14-library-text small{font-size:9.5px;color:#79919f;}
+.mv14-list-empty{padding:14px;color:#648798;}
+.mv14-lab-root{height:100%;min-height:0;display:flex;flex-direction:column;background:#f9fcff;border-radius:13px;overflow:hidden;position:relative;}
+.mv14-lab-banner{display:flex;gap:9px;align-items:center;justify-content:space-between;background:linear-gradient(90deg,#e2f4f3,#f5fafd);color:#1e5861;
+  padding:8px 13px;border-bottom:1px solid #c9e6e3;flex:0 0 auto;min-height:42px;}
+.mv14-zone-mark{font:800 10px system-ui;letter-spacing:.06em;color:#087f86;}
+.mv14-lab-object-title{font-size:11px;max-width:42%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right;}
+.mv14-lab-canvas-host{position:relative;flex:1;min-height:170px;overflow:hidden;touch-action:none;}
+.mv14-symmetry-canvas{display:block;width:100%;height:100%;cursor:crosshair;touch-action:none;}
+.mv14-lab-transport{display:flex;align-items:center;gap:7px;padding:9px 11px;background:#fff;min-height:56px;border-top:1px solid #d7e5e8;flex-shrink:0;}
+.mv14-btn{border:1px solid #c9dfe5;border-radius:9px;background:#eff6f8;color:#306275;padding:8px 9px;cursor:pointer;font:700 11px system-ui;white-space:nowrap;}
+.mv14-btn:first-child{background:#07877e;color:#fff;border-color:#07877e;}
+.mv14-btn:hover{filter:brightness(.97);border-color:#48b6b3;}
+.mv14-motion-progress{flex:1;min-width:60px;accent-color:#0b968e;}
+.mv14-motion-speed{border:1px solid #cddfe5;border-radius:8px;padding:8px;background:white;color:#35586d;font-weight:700;}
+.mv14-progress-text{font:800 12px system-ui;color:#157d80;min-width:37px;}
+.mv14-lab-inspector{display:grid;gap:10px;}
+.mv14-lab-intro{padding:14px;background:#eaf6f7;border-radius:12px;border:1px solid #d3e8ec;}
+.mv14-lab-intro h3{font-size:14px;color:#1a5567;margin:0 0 7px;}
+.mv14-lab-intro p{margin:0;font-size:11px;color:#5a7d8b;line-height:1.55;}
+.mv14-param-line{display:grid;grid-template-columns:1fr 70px;gap:6px;padding:8px 10px;border:1px solid #dce7ec;border-radius:10px;background:white;}
+.mv14-param-heading{grid-column:1/-1;display:flex;justify-content:space-between;color:#2f5c70;font-size:11px;}
+.mv14-param-heading strong{font-weight:700;}.mv14-param-heading output{color:#108384;font-weight:850;}
+.mv14-param-range{accent-color:#159b91;min-width:0;width:100%;}.mv14-param-number{min-width:0;width:70px;border:1px solid #d0e2e8;border-radius:7px;padding:5px;text-align:center;font-size:11px;}
+.mv14-lab-options,.mv14-lab-actions{display:flex;gap:6px;flex-wrap:wrap;}
+.mv14-lab-options .mv14-btn,.mv14-lab-actions .mv14-btn{flex:1;}
+.mv14-supplement-note,.mv14-teaching-note{border-left:3px solid #13b0a0;background:#eaf7f5;color:#37697a;padding:11px;font-size:11px;line-height:1.5;border-radius:8px;}
+.mv14-option-title{font-size:12px;margin:8px 0 0;color:#2b6172;}
+.mv14-webgl-warning{margin:20% 10%;padding:15px;text-align:center;background:#fff0e9;color:#925a3f;border-radius:13px;}
+@media(max-width:1550px){.mv14-portal-hub{left:300px;right:260px;}.mv14-lab-transport{gap:4px;padding:8px 5px;}.mv14-btn{padding:7px;font-size:10px;}}
+@media(max-width:1180px){.mv14-portal-hub{left:240px;right:20px;top:72px;}.mv14-portal-buttons{gap:4px;}.mv14-gate-button{font-size:9px;}.mv14-lab-transport{flex-wrap:wrap;}.mv14-motion-progress{flex-basis:40%;}}
+@media(max-width:780px){.mv14-portal-hub{left:10px;right:10px;top:64px;padding:6px;border-radius:12px;}.mv14-gate-button{flex-direction:column;gap:1px;padding:5px 2px;font-size:8px;}.mv14-portal-heading span:last-child{display:none;}.mv14-math6-grid{grid-template-columns:1fr;}.mv14-math6-sheet{padding:14px;}.mv14-lab-transport{min-height:78px;}.labshell-app.mv14-specialty-active .labshell-stage-wrap{min-height:520px;}}
+@media(prefers-reduced-motion:reduce){.mv14-gate-button{transition:none;}}
+
+.mv14-real-companion{padding:5px;background:#edf5f7;border:1px solid #d8e7eb;border-radius:13px;overflow:hidden}
+.mv14-real-canvas{width:100%;height:auto;display:block;border-radius:9px}
+
+.mv14-library-icon{overflow:hidden;flex-basis:45px;width:45px;height:43px;background:linear-gradient(140deg,#dbf5f1,#e9f3ff)}
+.mv14-library-icon .mv13-math6-svg{width:43px;height:38px;display:block;stroke:#138d8c;fill:none}
+.mv14-library-card:hover .mv14-library-icon{background:#c0f2e8}
+.mv14-math6-preview{display:grid;place-items:center;background:#e4f4f7;border-radius:10px;padding:5px;margin-bottom:3px}
+.mv14-math6-preview .mv13-math6-svg{width:85px;height:67px;color:#1a8493;fill:none}
+
+/* PHASE 1 optional library adapters; retain original lab layout. */
+.mv16-jxgbox,.mv16-echarts{width:100%;height:100%;min-height:240px;background:#fff;position:relative;}
+.mv16-engine-options{display:flex;flex-wrap:wrap;gap:6px;}
+.mv16-engine-options .mv16-engine-selected{outline:2px solid #22a2be;outline-offset:1px;background:#dcf7ff;color:#15475b;}
+
+/* GIAI DOAN 2: live mathematical evidence, LaTeX source and construction modes */
+.mv17-metrics{display:grid;gap:5px;padding:10px;background:white;border:1px solid #d7e5ed;border-radius:11px;}
+.mv17-metric{display:flex;gap:9px;justify-content:space-between;align-items:baseline;border-bottom:1px solid #edf1f4;padding-bottom:5px;font:11px system-ui;color:#356071;}
+.mv17-metric:last-child{border-bottom:0;padding-bottom:0;}
+.mv17-metric strong{font-weight:750;color:#0d6877;text-align:right;overflow-wrap:anywhere;max-width:55%;}
+.mv17-formula{display:block;border-radius:9px;border:1px solid #cfe2e8;background:#f0f8fb;color:#214457;padding:10px;font:11px ui-monospace,monospace;white-space:pre-wrap;overflow-wrap:anywhere;user-select:text;}
+.mv14-lab-options .mv14-btn[aria-pressed="true"]{border-color:#1ca8a5;background:#d7f6f1;color:#165a68;outline:1px solid #7bc6c1;}

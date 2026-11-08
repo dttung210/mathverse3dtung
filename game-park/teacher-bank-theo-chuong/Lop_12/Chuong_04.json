@@ -1,0 +1,4645 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 12,
+      "chapter": 4,
+      "roman": "IV",
+      "title": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "12-04-01",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Họ tất cả các nguyên hàm của hàm số f(x) = 3x^{2} + 2x là",
+          "choices": {
+            "A": "3x^{3} + 2x^{2} + C",
+            "B": "6x + 2 + C",
+            "C": "x^{3} + 1x^{2} + C",
+            "D": "x^{3} + 2x^{2} + C"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Họ tất cả các nguyên hàm của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 2x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "3x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6x + 2 + C"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "1x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Họ tất cả các nguyên hàm của hàm số f(x) = 3x$^2$ + 2x là",
+            "choices": {
+              "A": "3x$^3$ + 2x$^2$ + C",
+              "B": "6x + 2 + C",
+              "C": "x$^3$ + 1x$^2$ + C",
+              "D": "x$^3$ + 2x$^2$ + C"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-02",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Giá trị của tích phân xác định ∈t_{0}^{2} (2x + 2) dx bằng.",
+          "choices": {
+            "A": "6",
+            "B": "8",
+            "C": "4",
+            "D": "8 (1)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Giá trị của tích phân xác định "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " (2x + 2) dx bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 (1)"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Giá trị của tích phân xác định $\\int_{0}^{2}$ (2x + 2) dx bằng.",
+            "choices": {
+              "A": "6",
+              "B": "8",
+              "C": "4",
+              "D": "8 (1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-03",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương IV, xét nội dung: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là. Đáp án đúng là",
+          "choices": {
+            "A": "S = ∈t_{a}^{b} |f(x)| dx",
+            "B": "S = ∈t_{a}^{b} f(x) dx",
+            "C": "S = ∈t_{a}^{b} [f(x)]^{2} dx",
+            "D": "S = \\pi ∈t_{a}^{b} [f(x)]^{2} dx"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương IV, xét nội dung: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " |f(x)| dx"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " f(x) dx"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương IV, xét nội dung: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là. Đáp án đúng là",
+            "choices": {
+              "A": "S = $\\int_{a}^{b}$ |f(x)| dx",
+              "B": "S = $\\int_{a}^{b}$ f(x) dx",
+              "C": "S = $\\int_{a}^{b}$ [f(x)]$^2$ dx",
+              "D": "S = $\\pi$ $\\int_{a}^{b}$ [f(x)]$^2$ dx"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": [
+            "reconnected_bracket_power"
+          ]
+        },
+        {
+          "id": "12-04-04",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương IV (Nguyên hàm và tích phân), họ tất cả các nguyên hàm của hàm số f(x) = 3x^{2} + 8x là",
+          "choices": {
+            "A": "x^{3} + 4x^{2} + C",
+            "B": "6x + 8 + C",
+            "C": "x^{3} + 8x^{2} + C",
+            "D": "3x^{3} + 8x^{2} + C"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương IV (Nguyên hàm và tích phân), họ tất cả các nguyên hàm của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 8x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "4x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6x + 8 + C"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "8x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "3x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "8x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương IV (Nguyên hàm và tích phân), họ tất cả các nguyên hàm của hàm số f(x) = 3x$^2$ + 8x là",
+            "choices": {
+              "A": "x$^3$ + 4x$^2$ + C",
+              "B": "6x + 8 + C",
+              "C": "x$^3$ + 8x$^2$ + C",
+              "D": "3x$^3$ + 8x$^2$ + C"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-05",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Giá trị của tích phân xác định ∈t_{0}^{2} (2x + 5) dx bằng",
+          "choices": {
+            "A": "14",
+            "B": "4",
+            "C": "12",
+            "D": "9"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Giá trị của tích phân xác định "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " (2x + 5) dx bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Giá trị của tích phân xác định $\\int_{0}^{2}$ (2x + 5) dx bằng",
+            "choices": {
+              "A": "14",
+              "B": "4",
+              "C": "12",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-06",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về nguyên hàm và tích phân, một học sinh gặp câu hỏi: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "S = ∈t_{a}^{b} [f(x)]^{2} dx",
+            "B": "S = \\pi ∈t_{a}^{b} [f(x)]^{2} dx",
+            "C": "S = ∈t_{a}^{b} |f(x)| dx",
+            "D": "S = ∈t_{a}^{b} f(x) dx"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về nguyên hàm và tích phân, một học sinh gặp câu hỏi: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " |f(x)| dx"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " f(x) dx"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về nguyên hàm và tích phân, một học sinh gặp câu hỏi: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "S = $\\int_{a}^{b}$ [f(x)]$^2$ dx",
+              "B": "S = $\\pi$ $\\int_{a}^{b}$ [f(x)]$^2$ dx",
+              "C": "S = $\\int_{a}^{b}$ |f(x)| dx",
+              "D": "S = $\\int_{a}^{b}$ f(x) dx"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": [
+            "reconnected_bracket_power"
+          ]
+        },
+        {
+          "id": "12-04-07",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Họ tất cả các nguyên hàm của hàm số f(x) = 3x^{2} + 14x là",
+          "choices": {
+            "A": "3x^{3} + 14x^{2} + C",
+            "B": "x^{3} + 7x^{2} + C",
+            "C": "6x + 14 + C",
+            "D": "x^{3} + 14x^{2} + C"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Họ tất cả các nguyên hàm của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 14x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "3x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "14x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "7x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6x + 14 + C"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "14x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Họ tất cả các nguyên hàm của hàm số f(x) = 3x$^2$ + 14x là",
+            "choices": {
+              "A": "3x$^3$ + 14x$^2$ + C",
+              "B": "x$^3$ + 7x$^2$ + C",
+              "C": "6x + 14 + C",
+              "D": "x$^3$ + 14x$^2$ + C"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-08",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Giá trị của tích phân xác định ∈t_{0}^{2} (2x + 8) dx bằng",
+          "choices": {
+            "A": "18",
+            "B": "12",
+            "C": "4",
+            "D": "20"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Giá trị của tích phân xác định "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " (2x + 8) dx bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Giá trị của tích phân xác định $\\int_{0}^{2}$ (2x + 8) dx bằng",
+            "choices": {
+              "A": "18",
+              "B": "12",
+              "C": "4",
+              "D": "20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-09",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là",
+          "choices": {
+            "A": "S = \\pi ∈t_{a}^{b} [f(x)]^{2} dx",
+            "B": "S = ∈t_{a}^{b} [f(x)]^{2} dx",
+            "C": "S = ∈t_{a}^{b} |f(x)| dx",
+            "D": "S = ∈t_{a}^{b} f(x) dx"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " |f(x)| dx"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " f(x) dx"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là",
+            "choices": {
+              "A": "S = $\\pi$ $\\int_{a}^{b}$ [f(x)]$^2$ dx",
+              "B": "S = $\\int_{a}^{b}$ [f(x)]$^2$ dx",
+              "C": "S = $\\int_{a}^{b}$ |f(x)| dx",
+              "D": "S = $\\int_{a}^{b}$ f(x) dx"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": [
+            "reconnected_bracket_power"
+          ]
+        },
+        {
+          "id": "12-04-10",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Họ tất cả các nguyên hàm của hàm số f(x) = 3x^{2} + 20x là. Phương án chính xác là",
+          "choices": {
+            "A": "6x + 20 + C",
+            "B": "3x^{3} + 20x^{2} + C",
+            "C": "x^{3} + 20x^{2} + C",
+            "D": "x^{3} + 10x^{2} + C"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Họ tất cả các nguyên hàm của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 20x là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6x + 20 + C"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "3x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "20x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "20x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "10x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Họ tất cả các nguyên hàm của hàm số f(x) = 3x$^2$ + 20x là. Phương án chính xác là",
+            "choices": {
+              "A": "6x + 20 + C",
+              "B": "3x$^3$ + 20x$^2$ + C",
+              "C": "x$^3$ + 20x$^2$ + C",
+              "D": "x$^3$ + 10x$^2$ + C"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-11",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Giá trị của tích phân xác định ∈t_{0}^{2} (2x + 11) dx bằng",
+          "choices": {
+            "A": "24",
+            "B": "4",
+            "C": "26",
+            "D": "15"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Giá trị của tích phân xác định "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " (2x + 11) dx bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Giá trị của tích phân xác định $\\int_{0}^{2}$ (2x + 11) dx bằng",
+            "choices": {
+              "A": "24",
+              "B": "4",
+              "C": "26",
+              "D": "15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-12",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là",
+          "choices": {
+            "A": "S = ∈t_{a}^{b} |f(x)| dx",
+            "B": "S = ∈t_{a}^{b} [f(x)]^{2} dx",
+            "C": "S = ∈t_{a}^{b} f(x) dx",
+            "D": "S = \\pi ∈t_{a}^{b} [f(x)]^{2} dx"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " |f(x)| dx"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " f(x) dx"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là",
+            "choices": {
+              "A": "S = $\\int_{a}^{b}$ |f(x)| dx",
+              "B": "S = $\\int_{a}^{b}$ [f(x)]$^2$ dx",
+              "C": "S = $\\int_{a}^{b}$ f(x) dx",
+              "D": "S = $\\pi$ $\\int_{a}^{b}$ [f(x)]$^2$ dx"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": [
+            "reconnected_bracket_power"
+          ]
+        },
+        {
+          "id": "12-04-13",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), họ tất cả các nguyên hàm của hàm số f(x) = 3x^{2} + 26x là",
+          "choices": {
+            "A": "3x^{3} + 26x^{2} + C",
+            "B": "x^{3} + 13x^{2} + C",
+            "C": "x^{3} + 26x^{2} + C",
+            "D": "6x + 26 + C"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), họ tất cả các nguyên hàm của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 26x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "3x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "26x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "13x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "26x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6x + 26 + C"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), họ tất cả các nguyên hàm của hàm số f(x) = 3x$^2$ + 26x là",
+            "choices": {
+              "A": "3x$^3$ + 26x$^2$ + C",
+              "B": "x$^3$ + 13x$^2$ + C",
+              "C": "x$^3$ + 26x$^2$ + C",
+              "D": "6x + 26 + C"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-14",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Giá trị của tích phân xác định ∈t_{0}^{2} (2x + 14) dx bằng",
+          "choices": {
+            "A": "30",
+            "B": "4",
+            "C": "18",
+            "D": "32"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Giá trị của tích phân xác định "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " (2x + 14) dx bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Giá trị của tích phân xác định $\\int_{0}^{2}$ (2x + 14) dx bằng",
+            "choices": {
+              "A": "30",
+              "B": "4",
+              "C": "18",
+              "D": "32"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-15",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương IV: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "S = ∈t_{a}^{b} |f(x)| dx",
+            "B": "S = \\pi ∈t_{a}^{b} [f(x)]^{2} dx",
+            "C": "S = ∈t_{a}^{b} [f(x)]^{2} dx",
+            "D": "S = ∈t_{a}^{b} f(x) dx"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương IV: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " |f(x)| dx"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " f(x) dx"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương IV: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "S = $\\int_{a}^{b}$ |f(x)| dx",
+              "B": "S = $\\pi$ $\\int_{a}^{b}$ [f(x)]$^2$ dx",
+              "C": "S = $\\int_{a}^{b}$ [f(x)]$^2$ dx",
+              "D": "S = $\\int_{a}^{b}$ f(x) dx"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": [
+            "reconnected_bracket_power"
+          ]
+        },
+        {
+          "id": "12-04-16",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Họ tất cả các nguyên hàm của hàm số f(x) = 3x^{2} + 32x là",
+          "choices": {
+            "A": "3x^{3} + 32x^{2} + C",
+            "B": "x^{3} + 16x^{2} + C",
+            "C": "6x + 32 + C",
+            "D": "x^{3} + 32x^{2} + C"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Họ tất cả các nguyên hàm của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 32x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "3x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "32x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "16x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6x + 32 + C"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "32x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Họ tất cả các nguyên hàm của hàm số f(x) = 3x$^2$ + 32x là",
+            "choices": {
+              "A": "3x$^3$ + 32x$^2$ + C",
+              "B": "x$^3$ + 16x$^2$ + C",
+              "C": "6x + 32 + C",
+              "D": "x$^3$ + 32x$^2$ + C"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-17",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Giá trị của tích phân xác định ∈t_{0}^{2} (2x + 17) dx bằng?",
+          "choices": {
+            "A": "38",
+            "B": "4",
+            "C": "36",
+            "D": "21"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Giá trị của tích phân xác định "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " (2x + 17) dx bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "38"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Giá trị của tích phân xác định $\\int_{0}^{2}$ (2x + 17) dx bằng?",
+            "choices": {
+              "A": "38",
+              "B": "4",
+              "C": "36",
+              "D": "21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-18",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương IV: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là",
+          "choices": {
+            "A": "S = ∈t_{a}^{b} [f(x)]^{2} dx",
+            "B": "S = ∈t_{a}^{b} |f(x)| dx",
+            "C": "S = \\pi ∈t_{a}^{b} [f(x)]^{2} dx",
+            "D": "S = ∈t_{a}^{b} f(x) dx"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương IV: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " |f(x)| dx"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "[f(x)]^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " dx"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = "
+              },
+              {
+                "t": "math",
+                "v": "\\int_{a}^{b}"
+              },
+              {
+                "t": "txt",
+                "v": " f(x) dx"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương IV: Công thức tính diện tích S của hình phẳng giới hạn bởi đồ thị hàm số liên tục y = f(x), trục hoành Ox và hai đường thẳng x = a, x = b (a < b) là",
+            "choices": {
+              "A": "S = $\\int_{a}^{b}$ [f(x)]$^2$ dx",
+              "B": "S = $\\int_{a}^{b}$ |f(x)| dx",
+              "C": "S = $\\pi$ $\\int_{a}^{b}$ [f(x)]$^2$ dx",
+              "D": "S = $\\int_{a}^{b}$ f(x) dx"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": [
+            "reconnected_bracket_power"
+          ]
+        },
+        {
+          "id": "12-04-19",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Họ tất cả các nguyên hàm của hàm số f(x) = 3x^{2} + 38x là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "x^{3} + 38x^{2} + C",
+            "B": "x^{3} + 19x^{2} + C",
+            "C": "6x + 38 + C",
+            "D": "3x^{3} + 38x^{2} + C"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Họ tất cả các nguyên hàm của hàm số f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 38x là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "38x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "19x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6x + 38 + C"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "3x^{3}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "38x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + C"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Họ tất cả các nguyên hàm của hàm số f(x) = 3x$^2$ + 38x là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "x$^3$ + 38x$^2$ + C",
+              "B": "x$^3$ + 19x$^2$ + C",
+              "C": "6x + 38 + C",
+              "D": "3x$^3$ + 38x$^2$ + C"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-20",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Giá trị của tích phân xác định ∈t_{0}^{2} (2x + 20) dx bằng",
+          "choices": {
+            "A": "42",
+            "B": "44",
+            "C": "4",
+            "D": "24"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Giá trị của tích phân xác định "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " (2x + 20) dx bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "42"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "44"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Giá trị của tích phân xác định $\\int_{0}^{2}$ (2x + 20) dx bằng",
+            "choices": {
+              "A": "42",
+              "B": "44",
+              "C": "4",
+              "D": "24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-21",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Cho ∈t_{1}^{3} f(x) dx = 4 và ∈t_{1}^{3} g(x) dx = 2. Giá trị của tích phân I = ∈t_{1}^{3} [2f(x) - 3g(x)] dx bằng",
+          "choices": {
+            "A": "2",
+            "B": "6",
+            "C": "14",
+            "D": "2 (1)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " f(x) dx = 4 và "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " g(x) dx = 2. Giá trị của tích phân I = "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " [2f(x) - 3g(x)] dx bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 (1)"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Cho $\\int_{1}^{3}$ f(x) dx = 4 và $\\int_{1}^{3}$ g(x) dx = 2. Giá trị của tích phân I = $\\int_{1}^{3}$ [2f(x) - 3g(x)] dx bằng",
+            "choices": {
+              "A": "2",
+              "B": "6",
+              "C": "14",
+              "D": "2 (1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-22",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương IV (Nguyên hàm và tích phân) để giải bài toán: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 3 biết F(0) = 5",
+          "choices": {
+            "A": "F(x) = x^{2} + 5",
+            "B": "F(x) = x^{2} + 3x - 5",
+            "C": "F(x) = 2x^{2} + 3x + 5",
+            "D": "F(x) = x^{2} + 3x + 5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương IV (Nguyên hàm và tích phân) để giải bài toán: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 3 biết F(0) = 5"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 3x - 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 3x + 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 3x + 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương IV (Nguyên hàm và tích phân) để giải bài toán: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 3 biết F(0) = 5",
+            "choices": {
+              "A": "F(x) = x$^2$ + 5",
+              "B": "F(x) = x$^2$ + 3x - 5",
+              "C": "F(x) = 2x$^2$ + 3x + 5",
+              "D": "F(x) = x$^2$ + 3x + 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-23",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương IV: Diện tích hình phẳng giới hạn bởi parabol y = x^{2} - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Kết quả thu được là",
+          "choices": {
+            "A": "-32/3",
+            "B": "16/3",
+            "C": "8",
+            "D": "32/3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương IV: Diện tích hình phẳng giới hạn bởi parabol y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-32/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương IV: Diện tích hình phẳng giới hạn bởi parabol y = x$^2$ - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Kết quả thu được là",
+            "choices": {
+              "A": "-32/3",
+              "B": "16/3",
+              "C": "8",
+              "D": "32/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-24",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Cho ∈t_{1}^{3} f(x) dx = 7 và ∈t_{1}^{3} g(x) dx = 2. Giá trị của tích phân I = ∈t_{1}^{3} [2f(x) - 3g(x)] dx bằng. Đáp án đúng là",
+          "choices": {
+            "A": "5",
+            "B": "12",
+            "C": "20",
+            "D": "8"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " f(x) dx = 7 và "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " g(x) dx = 2. Giá trị của tích phân I = "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " [2f(x) - 3g(x)] dx bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Cho $\\int_{1}^{3}$ f(x) dx = 7 và $\\int_{1}^{3}$ g(x) dx = 2. Giá trị của tích phân I = $\\int_{1}^{3}$ [2f(x) - 3g(x)] dx bằng. Đáp án đúng là",
+            "choices": {
+              "A": "5",
+              "B": "12",
+              "C": "20",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-25",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 6 biết F(0) = 5",
+          "choices": {
+            "A": "F(x) = x^{2} + 5",
+            "B": "F(x) = x^{2} + 6x + 5",
+            "C": "F(x) = 2x^{2} + 6x + 5",
+            "D": "F(x) = x^{2} + 6x - 5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 6 biết F(0) = 5"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 6x + 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 6x + 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 6x - 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 6 biết F(0) = 5",
+            "choices": {
+              "A": "F(x) = x$^2$ + 5",
+              "B": "F(x) = x$^2$ + 6x + 5",
+              "C": "F(x) = 2x$^2$ + 6x + 5",
+              "D": "F(x) = x$^2$ + 6x - 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-26",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Diện tích hình phẳng giới hạn bởi parabol y = x^{2} - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "8",
+            "B": "16/3",
+            "C": "-32/3",
+            "D": "32/3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Diện tích hình phẳng giới hạn bởi parabol y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-32/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Diện tích hình phẳng giới hạn bởi parabol y = x$^2$ - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "8",
+              "B": "16/3",
+              "C": "-32/3",
+              "D": "32/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-27",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Cho ∈t_{1}^{3} f(x) dx = 10 và ∈t_{1}^{3} g(x) dx = 2. Giá trị của tích phân I = ∈t_{1}^{3} [2f(x) - 3g(x)] dx bằng",
+          "choices": {
+            "A": "14",
+            "B": "18",
+            "C": "8",
+            "D": "26"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " f(x) dx = 10 và "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " g(x) dx = 2. Giá trị của tích phân I = "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " [2f(x) - 3g(x)] dx bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Cho $\\int_{1}^{3}$ f(x) dx = 10 và $\\int_{1}^{3}$ g(x) dx = 2. Giá trị của tích phân I = $\\int_{1}^{3}$ [2f(x) - 3g(x)] dx bằng",
+            "choices": {
+              "A": "14",
+              "B": "18",
+              "C": "8",
+              "D": "26"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-28",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 9 biết F(0) = 5",
+          "choices": {
+            "A": "F(x) = x^{2} + 5",
+            "B": "F(x) = 2x^{2} + 9x + 5",
+            "C": "F(x) = x^{2} + 9x + 5",
+            "D": "F(x) = x^{2} + 9x - 5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 9 biết F(0) = 5"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 9x + 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 9x + 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 9x - 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 9 biết F(0) = 5",
+            "choices": {
+              "A": "F(x) = x$^2$ + 5",
+              "B": "F(x) = 2x$^2$ + 9x + 5",
+              "C": "F(x) = x$^2$ + 9x + 5",
+              "D": "F(x) = x$^2$ + 9x - 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-29",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Nguyên hàm và tích phân): Diện tích hình phẳng giới hạn bởi parabol y = x^{2} - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "16/3",
+            "B": "-32/3",
+            "C": "32/3",
+            "D": "8"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Nguyên hàm và tích phân): Diện tích hình phẳng giới hạn bởi parabol y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-32/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "32/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Nguyên hàm và tích phân): Diện tích hình phẳng giới hạn bởi parabol y = x$^2$ - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "16/3",
+              "B": "-32/3",
+              "C": "32/3",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-30",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Cho ∈t_{1}^{3} f(x) dx = 13 và ∈t_{1}^{3} g(x) dx = 2. Giá trị của tích phân I = ∈t_{1}^{3} [2f(x) - 3g(x)] dx bằng",
+          "choices": {
+            "A": "11",
+            "B": "24",
+            "C": "20",
+            "D": "32"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " f(x) dx = 13 và "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " g(x) dx = 2. Giá trị của tích phân I = "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " [2f(x) - 3g(x)] dx bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Cho $\\int_{1}^{3}$ f(x) dx = 13 và $\\int_{1}^{3}$ g(x) dx = 2. Giá trị của tích phân I = $\\int_{1}^{3}$ [2f(x) - 3g(x)] dx bằng",
+            "choices": {
+              "A": "11",
+              "B": "24",
+              "C": "20",
+              "D": "32"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-31",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 12 biết F(0) = 5. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "F(x) = 2x^{2} + 12x + 5",
+            "B": "F(x) = x^{2} + 5",
+            "C": "F(x) = x^{2} + 12x - 5",
+            "D": "F(x) = x^{2} + 12x + 5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 12 biết F(0) = 5. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 12x + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 12x - 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 12x + 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 12 biết F(0) = 5. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "F(x) = 2x$^2$ + 12x + 5",
+              "B": "F(x) = x$^2$ + 5",
+              "C": "F(x) = x$^2$ + 12x - 5",
+              "D": "F(x) = x$^2$ + 12x + 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-32",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Diện tích hình phẳng giới hạn bởi parabol y = x^{2} - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng",
+          "choices": {
+            "A": "8",
+            "B": "32/3",
+            "C": "-32/3",
+            "D": "16/3"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Diện tích hình phẳng giới hạn bởi parabol y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-32/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Diện tích hình phẳng giới hạn bởi parabol y = x$^2$ - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng",
+            "choices": {
+              "A": "8",
+              "B": "32/3",
+              "C": "-32/3",
+              "D": "16/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-33",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Cho ∈t_{1}^{3} f(x) dx = 16 và ∈t_{1}^{3} g(x) dx = 2. Giá trị của tích phân I = ∈t_{1}^{3} [2f(x) - 3g(x)] dx bằng",
+          "choices": {
+            "A": "14",
+            "B": "38",
+            "C": "30",
+            "D": "26"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " f(x) dx = 16 và "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " g(x) dx = 2. Giá trị của tích phân I = "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " [2f(x) - 3g(x)] dx bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "38"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Cho $\\int_{1}^{3}$ f(x) dx = 16 và $\\int_{1}^{3}$ g(x) dx = 2. Giá trị của tích phân I = $\\int_{1}^{3}$ [2f(x) - 3g(x)] dx bằng",
+            "choices": {
+              "A": "14",
+              "B": "38",
+              "C": "30",
+              "D": "26"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-34",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 15 biết F(0) = 5",
+          "choices": {
+            "A": "F(x) = x^{2} + 15x - 5",
+            "B": "F(x) = 2x^{2} + 15x + 5",
+            "C": "F(x) = x^{2} + 15x + 5",
+            "D": "F(x) = x^{2} + 5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 15 biết F(0) = 5"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 15x - 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 15x + 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 15x + 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 15 biết F(0) = 5",
+            "choices": {
+              "A": "F(x) = x$^2$ + 15x - 5",
+              "B": "F(x) = 2x$^2$ + 15x + 5",
+              "C": "F(x) = x$^2$ + 15x + 5",
+              "D": "F(x) = x$^2$ + 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-35",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Diện tích hình phẳng giới hạn bởi parabol y = x^{2} - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng",
+          "choices": {
+            "A": "16/3",
+            "B": "32/3",
+            "C": "-32/3",
+            "D": "8"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Diện tích hình phẳng giới hạn bởi parabol y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-32/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Diện tích hình phẳng giới hạn bởi parabol y = x$^2$ - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng",
+            "choices": {
+              "A": "16/3",
+              "B": "32/3",
+              "C": "-32/3",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-36",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Nguyên hàm và tích phân): Cho ∈t_{1}^{3} f(x) dx = 19 và ∈t_{1}^{3} g(x) dx = 2. Giá trị của tích phân I = ∈t_{1}^{3} [2f(x) - 3g(x)] dx bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "36",
+            "B": "44",
+            "C": "17",
+            "D": "32"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Nguyên hàm và tích phân): Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " f(x) dx = 19 và "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " g(x) dx = 2. Giá trị của tích phân I = "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " [2f(x) - 3g(x)] dx bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "44"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Nguyên hàm và tích phân): Cho $\\int_{1}^{3}$ f(x) dx = 19 và $\\int_{1}^{3}$ g(x) dx = 2. Giá trị của tích phân I = $\\int_{1}^{3}$ [2f(x) - 3g(x)] dx bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "36",
+              "B": "44",
+              "C": "17",
+              "D": "32"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-37",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 18 biết F(0) = 5",
+          "choices": {
+            "A": "F(x) = 2x^{2} + 18x + 5",
+            "B": "F(x) = x^{2} + 18x - 5",
+            "C": "F(x) = x^{2} + 5",
+            "D": "F(x) = x^{2} + 18x + 5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 18 biết F(0) = 5"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 18x + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 18x - 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 18x + 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 18 biết F(0) = 5",
+            "choices": {
+              "A": "F(x) = 2x$^2$ + 18x + 5",
+              "B": "F(x) = x$^2$ + 18x - 5",
+              "C": "F(x) = x$^2$ + 5",
+              "D": "F(x) = x$^2$ + 18x + 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-38",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương IV: Diện tích hình phẳng giới hạn bởi parabol y = x^{2} - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Kết luận đúng là",
+          "choices": {
+            "A": "-32/3",
+            "B": "8",
+            "C": "16/3",
+            "D": "32/3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương IV: Diện tích hình phẳng giới hạn bởi parabol y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-32/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương IV: Diện tích hình phẳng giới hạn bởi parabol y = x$^2$ - 4 và trục hoành Ox (trên đoạn [-2; 2]) bằng. Kết luận đúng là",
+            "choices": {
+              "A": "-32/3",
+              "B": "8",
+              "C": "16/3",
+              "D": "32/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-39",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Cho ∈t_{1}^{3} f(x) dx = 22 và ∈t_{1}^{3} g(x) dx = 2. Giá trị của tích phân I = ∈t_{1}^{3} [2f(x) - 3g(x)] dx bằng",
+          "choices": {
+            "A": "38",
+            "B": "20",
+            "C": "50",
+            "D": "42"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " f(x) dx = 22 và "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " g(x) dx = 2. Giá trị của tích phân I = "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{1}^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " [2f(x) - 3g(x)] dx bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "38"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "42"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Cho $\\int_{1}^{3}$ f(x) dx = 22 và $\\int_{1}^{3}$ g(x) dx = 2. Giá trị của tích phân I = $\\int_{1}^{3}$ [2f(x) - 3g(x)] dx bằng",
+            "choices": {
+              "A": "38",
+              "B": "20",
+              "C": "50",
+              "D": "42"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-40",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 21 biết F(0) = 5",
+          "choices": {
+            "A": "F(x) = x^{2} + 5",
+            "B": "F(x) = 2x^{2} + 21x + 5",
+            "C": "F(x) = x^{2} + 21x - 5",
+            "D": "F(x) = x^{2} + 21x + 5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 21 biết F(0) = 5"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 21x + 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 21x - 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "F(x) = "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 21x + 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tìm nguyên hàm F(x) của hàm số f(x) = 2x + 21 biết F(0) = 5",
+            "choices": {
+              "A": "F(x) = x$^2$ + 5",
+              "B": "F(x) = 2x$^2$ + 21x + 5",
+              "C": "F(x) = x$^2$ + 21x - 5",
+              "D": "F(x) = x$^2$ + 21x + 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-41",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = \\sqrt{x}, trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng",
+          "choices": {
+            "A": "4\\pi",
+            "B": "8\\pi",
+            "C": "8",
+            "D": "16\\pi/3"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x}"
+            },
+            {
+              "t": "txt",
+              "v": ", trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = $\\sqrt{x}$, trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng",
+            "choices": {
+              "A": "4$\\pi$",
+              "B": "8$\\pi$",
+              "C": "8",
+              "D": "16$\\pi$/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-42",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương IV – Nguyên hàm và tích phân): Một vật chuyển động với vận tốc v(t) = 2t + 3 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng. Kết quả đúng là",
+          "choices": {
+            "A": "9 m",
+            "B": "18 m",
+            "C": "27 m",
+            "D": "12 m"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương IV – Nguyên hàm và tích phân): Một vật chuyển động với vận tốc v(t) = 2t + 3 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "27 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương IV – Nguyên hàm và tích phân): Một vật chuyển động với vận tốc v(t) = 2t + 3 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng. Kết quả đúng là",
+            "choices": {
+              "A": "9 m",
+              "B": "18 m",
+              "C": "27 m",
+              "D": "12 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-43",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = \\sqrt{x}, trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng",
+          "choices": {
+            "A": "8",
+            "B": "16\\pi/3",
+            "C": "4\\pi",
+            "D": "8\\pi"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x}"
+            },
+            {
+              "t": "txt",
+              "v": ", trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = $\\sqrt{x}$, trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng",
+            "choices": {
+              "A": "8",
+              "B": "16$\\pi$/3",
+              "C": "4$\\pi$",
+              "D": "8$\\pi$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-44",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Một vật chuyển động với vận tốc v(t) = 2t + 5 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng",
+          "choices": {
+            "A": "11 m",
+            "B": "33 m",
+            "C": "24 m",
+            "D": "14 m"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Một vật chuyển động với vận tốc v(t) = 2t + 5 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "11 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "33 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Một vật chuyển động với vận tốc v(t) = 2t + 5 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng",
+            "choices": {
+              "A": "11 m",
+              "B": "33 m",
+              "C": "24 m",
+              "D": "14 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-45",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = \\sqrt{x}, trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng. Đáp số chính xác là",
+          "choices": {
+            "A": "8",
+            "B": "4\\pi",
+            "C": "8\\pi",
+            "D": "16\\pi/3"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x}"
+            },
+            {
+              "t": "txt",
+              "v": ", trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = $\\sqrt{x}$, trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng. Đáp số chính xác là",
+            "choices": {
+              "A": "8",
+              "B": "4$\\pi$",
+              "C": "8$\\pi$",
+              "D": "16$\\pi$/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-46",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Một vật chuyển động với vận tốc v(t) = 2t + 7 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng",
+          "choices": {
+            "A": "30 m",
+            "B": "13 m",
+            "C": "16 m",
+            "D": "39 m"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Một vật chuyển động với vận tốc v(t) = 2t + 7 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "30 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "13 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "39 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Một vật chuyển động với vận tốc v(t) = 2t + 7 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng",
+            "choices": {
+              "A": "30 m",
+              "B": "13 m",
+              "C": "16 m",
+              "D": "39 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-47",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = \\sqrt{x}, trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng",
+          "choices": {
+            "A": "16\\pi/3",
+            "B": "8\\pi",
+            "C": "8",
+            "D": "4\\pi"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x}"
+            },
+            {
+              "t": "txt",
+              "v": ", trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = $\\sqrt{x}$, trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng",
+            "choices": {
+              "A": "16$\\pi$/3",
+              "B": "8$\\pi$",
+              "C": "8",
+              "D": "4$\\pi$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-48",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Một vật chuyển động với vận tốc v(t) = 2t + 9 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng",
+          "choices": {
+            "A": "36 m",
+            "B": "45 m",
+            "C": "18 m",
+            "D": "15 m"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Một vật chuyển động với vận tốc v(t) = 2t + 9 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "45 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Một vật chuyển động với vận tốc v(t) = 2t + 9 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng",
+            "choices": {
+              "A": "36 m",
+              "B": "45 m",
+              "C": "18 m",
+              "D": "15 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-49",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = \\sqrt{x}, trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng",
+          "choices": {
+            "A": "8",
+            "B": "8\\pi",
+            "C": "16\\pi/3",
+            "D": "4\\pi"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x}"
+            },
+            {
+              "t": "txt",
+              "v": ", trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi đồ thị hàm số y = $\\sqrt{x}$, trục hoành Ox và hai đường thẳng x = 0, x = 4 quanh trục Ox bằng",
+            "choices": {
+              "A": "8",
+              "B": "8$\\pi$",
+              "C": "16$\\pi$/3",
+              "D": "4$\\pi$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-04-50",
+          "grade": 12,
+          "chapter": 4,
+          "chapterTitle": "NGUYÊN HÀM VÀ TÍCH PHÂN",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương IV: Một vật chuyển động với vận tốc v(t) = 2t + 11 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng. Phương án đúng là",
+          "choices": {
+            "A": "51 m",
+            "B": "17 m",
+            "C": "42 m",
+            "D": "20 m"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương IV: Một vật chuyển động với vận tốc v(t) = 2t + 11 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "51 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "17 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "42 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương IV: Một vật chuyển động với vận tốc v(t) = 2t + 11 (m/s). Quãng đường vật đi được từ thời điểm t = 0 đến thời điểm t = 3 (giây) bằng. Phương án đúng là",
+            "choices": {
+              "A": "51 m",
+              "B": "17 m",
+              "C": "42 m",
+              "D": "20 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

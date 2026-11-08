@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MATHVERSE R6.9 · Kiểm tra 76 cửa Lab</title>
+<style>
+:root{font:14px/1.5 "Segoe UI",Arial,sans-serif;color:#e8fbfa;background:#0b1726}
+*{box-sizing:border-box}body{max-width:1450px;margin:auto;padding:22px}header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:14px}
+h1{font-size:24px;margin:0}.intro{max-width:850px;color:#aec8d3}a{color:#76f1dc}button,select{color:#eefefe;background:#1a3848;border:1px solid #58a69f;border-radius:9px;font:inherit;padding:8px;cursor:pointer}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:15px 0}.stat{background:#142b3d;padding:12px;border-radius:12px;border:1px solid #35596a}.stat strong{display:block;color:#60dfc7;font-size:24px}
+.info{padding:14px;border-left:3px solid #d7b47c;background:#192d3e;border-radius:9px;margin:15px 0}.actions{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:12px}.room{background:#122b3d;border:1px solid #2b5562;border-radius:14px;padding:16px}.room h2{font-size:16px;color:#e9fcf4;margin:0 0 2px}.subtitle{color:#9bbbc9;font-size:12px}.lab{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:9px 4px;border-top:1px solid #2d5261}.lab span{flex:1}.lab small{display:block;color:#a6c0c6}.lab select{width:132px;max-width:45%;font-size:12px}.note{font-size:12px;color:#97bac6}footer{margin:22px 0;padding:14px;border-top:1px solid #315366;color:#a7c6cb}
+@media(max-width:690px){body{padding:12px}.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}}
+</style></head><body>
+<header><div><h1>MATHVERSE R6.9 · Kiểm tra 76 cửa Lab</h1><p class="intro">Bảng này là công cụ ghi nhận nghiệm thu <strong>trên máy cô</strong>, không tự khẳng định đã kiểm tra WebGL. 310 mô hình nằm trong các Lab, không nằm rải rác ngoài cửa.</p></div><a href="/">← Trở về bảo tàng</a></header>
+<div class="stats"><div class="stat"><strong id="room-count">–</strong>Phòng chuyên đề</div><div class="stat"><strong id="lab-count">–</strong>Cửa Lab</div><div class="stat"><strong id="mode-count">–</strong>Mô hình/chế độ</div><div class="stat"><strong id="done-count">–</strong>Cửa đã nghiệm thu</div></div>
+<div class="info"><strong>Cách thử:</strong> Vào sảnh → Lớp 6–12 → chọn phòng chuyên đề. Ngay khi vào, cửa Lab phải nằm <strong>thẳng phía trước</strong>. Nhấp cửa hoặc dùng phím E khi đứng gần; xác nhận Kho SGK mở đúng Lab và đúng các mô hình của Lab đó. Ghi “Đạt” hoặc “Lỗi”, rồi xuất CSV.</div>
+<div class="actions"><label>Lớp <select id="grade"><option value="all">Tất cả</option></select></label><button id="download">Xuất báo cáo CSV</button><button id="clear">Xóa đánh dấu</button><span class="note">Trạng thái lưu tại trình duyệt đang dùng</span></div>
+<div class="grid" id="cards"></div><footer>Đường dựng hình trên bục của phiên bản R6.7 đã bị loại khỏi phòng; R6.9 chỉ dùng cửa Lab dẫn tới đúng mô hình Toán học trong Kho SGK chung.</footer>
+<script type="module">
+import {ROOM_BY_ID,MODE_BY_ID} from '/src/museum/r6-room-layout.js';
+import {getLabDoorsForRoom} from '/src/museum/r68-unified-labs.mjs';
+const KEY='mv-r69-qa-76-labdoors', e=id=>document.getElementById(id);let state={};try{state=JSON.parse(localStorage.getItem(KEY)||'{}')}catch{}
+const all=[...ROOM_BY_ID.values()].sort((a,b)=>a.grade-b.grade||a.roomId.localeCompare(b.roomId));
+e('room-count').textContent=all.length;e('lab-count').textContent=all.reduce((n,r)=>n+getLabDoorsForRoom(r.roomId).length,0);e('mode-count').textContent=MODE_BY_ID.size;
+for(let grade=6;grade<=12;grade++){const o=document.createElement('option');o.value=grade;o.textContent=`Toán ${grade}`;e('grade').append(o)}
+const q=value=>'"'+String(value??'').replaceAll('"','""')+'"';
+function counts(){e('done-count').textContent=Object.values(state).filter(v=>v==='pass'||v==='fail').length+'/76'}
+function render(){e('cards').replaceChildren();for(const room of all.filter(r=>e('grade').value==='all'||String(r.grade)===e('grade').value)){
+ const card=document.createElement('section');card.className='room';
+ const h=document.createElement('h2');h.textContent=`${room.roomId} · ${room.name}`;card.append(h);
+ const descr=document.createElement('p');descr.className='subtitle';descr.textContent=`Lớp ${room.grade} · ${getLabDoorsForRoom(room.roomId).length} cửa Lab · ${room.modeCount} mô hình`;card.append(descr);
+ for(const lab of getLabDoorsForRoom(room.roomId)){
+   const item=document.createElement('div');item.className='lab';
+   const text=document.createElement('span');text.textContent=lab.name;const small=document.createElement('small');small.textContent=`${lab.labId} · ${lab.modes.length} mô hình`;text.append(small);
+   const sel=document.createElement('select');sel.setAttribute('aria-label',`Nghiệm thu ${lab.labId}`);
+   for(const [value,label] of [['','Chưa kiểm'],['pass','Đạt'],['fail','Lỗi']]){const opt=document.createElement('option');opt.value=value;opt.textContent=label;sel.append(opt)}
+   sel.value=state[lab.labId]||'';sel.addEventListener('change',()=>{state[lab.labId]=sel.value;localStorage.setItem(KEY,JSON.stringify(state));counts()});item.append(text,sel);card.append(item);
+ }e('cards').append(card)
+}counts()}
+e('grade').addEventListener('change',render);
+e('download').addEventListener('click',()=>{
+  const records=[['Lop','Ma_phong','Phong_chuyen_de','Ma_Lab','Ten_Lab','So_mo_hinh','Trang_thai_nghiem_thu']];
+  for(const room of all)for(const lab of getLabDoorsForRoom(room.roomId))records.push([room.grade,room.roomId,room.name,lab.labId,lab.name,lab.modes.length,state[lab.labId]||'chua_kiem']);
+  const csv='\ufeff'+records.map(row=>row.map(q).join(',')).join('\r\n');const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='MATHVERSE_R69_NGHIEM_THU_76_CUA_LAB.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+});
+e('clear').addEventListener('click',()=>{if(confirm('Xóa kết quả nghiệm thu đã đánh dấu?')){state={};localStorage.removeItem(KEY);render()}});render();
+</script></body></html>

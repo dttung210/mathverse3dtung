@@ -1,0 +1,4377 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 9,
+      "chapter": 4,
+      "roman": "IV",
+      "title": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "9-04-01",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cho hai góc nhọn \\alpha và \\beta phụ nhau (\\alpha + \\beta = 90°). Hệ thức nào sau đây là ĐÚNG?",
+          "choices": {
+            "A": "sin \\alpha = cos \\beta",
+            "B": "tan \\alpha = tan \\beta",
+            "C": "sin \\alpha = sin \\beta",
+            "D": "sin \\alpha = cot \\beta"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho hai góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\beta"
+            },
+            {
+              "t": "txt",
+              "v": " phụ nhau ("
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\beta"
+            },
+            {
+              "t": "txt",
+              "v": " = 90°). Hệ thức nào sau đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = cos "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "tan "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = tan "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = sin "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = cot "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho hai góc nhọn $\\alpha$ và $\\beta$ phụ nhau ($\\alpha$ + $\\beta$ = 90°). Hệ thức nào sau đây là ĐÚNG?",
+            "choices": {
+              "A": "sin $\\alpha$ = cos $\\beta$",
+              "B": "tan $\\alpha$ = tan $\\beta$",
+              "C": "sin $\\alpha$ = sin $\\beta$",
+              "D": "sin $\\alpha$ = cot $\\beta$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-02",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Cho tam giác ABC vuông tại A có BC = 10 cm, AC = 6 cm. Giá trị của sin B bằng.",
+          "choices": {
+            "A": "4/5",
+            "B": "3/4",
+            "C": "3/5",
+            "D": "5/3"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Cho tam giác ABC vuông tại A có BC = 10 cm, AC = 6 cm. Giá trị của sin B bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Cho tam giác ABC vuông tại A có BC = 10 cm, AC = 6 cm. Giá trị của sin B bằng.",
+            "choices": {
+              "A": "4/5",
+              "B": "3/4",
+              "C": "3/5",
+              "D": "5/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-03",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương IV, xét nội dung: Giá trị của biểu thức lượng giác sin^{2} 35° + cos^{2} 35° bằng. Đáp án đúng là",
+          "choices": {
+            "A": "1/2",
+            "B": "1",
+            "C": "2",
+            "D": "0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương IV, xét nội dung: Giá trị của biểu thức lượng giác "
+            },
+            {
+              "t": "math",
+              "v": "sin^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " 35° + "
+            },
+            {
+              "t": "math",
+              "v": "cos^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " 35° bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương IV, xét nội dung: Giá trị của biểu thức lượng giác sin$^2$ 35° + cos$^2$ 35° bằng. Đáp án đúng là",
+            "choices": {
+              "A": "1/2",
+              "B": "1",
+              "C": "2",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-04",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương IV (Hệ thức lượng trong tam giác vuông), cho góc nhọn \\alpha = 21°. Khi đó tỉ số lượng giác sin 21° bằng tỉ số lượng giác nào dưới đây",
+          "choices": {
+            "A": "cos 21°",
+            "B": "cos 69°",
+            "C": "sin 69°",
+            "D": "tan 69°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương IV (Hệ thức lượng trong tam giác vuông), cho góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 21°. Khi đó tỉ số lượng giác sin 21° bằng tỉ số lượng giác nào dưới đây"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "cos 21°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "cos 69°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "sin 69°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "tan 69°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương IV (Hệ thức lượng trong tam giác vuông), cho góc nhọn $\\alpha$ = 21°. Khi đó tỉ số lượng giác sin 21° bằng tỉ số lượng giác nào dưới đây",
+            "choices": {
+              "A": "cos 21°",
+              "B": "cos 69°",
+              "C": "sin 69°",
+              "D": "tan 69°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-05",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Trong tam giác ABC vuông tại A có cạnh huyền BC = 30 cm và cạnh AB = 24 cm. Giá trị của cos B = AB/BC bằng",
+          "choices": {
+            "A": "3/5",
+            "B": "3/4",
+            "C": "4/5",
+            "D": "5/4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Trong tam giác ABC vuông tại A có cạnh huyền BC = 30 cm và cạnh AB = 24 cm. Giá trị của cos B = AB/BC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Trong tam giác ABC vuông tại A có cạnh huyền BC = 30 cm và cạnh AB = 24 cm. Giá trị của cos B = AB/BC bằng",
+            "choices": {
+              "A": "3/5",
+              "B": "3/4",
+              "C": "4/5",
+              "D": "5/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-06",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về hệ thức lượng trong tam giác vuông, một học sinh gặp câu hỏi: Cho hai góc nhọn \\alpha và \\beta phụ nhau (\\alpha + \\beta = 90°). Hệ thức nào sau đây là ĐÚNG. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "sin \\alpha = cos \\beta",
+            "B": "tan \\alpha = tan \\beta",
+            "C": "sin \\alpha = sin \\beta",
+            "D": "sin \\alpha = cot \\beta"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về hệ thức lượng trong tam giác vuông, một học sinh gặp câu hỏi: Cho hai góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\beta"
+            },
+            {
+              "t": "txt",
+              "v": " phụ nhau ("
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\beta"
+            },
+            {
+              "t": "txt",
+              "v": " = 90°). Hệ thức nào sau đây là ĐÚNG. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = cos "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "tan "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = tan "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = sin "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = cot "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về hệ thức lượng trong tam giác vuông, một học sinh gặp câu hỏi: Cho hai góc nhọn $\\alpha$ và $\\beta$ phụ nhau ($\\alpha$ + $\\beta$ = 90°). Hệ thức nào sau đây là ĐÚNG. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "sin $\\alpha$ = cos $\\beta$",
+              "B": "tan $\\alpha$ = tan $\\beta$",
+              "C": "sin $\\alpha$ = sin $\\beta$",
+              "D": "sin $\\alpha$ = cot $\\beta$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-07",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho tam giác ABC vuông tại A có BC = 5 cm, AC = 3 cm. Giá trị của sin B bằng",
+          "choices": {
+            "A": "5/3",
+            "B": "4/5",
+            "C": "3/5",
+            "D": "3/4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho tam giác ABC vuông tại A có BC = 5 cm, AC = 3 cm. Giá trị của sin B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho tam giác ABC vuông tại A có BC = 5 cm, AC = 3 cm. Giá trị của sin B bằng",
+            "choices": {
+              "A": "5/3",
+              "B": "4/5",
+              "C": "3/5",
+              "D": "3/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-08",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Giá trị của biểu thức lượng giác sin^{2} 35° + cos^{2} 35° bằng",
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "1/2",
+            "D": "2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Giá trị của biểu thức lượng giác "
+            },
+            {
+              "t": "math",
+              "v": "sin^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " 35° + "
+            },
+            {
+              "t": "math",
+              "v": "cos^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " 35° bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Giá trị của biểu thức lượng giác sin$^2$ 35° + cos$^2$ 35° bằng",
+            "choices": {
+              "A": "0",
+              "B": "1",
+              "C": "1/2",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-09",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Cho góc nhọn \\alpha = 31°. Khi đó tỉ số lượng giác sin 31° bằng tỉ số lượng giác nào dưới đây?",
+          "choices": {
+            "A": "cos 31°",
+            "B": "sin 59°",
+            "C": "tan 59°",
+            "D": "cos 59°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Cho góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 31°. Khi đó tỉ số lượng giác sin 31° bằng tỉ số lượng giác nào dưới đây?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "cos 31°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "sin 59°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "tan 59°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "cos 59°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Cho góc nhọn $\\alpha$ = 31°. Khi đó tỉ số lượng giác sin 31° bằng tỉ số lượng giác nào dưới đây?",
+            "choices": {
+              "A": "cos 31°",
+              "B": "sin 59°",
+              "C": "tan 59°",
+              "D": "cos 59°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-10",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Trong tam giác ABC vuông tại A có cạnh huyền BC = 55 cm và cạnh AB = 44 cm. Giá trị của cos B = AB/BC bằng. Phương án chính xác là",
+          "choices": {
+            "A": "5/4",
+            "B": "3/4",
+            "C": "4/5",
+            "D": "3/5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Trong tam giác ABC vuông tại A có cạnh huyền BC = 55 cm và cạnh AB = 44 cm. Giá trị của cos B = AB/BC bằng. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5/4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Trong tam giác ABC vuông tại A có cạnh huyền BC = 55 cm và cạnh AB = 44 cm. Giá trị của cos B = AB/BC bằng. Phương án chính xác là",
+            "choices": {
+              "A": "5/4",
+              "B": "3/4",
+              "C": "4/5",
+              "D": "3/5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-11",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho hai góc nhọn \\alpha và \\beta phụ nhau (\\alpha + \\beta = 90°). Hệ thức nào sau đây là ĐÚNG",
+          "choices": {
+            "A": "sin \\alpha = cos \\beta",
+            "B": "sin \\alpha = sin \\beta",
+            "C": "sin \\alpha = cot \\beta",
+            "D": "tan \\alpha = tan \\beta"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho hai góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\beta"
+            },
+            {
+              "t": "txt",
+              "v": " phụ nhau ("
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\beta"
+            },
+            {
+              "t": "txt",
+              "v": " = 90°). Hệ thức nào sau đây là ĐÚNG"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = cos "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = sin "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = cot "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "tan "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = tan "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho hai góc nhọn $\\alpha$ và $\\beta$ phụ nhau ($\\alpha$ + $\\beta$ = 90°). Hệ thức nào sau đây là ĐÚNG",
+            "choices": {
+              "A": "sin $\\alpha$ = cos $\\beta$",
+              "B": "sin $\\alpha$ = sin $\\beta$",
+              "C": "sin $\\alpha$ = cot $\\beta$",
+              "D": "tan $\\alpha$ = tan $\\beta$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-12",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Cho tam giác ABC vuông tại A có BC = 15 cm, AC = 9 cm. Giá trị của sin B bằng",
+          "choices": {
+            "A": "3/5",
+            "B": "4/5",
+            "C": "3/4",
+            "D": "5/3"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Cho tam giác ABC vuông tại A có BC = 15 cm, AC = 9 cm. Giá trị của sin B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Cho tam giác ABC vuông tại A có BC = 15 cm, AC = 9 cm. Giá trị của sin B bằng",
+            "choices": {
+              "A": "3/5",
+              "B": "4/5",
+              "C": "3/4",
+              "D": "5/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-13",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), giá trị của biểu thức lượng giác sin^{2} 35° + cos^{2} 35° bằng",
+          "choices": {
+            "A": "0",
+            "B": "1/2",
+            "C": "2",
+            "D": "1"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), giá trị của biểu thức lượng giác "
+            },
+            {
+              "t": "math",
+              "v": "sin^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " 35° + "
+            },
+            {
+              "t": "math",
+              "v": "cos^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " 35° bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), giá trị của biểu thức lượng giác sin$^2$ 35° + cos$^2$ 35° bằng",
+            "choices": {
+              "A": "0",
+              "B": "1/2",
+              "C": "2",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-14",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Cho góc nhọn \\alpha = 41°. Khi đó tỉ số lượng giác sin 41° bằng tỉ số lượng giác nào dưới đây",
+          "choices": {
+            "A": "cos 49°",
+            "B": "tan 49°",
+            "C": "cos 41°",
+            "D": "sin 49°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Cho góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 41°. Khi đó tỉ số lượng giác sin 41° bằng tỉ số lượng giác nào dưới đây"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "cos 49°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "tan 49°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "cos 41°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "sin 49°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Cho góc nhọn $\\alpha$ = 41°. Khi đó tỉ số lượng giác sin 41° bằng tỉ số lượng giác nào dưới đây",
+            "choices": {
+              "A": "cos 49°",
+              "B": "tan 49°",
+              "C": "cos 41°",
+              "D": "sin 49°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-15",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương IV: Trong tam giác ABC vuông tại A có cạnh huyền BC = 80 cm và cạnh AB = 64 cm. Giá trị của cos B = AB/BC bằng. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "5/4",
+            "B": "3/5",
+            "C": "4/5",
+            "D": "3/4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương IV: Trong tam giác ABC vuông tại A có cạnh huyền BC = 80 cm và cạnh AB = 64 cm. Giá trị của cos B = AB/BC bằng. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5/4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương IV: Trong tam giác ABC vuông tại A có cạnh huyền BC = 80 cm và cạnh AB = 64 cm. Giá trị của cos B = AB/BC bằng. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "5/4",
+              "B": "3/5",
+              "C": "4/5",
+              "D": "3/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-16",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Cho hai góc nhọn \\alpha và \\beta phụ nhau (\\alpha + \\beta = 90°). Hệ thức nào sau đây là ĐÚNG",
+          "choices": {
+            "A": "sin \\alpha = sin \\beta",
+            "B": "sin \\alpha = cos \\beta",
+            "C": "sin \\alpha = cot \\beta",
+            "D": "tan \\alpha = tan \\beta"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Cho hai góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\beta"
+            },
+            {
+              "t": "txt",
+              "v": " phụ nhau ("
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\beta"
+            },
+            {
+              "t": "txt",
+              "v": " = 90°). Hệ thức nào sau đây là ĐÚNG"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = sin "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = cos "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "sin "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = cot "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "tan "
+              },
+              {
+                "t": "math",
+                "v": "\\alpha"
+              },
+              {
+                "t": "txt",
+                "v": " = tan "
+              },
+              {
+                "t": "math",
+                "v": "\\beta"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Cho hai góc nhọn $\\alpha$ và $\\beta$ phụ nhau ($\\alpha$ + $\\beta$ = 90°). Hệ thức nào sau đây là ĐÚNG",
+            "choices": {
+              "A": "sin $\\alpha$ = sin $\\beta$",
+              "B": "sin $\\alpha$ = cos $\\beta$",
+              "C": "sin $\\alpha$ = cot $\\beta$",
+              "D": "tan $\\alpha$ = tan $\\beta$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-17",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho tam giác ABC vuông tại A có BC = 10 cm, AC = 6 cm. Giá trị của sin B bằng?",
+          "choices": {
+            "A": "4/5",
+            "B": "3/4",
+            "C": "3/5",
+            "D": "5/3"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho tam giác ABC vuông tại A có BC = 10 cm, AC = 6 cm. Giá trị của sin B bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho tam giác ABC vuông tại A có BC = 10 cm, AC = 6 cm. Giá trị của sin B bằng?",
+            "choices": {
+              "A": "4/5",
+              "B": "3/4",
+              "C": "3/5",
+              "D": "5/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-18",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương IV: Giá trị của biểu thức lượng giác sin^{2} 35° + cos^{2} 35° bằng",
+          "choices": {
+            "A": "1/2",
+            "B": "1",
+            "C": "2",
+            "D": "0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương IV: Giá trị của biểu thức lượng giác "
+            },
+            {
+              "t": "math",
+              "v": "sin^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " 35° + "
+            },
+            {
+              "t": "math",
+              "v": "cos^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " 35° bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương IV: Giá trị của biểu thức lượng giác sin$^2$ 35° + cos$^2$ 35° bằng",
+            "choices": {
+              "A": "1/2",
+              "B": "1",
+              "C": "2",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-19",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Cho góc nhọn \\alpha = 51°. Khi đó tỉ số lượng giác sin 51° bằng tỉ số lượng giác nào dưới đây. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "cos 51°",
+            "B": "tan 39°",
+            "C": "cos 39°",
+            "D": "sin 39°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Cho góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 51°. Khi đó tỉ số lượng giác sin 51° bằng tỉ số lượng giác nào dưới đây. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "cos 51°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "tan 39°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "cos 39°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "sin 39°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Cho góc nhọn $\\alpha$ = 51°. Khi đó tỉ số lượng giác sin 51° bằng tỉ số lượng giác nào dưới đây. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "cos 51°",
+              "B": "tan 39°",
+              "C": "cos 39°",
+              "D": "sin 39°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-20",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Trong tam giác ABC vuông tại A có cạnh huyền BC = 105 cm và cạnh AB = 84 cm. Giá trị của cos B = AB/BC bằng",
+          "choices": {
+            "A": "5/4",
+            "B": "3/5",
+            "C": "3/4",
+            "D": "4/5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Trong tam giác ABC vuông tại A có cạnh huyền BC = 105 cm và cạnh AB = 84 cm. Giá trị của cos B = AB/BC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5/4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4/5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Trong tam giác ABC vuông tại A có cạnh huyền BC = 105 cm và cạnh AB = 84 cm. Giá trị của cos B = AB/BC bằng",
+            "choices": {
+              "A": "5/4",
+              "B": "3/5",
+              "C": "3/4",
+              "D": "4/5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-21",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Cho tam giác ABC vuông tại A có cạnh huyền BC = 8 cm và góc B = 60°. Độ dài cạnh AB bằng",
+          "choices": {
+            "A": "4\\sqrt{2} cm",
+            "B": "4\\sqrt{3} cm",
+            "C": "4 cm",
+            "D": "8 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tam giác ABC vuông tại A có cạnh huyền BC = 8 cm và góc B = 60°. Độ dài cạnh AB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tam giác ABC vuông tại A có cạnh huyền BC = 8 cm và góc B = 60°. Độ dài cạnh AB bằng",
+            "choices": {
+              "A": "4$\\sqrt{2}$ cm",
+              "B": "4$\\sqrt{3}$ cm",
+              "C": "4 cm",
+              "D": "8 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-22",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương IV (Hệ thức lượng trong tam giác vuông) để giải bài toán: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 6 cm. Độ dài cạnh kề AC bằng",
+          "choices": {
+            "A": "12 cm",
+            "B": "6\\sqrt{3} cm",
+            "C": "6/\\sqrt{3} cm",
+            "D": "6 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương IV (Hệ thức lượng trong tam giác vuông) để giải bài toán: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 6 cm. Độ dài cạnh kề AC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6/"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương IV (Hệ thức lượng trong tam giác vuông) để giải bài toán: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 6 cm. Độ dài cạnh kề AC bằng",
+            "choices": {
+              "A": "12 cm",
+              "B": "6$\\sqrt{3}$ cm",
+              "C": "6/$\\sqrt{3}$ cm",
+              "D": "6 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-23",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương IV: Rút gọn biểu thức A = sin 22° - cos 68° + tan 32° · cot 32° ta được. Kết quả thu được là",
+          "choices": {
+            "A": "2",
+            "B": "0",
+            "C": "-1",
+            "D": "1"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương IV: Rút gọn biểu thức A = sin 22° - cos 68° + tan 32° "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " cot 32° ta được. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương IV: Rút gọn biểu thức A = sin 22° - cos 68° + tan 32° $\\cdot$ cot 32° ta được. Kết quả thu được là",
+            "choices": {
+              "A": "2",
+              "B": "0",
+              "C": "-1",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-24",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Cho tam giác ABC vuông tại A có cạnh huyền BC = 14 cm và góc B = 60°. Độ dài cạnh AB bằng. Đáp án đúng là",
+          "choices": {
+            "A": "14 cm",
+            "B": "7\\sqrt{3} cm",
+            "C": "7\\sqrt{2} cm",
+            "D": "7 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Cho tam giác ABC vuông tại A có cạnh huyền BC = 14 cm và góc B = 60°. Độ dài cạnh AB bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Cho tam giác ABC vuông tại A có cạnh huyền BC = 14 cm và góc B = 60°. Độ dài cạnh AB bằng. Đáp án đúng là",
+            "choices": {
+              "A": "14 cm",
+              "B": "7$\\sqrt{3}$ cm",
+              "C": "7$\\sqrt{2}$ cm",
+              "D": "7 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-25",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 9 cm. Độ dài cạnh kề AC bằng",
+          "choices": {
+            "A": "18 cm",
+            "B": "9 cm",
+            "C": "9\\sqrt{3} cm",
+            "D": "9/\\sqrt{3} cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 9 cm. Độ dài cạnh kề AC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9/"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 9 cm. Độ dài cạnh kề AC bằng",
+            "choices": {
+              "A": "18 cm",
+              "B": "9 cm",
+              "C": "9$\\sqrt{3}$ cm",
+              "D": "9/$\\sqrt{3}$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-26",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Rút gọn biểu thức A = sin 25° - cos 65° + tan 35° · cot 35° ta được. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "2",
+            "B": "1",
+            "C": "-1",
+            "D": "0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Rút gọn biểu thức A = sin 25° - cos 65° + tan 35° "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " cot 35° ta được. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Rút gọn biểu thức A = sin 25° - cos 65° + tan 35° $\\cdot$ cot 35° ta được. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "2",
+              "B": "1",
+              "C": "-1",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-27",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Cho tam giác ABC vuông tại A có cạnh huyền BC = 20 cm và góc B = 60°. Độ dài cạnh AB bằng",
+          "choices": {
+            "A": "20 cm",
+            "B": "10 cm",
+            "C": "10\\sqrt{2} cm",
+            "D": "10\\sqrt{3} cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Cho tam giác ABC vuông tại A có cạnh huyền BC = 20 cm và góc B = 60°. Độ dài cạnh AB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Cho tam giác ABC vuông tại A có cạnh huyền BC = 20 cm và góc B = 60°. Độ dài cạnh AB bằng",
+            "choices": {
+              "A": "20 cm",
+              "B": "10 cm",
+              "C": "10$\\sqrt{2}$ cm",
+              "D": "10$\\sqrt{3}$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-28",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 12 cm. Độ dài cạnh kề AC bằng",
+          "choices": {
+            "A": "12 cm",
+            "B": "24 cm",
+            "C": "12\\sqrt{3} cm",
+            "D": "12/\\sqrt{3} cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 12 cm. Độ dài cạnh kề AC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12/"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 12 cm. Độ dài cạnh kề AC bằng",
+            "choices": {
+              "A": "12 cm",
+              "B": "24 cm",
+              "C": "12$\\sqrt{3}$ cm",
+              "D": "12/$\\sqrt{3}$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-29",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Hệ thức lượng trong tam giác vuông): Rút gọn biểu thức A = sin 28° - cos 62° + tan 38° · cot 38° ta được. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "2",
+            "B": "-1",
+            "C": "0",
+            "D": "1"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Hệ thức lượng trong tam giác vuông): Rút gọn biểu thức A = sin 28° - cos 62° + tan 38° "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " cot 38° ta được. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Hệ thức lượng trong tam giác vuông): Rút gọn biểu thức A = sin 28° - cos 62° + tan 38° $\\cdot$ cot 38° ta được. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "2",
+              "B": "-1",
+              "C": "0",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-30",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Cho tam giác ABC vuông tại A có cạnh huyền BC = 26 cm và góc B = 60°. Độ dài cạnh AB bằng",
+          "choices": {
+            "A": "13 cm",
+            "B": "13\\sqrt{2} cm",
+            "C": "26 cm",
+            "D": "13\\sqrt{3} cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Cho tam giác ABC vuông tại A có cạnh huyền BC = 26 cm và góc B = 60°. Độ dài cạnh AB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "13 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "13"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "26 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "13"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Cho tam giác ABC vuông tại A có cạnh huyền BC = 26 cm và góc B = 60°. Độ dài cạnh AB bằng",
+            "choices": {
+              "A": "13 cm",
+              "B": "13$\\sqrt{2}$ cm",
+              "C": "26 cm",
+              "D": "13$\\sqrt{3}$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-31",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 15 cm. Độ dài cạnh kề AC bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "30 cm",
+            "B": "15\\sqrt{3} cm",
+            "C": "15/\\sqrt{3} cm",
+            "D": "15 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 15 cm. Độ dài cạnh kề AC bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "30 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15/"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 15 cm. Độ dài cạnh kề AC bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "30 cm",
+              "B": "15$\\sqrt{3}$ cm",
+              "C": "15/$\\sqrt{3}$ cm",
+              "D": "15 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-32",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Rút gọn biểu thức A = sin 31° - cos 59° + tan 41° · cot 41° ta được",
+          "choices": {
+            "A": "1",
+            "B": "-1",
+            "C": "2",
+            "D": "0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Rút gọn biểu thức A = sin 31° - cos 59° + tan 41° "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " cot 41° ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Rút gọn biểu thức A = sin 31° - cos 59° + tan 41° $\\cdot$ cot 41° ta được",
+            "choices": {
+              "A": "1",
+              "B": "-1",
+              "C": "2",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-33",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Cho tam giác ABC vuông tại A có cạnh huyền BC = 32 cm và góc B = 60°. Độ dài cạnh AB bằng",
+          "choices": {
+            "A": "16\\sqrt{2} cm",
+            "B": "32 cm",
+            "C": "16\\sqrt{3} cm",
+            "D": "16 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Cho tam giác ABC vuông tại A có cạnh huyền BC = 32 cm và góc B = 60°. Độ dài cạnh AB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Cho tam giác ABC vuông tại A có cạnh huyền BC = 32 cm và góc B = 60°. Độ dài cạnh AB bằng",
+            "choices": {
+              "A": "16$\\sqrt{2}$ cm",
+              "B": "32 cm",
+              "C": "16$\\sqrt{3}$ cm",
+              "D": "16 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-34",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 18 cm. Độ dài cạnh kề AC bằng",
+          "choices": {
+            "A": "18 cm",
+            "B": "18/\\sqrt{3} cm",
+            "C": "36 cm",
+            "D": "18\\sqrt{3} cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 18 cm. Độ dài cạnh kề AC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18/"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 18 cm. Độ dài cạnh kề AC bằng",
+            "choices": {
+              "A": "18 cm",
+              "B": "18/$\\sqrt{3}$ cm",
+              "C": "36 cm",
+              "D": "18$\\sqrt{3}$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-35",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Rút gọn biểu thức A = sin 34° - cos 56° + tan 44° · cot 44° ta được",
+          "choices": {
+            "A": "0",
+            "B": "-1",
+            "C": "1",
+            "D": "2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Rút gọn biểu thức A = sin 34° - cos 56° + tan 44° "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " cot 44° ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Rút gọn biểu thức A = sin 34° - cos 56° + tan 44° $\\cdot$ cot 44° ta được",
+            "choices": {
+              "A": "0",
+              "B": "-1",
+              "C": "1",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-36",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Hệ thức lượng trong tam giác vuông): Cho tam giác ABC vuông tại A có cạnh huyền BC = 38 cm và góc B = 60°. Độ dài cạnh AB bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "19 cm",
+            "B": "38 cm",
+            "C": "19\\sqrt{2} cm",
+            "D": "19\\sqrt{3} cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Hệ thức lượng trong tam giác vuông): Cho tam giác ABC vuông tại A có cạnh huyền BC = 38 cm và góc B = 60°. Độ dài cạnh AB bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "19 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "38 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "19"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "19"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Hệ thức lượng trong tam giác vuông): Cho tam giác ABC vuông tại A có cạnh huyền BC = 38 cm và góc B = 60°. Độ dài cạnh AB bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "19 cm",
+              "B": "38 cm",
+              "C": "19$\\sqrt{2}$ cm",
+              "D": "19$\\sqrt{3}$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-37",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 21 cm. Độ dài cạnh kề AC bằng",
+          "choices": {
+            "A": "42 cm",
+            "B": "21\\sqrt{3} cm",
+            "C": "21 cm",
+            "D": "21/\\sqrt{3} cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 21 cm. Độ dài cạnh kề AC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "42 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "21"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "21/"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 21 cm. Độ dài cạnh kề AC bằng",
+            "choices": {
+              "A": "42 cm",
+              "B": "21$\\sqrt{3}$ cm",
+              "C": "21 cm",
+              "D": "21/$\\sqrt{3}$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-38",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương IV: Rút gọn biểu thức A = sin 37° - cos 53° + tan 47° · cot 47° ta được. Kết luận đúng là",
+          "choices": {
+            "A": "1",
+            "B": "0",
+            "C": "-1",
+            "D": "2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương IV: Rút gọn biểu thức A = sin 37° - cos 53° + tan 47° "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " cot 47° ta được. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương IV: Rút gọn biểu thức A = sin 37° - cos 53° + tan 47° $\\cdot$ cot 47° ta được. Kết luận đúng là",
+            "choices": {
+              "A": "1",
+              "B": "0",
+              "C": "-1",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-39",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Cho tam giác ABC vuông tại A có cạnh huyền BC = 44 cm và góc B = 60°. Độ dài cạnh AB bằng",
+          "choices": {
+            "A": "44 cm",
+            "B": "22\\sqrt{3} cm",
+            "C": "22 cm",
+            "D": "22\\sqrt{2} cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Cho tam giác ABC vuông tại A có cạnh huyền BC = 44 cm và góc B = 60°. Độ dài cạnh AB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "44 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "22"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "22 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "22"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Cho tam giác ABC vuông tại A có cạnh huyền BC = 44 cm và góc B = 60°. Độ dài cạnh AB bằng",
+            "choices": {
+              "A": "44 cm",
+              "B": "22$\\sqrt{3}$ cm",
+              "C": "22 cm",
+              "D": "22$\\sqrt{2}$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-40",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 24 cm. Độ dài cạnh kề AC bằng",
+          "choices": {
+            "A": "24\\sqrt{3} cm",
+            "B": "48 cm",
+            "C": "24 cm",
+            "D": "24/\\sqrt{3} cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 24 cm. Độ dài cạnh kề AC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "48 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24/"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho tam giác ABC vuông tại A có góc C = 30° và cạnh đối AB = 24 cm. Độ dài cạnh kề AC bằng",
+            "choices": {
+              "A": "24$\\sqrt{3}$ cm",
+              "B": "48 cm",
+              "C": "24 cm",
+              "D": "24/$\\sqrt{3}$ cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-41",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Một chiếc thang dài 6 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng",
+          "choices": {
+            "A": "3\\sqrt{3} m",
+            "B": "6 m",
+            "C": "3\\sqrt{2} m",
+            "D": "3 m"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một chiếc thang dài 6 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một chiếc thang dài 6 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng",
+            "choices": {
+              "A": "3$\\sqrt{3}$ m",
+              "B": "6 m",
+              "C": "3$\\sqrt{2}$ m",
+              "D": "3 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-42",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương IV – Hệ thức lượng trong tam giác vuông): Cho góc nhọn \\alpha thỏa mãn sin \\alpha = 3/5. Giá trị của biểu thức P = 5·cos \\alpha + 4·tan \\alpha bằng. Kết quả đúng là",
+          "choices": {
+            "A": "6",
+            "B": "8",
+            "C": "7",
+            "D": "5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương IV – Hệ thức lượng trong tam giác vuông): Cho góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn sin "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 3/5. Giá trị của biểu thức P = 5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " + 4"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "tan "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương IV – Hệ thức lượng trong tam giác vuông): Cho góc nhọn $\\alpha$ thỏa mãn sin $\\alpha$ = 3/5. Giá trị của biểu thức P = 5$\\cdot$cos $\\alpha$ + 4$\\cdot$tan $\\alpha$ bằng. Kết quả đúng là",
+            "choices": {
+              "A": "6",
+              "B": "8",
+              "C": "7",
+              "D": "5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-43",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Một chiếc thang dài 10 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng",
+          "choices": {
+            "A": "10 m",
+            "B": "5 m",
+            "C": "5\\sqrt{2} m",
+            "D": "5\\sqrt{3} m"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Một chiếc thang dài 10 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Một chiếc thang dài 10 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng",
+            "choices": {
+              "A": "10 m",
+              "B": "5 m",
+              "C": "5$\\sqrt{2}$ m",
+              "D": "5$\\sqrt{3}$ m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-44",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Cho góc nhọn \\alpha thỏa mãn sin \\alpha = 3/5. Giá trị của biểu thức P = 5·cos \\alpha + 4·tan \\alpha bằng",
+          "choices": {
+            "A": "5",
+            "B": "8",
+            "C": "6",
+            "D": "7"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Cho góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn sin "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 3/5. Giá trị của biểu thức P = 5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " + 4"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "tan "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Cho góc nhọn $\\alpha$ thỏa mãn sin $\\alpha$ = 3/5. Giá trị của biểu thức P = 5$\\cdot$cos $\\alpha$ + 4$\\cdot$tan $\\alpha$ bằng",
+            "choices": {
+              "A": "5",
+              "B": "8",
+              "C": "6",
+              "D": "7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-45",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Một chiếc thang dài 14 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng. Đáp số chính xác là",
+          "choices": {
+            "A": "14 m",
+            "B": "7 m",
+            "C": "7\\sqrt{2} m",
+            "D": "7\\sqrt{3} m"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Một chiếc thang dài 14 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Một chiếc thang dài 14 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng. Đáp số chính xác là",
+            "choices": {
+              "A": "14 m",
+              "B": "7 m",
+              "C": "7$\\sqrt{2}$ m",
+              "D": "7$\\sqrt{3}$ m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-46",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Cho góc nhọn \\alpha thỏa mãn sin \\alpha = 3/5. Giá trị của biểu thức P = 5·cos \\alpha + 4·tan \\alpha bằng",
+          "choices": {
+            "A": "5",
+            "B": "7",
+            "C": "6",
+            "D": "8"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Cho góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn sin "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 3/5. Giá trị của biểu thức P = 5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " + 4"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "tan "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Cho góc nhọn $\\alpha$ thỏa mãn sin $\\alpha$ = 3/5. Giá trị của biểu thức P = 5$\\cdot$cos $\\alpha$ + 4$\\cdot$tan $\\alpha$ bằng",
+            "choices": {
+              "A": "5",
+              "B": "7",
+              "C": "6",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-47",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Một chiếc thang dài 18 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng",
+          "choices": {
+            "A": "9\\sqrt{3} m",
+            "B": "9\\sqrt{2} m",
+            "C": "18 m",
+            "D": "9 m"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Một chiếc thang dài 18 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Một chiếc thang dài 18 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng",
+            "choices": {
+              "A": "9$\\sqrt{3}$ m",
+              "B": "9$\\sqrt{2}$ m",
+              "C": "18 m",
+              "D": "9 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-48",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Cho góc nhọn \\alpha thỏa mãn sin \\alpha = 3/5. Giá trị của biểu thức P = 5·cos \\alpha + 4·tan \\alpha bằng",
+          "choices": {
+            "A": "7",
+            "B": "8",
+            "C": "5",
+            "D": "6"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Cho góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn sin "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 3/5. Giá trị của biểu thức P = 5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " + 4"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "tan "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Cho góc nhọn $\\alpha$ thỏa mãn sin $\\alpha$ = 3/5. Giá trị của biểu thức P = 5$\\cdot$cos $\\alpha$ + 4$\\cdot$tan $\\alpha$ bằng",
+            "choices": {
+              "A": "7",
+              "B": "8",
+              "C": "5",
+              "D": "6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-49",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Một chiếc thang dài 22 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng",
+          "choices": {
+            "A": "11\\sqrt{3} m",
+            "B": "11\\sqrt{2} m",
+            "C": "11 m",
+            "D": "22 m"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Một chiếc thang dài 22 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "11"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "11"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              },
+              {
+                "t": "txt",
+                "v": " m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "22 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Một chiếc thang dài 22 m đặt tựa vào bức tường thẳng đứng tạo với mặt đất nằm ngang một góc 60°. Khoảng cách từ chân thang đến chân tường bằng",
+            "choices": {
+              "A": "11$\\sqrt{3}$ m",
+              "B": "11$\\sqrt{2}$ m",
+              "C": "11 m",
+              "D": "22 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-04-50",
+          "grade": 9,
+          "chapter": 4,
+          "chapterTitle": "HỆ THỨC LƯỢNG TRONG TAM GIÁC VUÔNG",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương IV: Cho góc nhọn \\alpha thỏa mãn sin \\alpha = 3/5. Giá trị của biểu thức P = 5·cos \\alpha + 4·tan \\alpha bằng. Phương án đúng là",
+          "choices": {
+            "A": "7",
+            "B": "6",
+            "C": "5",
+            "D": "8"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương IV: Cho góc nhọn "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn sin "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 3/5. Giá trị của biểu thức P = 5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " + 4"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "tan "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương IV: Cho góc nhọn $\\alpha$ thỏa mãn sin $\\alpha$ = 3/5. Giá trị của biểu thức P = 5$\\cdot$cos $\\alpha$ + 4$\\cdot$tan $\\alpha$ bằng. Phương án đúng là",
+            "choices": {
+              "A": "7",
+              "B": "6",
+              "C": "5",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

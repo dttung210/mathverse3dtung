@@ -1,0 +1,5 @@
+#r107-gallery-switch[hidden]{display:none!important}
+.r107-gallery-switch{position:fixed;top:92px;right:18px;z-index:104;display:flex;gap:9px;align-items:center;padding:9px 12px;background:#0a293ee8;border:1px solid #d6b578;border-radius:12px;box-shadow:0 5px 20px #03162299;color:#f2e3bd;font:600 12px system-ui,sans-serif;pointer-events:auto;max-width:390px;flex-wrap:wrap}
+.r107-gallery-next{background:#d9b879;color:#14283b;border:0;border-radius:8px;padding:8px 12px;font:700 12px system-ui,sans-serif;cursor:pointer}
+.r107-gallery-next:focus-visible{outline:2px solid #60d7ce;outline-offset:3px}
+@media(max-width:800px){.r107-gallery-switch{top:70px;right:7px;left:7px;justify-content:center}.r107-gallery-next{font-size:11px}}

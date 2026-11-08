@@ -1,0 +1,23 @@
+<!doctype html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MATHVERSE R93 - Kiểm tra WebGL</title><style>
+body{margin:0;background:#f3f7fa;font-family:Arial,sans-serif;color:#143047}main{max-width:850px;margin:35px auto;padding:28px;background:white;border:1px solid #dae6ee;border-radius:14px;box-shadow:0 14px 40px #122b3811}h1{font-size:25px;margin:0 0 14px}p{line-height:1.65}canvas{display:block;width:100%;max-width:740px;height:350px;background:#132e44;border-radius:10px;border:1px solid #aac2d1;margin:16px 0}textarea{width:100%;min-height:160px;font:14px Consolas,monospace;box-sizing:border-box;border-radius:8px;border:1px solid #ccd9e2;padding:12px}button{border:0;padding:12px 18px;background:#126a8a;color:white;border-radius:8px;cursor:pointer;font-weight:bold}.ok{color:#197553}.bad{color:#b43231}.note{font-size:13px;color:#5c6d77}</style></head><body><main>
+<h1>🔎 MATHVERSE R93 — Kiểm tra WebGL trên máy cô</h1>
+<p>Nhấp đúp tệp HTML này để kiểm tra thiết bị có dựng được hình 3D cơ bản hay không. Nếu thấy tam giác nhiều màu trên nền xanh và trạng thái <b>ĐẠT</b>, WebGL hoạt động. Điều này chưa thay thế việc kiểm thử toàn bộ MATHVERSE.</p>
+<p id="status">Đang kiểm tra ...</p><canvas id="screen" width="740" height="350" aria-label="Tam giác 3D thử nghiệm"></canvas>
+<p><button id="copy">Chọn và sao chép báo cáo</button></p><textarea id="details" readonly aria-label="Báo cáo trạng thái WebGL"></textarea>
+<p class="note">Nếu báo lỗi: kiểm tra Chrome/Edge mới, trình điều khiển card đồ họa và phần cứng tăng tốc trong cài đặt trình duyệt; sau đó gửi nội dung báo cáo cho Antigravity IDE. Không phải cài thêm Python.</p>
+</main><script>
+const box=document.getElementById('details'),status=document.getElementById('status'),canvas=document.getElementById('screen');
+let report={time:new Date().toISOString(),userAgent:navigator.userAgent,webgl:false,version:'',renderer:'',errors:[]};
+try{
+const gl=canvas.getContext('webgl2',{antialias:true})||canvas.getContext('webgl',{antialias:true});if(!gl)throw Error('Trình duyệt không cấp WebGL context');
+report.webgl=true;report.version=gl.getParameter(gl.VERSION);const info=gl.getExtension('WEBGL_debug_renderer_info');report.renderer=info?gl.getParameter(info.UNMASKED_RENDERER_WEBGL):'Không được tiết lộ';
+const vs=`attribute vec2 position;varying vec3 tint;void main(){gl_Position=vec4(position,0.0,1.0);tint=vec3((position.x+1.0)*0.5,(position.y+1.0)*0.5,0.8);}`;
+const fs=`precision mediump float;varying vec3 tint;void main(){gl_FragColor=vec4(tint,1.0);}`;
+function shader(type,src){const o=gl.createShader(type);gl.shaderSource(o,src);gl.compileShader(o);if(!gl.getShaderParameter(o,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(o));return o;}
+const program=gl.createProgram();gl.attachShader(program,shader(gl.VERTEX_SHADER,vs));gl.attachShader(program,shader(gl.FRAGMENT_SHADER,fs));gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));gl.useProgram(program);
+const buf=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buf);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-0.7,-0.65,0.7,-0.65,0.0,0.75]),gl.STATIC_DRAW);const loc=gl.getAttribLocation(program,'position');gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);gl.viewport(0,0,canvas.width,canvas.height);gl.clearColor(.07,.18,.27,1);gl.clear(gl.COLOR_BUFFER_BIT);gl.drawArrays(gl.TRIANGLES,0,3);
+const pixel=new Uint8Array(4);gl.readPixels(Math.floor(canvas.width/2),Math.floor(canvas.height/2),1,1,gl.RGBA,gl.UNSIGNED_BYTE,pixel);report.samplePixel=Array.from(pixel);report.drewTriangle=pixel[0]+pixel[1]+pixel[2]>95;
+status.textContent=report.drewTriangle?'✅ ĐẠT — WebGL dựng được tam giác 3D':'⚠️ Có WebGL nhưng kết quả vẽ cần kiểm tra';status.className=report.drewTriangle?'ok':'bad';
+}catch(e){report.errors.push(String(e));status.textContent='❌ Không đạt — '+e.message;status.className='bad';}
+box.value=JSON.stringify(report,null,2);document.getElementById('copy').onclick=()=>{box.focus();box.select();};
+</script></body></html>

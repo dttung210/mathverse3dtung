@@ -1,0 +1,3917 @@
+{
+  "schemaVersion": 9,
+  "sourceType": "teacher-provided-original-LaTeX",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu/chương từ LaTeX gốc; bản Word 40 câu/chương dùng đối chiếu; không sinh câu mới.",
+  "questionsProvenance": "User uploaded PDF, Word and original LaTeX; preserves answer key and MathTeX",
+  "chapters": [
+    {
+      "grade": 9,
+      "chapter": 3,
+      "roman": "III",
+      "title": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "9-03-01",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Điều kiện xác định của căn thức √(x - 3) là:",
+          "choices": {
+            "A": "x ≠ 3",
+            "B": "x ≤ 3",
+            "C": "x ≥ 3",
+            "D": "x > 3"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Điều kiện xác định của căn thức "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x - 3}"
+            },
+            {
+              "t": "txt",
+              "v": " là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Điều kiện xác định của căn thức $\\sqrt{x - 3}$ là:",
+            "choices": {
+              "A": "x $\\ne$ 3",
+              "B": "x $\\le$ 3",
+              "C": "x $\\ge$ 3",
+              "D": "x > 3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-02",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Giá trị của căn bậc ba \\sqrt[3]{-27} bằng:",
+          "choices": {
+            "A": "3",
+            "B": "-3",
+            "C": "-9",
+            "D": "Không tồn tại"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giá trị của căn bậc ba "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt[3]{-27}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Không tồn tại"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giá trị của căn bậc ba $\\sqrt[3]{-27}$ bằng:",
+            "choices": {
+              "A": "3",
+              "B": "-3",
+              "C": "-9",
+              "D": "Không tồn tại"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-03",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Đưa thừa số ra ngoài dấu căn của √(16 · 5) ta được:",
+          "choices": {
+            "A": "5√(4)",
+            "B": "8√(5)",
+            "C": "4√(5)",
+            "D": "16√(5)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Đưa thừa số ra ngoài dấu căn của "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{16 \\cdot 5}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{4}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{5}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{5}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{5}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Đưa thừa số ra ngoài dấu căn của $\\sqrt{16 \\cdot 5}$ ta được:",
+            "choices": {
+              "A": "5$\\sqrt{4}$",
+              "B": "8$\\sqrt{5}$",
+              "C": "4$\\sqrt{5}$",
+              "D": "16$\\sqrt{5}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-04",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 48 và nhỏ hơn 56 bằng cách liệt kê phần tử:",
+          "choices": {
+            "A": "K = {49; 51; 53}",
+            "B": "K = {50; 54}",
+            "C": "K = {48; 50; 52; 54; 56}",
+            "D": "K = {50; 52; 54}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 48 và nhỏ hơn 56 bằng cách liệt kê phần tử:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "K = {49; 51; 53}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "K = {50; 54}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "K = {48; 50; 52; 54; 56}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "K = {50; 52; 54}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 48 và nhỏ hơn 56 bằng cách liệt kê phần tử:",
+            "choices": {
+              "A": "K = {49; 51; 53}",
+              "B": "K = {50; 54}",
+              "C": "K = {48; 50; 52; 54; 56}",
+              "D": "K = {50; 52; 54}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-05",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Cho tập hợp H = {x ∈ ℕ | 24 ≤ x < 30}. Khẳng định nào dưới đây là ĐÚNG?",
+          "choices": {
+            "A": "30 ∈ H",
+            "B": "23 ∈ H",
+            "C": "24 ∉ H và 30 ∈ H",
+            "D": "24 ∈ H và 30 ∉ H"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tập hợp H = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}"
+            },
+            {
+              "t": "txt",
+              "v": " | 24 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " x < 30}. Khẳng định nào dưới đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "30 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "23 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H và 30 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H và 30 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tập hợp H = {x $\\in$ $\\mathbb{N}$ | 24 $\\le$ x < 30}. Khẳng định nào dưới đây là ĐÚNG?",
+            "choices": {
+              "A": "30 $\\in$ H",
+              "B": "23 $\\in$ H",
+              "C": "24 $\\notin$ H và 30 $\\in$ H",
+              "D": "24 $\\in$ H và 30 $\\notin$ H"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-06",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Trong hệ thập phân, số tự nhiên gồm 5 nghìn, 5 trăm và 1 đơn vị được viết là:",
+          "choices": {
+            "A": "5051",
+            "B": "551",
+            "C": "11",
+            "D": "5501"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong hệ thập phân, số tự nhiên gồm 5 nghìn, 5 trăm và 1 đơn vị được viết là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5051"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "551"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5501"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong hệ thập phân, số tự nhiên gồm 5 nghìn, 5 trăm và 1 đơn vị được viết là:",
+            "choices": {
+              "A": "5051",
+              "B": "551",
+              "C": "11",
+              "D": "5501"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-07",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Thương của phép chia hai lũy thừa cùng cơ số 6^(29) : 6^(3) bằng:",
+          "choices": {
+            "A": "6^(26)",
+            "B": "6^(87)",
+            "C": "6^(32)",
+            "D": "1^(26)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thương của phép chia hai lũy thừa cùng cơ số "
+            },
+            {
+              "t": "math",
+              "v": "6^{29}"
+            },
+            {
+              "t": "txt",
+              "v": " : "
+            },
+            {
+              "t": "math",
+              "v": "6^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "6^{26}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "6^{87}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "6^{32}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "1^{26}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thương của phép chia hai lũy thừa cùng cơ số 6$^{29}$ : 6$^{3}$ bằng:",
+            "choices": {
+              "A": "6$^{26}$",
+              "B": "6$^{87}$",
+              "C": "6$^{32}$",
+              "D": "1$^{26}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-08",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Với mọi cơ số a ≠ 0, giá trị của biểu thức P = (39)^(0) + 48 bằng:",
+          "choices": {
+            "A": "49",
+            "B": "87",
+            "C": "48",
+            "D": "1"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Với mọi cơ số a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(39)^{0}"
+            },
+            {
+              "t": "txt",
+              "v": " + 48 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "49"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "87"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "48"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Với mọi cơ số a $\\ne$ 0, giá trị của biểu thức P = (39)$^0$ + 48 bằng:",
+            "choices": {
+              "A": "49",
+              "B": "87",
+              "C": "48",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-09",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Khi chia số tự nhiên 197 cho 8, số dư của phép chia đó bằng:",
+          "choices": {
+            "A": "5",
+            "B": "0",
+            "C": "24",
+            "D": "3"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi chia số tự nhiên 197 cho 8, số dư của phép chia đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi chia số tự nhiên 197 cho 8, số dư của phép chia đó bằng:",
+            "choices": {
+              "A": "5",
+              "B": "0",
+              "C": "24",
+              "D": "3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-10",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 24 · a + 24 · b được viết gọn thành:",
+          "choices": {
+            "A": "24 · a · b",
+            "B": "48 · (a + b)",
+            "C": "24 · (a + b)",
+            "D": "576 · (a + b)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 24 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " a + 24 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b được viết gọn thành:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " a "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " b"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "48 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "576 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 24 $\\cdot$ a + 24 $\\cdot$ b được viết gọn thành:",
+            "choices": {
+              "A": "24 $\\cdot$ a $\\cdot$ b",
+              "B": "48 $\\cdot$ (a + b)",
+              "C": "24 $\\cdot$ (a + b)",
+              "D": "576 $\\cdot$ (a + b)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-11",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Để số tự nhiên có ba chữ số 42x chia hết cho 9 thì chữ số x phải bằng:",
+          "choices": {
+            "A": "8",
+            "B": "3",
+            "C": "0",
+            "D": "5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để số tự nhiên có ba chữ số 42x chia hết cho 9 thì chữ số x phải bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để số tự nhiên có ba chữ số 42x chia hết cho 9 thì chữ số x phải bằng:",
+            "choices": {
+              "A": "8",
+              "B": "3",
+              "C": "0",
+              "D": "5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-12",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Trong các số sau đây, số nào là bội của 27?",
+          "choices": {
+            "A": "57",
+            "B": "110",
+            "C": "80",
+            "D": "108"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các số sau đây, số nào là bội của 27?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "57"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "110"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "80"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "108"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các số sau đây, số nào là bội của 27?",
+            "choices": {
+              "A": "57",
+              "B": "110",
+              "C": "80",
+              "D": "108"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-13",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Khi so sánh hai số âm -32 và -26, khẳng định nào sau đây là ĐÚNG?",
+          "choices": {
+            "A": "-32 > -26",
+            "B": "-32 = -26",
+            "C": "|-32| < |-26|",
+            "D": "-32 < -26"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi so sánh hai số âm -32 và -26, khẳng định nào sau đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-32 > -26"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-32 = -26"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "|-32| < |-26|"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-32 < -26"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi so sánh hai số âm -32 và -26, khẳng định nào sau đây là ĐÚNG?",
+            "choices": {
+              "A": "-32 > -26",
+              "B": "-32 = -26",
+              "C": "|-32| < |-26|",
+              "D": "-32 < -26"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-14",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm số x thỏa mãn đẳng thức: x + 51 = 130:",
+          "choices": {
+            "A": "x = -79",
+            "B": "x = 65",
+            "C": "x = 181",
+            "D": "x = 79"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số x thỏa mãn đẳng thức: x + 51 = 130:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = -79"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 65"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 181"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 79"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số x thỏa mãn đẳng thức: x + 51 = 130:",
+            "choices": {
+              "A": "x = -79",
+              "B": "x = 65",
+              "C": "x = 181",
+              "D": "x = 79"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-15",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Số nghịch đảo của phân số (25)/(53) là:",
+          "choices": {
+            "A": "1 - (25)/(53)",
+            "B": "(-53)/(25)",
+            "C": "(53)/(25)",
+            "D": "(-25)/(53)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số nghịch đảo của phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{25}{53}"
+            },
+            {
+              "t": "txt",
+              "v": " là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1 - "
+              },
+              {
+                "t": "math",
+                "v": "\\frac{25}{53}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{-53}{25}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{53}{25}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{-25}{53}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số nghịch đảo của phân số 25/53 là:",
+            "choices": {
+              "A": "1 - 25/53",
+              "B": "-53/25",
+              "C": "53/25",
+              "D": "-25/53"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-16",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Viết phân số (1)/(4) dưới dạng tỉ số phần trăm ta được:",
+          "choices": {
+            "A": "10%",
+            "B": "25%",
+            "C": "1,4%",
+            "D": "20%"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{1}{4}"
+            },
+            {
+              "t": "txt",
+              "v": " dưới dạng tỉ số phần trăm ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10%"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "25%"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1,4%"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20%"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết phân số 1/4 dưới dạng tỉ số phần trăm ta được:",
+            "choices": {
+              "A": "10%",
+              "B": "25%",
+              "C": "1,4%",
+              "D": "20%"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-17",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Một tấm bìa hình chữ nhật có chiều dài 31 cm và chiều rộng 26 cm. Chu vi tấm bìa đó bằng:",
+          "choices": {
+            "A": "57 cm",
+            "B": "114 cm",
+            "C": "806 cm",
+            "D": "105 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một tấm bìa hình chữ nhật có chiều dài 31 cm và chiều rộng 26 cm. Chu vi tấm bìa đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "57 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "114 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "806 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "105 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một tấm bìa hình chữ nhật có chiều dài 31 cm và chiều rộng 26 cm. Chu vi tấm bìa đó bằng:",
+            "choices": {
+              "A": "57 cm",
+              "B": "114 cm",
+              "C": "806 cm",
+              "D": "105 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-18",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 48 cm và 27 cm thì có diện tích bằng:",
+          "choices": {
+            "A": "1296 cm^(2)",
+            "B": "648 cm^(2)",
+            "C": "324 cm^(2)",
+            "D": "75 cm^(2)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 48 cm và 27 cm thì có diện tích bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1296 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "648 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "324 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "75 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 48 cm và 27 cm thì có diện tích bằng:",
+            "choices": {
+              "A": "1296 cm$^2$",
+              "B": "648 cm$^2$",
+              "C": "324 cm$^2$",
+              "D": "75 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-19",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Số trung bình cộng của bốn số 24, 26, 30, 36 bằng:",
+          "choices": {
+            "A": "29",
+            "B": "116",
+            "C": "28",
+            "D": "30"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số trung bình cộng của bốn số 24, 26, 30, 36 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "29"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "116"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "28"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số trung bình cộng của bốn số 24, 26, 30, 36 bằng:",
+            "choices": {
+              "A": "29",
+              "B": "116",
+              "C": "28",
+              "D": "30"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-20",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Tại x = 3, biểu thức bậc nhất L(x) = 24x - 28 nhận giá trị bằng:",
+          "choices": {
+            "A": "44",
+            "B": "52",
+            "C": "100",
+            "D": "72"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tại x = 3, biểu thức bậc nhất L(x) = 24x - 28 nhận giá trị bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "44"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "52"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "72"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tại x = 3, biểu thức bậc nhất L(x) = 24x - 28 nhận giá trị bằng:",
+            "choices": {
+              "A": "44",
+              "B": "52",
+              "C": "100",
+              "D": "72"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-21",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn biểu thức A = √((\\sqrt{5) - 3)^2} (biết √(5) < 3) ta được:",
+          "choices": {
+            "A": "3 - √(5)",
+            "B": "4",
+            "C": "√(5) - 3",
+            "D": "3 + √(5)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn biểu thức A = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{(\\sqrt{5} - 3)^2}"
+            },
+            {
+              "t": "txt",
+              "v": " (biết "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{5}"
+            },
+            {
+              "t": "txt",
+              "v": " < 3) ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3 - "
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{5}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\sqrt{5}"
+              },
+              {
+                "t": "txt",
+                "v": " - 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3 + "
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{5}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn biểu thức A = $\\sqrt{(\\sqrt{5} - 3)^2}$ (biết $\\sqrt{5}$ < 3) ta được:",
+            "choices": {
+              "A": "3 - $\\sqrt{5}$",
+              "B": "4",
+              "C": "$\\sqrt{5}$ - 3",
+              "D": "3 + $\\sqrt{5}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-22",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Thu gọn biểu thức B = 3√(3) + 4√(12) - √(27) ta được:",
+          "choices": {
+            "A": "8√(3)",
+            "B": "7√(3)",
+            "C": "6√(3)",
+            "D": "10√(3)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thu gọn biểu thức B = 3"
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 4"
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{12}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{27}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thu gọn biểu thức B = 3$\\sqrt{3}$ + 4$\\sqrt{12}$ - $\\sqrt{27}$ ta được:",
+            "choices": {
+              "A": "8$\\sqrt{3}$",
+              "B": "7$\\sqrt{3}$",
+              "C": "6$\\sqrt{3}$",
+              "D": "10$\\sqrt{3}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-23",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Giải phương trình √(2x - 1) = 5 (với x ≥ (1)/(2)):",
+          "choices": {
+            "A": "x = 13",
+            "B": "x = 12.0",
+            "C": "x = 4",
+            "D": "x = 25"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giải phương trình "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{2x - 1}"
+            },
+            {
+              "t": "txt",
+              "v": " = 5 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{1}{2}"
+            },
+            {
+              "t": "txt",
+              "v": "):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 12.0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giải phương trình $\\sqrt{2x - 1}$ = 5 (với x $\\ge$ 1/2):",
+            "choices": {
+              "A": "x = 13",
+              "B": "x = 12.0",
+              "C": "x = 4",
+              "D": "x = 25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-24",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Tính hợp lý tổng S = (89 + 93) + (7 - 79):",
+          "choices": {
+            "A": "100",
+            "B": "110",
+            "C": "254",
+            "D": "90"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính hợp lý tổng S = (89 + 93) + (7 - 79):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "110"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "254"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính hợp lý tổng S = (89 + 93) + (7 - 79):",
+            "choices": {
+              "A": "100",
+              "B": "110",
+              "C": "254",
+              "D": "90"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-25",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Giải phương trình: 4(x - 24) - 2(x - 27) = 62:",
+          "choices": {
+            "A": "x = 44",
+            "B": "x = 76",
+            "C": "x = 52",
+            "D": "x = 28"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giải phương trình: 4(x - 24) - 2(x - 27) = 62:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 44"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 76"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 52"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 28"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giải phương trình: 4(x - 24) - 2(x - 27) = 62:",
+            "choices": {
+              "A": "x = 44",
+              "B": "x = 76",
+              "C": "x = 52",
+              "D": "x = 28"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-26",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Hai lớp quyên góp được tổng cộng 264 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 56 quyển. Số sách lớp thứ nhất quyên góp là:",
+          "choices": {
+            "A": "160 quyển",
+            "B": "104 quyển",
+            "C": "208 quyển",
+            "D": "132 quyển"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hai lớp quyên góp được tổng cộng 264 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 56 quyển. Số sách lớp thứ nhất quyên góp là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "160 quyển"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "104 quyển"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "208 quyển"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "132 quyển"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hai lớp quyên góp được tổng cộng 264 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 56 quyển. Số sách lớp thứ nhất quyên góp là:",
+            "choices": {
+              "A": "160 quyển",
+              "B": "104 quyển",
+              "C": "208 quyển",
+              "D": "132 quyển"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-27",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 312 cm. Độ dài cạnh lớn nhất của tam giác là:",
+          "choices": {
+            "A": "156 cm",
+            "B": "78 cm",
+            "C": "104 cm",
+            "D": "130 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 312 cm. Độ dài cạnh lớn nhất của tam giác là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "156 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "78 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "104 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "130 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 312 cm. Độ dài cạnh lớn nhất của tam giác là:",
+            "choices": {
+              "A": "156 cm",
+              "B": "78 cm",
+              "C": "104 cm",
+              "D": "130 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-28",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Một hóa đơn mua hàng chưa tính thuế có giá 480.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+          "choices": {
+            "A": "432.000 đồng",
+            "B": "504.000 đồng",
+            "C": "490.000 đồng",
+            "D": "528.000 đồng"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hóa đơn mua hàng chưa tính thuế có giá 480.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "432.000 đồng"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "504.000 đồng"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "490.000 đồng"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "528.000 đồng"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hóa đơn mua hàng chưa tính thuế có giá 480.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+            "choices": {
+              "A": "432.000 đồng",
+              "B": "504.000 đồng",
+              "C": "490.000 đồng",
+              "D": "528.000 đồng"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-29",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3^(k + 1) - 3^(k) = 18:",
+          "choices": {
+            "A": "k = 3",
+            "B": "k = 2",
+            "C": "k = 1",
+            "D": "k = 4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số tự nhiên k thỏa mãn đẳng thức: "
+            },
+            {
+              "t": "math",
+              "v": "3^{k + 1}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3^{k}"
+            },
+            {
+              "t": "txt",
+              "v": " = 18:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "k = 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "k = 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "k = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "k = 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3$^{k + 1}$ - 3$^{k}$ = 18:",
+            "choices": {
+              "A": "k = 3",
+              "B": "k = 2",
+              "C": "k = 1",
+              "D": "k = 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-30",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 48| = 30 bằng:",
+          "choices": {
+            "A": "96",
+            "B": "48",
+            "C": "30",
+            "D": "0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 48| = 30 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "96"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "48"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 48| = 30 bằng:",
+            "choices": {
+              "A": "96",
+              "B": "48",
+              "C": "30",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-31",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn biểu thức H = (x + 26)^(2) + (x - 26)^(2) - 2x^(2) ta được kết quả không phụ thuộc vào x là:",
+          "choices": {
+            "A": "676",
+            "B": "0",
+            "C": "1352",
+            "D": "104"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn biểu thức H = "
+            },
+            {
+              "t": "math",
+              "v": "(x + 26)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 26)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được kết quả không phụ thuộc vào x là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "676"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1352"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "104"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn biểu thức H = (x + 26)$^2$ + (x - 26)$^2$ - 2x$^2$ ta được kết quả không phụ thuộc vào x là:",
+            "choices": {
+              "A": "676",
+              "B": "0",
+              "C": "1352",
+              "D": "104"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-32",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Khi thay x = -1 vào đa thức P(x) = x^(3) + 24x^(2) - 26x + 5, giá trị của P(-1) bằng:",
+          "choices": {
+            "A": "-54",
+            "B": "52",
+            "C": "54",
+            "D": "6"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi thay x = -1 vào đa thức P(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 24"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 26x + 5, giá trị của P(-1) bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-54"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "52"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "54"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi thay x = -1 vào đa thức P(x) = x$^3$ + 24x$^2$ - 26x + 5, giá trị của P(-1) bằng:",
+            "choices": {
+              "A": "-54",
+              "B": "52",
+              "C": "54",
+              "D": "6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-33",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Biểu thức Q(x) = (x + 24) / [(x - 24)(x + 28)] xác định khi và chỉ khi:",
+          "choices": {
+            "A": "x ≠ -24 và x ≠ 28",
+            "B": "x ≠ 24",
+            "C": "x ≠ 24 và x ≠ -28",
+            "D": "x > 24"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biểu thức Q(x) = (x + 24) / [(x - 24)(x + 28)] xác định khi và chỉ khi:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -24 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 28"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 24"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 24 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -28"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 24"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biểu thức Q(x) = (x + 24) / [(x - 24)(x + 28)] xác định khi và chỉ khi:",
+            "choices": {
+              "A": "x $\\ne$ -24 và x $\\ne$ 28",
+              "B": "x $\\ne$ 24",
+              "C": "x $\\ne$ 24 và x $\\ne$ -28",
+              "D": "x > 24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-34",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Một ca nô có vận tốc riêng là 42 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+          "choices": {
+            "A": "78 km",
+            "B": "84 km",
+            "C": "90 km",
+            "D": "45 km"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một ca nô có vận tốc riêng là 42 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "78 km"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "84 km"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "90 km"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "45 km"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một ca nô có vận tốc riêng là 42 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+            "choices": {
+              "A": "78 km",
+              "B": "84 km",
+              "C": "90 km",
+              "D": "45 km"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-35",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Cho đoạn thẳng AB = 104 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+          "choices": {
+            "A": "78 cm",
+            "B": "26 cm",
+            "C": "52 cm",
+            "D": "76 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho đoạn thẳng AB = 104 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "78 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "26 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "52 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "76 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho đoạn thẳng AB = 104 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+            "choices": {
+              "A": "78 cm",
+              "B": "26 cm",
+              "C": "52 cm",
+              "D": "76 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-36",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Trong tứ giác lồi ABCD, biết góc A = 84°, góc B = 96° và góc C = 2 · góc D. Số đo góc D bằng:",
+          "choices": {
+            "A": "45°",
+            "B": "60°",
+            "C": "120°",
+            "D": "90°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong tứ giác lồi ABCD, biết góc A = 84°, góc B = 96° và góc C = 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " góc D. Số đo góc D bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "120°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong tứ giác lồi ABCD, biết góc A = 84°, góc B = 96° và góc C = 2 $\\cdot$ góc D. Số đo góc D bằng:",
+            "choices": {
+              "A": "45°",
+              "B": "60°",
+              "C": "120°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-37",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+          "choices": {
+            "A": "100 m",
+            "B": "12 m",
+            "C": "10 m",
+            "D": "14 m"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+            "choices": {
+              "A": "100 m",
+              "B": "12 m",
+              "C": "10 m",
+              "D": "14 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-38",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 120 dm^(2) và chứa được tối đa 720 lít nước (1 dm^(3) = 1 lít). Chiều cao của thùng chứa là:",
+          "choices": {
+            "A": "18 dm",
+            "B": "12 dm",
+            "C": "6 dm",
+            "D": "5 dm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 120 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chứa được tối đa 720 lít nước (1 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 lít). Chiều cao của thùng chứa là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18 dm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 dm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 dm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5 dm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 120 dm$^2$ và chứa được tối đa 720 lít nước (1 dm$^3$ = 1 lít). Chiều cao của thùng chứa là:",
+            "choices": {
+              "A": "18 dm",
+              "B": "12 dm",
+              "C": "6 dm",
+              "D": "5 dm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-39",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:",
+          "choices": {
+            "A": "6 điểm",
+            "B": "8 điểm",
+            "C": "7 điểm",
+            "D": "9 điểm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 điểm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 điểm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7 điểm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9 điểm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:",
+            "choices": {
+              "A": "6 điểm",
+              "B": "8 điểm",
+              "C": "7 điểm",
+              "D": "9 điểm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-40",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Trong một chiếc hộp có 28 thẻ đánh số từ 1 đến 28 và 30 thẻ đánh số từ 29 đến 58. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 28 là:",
+          "choices": {
+            "A": "(28)/(58)",
+            "B": "(30)/(58)",
+            "C": "(1)/(58)",
+            "D": "(29)/(58)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong một chiếc hộp có 28 thẻ đánh số từ 1 đến 28 và 30 thẻ đánh số từ 29 đến 58. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 28 là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{28}{58}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{30}{58}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{58}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{29}{58}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong một chiếc hộp có 28 thẻ đánh số từ 1 đến 28 và 30 thẻ đánh số từ 29 đến 58. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 28 là:",
+            "choices": {
+              "A": "28/58",
+              "B": "30/58",
+              "C": "1/58",
+              "D": "29/58"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-41",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Với x ≥ 0 và x ≠ 4, rút gọn biểu thức P = (x - 4) / (√(x) - 2) ta được:",
+          "choices": {
+            "A": "√(x) - 2",
+            "B": "1",
+            "C": "√(x) + 2",
+            "D": "x + 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0 và x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 4, rút gọn biểu thức P = (x - 4) / ("
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2) ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\sqrt{x}"
+              },
+              {
+                "t": "txt",
+                "v": " - 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\sqrt{x}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x + 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Với x $\\ge$ 0 và x $\\ne$ 4, rút gọn biểu thức P = (x - 4) / ($\\sqrt{x}$ - 2) ta được:",
+            "choices": {
+              "A": "$\\sqrt{x}$ - 2",
+              "B": "1",
+              "C": "$\\sqrt{x}$ + 2",
+              "D": "x + 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-42",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Tìm giá trị lớn nhất của biểu thức Q = 13 / (√(x) + 4) với x ≥ 0:",
+          "choices": {
+            "A": "0",
+            "B": "(1)/(4)",
+            "C": "(13)/(4)",
+            "D": "13"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị lớn nhất của biểu thức Q = 13 / ("
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x}"
+            },
+            {
+              "t": "txt",
+              "v": " + 4) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " 0:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{4}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{13}{4}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị lớn nhất của biểu thức Q = 13 / ($\\sqrt{x}$ + 4) với x $\\ge$ 0:",
+            "choices": {
+              "A": "0",
+              "B": "1/4",
+              "C": "13/4",
+              "D": "13"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-43",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 24)^(2) + (x - 28)^(2) với mọi số thực x:",
+          "choices": {
+            "A": "0",
+            "B": "4",
+            "C": "8 (đạt được khi x = 26)",
+            "D": "16"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị nhỏ nhất của biểu thức A(x) = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 24)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 28)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " với mọi số thực x:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 (đạt được khi x = 26)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 24)$^2$ + (x - 28)$^2$ với mọi số thực x:",
+            "choices": {
+              "A": "0",
+              "B": "4",
+              "C": "8 (đạt được khi x = 26)",
+              "D": "16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-44",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Giá trị lớn nhất của biểu thức phân thức B(x) = 108 / ((x + 24)^(2) + 4) với mọi x ∈ ℝ bằng:",
+          "choices": {
+            "A": "4",
+            "B": "13.5",
+            "C": "27",
+            "D": "108"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giá trị lớn nhất của biểu thức phân thức B(x) = 108 / ("
+            },
+            {
+              "t": "math",
+              "v": "(x + 24)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 4) với mọi x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "13.5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "27"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "108"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giá trị lớn nhất của biểu thức phân thức B(x) = 108 / ((x + 24)$^2$ + 4) với mọi x $\\in$ $\\mathbb{R}$ bằng:",
+            "choices": {
+              "A": "4",
+              "B": "13.5",
+              "C": "27",
+              "D": "108"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-45",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Tính tổng của 34 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (135):",
+          "choices": {
+            "A": "4692",
+            "B": "2346",
+            "C": "2312",
+            "D": "2278"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính tổng của 34 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (135):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4692"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2346"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2312"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2278"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính tổng của 34 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (135):",
+            "choices": {
+              "A": "4692",
+              "B": "2346",
+              "C": "2312",
+              "D": "2278"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-46",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Tính giá trị của tổng S = 2/(1·3) + 2/(3·5) + 2/(5·7) + ... + 2/(57·59):",
+          "choices": {
+            "A": "(58)/(59)",
+            "B": "(57)/(59)",
+            "C": "(1)/(59)",
+            "D": "(29)/(59)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính giá trị của tổng S = 2/(1"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "3) + 2/(3"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "5) + 2/(5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "7) + ... + 2/(57"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "59):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{58}{59}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{57}{59}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{59}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{29}{59}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính giá trị của tổng S = 2/(1$\\cdot$3) + 2/(3$\\cdot$5) + 2/(5$\\cdot$7) + ... + 2/(57$\\cdot$59):",
+            "choices": {
+              "A": "58/59",
+              "B": "57/59",
+              "C": "1/59",
+              "D": "29/59"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-47",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Có tất cả bao nhiêu số nguyên x (với x ≠ -24) sao cho biểu thức P = (3x + 83)/(x + 24) nhận giá trị là một số nguyên?",
+          "choices": {
+            "A": "2 số nguyên",
+            "B": "6 số nguyên",
+            "C": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên ±1, ±11)",
+            "D": "8 số nguyên"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Có tất cả bao nhiêu số nguyên x (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -24) sao cho biểu thức P = (3x + 83)/(x + 24) nhận giá trị là một số nguyên?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2 số nguyên"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 số nguyên"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "1, "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "11)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 số nguyên"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Có tất cả bao nhiêu số nguyên x (với x $\\ne$ -24) sao cho biểu thức P = (3x + 83)/(x + 24) nhận giá trị là một số nguyên?",
+            "choices": {
+              "A": "2 số nguyên",
+              "B": "6 số nguyên",
+              "C": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên $\\pm$1, $\\pm$11)",
+              "D": "8 số nguyên"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-48",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+          "choices": {
+            "A": "4 giờ",
+            "B": "2 giờ",
+            "C": "6 giờ",
+            "D": "9.0 giờ"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 giờ"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2 giờ"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 giờ"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9.0 giờ"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+            "choices": {
+              "A": "4 giờ",
+              "B": "2 giờ",
+              "C": "6 giờ",
+              "D": "9.0 giờ"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-49",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Biết hai số thực u và v thỏa mãn u + v = 27 và u · v = 26. Giá trị của biểu thức T = u^(3) + v^(3) bằng:",
+          "choices": {
+            "A": "21789",
+            "B": "19683",
+            "C": "677",
+            "D": "17577"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biết hai số thực u và v thỏa mãn u + v = 27 và u "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " v = 26. Giá trị của biểu thức T = "
+            },
+            {
+              "t": "math",
+              "v": "u^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "v^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21789"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "19683"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "677"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "17577"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biết hai số thực u và v thỏa mãn u + v = 27 và u $\\cdot$ v = 26. Giá trị của biểu thức T = u$^3$ + v$^3$ bằng:",
+            "choices": {
+              "A": "21789",
+              "B": "19683",
+              "C": "677",
+              "D": "17577"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        },
+        {
+          "id": "9-03-50",
+          "grade": 9,
+          "chapter": 3,
+          "chapterTitle": "CĂN BẬC HAI VÀ CĂN BẬC BA",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 225 m^(2). Chiều rộng ban đầu của khu đất là:",
+          "choices": {
+            "A": "48 m",
+            "B": "27 m",
+            "C": "24 m",
+            "D": "72 m"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 225 "
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Chiều rộng ban đầu của khu đất là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "48 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "72 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 225 m$^2$. Chiều rộng ban đầu của khu đất là:",
+            "choices": {
+              "A": "48 m",
+              "B": "27 m",
+              "C": "24 m",
+              "D": "72 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+MATHVERSE R75 CRYSTAL INFINITY MUSEUM BIG UPDATE V5
+Date: 2026-11-01
+Project: Full integrated ZIP, NO ADDON
+
+R75 IMMUTABLE SOURCE
+- 732 / 732 source files verified byte-for-byte SHA-256 with audit/R75_SHA256_ORIGINAL.csv.
+
+AUTOMATED INTEGRATION
+- node --test integration-tests/*.test.mjs: 24/24 PASS; 0 FAIL.
+- Includes exact infographic counts and images, architectural test, large poster aspect ratio, 3D grade catalog stand, clickable return portal, outward-facing double-sided partitions, five camera presets and avatar interoperability.
+
+R75 GRAPHICS
+- npm run check:graphics: 10/10 PASS; 0 FAIL.
+
+HTTP SERVER
+- [DUAL WORLD] READY http://127.0.0.1:4190/ (only in creator test container; actual Windows port can differ)
+- HTTP 200: /, /health, /r75/, /dual/index.html, /dual/app.mjs, /dual/gallery.mjs, /dual/crystal-architecture.mjs, /dual/style.css, /museum-data/catalog.json, /museum-assets/g6/Bai_01.webp, /museum-assets/g12/Bai_01.webp, /dual/library.html.
+- /health reports version 5.0.0, posters 230, R75 original unmodified.
+
+IMPORTANT LIMITATION
+- Headless Chromium access to all pages is blocked by ERR_BLOCKED_BY_ADMINISTRATOR in this environment, even though HTTP requests succeed. Thus there is NO direct GPU/WebGL visual signoff here.
+- Actual Windows Antigravity acceptance tests must check mouse clicks on the return portal, physical navigation around the hub, camera views and visual impact in Chrome/Coc Coc.
+- Original R75 runtime remains separate behind same-origin frame; this preserves source invariance but does NOT provide a physically continuous single avatar object across both renderers.

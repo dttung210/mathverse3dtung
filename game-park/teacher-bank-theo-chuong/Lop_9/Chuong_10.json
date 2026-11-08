@@ -1,0 +1,6251 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 9,
+      "chapter": 10,
+      "roman": "X",
+      "title": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "9-10-01",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Một hình trụ có bán kính đáy r = 2 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng",
+          "choices": {
+            "A": "20\\pi cm^{2}",
+            "B": "20\\pi cm^{2} (1)",
+            "C": "10\\pi cm^{2}",
+            "D": "40\\pi cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hình trụ có bán kính đáy r = 2 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " (1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "40"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Một hình trụ có bán kính đáy r = 2 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng",
+            "choices": {
+              "A": "20$\\pi$ cm$^2$",
+              "B": "20$\\pi$ cm$^2$ (1)",
+              "C": "10$\\pi$ cm$^2$",
+              "D": "40$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-02",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Một mặt cầu có bán kính R = 3 cm. Diện tích S của mặt cầu đó (S = 4\\piR^{2}) bằng.",
+          "choices": {
+            "A": "18\\pi cm^{2}",
+            "B": "9\\pi cm^{2}",
+            "C": "36.0\\pi cm^{2}",
+            "D": "36\\pi cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Một mặt cầu có bán kính R = 3 cm. Diện tích S của mặt cầu đó (S = 4"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36.0"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Một mặt cầu có bán kính R = 3 cm. Diện tích S của mặt cầu đó (S = 4$\\pi$R$^2$) bằng.",
+            "choices": {
+              "A": "18$\\pi$ cm$^2$",
+              "B": "9$\\pi$ cm$^2$",
+              "C": "36.0$\\pi$ cm$^2$",
+              "D": "36$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-03",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương X, xét nội dung: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 6 cm. Thể tích V của hình nón đó (V = 1/3 · \\pir^{2}h) bằng. Đáp án đúng là",
+          "choices": {
+            "A": "6\\pi cm^{3}",
+            "B": "18\\pi cm^{3}",
+            "C": "54\\pi cm^{3}",
+            "D": "36\\pi cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương X, xét nội dung: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 6 cm. Thể tích V của hình nón đó (V = 1/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "r^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "h) bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "54"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương X, xét nội dung: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 6 cm. Thể tích V của hình nón đó (V = 1/3 $\\cdot$ $\\pi$r$^2$h) bằng. Đáp án đúng là",
+            "choices": {
+              "A": "6$\\pi$ cm$^3$",
+              "B": "18$\\pi$ cm$^3$",
+              "C": "54$\\pi$ cm$^3$",
+              "D": "36$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-04",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương X (Một số hình khối trong thực tiễn), một hình trụ có bán kính đáy r = 5 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng",
+          "choices": {
+            "A": "100\\pi cm^{2}",
+            "B": "125\\pi cm^{2}",
+            "C": "50\\pi cm^{2}",
+            "D": "25\\pi cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương X (Một số hình khối trong thực tiễn), một hình trụ có bán kính đáy r = 5 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "125"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "50"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "25"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương X (Một số hình khối trong thực tiễn), một hình trụ có bán kính đáy r = 5 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng",
+            "choices": {
+              "A": "100$\\pi$ cm$^2$",
+              "B": "125$\\pi$ cm$^2$",
+              "C": "50$\\pi$ cm$^2$",
+              "D": "25$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-05",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Một mặt cầu có bán kính R = 6 cm. Diện tích S của mặt cầu đó (S = 4\\piR^{2}) bằng",
+          "choices": {
+            "A": "144\\pi cm^{2}",
+            "B": "72\\pi cm^{2}",
+            "C": "36\\pi cm^{2}",
+            "D": "288.0\\pi cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Một mặt cầu có bán kính R = 6 cm. Diện tích S của mặt cầu đó (S = 4"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "144"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "72"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "288.0"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Một mặt cầu có bán kính R = 6 cm. Diện tích S của mặt cầu đó (S = 4$\\pi$R$^2$) bằng",
+            "choices": {
+              "A": "144$\\pi$ cm$^2$",
+              "B": "72$\\pi$ cm$^2$",
+              "C": "36$\\pi$ cm$^2$",
+              "D": "288.0$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-06",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về một số hình khối trong thực tiễn, một học sinh gặp câu hỏi: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 9 cm. Thể tích V của hình nón đó (V = 1/3 · \\pir^{2}h) bằng. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "54\\pi cm^{3}",
+            "B": "81\\pi cm^{3}",
+            "C": "27\\pi cm^{3}",
+            "D": "9\\pi cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về một số hình khối trong thực tiễn, một học sinh gặp câu hỏi: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 9 cm. Thể tích V của hình nón đó (V = 1/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "r^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "h) bằng. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "54"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "81"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "27"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về một số hình khối trong thực tiễn, một học sinh gặp câu hỏi: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 9 cm. Thể tích V của hình nón đó (V = 1/3 $\\cdot$ $\\pi$r$^2$h) bằng. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "54$\\pi$ cm$^3$",
+              "B": "81$\\pi$ cm$^3$",
+              "C": "27$\\pi$ cm$^3$",
+              "D": "9$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-07",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hình trụ có bán kính đáy r = 8 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng",
+          "choices": {
+            "A": "80\\pi cm^{2}",
+            "B": "320\\pi cm^{2}",
+            "C": "40\\pi cm^{2}",
+            "D": "160\\pi cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hình trụ có bán kính đáy r = 8 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "80"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "320"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "160"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Một hình trụ có bán kính đáy r = 8 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng",
+            "choices": {
+              "A": "80$\\pi$ cm$^2$",
+              "B": "320$\\pi$ cm$^2$",
+              "C": "40$\\pi$ cm$^2$",
+              "D": "160$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-08",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương X: Một mặt cầu có bán kính R = 9 cm. Diện tích S của mặt cầu đó (S = 4\\piR^{2}) bằng",
+          "choices": {
+            "A": "972.0\\pi cm^{2}",
+            "B": "324\\pi cm^{2}",
+            "C": "162\\pi cm^{2}",
+            "D": "81\\pi cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương X: Một mặt cầu có bán kính R = 9 cm. Diện tích S của mặt cầu đó (S = 4"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "972.0"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "324"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "162"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "81"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương X: Một mặt cầu có bán kính R = 9 cm. Diện tích S của mặt cầu đó (S = 4$\\pi$R$^2$) bằng",
+            "choices": {
+              "A": "972.0$\\pi$ cm$^2$",
+              "B": "324$\\pi$ cm$^2$",
+              "C": "162$\\pi$ cm$^2$",
+              "D": "81$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-09",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 12 cm. Thể tích V của hình nón đó (V = 1/3 · \\pir^{2}h) bằng",
+          "choices": {
+            "A": "72\\pi cm^{3}",
+            "B": "108\\pi cm^{3}",
+            "C": "36\\pi cm^{3}",
+            "D": "12\\pi cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 12 cm. Thể tích V của hình nón đó (V = 1/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "r^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "h) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "72"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "108"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 12 cm. Thể tích V của hình nón đó (V = 1/3 $\\cdot$ $\\pi$r$^2$h) bằng",
+            "choices": {
+              "A": "72$\\pi$ cm$^3$",
+              "B": "108$\\pi$ cm$^3$",
+              "C": "36$\\pi$ cm$^3$",
+              "D": "12$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-10",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Một hình trụ có bán kính đáy r = 11 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng. Phương án chính xác là",
+          "choices": {
+            "A": "110\\pi cm^{2}",
+            "B": "55\\pi cm^{2}",
+            "C": "220\\pi cm^{2}",
+            "D": "605\\pi cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Một hình trụ có bán kính đáy r = 11 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "110"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "55"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "220"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "605"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Một hình trụ có bán kính đáy r = 11 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng. Phương án chính xác là",
+            "choices": {
+              "A": "110$\\pi$ cm$^2$",
+              "B": "55$\\pi$ cm$^2$",
+              "C": "220$\\pi$ cm$^2$",
+              "D": "605$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-11",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Một mặt cầu có bán kính R = 12 cm. Diện tích S của mặt cầu đó (S = 4\\piR^{2}) bằng",
+          "choices": {
+            "A": "144\\pi cm^{2}",
+            "B": "576\\pi cm^{2}",
+            "C": "288\\pi cm^{2}",
+            "D": "2304.0\\pi cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Một mặt cầu có bán kính R = 12 cm. Diện tích S của mặt cầu đó (S = 4"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "144"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "576"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "288"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2304.0"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Một mặt cầu có bán kính R = 12 cm. Diện tích S của mặt cầu đó (S = 4$\\pi$R$^2$) bằng",
+            "choices": {
+              "A": "144$\\pi$ cm$^2$",
+              "B": "576$\\pi$ cm$^2$",
+              "C": "288$\\pi$ cm$^2$",
+              "D": "2304.0$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-12",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương X): Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 15 cm. Thể tích V của hình nón đó (V = 1/3 · \\pir^{2}h) bằng",
+          "choices": {
+            "A": "15\\pi cm^{3}",
+            "B": "45\\pi cm^{3}",
+            "C": "135\\pi cm^{3}",
+            "D": "90\\pi cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương X): Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 15 cm. Thể tích V của hình nón đó (V = 1/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "r^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "h) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "45"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "135"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương X): Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 15 cm. Thể tích V của hình nón đó (V = 1/3 $\\cdot$ $\\pi$r$^2$h) bằng",
+            "choices": {
+              "A": "15$\\pi$ cm$^3$",
+              "B": "45$\\pi$ cm$^3$",
+              "C": "135$\\pi$ cm$^3$",
+              "D": "90$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-13",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương X), một hình trụ có bán kính đáy r = 14 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng",
+          "choices": {
+            "A": "980\\pi cm^{2}",
+            "B": "280\\pi cm^{2}",
+            "C": "140\\pi cm^{2}",
+            "D": "70\\pi cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương X), một hình trụ có bán kính đáy r = 14 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "980"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "280"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "140"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "70"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương X), một hình trụ có bán kính đáy r = 14 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng",
+            "choices": {
+              "A": "980$\\pi$ cm$^2$",
+              "B": "280$\\pi$ cm$^2$",
+              "C": "140$\\pi$ cm$^2$",
+              "D": "70$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-14",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Một mặt cầu có bán kính R = 15 cm. Diện tích S của mặt cầu đó (S = 4\\piR^{2}) bằng",
+          "choices": {
+            "A": "450\\pi cm^{2}",
+            "B": "225\\pi cm^{2}",
+            "C": "900\\pi cm^{2}",
+            "D": "4500.0\\pi cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Một mặt cầu có bán kính R = 15 cm. Diện tích S của mặt cầu đó (S = 4"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "450"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "225"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "900"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4500.0"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Một mặt cầu có bán kính R = 15 cm. Diện tích S của mặt cầu đó (S = 4$\\pi$R$^2$) bằng",
+            "choices": {
+              "A": "450$\\pi$ cm$^2$",
+              "B": "225$\\pi$ cm$^2$",
+              "C": "900$\\pi$ cm$^2$",
+              "D": "4500.0$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-15",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 18 cm. Thể tích V của hình nón đó (V = 1/3 · \\pir^{2}h) bằng. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "162\\pi cm^{3}",
+            "B": "108\\pi cm^{3}",
+            "C": "54\\pi cm^{3}",
+            "D": "18\\pi cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 18 cm. Thể tích V của hình nón đó (V = 1/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "r^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "h) bằng. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "162"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "108"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "54"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 18 cm. Thể tích V của hình nón đó (V = 1/3 $\\cdot$ $\\pi$r$^2$h) bằng. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "162$\\pi$ cm$^3$",
+              "B": "108$\\pi$ cm$^3$",
+              "C": "54$\\pi$ cm$^3$",
+              "D": "18$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-16",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Một hình trụ có bán kính đáy r = 17 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng",
+          "choices": {
+            "A": "340\\pi cm^{2}",
+            "B": "85\\pi cm^{2}",
+            "C": "170\\pi cm^{2}",
+            "D": "1445\\pi cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Một hình trụ có bán kính đáy r = 17 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "340"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "85"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "170"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1445"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Một hình trụ có bán kính đáy r = 17 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng",
+            "choices": {
+              "A": "340$\\pi$ cm$^2$",
+              "B": "85$\\pi$ cm$^2$",
+              "C": "170$\\pi$ cm$^2$",
+              "D": "1445$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-17",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Một mặt cầu có bán kính R = 18 cm. Diện tích S của mặt cầu đó (S = 4\\piR^{2}) bằng?",
+          "choices": {
+            "A": "7776.0\\pi cm^{2}",
+            "B": "1296\\pi cm^{2}",
+            "C": "648\\pi cm^{2}",
+            "D": "324\\pi cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Một mặt cầu có bán kính R = 18 cm. Diện tích S của mặt cầu đó (S = 4"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7776.0"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1296"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "648"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "324"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Một mặt cầu có bán kính R = 18 cm. Diện tích S của mặt cầu đó (S = 4$\\pi$R$^2$) bằng?",
+            "choices": {
+              "A": "7776.0$\\pi$ cm$^2$",
+              "B": "1296$\\pi$ cm$^2$",
+              "C": "648$\\pi$ cm$^2$",
+              "D": "324$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-18",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 21 cm. Thể tích V của hình nón đó (V = 1/3 · \\pir^{2}h) bằng",
+          "choices": {
+            "A": "63\\pi cm^{3}",
+            "B": "189\\pi cm^{3}",
+            "C": "126\\pi cm^{3}",
+            "D": "21\\pi cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 21 cm. Thể tích V của hình nón đó (V = 1/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "r^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "h) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "63"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "189"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "126"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "21"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 21 cm. Thể tích V của hình nón đó (V = 1/3 $\\cdot$ $\\pi$r$^2$h) bằng",
+            "choices": {
+              "A": "63$\\pi$ cm$^3$",
+              "B": "189$\\pi$ cm$^3$",
+              "C": "126$\\pi$ cm$^3$",
+              "D": "21$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-19",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Một hình trụ có bán kính đáy r = 20 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "100\\pi cm^{2}",
+            "B": "400\\pi cm^{2}",
+            "C": "2000\\pi cm^{2}",
+            "D": "200\\pi cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Một hình trụ có bán kính đáy r = 20 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "400"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2000"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "200"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Một hình trụ có bán kính đáy r = 20 cm và chiều cao h = 5 cm. Diện tích xung quanh của hình trụ đó bằng. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "100$\\pi$ cm$^2$",
+              "B": "400$\\pi$ cm$^2$",
+              "C": "2000$\\pi$ cm$^2$",
+              "D": "200$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-20",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương X để giải quyết yêu cầu: Một mặt cầu có bán kính R = 21 cm. Diện tích S của mặt cầu đó (S = 4\\piR^{2}) bằng",
+          "choices": {
+            "A": "12348.0\\pi cm^{2}",
+            "B": "1764\\pi cm^{2}",
+            "C": "441\\pi cm^{2}",
+            "D": "882\\pi cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương X để giải quyết yêu cầu: Một mặt cầu có bán kính R = 21 cm. Diện tích S của mặt cầu đó (S = 4"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12348.0"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1764"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "441"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "882"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương X để giải quyết yêu cầu: Một mặt cầu có bán kính R = 21 cm. Diện tích S của mặt cầu đó (S = 4$\\pi$R$^2$) bằng",
+            "choices": {
+              "A": "12348.0$\\pi$ cm$^2$",
+              "B": "1764$\\pi$ cm$^2$",
+              "C": "441$\\pi$ cm$^2$",
+              "D": "882$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-21",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh S_{xq} = \\pirl của hình nón lần lượt là",
+          "choices": {
+            "A": "l = 5 cm; S_{xq} = 30\\pi cm^{2}",
+            "B": "l = 5 cm; S_{xq} = 12\\pi cm^{2}",
+            "C": "l = 7 cm; S_{xq} = 21\\pi cm^{2}",
+            "D": "l = 5 cm; S_{xq} = 15\\pi cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh "
+            },
+            {
+              "t": "math",
+              "v": "S_{xq}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "rl của hình nón lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 30"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "l = 7 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 21"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 15"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh $S_{xq}$ = $\\pi$rl của hình nón lần lượt là",
+            "choices": {
+              "A": "l = 5 cm; $S_{xq}$ = 30$\\pi$ cm$^2$",
+              "B": "l = 5 cm; $S_{xq}$ = 12$\\pi$ cm$^2$",
+              "C": "l = 7 cm; $S_{xq}$ = 21$\\pi$ cm$^2$",
+              "D": "l = 5 cm; $S_{xq}$ = 15$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-22",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương X (Một số hình khối trong thực tiễn) để giải bài toán: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 · \\piR^{3}) bằng",
+          "choices": {
+            "A": "108\\pi cm^{3}",
+            "B": "36\\pi cm^{3}",
+            "C": "27\\pi cm^{3}",
+            "D": "12\\pi cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương X (Một số hình khối trong thực tiễn) để giải bài toán: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{3}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "108"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "27"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương X (Một số hình khối trong thực tiễn) để giải bài toán: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 $\\cdot$ $\\pi$R$^3$) bằng",
+            "choices": {
+              "A": "108$\\pi$ cm$^3$",
+              "B": "36$\\pi$ cm$^3$",
+              "C": "27$\\pi$ cm$^3$",
+              "D": "12$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-23",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương X: Một hình trụ có bán kính đáy r = 5 cm và chiều cao h = 7 cm. Thể tích của hình trụ đó bằng. Kết quả thu được là",
+          "choices": {
+            "A": "245\\pi cm^{3}",
+            "B": "175\\pi cm^{3}",
+            "C": "70\\pi cm^{3}",
+            "D": "58.3\\pi cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương X: Một hình trụ có bán kính đáy r = 5 cm và chiều cao h = 7 cm. Thể tích của hình trụ đó bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "245"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "175"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "70"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "58.3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương X: Một hình trụ có bán kính đáy r = 5 cm và chiều cao h = 7 cm. Thể tích của hình trụ đó bằng. Kết quả thu được là",
+            "choices": {
+              "A": "245$\\pi$ cm$^3$",
+              "B": "175$\\pi$ cm$^3$",
+              "C": "70$\\pi$ cm$^3$",
+              "D": "58.3$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-24",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Một hình nón có bán kính đáy r = 6 cm và chiều cao h = 8 cm. Độ dài đường sinh l và diện tích xung quanh S_{xq} = \\pirl của hình nón lần lượt là. Đáp án đúng là: []",
+          "choices": {
+            "A": "l = 10 cm; S_{xq} = 120\\pi cm^{2} []",
+            "B": "l = 14 cm; S_{xq} = 84\\pi cm^{2} []",
+            "C": "l = 10 cm; S_{xq} = 48\\pi cm^{2} []",
+            "D": "l = 10 cm; S_{xq} = 60\\pi cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Một hình nón có bán kính đáy r = 6 cm và chiều cao h = 8 cm. Độ dài đường sinh l và diện tích xung quanh "
+            },
+            {
+              "t": "math",
+              "v": "S_{xq}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "rl của hình nón lần lượt là. Đáp án đúng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "l = 10 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 120"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "l = 14 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 84"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "l = 10 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 48"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "l = 10 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 60"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Một hình nón có bán kính đáy r = 6 cm và chiều cao h = 8 cm. Độ dài đường sinh l và diện tích xung quanh $S_{xq}$ = $\\pi$rl của hình nón lần lượt là. Đáp án đúng là: []",
+            "choices": {
+              "A": "l = 10 cm; $S_{xq}$ = 120$\\pi$ cm$^2$ []",
+              "B": "l = 14 cm; $S_{xq}$ = 84$\\pi$ cm$^2$ []",
+              "C": "l = 10 cm; $S_{xq}$ = 48$\\pi$ cm$^2$ []",
+              "D": "l = 10 cm; $S_{xq}$ = 60$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-25",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương X, hãy xác định: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 · \\piR^{3}) bằng",
+          "choices": {
+            "A": "36\\pi cm^{3}",
+            "B": "27\\pi cm^{3}",
+            "C": "12\\pi cm^{3}",
+            "D": "108\\pi cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương X, hãy xác định: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{3}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "108"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương X, hãy xác định: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 $\\cdot$ $\\pi$R$^3$) bằng",
+            "choices": {
+              "A": "36$\\pi$ cm$^3$",
+              "B": "27$\\pi$ cm$^3$",
+              "C": "12$\\pi$ cm$^3$",
+              "D": "108$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-26",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Một hình trụ có bán kính đáy r = 8 cm và chiều cao h = 10 cm. Thể tích của hình trụ đó bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "640\\pi cm^{3}",
+            "B": "800\\pi cm^{3}",
+            "C": "160\\pi cm^{3}",
+            "D": "213.3\\pi cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Một hình trụ có bán kính đáy r = 8 cm và chiều cao h = 10 cm. Thể tích của hình trụ đó bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "640"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "800"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "160"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "213.3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Một hình trụ có bán kính đáy r = 8 cm và chiều cao h = 10 cm. Thể tích của hình trụ đó bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "640$\\pi$ cm$^3$",
+              "B": "800$\\pi$ cm$^3$",
+              "C": "160$\\pi$ cm$^3$",
+              "D": "213.3$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-27",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương X vào bài tập sau: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh S_{xq} = \\pirl của hình nón lần lượt là",
+          "choices": {
+            "A": "l = 5 cm; S_{xq} = 12\\pi cm^{2}",
+            "B": "l = 5 cm; S_{xq} = 30\\pi cm^{2}",
+            "C": "l = 7 cm; S_{xq} = 21\\pi cm^{2}",
+            "D": "l = 5 cm; S_{xq} = 15\\pi cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương X vào bài tập sau: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh "
+            },
+            {
+              "t": "math",
+              "v": "S_{xq}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "rl của hình nón lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 30"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "l = 7 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 21"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 15"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương X vào bài tập sau: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh $S_{xq}$ = $\\pi$rl của hình nón lần lượt là",
+            "choices": {
+              "A": "l = 5 cm; $S_{xq}$ = 12$\\pi$ cm$^2$",
+              "B": "l = 5 cm; $S_{xq}$ = 30$\\pi$ cm$^2$",
+              "C": "l = 7 cm; $S_{xq}$ = 21$\\pi$ cm$^2$",
+              "D": "l = 5 cm; $S_{xq}$ = 15$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-28",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 · \\piR^{3}) bằng",
+          "choices": {
+            "A": "108\\pi cm^{3}",
+            "B": "36\\pi cm^{3}",
+            "C": "27\\pi cm^{3}",
+            "D": "12\\pi cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{3}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "108"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "27"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 $\\cdot$ $\\pi$R$^3$) bằng",
+            "choices": {
+              "A": "108$\\pi$ cm$^3$",
+              "B": "36$\\pi$ cm$^3$",
+              "C": "27$\\pi$ cm$^3$",
+              "D": "12$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-29",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Một số hình khối trong thực tiễn): Một hình trụ có bán kính đáy r = 11 cm và chiều cao h = 13 cm. Thể tích của hình trụ đó bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "524.3\\pi cm^{3}",
+            "B": "1573\\pi cm^{3}",
+            "C": "1859\\pi cm^{3}",
+            "D": "286\\pi cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Một số hình khối trong thực tiễn): Một hình trụ có bán kính đáy r = 11 cm và chiều cao h = 13 cm. Thể tích của hình trụ đó bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "524.3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1573"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1859"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "286"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Một số hình khối trong thực tiễn): Một hình trụ có bán kính đáy r = 11 cm và chiều cao h = 13 cm. Thể tích của hình trụ đó bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "524.3$\\pi$ cm$^3$",
+              "B": "1573$\\pi$ cm$^3$",
+              "C": "1859$\\pi$ cm$^3$",
+              "D": "286$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-30",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương X, hãy tìm kết quả của bài toán: Một hình nón có bán kính đáy r = 6 cm và chiều cao h = 8 cm. Độ dài đường sinh l và diện tích xung quanh S_{xq} = \\pirl của hình nón lần lượt là: []",
+          "choices": {
+            "A": "l = 10 cm; S_{xq} = 60\\pi cm^{2} []",
+            "B": "l = 14 cm; S_{xq} = 84\\pi cm^{2} []",
+            "C": "l = 10 cm; S_{xq} = 120\\pi cm^{2} []",
+            "D": "l = 10 cm; S_{xq} = 48\\pi cm^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương X, hãy tìm kết quả của bài toán: Một hình nón có bán kính đáy r = 6 cm và chiều cao h = 8 cm. Độ dài đường sinh l và diện tích xung quanh "
+            },
+            {
+              "t": "math",
+              "v": "S_{xq}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "rl của hình nón lần lượt là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "l = 10 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 60"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "l = 14 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 84"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "l = 10 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 120"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "l = 10 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 48"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương X, hãy tìm kết quả của bài toán: Một hình nón có bán kính đáy r = 6 cm và chiều cao h = 8 cm. Độ dài đường sinh l và diện tích xung quanh $S_{xq}$ = $\\pi$rl của hình nón lần lượt là: []",
+            "choices": {
+              "A": "l = 10 cm; $S_{xq}$ = 60$\\pi$ cm$^2$ []",
+              "B": "l = 14 cm; $S_{xq}$ = 84$\\pi$ cm$^2$ []",
+              "C": "l = 10 cm; $S_{xq}$ = 120$\\pi$ cm$^2$ []",
+              "D": "l = 10 cm; $S_{xq}$ = 48$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-31",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương X nêu câu hỏi: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 · \\piR^{3}) bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "12\\pi cm^{3}",
+            "B": "36\\pi cm^{3}",
+            "C": "108\\pi cm^{3}",
+            "D": "27\\pi cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương X nêu câu hỏi: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{3}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "108"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "27"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương X nêu câu hỏi: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 $\\cdot$ $\\pi$R$^3$) bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "12$\\pi$ cm$^3$",
+              "B": "36$\\pi$ cm$^3$",
+              "C": "108$\\pi$ cm$^3$",
+              "D": "27$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-32",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Một hình trụ có bán kính đáy r = 14 cm và chiều cao h = 16 cm. Thể tích của hình trụ đó bằng",
+          "choices": {
+            "A": "3584\\pi cm^{3}",
+            "B": "448\\pi cm^{3}",
+            "C": "3136\\pi cm^{3}",
+            "D": "1045.3\\pi cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Một hình trụ có bán kính đáy r = 14 cm và chiều cao h = 16 cm. Thể tích của hình trụ đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3584"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "448"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3136"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1045.3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Một hình trụ có bán kính đáy r = 14 cm và chiều cao h = 16 cm. Thể tích của hình trụ đó bằng",
+            "choices": {
+              "A": "3584$\\pi$ cm$^3$",
+              "B": "448$\\pi$ cm$^3$",
+              "C": "3136$\\pi$ cm$^3$",
+              "D": "1045.3$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-33",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh S_{xq} = \\pirl của hình nón lần lượt là",
+          "choices": {
+            "A": "l = 5 cm; S_{xq} = 12\\pi cm^{2}",
+            "B": "l = 5 cm; S_{xq} = 15\\pi cm^{2}",
+            "C": "l = 5 cm; S_{xq} = 30\\pi cm^{2}",
+            "D": "l = 7 cm; S_{xq} = 21\\pi cm^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh "
+            },
+            {
+              "t": "math",
+              "v": "S_{xq}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "rl của hình nón lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 15"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 30"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "l = 7 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 21"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh $S_{xq}$ = $\\pi$rl của hình nón lần lượt là",
+            "choices": {
+              "A": "l = 5 cm; $S_{xq}$ = 12$\\pi$ cm$^2$",
+              "B": "l = 5 cm; $S_{xq}$ = 15$\\pi$ cm$^2$",
+              "C": "l = 5 cm; $S_{xq}$ = 30$\\pi$ cm$^2$",
+              "D": "l = 7 cm; $S_{xq}$ = 21$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-34",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 · \\piR^{3}) bằng",
+          "choices": {
+            "A": "108\\pi cm^{3}",
+            "B": "36\\pi cm^{3}",
+            "C": "27\\pi cm^{3}",
+            "D": "12\\pi cm^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{3}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "108"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "27"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 $\\cdot$ $\\pi$R$^3$) bằng",
+            "choices": {
+              "A": "108$\\pi$ cm$^3$",
+              "B": "36$\\pi$ cm$^3$",
+              "C": "27$\\pi$ cm$^3$",
+              "D": "12$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-35",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương X, xét bài toán: Một hình trụ có bán kính đáy r = 17 cm và chiều cao h = 19 cm. Thể tích của hình trụ đó bằng",
+          "choices": {
+            "A": "6137\\pi cm^{3}",
+            "B": "1830.3\\pi cm^{3}",
+            "C": "5491\\pi cm^{3}",
+            "D": "646\\pi cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương X, xét bài toán: Một hình trụ có bán kính đáy r = 17 cm và chiều cao h = 19 cm. Thể tích của hình trụ đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6137"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1830.3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5491"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "646"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương X, xét bài toán: Một hình trụ có bán kính đáy r = 17 cm và chiều cao h = 19 cm. Thể tích của hình trụ đó bằng",
+            "choices": {
+              "A": "6137$\\pi$ cm$^3$",
+              "B": "1830.3$\\pi$ cm$^3$",
+              "C": "5491$\\pi$ cm$^3$",
+              "D": "646$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-36",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Một số hình khối trong thực tiễn): Một hình nón có bán kính đáy r = 6 cm và chiều cao h = 8 cm. Độ dài đường sinh l và diện tích xung quanh S_{xq} = \\pirl của hình nón lần lượt là. Đáp án nào dưới đây thỏa mãn? []",
+          "choices": {
+            "A": "l = 10 cm; S_{xq} = 120\\pi cm^{2} []",
+            "B": "l = 14 cm; S_{xq} = 84\\pi cm^{2} []",
+            "C": "l = 10 cm; S_{xq} = 60\\pi cm^{2} []",
+            "D": "l = 10 cm; S_{xq} = 48\\pi cm^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Một số hình khối trong thực tiễn): Một hình nón có bán kính đáy r = 6 cm và chiều cao h = 8 cm. Độ dài đường sinh l và diện tích xung quanh "
+            },
+            {
+              "t": "math",
+              "v": "S_{xq}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "rl của hình nón lần lượt là. Đáp án nào dưới đây thỏa mãn? []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "l = 10 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 120"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "l = 14 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 84"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "l = 10 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 60"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "l = 10 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 48"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Một số hình khối trong thực tiễn): Một hình nón có bán kính đáy r = 6 cm và chiều cao h = 8 cm. Độ dài đường sinh l và diện tích xung quanh $S_{xq}$ = $\\pi$rl của hình nón lần lượt là. Đáp án nào dưới đây thỏa mãn? []",
+            "choices": {
+              "A": "l = 10 cm; $S_{xq}$ = 120$\\pi$ cm$^2$ []",
+              "B": "l = 14 cm; $S_{xq}$ = 84$\\pi$ cm$^2$ []",
+              "C": "l = 10 cm; $S_{xq}$ = 60$\\pi$ cm$^2$ []",
+              "D": "l = 10 cm; $S_{xq}$ = 48$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-37",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 · \\piR^{3}) bằng",
+          "choices": {
+            "A": "36\\pi cm^{3}",
+            "B": "27\\pi cm^{3}",
+            "C": "108\\pi cm^{3}",
+            "D": "12\\pi cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{3}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "108"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 $\\cdot$ $\\pi$R$^3$) bằng",
+            "choices": {
+              "A": "36$\\pi$ cm$^3$",
+              "B": "27$\\pi$ cm$^3$",
+              "C": "108$\\pi$ cm$^3$",
+              "D": "12$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-38",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương X: Một hình trụ có bán kính đáy r = 20 cm và chiều cao h = 22 cm. Thể tích của hình trụ đó bằng. Kết luận đúng là",
+          "choices": {
+            "A": "2933.3\\pi cm^{3}",
+            "B": "880\\pi cm^{3}",
+            "C": "8800\\pi cm^{3}",
+            "D": "9680\\pi cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương X: Một hình trụ có bán kính đáy r = 20 cm và chiều cao h = 22 cm. Thể tích của hình trụ đó bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2933.3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "880"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8800"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9680"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương X: Một hình trụ có bán kính đáy r = 20 cm và chiều cao h = 22 cm. Thể tích của hình trụ đó bằng. Kết luận đúng là",
+            "choices": {
+              "A": "2933.3$\\pi$ cm$^3$",
+              "B": "880$\\pi$ cm$^3$",
+              "C": "8800$\\pi$ cm$^3$",
+              "D": "9680$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-39",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh S_{xq} = \\pirl của hình nón lần lượt là",
+          "choices": {
+            "A": "l = 5 cm; S_{xq} = 30\\pi cm^{2}",
+            "B": "l = 7 cm; S_{xq} = 21\\pi cm^{2}",
+            "C": "l = 5 cm; S_{xq} = 12\\pi cm^{2}",
+            "D": "l = 5 cm; S_{xq} = 15\\pi cm^{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh "
+            },
+            {
+              "t": "math",
+              "v": "S_{xq}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "rl của hình nón lần lượt là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 30"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "l = 7 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 21"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "l = 5 cm; "
+              },
+              {
+                "t": "math",
+                "v": "S_{xq}"
+              },
+              {
+                "t": "txt",
+                "v": " = 15"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương X: Một hình nón có bán kính đáy r = 3 cm và chiều cao h = 4 cm. Độ dài đường sinh l và diện tích xung quanh $S_{xq}$ = $\\pi$rl của hình nón lần lượt là",
+            "choices": {
+              "A": "l = 5 cm; $S_{xq}$ = 30$\\pi$ cm$^2$",
+              "B": "l = 7 cm; $S_{xq}$ = 21$\\pi$ cm$^2$",
+              "C": "l = 5 cm; $S_{xq}$ = 12$\\pi$ cm$^2$",
+              "D": "l = 5 cm; $S_{xq}$ = 15$\\pi$ cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-40",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 · \\piR^{3}) bằng",
+          "choices": {
+            "A": "27\\pi cm^{3}",
+            "B": "108\\pi cm^{3}",
+            "C": "12\\pi cm^{3}",
+            "D": "36\\pi cm^{3}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "math",
+              "v": "R^{3}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "27"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "108"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Một hình cầu có bán kính R = 3 cm. Thể tích V của hình cầu đó (V = 4/3 $\\cdot$ $\\pi$R$^3$) bằng",
+            "choices": {
+              "A": "27$\\pi$ cm$^3$",
+              "B": "108$\\pi$ cm$^3$",
+              "C": "12$\\pi$ cm$^3$",
+              "D": "36$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-41",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Quay một hình chữ nhật ABCD có AB = 3 cm, BC = 4 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng",
+          "choices": {
+            "A": "12\\pi cm^{3}",
+            "B": "36\\pi cm^{3}",
+            "C": "48\\pi cm^{3}",
+            "D": "24\\pi cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quay một hình chữ nhật ABCD có AB = 3 cm, BC = 4 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "36"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "48"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quay một hình chữ nhật ABCD có AB = 3 cm, BC = 4 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng",
+            "choices": {
+              "A": "12$\\pi$ cm$^3$",
+              "B": "36$\\pi$ cm$^3$",
+              "C": "48$\\pi$ cm$^3$",
+              "D": "24$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-42",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương X – Một số hình khối trong thực tiễn): Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng. Kết quả đúng là",
+          "choices": {
+            "A": "9",
+            "B": "1/3",
+            "C": "2",
+            "D": "3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương X – Một số hình khối trong thực tiễn): Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương X – Một số hình khối trong thực tiễn): Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng. Kết quả đúng là",
+            "choices": {
+              "A": "9",
+              "B": "1/3",
+              "C": "2",
+              "D": "3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-43",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương X để giải bài toán: Quay một hình chữ nhật ABCD có AB = 5 cm, BC = 6 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng",
+          "choices": {
+            "A": "180\\pi cm^{3}",
+            "B": "30\\pi cm^{3}",
+            "C": "60\\pi cm^{3}",
+            "D": "150\\pi cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương X để giải bài toán: Quay một hình chữ nhật ABCD có AB = 5 cm, BC = 6 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "180"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "60"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "150"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương X để giải bài toán: Quay một hình chữ nhật ABCD có AB = 5 cm, BC = 6 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng",
+            "choices": {
+              "A": "180$\\pi$ cm$^3$",
+              "B": "30$\\pi$ cm$^3$",
+              "C": "60$\\pi$ cm$^3$",
+              "D": "150$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-44",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương X: Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng",
+          "choices": {
+            "A": "2",
+            "B": "1/3",
+            "C": "9",
+            "D": "3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương X: Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương X: Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng",
+            "choices": {
+              "A": "2",
+              "B": "1/3",
+              "C": "9",
+              "D": "3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-45",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương X: Quay một hình chữ nhật ABCD có AB = 7 cm, BC = 8 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng. Đáp số chính xác là",
+          "choices": {
+            "A": "56\\pi cm^{3}",
+            "B": "392\\pi cm^{3}",
+            "C": "448\\pi cm^{3}",
+            "D": "112\\pi cm^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương X: Quay một hình chữ nhật ABCD có AB = 7 cm, BC = 8 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "56"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "392"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "448"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "112"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương X: Quay một hình chữ nhật ABCD có AB = 7 cm, BC = 8 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng. Đáp số chính xác là",
+            "choices": {
+              "A": "56$\\pi$ cm$^3$",
+              "B": "392$\\pi$ cm$^3$",
+              "C": "448$\\pi$ cm$^3$",
+              "D": "112$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-46",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương X để tìm đáp án cho bài toán: Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng",
+          "choices": {
+            "A": "1/3",
+            "B": "3",
+            "C": "2",
+            "D": "9"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương X để tìm đáp án cho bài toán: Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương X để tìm đáp án cho bài toán: Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng",
+            "choices": {
+              "A": "1/3",
+              "B": "3",
+              "C": "2",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-47",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương X: Quay một hình chữ nhật ABCD có AB = 9 cm, BC = 10 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng",
+          "choices": {
+            "A": "810\\pi cm^{3}",
+            "B": "180\\pi cm^{3}",
+            "C": "90\\pi cm^{3}",
+            "D": "900\\pi cm^{3}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương X: Quay một hình chữ nhật ABCD có AB = 9 cm, BC = 10 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "810"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "180"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "90"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "900"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương X: Quay một hình chữ nhật ABCD có AB = 9 cm, BC = 10 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng",
+            "choices": {
+              "A": "810$\\pi$ cm$^3$",
+              "B": "180$\\pi$ cm$^3$",
+              "C": "90$\\pi$ cm$^3$",
+              "D": "900$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-48",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương X): Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng",
+          "choices": {
+            "A": "9",
+            "B": "2",
+            "C": "1/3",
+            "D": "3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương X): Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương X): Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng",
+            "choices": {
+              "A": "9",
+              "B": "2",
+              "C": "1/3",
+              "D": "3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-49",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương X, hãy giải quyết bài toán: Quay một hình chữ nhật ABCD có AB = 11 cm, BC = 12 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng",
+          "choices": {
+            "A": "1584\\pi cm^{3}",
+            "B": "264\\pi cm^{3}",
+            "C": "1452\\pi cm^{3}",
+            "D": "132\\pi cm^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương X, hãy giải quyết bài toán: Quay một hình chữ nhật ABCD có AB = 11 cm, BC = 12 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1584"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "264"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1452"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "132"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "cm^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương X, hãy giải quyết bài toán: Quay một hình chữ nhật ABCD có AB = 11 cm, BC = 12 cm một vòng quanh cạnh cố định AB, ta thu được một hình trụ có thể tích bằng",
+            "choices": {
+              "A": "1584$\\pi$ cm$^3$",
+              "B": "264$\\pi$ cm$^3$",
+              "C": "1452$\\pi$ cm$^3$",
+              "D": "132$\\pi$ cm$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "9-10-50",
+          "grade": 9,
+          "chapter": 10,
+          "chapterTitle": "MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương X: Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng. Phương án đúng là",
+          "choices": {
+            "A": "1/3",
+            "B": "9",
+            "C": "2",
+            "D": "3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương X: Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương X: Một hình trụ và một hình nón có cùng bán kính đáy r và cùng chiều cao h. Tỉ số thể tích của hình trụ so với thể tích của hình nón đó luôn bằng. Phương án đúng là",
+            "choices": {
+              "A": "1/3",
+              "B": "9",
+              "C": "2",
+              "D": "3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "X",
+            "answerKey": "Bảng đáp án Chương X",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

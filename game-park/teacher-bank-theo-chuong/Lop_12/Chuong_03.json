@@ -1,0 +1,3825 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 12,
+      "chapter": 3,
+      "roman": "III",
+      "title": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "12-03-01",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [10; 15) đến [35; 40). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng",
+          "choices": {
+            "A": "5",
+            "B": "25",
+            "C": "35",
+            "D": "30"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [10; 15) đến [35; 40). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [10; 15) đến [35; 40). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng",
+            "choices": {
+              "A": "5",
+              "B": "25",
+              "C": "35",
+              "D": "30"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-02",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q_1 = 13 và tứ phân vị thứ ba Q_3 = 22 thì khoảng tứ phân vị \\Delta_Q bằng.",
+          "choices": {
+            "A": "4,5",
+            "B": "10",
+            "C": "9",
+            "D": "35"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 13 và tứ phân vị thứ ba "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 22 thì khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4,5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q$_1$ = 13 và tứ phân vị thứ ba Q$_3$ = 22 thì khoảng tứ phân vị $\\Delta_Q$ bằng.",
+            "choices": {
+              "A": "4,5",
+              "B": "10",
+              "C": "9",
+              "D": "35"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-03",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương III, xét nội dung: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì. Đáp án đúng là: []",
+          "choices": {
+            "A": "Có mức độ biến động mạnh hơn []",
+            "B": "Có khoảng biến thiên lớn hơn []",
+            "C": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+            "D": "Có số trung bình lớn hơn"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương III, xét nội dung: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì. Đáp án đúng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Có mức độ biến động mạnh hơn []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Có khoảng biến thiên lớn hơn []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Có số trung bình lớn hơn"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương III, xét nội dung: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì. Đáp án đúng là: []",
+            "choices": {
+              "A": "Có mức độ biến động mạnh hơn []",
+              "B": "Có khoảng biến thiên lớn hơn []",
+              "C": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+              "D": "Có số trung bình lớn hơn"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-04",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương III (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm), cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [25; 30) đến [50; 55). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng",
+          "choices": {
+            "A": "25",
+            "B": "30",
+            "C": "35",
+            "D": "5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương III (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm), cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [25; 30) đến [50; 55). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương III (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm), cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [25; 30) đến [50; 55). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng",
+            "choices": {
+              "A": "25",
+              "B": "30",
+              "C": "35",
+              "D": "5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-05",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q_1 = 16 và tứ phân vị thứ ba Q_3 = 25 thì khoảng tứ phân vị \\Delta_Q bằng",
+          "choices": {
+            "A": "10",
+            "B": "4,5",
+            "C": "41",
+            "D": "9"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 16 và tứ phân vị thứ ba "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 25 thì khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4,5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "41"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q$_1$ = 16 và tứ phân vị thứ ba Q$_3$ = 25 thì khoảng tứ phân vị $\\Delta_Q$ bằng",
+            "choices": {
+              "A": "10",
+              "B": "4,5",
+              "C": "41",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-06",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm, một học sinh gặp câu hỏi: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì. Kết quả nào dưới đây đúng? []",
+          "choices": {
+            "A": "Có khoảng biến thiên lớn hơn []",
+            "B": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+            "C": "Có số trung bình lớn hơn []",
+            "D": "Có mức độ biến động mạnh hơn"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm, một học sinh gặp câu hỏi: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì. Kết quả nào dưới đây đúng? []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Có khoảng biến thiên lớn hơn []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Có số trung bình lớn hơn []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Có mức độ biến động mạnh hơn"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm, một học sinh gặp câu hỏi: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì. Kết quả nào dưới đây đúng? []",
+            "choices": {
+              "A": "Có khoảng biến thiên lớn hơn []",
+              "B": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+              "C": "Có số trung bình lớn hơn []",
+              "D": "Có mức độ biến động mạnh hơn"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-07",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [40; 45) đến [65; 70). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng",
+          "choices": {
+            "A": "5",
+            "B": "30",
+            "C": "25",
+            "D": "35"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [40; 45) đến [65; 70). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [40; 45) đến [65; 70). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng",
+            "choices": {
+              "A": "5",
+              "B": "30",
+              "C": "25",
+              "D": "35"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-08",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương III: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q_1 = 19 và tứ phân vị thứ ba Q_3 = 28 thì khoảng tứ phân vị \\Delta_Q bằng",
+          "choices": {
+            "A": "47",
+            "B": "9",
+            "C": "10",
+            "D": "4,5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương III: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 19 và tứ phân vị thứ ba "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 28 thì khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "47"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4,5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương III: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q$_1$ = 19 và tứ phân vị thứ ba Q$_3$ = 28 thì khoảng tứ phân vị $\\Delta_Q$ bằng",
+            "choices": {
+              "A": "47",
+              "B": "9",
+              "C": "10",
+              "D": "4,5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-09",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì: []",
+          "choices": {
+            "A": "Có số trung bình lớn hơn []",
+            "B": "Có mức độ biến động mạnh hơn []",
+            "C": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+            "D": "Có khoảng biến thiên lớn hơn"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Có số trung bình lớn hơn []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Có mức độ biến động mạnh hơn []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Có khoảng biến thiên lớn hơn"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì: []",
+            "choices": {
+              "A": "Có số trung bình lớn hơn []",
+              "B": "Có mức độ biến động mạnh hơn []",
+              "C": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+              "D": "Có khoảng biến thiên lớn hơn"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-10",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [55; 60) đến [80; 85). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng. Phương án chính xác là",
+          "choices": {
+            "A": "5",
+            "B": "25",
+            "C": "35",
+            "D": "30"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [55; 60) đến [80; 85). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [55; 60) đến [80; 85). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng. Phương án chính xác là",
+            "choices": {
+              "A": "5",
+              "B": "25",
+              "C": "35",
+              "D": "30"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-11",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q_1 = 22 và tứ phân vị thứ ba Q_3 = 31 thì khoảng tứ phân vị \\Delta_Q bằng",
+          "choices": {
+            "A": "10",
+            "B": "53",
+            "C": "4,5",
+            "D": "9"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 22 và tứ phân vị thứ ba "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 31 thì khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "53"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4,5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q$_1$ = 22 và tứ phân vị thứ ba Q$_3$ = 31 thì khoảng tứ phân vị $\\Delta_Q$ bằng",
+            "choices": {
+              "A": "10",
+              "B": "53",
+              "C": "4,5",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-12",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương III): Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì: []",
+          "choices": {
+            "A": "Có số trung bình lớn hơn []",
+            "B": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+            "C": "Có khoảng biến thiên lớn hơn []",
+            "D": "Có mức độ biến động mạnh hơn"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương III): Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Có số trung bình lớn hơn []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Có khoảng biến thiên lớn hơn []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Có mức độ biến động mạnh hơn"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương III): Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì: []",
+            "choices": {
+              "A": "Có số trung bình lớn hơn []",
+              "B": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+              "C": "Có khoảng biến thiên lớn hơn []",
+              "D": "Có mức độ biến động mạnh hơn"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-13",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương III), cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [70; 75) đến [95; 100). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng",
+          "choices": {
+            "A": "35",
+            "B": "25",
+            "C": "5",
+            "D": "30"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương III), cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [70; 75) đến [95; 100). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương III), cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [70; 75) đến [95; 100). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng",
+            "choices": {
+              "A": "35",
+              "B": "25",
+              "C": "5",
+              "D": "30"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-14",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q_1 = 25 và tứ phân vị thứ ba Q_3 = 34 thì khoảng tứ phân vị \\Delta_Q bằng",
+          "choices": {
+            "A": "9",
+            "B": "10",
+            "C": "59",
+            "D": "4,5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 25 và tứ phân vị thứ ba "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 34 thì khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "59"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4,5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q$_1$ = 25 và tứ phân vị thứ ba Q$_3$ = 34 thì khoảng tứ phân vị $\\Delta_Q$ bằng",
+            "choices": {
+              "A": "9",
+              "B": "10",
+              "C": "59",
+              "D": "4,5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-15",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương III: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì. Giá trị hoặc tính chất tương ứng là: []",
+          "choices": {
+            "A": "Có số trung bình lớn hơn []",
+            "B": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+            "C": "Có mức độ biến động mạnh hơn []",
+            "D": "Có khoảng biến thiên lớn hơn"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương III: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì. Giá trị hoặc tính chất tương ứng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Có số trung bình lớn hơn []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Có mức độ biến động mạnh hơn []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Có khoảng biến thiên lớn hơn"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương III: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì. Giá trị hoặc tính chất tương ứng là: []",
+            "choices": {
+              "A": "Có số trung bình lớn hơn []",
+              "B": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+              "C": "Có mức độ biến động mạnh hơn []",
+              "D": "Có khoảng biến thiên lớn hơn"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-16",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [85; 90) đến [110; 115). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng",
+          "choices": {
+            "A": "30",
+            "B": "25",
+            "C": "35",
+            "D": "5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [85; 90) đến [110; 115). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [85; 90) đến [110; 115). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng",
+            "choices": {
+              "A": "30",
+              "B": "25",
+              "C": "35",
+              "D": "5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-17",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q_1 = 28 và tứ phân vị thứ ba Q_3 = 37 thì khoảng tứ phân vị \\Delta_Q bằng?",
+          "choices": {
+            "A": "65",
+            "B": "10",
+            "C": "9",
+            "D": "4,5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 28 và tứ phân vị thứ ba "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 37 thì khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "65"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4,5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q$_1$ = 28 và tứ phân vị thứ ba Q$_3$ = 37 thì khoảng tứ phân vị $\\Delta_Q$ bằng?",
+            "choices": {
+              "A": "65",
+              "B": "10",
+              "C": "9",
+              "D": "4,5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-18",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương III: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì: []",
+          "choices": {
+            "A": "Có mức độ biến động mạnh hơn []",
+            "B": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+            "C": "Có số trung bình lớn hơn []",
+            "D": "Có khoảng biến thiên lớn hơn"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương III: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Có mức độ biến động mạnh hơn []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Có số trung bình lớn hơn []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Có khoảng biến thiên lớn hơn"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương III: Khi so sánh hai mẫu số liệu ghép nhóm có cùng đơn vị đo và số trung bình xấp xỉ nhau, mẫu số liệu nào có độ lệch chuẩn s nhỏ hơn thì: []",
+            "choices": {
+              "A": "Có mức độ biến động mạnh hơn []",
+              "B": "Có mức độ phân tán thấp hơn (các giá trị tập trung đồng đều hơn quanh số trung bình) []",
+              "C": "Có số trung bình lớn hơn []",
+              "D": "Có khoảng biến thiên lớn hơn"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-19",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [100; 105) đến [125; 130). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "25",
+            "B": "35",
+            "C": "5",
+            "D": "30"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [100; 105) đến [125; 130). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Cho mẫu số liệu ghép nhóm gồm các nhóm liên tiếp từ [100; 105) đến [125; 130). Khoảng biến thiên R của mẫu số liệu ghép nhóm này bằng. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "25",
+              "B": "35",
+              "C": "5",
+              "D": "30"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-20",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương III để giải quyết yêu cầu: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q_1 = 31 và tứ phân vị thứ ba Q_3 = 40 thì khoảng tứ phân vị \\Delta_Q bằng",
+          "choices": {
+            "A": "9",
+            "B": "10",
+            "C": "71",
+            "D": "4,5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương III để giải quyết yêu cầu: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất "
+            },
+            {
+              "t": "math",
+              "v": "Q_1"
+            },
+            {
+              "t": "txt",
+              "v": " = 31 và tứ phân vị thứ ba "
+            },
+            {
+              "t": "math",
+              "v": "Q_3"
+            },
+            {
+              "t": "txt",
+              "v": " = 40 thì khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "71"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4,5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương III để giải quyết yêu cầu: Nếu một mẫu số liệu ghép nhóm có tứ phân vị thứ nhất Q$_1$ = 31 và tứ phân vị thứ ba Q$_3$ = 40 thì khoảng tứ phân vị $\\Delta_Q$ bằng",
+            "choices": {
+              "A": "9",
+              "B": "10",
+              "C": "71",
+              "D": "4,5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-21",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Một mẫu số liệu ghép nhóm có phương sai s^{2} = 2.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng",
+          "choices": {
+            "A": "3",
+            "B": "2.25",
+            "C": "1.5",
+            "D": "0.75"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một mẫu số liệu ghép nhóm có phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 2.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2.25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1.5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0.75"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một mẫu số liệu ghép nhóm có phương sai s$^2$ = 2.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng",
+            "choices": {
+              "A": "3",
+              "B": "2.25",
+              "C": "1.5",
+              "D": "0.75"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-22",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương III (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm) để giải bài toán: Ưu điểm nổi bật của khoảng tứ phân vị \\Delta_Q so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+          "choices": {
+            "A": "Tính toán không cần biết tần số của các nhóm []",
+            "B": "Luôn bằng phương sai []",
+            "C": "Luôn lớn hơn khoảng biến thiên R []",
+            "D": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương III (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm) để giải bài toán: Ưu điểm nổi bật của khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tính toán không cần biết tần số của các nhóm []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng phương sai []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Luôn lớn hơn khoảng biến thiên R []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương III (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm) để giải bài toán: Ưu điểm nổi bật của khoảng tứ phân vị $\\Delta_Q$ so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+            "choices": {
+              "A": "Tính toán không cần biết tần số của các nhóm []",
+              "B": "Luôn bằng phương sai []",
+              "C": "Luôn lớn hơn khoảng biến thiên R []",
+              "D": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-23",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương III: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s^{2} của mẫu số liệu ghép nhóm này bằng. Kết quả thu được là",
+          "choices": {
+            "A": "25",
+            "B": "10",
+            "C": "5",
+            "D": "50"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương III: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm này bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương III: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s$^2$ của mẫu số liệu ghép nhóm này bằng. Kết quả thu được là",
+            "choices": {
+              "A": "25",
+              "B": "10",
+              "C": "5",
+              "D": "50"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-24",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Một mẫu số liệu ghép nhóm có phương sai s^{2} = 9.00. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng. Đáp án đúng là",
+          "choices": {
+            "A": "1.50",
+            "B": "9.00",
+            "C": "3.0",
+            "D": "6"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Một mẫu số liệu ghép nhóm có phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 9.00. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1.50"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9.00"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3.0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Một mẫu số liệu ghép nhóm có phương sai s$^2$ = 9.00. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng. Đáp án đúng là",
+            "choices": {
+              "A": "1.50",
+              "B": "9.00",
+              "C": "3.0",
+              "D": "6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-25",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương III, hãy xác định: Ưu điểm nổi bật của khoảng tứ phân vị \\Delta_Q so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+          "choices": {
+            "A": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []",
+            "B": "Tính toán không cần biết tần số của các nhóm []",
+            "C": "Luôn bằng phương sai []",
+            "D": "Luôn lớn hơn khoảng biến thiên R"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương III, hãy xác định: Ưu điểm nổi bật của khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Tính toán không cần biết tần số của các nhóm []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng phương sai []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Luôn lớn hơn khoảng biến thiên R"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương III, hãy xác định: Ưu điểm nổi bật của khoảng tứ phân vị $\\Delta_Q$ so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+            "choices": {
+              "A": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []",
+              "B": "Tính toán không cần biết tần số của các nhóm []",
+              "C": "Luôn bằng phương sai []",
+              "D": "Luôn lớn hơn khoảng biến thiên R"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-26",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s^{2} của mẫu số liệu ghép nhóm này bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "50",
+            "B": "25",
+            "C": "5",
+            "D": "10"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm này bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s$^2$ của mẫu số liệu ghép nhóm này bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "50",
+              "B": "25",
+              "C": "5",
+              "D": "10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-27",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương III vào bài tập sau: Một mẫu số liệu ghép nhóm có phương sai s^{2} = 20.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng",
+          "choices": {
+            "A": "20.25",
+            "B": "2.25",
+            "C": "4.5",
+            "D": "9"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương III vào bài tập sau: Một mẫu số liệu ghép nhóm có phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 20.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20.25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2.25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4.5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương III vào bài tập sau: Một mẫu số liệu ghép nhóm có phương sai s$^2$ = 20.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng",
+            "choices": {
+              "A": "20.25",
+              "B": "2.25",
+              "C": "4.5",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-28",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Ưu điểm nổi bật của khoảng tứ phân vị \\Delta_Q so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+          "choices": {
+            "A": "Tính toán không cần biết tần số của các nhóm []",
+            "B": "Luôn lớn hơn khoảng biến thiên R []",
+            "C": "Luôn bằng phương sai []",
+            "D": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Ưu điểm nổi bật của khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tính toán không cần biết tần số của các nhóm []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Luôn lớn hơn khoảng biến thiên R []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng phương sai []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Ưu điểm nổi bật của khoảng tứ phân vị $\\Delta_Q$ so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+            "choices": {
+              "A": "Tính toán không cần biết tần số của các nhóm []",
+              "B": "Luôn lớn hơn khoảng biến thiên R []",
+              "C": "Luôn bằng phương sai []",
+              "D": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-29",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm): Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s^{2} của mẫu số liệu ghép nhóm này bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "5",
+            "B": "10",
+            "C": "50",
+            "D": "25"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm): Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm này bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm): Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s$^2$ của mẫu số liệu ghép nhóm này bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "5",
+              "B": "10",
+              "C": "50",
+              "D": "25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-30",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương III, hãy tìm kết quả của bài toán: Một mẫu số liệu ghép nhóm có phương sai s^{2} = 36.00. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng",
+          "choices": {
+            "A": "36.00",
+            "B": "6.0",
+            "C": "3.00",
+            "D": "12"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương III, hãy tìm kết quả của bài toán: Một mẫu số liệu ghép nhóm có phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 36.00. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36.00"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6.0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3.00"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương III, hãy tìm kết quả của bài toán: Một mẫu số liệu ghép nhóm có phương sai s$^2$ = 36.00. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng",
+            "choices": {
+              "A": "36.00",
+              "B": "6.0",
+              "C": "3.00",
+              "D": "12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-31",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương III nêu câu hỏi: Ưu điểm nổi bật của khoảng tứ phân vị \\Delta_Q so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì. Hãy chọn đáp số đúng: []",
+          "choices": {
+            "A": "Luôn lớn hơn khoảng biến thiên R []",
+            "B": "Tính toán không cần biết tần số của các nhóm []",
+            "C": "Luôn bằng phương sai []",
+            "D": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương III nêu câu hỏi: Ưu điểm nổi bật của khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì. Hãy chọn đáp số đúng: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Luôn lớn hơn khoảng biến thiên R []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Tính toán không cần biết tần số của các nhóm []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng phương sai []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương III nêu câu hỏi: Ưu điểm nổi bật của khoảng tứ phân vị $\\Delta_Q$ so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì. Hãy chọn đáp số đúng: []",
+            "choices": {
+              "A": "Luôn lớn hơn khoảng biến thiên R []",
+              "B": "Tính toán không cần biết tần số của các nhóm []",
+              "C": "Luôn bằng phương sai []",
+              "D": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-32",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s^{2} của mẫu số liệu ghép nhóm này bằng",
+          "choices": {
+            "A": "5",
+            "B": "10",
+            "C": "25",
+            "D": "50"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s$^2$ của mẫu số liệu ghép nhóm này bằng",
+            "choices": {
+              "A": "5",
+              "B": "10",
+              "C": "25",
+              "D": "50"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-33",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương III: Một mẫu số liệu ghép nhóm có phương sai s^{2} = 56.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng",
+          "choices": {
+            "A": "15",
+            "B": "56.25",
+            "C": "7.5",
+            "D": "3.75"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương III: Một mẫu số liệu ghép nhóm có phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 56.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "56.25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7.5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3.75"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương III: Một mẫu số liệu ghép nhóm có phương sai s$^2$ = 56.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng",
+            "choices": {
+              "A": "15",
+              "B": "56.25",
+              "C": "7.5",
+              "D": "3.75"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-34",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Ưu điểm nổi bật của khoảng tứ phân vị \\Delta_Q so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+          "choices": {
+            "A": "Luôn lớn hơn khoảng biến thiên R []",
+            "B": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []",
+            "C": "Luôn bằng phương sai []",
+            "D": "Tính toán không cần biết tần số của các nhóm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Ưu điểm nổi bật của khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Luôn lớn hơn khoảng biến thiên R []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng phương sai []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tính toán không cần biết tần số của các nhóm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Ưu điểm nổi bật của khoảng tứ phân vị $\\Delta_Q$ so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+            "choices": {
+              "A": "Luôn lớn hơn khoảng biến thiên R []",
+              "B": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []",
+              "C": "Luôn bằng phương sai []",
+              "D": "Tính toán không cần biết tần số của các nhóm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-35",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương III, xét bài toán: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s^{2} của mẫu số liệu ghép nhóm này bằng",
+          "choices": {
+            "A": "10",
+            "B": "5",
+            "C": "50",
+            "D": "25"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương III, xét bài toán: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương III, xét bài toán: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s$^2$ của mẫu số liệu ghép nhóm này bằng",
+            "choices": {
+              "A": "10",
+              "B": "5",
+              "C": "50",
+              "D": "25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-36",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm): Một mẫu số liệu ghép nhóm có phương sai s^{2} = 81.00. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "81.00",
+            "B": "18",
+            "C": "9.0",
+            "D": "4.50"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm): Một mẫu số liệu ghép nhóm có phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 81.00. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "81.00"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9.0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4.50"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm): Một mẫu số liệu ghép nhóm có phương sai s$^2$ = 81.00. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "81.00",
+              "B": "18",
+              "C": "9.0",
+              "D": "4.50"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-37",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Ưu điểm nổi bật của khoảng tứ phân vị \\Delta_Q so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+          "choices": {
+            "A": "Luôn bằng phương sai []",
+            "B": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []",
+            "C": "Tính toán không cần biết tần số của các nhóm []",
+            "D": "Luôn lớn hơn khoảng biến thiên R"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Ưu điểm nổi bật của khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng phương sai []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Tính toán không cần biết tần số của các nhóm []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Luôn lớn hơn khoảng biến thiên R"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Ưu điểm nổi bật của khoảng tứ phân vị $\\Delta_Q$ so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+            "choices": {
+              "A": "Luôn bằng phương sai []",
+              "B": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []",
+              "C": "Tính toán không cần biết tần số của các nhóm []",
+              "D": "Luôn lớn hơn khoảng biến thiên R"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-38",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương III: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s^{2} của mẫu số liệu ghép nhóm này bằng. Kết luận đúng là",
+          "choices": {
+            "A": "50",
+            "B": "5",
+            "C": "25",
+            "D": "10"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương III: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm này bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "50"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương III: Cho mẫu số liệu ghép nhóm gồm 2 nhóm: [0; 10) (giá trị đại diện 5) có tần số 5 và [10; 20) (giá trị đại diện 15) có tần số 5. Phương sai s$^2$ của mẫu số liệu ghép nhóm này bằng. Kết luận đúng là",
+            "choices": {
+              "A": "50",
+              "B": "5",
+              "C": "25",
+              "D": "10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-39",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương III: Một mẫu số liệu ghép nhóm có phương sai s^{2} = 110.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng",
+          "choices": {
+            "A": "5.25",
+            "B": "110.25",
+            "C": "21",
+            "D": "10.5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương III: Một mẫu số liệu ghép nhóm có phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = 110.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5.25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "110.25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10.5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương III: Một mẫu số liệu ghép nhóm có phương sai s$^2$ = 110.25. Độ lệch chuẩn s của mẫu số liệu ghép nhóm đó bằng",
+            "choices": {
+              "A": "5.25",
+              "B": "110.25",
+              "C": "21",
+              "D": "10.5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-40",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Ưu điểm nổi bật của khoảng tứ phân vị \\Delta_Q so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+          "choices": {
+            "A": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []",
+            "B": "Luôn lớn hơn khoảng biến thiên R []",
+            "C": "Tính toán không cần biết tần số của các nhóm []",
+            "D": "Luôn bằng phương sai"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Ưu điểm nổi bật của khoảng tứ phân vị "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta_Q"
+            },
+            {
+              "t": "txt",
+              "v": " so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Luôn lớn hơn khoảng biến thiên R []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Tính toán không cần biết tần số của các nhóm []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Luôn bằng phương sai"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Ưu điểm nổi bật của khoảng tứ phân vị $\\Delta_Q$ so với khoảng biến thiên R của mẫu số liệu ghép nhóm là gì: []",
+            "choices": {
+              "A": "Không bị ảnh hưởng bởi các giá trị ngoại lệ (quá lớn hoặc quá nhỏ ở hai nhóm đầu và cuối) []",
+              "B": "Luôn lớn hơn khoảng biến thiên R []",
+              "C": "Tính toán không cần biết tần số của các nhóm []",
+              "D": "Luôn bằng phương sai"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-41",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai s^{2} của mẫu số liệu ghép nhóm bằng",
+          "choices": {
+            "A": "40",
+            "B": "20",
+            "C": "100",
+            "D": "\\sqrt{40}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "40"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\sqrt{40}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai s$^2$ của mẫu số liệu ghép nhóm bằng",
+            "choices": {
+              "A": "40",
+              "B": "20",
+              "C": "100",
+              "D": "$\\sqrt{40}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-42",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương III – Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm): Nếu cộng thêm cùng một hằng số c \\ne 0 vào mọi đầu mút của các nhóm trong mẫu số liệu ghép nhóm (giữ nguyên tần số các nhóm) thì phương sai s^{2} và độ lệch chuẩn s thay đổi như thế nào. Kết quả đúng là: []",
+          "choices": {
+            "A": "Tăng thêm c đơn vị []",
+            "B": "Nhân lên c lần []",
+            "C": "Tăng thêm c^{2} đơn vị []",
+            "D": "Không thay đổi (giữ nguyên giá trị ban đầu)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương III – Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm): Nếu cộng thêm cùng một hằng số c "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0 vào mọi đầu mút của các nhóm trong mẫu số liệu ghép nhóm (giữ nguyên tần số các nhóm) thì phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và độ lệch chuẩn s thay đổi như thế nào. Kết quả đúng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tăng thêm c đơn vị []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Nhân lên c lần []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Tăng thêm "
+              },
+              {
+                "t": "math",
+                "v": "c^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " đơn vị []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Không thay đổi (giữ nguyên giá trị ban đầu)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương III – Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm): Nếu cộng thêm cùng một hằng số c $\\ne$ 0 vào mọi đầu mút của các nhóm trong mẫu số liệu ghép nhóm (giữ nguyên tần số các nhóm) thì phương sai s$^2$ và độ lệch chuẩn s thay đổi như thế nào. Kết quả đúng là: []",
+            "choices": {
+              "A": "Tăng thêm c đơn vị []",
+              "B": "Nhân lên c lần []",
+              "C": "Tăng thêm c$^2$ đơn vị []",
+              "D": "Không thay đổi (giữ nguyên giá trị ban đầu)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-43",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương III để giải bài toán: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [20; 30) tần số 2; [30; 40) tần số 6; [40; 50) tần số 2. Phương sai s^{2} của mẫu số liệu ghép nhóm này bằng",
+          "choices": {
+            "A": "100",
+            "B": "60",
+            "C": "40",
+            "D": "20"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương III để giải bài toán: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [20; 30) tần số 2; [30; 40) tần số 6; [40; 50) tần số 2. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "60"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương III để giải bài toán: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [20; 30) tần số 2; [30; 40) tần số 6; [40; 50) tần số 2. Phương sai s$^2$ của mẫu số liệu ghép nhóm này bằng",
+            "choices": {
+              "A": "100",
+              "B": "60",
+              "C": "40",
+              "D": "20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-44",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương III: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai s^{2} của mẫu số liệu ghép nhóm bằng",
+          "choices": {
+            "A": "20",
+            "B": "40",
+            "C": "100",
+            "D": "\\sqrt{40}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương III: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "40"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\sqrt{40}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương III: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai s$^2$ của mẫu số liệu ghép nhóm bằng",
+            "choices": {
+              "A": "20",
+              "B": "40",
+              "C": "100",
+              "D": "$\\sqrt{40}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-45",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương III: Nếu cộng thêm cùng một hằng số c \\ne 0 vào mọi đầu mút của các nhóm trong mẫu số liệu ghép nhóm (giữ nguyên tần số các nhóm) thì phương sai s^{2} và độ lệch chuẩn s thay đổi như thế nào. Đáp số chính xác là: []",
+          "choices": {
+            "A": "Tăng thêm c đơn vị []",
+            "B": "Nhân lên c lần []",
+            "C": "Không thay đổi (giữ nguyên giá trị ban đầu) []",
+            "D": "Tăng thêm c^{2} đơn vị"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương III: Nếu cộng thêm cùng một hằng số c "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0 vào mọi đầu mút của các nhóm trong mẫu số liệu ghép nhóm (giữ nguyên tần số các nhóm) thì phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và độ lệch chuẩn s thay đổi như thế nào. Đáp số chính xác là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tăng thêm c đơn vị []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Nhân lên c lần []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Không thay đổi (giữ nguyên giá trị ban đầu) []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tăng thêm "
+              },
+              {
+                "t": "math",
+                "v": "c^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " đơn vị"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương III: Nếu cộng thêm cùng một hằng số c $\\ne$ 0 vào mọi đầu mút của các nhóm trong mẫu số liệu ghép nhóm (giữ nguyên tần số các nhóm) thì phương sai s$^2$ và độ lệch chuẩn s thay đổi như thế nào. Đáp số chính xác là: []",
+            "choices": {
+              "A": "Tăng thêm c đơn vị []",
+              "B": "Nhân lên c lần []",
+              "C": "Không thay đổi (giữ nguyên giá trị ban đầu) []",
+              "D": "Tăng thêm c$^2$ đơn vị"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-46",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương III để tìm đáp án cho bài toán: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [50; 60) tần số 2; [60; 70) tần số 6; [70; 80) tần số 2. Phương sai s^{2} của mẫu số liệu ghép nhóm này bằng",
+          "choices": {
+            "A": "20",
+            "B": "90",
+            "C": "40",
+            "D": "100"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương III để tìm đáp án cho bài toán: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [50; 60) tần số 2; [60; 70) tần số 6; [70; 80) tần số 2. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "90"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương III để tìm đáp án cho bài toán: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [50; 60) tần số 2; [60; 70) tần số 6; [70; 80) tần số 2. Phương sai s$^2$ của mẫu số liệu ghép nhóm này bằng",
+            "choices": {
+              "A": "20",
+              "B": "90",
+              "C": "40",
+              "D": "100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-47",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương III: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai s^{2} của mẫu số liệu ghép nhóm bằng",
+          "choices": {
+            "A": "\\sqrt{40}",
+            "B": "40",
+            "C": "100",
+            "D": "20"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương III: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\sqrt{40}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "40"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương III: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai s$^2$ của mẫu số liệu ghép nhóm bằng",
+            "choices": {
+              "A": "$\\sqrt{40}$",
+              "B": "40",
+              "C": "100",
+              "D": "20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-48",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương III): Nếu cộng thêm cùng một hằng số c \\ne 0 vào mọi đầu mút của các nhóm trong mẫu số liệu ghép nhóm (giữ nguyên tần số các nhóm) thì phương sai s^{2} và độ lệch chuẩn s thay đổi như thế nào: []",
+          "choices": {
+            "A": "Tăng thêm c đơn vị []",
+            "B": "Nhân lên c lần []",
+            "C": "Không thay đổi (giữ nguyên giá trị ban đầu) []",
+            "D": "Tăng thêm c^{2} đơn vị"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương III): Nếu cộng thêm cùng một hằng số c "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0 vào mọi đầu mút của các nhóm trong mẫu số liệu ghép nhóm (giữ nguyên tần số các nhóm) thì phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và độ lệch chuẩn s thay đổi như thế nào: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Tăng thêm c đơn vị []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Nhân lên c lần []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Không thay đổi (giữ nguyên giá trị ban đầu) []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Tăng thêm "
+              },
+              {
+                "t": "math",
+                "v": "c^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " đơn vị"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương III): Nếu cộng thêm cùng một hằng số c $\\ne$ 0 vào mọi đầu mút của các nhóm trong mẫu số liệu ghép nhóm (giữ nguyên tần số các nhóm) thì phương sai s$^2$ và độ lệch chuẩn s thay đổi như thế nào: []",
+            "choices": {
+              "A": "Tăng thêm c đơn vị []",
+              "B": "Nhân lên c lần []",
+              "C": "Không thay đổi (giữ nguyên giá trị ban đầu) []",
+              "D": "Tăng thêm c$^2$ đơn vị"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-49",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương III, hãy giải quyết bài toán: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [80; 90) tần số 2; [90; 100) tần số 6; [100; 110) tần số 2. Phương sai s^{2} của mẫu số liệu ghép nhóm này bằng",
+          "choices": {
+            "A": "100",
+            "B": "40",
+            "C": "120",
+            "D": "20"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương III, hãy giải quyết bài toán: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [80; 90) tần số 2; [90; 100) tần số 6; [100; 110) tần số 2. Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm này bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "40"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "120"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương III, hãy giải quyết bài toán: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [80; 90) tần số 2; [90; 100) tần số 6; [100; 110) tần số 2. Phương sai s$^2$ của mẫu số liệu ghép nhóm này bằng",
+            "choices": {
+              "A": "100",
+              "B": "40",
+              "C": "120",
+              "D": "20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "12-03-50",
+          "grade": 12,
+          "chapter": 3,
+          "chapterTitle": "CÁC SỐ ĐẶC TRƯNG ĐO MỨC ĐỘ PHÂN TÁN CỦA MẪU SỐ LIỆU GHÉP NHÓM",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương III: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai s^{2} của mẫu số liệu ghép nhóm bằng. Phương án đúng là",
+          "choices": {
+            "A": "\\sqrt{40}",
+            "B": "20",
+            "C": "100",
+            "D": "40"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương III: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai "
+            },
+            {
+              "t": "math",
+              "v": "s^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " của mẫu số liệu ghép nhóm bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\sqrt{40}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "40"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương III: Cho mẫu số liệu ghép nhóm gồm 3 nhóm: [0; 10) có tần số 2; [10; 20) có tần số 6; [20; 30) có tần số 2 (giá trị đại diện lần lượt là 5; 15; 25). Phương sai s$^2$ của mẫu số liệu ghép nhóm bằng. Phương án đúng là",
+            "choices": {
+              "A": "$\\sqrt{40}$",
+              "B": "20",
+              "C": "100",
+              "D": "40"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_12_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "III",
+            "answerKey": "Bảng đáp án Chương III",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}
