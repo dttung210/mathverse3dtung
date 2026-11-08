@@ -201,21 +201,174 @@ export function playHologramSound() {
   } catch (_) {}
 }
 
-/** Đọc giọng nói hướng dẫn bằng Web Speech API chuẩn trình duyệt (Offline TTS) */
-export function speakText(text) {
-  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+let currentLabAudio = null;
+let labSpeechToken = 0;
+
+function normalizeLabVietnameseText(raw) {
+  if (!raw) return '';
+  return String(raw)
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\\frac\s*\{\s*1\s*\}\s*\{\s*3\s*\}/g, ' một phần ba ')
+    .replace(/\\frac\s*\{\s*1\s*\}\s*\{\s*2\s*\}/g, ' một phần hai ')
+    .replace(/\\frac\s*\{\s*4\s*\}\s*\{\s*3\s*\}/g, ' bốn phần ba ')
+    .replace(/\\frac\s*\{\s*([^}]+)\s*\}\s*\{\s*([^}]+)\s*\}/g, ' $1 phần $2 ')
+    .replace(/\\sqrt\s*\{\s*([^}]+)\s*\}/g, ' căn bậc hai của $1 ')
+    .replace(/√\s*([a-zA-Z0-9]+)/g, ' căn bậc hai của $1 ')
+    .replace(/√/g, ' căn bậc hai ')
+    .replace(/S_\{\s*xq\s*\}|S_xq/gi, ' diện tích xung quanh ')
+    .replace(/S_\{\s*tp\s*\}|S_tp/gi, ' diện tích toàn phần ')
+    .replace(/S_\{\s*đáy\s*\}|S_đáy|S_0/gi, ' diện tích đáy ')
+    .replace(/\b1\/3\b/g, ' một phần ba ')
+    .replace(/\b1\/2\b/g, ' một phần hai ')
+    .replace(/\b2\/3\b/g, ' hai phần ba ')
+    .replace(/\b4\/3\b/g, ' bốn phần ba ')
+    .replace(/\^2\b|²/g, ' bình phương ')
+    .replace(/\^3\b|³/g, ' lập phương ')
+    .replace(/\\pi\b|π/g, ' pi ')
+    .replace(/\\varphi\b|\\phi\b|φ/g, ' phi ')
+    .replace(/\\Delta\b|Δ|∆/g, ' tam giác ')
+    .replace(/\\perp\b|⊥/g, ' vuông góc với ')
+    .replace(/\\parallel\b|∥/g, ' song song với ')
+    .replace(/\\times\b|×|\\cdot\b/g, ' nhân ')
+    .replace(/\\approx\b|≈/g, ' xấp xỉ ')
+    .replace(/\\leq\b|\\le\b|≤/g, ' nhỏ hơn hoặc bằng ')
+    .replace(/\\geq\b|\\ge\b|≥/g, ' lớn hơn hoặc bằng ')
+    .replace(/\\Rightarrow\b|⇒|⟹|->|→/g, ' suy ra ')
+    .replace(/°/g, ' độ ')
+    .replace(/\\[a-zA-Z]+/g, ' ')
+    .replace(/[\{\}\$]/g, ' ')
+    .replace(/[•·▪▸►◆◇★☆▣🏛🌐🧭🚲🔊🎙👁🔍🔭]/g, '. ')
+    .replace(/\bOxyz\b/g, 'hệ tọa độ O x y z')
+    .replace(/\bOxy\b/g, 'mặt phẳng tọa độ O x y')
+    .replace(/\b3D\b/gi, 'ba đê')
+    .replace(/\b2D\b/gi, 'hai đê')
+    .replace(/\bSGK\b/gi, 'sách giáo khoa')
+    .replace(/\bTHCS\b/gi, 'trung học cơ sở')
+    .replace(/\bTHPT\b/gi, 'trung học phổ thông')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+export function stopSpeech() {
+  labSpeechToken++;
   try {
-    window.speechSynthesis.cancel();
-    if (isMuted) return;
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'vi-VN';
-    utterance.rate = 1.05;
-    utterance.pitch = 1.0;
-    const voices = window.speechSynthesis.getVoices();
-    const viVoice = voices.find(v => v.lang.startsWith('vi'));
-    if (viVoice) utterance.voice = viVoice;
-    window.speechSynthesis.speak(utterance);
+    if (typeof window !== 'undefined' && window.parent && window.parent !== window && typeof window.parent.__mathverseStopSpeech === 'function') {
+      window.parent.__mathverseStopSpeech();
+    }
   } catch (_) {}
+  try {
+    if (typeof window !== 'undefined' && typeof window.__mathverseStopSpeech === 'function') {
+      window.__mathverseStopSpeech();
+    }
+  } catch (_) {}
+  if (currentLabAudio) {
+    try {
+      currentLabAudio.pause();
+      currentLabAudio.removeAttribute('src');
+    } catch (_) {}
+    currentLabAudio = null;
+  }
+  if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+    try { window.speechSynthesis.cancel(); } catch (_) {}
+  }
+}
+
+/** Đọc giọng nói thuyết minh Tiếng Việt trọn vẹn 100% (Google Tiếng Việt Neural Audio + Web Speech vi-VN) */
+export function speakText(text) {
+  if (typeof window === 'undefined') return;
+  stopSpeech();
+  if (isMuted || !text) return;
+
+  try {
+    if (typeof window.__mathverseSpeakText === 'function') {
+      window.__mathverseSpeakText(text);
+      return;
+    }
+    if (window.parent && window.parent !== window && typeof window.parent.__mathverseSpeakText === 'function') {
+      window.parent.__mathverseSpeakText(text);
+      return;
+    }
+  } catch (_) {}
+
+  const cleaned = normalizeLabVietnameseText(text);
+  if (!cleaned) return;
+  const sentences = cleaned
+    .split(/(?<=[.!?…;:\n])\s+/)
+    .map(s => s.trim())
+    .filter(Boolean);
+  const chunks = [];
+  for (const s of sentences) {
+    if (s.length <= 150) {
+      chunks.push(s);
+    } else {
+      const words = s.split(/\s+/);
+      let buf = '';
+      for (const w of words) {
+        if ((buf + ' ' + w).trim().length <= 150) buf = (buf + ' ' + w).trim();
+        else { if (buf) chunks.push(buf); buf = w; }
+      }
+      if (buf) chunks.push(buf);
+    }
+  }
+  if (!chunks.length) return;
+
+  const token = ++labSpeechToken;
+  let idx = 0;
+
+  const speakFallbackVi = (chunk, done) => {
+    if (token !== labSpeechToken || !('speechSynthesis' in window)) { done(); return; }
+    const voices = window.speechSynthesis.getVoices() || [];
+    const viVoice = voices.find(v => /^(vi|vi[-_])/i.test(v.lang || '') || /vietnam|tiếng việt|hoaimy|namminh|microsoft an/i.test(v.name || ''));
+    if (!viVoice) { done(); return; }
+    const u = new SpeechSynthesisUtterance(chunk);
+    u.lang = viVoice.lang || 'vi-VN';
+    u.voice = viVoice;
+    u.rate = 1.03;
+    u.onend = done;
+    u.onerror = done;
+    window.speechSynthesis.speak(u);
+  };
+
+  const next = () => {
+    if (token !== labSpeechToken || idx >= chunks.length) return;
+    const chunk = chunks[idx++];
+    if (typeof Audio !== 'undefined') {
+      const a = new Audio();
+      a.referrerPolicy = 'no-referrer';
+      a.src = `https://translate.googleapis.com/translate_tts?client=gtx&ie=UTF-8&tl=vi&dt=t&q=${encodeURIComponent(chunk)}`;
+      a.playbackRate = 1.06;
+      currentLabAudio = a;
+      let doneCalled = false;
+      const advance = () => {
+        if (doneCalled || token !== labSpeechToken) return;
+        doneCalled = true;
+        setTimeout(next, 25);
+      };
+      a.onended = advance;
+      a.onerror = () => {
+        if (doneCalled || token !== labSpeechToken) return;
+        doneCalled = true;
+        speakFallbackVi(chunk, () => setTimeout(next, 25));
+      };
+      const p = a.play();
+      if (p && typeof p.catch === 'function') {
+        p.catch(() => {
+          if (doneCalled || token !== labSpeechToken) return;
+          doneCalled = true;
+          speakFallbackVi(chunk, () => setTimeout(next, 25));
+        });
+      }
+      return;
+    }
+    speakFallbackVi(chunk, () => setTimeout(next, 25));
+  };
+
+  next();
+}
+
+if (typeof window !== 'undefined') {
+  window.__mathverseLabSpeakText = speakText;
+  window.__mathverseLabStopSpeech = stopSpeech;
 }
 
 /** Bật / Tắt âm thanh */

@@ -3,6 +3,7 @@ import {createMathModel,disposeObject} from './geometry.js';
 import {TYPES,normalizeExhibit,metrics,formatMathHtml} from './math-core.js';
 import {formatInlineMathHtml} from './curriculum/math-formula-renderer.mjs';
 import {applyConditionalShadows,createContactShadowDisc,createPedagogicalShadowFloor,createProceduralHDRIEnvironment,getSharedPBRMaterial} from './graphics-r74/depth-pipeline-v12.mjs';
+import {speakText,stopSpeech} from './ui/audio.js';
 
 export function makeViewer({onClose,onSave}) {
   const byId=id=>document.getElementById(id);
@@ -268,6 +269,7 @@ export function makeViewer({onClose,onSave}) {
   function close(){
     visible=false;
     cancelAnimationFrame(raf);
+    stopSpeech();
     modal.hidden=true;
     if(onClose) onClose();
   }
@@ -290,6 +292,15 @@ export function makeViewer({onClose,onSave}) {
   }
 
   byId('viewer-close').addEventListener('click',close);
+  byId('viewer-speak')?.addEventListener('click',()=>{
+    if(!current)return;
+    const gradeTxt=byId('viewer-grade')?.textContent||`Lớp ${current.grade||''}`;
+    const titleTxt=byId('viewer-title')?.textContent||current.title||'Mô hình toán học';
+    const descTxt=byId('viewer-description')?.textContent||current.description||'';
+    const formulaTxt=current.formula||byId('viewer-formula')?.textContent||'';
+    const metricsTxt=byId('viewer-metrics')?.textContent||'';
+    speakText(`Thầy Tùng thuyết minh mô hình ${gradeTxt}: ${titleTxt}. Kiến thức trọng tâm: ${descTxt}. Công thức toán học: ${formulaTxt}. Số liệu hiện tại: ${metricsTxt}`);
+  });
   modal.addEventListener('pointerdown',e=>{if(e.target===modal)close();});
   byId('viewer-reset').addEventListener('click',()=>{
     params={...current.params};

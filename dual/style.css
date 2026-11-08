@@ -2089,6 +2089,23 @@ body.mv-cinema-render-frame::after {
   border-color: #fbcfe8 !important;
   box-shadow: 0 0 16px rgba(225, 29, 72, 0.65) !important;
 }
+.topbar-voice-cmd-btn {
+  background: linear-gradient(135deg, #0284c7, #0369a1) !important;
+  color: #f0f9ff !important;
+  border: 1.5px solid rgba(125, 211, 252, 0.85) !important;
+  font-weight: 800 !important;
+  padding: 6px 12px !important;
+  border-radius: 999px !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.topbar-voice-cmd-btn.is-listening,
+.topbar-voice-cmd-btn[aria-pressed="true"] {
+  background: linear-gradient(135deg, #dc2626, #ea580c) !important;
+  color: #ffffff !important;
+  border-color: #fde047 !important;
+  box-shadow: 0 0 18px rgba(239, 68, 68, 0.78) !important;
+  transform: scale(1.04);
+}
 .cam-preset-btn {
   padding: 4px 8px !important;
   font-size: 11.5px !important;

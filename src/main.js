@@ -1557,6 +1557,14 @@ const openHistoryGallery = () => {
 };
 el('btn-history-gallery')?.addEventListener('click', openHistoryGallery);
 el('mv-ql-history')?.addEventListener('click', openHistoryGallery);
+el('btn-lab-tts')?.addEventListener('click', () => {
+  const g = activeGrade;
+  const room = activeThematicRoomId ? getRoomById(activeThematicRoomId) : null;
+  const text = g
+    ? `Chào mừng các em đến với Phòng Thực Nghiệm Toán Lớp ${g} của Thầy Tùng! ${room ? `Hiện tại các em đang ở chuyên đề ${room.name} với ${room.modeCount} mô hình tương tác.` : 'Các em hãy đi qua các cổng chương sách giáo khoa hoặc nhấp vào bục mô hình ba đê để khám phá công thức và điều chỉnh tham số trực tiếp!'}`
+    : 'Chào mừng các em đến với Tòa Nhà Lab Toán Học ba đê của Thầy Tùng! Tại đây có bảy khu vực phòng học từ Lớp sáu đến Lớp mười hai với ba trăm mười mô hình sách giáo khoa và Phòng Triển Lãm mười tám Danh Nhân Toán Học.';
+  speakText(text);
+});
 const returnToGrandCampus = () => {
   closeAllToolPopovers();
   try {

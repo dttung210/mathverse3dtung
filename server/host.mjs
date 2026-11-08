@@ -39,7 +39,7 @@ function readStatic(req,res,route,prefix,dir){
   if((prefix==='/museum-assets/'||prefix==='/museum-thumbs/')&&ext!=='.webp'){send(res,403,'Only WebP assets');return;}
   const cacheHeader=['.html','.mjs','.js','.css','.json'].includes(ext)?'no-cache, no-store, must-revalidate':'public, max-age=86400';
   if((ext==='.html'||ext==='.mjs'||ext==='.js')&&(prefix==='/dual/'||prefix==='/game-park/')){
-    const stamp='r107_v13';
+    const stamp='r107_v15';
     const txt=fs.readFileSync(file,'utf8')
       .replace(/((?:from|import)\s*['"])(\.?\.?\/[^'"?]+\.(?:m?js))(?:\?[^'"]*)?(['"])/g,`$1$2?v=${stamp}$3`)
       .replace(/((?:src|href)=['"])(\/(?:dual|game-park)\/[^'"?]+\.(?:m?js|css))(?:\?[^'"]*)?(['"])/g,`$1$2?v=${stamp}$3`)
@@ -72,7 +72,8 @@ function proxy(req,res,route){
     // Same-origin iframe needs self-embedding. Original R75 files remain byte-for-byte identical.
     // All other R75 CSP directives remain enforced, including object-src none.
     if(forwarded['content-security-policy']){
-      forwarded['content-security-policy']=String(forwarded['content-security-policy']).replace(/frame-ancestors\s+'none'/g,"frame-ancestors 'self'");
+      forwarded['content-security-policy']=String(forwarded['content-security-policy'])
+        .replace(/frame-ancestors\s+'none'/g,"frame-ancestors 'self'; media-src 'self' data: blob: https://translate.googleapis.com https://translate.google.com");
     }
     delete forwarded['x-frame-options'];
     res.writeHead(remote.statusCode||502,forwarded);

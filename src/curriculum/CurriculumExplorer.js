@@ -30,6 +30,7 @@ import {SGK_EXHIBIT_TO_MODE} from './sgk-exhibit-links.mjs';
 import {isDuplicateMergedModeId,resolveDeduplicatedModeId} from './dedup-modes.mjs';
 import {ViewerRegistry} from '../viewers/ViewerRegistry.js';
 import {scheduleLabAutoplay,cancelLabAutoplay,isAutoPlayEnabled,setAutoPlayEnabled} from './lab-autoplay.mjs';
+import {speakText,stopSpeech} from '../ui/audio.js';
 
 const SVG_NS='http://www.w3.org/2000/svg';
 const node=(tag,cls='',value)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(value!==undefined)e.textContent=String(value);return e;};
@@ -100,7 +101,7 @@ export class CurriculumExplorer{
     this.stageDrawerBtn.classList.toggle('is-focus-active',this.focusMode);
   }
  }
- close(){if(!this.overlay)return;this._disposeActiveLab();this.overlay.hidden=true;document.body.classList.remove('mv-r5-open');document.removeEventListener('keydown',this.keyHandler);this.drag=null;this.lastFocus?.focus?.();}
+ close(){if(!this.overlay)return;stopSpeech();this._disposeActiveLab();this.overlay.hidden=true;document.body.classList.remove('mv-r5-open');document.removeEventListener('keydown',this.keyHandler);this.drag=null;this.lastFocus?.focus?.();}
  _applyTheme(){
   const isDark=this.theme==='dark';
   this.overlay?.classList.toggle('mv-theme-dark',isDark);
@@ -125,7 +126,22 @@ export class CurriculumExplorer{
   },'mv-r63-theme-btn');
   this.themeBtn=themeBtn;
   const focus=button('⛶ Mở rộng hình',()=>this.setFocusMode(!this.focusMode),'mv-r63-focus-btn');focus.setAttribute('aria-pressed','false');this.btnFocus=focus;
-  const actions=node('div','mv-r63-header-actions');const close=button('✕ Đóng',()=>this.close(),'mv-r5-close');actions.append(themeBtn,focus,close);header.append(headline,actions);root.append(header);
+  const speakLessonBtn=button('🔊 Thuyết minh bài học',()=>{
+    const fam=this._families().find(f=>f.id===this.family);
+    const rec=this._modeRecord();
+    const chapTitle=fam?curatedFamilyTitle(fam):`Toán lớp ${this.grade}`;
+    const lessonName=rec?(rec.lessonTitle||rec.name||''):'';
+    const modeName=rec?(rec.name||''):'';
+    const summaryTxt=rec?(rec.summary||rec.description||fam?.summary||''):'';
+    const stageNotes=Array.from(this.stage?.querySelectorAll('p, li, .mv-r5-note, .mv-g7-note')||[])
+      .map(el=>el.textContent?.trim()||'')
+      .filter(Boolean)
+      .slice(0,5)
+      .join('. ');
+    speakText(`Thầy Tùng thuyết minh bài học Toán lớp ${this.grade}, ${chapTitle}. ${lessonName}. Mô hình: ${modeName}. ${summaryTxt}. ${stageNotes}`);
+  },'mv-r63-focus-btn');
+  speakLessonBtn.title='Nghe giọng đọc Tiếng Việt của Thầy Tùng thuyết minh bài học và mô hình đang mở';
+  const actions=node('div','mv-r63-header-actions');const close=button('✕ Đóng',()=>this.close(),'mv-r5-close');actions.append(speakLessonBtn,themeBtn,focus,close);header.append(headline,actions);root.append(header);
   const toolbar=node('div','mv-r5-toolbar');const gradeArea=node('nav','mv-r5-grades');gradeArea.setAttribute('aria-label','Chọn lớp');for(let g=6;g<=12;g++){const b=button(`Lớp ${g}`,()=>{this.grade=g;const first=this._families()[0];const firstModes=first?.modes?.filter(m=>!m.relatedExhibit&&!m.relatedVariant&&!isDuplicateMergedModeId(m.id))||first?.modes||[];this.family=first?.id;this.mode=firstModes[0]?.id;this.render();},'mv-r5-grade');b.dataset.grade=g;gradeArea.append(b);}
   const search=node('input','mv-r5-search');search.type='search';search.placeholder='Tìm chương, bài học, định lý, mã Lab...';search.setAttribute('aria-label','Tìm kiếm kho chuyên đề');search.addEventListener('input',()=>{this.search=search.value.trim().toLocaleLowerCase('vi');this.renderList();});
   const filter=node('label','mv-r5-filter');const check=node('input');check.type='checkbox';check.addEventListener('change',()=>{this.runningOnly=check.checked;this.renderList();});this.filterCaption=node('span','', 'Chỉ xem chế độ đã dựng');filter.append(check,this.filterCaption);

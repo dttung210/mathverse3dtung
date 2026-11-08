@@ -32,7 +32,7 @@ function detectBasePath() {
 }
 
 const BASE = detectBasePath();
-const STAMP = 'r107_v14';
+const STAMP = 'r107_v15';
 
 const ROOT_PREFIXES = [
   'dual/',

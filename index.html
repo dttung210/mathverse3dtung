@@ -47,6 +47,7 @@
     <div class="topbar-badge"><span id="grade-pill" class="grade-pill"></span><span id="room-indicator">SẢNH CHÍNH · TOÁN 6—12</span><span id="model-summary">63 mô hình chuẩn GDPT 2018</span></div>
     <div class="top-actions">
       <button id="btn-grand-campus" class="top-btn" type="button" title="Trở về Đại Sảnh Vũ Trụ MATHVERSE 3D (Sảnh Lễ Tân · 11 Game · 230 Infographic)">🌐 <span>Đại Sảnh Vũ Trụ</span></button>
+      <button id="btn-lab-tts" class="top-btn" type="button" title="Nghe giọng đọc Tiếng Việt thuyết minh Tòa Lab & Phòng học hiện tại">🔊 <span>Thuyết minh</span></button>
       <button id="btn-history-gallery" class="top-btn" type="button" title="Mở Bảo tàng 18 Danh nhân Toán học & 2 Xưởng GeoGebra">🏛 <span>18 Danh Nhân</span></button>
       <button id="btn-studio-launchpad" class="top-btn" type="button" title="Mở Bản đồ Chương trình Toán 6–12 (Mở nhanh 1 chạm theo Chương & Bài học · phím L)">⚡ <span>Studio Bài Học</span></button>
       <button id="btn-brightness-toggle" class="top-btn" type="button" title="Mở / Thu gọn thanh điều chỉnh độ sáng & tương phản">🔆 <span>Độ sáng</span></button>
@@ -276,7 +277,10 @@
           <div class="formula-box">
             <label>CÔNG THỨC TOÁN HỌC</label>
             <div id="viewer-formula" class="formula-text"></div>
-            <button id="viewer-copy">📋 Sao chép LaTeX</button>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:6px;">
+              <button id="viewer-copy" type="button">📋 Sao chép LaTeX</button>
+              <button id="viewer-speak" type="button" style="background:linear-gradient(135deg,#6d28d9,#9333ea);color:#fff;border:1px solid #d8b4fe;border-radius:8px;padding:6px 12px;font-weight:700;cursor:pointer;">🔊 Thuyết minh Tiếng Việt</button>
+            </div>
           </div>
           <h3>Chỉnh sửa hình trực tiếp</h3>
           <div id="param-controls"></div>

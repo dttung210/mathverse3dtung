@@ -19,7 +19,7 @@ import {upgradeDiscoveryWondersR102} from './discovery-r102/exhibition-room.mjs'
 import {createWorldWondersR100UI} from './discovery-r100/wonders-ui.mjs';
 import {createPodiumSketchfabViewer} from './discovery-r103/podium-viewer.mjs';
 import {initializeGraphicsEngine} from './graphics-engine.mjs';
-import {speakVietnamese,stopVietnameseSpeech,isSpeakingVietnamese,onSpeechStateChange,ZONE_VOICE_GUIDES} from './vn-tts.mjs';
+import {speakVietnamese,stopVietnameseSpeech,isSpeakingVietnamese,onSpeechStateChange,ZONE_VOICE_GUIDES,toggleVietnameseVoiceCommand,onVoiceCommandStateChange} from './vn-tts.mjs';
 
 const $=id=>document.getElementById(id);
 const COPY={
@@ -551,9 +551,15 @@ function injectR75CompactToolbar(doc){
     #mv-r107-lab-quick-hud button.tts-btn {
       background: linear-gradient(135deg, #6d28d9, #9333ea); border-color: #d8b4fe; color: #faf5ff;
     }
+    #mv-r107-lab-quick-hud button.voice-btn {
+      background: linear-gradient(135deg, #0284c7, #0369a1); border-color: #7dd3fc; color: #f0f9ff;
+    }
   `;
   doc.head?.appendChild(st);
-  if(doc.defaultView)doc.defaultView.__mathverseSpeakText=speakVietnamese;
+  if(doc.defaultView){
+    doc.defaultView.__mathverseSpeakText=speakVietnamese;
+    doc.defaultView.__mathverseStopSpeech=stopVietnameseSpeech;
+  }
   const bar=doc.getElementById('mv-compact-launcher');
   if(bar&&!doc.getElementById('mv-r107-toggle-bar')){
     bar.classList.add('r107-collapsed');
@@ -574,6 +580,7 @@ function injectR75CompactToolbar(doc){
       <button type="button" class="lobby-btn" id="r75-quick-main-lobby" title="Quay về Sảnh Chính 4 Khu vực">🏛 Về Sảnh Chính</button>
       <button type="button" class="boost-btn" id="r75-quick-boost" title="Bật/Tắt Tăng tốc di chuyển (Shift)">🚲 Tăng tốc (Shift)</button>
       <button type="button" class="tts-btn" id="r75-quick-tts" title="Nghe giọng đọc Tiếng Việt thuyết minh Tòa Lab">🔊 Thuyết minh</button>
+      <button type="button" class="voice-btn" id="r75-quick-voice" title="Nói Tiếng Việt để hỏi Thầy Tùng hoặc ra lệnh">🎙 Nói Tiếng Việt</button>
       <button type="button" id="r75-cam-eye" title="Góc nhìn Mắt (Thứ nhất)">👁 Mắt</button>
       <button type="button" id="r75-cam-near" title="Góc nhìn Gần">🔍 Gần</button>
       <button type="button" id="r75-cam-far" title="Góc nhìn Xa">🔭 Xa</button>
@@ -589,6 +596,7 @@ function injectR75CompactToolbar(doc){
       if(isSpeakingVietnamese())stopVietnameseSpeech();
       else speakVietnamese(ZONE_VOICE_GUIDES.r75);
     });
+    doc.getElementById('r75-quick-voice')?.addEventListener('click',()=>triggerVietnameseVoiceAssistant());
     doc.getElementById('r75-cam-eye')?.addEventListener('click',()=>doc.defaultView?.postMessage({type:'mathverse-r75-cam',preset:'eye'},'*'));
     doc.getElementById('r75-cam-near')?.addEventListener('click',()=>doc.defaultView?.postMessage({type:'mathverse-r75-cam',preset:'near'},'*'));
     doc.getElementById('r75-cam-far')?.addEventListener('click',()=>doc.defaultView?.postMessage({type:'mathverse-r75-cam',preset:'far'},'*'));
@@ -1467,7 +1475,7 @@ document.addEventListener('click',e=>{
   if(wrap&&!wrap.contains(e.target))closeZonesDropdown();
 });
 
-// Nút thuyết minh Tiếng Việt toàn khu vực trên Topbar & trong các hộp thoại
+// Nút thuyết minh Tiếng Việt toàn khu vực & Nút Nói/Hiểu Tiếng Việt trên Topbar
 onSpeechStateChange(speaking=>{
   const btn=$('topbar-tts-btn');
   if(btn){
@@ -1476,6 +1484,31 @@ onSpeechStateChange(speaking=>{
     btn.textContent=speaking?'⏹ DỪNG ĐỌC':'🔊 THUYẾT MINH';
   }
 });
+onVoiceCommandStateChange((listening,msg)=>{
+  const vBtn=$('topbar-voice-cmd-btn');
+  if(vBtn){
+    vBtn.classList.toggle('is-listening',listening);
+    vBtn.setAttribute('aria-pressed',String(listening));
+    vBtn.textContent=listening?'🎙 ĐANG NGHE...':'🎙 NÓI TIẾNG VIỆT';
+  }
+  if(msg)status(msg);
+});
+function triggerVietnameseVoiceAssistant(){
+  toggleVietnameseVoiceCommand({
+    toLobby:()=>moveToLobby(),
+    enterLab:()=>enterR75(),
+    enterMuseum:()=>enterMuseum(),
+    enterDiscovery:()=>enterDiscovery(),
+    enterPark:()=>enterGamePark(),
+    toggleBike:(on)=>toggleBikeBoost(on),
+    setCameraPreset:(p)=>applyCameraPreset(p),
+    openGrade:(g)=>launchR75Feature({type:'grade',grade:g}),
+    openHistory:()=>launchR75Feature({type:'history'}),
+    getCurrentMode:()=>(mode==='lobby'&&(player.z>38||parkGameCamera||parkFocusZone!==null))?'park':mode,
+    onStatus:status
+  });
+}
+$('topbar-voice-cmd-btn')?.addEventListener('click',()=>triggerVietnameseVoiceAssistant());
 $('topbar-tts-btn')?.addEventListener('click',()=>{
   if(isSpeakingVietnamese()){
     stopVietnameseSpeech();
