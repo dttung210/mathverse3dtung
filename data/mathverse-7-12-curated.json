@@ -1,0 +1,4112 @@
+{
+  "project": "MATHVERSE R4",
+  "mode": "MATHVERSE R5 GD7: 67 labs / 247 cases; Grade12 39 interactive modes (19 spatial WebGL, 10 SVG, 10 graph)",
+  "audit_date": "2026-10-26",
+  "source_set": {
+    "textbooks": 12,
+    "pdf_pages_total_reported": 1421,
+    "rendered_content_page_count": 227,
+    "toc_checked": "12 tập SGK KNTT",
+    "rendered_selected_book_pages": {
+      "7_t1": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "7_t2": [
+        59,
+        60,
+        61,
+        63,
+        64,
+        66,
+        67,
+        72,
+        73,
+        74,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "8_t1": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "8_t2": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "9_t1": [
+        66,
+        68,
+        70,
+        74,
+        83,
+        84,
+        87,
+        89,
+        91,
+        93,
+        99,
+        100,
+        104,
+        105
+      ],
+      "9_t2": [
+        4,
+        32,
+        38,
+        46,
+        56,
+        60,
+        67,
+        68,
+        70,
+        72,
+        74,
+        80,
+        84,
+        87,
+        93,
+        98,
+        101,
+        103
+      ],
+      "10_t1": [
+        12,
+        22,
+        26,
+        33,
+        34,
+        38,
+        39,
+        46,
+        47,
+        51,
+        55,
+        60,
+        61,
+        66,
+        73,
+        78,
+        84
+      ],
+      "10_t2": [
+        11,
+        13,
+        19,
+        21,
+        25,
+        30,
+        31,
+        36,
+        43,
+        44,
+        48,
+        49,
+        50,
+        52,
+        60,
+        66,
+        72,
+        77,
+        83
+      ],
+      "11_t1": [
+        5,
+        6,
+        10,
+        17,
+        22,
+        24,
+        31,
+        42,
+        48,
+        52,
+        58,
+        62,
+        70,
+        71,
+        78,
+        80,
+        84,
+        88,
+        89,
+        95,
+        104,
+        111,
+        119
+      ],
+      "11_t2": [
+        16,
+        20,
+        27,
+        28,
+        31,
+        36,
+        44,
+        45,
+        54,
+        61,
+        66,
+        72,
+        76,
+        81,
+        82,
+        88,
+        93,
+        99
+      ],
+      "12_t1": [
+        5,
+        6,
+        9,
+        15,
+        20,
+        23,
+        26,
+        28,
+        33,
+        35,
+        45,
+        47,
+        60,
+        62,
+        67,
+        69,
+        75,
+        78,
+        80,
+        82,
+        87,
+        92
+      ],
+      "12_t2": [
+        4,
+        12,
+        13,
+        15,
+        19,
+        22,
+        24,
+        29,
+        30,
+        41,
+        43,
+        50,
+        54,
+        55,
+        64,
+        65,
+        72,
+        73,
+        80
+      ]
+    },
+    "limitations": "Không kiểm kê từng hình trên toàn bộ các trang. Những tương tác trong tài liệu là đề xuất thiết kế dựa trên kiến thức SGK; không phải tính năng đã tồn tại."
+  },
+  "baseline_old_manifest": "/mnt/data/mathverse_curation_7_12/MATHVERSE_R4_CLASS_7_12_CURATION_MANIFEST_2026-10-26.json",
+  "base_current_records_graded": 85,
+  "families": 67,
+  "modes_total": 247,
+  "by_grade": {
+    "7": 41,
+    "8": 37,
+    "9": 46,
+    "10": 38,
+    "11": 46,
+    "12": 39
+  },
+  "source_registry": [
+    {
+      "id": "7-01",
+      "grade": 7,
+      "family": "NUMBER",
+      "priority": "A",
+      "name": "Real-number line and square roots",
+      "interaction": "Drag rational/irrational points; subdivide the unit; visualize square roots through right triangles.",
+      "source_chapter": "T1 Ch I-II",
+      "source_evidence": "T1 Ch I-II (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "7-01-C01",
+          "name": "Số hữu tỉ trên trục số",
+          "student_interaction": "Kéo điểm trên trục số, thay đổi giá trị bằng thanh tham số",
+          "math_rule_to_verify": "Vị trí tăng theo giá trị số",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-01-C02",
+          "name": "Số thực và căn bậc hai",
+          "student_interaction": "Dựng độ dài căn bằng tam giác vuông rồi chuyển lên trục số",
+          "math_rule_to_verify": "Độ dài dựng tương ứng căn số không âm",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-01-C03",
+          "name": "So sánh và làm tròn",
+          "student_interaction": "Kéo điểm, thay hệ số phóng đại của thước chi tiết và làm tròn số",
+          "math_rule_to_verify": "Không đồng nhất giá trị gần đúng với giá trị đúng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "7-02",
+      "grade": 7,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Special angles and parallel-line transversals",
+      "interaction": "Rotate two lines and a transversal; compare corresponding, alternate and supplementary angles.",
+      "source_chapter": "T1 Ch III",
+      "source_evidence": "Toán 7 tập 1, Bài 8-11, tr.40-59",
+      "modes": [
+        {
+          "id": "7-02-C01",
+          "name": "Hai góc kề bù",
+          "student_interaction": "Quay tia chung, đo từng góc",
+          "math_rule_to_verify": "Tổng bằng 180 độ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-02-C02",
+          "name": "Hai góc đối đỉnh",
+          "student_interaction": "Quay hai đường thẳng cắt nhau",
+          "math_rule_to_verify": "Hai góc đối đỉnh bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-02-C03",
+          "name": "Góc đồng vị khi có cát tuyến",
+          "student_interaction": "Thay độ nghiêng cát tuyến bằng thanh điều chỉnh, quan sát góc đồng vị",
+          "math_rule_to_verify": "Chỉ kết luận bằng nhau khi hai đường song song",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-02-C04",
+          "name": "Góc so le trong và trong cùng phía",
+          "student_interaction": "Thay độ nghiêng cát tuyến, tô nổi các cặp góc so le trong và trong cùng phía",
+          "math_rule_to_verify": "So le trong bằng nhau, trong cùng phía bù nhau khi song song",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-02-C05",
+          "name": "Dấu hiệu nhận biết song song",
+          "student_interaction": "Điều khiển góc và bật kiểm tra điều kiện",
+          "math_rule_to_verify": "Chỉ nhận song song khi điều kiện tương ứng đúng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "7-03",
+      "grade": 7,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Triangle angle sum",
+      "interaction": "Drag the triangle vertices; fold/cut angles to a straight line; track 180 degrees.",
+      "source_chapter": "T1 Ch IV",
+      "source_evidence": "Toán 7 tập 1, Bài 12, tr.60-62; tập 2, Bài 31-33, tr.59-70",
+      "modes": [
+        {
+          "id": "7-03-C01",
+          "name": "Tổng ba góc trong tam giác",
+          "student_interaction": "Kéo 3 đỉnh, cắt ghép 3 góc",
+          "math_rule_to_verify": "A+B+C=180 độ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-03-C02",
+          "name": "Góc ngoài tam giác",
+          "student_interaction": "Kéo dài một cạnh, so góc ngoài và hai góc trong không kề",
+          "math_rule_to_verify": "Góc ngoài bằng tổng hai góc trong không kề",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-03-C03",
+          "name": "Góc và cạnh đối diện",
+          "student_interaction": "Kéo tam giác, sắp xếp góc và cạnh đối diện",
+          "math_rule_to_verify": "Cạnh đối diện góc lớn hơn thì dài hơn",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-03-C04",
+          "name": "Bất đẳng thức tam giác",
+          "student_interaction": "Kéo các thanh độ dài để dựng tam giác",
+          "math_rule_to_verify": "Tổng hai cạnh luôn lớn hơn cạnh còn lại",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-03-C05",
+          "name": "Tam giác cân và tam giác đều",
+          "student_interaction": "Khóa AC=BC (tam giác cân tại C) hoặc AB=BC=CA (tam giác đều), quan sát góc",
+          "math_rule_to_verify": "Tam giác cân có hai góc đáy bằng nhau; tam giác đều có ba góc 60 độ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "7-04",
+      "grade": 7,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Triangle congruence criteria",
+      "interaction": "Drag two triangles while preserving SSS/SAS/ASA or right-triangle conditions; superpose them.",
+      "source_chapter": "T1 Ch IV",
+      "source_evidence": "Toán 7 tập 1, Bài 13-15, tr.63-79",
+      "modes": [
+        {
+          "id": "7-04-C01",
+          "name": "Bằng nhau c.c.c",
+          "student_interaction": "Khóa 3 cặp cạnh, dựng bằng compa, chồng 2 tam giác",
+          "math_rule_to_verify": "Ba cạnh tương ứng bằng nhau; tam giác không suy biến",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "outstanding_qa_note": "Bộ dựng compa từng bước chưa tách riêng; chồng hình động và kiểm tra ba cạnh đã hoạt động."
+        },
+        {
+          "id": "7-04-C02",
+          "name": "Bằng nhau c.g.c",
+          "student_interaction": "Khóa 2 cạnh và góc xen giữa; chồng hình",
+          "math_rule_to_verify": "Không dùng góc không xen giữa",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "7-04-C03",
+          "name": "Bằng nhau g.c.g",
+          "student_interaction": "Khóa 1 cạnh và hai góc kề; chồng hình",
+          "math_rule_to_verify": "Cạnh là cạnh xen giữa hai góc",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "7-04-C04",
+          "name": "Tam giác vuông: hai cạnh góc vuông",
+          "student_interaction": "Giữ góc 90 độ; khóa 2 cạnh góc vuông",
+          "math_rule_to_verify": "Hai cạnh góc vuông tương ứng bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "7-04-C05",
+          "name": "Tam giác vuông: cạnh góc vuông và góc nhọn kề",
+          "student_interaction": "Giữ 1 cạnh góc vuông và góc nhọn kề",
+          "math_rule_to_verify": "Đúng cạnh kề góc đã xét",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "7-04-C06",
+          "name": "Tam giác vuông: cạnh huyền và góc nhọn",
+          "student_interaction": "Giữ cạnh huyền, điều chỉnh góc nhọn",
+          "math_rule_to_verify": "Cạnh huyền đúng là cạnh đối góc 90 độ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "7-04-C07",
+          "name": "Tam giác vuông: cạnh huyền và cạnh góc vuông",
+          "student_interaction": "Khóa cạnh huyền và 1 cạnh góc vuông, dựng hình",
+          "math_rule_to_verify": "Cạnh huyền phải lớn hơn cạnh góc vuông",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        }
+      ]
+    },
+    {
+      "id": "7-05",
+      "grade": 7,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Triangle medians, bisectors, altitudes and perpendicular bisectors",
+      "interaction": "Toggle constructions; drag vertices; show the concurrency point for each family.",
+      "source_chapter": "T2 Ch IX",
+      "source_evidence": "SGK Toán 7 tập 1, Bài 16 (đường trung trực); tập 2, Bài 34-35 (trung tuyến, phân giác, đường cao).",
+      "modes": [
+        {
+          "id": "7-05-C01",
+          "name": "Ba đường trung tuyến và trọng tâm",
+          "student_interaction": "Kéo đỉnh, dựng 3 trung tuyến, bật G",
+          "math_rule_to_verify": "AG:GM=2:1 trên trung tuyến AM",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-05-C02",
+          "name": "Ba đường phân giác và tâm nội tiếp",
+          "student_interaction": "Kéo đỉnh, dựng 3 phân giác, bật đường tròn nội tiếp",
+          "math_rule_to_verify": "Tâm cách đều 3 cạnh",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-05-C03",
+          "name": "Ba đường trung trực và tâm ngoại tiếp",
+          "student_interaction": "Kéo đỉnh, dựng 3 trung trực, bật đường tròn ngoại tiếp",
+          "math_rule_to_verify": "Tâm cách đều 3 đỉnh",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-05-C04",
+          "name": "Ba đường cao và trực tâm",
+          "student_interaction": "Kéo đỉnh để chuyển nhọn/vuông/tù; bật trực tâm",
+          "math_rule_to_verify": "Đường cao vuông góc cạnh đối diện hoặc đường thẳng chứa cạnh",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-05-C05",
+          "name": "Dựng đường trung trực bằng thước và compa",
+          "student_interaction": "Mô phỏng hai cung compa và đường trung trực theo thời gian; thay độ dài AB",
+          "math_rule_to_verify": "Mỗi điểm thuộc trung trực cách đều hai mút",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "7-06",
+      "grade": 7,
+      "family": "STAT",
+      "priority": "A",
+      "name": "2D pie chart",
+      "interaction": "Drag sector boundaries; update percentages and angles; enforce total of 100 percent.",
+      "source_chapter": "T1 Ch V",
+      "source_evidence": "T1 Ch V (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "7-06-C01",
+          "name": "Biểu đồ quạt tròn từ bảng số liệu",
+          "student_interaction": "Kéo ranh giới quạt, đổi bảng số liệu",
+          "math_rule_to_verify": "Góc quạt = 360 x tỉ lệ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-06-C02",
+          "name": "So sánh phần trăm",
+          "student_interaction": "Bật/tắt từng lĩnh vực, hiển thị phần còn lại",
+          "math_rule_to_verify": "Tổng các tỉ lệ bằng 100%",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-06-C03",
+          "name": "Từ biểu đồ cột sang quạt tròn",
+          "student_interaction": "Chuyển biểu diễn cùng một bảng dữ liệu",
+          "math_rule_to_verify": "Số lượng và phần trăm nhất quán; dùng 2D",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "7-07",
+      "grade": 7,
+      "family": "STAT",
+      "priority": "A",
+      "name": "Time-series broken-line chart",
+      "interaction": "Drag data points; recalculate change and locate trends; synchronize table and chart.",
+      "source_chapter": "T1 Ch V",
+      "source_evidence": "T1 Ch V (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "7-07-C01",
+          "name": "Biểu đồ đoạn thẳng theo thời gian",
+          "student_interaction": "Kéo các điểm số liệu trên biểu đồ đoạn thẳng, cập nhật số đo hiển thị",
+          "math_rule_to_verify": "Hoành độ thời điểm không đổi thứ tự",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-07-C02",
+          "name": "So sánh xu hướng tăng giảm",
+          "student_interaction": "Tô các đoạn tăng/giảm và chênh lệch",
+          "math_rule_to_verify": "Không coi độ dốc là tốc độ khi khoảng thời gian khác nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "7-08",
+      "grade": 7,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Rectangular prism and cube",
+      "interaction": "Rotate, resize, count edges/faces, unfold/re-fold nets and evaluate area/volume.",
+      "source_chapter": "T2 Ch X",
+      "source_evidence": "T2 Ch X (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "7-08-C01",
+          "name": "Hình hộp chữ nhật: mặt cạnh đỉnh",
+          "student_interaction": "Xoay khối 3D thật, đếm và quan sát số mặt–cạnh–đỉnh; chọn mặt trực tiếp chưa hỗ trợ",
+          "math_rule_to_verify": "Hình hộp chữ nhật có 6 mặt, 12 cạnh, 8 đỉnh",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26",
+          "outstanding_qa_note": "Chưa có raycast chọn riêng mặt/cạnh/đỉnh; hiện mới xoay, hiện khối và số đếm chính xác.",
+          "webgl_windows_qa_required": true
+        },
+        {
+          "id": "7-08-C02",
+          "name": "Hình lập phương",
+          "student_interaction": "Giữ ba kích thước bằng nhau; xoay 3D, chuyển đặc/khung dây và thay cạnh",
+          "math_rule_to_verify": "Các cạnh của lập phương bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26",
+          "webgl_windows_qa_required": true
+        },
+        {
+          "id": "7-08-C03",
+          "name": "Khai triển hình hộp",
+          "student_interaction": "Xoay khối 3D và mở bản khai triển 2D có hiệu ứng từng bước; chưa gấp 3D vật lý",
+          "math_rule_to_verify": "Các cặp mặt tương ứng khớp đúng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26",
+          "outstanding_qa_note": "Hình khai triển 2D có hiệu ứng hiển thị; chưa phải mô phỏng gấp vật lý 3D.",
+          "webgl_windows_qa_required": true
+        },
+        {
+          "id": "7-08-C04",
+          "name": "Diện tích và thể tích",
+          "student_interaction": "Thay ba kích thước khối 3D và xem số đo diện tích–thể tích; chưa xếp khối đơn vị",
+          "math_rule_to_verify": "Thể tích bằng diện tích đáy nhân chiều cao",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26",
+          "outstanding_qa_note": "Chưa dựng lưới xếp từng khối đơn vị; có thay kích thước và công thức diện tích/thể tích.",
+          "webgl_windows_qa_required": true
+        }
+      ]
+    },
+    {
+      "id": "7-09",
+      "grade": 7,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Right triangular and quadrilateral prisms",
+      "interaction": "Switch base shapes; drag height; unfold/re-fold and calculate lateral area and volume.",
+      "source_chapter": "T2 Ch X",
+      "source_evidence": "T2 Ch X (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "7-09-C01",
+          "name": "Lăng trụ đứng tam giác",
+          "student_interaction": "Xoay lăng trụ 3D thật, quan sát hai đáy tam giác và các mặt bên hình chữ nhật",
+          "math_rule_to_verify": "Mặt bên hình chữ nhật",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26",
+          "webgl_windows_qa_required": true
+        },
+        {
+          "id": "7-09-C02",
+          "name": "Lăng trụ đứng tứ giác",
+          "student_interaction": "Thay thông số đáy hình thang cân và chiều cao lăng trụ đứng tứ giác",
+          "math_rule_to_verify": "Hai đáy song song bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26",
+          "webgl_windows_qa_required": true
+        },
+        {
+          "id": "7-09-C03",
+          "name": "Khai triển lăng trụ",
+          "student_interaction": "Xoay lăng trụ 3D và xem hình khai triển 2D; chưa có hoạt ảnh gấp hình 3D vật lý",
+          "math_rule_to_verify": "Số mặt bên bằng số cạnh đáy",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26",
+          "outstanding_qa_note": "Hình khai triển tam giác 2D có hiệu ứng; chưa gấp vật lý từ các mặt 3D.",
+          "webgl_windows_qa_required": true
+        },
+        {
+          "id": "7-09-C04",
+          "name": "Diện tích xung quanh và thể tích",
+          "student_interaction": "Điều chỉnh đáy, chiều cao",
+          "math_rule_to_verify": "Sxq=chu vi đáy x chiều cao; V=Sđáy x h",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26",
+          "webgl_windows_qa_required": true
+        }
+      ]
+    },
+    {
+      "id": "7-10",
+      "grade": 7,
+      "family": "PROB",
+      "priority": "B",
+      "name": "Simple random events",
+      "interaction": "Spin a wheel or draw tokens; tally outcomes and compare experimental probabilities.",
+      "source_chapter": "T2 Ch VIII",
+      "source_evidence": "T2 Ch VIII (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "7-10-C01",
+          "name": "Phép thử ngẫu nhiên",
+          "student_interaction": "Quay vòng hai kết quả, chạy phép thử 1/10/100 lần và quan sát tần suất",
+          "math_rule_to_verify": "Mỗi kết quả thuộc không gian mẫu đã chọn",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-10-C02",
+          "name": "Xác suất trong mô hình đồng khả năng",
+          "student_interaction": "Điều chỉnh tổng số kết quả đồng khả năng và số kết quả thuận lợi; thử và so sánh xác suất",
+          "math_rule_to_verify": "Xác suất trong [0,1]",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        },
+        {
+          "id": "7-10-C03",
+          "name": "Tần suất thực nghiệm",
+          "student_interaction": "Lặp phép thử xúc xắc và so sánh tần suất thực nghiệm với xác suất lý thuyết",
+          "math_rule_to_verify": "Tần suất có thể dao động so với xác suất lí thuyết",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "implementation_release": "GD2_TOAN7_2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "8-01",
+      "grade": 8,
+      "family": "PLANE",
+      "priority": "B",
+      "name": "Geometric identities and cut-and-reassemble area",
+      "interaction": "Change sides a,b and move rectangle/square parts to illustrate selected algebraic identities.",
+      "source_chapter": "T1 Ch II",
+      "source_evidence": "T1 Ch II (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "8-01-C01",
+          "name": "Bình phương một tổng và một hiệu",
+          "student_interaction": "Chọn bình phương tổng/hiệu; kéo a,b và quan sát phân hoạch diện tích 2D, kiểm chứng LaTeX.",
+          "math_rule_to_verify": "S=(a+b)^2 hoặc (a-b)^2 khi kích thước hợp lệ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-01-C02",
+          "name": "Hiệu hai bình phương",
+          "student_interaction": "Chuyển phần ô vuông thành hình chữ nhật",
+          "math_rule_to_verify": "a^2-b^2=(a-b)(a+b)",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-01-C03",
+          "name": "Lập phương và tổng/hiệu hai lập phương",
+          "student_interaction": "Quan sát mô hình thể tích 3D tách rời 8 khối thành phần: 1 khối a³, 3 khối a²b, 3 khối ab² và 1 khối b³; đối chiếu trực tiếp bảng tính số học Vế Trái = Vế Phải.",
+          "math_rule_to_verify": "(a+b)^3, (a-b)^3, a^3+b^3, a^3-b^3 đúng với mọi a,b thực; minh họa dương a,b",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        }
+      ],
+      "audit_phase": "GD3_TOAN8"
+    },
+    {
+      "id": "8-02",
+      "grade": 8,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Special quadrilaterals",
+      "interaction": "Change vertices while locking trapezoid, parallelogram, rectangle, rhombus or square conditions.",
+      "source_chapter": "T1 Ch III",
+      "source_evidence": "Toán 8 tập 1, Bài 10-14, tr.48-74",
+      "modes": [
+        {
+          "id": "8-02-C01",
+          "name": "Hình thang cân",
+          "student_interaction": "Kéo đáy nhưng khóa hai góc kề một đáy bằng nhau",
+          "math_rule_to_verify": "Hai cạnh bên bằng nhau và hai đường chéo bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-02-C02",
+          "name": "Hình bình hành",
+          "student_interaction": "Kéo một đỉnh, giữ các cặp cạnh đối song song",
+          "math_rule_to_verify": "Hai đường chéo cắt nhau tại trung điểm",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-02-C03",
+          "name": "Hình chữ nhật",
+          "student_interaction": "Giữ bốn góc vuông; thay chiều dài/rộng",
+          "math_rule_to_verify": "Đường chéo bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-02-C04",
+          "name": "Hình thoi",
+          "student_interaction": "Giữ bốn cạnh bằng nhau; thay một góc",
+          "math_rule_to_verify": "Đường chéo vuông góc và phân giác các góc",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-02-C05",
+          "name": "Hình vuông",
+          "student_interaction": "Khóa cạnh bằng nhau và góc vuông; chuyển từ chữ nhật/thoi",
+          "math_rule_to_verify": "Đồng thời mang các tính chất của chữ nhật và thoi",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        }
+      ],
+      "audit_phase": "GD3_TOAN8"
+    },
+    {
+      "id": "8-03",
+      "grade": 8,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Thales theorem and midsegment",
+      "interaction": "Drag a line parallel to a triangle side; recalculate segment ratios and midsegment length.",
+      "source_chapter": "T1 Ch IV",
+      "source_evidence": "Toán 8 tập 1, Bài 15-16, tr.76-83",
+      "modes": [
+        {
+          "id": "8-03-C01",
+          "name": "Định lí Thalès thuận",
+          "student_interaction": "Di chuyển đường song song cắt hai cạnh tam giác",
+          "math_rule_to_verify": "Các đoạn tương ứng tỉ lệ khi song song",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-03-C02",
+          "name": "Định lí Thalès đảo",
+          "student_interaction": "Điều chỉnh tỉ số và bật kiểm tra song song",
+          "math_rule_to_verify": "Không suy ra song song nếu tỉ số không phù hợp",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-03-C03",
+          "name": "Đường trung bình tam giác",
+          "student_interaction": "Tạo hai trung điểm, dựng đoạn nối",
+          "math_rule_to_verify": "Song song cạnh thứ ba và có độ dài bằng một nửa",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        }
+      ],
+      "audit_phase": "GD3_TOAN8"
+    },
+    {
+      "id": "8-04",
+      "grade": 8,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Triangle-angle-bisector ratio",
+      "interaction": "Drag a bisector foot and vertices; show proportional segments and equality constraints.",
+      "source_chapter": "T1 Ch IV",
+      "source_evidence": "Toán 8 tập 1, Bài 17, tr.84-86",
+      "modes": [
+        {
+          "id": "8-04-C01",
+          "name": "Đường phân giác trong tam giác",
+          "student_interaction": "Di chuyển chân phân giác trên cạnh đối diện",
+          "math_rule_to_verify": "Hai đoạn của cạnh đối diện tỉ lệ hai cạnh kề",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-04-C02",
+          "name": "Phân giác trong kết hợp Thalès",
+          "student_interaction": "Bật đường song song phụ trong phép chứng minh",
+          "math_rule_to_verify": "Dựng hình luôn tuân theo dữ kiện và tỉ số",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        }
+      ],
+      "audit_phase": "GD3_TOAN8"
+    },
+    {
+      "id": "8-05",
+      "grade": 8,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Pythagoras theorem",
+      "interaction": "Construct three squares on a right triangle; reassemble pieces and compare areas.",
+      "source_chapter": "T2 Ch IX",
+      "source_evidence": "Toán 8 tập 2, Bài 35, tr.93-97",
+      "modes": [
+        {
+          "id": "8-05-C01",
+          "name": "Định lí Pythagore",
+          "student_interaction": "Dựng ba hình vuông trên ba cạnh tam giác vuông",
+          "math_rule_to_verify": "a^2+b^2=c^2",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-05-C02",
+          "name": "Định lí Pythagore đảo",
+          "student_interaction": "Kéo ba cạnh rồi kiểm tra tam giác vuông",
+          "math_rule_to_verify": "Nếu tổng bình phương hai cạnh nhỏ bằng bình phương cạnh lớn thì tam giác vuông",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-05-C03",
+          "name": "Ứng dụng đo độ dài",
+          "student_interaction": "Kéo đường chéo, khoảng cách thực tế",
+          "math_rule_to_verify": "Tính đúng cạnh chưa biết theo đơn vị",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        }
+      ],
+      "audit_phase": "GD3_TOAN8"
+    },
+    {
+      "id": "8-06",
+      "grade": 8,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Similar triangles and similar figures",
+      "interaction": "Scale similar triangles; track ratios of lengths and areas; preserve angle equality.",
+      "source_chapter": "T2 Ch IX",
+      "source_evidence": "Toán 8 tập 2, Bài 33-34, Bài 36-37, tr.78-90,98-107",
+      "modes": [
+        {
+          "id": "8-06-C01",
+          "name": "Đồng dạng c.c.c",
+          "student_interaction": "Khóa ba tỉ số cạnh tương ứng bằng k",
+          "math_rule_to_verify": "Đúng cặp cạnh tương ứng; k>0",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "triangle_svg_2d"
+        },
+        {
+          "id": "8-06-C02",
+          "name": "Đồng dạng c.g.c",
+          "student_interaction": "Khóa hai tỉ số và góc xen giữa bằng nhau",
+          "math_rule_to_verify": "Góc dùng phải là góc xen giữa",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "triangle_svg_2d"
+        },
+        {
+          "id": "8-06-C03",
+          "name": "Đồng dạng g.g",
+          "student_interaction": "Khóa hai cặp góc tương ứng bằng nhau",
+          "math_rule_to_verify": "Góc thứ ba tự bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "triangle_svg_2d"
+        },
+        {
+          "id": "8-06-C04",
+          "name": "Tam giác vuông: một góc nhọn bằng nhau",
+          "student_interaction": "Khóa góc 90 độ và một góc nhọn",
+          "math_rule_to_verify": "Một góc nhọn tương ứng bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "triangle_svg_2d"
+        },
+        {
+          "id": "8-06-C05",
+          "name": "Tam giác vuông: hai cạnh góc vuông tỉ lệ",
+          "student_interaction": "Thay hai cạnh góc vuông của hai tam giác",
+          "math_rule_to_verify": "Tỉ số giữa hai cạnh góc vuông tương ứng bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "triangle_svg_2d"
+        },
+        {
+          "id": "8-06-C06",
+          "name": "Tam giác vuông: cạnh huyền và một cạnh góc vuông tỉ lệ",
+          "student_interaction": "Thay cạnh huyền/cạnh góc vuông",
+          "math_rule_to_verify": "Tỉ số tương ứng và điều kiện huyền>cạnh góc vuông",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "triangle_svg_2d"
+        },
+        {
+          "id": "8-06-C07",
+          "name": "Định lí đồng dạng và đường song song",
+          "student_interaction": "Kéo đoạn song song một cạnh của tam giác",
+          "math_rule_to_verify": "Tam giác cắt được đồng dạng tam giác lớn",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-06-C08",
+          "name": "Hình đồng dạng phối cảnh",
+          "student_interaction": "Kéo tâm phối cảnh và tỉ số, phóng/thu hình",
+          "math_rule_to_verify": "Các điểm tương ứng thẳng hàng với tâm phối cảnh",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-06-C09",
+          "name": "Hình đồng dạng",
+          "student_interaction": "Dùng phép phóng/thu và phép dời hình đơn giản",
+          "math_rule_to_verify": "Mọi khoảng cách tỉ lệ cùng hệ số k>0",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        }
+      ],
+      "audit_phase": "GD3_TOAN8"
+    },
+    {
+      "id": "8-07",
+      "grade": 8,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Linear function y=ax+b",
+      "interaction": "Slide coefficients; change intercept/slope; link table and coordinate plane.",
+      "source_chapter": "T2 Ch VII",
+      "source_evidence": "Toán 8 tập 2, Bài 27-29, tr.40-55",
+      "modes": [
+        {
+          "id": "8-07-C01",
+          "name": "Đồ thị y=ax+b",
+          "student_interaction": "Điều khiển a,b; kéo giao trục tung",
+          "math_rule_to_verify": "a khác 0 đối với hàm số bậc nhất",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "function_graph_svg_2d"
+        },
+        {
+          "id": "8-07-C02",
+          "name": "Hệ số góc",
+          "student_interaction": "Xoay đường thẳng qua điểm cố định",
+          "math_rule_to_verify": "Độ dốc phụ thuộc a",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "function_graph_svg_2d"
+        },
+        {
+          "id": "8-07-C03",
+          "name": "So sánh hai đường thẳng",
+          "student_interaction": "Thay a1,a2,b1,b2",
+          "math_rule_to_verify": "Phân loại song song/trùng/cắt theo hệ số",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "function_graph_svg_2d"
+        }
+      ],
+      "audit_phase": "GD3_TOAN8"
+    },
+    {
+      "id": "8-08",
+      "grade": 8,
+      "family": "STAT",
+      "priority": "B",
+      "name": "Dữ liệu, biểu đồ và xác suất",
+      "interaction": "Thay dữ liệu và chọn loại biểu đồ (T1 Ch V); gieo xúc xắc, chọn bóng và tung đồng xu (T2 Ch VIII).",
+      "source_chapter": "T1 Ch V; T2 Ch VIII",
+      "source_evidence": "KNTT Toán 8 tập 1 trang 90–109; tập 2 trang 59–76",
+      "modes": [
+        {
+          "id": "8-08-C01",
+          "name": "Bảng số liệu sang biểu đồ",
+          "student_interaction": "Sửa bảng, chọn cột/đường/quạt phù hợp",
+          "math_rule_to_verify": "Một bộ dữ liệu không thể hiển thị sai đơn vị",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-08-C02",
+          "name": "Phân tích và đối chiếu biểu đồ",
+          "student_interaction": "Tô cực đại/cực tiểu, so số liệu giữa nhóm",
+          "math_rule_to_verify": "Tỉ lệ và tổng thống nhất với bảng nguồn",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-08-C03",
+          "name": "Kết quả có thể và kết quả thuận lợi khi gieo xúc xắc",
+          "student_interaction": "Chọn số mặt thuận lợi và số lần gieo; xem xúc xắc, mẫu và tần số",
+          "math_rule_to_verify": "P(A) = k/6 (xúc xắc cân đối)",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Bổ sung khi rà soát Chương VIII Toán 8 tập 2; mô phỏng xác suất có hạt giống, cần kiểm tra UI trên Windows.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-08-C04",
+          "name": "Xác suất theo tỉ số: bốc bóng",
+          "student_interaction": "Điều chỉnh số bóng hai màu; xem tỉ số xác suất và một bóng mẫu đồng bộ với màu hiển thị.",
+          "math_rule_to_verify": "P(đỏ) = số bóng đỏ / tổng bóng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Minh họa mẫu bằng thuật toán giả ngẫu nhiên xác định; không thay thế thí nghiệm ngẫu nhiên thật.",
+          "render_type": "svg_2d"
+        },
+        {
+          "id": "8-08-C05",
+          "name": "Xác suất thực nghiệm: tung đồng xu",
+          "student_interaction": "Tăng số lần tung, tua quá trình và so sánh tần số với 1/2",
+          "math_rule_to_verify": "f(A)=n(A)/n; không khẳng định từng thử nghiệm phải bằng 1/2",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Bổ sung khi rà soát Chương VIII Toán 8 tập 2; mô phỏng xác suất có hạt giống, cần kiểm tra UI trên Windows.",
+          "render_type": "svg_2d"
+        }
+      ],
+      "audit_phase": "GD3_TOAN8"
+    },
+    {
+      "id": "8-09",
+      "grade": 8,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Regular triangular and square pyramids",
+      "interaction": "Orbit 3D shape; change dimensions; unfold nets and compute area and volume.",
+      "source_chapter": "T2 Ch X",
+      "source_evidence": "T2 Ch X (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "8-09-C01",
+          "name": "Hình chóp tam giác đều",
+          "student_interaction": "Xoay khối, thay cạnh đáy và chiều cao",
+          "math_rule_to_verify": "Đáy tam giác đều; đỉnh thẳng trên tâm đáy",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "webgl_3d"
+        },
+        {
+          "id": "8-09-C02",
+          "name": "Hình chóp tứ giác đều",
+          "student_interaction": "Xoay khối, thay cạnh đáy và chiều cao",
+          "math_rule_to_verify": "Đáy hình vuông; cạnh bên bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "webgl_3d"
+        },
+        {
+          "id": "8-09-C03",
+          "name": "Khai triển hình chóp đều",
+          "student_interaction": "Trải các mặt tam giác bên và gấp lại",
+          "math_rule_to_verify": "Cạnh ghép khớp đúng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "webgl_3d"
+        },
+        {
+          "id": "8-09-C04",
+          "name": "Diện tích xung quanh và thể tích",
+          "student_interaction": "Thay chiều cao mặt bên và chiều cao khối",
+          "math_rule_to_verify": "Phân biệt chiều cao khối và đường cao mặt bên",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "audit_grade8_note": "Đã có bộ dựng hình và tương tác ở giai đoạn 3; cần nghiệm thu WebGL/chuyển động thực tế trên máy Windows.",
+          "render_type": "webgl_3d"
+        }
+      ],
+      "audit_phase": "GD3_TOAN8"
+    },
+    {
+      "id": "9-01",
+      "grade": 9,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Graphical system of two linear equations",
+      "interaction": "Drag coefficients; show intersecting, parallel and coincident lines and the solution.",
+      "source_chapter": "T1 Ch I",
+      "source_evidence": "T1 Ch I (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "9-01-C01",
+          "name": "Hệ hai phương trình: nghiệm duy nhất",
+          "student_interaction": "Kéo hai đường thẳng để cắt nhau",
+          "math_rule_to_verify": "Giao điểm là nghiệm chung",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "9-01-C02",
+          "name": "Hệ vô nghiệm",
+          "student_interaction": "Cho hai đường thẳng song song phân biệt",
+          "math_rule_to_verify": "Không có giao điểm",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "9-01-C03",
+          "name": "Hệ vô số nghiệm",
+          "student_interaction": "Cho hai đường trùng nhau",
+          "math_rule_to_verify": "Mọi điểm trên đường thẳng là nghiệm",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        }
+      ]
+    },
+    {
+      "id": "9-02",
+      "grade": 9,
+      "family": "NUMBER",
+      "priority": "B",
+      "name": "Linear inequality solution set",
+      "interaction": "Change bounds and inequality signs; display open/closed interval points on a number line.",
+      "source_chapter": "T1 Ch II",
+      "source_evidence": "T1 Ch II (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "9-02-C01",
+          "name": "Bất phương trình bậc nhất một ẩn",
+          "student_interaction": "Kéo dấu mốc và đổi dấu bất phương trình",
+          "math_rule_to_verify": "Dùng điểm rỗng hoặc đặc đúng quy ước",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-02-C02",
+          "name": "Giao các điều kiện",
+          "student_interaction": "Chồng hai khoảng và lấy phần chung",
+          "math_rule_to_verify": "Không tô miền không thỏa đồng thời",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        }
+      ]
+    },
+    {
+      "id": "9-03",
+      "grade": 9,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Trigonometric ratios in a right triangle",
+      "interaction": "Drag angle and leg length; update sine/cosine/tangent and reciprocal ratios.",
+      "source_chapter": "T1 Ch IV",
+      "source_evidence": "T1 Ch IV (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "9-03-C01",
+          "name": "Sin và cos góc nhọn",
+          "student_interaction": "Thay góc nhọn trong tam giác vuông",
+          "math_rule_to_verify": "sin=đối/huyền, cos=kề/huyền",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-03-C02",
+          "name": "Tan và cot góc nhọn",
+          "student_interaction": "Thay độ dài hai cạnh góc vuông",
+          "math_rule_to_verify": "tan=đối/kề, cot=kề/đối",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-03-C03",
+          "name": "Giải tam giác vuông",
+          "student_interaction": "Khóa dữ kiện cho trước và tính phần còn lại",
+          "math_rule_to_verify": "Các hệ thức Pythagore và tỉ số lượng giác cùng đúng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        }
+      ]
+    },
+    {
+      "id": "9-04",
+      "grade": 9,
+      "family": "REAL",
+      "priority": "B",
+      "name": "Height and distance measurement",
+      "interaction": "Adjust sighting point and elevation angle; visualize right-triangle measurements.",
+      "source_chapter": "T1 Ch IV Practical",
+      "source_evidence": "T1 Ch IV Practical (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "9-04-C01",
+          "name": "Đo chiều cao từ góc nâng",
+          "student_interaction": "Kéo vị trí đo và góc ngắm",
+          "math_rule_to_verify": "Chiều cao đo theo phương thẳng đứng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-04-C02",
+          "name": "Đo khoảng cách không tiếp cận trực tiếp",
+          "student_interaction": "Điều khiển điểm mốc, góc, khoảng cách đã biết",
+          "math_rule_to_verify": "Giữ cùng đơn vị và điều kiện hình học",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        }
+      ]
+    },
+    {
+      "id": "9-05",
+      "grade": 9,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Circle arcs, chords and sectors",
+      "interaction": "Move points on a circle; measure arcs, chords and sector area with a radius control.",
+      "source_chapter": "T1 Ch V",
+      "source_evidence": "Toán 9 tập 1, Bài 13-15, tr.83-96",
+      "modes": [
+        {
+          "id": "9-05-C01",
+          "name": "Dây cung và đường kính",
+          "student_interaction": "Kéo hai điểm trên đường tròn",
+          "math_rule_to_verify": "Đường kính là dây lớn nhất",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-05-C02",
+          "name": "Góc ở tâm và số đo cung",
+          "student_interaction": "Kéo bán kính giới hạn cung",
+          "math_rule_to_verify": "Số đo cung nhỏ bằng số đo góc ở tâm",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-05-C03",
+          "name": "Độ dài cung tròn",
+          "student_interaction": "Kéo góc tâm, bán kính",
+          "math_rule_to_verify": "L=pi*R*alpha/180 độ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-05-C04",
+          "name": "Diện tích quạt và vành khuyên",
+          "student_interaction": "Kéo góc tâm và hai bán kính",
+          "math_rule_to_verify": "S_quạt=pi*R^2*alpha/360 độ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        }
+      ]
+    },
+    {
+      "id": "9-06",
+      "grade": 9,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Line-circle and circle-circle relative positions",
+      "interaction": "Move centers/line; show secant, tangent, disjoint and intersecting cases with constraints.",
+      "source_chapter": "T1 Ch V",
+      "source_evidence": "Toán 9 tập 1, Bài 16-17, tr.99-108",
+      "modes": [
+        {
+          "id": "9-06-C01",
+          "name": "Đường thẳng và đường tròn: cắt nhau",
+          "student_interaction": "Tịnh tiến đường thẳng qua đường tròn",
+          "math_rule_to_verify": "Khoảng cách tâm tới đường thẳng nhỏ hơn bán kính",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "9-06-C02",
+          "name": "Đường thẳng và đường tròn: tiếp xúc",
+          "student_interaction": "Kéo đến tiếp tuyến tại một điểm",
+          "math_rule_to_verify": "Khoảng cách tâm tới đường thẳng bằng bán kính",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "9-06-C03",
+          "name": "Đường thẳng và đường tròn: không giao",
+          "student_interaction": "Dịch đường thẳng ra ngoài",
+          "math_rule_to_verify": "Khoảng cách tâm tới đường thẳng lớn hơn bán kính",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "9-06-C04",
+          "name": "Hai đường tròn cắt nhau",
+          "student_interaction": "Kéo hai tâm và bán kính",
+          "math_rule_to_verify": "|R-r|<d<R+r",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "9-06-C05",
+          "name": "Hai đường tròn tiếp xúc trong/ngoài",
+          "student_interaction": "Thay d và hai bán kính",
+          "math_rule_to_verify": "d=|R-r| hoặc d=R+r (trường hợp không trùng nhau)",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "9-06-C06",
+          "name": "Hai đường tròn rời nhau/chứa nhau/trùng nhau",
+          "student_interaction": "Kéo tâm qua các ngưỡng",
+          "math_rule_to_verify": "Phân biệt rời ngoài, chứa trong và trùng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        }
+      ]
+    },
+    {
+      "id": "9-07",
+      "grade": 9,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Inscribed angles and cyclic quadrilaterals",
+      "interaction": "Drag points on a circle; compare central/inscribed angles and cyclic-angle invariants.",
+      "source_chapter": "T2 Ch IX",
+      "source_evidence": "Toán 9 tập 2, Bài 27-30, tr.67-92",
+      "modes": [
+        {
+          "id": "9-07-C01",
+          "name": "Góc nội tiếp và góc ở tâm",
+          "student_interaction": "Kéo đỉnh góc nội tiếp trên một cung",
+          "math_rule_to_verify": "Góc nội tiếp bằng nửa góc ở tâm cùng chắn một cung",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-07-C02",
+          "name": "Các góc nội tiếp cùng chắn một cung",
+          "student_interaction": "Di chuyển hai đỉnh góc nội tiếp",
+          "math_rule_to_verify": "Hai góc bằng nhau trong cấu hình thích hợp",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-07-C03",
+          "name": "Đường tròn ngoại tiếp tam giác",
+          "student_interaction": "Dựng 3 trung trực",
+          "math_rule_to_verify": "Tâm cách đều 3 đỉnh",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-07-C04",
+          "name": "Đường tròn nội tiếp tam giác",
+          "student_interaction": "Dựng 3 phân giác và tiếp điểm",
+          "math_rule_to_verify": "Tâm cách đều 3 cạnh",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-07-C05",
+          "name": "Tứ giác nội tiếp",
+          "student_interaction": "Kéo 4 đỉnh trên đường tròn",
+          "math_rule_to_verify": "Hai góc đối bù nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-07-C06",
+          "name": "Đa giác đều và các đường tròn liên quan",
+          "student_interaction": "Đổi số cạnh và dựng đa giác đều",
+          "math_rule_to_verify": "Cạnh và góc bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        }
+      ]
+    },
+    {
+      "id": "9-08",
+      "grade": 9,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Parabol và nghiệm phương trình bậc hai",
+      "interaction": "Change a including its sign; track vertex, symmetry, intercepts and associated points.",
+      "source_chapter": "T2 Ch VI",
+      "source_evidence": "Toán 9 tập 2, Bài 18–20, tr.4–24",
+      "modes": [
+        {
+          "id": "9-08-C01",
+          "name": "Đồ thị y=ax^2 với a>0",
+          "student_interaction": "Kéo a dương, tô điểm đối xứng",
+          "math_rule_to_verify": "Parabol hướng lên, trục Oy",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "9-08-C02",
+          "name": "Đồ thị y=ax^2 với a<0",
+          "student_interaction": "Kéo a âm, tô điểm đối xứng",
+          "math_rule_to_verify": "Parabol hướng xuống, trục Oy",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "9-08-C03",
+          "name": "Bảng giá trị và các điểm đối xứng",
+          "student_interaction": "Chọn x và -x",
+          "math_rule_to_verify": "f(x)=f(-x)",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "9-08-C04",
+          "name": "Nghiệm phương trình bậc hai: phân biệt, kép, vô nghiệm",
+          "student_interaction": "Kéo a, b, c để quan sát Δ và số giao điểm của parabol với Ox",
+          "math_rule_to_verify": "Δ>0: 2 nghiệm, Δ=0: nghiệm kép, Δ<0: vô nghiệm thực",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-08-C05",
+          "name": "Hệ thức Viète của hai nghiệm phương trình bậc hai",
+          "student_interaction": "Kéo hệ số và quan sát tổng, tích hai hoành độ giao điểm",
+          "math_rule_to_verify": "Với nghiệm thực, x1+x2=-b/a, x1 x2=c/a",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        }
+      ]
+    },
+    {
+      "id": "9-09",
+      "grade": 9,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Cylinder and lateral surface net",
+      "interaction": "Change height/radius; unfold rectangular lateral surface and calculate volume/area.",
+      "source_chapter": "T2 Ch X",
+      "source_evidence": "T2 Ch X (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "9-09-C01",
+          "name": "Hình trụ và yếu tố",
+          "student_interaction": "Xoay, thay R và h",
+          "math_rule_to_verify": "Hai đáy là hai hình tròn bằng nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-09-C02",
+          "name": "Khai triển mặt xung quanh hình trụ",
+          "student_interaction": "Trải mặt cong thành hình chữ nhật",
+          "math_rule_to_verify": "Chiều dài hình chữ nhật=2*pi*R",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-09-C03",
+          "name": "Diện tích và thể tích hình trụ",
+          "student_interaction": "Thay R,h; phủ các lớp thể tích",
+          "math_rule_to_verify": "V=pi*R^2*h",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        }
+      ]
+    },
+    {
+      "id": "9-10",
+      "grade": 9,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Cone and sector net",
+      "interaction": "Change radius and height; display generatrix; unfold a circular-sector lateral net.",
+      "source_chapter": "T2 Ch X",
+      "source_evidence": "T2 Ch X (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "9-10-C01",
+          "name": "Hình nón và đường sinh",
+          "student_interaction": "Xoay, thay R,h",
+          "math_rule_to_verify": "l^2=R^2+h^2 đối với nón tròn xoay",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-10-C02",
+          "name": "Khai triển mặt xung quanh hình nón",
+          "student_interaction": "Trải thành hình quạt",
+          "math_rule_to_verify": "Độ dài cung hình quạt=2*pi*R",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-10-C03",
+          "name": "Diện tích và thể tích hình nón",
+          "student_interaction": "Thay chiều cao và bán kính",
+          "math_rule_to_verify": "V=pi*R^2*h/3",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        }
+      ]
+    },
+    {
+      "id": "9-11",
+      "grade": 9,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Sphere and plane section",
+      "interaction": "Rotate sphere; move the cutting plane; show circle section and cross-sectional radius.",
+      "source_chapter": "T2 Ch X",
+      "source_evidence": "T2 Ch X (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "9-11-C01",
+          "name": "Mặt cầu và hình cầu",
+          "student_interaction": "Xoay hình, thay bán kính",
+          "math_rule_to_verify": "Phân biệt mặt cầu với khối cầu",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-11-C02",
+          "name": "Diện tích mặt cầu và thể tích khối cầu",
+          "student_interaction": "Thay bán kính, cập nhật số liệu",
+          "math_rule_to_verify": "S=4*pi*R^2; V=4*pi*R^3/3",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-11-C03",
+          "name": "Mặt cắt qua hình cầu [mở rộng trực quan]",
+          "student_interaction": "Đưa mặt phẳng qua khối cầu, quan sát giao hình",
+          "math_rule_to_verify": "Không trình bày là định lí trọng tâm nếu SGK chỉ dùng minh họa",
+          "display_status": "ENRICHMENT",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        }
+      ]
+    },
+    {
+      "id": "9-12",
+      "grade": 9,
+      "family": "STAT",
+      "priority": "A",
+      "name": "Frequency, relative frequency and grouped tables",
+      "interaction": "Change raw/grouped datasets; show data table and correct frequency bars/intervals.",
+      "source_chapter": "T2 Ch VII",
+      "source_evidence": "T2 Ch VII (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "9-12-C01",
+          "name": "Tần số của dữ liệu",
+          "student_interaction": "Thay dữ liệu thô; lập bảng tần số",
+          "math_rule_to_verify": "Tổng tần số bằng cỡ mẫu",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-12-C02",
+          "name": "Tần số tương đối",
+          "student_interaction": "Sửa tần số và tỉ lệ",
+          "math_rule_to_verify": "Tổng tần số tương đối=100%",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-12-C03",
+          "name": "Dữ liệu ghép nhóm",
+          "student_interaction": "Dời biên nhóm, đổi số lớp",
+          "math_rule_to_verify": "Không làm mất các quan sát ở biên nhóm",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        }
+      ]
+    },
+    {
+      "id": "9-13",
+      "grade": 9,
+      "family": "PROB",
+      "priority": "B",
+      "name": "Finite random experiments",
+      "interaction": "Run repeated simple draws; connect outcome tables to experimental probabilities.",
+      "source_chapter": "T2 Ch VIII",
+      "source_evidence": "T2 Ch VIII (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "9-13-C01",
+          "name": "Phép thử với không gian mẫu hữu hạn",
+          "student_interaction": "Gieo/nhặt phần tử đồng khả năng",
+          "math_rule_to_verify": "Không gian mẫu đếm đúng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-13-C02",
+          "name": "Phép thử liên quan tổ hợp đơn giản",
+          "student_interaction": "Tạo bảng cây/sơ đồ lựa chọn",
+          "math_rule_to_verify": "Không đếm lặp kết quả",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        },
+        {
+          "id": "9-13-C03",
+          "name": "Thực nghiệm và thống kê kết quả",
+          "student_interaction": "Lặp phép thử và vẽ tần số",
+          "math_rule_to_verify": "Tần suất không bị ép bằng xác suất lí thuyết",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD4"
+        }
+      ]
+    },
+    {
+      "id": "10-01",
+      "grade": 10,
+      "family": "PLANE",
+      "priority": "B",
+      "name": "Sets and Venn diagrams",
+      "interaction": "Move sample elements across sets; observe union/intersection/complement visually.",
+      "source_chapter": "T1 Ch I",
+      "source_evidence": "T1 Ch I (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "10-01-C01",
+          "name": "Giao và hợp tập hợp",
+          "student_interaction": "Kéo phần tử vào hai miền Venn",
+          "math_rule_to_verify": "Giao thuộc cả hai; hợp thuộc ít nhất một",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-01-C02",
+          "name": "Hiệu hai tập hợp",
+          "student_interaction": "Chọn A\\B và B\\A",
+          "math_rule_to_verify": "Không nhầm chiều phép hiệu",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-01-C03",
+          "name": "Phần bù tập hợp",
+          "student_interaction": "Chọn tập nền và lấy phần bù",
+          "math_rule_to_verify": "Phần bù phụ thuộc tập nền",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-01-C04",
+          "name": "Khoảng, đoạn và phép toán trên trục số",
+          "student_interaction": "Kéo bốn đầu mút hai đoạn, quan sát giao và hợp",
+          "math_rule_to_verify": "Giao không được tự động đảo hai mốc biên",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        }
+      ]
+    },
+    {
+      "id": "10-02",
+      "grade": 10,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Half-plane inequalities in two variables",
+      "interaction": "Drag line bounds; switch strictness; show intersection of feasible regions.",
+      "source_chapter": "T1 Ch II",
+      "source_evidence": "T1 Ch II (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "10-02-C01",
+          "name": "Miền nghiệm bất phương trình bậc nhất hai ẩn",
+          "student_interaction": "Quay/tịnh tiến đường biên, chọn nửa mặt phẳng",
+          "math_rule_to_verify": "Phân biệt biên kín và biên không lấy",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-02-C02",
+          "name": "Hệ bất phương trình hai ẩn",
+          "student_interaction": "Chồng hai hoặc nhiều miền nghiệm",
+          "math_rule_to_verify": "Chỉ giữ giao các nửa mặt phẳng",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-02-C03",
+          "name": "Bài toán tối ưu tuyến tính trực quan",
+          "student_interaction": "Di chuyển đường mức trên miền nghiệm",
+          "math_rule_to_verify": "Nghiệm tối ưu ở miền nghiệm phù hợp",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        }
+      ]
+    },
+    {
+      "id": "10-03",
+      "grade": 10,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Sine rule and cosine rule in triangles",
+      "interaction": "Drag vertices; track side-angle relations and circumradius visually.",
+      "source_chapter": "T1 Ch III",
+      "source_evidence": "Toán 10 tập 1, Bài 5-6, tr.33-44",
+      "modes": [
+        {
+          "id": "10-03-C01",
+          "name": "Định lí cosin",
+          "student_interaction": "Kéo 3 đỉnh, khóa hai cạnh và góc xen",
+          "math_rule_to_verify": "a^2=b^2+c^2-2bc*cos A",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-03-C02",
+          "name": "Định lí sin",
+          "student_interaction": "Bật đường tròn ngoại tiếp, thay góc",
+          "math_rule_to_verify": "a/sin A=b/sin B=c/sin C=2R",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-03-C03",
+          "name": "Diện tích tam giác",
+          "student_interaction": "Đổi cạnh/góc/chiều cao",
+          "math_rule_to_verify": "S=ab*sin C/2 khi a,b kề C",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        }
+      ]
+    },
+    {
+      "id": "10-04",
+      "grade": 10,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Vector addition and dot product",
+      "interaction": "Drag arrows; assemble parallelogram sum; show projections, angle and dot product.",
+      "source_chapter": "T1 Ch IV",
+      "source_evidence": "Toán 10 tập 1, Bài 7-11, tr.46-71",
+      "modes": [
+        {
+          "id": "10-04-C01",
+          "name": "Tổng hai vectơ",
+          "student_interaction": "Kéo vectơ theo quy tắc ba điểm/hình bình hành",
+          "math_rule_to_verify": "Phép cộng vectơ đúng tọa độ",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-04-C02",
+          "name": "Hiệu hai vectơ",
+          "student_interaction": "Đổi chiều vectơ và ghép đầu mút",
+          "math_rule_to_verify": "u-v=u+(-v)",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-04-C03",
+          "name": "Nhân vectơ với một số",
+          "student_interaction": "Kéo hệ số k",
+          "math_rule_to_verify": "Độ dài nhân |k|; hướng đảo khi k âm",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-04-C04",
+          "name": "Tích vô hướng",
+          "student_interaction": "Đổi góc giữa hai vectơ",
+          "math_rule_to_verify": "u.v=|u||v|cos(theta)",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        }
+      ]
+    },
+    {
+      "id": "10-05",
+      "grade": 10,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Vectors in Oxy coordinate system",
+      "interaction": "Drag endpoints; update vector components and scalar products.",
+      "source_chapter": "T1 Ch IV",
+      "source_evidence": "T1 Ch IV (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "10-05-C01",
+          "name": "Tọa độ vectơ và điểm trong Oxy",
+          "student_interaction": "Kéo điểm và hiện tọa độ",
+          "math_rule_to_verify": "Thành phần vectơ đúng hiệu tọa độ",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-05-C02",
+          "name": "Tính độ dài vectơ",
+          "student_interaction": "Thay hai thành phần",
+          "math_rule_to_verify": "Độ dài không âm",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-05-C03",
+          "name": "Tích vô hướng theo tọa độ",
+          "student_interaction": "Kéo u,v để thay tích vô hướng",
+          "math_rule_to_verify": "u.v=u_x v_x+u_y v_y",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        }
+      ]
+    },
+    {
+      "id": "10-06",
+      "grade": 10,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "General quadratic and parabola",
+      "interaction": "Change a,b,c; animate vertex, symmetry axis, discriminant and intercepts.",
+      "source_chapter": "T2 Ch VI",
+      "source_evidence": "Toán 10 tập 2, Bài 16-17, tr.11-24",
+      "modes": [
+        {
+          "id": "10-06-C01",
+          "name": "Hàm bậc hai a>0",
+          "student_interaction": "Kéo a,b,c, theo dõi đỉnh",
+          "math_rule_to_verify": "a>0 parabol mở lên",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "10-06-C02",
+          "name": "Hàm bậc hai a<0",
+          "student_interaction": "Kéo a,b,c, theo dõi đỉnh",
+          "math_rule_to_verify": "a<0 parabol mở xuống",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "10-06-C03",
+          "name": "Trục đối xứng và giao điểm",
+          "student_interaction": "Đổi delta và điểm cắt trục hoành",
+          "math_rule_to_verify": "Số giao điểm với Ox theo biệt thức",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        }
+      ]
+    },
+    {
+      "id": "10-07",
+      "grade": 10,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Equation of a line in Oxy",
+      "interaction": "Drag a point and normal/direction vector; measure point-to-line distance.",
+      "source_chapter": "T2 Ch VII",
+      "source_evidence": "Toán 10 tập 2, Bài 19-20, tr.30-42",
+      "modes": [
+        {
+          "id": "10-07-C01",
+          "name": "Phương trình tổng quát đường thẳng",
+          "student_interaction": "Kéo điểm và vectơ pháp tuyến",
+          "math_rule_to_verify": "Vectơ pháp tuyến vuông góc đường thẳng",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-07-C02",
+          "name": "Phương trình tham số đường thẳng",
+          "student_interaction": "Kéo điểm và vectơ chỉ phương",
+          "math_rule_to_verify": "Vectơ chỉ phương song song đường thẳng",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-07-C03",
+          "name": "Vị trí tương đối và góc giữa hai đường",
+          "student_interaction": "Thay hệ số hai đường",
+          "math_rule_to_verify": "Phân loại cắt, song song, trùng; góc đúng",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-07-C04",
+          "name": "Khoảng cách từ điểm đến đường thẳng",
+          "student_interaction": "Kéo điểm M và đường thẳng",
+          "math_rule_to_verify": "Đo theo đoạn vuông góc",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        }
+      ]
+    },
+    {
+      "id": "10-08",
+      "grade": 10,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Circle equation in Oxy",
+      "interaction": "Drag center and radius; inspect line-circle intersections and equation.",
+      "source_chapter": "T2 Ch VII",
+      "source_evidence": "Toán 10 tập 2, Bài 21, tr.43-47",
+      "modes": [
+        {
+          "id": "10-08-C01",
+          "name": "Tâm và bán kính đường tròn",
+          "student_interaction": "Kéo tâm I, thay R và biểu thức phương trình",
+          "math_rule_to_verify": "(x-a)^2+(y-b)^2=R^2",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-08-C02",
+          "name": "Tương giao đường thẳng và đường tròn",
+          "student_interaction": "Dịch chuyển đường thẳng",
+          "math_rule_to_verify": "Phân loại cắt, tiếp xúc, rời nhau",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-08-C03",
+          "name": "Tiếp tuyến đường tròn",
+          "student_interaction": "Chọn tiếp điểm và kéo vị trí",
+          "math_rule_to_verify": "Tiếp tuyến vuông góc bán kính tại tiếp điểm",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        }
+      ]
+    },
+    {
+      "id": "10-09",
+      "grade": 10,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Three conics: ellipse, hyperbola and parabola",
+      "interaction": "Switch conic families; move foci/directrix; show defining distance constraints.",
+      "source_chapter": "T2 Ch VII",
+      "source_evidence": "Toán 10 tập 2, Bài 22, tr.48-58",
+      "modes": [
+        {
+          "id": "10-09-C01",
+          "name": "Elip",
+          "student_interaction": "Kéo hai tiêu điểm và một điểm trên elip",
+          "math_rule_to_verify": "Tổng khoảng cách đến 2 tiêu điểm không đổi",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-09-C02",
+          "name": "Hypebol",
+          "student_interaction": "Kéo hai tiêu điểm và một điểm trên nhánh hypebol",
+          "math_rule_to_verify": "Giá trị tuyệt đối hiệu khoảng cách không đổi",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-09-C03",
+          "name": "Parabol conic",
+          "student_interaction": "Kéo tiêu điểm và đường chuẩn",
+          "math_rule_to_verify": "Khoảng cách tới tiêu điểm bằng khoảng cách tới đường chuẩn",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        }
+      ]
+    },
+    {
+      "id": "10-10",
+      "grade": 10,
+      "family": "STAT",
+      "priority": "B",
+      "name": "Ungrouped sample statistics",
+      "interaction": "Edit sample points; calculate mean, median, quartiles and dispersion on a dot plot.",
+      "source_chapter": "T1 Ch V",
+      "source_evidence": "T1 Ch V (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "10-10-C01",
+          "name": "Số trung bình, trung vị, mốt",
+          "student_interaction": "Thay điểm dữ liệu trên trục số",
+          "math_rule_to_verify": "Các số đặc trưng từ đúng bộ dữ liệu",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-10-C02",
+          "name": "Khoảng biến thiên và tứ phân vị",
+          "student_interaction": "Thay bộ dữ liệu, hiện các mốc tứ phân vị",
+          "math_rule_to_verify": "Sắp xếp dữ liệu trước khi tính",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-10-C03",
+          "name": "Phương sai, độ lệch chuẩn",
+          "student_interaction": "Di chuyển điểm dữ liệu, xem độ phân tán",
+          "math_rule_to_verify": "Không dùng công thức dữ liệu ghép nhóm sai cấp",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-10-C04",
+          "name": "Số gần đúng và sai số tuyệt đối",
+          "student_interaction": "Thay giá trị thực, số gần đúng và ngưỡng sai số",
+          "math_rule_to_verify": "Sai số thực là giá trị tuyệt đối, không nhầm sai số tương đối",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        }
+      ]
+    },
+    {
+      "id": "10-11",
+      "grade": 10,
+      "family": "PROB",
+      "priority": "B",
+      "name": "Counting and classical probability",
+      "interaction": "Show choice trees or grids; count outcomes, combinations and probabilities.",
+      "source_chapter": "T2 Ch VIII-IX",
+      "source_evidence": "T2 Ch VIII-IX (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "10-11-C01",
+          "name": "Quy tắc đếm cộng và nhân",
+          "student_interaction": "Tạo sơ đồ nhánh lựa chọn",
+          "math_rule_to_verify": "Cộng khi trường hợp không giao; nhân khi các bước liên tiếp",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-11-C02",
+          "name": "Hoán vị, chỉnh hợp, tổ hợp",
+          "student_interaction": "Đổi số vật và số chỗ",
+          "math_rule_to_verify": "Có xét thứ tự thì không dùng tổ hợp",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-11-C03",
+          "name": "Xác suất cổ điển",
+          "student_interaction": "Tô kết quả thuận lợi trong mẫu đồng khả năng",
+          "math_rule_to_verify": "P(A)=n(A)/n(Omega)",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        },
+        {
+          "id": "10-11-C04",
+          "name": "Nhị thức Newton và tam giác Pascal",
+          "student_interaction": "Thay bậc n, tô hệ số hàng n trong tam giác Pascal",
+          "math_rule_to_verify": "Hệ số bằng tổ hợp C(n,k), tổng hệ số bằng 2^n",
+          "display_status": "CORE",
+          "implementation_status": "INTERACTIVE_GD5"
+        }
+      ]
+    },
+    {
+      "id": "11-01",
+      "grade": 11,
+      "family": "PLANE",
+      "priority": "A",
+      "name": "Unit circle and directed angles",
+      "interaction": "Rotate the unit-radius point; show radians and trigonometric values.",
+      "source_chapter": "T1 Ch I",
+      "source_evidence": "SGK Toán 11 KNTT tập 1, Bài 1–2, trang sách 5–21",
+      "modes": [
+        {
+          "id": "11-01-C01",
+          "name": "Góc lượng giác có hướng",
+          "student_interaction": "Quay tia nhiều vòng và hiện độ/radian",
+          "math_rule_to_verify": "Góc cùng tia cuối sai khác bội 2pi",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 1–2, trang sách 5–21"
+        },
+        {
+          "id": "11-01-C02",
+          "name": "Đường tròn lượng giác",
+          "student_interaction": "Kéo điểm M trên đường tròn đơn vị",
+          "math_rule_to_verify": "cos là hoành độ, sin là tung độ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 1–2, trang sách 5–21"
+        },
+        {
+          "id": "11-01-C03",
+          "name": "Độ dài cung",
+          "student_interaction": "Kéo cung và bán kính",
+          "math_rule_to_verify": "l=R*alpha khi alpha tính radian",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 1–2, trang sách 5–21"
+        },
+        {
+          "id": "11-01-C04",
+          "name": "Công thức cộng lượng giác",
+          "student_interaction": "Thay hai góc α, β; quan sát cos(α+β) bằng vế phải",
+          "math_rule_to_verify": "cos(α+β)=cosαcosβ-sinαsinβ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 1–2, trang sách 5–21"
+        }
+      ]
+    },
+    {
+      "id": "11-02",
+      "grade": 11,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Sine, cosine and tangent functions",
+      "interaction": "Link the rotating point to graphs; vary phase, amplitude and period.",
+      "source_chapter": "T1 Ch I",
+      "source_evidence": "SGK Toán 11 KNTT tập 1, Bài 3–4, trang sách 22–39",
+      "modes": [
+        {
+          "id": "11-02-C01",
+          "name": "Đồ thị y=sin x",
+          "student_interaction": "Liên kết điểm quay với đồ thị sin",
+          "math_rule_to_verify": "Chu kì 2pi; giá trị trong [-1,1]",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 3–4, trang sách 22–39"
+        },
+        {
+          "id": "11-02-C02",
+          "name": "Đồ thị y=cos x",
+          "student_interaction": "Liên kết điểm quay với đồ thị cos",
+          "math_rule_to_verify": "Chu kì 2pi; giá trị trong [-1,1]",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 3–4, trang sách 22–39"
+        },
+        {
+          "id": "11-02-C03",
+          "name": "Đồ thị y=tan x",
+          "student_interaction": "Thay x và hiện các nhánh/tiệm cận",
+          "math_rule_to_verify": "Loại x=pi/2+kpi",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 3–4, trang sách 22–39"
+        },
+        {
+          "id": "11-02-C04",
+          "name": "Đồ thị y=cot x",
+          "student_interaction": "Thay x và hiện các nhánh/tiệm cận",
+          "math_rule_to_verify": "Loại x=kpi",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 3–4, trang sách 22–39"
+        },
+        {
+          "id": "11-02-C05",
+          "name": "Phương trình sin x = m và cos x = m",
+          "student_interaction": "Chuyển giữa sin/cos, kéo đường thẳng y=m, kiểm tra nghiệm trong một chu kì",
+          "math_rule_to_verify": "sin x=m, cos x=m: miền giá trị m thuộc [-1;1]",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 3–4, trang sách 22–39"
+        },
+        {
+          "id": "11-02-C06",
+          "name": "Phương trình tan x = m và cot x = m",
+          "student_interaction": "Chuyển giữa tan/cot; hiện nghiệm, chu kì π và chỗ không xác định",
+          "math_rule_to_verify": "x=atan(m)+kπ, cot x=m với miền xác định",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 3–4, trang sách 22–39"
+        }
+      ]
+    },
+    {
+      "id": "11-03",
+      "grade": 11,
+      "family": "GRAPH",
+      "priority": "B",
+      "name": "Arithmetic and geometric sequences",
+      "interaction": "Grow a sequence on a coordinate plane; vary first term and common difference/ratio.",
+      "source_chapter": "T1 Ch II",
+      "source_evidence": "SGK Toán 11 KNTT tập 1, Bài 5–7, trang sách 42–55",
+      "modes": [
+        {
+          "id": "11-03-C01",
+          "name": "Dãy số theo quy luật",
+          "student_interaction": "Thay n, hiện các điểm riêng lẻ (n,u_n)",
+          "math_rule_to_verify": "Dãy được biểu diễn bởi các điểm rời rạc, không phải đường liên tục",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 5–7, trang sách 42–55"
+        },
+        {
+          "id": "11-03-C02",
+          "name": "Cấp số cộng",
+          "student_interaction": "Thay u1, công sai d",
+          "math_rule_to_verify": "u_n=u1+(n-1)d",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 5–7, trang sách 42–55"
+        },
+        {
+          "id": "11-03-C03",
+          "name": "Cấp số nhân",
+          "student_interaction": "Thay u1 và công bội q",
+          "math_rule_to_verify": "u_n=u1*q^(n-1)",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 5–7, trang sách 42–55"
+        }
+      ]
+    },
+    {
+      "id": "11-04",
+      "grade": 11,
+      "family": "STAT",
+      "priority": "B",
+      "name": "Grouped sample statistics",
+      "interaction": "Edit class intervals and frequencies; compute mean, median and quartiles of grouped samples.",
+      "source_chapter": "T1 Ch III",
+      "source_evidence": "SGK Toán 11 KNTT tập 1, Bài 8–9, trang sách 58–68",
+      "modes": [
+        {
+          "id": "11-04-C01",
+          "name": "Bảng tần số ghép nhóm",
+          "student_interaction": "Thay ranh giới và tần số",
+          "math_rule_to_verify": "Tổng tần số bằng cỡ mẫu",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 8–9, trang sách 58–68"
+        },
+        {
+          "id": "11-04-C02",
+          "name": "Số trung bình ghép nhóm",
+          "student_interaction": "Thay điểm giữa lớp và tần số",
+          "math_rule_to_verify": "Kết quả là xấp xỉ theo điểm giữa lớp",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 8–9, trang sách 58–68"
+        },
+        {
+          "id": "11-04-C03",
+          "name": "Trung vị và tứ phân vị ghép nhóm",
+          "student_interaction": "Điều chỉnh khoảng lớp",
+          "math_rule_to_verify": "Áp dụng công thức nội suy theo lớp chứa mốc",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 8–9, trang sách 58–68"
+        }
+      ]
+    },
+    {
+      "id": "11-05",
+      "grade": 11,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Lines, planes and their intersections",
+      "interaction": "Move planes and lines in 3D; highlight intersection lines and skew pairs.",
+      "source_chapter": "T1 Ch IV",
+      "source_evidence": "SGK Toán 11 KNTT tập 1, Bài 10, trang sách 70–77",
+      "modes": [
+        {
+          "id": "11-05-C01",
+          "name": "Đường thẳng và mặt phẳng trong không gian",
+          "student_interaction": "Kéo điểm xác định một mặt phẳng",
+          "math_rule_to_verify": "Ba điểm xác định phải không thẳng hàng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 10, trang sách 70–77"
+        },
+        {
+          "id": "11-05-C02",
+          "name": "Giao tuyến hai mặt phẳng",
+          "student_interaction": "Kéo mặt phẳng, tô giao tuyến",
+          "math_rule_to_verify": "Giao tuyến thuộc cả hai mặt phẳng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 10, trang sách 70–77"
+        },
+        {
+          "id": "11-05-C03",
+          "name": "Hai đường thẳng chéo nhau",
+          "student_interaction": "Điều chỉnh hai đường trong 3D",
+          "math_rule_to_verify": "Không cắt và không song song, không đồng phẳng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 10, trang sách 70–77"
+        }
+      ]
+    },
+    {
+      "id": "11-06",
+      "grade": 11,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Parallelism and parallel projection",
+      "interaction": "Translate lines/planes while maintaining parallelism; switch to parallel-projection camera.",
+      "source_chapter": "T1 Ch IV",
+      "source_evidence": "SGK Toán 11 KNTT tập 1, Bài 11–14, trang sách 78–101",
+      "modes": [
+        {
+          "id": "11-06-C01",
+          "name": "Hai đường thẳng song song",
+          "student_interaction": "Kéo hai đường trong 3D",
+          "math_rule_to_verify": "Cùng phương và không trùng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 11–14, trang sách 78–101"
+        },
+        {
+          "id": "11-06-C02",
+          "name": "Đường thẳng song song mặt phẳng",
+          "student_interaction": "Giữ phương song song với một đường thuộc mặt phẳng",
+          "math_rule_to_verify": "Không nhầm d nằm trong P với d song song P",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 11–14, trang sách 78–101"
+        },
+        {
+          "id": "11-06-C03",
+          "name": "Hai mặt phẳng song song",
+          "student_interaction": "Dịch chuyển một mặt phẳng",
+          "math_rule_to_verify": "Pháp tuyến cùng phương và hai mặt khác nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 11–14, trang sách 78–101"
+        },
+        {
+          "id": "11-06-C04",
+          "name": "Phép chiếu song song",
+          "student_interaction": "Kéo vật và hướng chiếu",
+          "math_rule_to_verify": "Ảnh theo phương chiếu giữ tính thẳng hàng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 11–14, trang sách 78–101"
+        }
+      ]
+    },
+    {
+      "id": "11-07",
+      "grade": 11,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Perpendicularity of lines and planes",
+      "interaction": "Rotate lines/planes with orthogonality locks and theorems displayed.",
+      "source_chapter": "T2 Ch VII",
+      "source_evidence": "SGK Toán 11 KNTT tập 2, Bài 22–25, trang sách 27–53",
+      "modes": [
+        {
+          "id": "11-07-C01",
+          "name": "Hai đường thẳng vuông góc",
+          "student_interaction": "Điều khiển hai vectơ chỉ phương",
+          "math_rule_to_verify": "Tích vô hướng bằng 0",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 22–25, trang sách 27–53"
+        },
+        {
+          "id": "11-07-C02",
+          "name": "Đường thẳng vuông góc mặt phẳng",
+          "student_interaction": "Kéo đường và mặt; bật hai đường cắt nhau trong mặt",
+          "math_rule_to_verify": "Đường vuông góc với mọi đường trong mặt theo định nghĩa",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 22–25, trang sách 27–53"
+        },
+        {
+          "id": "11-07-C03",
+          "name": "Hai mặt phẳng vuông góc",
+          "student_interaction": "Xoay một mặt phẳng quanh giao tuyến",
+          "math_rule_to_verify": "Góc nhị diện bằng 90 độ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 22–25, trang sách 27–53"
+        }
+      ]
+    },
+    {
+      "id": "11-08",
+      "grade": 11,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Space angles, dihedral angles and distances",
+      "interaction": "Build orthogonal projections; measure line-plane angles and dihedral angles.",
+      "source_chapter": "T2 Ch VII",
+      "source_evidence": "SGK Toán 11 KNTT tập 2, Bài 24–26, trang sách 38–60",
+      "modes": [
+        {
+          "id": "11-08-C01",
+          "name": "Góc giữa đường thẳng và mặt phẳng",
+          "student_interaction": "Hiện hình chiếu vuông góc của đường thẳng",
+          "math_rule_to_verify": "Góc lấy với hình chiếu trên mặt phẳng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 24–26, trang sách 38–60"
+        },
+        {
+          "id": "11-08-C02",
+          "name": "Góc nhị diện giữa hai mặt phẳng",
+          "student_interaction": "Dựng mặt cắt vuông góc giao tuyến",
+          "math_rule_to_verify": "Góc phẳng nhị diện đo đúng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 24–26, trang sách 38–60"
+        },
+        {
+          "id": "11-08-C03",
+          "name": "Khoảng cách điểm-mặt phẳng",
+          "student_interaction": "Kéo hình chiếu và chân đường vuông góc",
+          "math_rule_to_verify": "Khoảng cách là độ dài đoạn vuông góc",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 24–26, trang sách 38–60"
+        },
+        {
+          "id": "11-08-C04",
+          "name": "Khoảng cách hai đường chéo nhau",
+          "student_interaction": "Dựng đường vuông góc chung khi có",
+          "math_rule_to_verify": "Khoảng cách nhỏ nhất giữa hai đường",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 24–26, trang sách 38–60"
+        }
+      ]
+    },
+    {
+      "id": "11-09",
+      "grade": 11,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Volumes of prisms and pyramids",
+      "interaction": "Drag base area and height; stack cross-sections to compare volume formulas.",
+      "source_chapter": "T2 Ch VII",
+      "source_evidence": "SGK Toán 11 KNTT tập 2, Bài 27 và bài tập 7.32, trang sách 61–64",
+      "modes": [
+        {
+          "id": "11-09-C01",
+          "name": "Thể tích hình lăng trụ",
+          "student_interaction": "Thay diện tích đáy và chiều cao",
+          "math_rule_to_verify": "V=Sđáy*h",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 27 và bài tập 7.32, trang sách 61–64"
+        },
+        {
+          "id": "11-09-C02",
+          "name": "Thể tích hình chóp",
+          "student_interaction": "Thay diện tích đáy và chiều cao",
+          "math_rule_to_verify": "V=Sđáy*h/3",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 27 và bài tập 7.32, trang sách 61–64"
+        },
+        {
+          "id": "11-09-C03",
+          "name": "Thể tích chóp cụt",
+          "student_interaction": "Mô phỏng bài toán hộp chóp cụt và thể tích, SGK tập 2 bài tập 7.32; không phải chương lý thuyết riêng",
+          "math_rule_to_verify": "Đánh dấu rõ hai đáy không bằng nhau",
+          "display_status": "APPLICATION",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 27 và bài tập 7.32, trang sách 61–64"
+        }
+      ]
+    },
+    {
+      "id": "11-10",
+      "grade": 11,
+      "family": "GRAPH",
+      "priority": "B",
+      "name": "Limits and continuity",
+      "interaction": "Move approach point from both sides; highlight hole, jump or vertical asymptote.",
+      "source_chapter": "T1 Ch V",
+      "source_evidence": "SGK Toán 11 KNTT tập 1, Bài 15–17, trang sách 104–123",
+      "modes": [
+        {
+          "id": "11-10-C01",
+          "name": "Giới hạn dãy số",
+          "student_interaction": "Tăng n và quan sát các số hạng",
+          "math_rule_to_verify": "Đồ thị dãy số là rời rạc",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 15–17, trang sách 104–123"
+        },
+        {
+          "id": "11-10-C02",
+          "name": "Giới hạn hàm số một phía/hai phía",
+          "student_interaction": "Đưa x đến a từ trái/phải",
+          "math_rule_to_verify": "Không suy ra giới hạn hai phía nếu trái/phải khác nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 15–17, trang sách 104–123"
+        },
+        {
+          "id": "11-10-C03",
+          "name": "Hàm số liên tục và gián đoạn",
+          "student_interaction": "Di chuyển điểm nối, tạo lỗ/nhảy",
+          "math_rule_to_verify": "Liên tục khi lim f(x)=f(a)",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 1, Bài 15–17, trang sách 104–123"
+        }
+      ]
+    },
+    {
+      "id": "11-11",
+      "grade": 11,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Exponential and logarithmic function graphs",
+      "interaction": "Change positive base; show inverse symmetry and domains.",
+      "source_chapter": "T2 Ch VI",
+      "source_evidence": "SGK Toán 11 KNTT tập 2, Bài 18–21, trang sách 4–25",
+      "modes": [
+        {
+          "id": "11-11-C01",
+          "name": "Hàm số mũ",
+          "student_interaction": "Thay cơ số a>0, a khác 1",
+          "math_rule_to_verify": "Đồ thị đi qua (0,1)",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 18–21, trang sách 4–25"
+        },
+        {
+          "id": "11-11-C02",
+          "name": "Hàm số logarit",
+          "student_interaction": "Thay cơ số a>0, a khác 1",
+          "math_rule_to_verify": "Miền xác định x>0",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 18–21, trang sách 4–25"
+        },
+        {
+          "id": "11-11-C03",
+          "name": "Tính chất hai hàm ngược nhau",
+          "student_interaction": "Phản xạ đồ thị qua y=x",
+          "math_rule_to_verify": "log_a(a^x)=x",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 18–21, trang sách 4–25"
+        }
+      ]
+    },
+    {
+      "id": "11-12",
+      "grade": 11,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Derivative and tangent line",
+      "interaction": "Move point of tangency; update slope and derivative curve.",
+      "source_chapter": "T2 Ch IX",
+      "source_evidence": "SGK Toán 11 KNTT tập 2, Bài 31–33, trang sách 81–97",
+      "modes": [
+        {
+          "id": "11-12-C01",
+          "name": "Hệ số góc tiếp tuyến",
+          "student_interaction": "Di chuyển điểm tiếp xúc",
+          "math_rule_to_verify": "Độ dốc tiếp tuyến là đạo hàm khi tồn tại",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 31–33, trang sách 81–97"
+        },
+        {
+          "id": "11-12-C02",
+          "name": "Cát tuyến tiến tới tiếp tuyến",
+          "student_interaction": "Kéo h tiến về 0",
+          "math_rule_to_verify": "Không lấy h=0 trong biểu thức thương số gia",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 31–33, trang sách 81–97"
+        },
+        {
+          "id": "11-12-C03",
+          "name": "Đồ thị hàm đạo hàm",
+          "student_interaction": "Đổi vị trí x, liên kết f(x) và f'(x)",
+          "math_rule_to_verify": "Dấu của đạo hàm thể hiện xu hướng biến thiên",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 31–33, trang sách 81–97"
+        },
+        {
+          "id": "11-12-C04",
+          "name": "Đạo hàm cấp hai",
+          "student_interaction": "Liên kết đồ thị f, f′, f″; thay điểm khảo sát",
+          "math_rule_to_verify": "f=x^3; f″(x)=6x",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 31–33, trang sách 81–97"
+        }
+      ]
+    },
+    {
+      "id": "11-13",
+      "grade": 11,
+      "family": "PROB",
+      "priority": "B",
+      "name": "Addition and multiplication probability rules",
+      "interaction": "Use Venn and event trees to show disjoint and independent event scenarios.",
+      "source_chapter": "T2 Ch VIII",
+      "source_evidence": "SGK Toán 11 KNTT tập 2, Bài 28–30, trang sách 66–79",
+      "modes": [
+        {
+          "id": "11-13-C01",
+          "name": "Biến cố hợp và giao",
+          "student_interaction": "Tô vùng Venn của A hop B, A giao B",
+          "math_rule_to_verify": "P(A hop B) = P(A)+P(B)-P(A giao B)",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 28–30, trang sách 66–79"
+        },
+        {
+          "id": "11-13-C02",
+          "name": "Biến cố xung khắc",
+          "student_interaction": "Tách hai tập kết quả",
+          "math_rule_to_verify": "P(A giao B)=0",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 28–30, trang sách 66–79"
+        },
+        {
+          "id": "11-13-C03",
+          "name": "Biến cố độc lập",
+          "student_interaction": "Thay hai thí nghiệm và bảng kết hợp",
+          "math_rule_to_verify": "P(A giao B)=P(A)*P(B) khi độc lập",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD6",
+          "source_reference": "SGK Toán 11 KNTT tập 2, Bài 28–30, trang sách 66–79"
+        }
+      ]
+    },
+    {
+      "id": "12-01",
+      "grade": 12,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Monotonicity, derivatives and extrema",
+      "interaction": "Change function parameters; link f, f-prime, sign table and extrema.",
+      "source_chapter": "T1 Ch I",
+      "source_evidence": "Toán 12 tập 1, Bài 1-2, tr.5-19",
+      "modes": [
+        {
+          "id": "12-01-C01",
+          "name": "Khoảng đồng biến và nghịch biến",
+          "student_interaction": "Điều chỉnh hàm số và tô dấu f'(x)",
+          "math_rule_to_verify": "f'>0 hoặc <0 trên khoảng tương ứng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "12-01-C02",
+          "name": "Cực đại và cực tiểu",
+          "student_interaction": "Kéo tham số, hiện điểm f'=0",
+          "math_rule_to_verify": "Điểm dừng không luôn là cực trị",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "12-01-C03",
+          "name": "Giá trị lớn nhất, nhỏ nhất trên đoạn",
+          "student_interaction": "Di chuyển hai cận a,b",
+          "math_rule_to_verify": "So sánh giá trị tại cực trị trong đoạn và hai đầu mút",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "12-01-C04",
+          "name": "Bảng biến thiên và đồ thị",
+          "student_interaction": "Bật bảng dấu đạo hàm, bảng biến thiên",
+          "math_rule_to_verify": "Các khoảng và giới hạn nhất quán",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        }
+      ]
+    },
+    {
+      "id": "12-02",
+      "grade": 12,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Cubic and rational curves with asymptotes",
+      "interaction": "Change coefficients; display vertical, horizontal and oblique asymptotes as applicable.",
+      "source_chapter": "T1 Ch I",
+      "source_evidence": "Toán 12 tập 1, Bài 3-4, tr.20-32",
+      "modes": [
+        {
+          "id": "12-02-C01",
+          "name": "Hàm bậc ba",
+          "student_interaction": "Thay hệ số, xem số cực trị",
+          "math_rule_to_verify": "Số cực trị phụ thuộc nghiệm f'=0",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "12-02-C02",
+          "name": "Hàm phân thức bậc nhất/bậc nhất",
+          "student_interaction": "Thay hệ số của tử và mẫu",
+          "math_rule_to_verify": "Mẫu khác 0 tại mọi điểm thuộc miền xác định",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "12-02-C03",
+          "name": "Tiệm cận đứng",
+          "student_interaction": "Kéo hệ số làm mẫu bằng 0",
+          "math_rule_to_verify": "Giới hạn một phía có thể vô cực",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "12-02-C04",
+          "name": "Tiệm cận ngang và tiệm cận xiên",
+          "student_interaction": "Đổi bậc tử/mẫu phù hợp",
+          "math_rule_to_verify": "Không tự sinh tiệm cận xiên cho mọi phân thức",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        }
+      ]
+    },
+    {
+      "id": "12-03",
+      "grade": 12,
+      "family": "REAL",
+      "priority": "B",
+      "name": "Geometric optimization scenarios",
+      "interaction": "Adjust box dimensions or constraints and highlight the optimum dynamically.",
+      "source_chapter": "T1 Ch I",
+      "source_evidence": "T1 Ch I (đối chiếu mục lục SGK)",
+      "modes": [
+        {
+          "id": "12-03-C01",
+          "name": "Tối ưu diện tích hình phẳng",
+          "student_interaction": "Kéo chiều rộng/chiều dài với ràng buộc",
+          "math_rule_to_verify": "Ràng buộc phải giữ suốt khi tối ưu",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-03-C02",
+          "name": "Tối ưu hình hộp không nắp",
+          "student_interaction": "Cắt bốn góc hình vuông, gấp thành hộp",
+          "math_rule_to_verify": "Kích thước hộp không âm và điều kiện cắt hợp lệ",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-03-C03",
+          "name": "Tối ưu mô hình chuyển động/doanh thu",
+          "student_interaction": "Thay tham số theo tình huống",
+          "math_rule_to_verify": "Chỉ tối ưu trên miền dữ kiện",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        }
+      ]
+    },
+    {
+      "id": "12-04",
+      "grade": 12,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Oxyz points, vectors and axes",
+      "interaction": "Drag points in 3D, project to axes/planes and compute vector coordinates.",
+      "source_chapter": "T1 Ch II",
+      "source_evidence": "Toán 12 tập 1, Bài 6-8, tr.45-73",
+      "modes": [
+        {
+          "id": "12-04-C01",
+          "name": "Điểm trong hệ Oxyz",
+          "student_interaction": "Kéo điểm và ba hình chiếu",
+          "math_rule_to_verify": "Tọa độ theo ba trục trực giao",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-04-C02",
+          "name": "Vectơ trong Oxyz",
+          "student_interaction": "Kéo gốc-ngọn, cập nhật thành phần",
+          "math_rule_to_verify": "Thành phần là tọa độ ngọn trừ gốc",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-04-C03",
+          "name": "Độ dài và tích vô hướng vectơ",
+          "student_interaction": "Kéo hai vectơ và góc giữa chúng",
+          "math_rule_to_verify": "u.v=u_x v_x+u_y v_y+u_z v_z",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-04-C04",
+          "name": "Tổng hai vectơ trong Oxyz",
+          "student_interaction": "Kéo hai vectơ u,v, quan sát vectơ tổng và quy tắc hình hộp",
+          "math_rule_to_verify": "Tọa độ tổng bằng tổng tọa độ từng thành phần",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        }
+      ]
+    },
+    {
+      "id": "12-05",
+      "grade": 12,
+      "family": "STAT",
+      "priority": "B",
+      "name": "Dispersion in grouped samples",
+      "interaction": "Change grouped-frequency table; recalculate range, IQR, variance and std. deviation.",
+      "source_chapter": "T1 Ch III",
+      "source_evidence": "Toán 12 tập 1, Bài 9-10, tr.75-85",
+      "modes": [
+        {
+          "id": "12-05-C01",
+          "name": "Khoảng biến thiên của dữ liệu ghép nhóm",
+          "student_interaction": "Điều chỉnh lớp dữ liệu, biên nhóm",
+          "math_rule_to_verify": "Đại lượng là ước lượng từ dữ liệu ghép nhóm",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-05-C02",
+          "name": "Khoảng tứ phân vị ghép nhóm",
+          "student_interaction": "Thay tần số mỗi lớp",
+          "math_rule_to_verify": "Q1,Q3 xác định theo quy ước nội suy",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-05-C03",
+          "name": "Phương sai và độ lệch chuẩn ghép nhóm",
+          "student_interaction": "Thay điểm giữa và tần số",
+          "math_rule_to_verify": "Không trình bày xấp xỉ như số liệu gốc chính xác tuyệt đối",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        }
+      ]
+    },
+    {
+      "id": "12-06",
+      "grade": 12,
+      "family": "GRAPH",
+      "priority": "A",
+      "name": "Definite integral and planar area",
+      "interaction": "Move integration bounds; compare signed integral with geometric area and Riemann sums.",
+      "source_chapter": "T2 Ch IV",
+      "source_evidence": "Toán 12 tập 2, Bài 11-13, tr.4-26",
+      "modes": [
+        {
+          "id": "12-06-C01",
+          "name": "Nguyên hàm và đạo hàm",
+          "student_interaction": "Cho f và F, kiểm tra F'=f",
+          "math_rule_to_verify": "Khác hằng số C không đổi đạo hàm",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-06-C02",
+          "name": "Tích phân xác định",
+          "student_interaction": "Kéo cận và phân hoạch hình chữ nhật",
+          "math_rule_to_verify": "Giá trị tích phân có dấu",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        },
+        {
+          "id": "12-06-C03",
+          "name": "Diện tích hình phẳng",
+          "student_interaction": "Chọn hai đồ thị hoặc đồ thị với Ox",
+          "math_rule_to_verify": "Dùng hiệu trên-dưới và chia khoảng khi giao nhau",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_R5"
+        }
+      ]
+    },
+    {
+      "id": "12-07",
+      "grade": 12,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Solid of revolution",
+      "interaction": "Select planar region and axis; rotate it in 3D, compare slices and volume.",
+      "source_chapter": "T2 Ch IV",
+      "source_evidence": "Toán 12 tập 2, Bài 13, tr.19-26",
+      "modes": [
+        {
+          "id": "12-07-C01",
+          "name": "Khối tròn xoay quanh Ox",
+          "student_interaction": "Chọn miền y=f(x) và quay quanh Ox",
+          "math_rule_to_verify": "V=pi*int_a^b f(x)^2 dx cho miền thích hợp",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-07-C02",
+          "name": "Khối tròn xoay với lỗ rỗng [tùy trường hợp]",
+          "student_interaction": "Chọn hai đường biên thích hợp",
+          "math_rule_to_verify": "Thể tích bằng tích phân hiệu bình phương bán kính khi điều kiện phù hợp",
+          "display_status": "EXTENSION",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7",
+          "notes": "Khám phá mở rộng; không trình bày như mục lý thuyết độc lập của SGK."
+        },
+        {
+          "id": "12-07-C03",
+          "name": "Mặt cắt và phương pháp tích phân",
+          "student_interaction": "Tăng số lát cắt và cập nhật xấp xỉ",
+          "math_rule_to_verify": "Đơn vị thể tích là đơn vị lập phương",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        }
+      ]
+    },
+    {
+      "id": "12-08",
+      "grade": 12,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Equation of planes in Oxyz",
+      "interaction": "Drag normal vector and support point; change plane orientation and calculate distances.",
+      "source_chapter": "T2 Ch V",
+      "source_evidence": "Toán 12 tập 2, Bài 14, tr.29-40",
+      "modes": [
+        {
+          "id": "12-08-C01",
+          "name": "Mặt phẳng qua điểm có vectơ pháp tuyến",
+          "student_interaction": "Kéo điểm M và pháp tuyến n",
+          "math_rule_to_verify": "Điểm M thỏa phương trình mặt phẳng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-08-C02",
+          "name": "Vị trí tương đối hai mặt phẳng",
+          "student_interaction": "Kéo hai vectơ pháp tuyến và vị trí",
+          "math_rule_to_verify": "Phân loại song song/trùng/cắt",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-08-C03",
+          "name": "Khoảng cách điểm-mặt phẳng",
+          "student_interaction": "Kéo điểm và dựng hình chiếu",
+          "math_rule_to_verify": "Dùng khoảng cách vuông góc",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-08-C04",
+          "name": "Góc giữa hai mặt phẳng",
+          "student_interaction": "Điều chỉnh hai pháp tuyến, so sánh góc hai mặt phẳng",
+          "math_rule_to_verify": "cos góc bằng giá trị tuyệt đối tích vô hướng hai pháp tuyến chia tích độ dài",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        }
+      ]
+    },
+    {
+      "id": "12-09",
+      "grade": 12,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Equation of lines in Oxyz",
+      "interaction": "Change support point and direction vector; compare relative positions of two lines.",
+      "source_chapter": "T2 Ch V",
+      "source_evidence": "Toán 12 tập 2, Bài 15-16, tr.41-53",
+      "modes": [
+        {
+          "id": "12-09-C01",
+          "name": "Đường thẳng qua điểm và vectơ chỉ phương",
+          "student_interaction": "Kéo điểm và vectơ chỉ phương",
+          "math_rule_to_verify": "Vectơ chỉ phương không là vectơ 0",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-09-C02",
+          "name": "Phương trình tham số và chính tắc",
+          "student_interaction": "Kéo tham số t; đọc tọa độ",
+          "math_rule_to_verify": "Phương trình chính tắc tránh chia cho 0",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-09-C03",
+          "name": "Vị trí tương đối hai đường trong không gian",
+          "student_interaction": "Kéo hai đường và tính giao điểm/khoảng cách",
+          "math_rule_to_verify": "Phân biệt chéo, cắt, song song, trùng",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-09-C04",
+          "name": "Góc giữa đường thẳng và mặt phẳng",
+          "student_interaction": "Thay vectơ chỉ phương, pháp tuyến và quan sát hình chiếu",
+          "math_rule_to_verify": "sin góc đường–mặt bằng trị tuyệt đối tích vô hướng đơn vị",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        }
+      ]
+    },
+    {
+      "id": "12-10",
+      "grade": 12,
+      "family": "SOLID",
+      "priority": "A",
+      "name": "Sphere equation in Oxyz",
+      "interaction": "Drag center/radius; examine line/plane intersections and tangent cases.",
+      "source_chapter": "T2 Ch V",
+      "source_evidence": "Toán 12 tập 2, Bài 17, tr.54-61",
+      "modes": [
+        {
+          "id": "12-10-C01",
+          "name": "Mặt cầu trong Oxyz",
+          "student_interaction": "Kéo tâm và bán kính",
+          "math_rule_to_verify": "(x-a)^2+(y-b)^2+(z-c)^2=R^2, R>0",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-10-C02",
+          "name": "Mặt phẳng cắt/tiếp xúc mặt cầu",
+          "student_interaction": "Dịch chuyển mặt phẳng",
+          "math_rule_to_verify": "Phân biệt cắt, tiếp xúc, không giao",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-10-C03",
+          "name": "Đường thẳng và mặt cầu [mở rộng trực quan]",
+          "student_interaction": "Kéo đường thẳng qua/ngoài khối",
+          "math_rule_to_verify": "Không coi minh họa là nội dung bắt buộc nếu chưa thấy bài học",
+          "display_status": "EXTENSION",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7",
+          "notes": "Khám phá mở rộng; không trình bày như mục lý thuyết độc lập của SGK."
+        }
+      ]
+    },
+    {
+      "id": "12-11",
+      "grade": 12,
+      "family": "PROB",
+      "priority": "A",
+      "name": "Conditional probability and Bayes event tree",
+      "interaction": "Change prior and likelihoods; recompute conditional probabilities and posterior values.",
+      "source_chapter": "T2 Ch VI",
+      "source_evidence": "Toán 12 tập 2, Bài 18-19, tr.64-79",
+      "modes": [
+        {
+          "id": "12-11-C01",
+          "name": "Xác suất có điều kiện",
+          "student_interaction": "Thay các ô trong bảng hai biến cố",
+          "math_rule_to_verify": "P(A|B)=P(A giao B)/P(B), P(B)>0",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-11-C02",
+          "name": "Công thức nhân xác suất",
+          "student_interaction": "Chỉnh các xác suất có điều kiện theo cây",
+          "math_rule_to_verify": "P(A giao B)=P(A)*P(B|A)",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-11-C03",
+          "name": "Sơ đồ cây Bayes",
+          "student_interaction": "Thay prior và likelihood, xem hậu nghiệm",
+          "math_rule_to_verify": "Tổng xác suất các nhánh hợp lệ bằng 1",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        },
+        {
+          "id": "12-11-C04",
+          "name": "Công thức xác suất toàn phần",
+          "student_interaction": "Kéo P(A), P(B|A), P(B|Ā); quan sát các nhánh đi tới B",
+          "math_rule_to_verify": "P(B)=P(A)P(B|A)+P(Ā)P(B|Ā)",
+          "display_status": "CORE",
+          "implementation_status": "VERIFIED_INTERACTIVE_GD7"
+        }
+      ]
+    }
+  ],
+  "current_R4_decisions": [
+    {
+      "id": "g7_04",
+      "grade": 7,
+      "type": "angles",
+      "name": "Góc ở vị trí đặc biệt: Hai góc kề bù",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g7_09",
+      "grade": 7,
+      "type": "parallelLines",
+      "name": "Hai đường thẳng song song và cát tuyến",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g7_10",
+      "grade": 7,
+      "type": "triangleAngles",
+      "name": "Tổng ba góc trong tam giác",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g7_11",
+      "grade": 7,
+      "type": "congruentTriangles",
+      "name": "Hai tam giác bằng nhau",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g7_12",
+      "grade": 7,
+      "type": "pieChart",
+      "name": "Biểu đồ hình quạt tròn 3D",
+      "action": "REWORK",
+      "reason": "Keep pie-chart data and proportions; replace 3D slices with correct 2D sectors.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g7_13",
+      "grade": 7,
+      "type": "triangleCenters",
+      "name": "Sự đồng quy của 3 đường trung tuyến - Trọng tâm G",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g7_02",
+      "grade": 7,
+      "type": "cuboid",
+      "name": "Hình hộp chữ nhật và hình lập phương",
+      "action": "MERGE",
+      "reason": "shared cuboid-cube nets with grade 6",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g7_01",
+      "grade": 7,
+      "type": "triPrism",
+      "name": "Lăng trụ đứng tam giác",
+      "action": "MERGE",
+      "reason": "shared vertical-prism Lab, triangle-base preset",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g7_14",
+      "grade": 7,
+      "type": "prismQuad",
+      "name": "Lăng trụ đứng tứ giác",
+      "action": "MERGE",
+      "reason": "shared vertical-prism Lab, quadrilateral-base preset",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g8_01",
+      "grade": 8,
+      "type": "squarePyramid",
+      "name": "Hình chóp tứ giác đều",
+      "action": "MERGE",
+      "reason": "shared regular-pyramid Lab, square-base preset",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g8_02",
+      "grade": 8,
+      "type": "trianglePyramid",
+      "name": "Hình chóp tam giác đều",
+      "action": "MERGE",
+      "reason": "shared regular-pyramid Lab, triangle-base preset",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g8_03",
+      "grade": 8,
+      "type": "pythagoras",
+      "name": "Định lí Pythagore và 3 hình vuông trên 3 cạnh",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g8_04",
+      "grade": 8,
+      "type": "thales",
+      "name": "Định lí Thalès trong tam giác",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g8_05",
+      "grade": 8,
+      "type": "midSegment",
+      "name": "Đường trung bình của tam giác",
+      "action": "MERGE",
+      "reason": "integrate with Thales ratios, add midsegment toggle",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g8_06",
+      "grade": 8,
+      "type": "parallelogramMid",
+      "name": "Hình bình hành & Trung điểm hai đường chéo",
+      "action": "MERGE",
+      "reason": "shared special-quadrilaterals Lab, parallelogram preset",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g8_07",
+      "grade": 8,
+      "type": "rectangleSquare",
+      "name": "Hình chữ nhật & Hình vuông đặc biệt",
+      "action": "MERGE",
+      "reason": "shared special-quadrilaterals Lab, rectangle-square preset",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g8_08",
+      "grade": 8,
+      "type": "similarTriangles",
+      "name": "Tam giác đồng dạng và hình vị tự",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g8_09",
+      "grade": 8,
+      "type": "linearSlope",
+      "name": "Đồ thị hàm số bậc nhất y = ax + b & Hệ số góc",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g9_01",
+      "grade": 9,
+      "type": "cylinder",
+      "name": "Hình trụ tròn xoay",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g9_02",
+      "grade": 9,
+      "type": "cone",
+      "name": "Hình nón tròn xoay",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g9_03",
+      "grade": 9,
+      "type": "sphereSection",
+      "name": "Hình cầu & Mặt phẳng cắt tạo hình tròn",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g9_04",
+      "grade": 9,
+      "type": "parabola",
+      "name": "Đồ thị Parabol y = ax² & Trục đối xứng",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g9_05",
+      "grade": 9,
+      "type": "trigTriangle",
+      "name": "Tỉ số lượng giác của góc nhọn trong tam giác vuông",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g9_06",
+      "grade": 9,
+      "type": "circleTangent",
+      "name": "Vị trí tương đối đường thẳng & đường tròn (Tiếp tuyến)",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g9_07",
+      "grade": 9,
+      "type": "circleInscribed",
+      "name": "Góc ở tâm và góc nội tiếp cùng chắn một cung",
+      "action": "MERGE",
+      "reason": "shared circle-theorems Lab, inscribed-angle tab",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g9_08",
+      "grade": 9,
+      "type": "circumIncircle",
+      "name": "Đường tròn ngoại tiếp & nội tiếp tam giác",
+      "action": "MERGE",
+      "reason": "shared circle-theorems Lab, in/ex-circle tab",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g9_09",
+      "grade": 9,
+      "type": "cyclicQuad",
+      "name": "Tứ giác nội tiếp đường tròn",
+      "action": "MERGE",
+      "reason": "shared circle-theorems Lab, cyclic quadrilateral tab",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g10_01",
+      "grade": 10,
+      "type": "parabolaGeneral",
+      "name": "Đồ thị hàm số bậc hai Parabol y = ax² + bx + c & Đỉnh",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g10_02",
+      "grade": 10,
+      "type": "inequalityRegion",
+      "name": "Miền nghiệm bất phương trình bậc nhất hai ẩn",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g10_03",
+      "grade": 10,
+      "type": "triangleLaws",
+      "name": "Định lí Côsin & Định lí Sin trong tam giác",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g10_04",
+      "grade": 10,
+      "type": "vectorParallelogram",
+      "name": "Vectơ và Quy tắc hình bình hành cộng vectơ",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g10_05",
+      "grade": 10,
+      "type": "vectorDot",
+      "name": "Tích vô hướng của hai vectơ",
+      "action": "MERGE",
+      "reason": "shared vectors Lab, dot-product tab",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g10_06",
+      "grade": 10,
+      "type": "lineOxy",
+      "name": "Phương trình đường thẳng trong Oxy & Vectơ pháp tuyến",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g10_07",
+      "grade": 10,
+      "type": "circleOxy",
+      "name": "Phương trình đường tròn trong mặt phẳng Oxy",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g10_08",
+      "grade": 10,
+      "type": "ellipse",
+      "name": "Đường Elip và hai tiêu điểm F₁, F₂",
+      "action": "MERGE",
+      "reason": "shared conics Lab, ellipse tab",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g10_09",
+      "grade": 10,
+      "type": "hyperbola",
+      "name": "Đường Hypebol và hai đường tiệm cận",
+      "action": "MERGE",
+      "reason": "shared conics Lab, hyperbola tab",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g11_01",
+      "grade": 11,
+      "type": "twoPlanes",
+      "name": "Giao tuyến của hai mặt phẳng trong không gian",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g11_02",
+      "grade": 11,
+      "type": "skewLines",
+      "name": "Hai đường thẳng chéo nhau trong không gian",
+      "action": "MERGE",
+      "reason": "shared parallel-space Lab, skew-lines mode",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g11_03",
+      "grade": 11,
+      "type": "lineParallelPlane",
+      "name": "Đường thẳng song song với mặt phẳng",
+      "action": "MERGE",
+      "reason": "shared parallel-space Lab, line-plane mode",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g11_04",
+      "grade": 11,
+      "type": "parallelPlanes",
+      "name": "Hai mặt phẳng song song trong không gian",
+      "action": "MERGE",
+      "reason": "shared parallel-space Lab, plane-plane mode",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g11_05",
+      "grade": 11,
+      "type": "linePerpPlane",
+      "name": "Đường thẳng vuông góc mặt phẳng & Định lí 3 đường vuông góc",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g11_06",
+      "grade": 11,
+      "type": "perpendicularPlanes",
+      "name": "Hai mặt phẳng vuông góc",
+      "action": "MERGE",
+      "reason": "shared perpendicular-space Lab, perpendicular planes mode",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g11_07",
+      "grade": 11,
+      "type": "linePlaneAngle",
+      "name": "Góc giữa đường thẳng và mặt phẳng",
+      "action": "MERGE",
+      "reason": "shared perpendicular-space Lab, line-plane angle mode",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g11_08",
+      "grade": 11,
+      "type": "dihedralAngle",
+      "name": "Góc nhị diện và góc phẳng nhị diện",
+      "action": "MERGE",
+      "reason": "shared perpendicular-space Lab, dihedral-angle mode",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g11_09",
+      "grade": 11,
+      "type": "frustumPyramid",
+      "name": "Hình chóp cụt tứ giác đều & Thể tích",
+      "action": "HIDE",
+      "reason": "The truncated-pyramid focus is not a standalone textbook chapter; keep only as optional extension.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g12_01",
+      "grade": 12,
+      "type": "cubicCurve",
+      "name": "Đồ thị hàm số bậc ba y = ax³ + bx² + cx + d & Cực trị",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g12_02",
+      "grade": 12,
+      "type": "rationalFunc",
+      "name": "Đồ thị hàm phân thức y = (ax+b)/(cx+d) & Tiệm cận",
+      "action": "MERGE",
+      "reason": "shared curve-study Lab, rational-function mode",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g12_03",
+      "grade": 12,
+      "type": "revolvedSolid",
+      "name": "Ứng dụng tích phân tính thể tích khối tròn xoay",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g12_04",
+      "grade": 12,
+      "type": "oxyzAxes",
+      "name": "Hệ trục tọa độ Oxyz & Ba mặt phẳng tọa độ",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g12_05",
+      "grade": 12,
+      "type": "oxyzVector",
+      "name": "Tọa độ điểm và Vectơ trong không gian Oxyz",
+      "action": "MERGE",
+      "reason": "shared Oxyz Lab, vector operation mode",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g12_06",
+      "grade": 12,
+      "type": "oxyzSphere",
+      "name": "Phương trình mặt cầu trong không gian Oxyz",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g12_07",
+      "grade": 12,
+      "type": "oxyzPlane",
+      "name": "Mặt phẳng trong không gian Oxyz & Vectơ pháp tuyến",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g12_08",
+      "grade": 12,
+      "type": "oxyzLine",
+      "name": "Đường thẳng trong Oxyz & Vectơ chỉ phương",
+      "action": "KEEP",
+      "reason": "Core textbook-aligned interactive model.",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "g12_09",
+      "grade": 12,
+      "type": "oxyzDistance",
+      "name": "Vị trí tương đối và khoảng cách trong Oxyz",
+      "action": "MERGE",
+      "reason": "shared Oxyz Lab, distance and relative-position mode",
+      "source": "R4 base catalog"
+    },
+    {
+      "id": "mv_r4_7_plane_1",
+      "grade": 7,
+      "title": "Lát nền tam giác đều và lục giác đều",
+      "type": "polygonTiling",
+      "zone": "plane",
+      "action": "HIDE",
+      "reason": "Already covered by the Grade 6 regular-polygon tiling model.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_7_plane_2",
+      "grade": 7,
+      "title": "Lục giác đều xếp kín mặt phẳng",
+      "type": "polygonTiling",
+      "zone": "plane",
+      "action": "HIDE",
+      "reason": "Duplicate hexagonal tiling; Grade 6 content.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_7_graph_1",
+      "grade": 7,
+      "title": "Kéo hệ số góc của đường thẳng",
+      "type": "lineGraph",
+      "zone": "graph",
+      "action": "MOVE",
+      "reason": "Place with Grade 8 linear functions y=ax+b.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_7_stats_1",
+      "grade": 7,
+      "title": "Thay dữ liệu cột và xem tần số",
+      "type": "barChart",
+      "zone": "stats",
+      "action": "MERGE",
+      "reason": "Use the shared chart engine; Grade 7 requires pie and line charts rather than another duplicate bar chart.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_8_plane_1",
+      "grade": 8,
+      "title": "Lát nền bằng hình vuông",
+      "type": "polygonTiling",
+      "zone": "plane",
+      "action": "HIDE",
+      "reason": "Duplicate Grade 6 square tiling.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_8_plane_2",
+      "grade": 8,
+      "title": "Quay, tịnh tiến và phóng to tam giác",
+      "type": "transform2d",
+      "zone": "plane",
+      "action": "MERGE",
+      "reason": "Preserve only similarity/scaling mode with the Grade 8 similar figures Lab; hide unrelated rotation/translation options.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_8_solid_1",
+      "grade": 8,
+      "title": "Thiết diện nghiêng hình lập phương",
+      "type": "cube",
+      "zone": "solid",
+      "action": "MOVE",
+      "reason": "Advanced inclined section: Grade 11 enrichment, not Grade 8 core.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_8_graph_1",
+      "grade": 8,
+      "title": "Hệ số góc âm và tung độ gốc",
+      "type": "linearSlope",
+      "zone": "graph",
+      "action": "MERGE",
+      "reason": "Duplicate of g8_09 slope Lab.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_8_stats_1",
+      "grade": 8,
+      "title": "Thống kê điểm khảo sát",
+      "type": "barChart",
+      "zone": "stats",
+      "action": "MERGE",
+      "reason": "Shared data visualizer, Grade 8 preset.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_9_plane_1",
+      "grade": 9,
+      "title": "Khảo sát ba vị trí của đường thẳng với đường tròn",
+      "type": "circleTangent",
+      "zone": "plane",
+      "action": "MERGE",
+      "reason": "Duplicate Grade 9 circle-tangent Lab g9_06.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_9_plane_2",
+      "grade": 9,
+      "title": "Góc quay trên đường tròn và giá trị sin",
+      "type": "unitCircleMotion",
+      "zone": "plane",
+      "action": "MOVE",
+      "reason": "Unit circle and period belong to Grade 11 trigonometric-function content.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_9_solid_1",
+      "grade": 9,
+      "title": "Mặt cắt nghiêng qua hình chóp",
+      "type": "squarePyramid",
+      "zone": "solid",
+      "action": "MOVE",
+      "reason": "Inclined pyramid section is an advanced Grade 11 spatial-geometry exploration.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_9_graph_1",
+      "grade": 9,
+      "title": "Dịch đỉnh parabol theo a, b, c",
+      "type": "parabolaGeneral",
+      "zone": "graph",
+      "action": "MOVE",
+      "reason": "General quadratic y=ax^2+bx+c is Grade 10; Grade 9 uses y=ax^2.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_9_stats_1",
+      "grade": 9,
+      "title": "Biểu đồ và số liệu quan sát",
+      "type": "barChart",
+      "zone": "stats",
+      "action": "MERGE",
+      "reason": "Replace generic bar chart with Grade 9 frequency and grouped-frequency modes.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_10_plane_1",
+      "grade": 10,
+      "title": "Phép quay và vị tự có tỉ số k",
+      "type": "transform2d",
+      "zone": "plane",
+      "action": "HIDE",
+      "reason": "Generic rotation and homothety are not a priority of Grade 10 textbook contents.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_10_plane_2",
+      "grade": 10,
+      "title": "Liên kết vòng tròn và đồ thị sin",
+      "type": "unitCircleMotion",
+      "zone": "plane",
+      "action": "MOVE",
+      "reason": "Unit circle linked to sine graph belongs primarily to Grade 11.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_10_graph_1",
+      "grade": 10,
+      "title": "Đồ thị hàm sin và chu kỳ",
+      "type": "sine",
+      "zone": "graph",
+      "action": "MOVE",
+      "reason": "Sine functions and period belong to Grade 11.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_10_graph_2",
+      "grade": 10,
+      "title": "Đồ thị tăng trưởng hàm mũ",
+      "type": "exponential",
+      "zone": "graph",
+      "action": "MOVE",
+      "reason": "Exponential functions belong to Grade 11.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_10_stats_1",
+      "grade": 10,
+      "title": "Khám phá trung vị và tứ phân vị",
+      "type": "boxPlot",
+      "zone": "stats",
+      "action": "HIDE",
+      "reason": "Box plot is not essential to these Grade 10 textbook statistics chapters.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_11_plane_1",
+      "grade": 11,
+      "title": "Góc lượng giác từ 0° đến 360°",
+      "type": "unitCircleMotion",
+      "zone": "plane",
+      "action": "MERGE",
+      "reason": "Unit-circle and trigonometric-function modes should be one Lab.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_11_plane_2",
+      "grade": 11,
+      "title": "Ảnh tam giác qua một phép biến hình",
+      "type": "transform2d",
+      "zone": "plane",
+      "action": "HIDE",
+      "reason": "Generic triangle transformations are not Grade 11 core curriculum.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_11_graph_1",
+      "grade": 11,
+      "title": "Biên độ và tần số hàm sin",
+      "type": "sine",
+      "zone": "graph",
+      "action": "MERGE",
+      "reason": "Merge with the unit-circle and graph linked Lab.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_11_graph_2",
+      "grade": 11,
+      "title": "Cơ số và sự tăng giảm hàm mũ",
+      "type": "exponential",
+      "zone": "graph",
+      "action": "KEEP",
+      "reason": "Matches the Grade 11 exponential and logarithmic functions chapter.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_11_graph_3",
+      "grade": 11,
+      "title": "Đạo hàm của hàm bậc ba",
+      "type": "derivative",
+      "zone": "graph",
+      "action": "KEEP",
+      "reason": "Matches the Grade 11 derivative chapter.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_11_stats_1",
+      "grade": 11,
+      "title": "Phân bố số liệu và khoảng tứ phân vị",
+      "type": "boxPlot",
+      "zone": "stats",
+      "action": "HIDE",
+      "reason": "Box-plot gallery duplicate; grouped-sample statistics should use frequency and quantile controls.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_12_plane_1",
+      "grade": 12,
+      "title": "Tỷ số diện tích qua vị tự",
+      "type": "transform2d",
+      "zone": "plane",
+      "action": "HIDE",
+      "reason": "Homothety does not belong to Grade 12 core content.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_12_graph_1",
+      "grade": 12,
+      "title": "Đồ thị hàm số và đạo hàm (hai đường)",
+      "type": "derivative",
+      "zone": "graph",
+      "action": "MERGE",
+      "reason": "Reuse Grade 11 derivative machinery with Grade 12 curve-study presets.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_12_graph_2",
+      "grade": 12,
+      "title": "So sánh đồ thị các hàm mũ",
+      "type": "exponential",
+      "zone": "graph",
+      "action": "MOVE",
+      "reason": "Exponential graphs belong to Grade 11 and duplicate a Grade 11 model.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_12_solid_1",
+      "grade": 12,
+      "title": "Thiết diện nghiêng hình hộp chữ nhật",
+      "type": "cuboid",
+      "zone": "solid",
+      "action": "MOVE",
+      "reason": "Inclined cuboid sections are spatial-geometry enrichment best cataloged in Grade 11.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_12_solid_2",
+      "grade": 12,
+      "title": "Thiết diện nghiêng qua khối chóp",
+      "type": "squarePyramid",
+      "zone": "solid",
+      "action": "MOVE",
+      "reason": "Inclined pyramid sections are Grade 11 spatial-geometry enrichment.",
+      "source": "R4 exploratory collection"
+    },
+    {
+      "id": "mv_r4_12_stats_1",
+      "grade": 12,
+      "title": "Thống kê mẫu, các tứ phân vị",
+      "type": "boxPlot",
+      "zone": "stats",
+      "action": "HIDE",
+      "reason": "Box-plot gallery duplicate; Grade 12 focuses on dispersion statistics of grouped data.",
+      "source": "R4 exploratory collection"
+    }
+  ],
+  "guiding_principles": [
+    "Mỗi tiêu chuẩn quan trọng có chế độ riêng, nhưng có thể dùng cùng một engine",
+    "Tương tác khóa đúng giả thiết, không để hình suy biến",
+    "Mỗi hình phải có mục tiêu khám phá và điều kiện kiểm chứng",
+    "Không sinh mô hình cho mọi ví dụ số học; không sao chép ảnh SGK",
+    "Phân loại ẩn/gộp trước, không xóa nguồn, không viết code trong đợt này"
+  ],
+  "release_notes_grade8": {
+    "phase": "GD3",
+    "source": "Toan 8 tap 1 + tap 2 (KNTT)",
+    "models": 34,
+    "existing_interactive": 9,
+    "new_interactive": 25,
+    "webgl_3d": 4,
+    "svg_2d_new": 21,
+    "preserve_data": true
+  },
+  "audit_phase": "GD6_TOAN11",
+  "grade8_audit": {
+    "new_probability_modes": [
+      "8-08-C03",
+      "8-08-C04",
+      "8-08-C05"
+    ],
+    "chart_variants": [
+      "bar",
+      "line",
+      "pie"
+    ],
+    "original_catalog_preserved": true,
+    "all_grade8_modes_running": 37,
+    "grade8_3d_pyramid_modes": 4,
+    "remaining_spec_only": 121
+  },
+  "release_notes_grade10": "Added live intervals, approximate error, Pascal triangle from supplied KNTT books; 38 grade10 modes",
+  "release_notes_grade11": {
+    "phase": "GD6",
+    "source": "Toan 11 - Tap 1.pdf; Toan 11 - Tap 2.pdf",
+    "new_modes": [
+      "11-01-C04",
+      "11-02-C05",
+      "11-02-C06",
+      "11-12-C04"
+    ],
+    "graph": 11,
+    "svg": 18,
+    "three": 17,
+    "preserve_previous_grades": true,
+    "archive_duplicate_explorations": 6,
+    "grade11_core": "13 families, 46 modes"
+  },
+  "audit_grade11": {
+    "source_verified_contents": [
+      "T1 mục lục PDF trang 5",
+      "T2 mục lục PDF trang 4",
+      "T2 bài tập trang PDF 64 (hình chóp cụt)"
+    ],
+    "gpu_on_windows": "PENDING_MANUAL"
+  },
+  "release_notes_grade12": {
+    "phase": "GD7_TOAN12",
+    "textbook": "Toan 12 KNTT tap 1 va tap 2",
+    "added": [
+      "12-04-C04",
+      "12-08-C04",
+      "12-09-C04",
+      "12-11-C04"
+    ],
+    "reclassified_extension": [
+      "12-07-C02",
+      "12-10-C03"
+    ],
+    "hidden_duplicate_exhibits": 6,
+    "core_modes": 37,
+    "extension_modes": 2,
+    "implementation": "All 39 are mapped to distinct interactive modes. GPU on Windows requires user testing."
+  }
+}

@@ -1,0 +1,3873 @@
+{
+  "schemaVersion": 9,
+  "sourceType": "teacher-provided-original-LaTeX",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu/chương từ LaTeX gốc; bản Word 40 câu/chương dùng đối chiếu; không sinh câu mới.",
+  "questionsProvenance": "User uploaded PDF, Word and original LaTeX; preserves answer key and MathTeX",
+  "chapters": [
+    {
+      "grade": 7,
+      "chapter": 1,
+      "roman": "I",
+      "title": "SỐ HỮU TỈ",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "7-01-01",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Số đối của số hữu tỉ (-3)/(7) là:",
+          "choices": {
+            "A": "(7)/(3)",
+            "B": "(-7)/(3)",
+            "C": "(3)/(7)",
+            "D": "(-3)/(7)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số đối của số hữu tỉ "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{-3}{7}"
+            },
+            {
+              "t": "txt",
+              "v": " là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{7}{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{-7}{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{3}{7}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{-3}{7}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số đối của số hữu tỉ -3/7 là:",
+            "choices": {
+              "A": "7/3",
+              "B": "-7/3",
+              "C": "3/7",
+              "D": "-3/7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-02",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Giá trị của lũy thừa (-1/3)^(2) bằng:",
+          "choices": {
+            "A": "(1)/(9)",
+            "B": "(-2)/(3)",
+            "C": "(2)/(3)",
+            "D": "(-1)/(9)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "(-1/3)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{9}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{-2}{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{2}{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{-1}{9}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giá trị của lũy thừa (-1/3)$^2$ bằng:",
+            "choices": {
+              "A": "1/9",
+              "B": "-2/3",
+              "C": "2/3",
+              "D": "-1/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-03",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Kết quả của phép tính (2/3)^(4) · (2/3)^(3) bằng:",
+          "choices": {
+            "A": "(2/3)^(12)",
+            "B": "(2/3)^(6)",
+            "C": "(4/9)^(7)",
+            "D": "(2/3)^(7)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết quả của phép tính "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(2/3)^{12}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "(2/3)^{6}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(4/9)^{7}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(2/3)^{7}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết quả của phép tính (2/3)$^{4}$ $\\cdot$ (2/3)$^{3}$ bằng:",
+            "choices": {
+              "A": "(2/3)$^{12}$",
+              "B": "(2/3)$^{6}$",
+              "C": "(4/9)$^{7}$",
+              "D": "(2/3)$^{7}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-04",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 24 và nhỏ hơn 32 bằng cách liệt kê phần tử:",
+          "choices": {
+            "A": "K = {26; 28; 30}",
+            "B": "K = {24; 26; 28; 30; 32}",
+            "C": "K = {25; 27; 29}",
+            "D": "K = {26; 30}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 24 và nhỏ hơn 32 bằng cách liệt kê phần tử:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "K = {26; 28; 30}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "K = {24; 26; 28; 30; 32}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "K = {25; 27; 29}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "K = {26; 30}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 24 và nhỏ hơn 32 bằng cách liệt kê phần tử:",
+            "choices": {
+              "A": "K = {26; 28; 30}",
+              "B": "K = {24; 26; 28; 30; 32}",
+              "C": "K = {25; 27; 29}",
+              "D": "K = {26; 30}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-05",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Cho tập hợp H = {x ∈ ℕ | 12 ≤ x < 18}. Khẳng định nào dưới đây là ĐÚNG?",
+          "choices": {
+            "A": "12 ∈ H và 18 ∉ H",
+            "B": "18 ∈ H",
+            "C": "11 ∈ H",
+            "D": "12 ∉ H và 18 ∈ H"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tập hợp H = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}"
+            },
+            {
+              "t": "txt",
+              "v": " | 12 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " x < 18}. Khẳng định nào dưới đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H và 18 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H và 18 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tập hợp H = {x $\\in$ $\\mathbb{N}$ | 12 $\\le$ x < 18}. Khẳng định nào dưới đây là ĐÚNG?",
+            "choices": {
+              "A": "12 $\\in$ H và 18 $\\notin$ H",
+              "B": "18 $\\in$ H",
+              "C": "11 $\\in$ H",
+              "D": "12 $\\notin$ H và 18 $\\in$ H"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-06",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Trong hệ thập phân, số tự nhiên gồm 7 nghìn, 3 trăm và 5 đơn vị được viết là:",
+          "choices": {
+            "A": "15",
+            "B": "735",
+            "C": "7035",
+            "D": "7305"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong hệ thập phân, số tự nhiên gồm 7 nghìn, 3 trăm và 5 đơn vị được viết là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "735"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7035"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7305"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong hệ thập phân, số tự nhiên gồm 7 nghìn, 3 trăm và 5 đơn vị được viết là:",
+            "choices": {
+              "A": "15",
+              "B": "735",
+              "C": "7035",
+              "D": "7305"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-07",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Thương của phép chia hai lũy thừa cùng cơ số 4^(17) : 4^(3) bằng:",
+          "choices": {
+            "A": "1^(14)",
+            "B": "4^(14)",
+            "C": "4^(20)",
+            "D": "4^(51)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thương của phép chia hai lũy thừa cùng cơ số "
+            },
+            {
+              "t": "math",
+              "v": "4^{17}"
+            },
+            {
+              "t": "txt",
+              "v": " : "
+            },
+            {
+              "t": "math",
+              "v": "4^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "1^{14}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "4^{14}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "4^{20}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "4^{51}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thương của phép chia hai lũy thừa cùng cơ số 4$^{17}$ : 4$^{3}$ bằng:",
+            "choices": {
+              "A": "1$^{14}$",
+              "B": "4$^{14}$",
+              "C": "4$^{20}$",
+              "D": "4$^{51}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-08",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Với mọi cơ số a ≠ 0, giá trị của biểu thức P = (27)^(0) + 24 bằng:",
+          "choices": {
+            "A": "24",
+            "B": "25",
+            "C": "51",
+            "D": "1"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Với mọi cơ số a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(27)^{0}"
+            },
+            {
+              "t": "txt",
+              "v": " + 24 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "51"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Với mọi cơ số a $\\ne$ 0, giá trị của biểu thức P = (27)$^0$ + 24 bằng:",
+            "choices": {
+              "A": "24",
+              "B": "25",
+              "C": "51",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-09",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Khi chia số tự nhiên 101 cho 8, số dư của phép chia đó bằng:",
+          "choices": {
+            "A": "3",
+            "B": "5",
+            "C": "12",
+            "D": "0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi chia số tự nhiên 101 cho 8, số dư của phép chia đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi chia số tự nhiên 101 cho 8, số dư của phép chia đó bằng:",
+            "choices": {
+              "A": "3",
+              "B": "5",
+              "C": "12",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-10",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 12 · a + 12 · b được viết gọn thành:",
+          "choices": {
+            "A": "24 · (a + b)",
+            "B": "12 · (a + b)",
+            "C": "144 · (a + b)",
+            "D": "12 · a · b"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 12 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " a + 12 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b được viết gọn thành:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "144 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " a "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " b"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 12 $\\cdot$ a + 12 $\\cdot$ b được viết gọn thành:",
+            "choices": {
+              "A": "24 $\\cdot$ (a + b)",
+              "B": "12 $\\cdot$ (a + b)",
+              "C": "144 $\\cdot$ (a + b)",
+              "D": "12 $\\cdot$ a $\\cdot$ b"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-11",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Để số tự nhiên có ba chữ số 62x chia hết cho 9 thì chữ số x phải bằng:",
+          "choices": {
+            "A": "8",
+            "B": "6",
+            "C": "3",
+            "D": "1"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để số tự nhiên có ba chữ số 62x chia hết cho 9 thì chữ số x phải bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để số tự nhiên có ba chữ số 62x chia hết cho 9 thì chữ số x phải bằng:",
+            "choices": {
+              "A": "8",
+              "B": "6",
+              "C": "3",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-12",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Trong các số sau đây, số nào là bội của 15?",
+          "choices": {
+            "A": "62",
+            "B": "60",
+            "C": "33",
+            "D": "44"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các số sau đây, số nào là bội của 15?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "62"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "60"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "33"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "44"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các số sau đây, số nào là bội của 15?",
+            "choices": {
+              "A": "62",
+              "B": "60",
+              "C": "33",
+              "D": "44"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-13",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Khi so sánh hai số âm -20 và -14, khẳng định nào sau đây là ĐÚNG?",
+          "choices": {
+            "A": "|-20| < |-14|",
+            "B": "-20 > -14",
+            "C": "-20 < -14",
+            "D": "-20 = -14"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi so sánh hai số âm -20 và -14, khẳng định nào sau đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "|-20| < |-14|"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-20 > -14"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-20 < -14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-20 = -14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi so sánh hai số âm -20 và -14, khẳng định nào sau đây là ĐÚNG?",
+            "choices": {
+              "A": "|-20| < |-14|",
+              "B": "-20 > -14",
+              "C": "-20 < -14",
+              "D": "-20 = -14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-14",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm số x thỏa mãn đẳng thức: x + 27 = 70:",
+          "choices": {
+            "A": "x = 29",
+            "B": "x = -43",
+            "C": "x = 43",
+            "D": "x = 97"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số x thỏa mãn đẳng thức: x + 27 = 70:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 29"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -43"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 43"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 97"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số x thỏa mãn đẳng thức: x + 27 = 70:",
+            "choices": {
+              "A": "x = 29",
+              "B": "x = -43",
+              "C": "x = 43",
+              "D": "x = 97"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-15",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Số nghịch đảo của phân số (13)/(29) là:",
+          "choices": {
+            "A": "(-29)/(13)",
+            "B": "(29)/(13)",
+            "C": "(-13)/(29)",
+            "D": "1 - (13)/(29)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số nghịch đảo của phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{13}{29}"
+            },
+            {
+              "t": "txt",
+              "v": " là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{-29}{13}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{29}{13}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{-13}{29}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1 - "
+              },
+              {
+                "t": "math",
+                "v": "\\frac{13}{29}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số nghịch đảo của phân số 13/29 là:",
+            "choices": {
+              "A": "-29/13",
+              "B": "29/13",
+              "C": "-13/29",
+              "D": "1 - 13/29"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-16",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Viết phân số (1)/(4) dưới dạng tỉ số phần trăm ta được:",
+          "choices": {
+            "A": "25%",
+            "B": "10%",
+            "C": "20%",
+            "D": "1,4%"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{1}{4}"
+            },
+            {
+              "t": "txt",
+              "v": " dưới dạng tỉ số phần trăm ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "25%"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10%"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20%"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1,4%"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết phân số 1/4 dưới dạng tỉ số phần trăm ta được:",
+            "choices": {
+              "A": "25%",
+              "B": "10%",
+              "C": "20%",
+              "D": "1,4%"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-17",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Một tấm bìa hình chữ nhật có chiều dài 19 cm và chiều rộng 14 cm. Chu vi tấm bìa đó bằng:",
+          "choices": {
+            "A": "266 cm",
+            "B": "33 cm",
+            "C": "57 cm",
+            "D": "66 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một tấm bìa hình chữ nhật có chiều dài 19 cm và chiều rộng 14 cm. Chu vi tấm bìa đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "266 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "33 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "57 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "66 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một tấm bìa hình chữ nhật có chiều dài 19 cm và chiều rộng 14 cm. Chu vi tấm bìa đó bằng:",
+            "choices": {
+              "A": "266 cm",
+              "B": "33 cm",
+              "C": "57 cm",
+              "D": "66 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-18",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 24 cm và 15 cm thì có diện tích bằng:",
+          "choices": {
+            "A": "180 cm^(2)",
+            "B": "90 cm^(2)",
+            "C": "39 cm^(2)",
+            "D": "360 cm^(2)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 24 cm và 15 cm thì có diện tích bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "180 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "90 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "39 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "360 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 24 cm và 15 cm thì có diện tích bằng:",
+            "choices": {
+              "A": "180 cm$^2$",
+              "B": "90 cm$^2$",
+              "C": "39 cm$^2$",
+              "D": "360 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-19",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Số trung bình cộng của bốn số 12, 14, 18, 24 bằng:",
+          "choices": {
+            "A": "17",
+            "B": "68",
+            "C": "16",
+            "D": "18"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số trung bình cộng của bốn số 12, 14, 18, 24 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "68"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số trung bình cộng của bốn số 12, 14, 18, 24 bằng:",
+            "choices": {
+              "A": "17",
+              "B": "68",
+              "C": "16",
+              "D": "18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-20",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Tại x = 3, biểu thức bậc nhất L(x) = 12x - 16 nhận giá trị bằng:",
+          "choices": {
+            "A": "52",
+            "B": "20",
+            "C": "36",
+            "D": "28"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tại x = 3, biểu thức bậc nhất L(x) = 12x - 16 nhận giá trị bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "52"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "28"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tại x = 3, biểu thức bậc nhất L(x) = 12x - 16 nhận giá trị bằng:",
+            "choices": {
+              "A": "52",
+              "B": "20",
+              "C": "36",
+              "D": "28"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-21",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm số hữu tỉ x, biết: x + (1)/(2) = (3)/(2).",
+          "choices": {
+            "A": "x = (2)/(2)",
+            "B": "x = (4)/(2)",
+            "C": "x = (3)/(2)",
+            "D": "x = (-2)/(2)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số hữu tỉ x, biết: x + "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{1}{2}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{3}{2}"
+            },
+            {
+              "t": "txt",
+              "v": "."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\frac{2}{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\frac{4}{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\frac{3}{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\frac{-2}{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số hữu tỉ x, biết: x + 1/2 = 3/2.",
+            "choices": {
+              "A": "x = 2/2",
+              "B": "x = 4/2",
+              "C": "x = 3/2",
+              "D": "x = -2/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-22",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Tính nhanh giá trị biểu thức A = ((3)/(6)) · ((7)/(11)) + ((3)/(6)) · ((4)/(11)).",
+          "choices": {
+            "A": "(6)/(6)",
+            "B": "(33)/(67)",
+            "C": "(3)/(6)",
+            "D": "(1)/(6)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính nhanh giá trị biểu thức A = ("
+            },
+            {
+              "t": "math",
+              "v": "\\frac{3}{6}"
+            },
+            {
+              "t": "txt",
+              "v": ") "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "\\frac{7}{11}"
+            },
+            {
+              "t": "txt",
+              "v": ") + ("
+            },
+            {
+              "t": "math",
+              "v": "\\frac{3}{6}"
+            },
+            {
+              "t": "txt",
+              "v": ") "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "\\frac{4}{11}"
+            },
+            {
+              "t": "txt",
+              "v": ")."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{6}{6}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{33}{67}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{3}{6}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{6}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính nhanh giá trị biểu thức A = (3/6) $\\cdot$ (7/11) + (3/6) $\\cdot$ (4/11).",
+            "choices": {
+              "A": "6/6",
+              "B": "33/67",
+              "C": "3/6",
+              "D": "1/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-23",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm số tự nhiên n biết (1/2)^(n) = (1)/(32).",
+          "choices": {
+            "A": "n = 4",
+            "B": "n = 6",
+            "C": "n = 5",
+            "D": "n = 16"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số tự nhiên n biết "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{1}{32}"
+            },
+            {
+              "t": "txt",
+              "v": "."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số tự nhiên n biết (1/2)$^{n}$ = 1/32.",
+            "choices": {
+              "A": "n = 4",
+              "B": "n = 6",
+              "C": "n = 5",
+              "D": "n = 16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-24",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Tính hợp lý tổng S = (53 + 69) + (31 - 43):",
+          "choices": {
+            "A": "182",
+            "B": "110",
+            "C": "100",
+            "D": "90"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính hợp lý tổng S = (53 + 69) + (31 - 43):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "182"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "110"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính hợp lý tổng S = (53 + 69) + (31 - 43):",
+            "choices": {
+              "A": "182",
+              "B": "110",
+              "C": "100",
+              "D": "90"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-25",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Giải phương trình: 4(x - 12) - 2(x - 15) = 38:",
+          "choices": {
+            "A": "x = 40",
+            "B": "x = 16",
+            "C": "x = 20",
+            "D": "x = 28"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giải phương trình: 4(x - 12) - 2(x - 15) = 38:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 40"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 28"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giải phương trình: 4(x - 12) - 2(x - 15) = 38:",
+            "choices": {
+              "A": "x = 40",
+              "B": "x = 16",
+              "C": "x = 20",
+              "D": "x = 28"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-26",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Hai lớp quyên góp được tổng cộng 144 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 32 quyển. Số sách lớp thứ nhất quyên góp là:",
+          "choices": {
+            "A": "56 quyển",
+            "B": "72 quyển",
+            "C": "112 quyển",
+            "D": "88 quyển"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hai lớp quyên góp được tổng cộng 144 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 32 quyển. Số sách lớp thứ nhất quyên góp là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "56 quyển"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "72 quyển"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "112 quyển"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "88 quyển"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hai lớp quyên góp được tổng cộng 144 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 32 quyển. Số sách lớp thứ nhất quyên góp là:",
+            "choices": {
+              "A": "56 quyển",
+              "B": "72 quyển",
+              "C": "112 quyển",
+              "D": "88 quyển"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-27",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 168 cm. Độ dài cạnh lớn nhất của tam giác là:",
+          "choices": {
+            "A": "56 cm",
+            "B": "42 cm",
+            "C": "70 cm",
+            "D": "84 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 168 cm. Độ dài cạnh lớn nhất của tam giác là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "56 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "42 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "70 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "84 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 168 cm. Độ dài cạnh lớn nhất của tam giác là:",
+            "choices": {
+              "A": "56 cm",
+              "B": "42 cm",
+              "C": "70 cm",
+              "D": "84 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-28",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Một hóa đơn mua hàng chưa tính thuế có giá 240.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+          "choices": {
+            "A": "216.000 đồng",
+            "B": "252.000 đồng",
+            "C": "250.000 đồng",
+            "D": "264.000 đồng"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hóa đơn mua hàng chưa tính thuế có giá 240.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "216.000 đồng"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "252.000 đồng"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "250.000 đồng"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "264.000 đồng"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hóa đơn mua hàng chưa tính thuế có giá 240.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+            "choices": {
+              "A": "216.000 đồng",
+              "B": "252.000 đồng",
+              "C": "250.000 đồng",
+              "D": "264.000 đồng"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-29",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3^(k + 1) - 3^(k) = 18:",
+          "choices": {
+            "A": "k = 3",
+            "B": "k = 2",
+            "C": "k = 1",
+            "D": "k = 4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số tự nhiên k thỏa mãn đẳng thức: "
+            },
+            {
+              "t": "math",
+              "v": "3^{k + 1}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3^{k}"
+            },
+            {
+              "t": "txt",
+              "v": " = 18:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "k = 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "k = 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "k = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "k = 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3$^{k + 1}$ - 3$^{k}$ = 18:",
+            "choices": {
+              "A": "k = 3",
+              "B": "k = 2",
+              "C": "k = 1",
+              "D": "k = 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-30",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 24| = 18 bằng:",
+          "choices": {
+            "A": "24",
+            "B": "0",
+            "C": "18",
+            "D": "48"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 24| = 18 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "48"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 24| = 18 bằng:",
+            "choices": {
+              "A": "24",
+              "B": "0",
+              "C": "18",
+              "D": "48"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-31",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn biểu thức H = (x + 14)^(2) + (x - 14)^(2) - 2x^(2) ta được kết quả không phụ thuộc vào x là:",
+          "choices": {
+            "A": "392",
+            "B": "0",
+            "C": "196",
+            "D": "56"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn biểu thức H = "
+            },
+            {
+              "t": "math",
+              "v": "(x + 14)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 14)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được kết quả không phụ thuộc vào x là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "392"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "196"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "56"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn biểu thức H = (x + 14)$^2$ + (x - 14)$^2$ - 2x$^2$ ta được kết quả không phụ thuộc vào x là:",
+            "choices": {
+              "A": "392",
+              "B": "0",
+              "C": "196",
+              "D": "56"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-32",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Khi thay x = -1 vào đa thức P(x) = x^(3) + 12x^(2) - 14x + 5, giá trị của P(-1) bằng:",
+          "choices": {
+            "A": "6",
+            "B": "-30",
+            "C": "28",
+            "D": "30"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi thay x = -1 vào đa thức P(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 12"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 14x + 5, giá trị của P(-1) bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-30"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "28"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi thay x = -1 vào đa thức P(x) = x$^3$ + 12x$^2$ - 14x + 5, giá trị của P(-1) bằng:",
+            "choices": {
+              "A": "6",
+              "B": "-30",
+              "C": "28",
+              "D": "30"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-33",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Biểu thức Q(x) = (x + 12) / [(x - 12)(x + 16)] xác định khi và chỉ khi:",
+          "choices": {
+            "A": "x ≠ -12 và x ≠ 16",
+            "B": "x ≠ 12",
+            "C": "x ≠ 12 và x ≠ -16",
+            "D": "x > 12"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biểu thức Q(x) = (x + 12) / [(x - 12)(x + 16)] xác định khi và chỉ khi:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -12 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 12 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x > 12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biểu thức Q(x) = (x + 12) / [(x - 12)(x + 16)] xác định khi và chỉ khi:",
+            "choices": {
+              "A": "x $\\ne$ -12 và x $\\ne$ 16",
+              "B": "x $\\ne$ 12",
+              "C": "x $\\ne$ 12 và x $\\ne$ -16",
+              "D": "x > 12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-34",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Một ca nô có vận tốc riêng là 30 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+          "choices": {
+            "A": "54 km",
+            "B": "66 km",
+            "C": "33 km",
+            "D": "60 km"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một ca nô có vận tốc riêng là 30 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "54 km"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "66 km"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "33 km"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "60 km"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một ca nô có vận tốc riêng là 30 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+            "choices": {
+              "A": "54 km",
+              "B": "66 km",
+              "C": "33 km",
+              "D": "60 km"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-35",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Cho đoạn thẳng AB = 56 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+          "choices": {
+            "A": "40 cm",
+            "B": "28 cm",
+            "C": "14 cm",
+            "D": "42 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho đoạn thẳng AB = 56 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "40 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "28 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "42 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho đoạn thẳng AB = 56 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+            "choices": {
+              "A": "40 cm",
+              "B": "28 cm",
+              "C": "14 cm",
+              "D": "42 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-36",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Trong tứ giác lồi ABCD, biết góc A = 87°, góc B = 93° và góc C = 2 · góc D. Số đo góc D bằng:",
+          "choices": {
+            "A": "60°",
+            "B": "45°",
+            "C": "120°",
+            "D": "90°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong tứ giác lồi ABCD, biết góc A = 87°, góc B = 93° và góc C = 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " góc D. Số đo góc D bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "120°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong tứ giác lồi ABCD, biết góc A = 87°, góc B = 93° và góc C = 2 $\\cdot$ góc D. Số đo góc D bằng:",
+            "choices": {
+              "A": "60°",
+              "B": "45°",
+              "C": "120°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-37",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+          "choices": {
+            "A": "14 m",
+            "B": "12 m",
+            "C": "100 m",
+            "D": "10 m"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một mảnh đất hình chữ nhật có chiều rộng 6 m và chiều dài 8 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+            "choices": {
+              "A": "14 m",
+              "B": "12 m",
+              "C": "100 m",
+              "D": "10 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-38",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 60 dm^(2) và chứa được tối đa 360 lít nước (1 dm^(3) = 1 lít). Chiều cao của thùng chứa là:",
+          "choices": {
+            "A": "5 dm",
+            "B": "12 dm",
+            "C": "18 dm",
+            "D": "6 dm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 60 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chứa được tối đa 360 lít nước (1 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 lít). Chiều cao của thùng chứa là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 dm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 dm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18 dm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6 dm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 60 dm$^2$ và chứa được tối đa 360 lít nước (1 dm$^3$ = 1 lít). Chiều cao của thùng chứa là:",
+            "choices": {
+              "A": "5 dm",
+              "B": "12 dm",
+              "C": "18 dm",
+              "D": "6 dm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-39",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:",
+          "choices": {
+            "A": "8 điểm",
+            "B": "9 điểm",
+            "C": "6 điểm",
+            "D": "7 điểm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8 điểm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9 điểm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 điểm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7 điểm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Điểm trung bình của 4 bài kiểm tra là 7,0 điểm. Biết điểm của 3 bài đầu lần lượt là 6, 7 và 6. Điểm của bài kiểm tra thứ tư là:",
+            "choices": {
+              "A": "8 điểm",
+              "B": "9 điểm",
+              "C": "6 điểm",
+              "D": "7 điểm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-40",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Trong một chiếc hộp có 16 thẻ đánh số từ 1 đến 16 và 18 thẻ đánh số từ 17 đến 34. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 16 là:",
+          "choices": {
+            "A": "(16)/(34)",
+            "B": "(1)/(34)",
+            "C": "(17)/(34)",
+            "D": "(18)/(34)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong một chiếc hộp có 16 thẻ đánh số từ 1 đến 16 và 18 thẻ đánh số từ 17 đến 34. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 16 là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{16}{34}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{34}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{17}{34}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{18}{34}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong một chiếc hộp có 16 thẻ đánh số từ 1 đến 16 và 18 thẻ đánh số từ 17 đến 34. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 16 là:",
+            "choices": {
+              "A": "16/34",
+              "B": "1/34",
+              "C": "17/34",
+              "D": "18/34"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-41",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Tìm giá trị nhỏ nhất của biểu thức P = (x - 1/2)^(2) + 5.",
+          "choices": {
+            "A": "0",
+            "B": "(1)/(2)",
+            "C": "5",
+            "D": "-5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị nhỏ nhất của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 1/2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị nhỏ nhất của biểu thức P = (x - 1/2)$^2$ + 5.",
+            "choices": {
+              "A": "0",
+              "B": "1/2",
+              "C": "5",
+              "D": "-5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-42",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "So sánh hai lũy thừa A = 2^(15) và B = 3^(10).",
+          "choices": {
+            "A": "A < B (vì 8 < 9)",
+            "B": "Không so sánh được",
+            "C": "A > B",
+            "D": "A = B"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "So sánh hai lũy thừa A = "
+            },
+            {
+              "t": "math",
+              "v": "2^{15}"
+            },
+            {
+              "t": "txt",
+              "v": " và B = "
+            },
+            {
+              "t": "math",
+              "v": "3^{10}"
+            },
+            {
+              "t": "txt",
+              "v": "."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "A < B (vì 8 < 9)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Không so sánh được"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "A > B"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "A = B"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "So sánh hai lũy thừa A = 2$^{15}$ và B = 3$^{10}$.",
+            "choices": {
+              "A": "A < B (vì 8 < 9)",
+              "B": "Không so sánh được",
+              "C": "A > B",
+              "D": "A = B"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-43",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 12)^(2) + (x - 16)^(2) với mọi số thực x:",
+          "choices": {
+            "A": "16",
+            "B": "0",
+            "C": "4",
+            "D": "8 (đạt được khi x = 14)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị nhỏ nhất của biểu thức A(x) = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 12)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 16)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " với mọi số thực x:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 (đạt được khi x = 14)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 12)$^2$ + (x - 16)$^2$ với mọi số thực x:",
+            "choices": {
+              "A": "16",
+              "B": "0",
+              "C": "4",
+              "D": "8 (đạt được khi x = 14)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-44",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Giá trị lớn nhất của biểu thức phân thức B(x) = 60 / ((x + 12)^(2) + 4) với mọi x ∈ ℝ bằng:",
+          "choices": {
+            "A": "15",
+            "B": "4",
+            "C": "60",
+            "D": "7.5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giá trị lớn nhất của biểu thức phân thức B(x) = 60 / ("
+            },
+            {
+              "t": "math",
+              "v": "(x + 12)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 4) với mọi x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "60"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7.5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giá trị lớn nhất của biểu thức phân thức B(x) = 60 / ((x + 12)$^2$ + 4) với mọi x $\\in$ $\\mathbb{R}$ bằng:",
+            "choices": {
+              "A": "15",
+              "B": "4",
+              "C": "60",
+              "D": "7.5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-45",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Tính tổng của 22 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (87):",
+          "choices": {
+            "A": "946",
+            "B": "990",
+            "C": "968",
+            "D": "1980"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính tổng của 22 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (87):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "946"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "990"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "968"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1980"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính tổng của 22 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (87):",
+            "choices": {
+              "A": "946",
+              "B": "990",
+              "C": "968",
+              "D": "1980"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-46",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Tính giá trị của tổng S = 2/(1·3) + 2/(3·5) + 2/(5·7) + ... + 2/(33·35):",
+          "choices": {
+            "A": "(17)/(35)",
+            "B": "(1)/(35)",
+            "C": "(33)/(35)",
+            "D": "(34)/(35)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính giá trị của tổng S = 2/(1"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "3) + 2/(3"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "5) + 2/(5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "7) + ... + 2/(33"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "35):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{17}{35}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{35}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{33}{35}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{34}{35}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính giá trị của tổng S = 2/(1$\\cdot$3) + 2/(3$\\cdot$5) + 2/(5$\\cdot$7) + ... + 2/(33$\\cdot$35):",
+            "choices": {
+              "A": "17/35",
+              "B": "1/35",
+              "C": "33/35",
+              "D": "34/35"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-47",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Có tất cả bao nhiêu số nguyên x (với x ≠ -12) sao cho biểu thức P = (3x + 47)/(x + 12) nhận giá trị là một số nguyên?",
+          "choices": {
+            "A": "6 số nguyên",
+            "B": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên ±1, ±11)",
+            "C": "8 số nguyên",
+            "D": "2 số nguyên"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Có tất cả bao nhiêu số nguyên x (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -12) sao cho biểu thức P = (3x + 47)/(x + 12) nhận giá trị là một số nguyên?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 số nguyên"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "1, "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "11)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 số nguyên"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 số nguyên"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Có tất cả bao nhiêu số nguyên x (với x $\\ne$ -12) sao cho biểu thức P = (3x + 47)/(x + 12) nhận giá trị là một số nguyên?",
+            "choices": {
+              "A": "6 số nguyên",
+              "B": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên $\\pm$1, $\\pm$11)",
+              "C": "8 số nguyên",
+              "D": "2 số nguyên"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-48",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+          "choices": {
+            "A": "6 giờ",
+            "B": "4 giờ",
+            "C": "9.0 giờ",
+            "D": "2 giờ"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 giờ"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 giờ"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9.0 giờ"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 giờ"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vòi nước thứ nhất chảy riêng đầy bể trong 6 giờ, vòi thứ hai chảy riêng đầy bể trong 12 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+            "choices": {
+              "A": "6 giờ",
+              "B": "4 giờ",
+              "C": "9.0 giờ",
+              "D": "2 giờ"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-49",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Biết hai số thực u và v thỏa mãn u + v = 15 và u · v = 14. Giá trị của biểu thức T = u^(3) + v^(3) bằng:",
+          "choices": {
+            "A": "4005",
+            "B": "2745",
+            "C": "3375",
+            "D": "197"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biết hai số thực u và v thỏa mãn u + v = 15 và u "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " v = 14. Giá trị của biểu thức T = "
+            },
+            {
+              "t": "math",
+              "v": "u^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "v^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4005"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2745"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3375"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "197"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biết hai số thực u và v thỏa mãn u + v = 15 và u $\\cdot$ v = 14. Giá trị của biểu thức T = u$^3$ + v$^3$ bằng:",
+            "choices": {
+              "A": "4005",
+              "B": "2745",
+              "C": "3375",
+              "D": "197"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        },
+        {
+          "id": "7-01-50",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 117 m^(2). Chiều rộng ban đầu của khu đất là:",
+          "choices": {
+            "A": "15 m",
+            "B": "24 m",
+            "C": "12 m",
+            "D": "36 m"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 117 "
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Chiều rộng ban đầu của khu đất là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "36 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 117 m$^2$. Chiều rộng ban đầu của khu đất là:",
+            "choices": {
+              "A": "15 m",
+              "B": "24 m",
+              "C": "12 m",
+              "D": "36 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I"
+          }
+        }
+      ]
+    }
+  ]
+}

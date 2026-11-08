@@ -1,0 +1,3483 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 7,
+      "chapter": 4,
+      "roman": "IV",
+      "title": "TAM GIÁC BẰNG NHAU",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "7-04-01",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cho tam giác ABC có góc A = 50° và góc B = 60°. Số đo góc C của tam giác ABC bằng",
+          "choices": {
+            "A": "60°",
+            "B": "70°",
+            "C": "110°",
+            "D": "80°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tam giác ABC có góc A = 50° và góc B = 60°. Số đo góc C của tam giác ABC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "70°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "110°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "80°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tam giác ABC có góc A = 50° và góc B = 60°. Số đo góc C của tam giác ABC bằng",
+            "choices": {
+              "A": "60°",
+              "B": "70°",
+              "C": "110°",
+              "D": "80°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-02",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Cho \\DeltaABC = \\DeltaDEF. Biết cạnh AB = 6 cm, BC = 8 cm, AC = 9 cm. Độ dài cạnh DE bằng.",
+          "choices": {
+            "A": "6 cm",
+            "B": "23 cm",
+            "C": "9 cm",
+            "D": "8 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC = "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF. Biết cạnh AB = 6 cm, BC = 8 cm, AC = 9 cm. Độ dài cạnh DE bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "23 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Cho $\\Delta$ABC = $\\Delta$DEF. Biết cạnh AB = 6 cm, BC = 8 cm, AC = 9 cm. Độ dài cạnh DE bằng.",
+            "choices": {
+              "A": "6 cm",
+              "B": "23 cm",
+              "C": "9 cm",
+              "D": "8 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-03",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương IV, xét nội dung: Cho tam giác ABC cân tại A có góc ở đáy B = 49°. Số đo góc ở đáy C bằng. Đáp án đúng là",
+          "choices": {
+            "A": "82°",
+            "B": "131°",
+            "C": "90°",
+            "D": "49°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương IV, xét nội dung: Cho tam giác ABC cân tại A có góc ở đáy B = 49°. Số đo góc ở đáy C bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "82°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "131°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "49°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương IV, xét nội dung: Cho tam giác ABC cân tại A có góc ở đáy B = 49°. Số đo góc ở đáy C bằng. Đáp án đúng là",
+            "choices": {
+              "A": "82°",
+              "B": "131°",
+              "C": "90°",
+              "D": "49°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-04",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương IV (Tam giác bằng nhau), cho tam giác ABC có góc A = 56° và góc B = 63°. Số đo góc C của tam giác ABC bằng",
+          "choices": {
+            "A": "61°",
+            "B": "119°",
+            "C": "71°",
+            "D": "51°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương IV (Tam giác bằng nhau), cho tam giác ABC có góc A = 56° và góc B = 63°. Số đo góc C của tam giác ABC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "61°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "119°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "71°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "51°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương IV (Tam giác bằng nhau), cho tam giác ABC có góc A = 56° và góc B = 63°. Số đo góc C của tam giác ABC bằng",
+            "choices": {
+              "A": "61°",
+              "B": "119°",
+              "C": "71°",
+              "D": "51°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-05",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Cho \\DeltaABC = \\DeltaDEF. Biết cạnh AB = 9 cm, BC = 11 cm, AC = 12 cm. Độ dài cạnh DE bằng",
+          "choices": {
+            "A": "9 cm",
+            "B": "12 cm",
+            "C": "32 cm",
+            "D": "11 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC = "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF. Biết cạnh AB = 9 cm, BC = 11 cm, AC = 12 cm. Độ dài cạnh DE bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "32 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "11 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Cho $\\Delta$ABC = $\\Delta$DEF. Biết cạnh AB = 9 cm, BC = 11 cm, AC = 12 cm. Độ dài cạnh DE bằng",
+            "choices": {
+              "A": "9 cm",
+              "B": "12 cm",
+              "C": "32 cm",
+              "D": "11 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-06",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về tam giác bằng nhau, một học sinh gặp câu hỏi: Cho tam giác ABC cân tại A có góc ở đáy B = 55°. Số đo góc ở đáy C bằng. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "90°",
+            "B": "55°",
+            "C": "70°",
+            "D": "125°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về tam giác bằng nhau, một học sinh gặp câu hỏi: Cho tam giác ABC cân tại A có góc ở đáy B = 55°. Số đo góc ở đáy C bằng. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "55°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "70°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "125°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về tam giác bằng nhau, một học sinh gặp câu hỏi: Cho tam giác ABC cân tại A có góc ở đáy B = 55°. Số đo góc ở đáy C bằng. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "90°",
+              "B": "55°",
+              "C": "70°",
+              "D": "125°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-07",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho tam giác ABC có góc A = 62° và góc B = 66°. Số đo góc C của tam giác ABC bằng",
+          "choices": {
+            "A": "62°",
+            "B": "128°",
+            "C": "42°",
+            "D": "52°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho tam giác ABC có góc A = 62° và góc B = 66°. Số đo góc C của tam giác ABC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "62°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "128°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "42°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "52°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Cho tam giác ABC có góc A = 62° và góc B = 66°. Số đo góc C của tam giác ABC bằng",
+            "choices": {
+              "A": "62°",
+              "B": "128°",
+              "C": "42°",
+              "D": "52°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-08",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Cho \\DeltaABC = \\DeltaDEF. Biết cạnh AB = 12 cm, BC = 14 cm, AC = 15 cm. Độ dài cạnh DE bằng",
+          "choices": {
+            "A": "41 cm",
+            "B": "12 cm",
+            "C": "14 cm",
+            "D": "15 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC = "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF. Biết cạnh AB = 12 cm, BC = 14 cm, AC = 15 cm. Độ dài cạnh DE bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "41 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Cho $\\Delta$ABC = $\\Delta$DEF. Biết cạnh AB = 12 cm, BC = 14 cm, AC = 15 cm. Độ dài cạnh DE bằng",
+            "choices": {
+              "A": "41 cm",
+              "B": "12 cm",
+              "C": "14 cm",
+              "D": "15 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-09",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Cho tam giác ABC cân tại A có góc ở đáy B = 61°. Số đo góc ở đáy C bằng",
+          "choices": {
+            "A": "119°",
+            "B": "90°",
+            "C": "61°",
+            "D": "58°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Cho tam giác ABC cân tại A có góc ở đáy B = 61°. Số đo góc ở đáy C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "119°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "61°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "58°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Cho tam giác ABC cân tại A có góc ở đáy B = 61°. Số đo góc ở đáy C bằng",
+            "choices": {
+              "A": "119°",
+              "B": "90°",
+              "C": "61°",
+              "D": "58°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-10",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Cho tam giác ABC có góc A = 68° và góc B = 69°. Số đo góc C của tam giác ABC bằng. Phương án chính xác là",
+          "choices": {
+            "A": "33°",
+            "B": "43°",
+            "C": "53°",
+            "D": "137°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Cho tam giác ABC có góc A = 68° và góc B = 69°. Số đo góc C của tam giác ABC bằng. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "33°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "43°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "53°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "137°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Cho tam giác ABC có góc A = 68° và góc B = 69°. Số đo góc C của tam giác ABC bằng. Phương án chính xác là",
+            "choices": {
+              "A": "33°",
+              "B": "43°",
+              "C": "53°",
+              "D": "137°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-11",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho \\DeltaABC = \\DeltaDEF. Biết cạnh AB = 15 cm, BC = 17 cm, AC = 18 cm. Độ dài cạnh DE bằng",
+          "choices": {
+            "A": "17 cm",
+            "B": "15 cm",
+            "C": "18 cm",
+            "D": "50 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC = "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF. Biết cạnh AB = 15 cm, BC = 17 cm, AC = 18 cm. Độ dài cạnh DE bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "17 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "50 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho $\\Delta$ABC = $\\Delta$DEF. Biết cạnh AB = 15 cm, BC = 17 cm, AC = 18 cm. Độ dài cạnh DE bằng",
+            "choices": {
+              "A": "17 cm",
+              "B": "15 cm",
+              "C": "18 cm",
+              "D": "50 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-12",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Cho tam giác ABC cân tại A có góc ở đáy B = 67°. Số đo góc ở đáy C bằng",
+          "choices": {
+            "A": "113°",
+            "B": "67°",
+            "C": "46°",
+            "D": "90°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Cho tam giác ABC cân tại A có góc ở đáy B = 67°. Số đo góc ở đáy C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "113°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "67°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "46°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Cho tam giác ABC cân tại A có góc ở đáy B = 67°. Số đo góc ở đáy C bằng",
+            "choices": {
+              "A": "113°",
+              "B": "67°",
+              "C": "46°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-13",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), cho tam giác ABC có góc A = 74° và góc B = 72°. Số đo góc C của tam giác ABC bằng",
+          "choices": {
+            "A": "24°",
+            "B": "44°",
+            "C": "34°",
+            "D": "146°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), cho tam giác ABC có góc A = 74° và góc B = 72°. Số đo góc C của tam giác ABC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "44°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "34°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "146°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), cho tam giác ABC có góc A = 74° và góc B = 72°. Số đo góc C của tam giác ABC bằng",
+            "choices": {
+              "A": "24°",
+              "B": "44°",
+              "C": "34°",
+              "D": "146°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-14",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Cho \\DeltaABC = \\DeltaDEF. Biết cạnh AB = 18 cm, BC = 20 cm, AC = 21 cm. Độ dài cạnh DE bằng",
+          "choices": {
+            "A": "18 cm",
+            "B": "59 cm",
+            "C": "20 cm",
+            "D": "21 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC = "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF. Biết cạnh AB = 18 cm, BC = 20 cm, AC = 21 cm. Độ dài cạnh DE bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "59 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "21 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Cho $\\Delta$ABC = $\\Delta$DEF. Biết cạnh AB = 18 cm, BC = 20 cm, AC = 21 cm. Độ dài cạnh DE bằng",
+            "choices": {
+              "A": "18 cm",
+              "B": "59 cm",
+              "C": "20 cm",
+              "D": "21 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-15",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương IV: Cho tam giác ABC cân tại A có góc ở đáy B = 73°. Số đo góc ở đáy C bằng. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "73°",
+            "B": "34°",
+            "C": "107°",
+            "D": "90°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương IV: Cho tam giác ABC cân tại A có góc ở đáy B = 73°. Số đo góc ở đáy C bằng. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "73°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "34°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "107°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương IV: Cho tam giác ABC cân tại A có góc ở đáy B = 73°. Số đo góc ở đáy C bằng. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "73°",
+              "B": "34°",
+              "C": "107°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-16",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Cho tam giác ABC có góc A = 80° và góc B = 75°. Số đo góc C của tam giác ABC bằng",
+          "choices": {
+            "A": "25°",
+            "B": "155°",
+            "C": "35°",
+            "D": "15°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Cho tam giác ABC có góc A = 80° và góc B = 75°. Số đo góc C của tam giác ABC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "25°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "155°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "35°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Cho tam giác ABC có góc A = 80° và góc B = 75°. Số đo góc C của tam giác ABC bằng",
+            "choices": {
+              "A": "25°",
+              "B": "155°",
+              "C": "35°",
+              "D": "15°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-17",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho \\DeltaABC = \\DeltaDEF. Biết cạnh AB = 21 cm, BC = 23 cm, AC = 24 cm. Độ dài cạnh DE bằng?",
+          "choices": {
+            "A": "23 cm",
+            "B": "24 cm",
+            "C": "68 cm",
+            "D": "21 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC = "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF. Biết cạnh AB = 21 cm, BC = 23 cm, AC = 24 cm. Độ dài cạnh DE bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "23 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "68 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "21 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho $\\Delta$ABC = $\\Delta$DEF. Biết cạnh AB = 21 cm, BC = 23 cm, AC = 24 cm. Độ dài cạnh DE bằng?",
+            "choices": {
+              "A": "23 cm",
+              "B": "24 cm",
+              "C": "68 cm",
+              "D": "21 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-18",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương IV: Cho tam giác ABC cân tại A có góc ở đáy B = 79°. Số đo góc ở đáy C bằng",
+          "choices": {
+            "A": "22°",
+            "B": "101°",
+            "C": "79°",
+            "D": "90°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương IV: Cho tam giác ABC cân tại A có góc ở đáy B = 79°. Số đo góc ở đáy C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "22°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "101°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "79°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương IV: Cho tam giác ABC cân tại A có góc ở đáy B = 79°. Số đo góc ở đáy C bằng",
+            "choices": {
+              "A": "22°",
+              "B": "101°",
+              "C": "79°",
+              "D": "90°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-19",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Cho tam giác ABC có góc A = 86° và góc B = 78°. Số đo góc C của tam giác ABC bằng. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "26°",
+            "B": "16°",
+            "C": "164°",
+            "D": "6°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Cho tam giác ABC có góc A = 86° và góc B = 78°. Số đo góc C của tam giác ABC bằng. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "26°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "164°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Cho tam giác ABC có góc A = 86° và góc B = 78°. Số đo góc C của tam giác ABC bằng. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "26°",
+              "B": "16°",
+              "C": "164°",
+              "D": "6°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-20",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Cho \\DeltaABC = \\DeltaDEF. Biết cạnh AB = 24 cm, BC = 26 cm, AC = 27 cm. Độ dài cạnh DE bằng",
+          "choices": {
+            "A": "24 cm",
+            "B": "27 cm",
+            "C": "77 cm",
+            "D": "26 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "ABC = "
+            },
+            {
+              "t": "math",
+              "v": "\\Delta"
+            },
+            {
+              "t": "txt",
+              "v": "DEF. Biết cạnh AB = 24 cm, BC = 26 cm, AC = 27 cm. Độ dài cạnh DE bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "77 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "26 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Cho $\\Delta$ABC = $\\Delta$DEF. Biết cạnh AB = 24 cm, BC = 26 cm, AC = 27 cm. Độ dài cạnh DE bằng",
+            "choices": {
+              "A": "24 cm",
+              "B": "27 cm",
+              "C": "77 cm",
+              "D": "26 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-21",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Tam giác ABC cân tại A có góc ở đỉnh A = 40°. Số đo mỗi góc ở đáy B và C bằng",
+          "choices": {
+            "A": "50°",
+            "B": "70°",
+            "C": "140°",
+            "D": "40°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tam giác ABC cân tại A có góc ở đỉnh A = 40°. Số đo mỗi góc ở đáy B và C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "50°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "70°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "140°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "40°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tam giác ABC cân tại A có góc ở đỉnh A = 40°. Số đo mỗi góc ở đáy B và C bằng",
+            "choices": {
+              "A": "50°",
+              "B": "70°",
+              "C": "140°",
+              "D": "40°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-22",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương IV (Tam giác bằng nhau) để giải bài toán: Cho tam giác ABC vuông tại A, biết góc B = 28°. Số đo góc C bằng",
+          "choices": {
+            "A": "152°",
+            "B": "62°",
+            "C": "28°",
+            "D": "72°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương IV (Tam giác bằng nhau) để giải bài toán: Cho tam giác ABC vuông tại A, biết góc B = 28°. Số đo góc C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "152°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "62°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "28°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "72°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương IV (Tam giác bằng nhau) để giải bài toán: Cho tam giác ABC vuông tại A, biết góc B = 28°. Số đo góc C bằng",
+            "choices": {
+              "A": "152°",
+              "B": "62°",
+              "C": "28°",
+              "D": "72°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-23",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương IV: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 11 cm, độ dài đoạn thẳng MB bằng. Kết quả thu được là",
+          "choices": {
+            "A": "5.5 cm",
+            "B": "11 cm",
+            "C": "22 cm",
+            "D": "9 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương IV: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 11 cm, độ dài đoạn thẳng MB bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5.5 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "11 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "22 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương IV: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 11 cm, độ dài đoạn thẳng MB bằng. Kết quả thu được là",
+            "choices": {
+              "A": "5.5 cm",
+              "B": "11 cm",
+              "C": "22 cm",
+              "D": "9 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-24",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Tam giác ABC cân tại A có góc ở đỉnh A = 52°. Số đo mỗi góc ở đáy B và C bằng. Đáp án đúng là",
+          "choices": {
+            "A": "64°",
+            "B": "52°",
+            "C": "44°",
+            "D": "128°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Tam giác ABC cân tại A có góc ở đỉnh A = 52°. Số đo mỗi góc ở đáy B và C bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "64°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "52°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "44°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "128°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Tam giác ABC cân tại A có góc ở đỉnh A = 52°. Số đo mỗi góc ở đáy B và C bằng. Đáp án đúng là",
+            "choices": {
+              "A": "64°",
+              "B": "52°",
+              "C": "44°",
+              "D": "128°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-25",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Cho tam giác ABC vuông tại A, biết góc B = 37°. Số đo góc C bằng",
+          "choices": {
+            "A": "143°",
+            "B": "53°",
+            "C": "63°",
+            "D": "37°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Cho tam giác ABC vuông tại A, biết góc B = 37°. Số đo góc C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "143°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "53°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "63°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "37°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Cho tam giác ABC vuông tại A, biết góc B = 37°. Số đo góc C bằng",
+            "choices": {
+              "A": "143°",
+              "B": "53°",
+              "C": "63°",
+              "D": "37°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-26",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 17 cm, độ dài đoạn thẳng MB bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "17 cm",
+            "B": "34 cm",
+            "C": "15 cm",
+            "D": "8.5 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 17 cm, độ dài đoạn thẳng MB bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "17 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "34 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8.5 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 17 cm, độ dài đoạn thẳng MB bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "17 cm",
+              "B": "34 cm",
+              "C": "15 cm",
+              "D": "8.5 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-27",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Tam giác ABC cân tại A có góc ở đỉnh A = 64°. Số đo mỗi góc ở đáy B và C bằng",
+          "choices": {
+            "A": "116°",
+            "B": "38°",
+            "C": "58°",
+            "D": "64°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Tam giác ABC cân tại A có góc ở đỉnh A = 64°. Số đo mỗi góc ở đáy B và C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "116°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "38°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "58°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "64°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Tam giác ABC cân tại A có góc ở đỉnh A = 64°. Số đo mỗi góc ở đáy B và C bằng",
+            "choices": {
+              "A": "116°",
+              "B": "38°",
+              "C": "58°",
+              "D": "64°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-28",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho tam giác ABC vuông tại A, biết góc B = 46°. Số đo góc C bằng",
+          "choices": {
+            "A": "44°",
+            "B": "134°",
+            "C": "46°",
+            "D": "54°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho tam giác ABC vuông tại A, biết góc B = 46°. Số đo góc C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "44°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "134°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "46°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "54°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho tam giác ABC vuông tại A, biết góc B = 46°. Số đo góc C bằng",
+            "choices": {
+              "A": "44°",
+              "B": "134°",
+              "C": "46°",
+              "D": "54°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-29",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Tam giác bằng nhau): Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 23 cm, độ dài đoạn thẳng MB bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "11.5 cm",
+            "B": "21 cm",
+            "C": "46 cm",
+            "D": "23 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Tam giác bằng nhau): Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 23 cm, độ dài đoạn thẳng MB bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "11.5 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "21 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "46 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "23 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Tam giác bằng nhau): Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 23 cm, độ dài đoạn thẳng MB bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "11.5 cm",
+              "B": "21 cm",
+              "C": "46 cm",
+              "D": "23 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-30",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Tam giác ABC cân tại A có góc ở đỉnh A = 76°. Số đo mỗi góc ở đáy B và C bằng",
+          "choices": {
+            "A": "104°",
+            "B": "52°",
+            "C": "76°",
+            "D": "32°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Tam giác ABC cân tại A có góc ở đỉnh A = 76°. Số đo mỗi góc ở đáy B và C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "104°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "52°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "76°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Tam giác ABC cân tại A có góc ở đỉnh A = 76°. Số đo mỗi góc ở đáy B và C bằng",
+            "choices": {
+              "A": "104°",
+              "B": "52°",
+              "C": "76°",
+              "D": "32°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-31",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Cho tam giác ABC vuông tại A, biết góc B = 55°. Số đo góc C bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "35°",
+            "B": "125°",
+            "C": "45°",
+            "D": "55°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Cho tam giác ABC vuông tại A, biết góc B = 55°. Số đo góc C bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "35°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "125°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "55°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Cho tam giác ABC vuông tại A, biết góc B = 55°. Số đo góc C bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "35°",
+              "B": "125°",
+              "C": "45°",
+              "D": "55°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-32",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 29 cm, độ dài đoạn thẳng MB bằng",
+          "choices": {
+            "A": "29 cm",
+            "B": "58 cm",
+            "C": "14.5 cm",
+            "D": "27 cm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 29 cm, độ dài đoạn thẳng MB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "29 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "58 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14.5 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "27 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 29 cm, độ dài đoạn thẳng MB bằng",
+            "choices": {
+              "A": "29 cm",
+              "B": "58 cm",
+              "C": "14.5 cm",
+              "D": "27 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-33",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Tam giác ABC cân tại A có góc ở đỉnh A = 88°. Số đo mỗi góc ở đáy B và C bằng",
+          "choices": {
+            "A": "92°",
+            "B": "26°",
+            "C": "46°",
+            "D": "88°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Tam giác ABC cân tại A có góc ở đỉnh A = 88°. Số đo mỗi góc ở đáy B và C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "92°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "26°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "46°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "88°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Tam giác ABC cân tại A có góc ở đỉnh A = 88°. Số đo mỗi góc ở đáy B và C bằng",
+            "choices": {
+              "A": "92°",
+              "B": "26°",
+              "C": "46°",
+              "D": "88°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-34",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho tam giác ABC vuông tại A, biết góc B = 64°. Số đo góc C bằng",
+          "choices": {
+            "A": "64°",
+            "B": "116°",
+            "C": "36°",
+            "D": "26°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho tam giác ABC vuông tại A, biết góc B = 64°. Số đo góc C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "64°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "116°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "26°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho tam giác ABC vuông tại A, biết góc B = 64°. Số đo góc C bằng",
+            "choices": {
+              "A": "64°",
+              "B": "116°",
+              "C": "36°",
+              "D": "26°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-35",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 35 cm, độ dài đoạn thẳng MB bằng",
+          "choices": {
+            "A": "33 cm",
+            "B": "70 cm",
+            "C": "17.5 cm",
+            "D": "35 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 35 cm, độ dài đoạn thẳng MB bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "33 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "70 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "17.5 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "35 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 35 cm, độ dài đoạn thẳng MB bằng",
+            "choices": {
+              "A": "33 cm",
+              "B": "70 cm",
+              "C": "17.5 cm",
+              "D": "35 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-36",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Tam giác bằng nhau): Tam giác ABC cân tại A có góc ở đỉnh A = 100°. Số đo mỗi góc ở đáy B và C bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "80°",
+            "B": "100°",
+            "C": "20°",
+            "D": "40°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Tam giác bằng nhau): Tam giác ABC cân tại A có góc ở đỉnh A = 100°. Số đo mỗi góc ở đáy B và C bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "80°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "40°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Tam giác bằng nhau): Tam giác ABC cân tại A có góc ở đỉnh A = 100°. Số đo mỗi góc ở đáy B và C bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "80°",
+              "B": "100°",
+              "C": "20°",
+              "D": "40°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-37",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho tam giác ABC vuông tại A, biết góc B = 73°. Số đo góc C bằng",
+          "choices": {
+            "A": "107°",
+            "B": "27°",
+            "C": "17°",
+            "D": "73°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho tam giác ABC vuông tại A, biết góc B = 73°. Số đo góc C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "107°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "17°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "73°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho tam giác ABC vuông tại A, biết góc B = 73°. Số đo góc C bằng",
+            "choices": {
+              "A": "107°",
+              "B": "27°",
+              "C": "17°",
+              "D": "73°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-38",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương IV: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 41 cm, độ dài đoạn thẳng MB bằng. Kết luận đúng là",
+          "choices": {
+            "A": "39 cm",
+            "B": "41 cm",
+            "C": "82 cm",
+            "D": "20.5 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương IV: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 41 cm, độ dài đoạn thẳng MB bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "39 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "41 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "82 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20.5 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương IV: Điểm M nằm trên đường trung trực của đoạn thẳng AB. Biết MA = 41 cm, độ dài đoạn thẳng MB bằng. Kết luận đúng là",
+            "choices": {
+              "A": "39 cm",
+              "B": "41 cm",
+              "C": "82 cm",
+              "D": "20.5 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-39",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Tam giác ABC cân tại A có góc ở đỉnh A = 112°. Số đo mỗi góc ở đáy B và C bằng",
+          "choices": {
+            "A": "34°",
+            "B": "14°",
+            "C": "112°",
+            "D": "68°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Tam giác ABC cân tại A có góc ở đỉnh A = 112°. Số đo mỗi góc ở đáy B và C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "34°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "112°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "68°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Tam giác ABC cân tại A có góc ở đỉnh A = 112°. Số đo mỗi góc ở đáy B và C bằng",
+            "choices": {
+              "A": "34°",
+              "B": "14°",
+              "C": "112°",
+              "D": "68°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-40",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho tam giác ABC vuông tại A, biết góc B = 82°. Số đo góc C bằng",
+          "choices": {
+            "A": "98°",
+            "B": "8°",
+            "C": "82°",
+            "D": "18°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho tam giác ABC vuông tại A, biết góc B = 82°. Số đo góc C bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "98°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "82°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho tam giác ABC vuông tại A, biết góc B = 82°. Số đo góc C bằng",
+            "choices": {
+              "A": "98°",
+              "B": "8°",
+              "C": "82°",
+              "D": "18°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-41",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là",
+          "choices": {
+            "A": "60°",
+            "B": "80°",
+            "C": "40°",
+            "D": "100°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "80°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là",
+            "choices": {
+              "A": "60°",
+              "B": "80°",
+              "C": "40°",
+              "D": "100°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-42",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương IV – Tam giác bằng nhau): Cho tam giác ABC có góc A = 54°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng. Kết quả đúng là",
+          "choices": {
+            "A": "126°",
+            "B": "102°",
+            "C": "117°",
+            "D": "63°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương IV – Tam giác bằng nhau): Cho tam giác ABC có góc A = 54°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "126°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "102°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "117°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "63°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương IV – Tam giác bằng nhau): Cho tam giác ABC có góc A = 54°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng. Kết quả đúng là",
+            "choices": {
+              "A": "126°",
+              "B": "102°",
+              "C": "117°",
+              "D": "63°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-43",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là",
+          "choices": {
+            "A": "60°",
+            "B": "100°",
+            "C": "40°",
+            "D": "80°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "80°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là",
+            "choices": {
+              "A": "60°",
+              "B": "100°",
+              "C": "40°",
+              "D": "80°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-44",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Cho tam giác ABC có góc A = 62°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng",
+          "choices": {
+            "A": "118°",
+            "B": "106°",
+            "C": "59°",
+            "D": "121°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Cho tam giác ABC có góc A = 62°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "118°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "106°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "59°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "121°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Cho tam giác ABC có góc A = 62°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng",
+            "choices": {
+              "A": "118°",
+              "B": "106°",
+              "C": "59°",
+              "D": "121°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-45",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là. Đáp số chính xác là",
+          "choices": {
+            "A": "60°",
+            "B": "100°",
+            "C": "80°",
+            "D": "40°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "80°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "40°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là. Đáp số chính xác là",
+            "choices": {
+              "A": "60°",
+              "B": "100°",
+              "C": "80°",
+              "D": "40°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-46",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Cho tam giác ABC có góc A = 70°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng",
+          "choices": {
+            "A": "55°",
+            "B": "125°",
+            "C": "110°",
+            "D": "125° (1)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Cho tam giác ABC có góc A = 70°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "55°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "125°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "110°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "125° (1)"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Cho tam giác ABC có góc A = 70°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng",
+            "choices": {
+              "A": "55°",
+              "B": "125°",
+              "C": "110°",
+              "D": "125° (1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-47",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là",
+          "choices": {
+            "A": "100°",
+            "B": "60°",
+            "C": "40°",
+            "D": "80°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "80°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là",
+            "choices": {
+              "A": "100°",
+              "B": "60°",
+              "C": "40°",
+              "D": "80°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-48",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Cho tam giác ABC có góc A = 78°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng",
+          "choices": {
+            "A": "114°",
+            "B": "129°",
+            "C": "51°",
+            "D": "102°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Cho tam giác ABC có góc A = 78°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "114°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "129°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "51°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "102°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Cho tam giác ABC có góc A = 78°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng",
+            "choices": {
+              "A": "114°",
+              "B": "129°",
+              "C": "51°",
+              "D": "102°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-49",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là",
+          "choices": {
+            "A": "100°",
+            "B": "60°",
+            "C": "80°",
+            "D": "40°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "80°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "40°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Trong tam giác ABC, số đo ba góc A, B, C tỉ lệ với 2 : 3 : 4. Số đo góc lớn nhất của tam giác ABC là",
+            "choices": {
+              "A": "100°",
+              "B": "60°",
+              "C": "80°",
+              "D": "40°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-04-50",
+          "grade": 7,
+          "chapter": 4,
+          "chapterTitle": "TAM GIÁC BẰNG NHAU",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương IV: Cho tam giác ABC có góc A = 86°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng. Phương án đúng là",
+          "choices": {
+            "A": "118°",
+            "B": "47°",
+            "C": "94°",
+            "D": "133°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương IV: Cho tam giác ABC có góc A = 86°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "118°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "47°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "94°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "133°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương IV: Cho tam giác ABC có góc A = 86°. Các tia phân giác trong của góc B và góc C cắt nhau tại I. Số đo góc BIC bằng. Phương án đúng là",
+            "choices": {
+              "A": "118°",
+              "B": "47°",
+              "C": "94°",
+              "D": "133°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

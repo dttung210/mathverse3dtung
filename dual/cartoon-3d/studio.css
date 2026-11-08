@@ -1,0 +1,17 @@
+/* CARTOON 3D STUDIO ADD-ON — style only, gameplay and R75 unaffected. */
+#topbar #cartoon-studio-open{background:linear-gradient(135deg,#f9d789,#f3a5c5)!important;color:#173044!important;font-weight:900!important;white-space:nowrap}
+.cartoon-panel-overlay[hidden]{display:none!important}
+.cartoon-panel-overlay{position:absolute;z-index:66;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,11,24,.70);pointer-events:auto;padding:15px;overflow:auto}
+.cartoon-panel{width:min(690px,100%);max-height:min(780px,94vh);overflow:auto;border-radius:22px;padding:23px;background:linear-gradient(145deg,rgba(11,38,65,.97),rgba(25,42,73,.96));border:1px solid #80c9e2;box-shadow:0 26px 85px #0008}
+.cartoon-panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.cartoon-panel-head small{font-size:10px;color:#9bd6eb;letter-spacing:.12em}
+.cartoon-panel-head h2{font-size:19px;margin:5px 0;color:#fff3ce}
+.cartoon-panel-head button{font-size:23px;border:0;color:white;background:#2c5674;border-radius:9px;padding:5px 13px}
+.cartoon-panel p{font-size:12px;color:#d0e4ed;line-height:1.6}
+.cartoon-panel-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:16px 0}
+.cartoon-panel-grid label{display:flex;flex-direction:column;gap:7px;font-size:12px;font-weight:750;color:#f6e9c5}
+.cartoon-panel-grid select{width:100%;padding:13px;border:1px solid #75bad8;background:#142d49;border-radius:10px;color:#fff;font-size:14px;min-width:0}
+.cartoon-panel-footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:center;margin-top:16px}
+.cartoon-panel-footer button,.cartoon-panel-footer a{background:#276383;border:1px solid #7bcde5;color:white;border-radius:10px;padding:12px;font-weight:800;text-decoration:none;display:inline-flex}
+.cartoon-panel .cartoon-footnote{font-size:10px;opacity:.76}
+@media(max-width:650px){.cartoon-panel{padding:15px}.cartoon-panel-grid{grid-template-columns:1fr}.cartoon-panel-head h2{font-size:15px}#topbar #cartoon-studio-open{font-size:10px}}

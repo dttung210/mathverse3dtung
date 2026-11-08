@@ -1,0 +1,167 @@
+<!doctype html><html lang="vi"><head>
+<script id="mv-gh-pages-shim">
+(function(){
+  var BASE = "/mathverse3dtung";
+  window.__MV_BASE_PATH__ = BASE;
+  var PREFIXES = ["dual/","src/","data/","vendor/","game-park/","museum-assets/","museum-thumbs/","museum-data/","r75/","lab/","api/","granddome/","favicon.svg","health"];
+  function shouldPrefix(u){
+    if(!BASE || typeof u !== 'string') return false;
+    if(!u.startsWith('/') || u.startsWith(BASE + '/') || u.startsWith('//')) return false;
+    var clean = u.slice(1);
+    for(var i = 0; i < PREFIXES.length; i++){
+      if(clean.startsWith(PREFIXES[i]) || clean === 'r75' || clean === 'lab' || clean === 'game-park') return true;
+    }
+    return false;
+  }
+  function mapUrl(u){
+    if(typeof u !== 'string') return u;
+    var origin = window.location && window.location.origin ? window.location.origin : '';
+    var hadOrigin = false;
+    if(origin && u.indexOf(origin + '/') === 0){
+      u = u.slice(origin.length);
+      hadOrigin = true;
+    }
+    var finish = function(res){
+      return (hadOrigin && res.indexOf('/') === 0) ? (origin + res) : res;
+    };
+    var qIdx = u.indexOf('?');
+    var pathOnly = qIdx >= 0 ? u.slice(0, qIdx) : u;
+    var query = qIdx >= 0 ? u.slice(qIdx) : '';
+    var rel = BASE && pathOnly.startsWith(BASE + '/') ? pathOnly.slice(BASE.length) : pathOnly;
+    if(rel === '/api/discovery/r99/photo'){
+      var params = new URLSearchParams(query);
+      var id = params.get('id') || '';
+      return finish((BASE || '') + '/api/discovery/r99/photo/' + encodeURIComponent(id) + '.json');
+    }
+    var mTile = rel.match(/^\/api\/discovery\/r99\/(terrain|satellite)\/(\d+)\/(\d+)\/(\d+)$/);
+    if(mTile){
+      var kind = mTile[1], z = mTile[2], x = mTile[3], y = mTile[4];
+      if(kind === 'terrain') return 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/' + z + '/' + x + '/' + y + '.png';
+      return 'https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless_3857/default/GoogleMapsCompatible/' + z + '/' + y + '/' + x + '.jpg';
+    }
+    var StaticJsonRoutes = {
+      '/health': '/health.json',
+      '/api/health': '/api/health.json',
+      '/granddome/api/museum': '/granddome/api/museum.json',
+      '/api/discovery/r98/catalog': '/api/discovery/r98/catalog.json',
+      '/api/discovery/r99/catalog': '/api/discovery/r99/catalog.json',
+      '/api/discovery/countries': '/api/discovery/countries.json',
+      '/api/discovery/unesco': '/api/discovery/unesco.json'
+    };
+    if(StaticJsonRoutes[rel]){
+      return finish((BASE || '') + StaticJsonRoutes[rel] + query);
+    }
+    if(shouldPrefix(u)){
+      return finish(BASE + u);
+    }
+    return finish(u);
+  }
+  if(window.Request){
+    var OrigRequest = window.Request;
+    window.Request = function(input, init){
+      if(typeof input === 'string') input = mapUrl(input);
+      else if(input && typeof input.url === 'string') input = new OrigRequest(mapUrl(input.url), input);
+      return new OrigRequest(input, init);
+    };
+    window.Request.prototype = OrigRequest.prototype;
+  }
+  var origFetch = window.fetch;
+  if(origFetch){
+    window.fetch = function(input, init){
+      if(typeof input === 'string'){
+        input = mapUrl(input);
+      } else if(input && typeof input.url === 'string'){
+        input = new Request(mapUrl(input.url), input);
+      }
+      return origFetch.call(this, input, init);
+    };
+  }
+  var origOpen = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method, url){
+    var args = Array.prototype.slice.call(arguments);
+    if(typeof url === 'string') args[1] = mapUrl(url);
+    return origOpen.apply(this, args);
+  };
+  if(BASE){
+    [HTMLImageElement, HTMLIFrameElement, HTMLScriptElement, HTMLLinkElement, HTMLAnchorElement, HTMLMediaElement, HTMLSourceElement].forEach(function(Ctor){
+      if(!Ctor || !Ctor.prototype) return;
+      var prop = (Ctor === HTMLLinkElement || Ctor === HTMLAnchorElement) ? 'href' : 'src';
+      var desc = Object.getOwnPropertyDescriptor(Ctor.prototype, prop);
+      if(desc && desc.set){
+        Object.defineProperty(Ctor.prototype, prop, {
+          configurable: true,
+          enumerable: desc.enumerable,
+          get: desc.get,
+          set: function(v){
+            return desc.set.call(this, typeof v === 'string' ? mapUrl(v) : v);
+          }
+        });
+      }
+    });
+    var origSetAttr = Element.prototype.setAttribute;
+    Element.prototype.setAttribute = function(name, value){
+      if((name === 'src' || name === 'href') && typeof value === 'string'){
+        value = mapUrl(value);
+      }
+      return origSetAttr.call(this, name, value);
+    };
+    var origWinOpen = window.open;
+    if(origWinOpen){
+      window.open = function(url){
+        var args = Array.prototype.slice.call(arguments);
+        if(typeof url === 'string') args[0] = mapUrl(url);
+        return origWinOpen.apply(this, args);
+      };
+    }
+  }
+})();
+</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>MATHVERSE · Kho câu hỏi Toán 6–12</title>
+<style>
+:root{color-scheme:dark;--bg:#081522;--panel:#112943;--text:#f4fbff;--muted:#b7d0e6;--line:#345b7b;--accent:#70d9d0}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 60% 0,#174967,#081522 70%);font:15px/1.6 'Segoe UI',Arial,sans-serif;color:var(--text)}
+header{background:#092037e8;border-bottom:1px solid var(--line);padding:22px max(18px,calc((100% - 1200px)/2))}h1{font-size:clamp(21px,3vw,30px);margin:0 0 6px}h2{font-size:18px;margin:0 0 10px}h3{font-size:16px;margin:0 0 8px}p{margin:4px 0 12px;color:var(--muted)}main{max-width:1200px;margin:18px auto;padding:0 18px 48px}
+.dashboard{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}.stat{background:#112d49;border:1px solid #315e7e;padding:13px 16px;border-radius:14px}.stat strong{display:block;font-size:27px}.stat span{font-size:12px;color:var(--muted)}
+.toolbar{background:var(--panel);border:1px solid var(--line);padding:16px;border-radius:17px;display:grid;grid-template-columns:0.9fr 1.8fr 1.1fr 1.1fr 1.5fr;gap:12px;align-items:end;margin-bottom:14px}
+label{font-size:13px;color:#bcddec;display:grid;gap:5px}select,input{font:inherit;color:var(--text);background:#0b1f33;border:1px solid #4a7695;border-radius:10px;padding:10px;min-width:0;width:100%}.notice{background:#102e41;border:1px solid #3b817e;color:#ddfff4;border-radius:12px;padding:10px 14px;margin-bottom:15px}
+.items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.q{background:linear-gradient(180deg,#12304a,#102337);border:1px solid #365974;padding:17px;border-radius:16px;min-width:0}.q[aria-disabled="true"]{border-color:#a76749}.q .top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}.pill{font-size:11px;background:#2c5169;border-radius:999px;padding:4px 8px}
+.pill-diff[data-diff="Dễ"]{background:#0e4e3a;color:#7ee787;border:1px solid #2ea043}
+.pill-diff[data-diff="Trung bình"]{background:#4d3800;color:#f0b72f;border:1px solid #9e6a03}
+.pill-diff[data-diff="Khó"]{background:#4c1d24;color:#ff7b72;border:1px solid #da3633}.question{font-weight:650;font-size:16px;line-height:1.9;margin:12px 0}.opt{display:flex;gap:10px;padding:8px 10px;background:#173853;margin-top:7px;border-radius:9px;line-height:1.75;min-width:0}.opt b{color:#81e2ee}.opt.good{border:1px solid #4eac90;background:#1a463f}.opt span{min-width:0;overflow-wrap:break-word}.note{color:#f7c995;font-size:12px;margin-top:12px}.q math{display:inline-block;vertical-align:-.08em;color:#f7f9fd;font-family:math,'Cambria Math',serif;font-size:1.17em;padding:0 .08em}
+a{color:#95e8df}button{font:inherit;cursor:pointer;background:#176b82;border:1px solid #429aa5;color:white;border-radius:9px;padding:9px 12px}.pager{display:flex;gap:9px;align-items:center;justify-content:center;margin:20px}
+@media(max-width:850px){.toolbar{grid-template-columns:1fr 1fr}.items{grid-template-columns:1fr}.dashboard{grid-template-columns:repeat(2,1fr)}}@media(max-width:540px){.toolbar{grid-template-columns:1fr}.dashboard{grid-template-columns:repeat(2,1fr)}}
+</style></head><body>
+<header><h1>📚 MATHVERSE FINAL · Kho câu hỏi Toán 6–12</h1><p>Kiểm tra câu hỏi, công thức, lựa chọn và đáp án trước khi học sinh chơi game. Câu có cảnh báo không xuất hiện trong trò chơi.</p></header>
+<main>
+<section class="dashboard"><div class="stat"><strong id="total">–</strong><span>Câu nguồn</span></div><div class="stat"><strong id="valid">–</strong><span>Câu được phép dùng</span></div><div class="stat"><strong id="blocked">–</strong><span>Câu cần rà soát</span></div><div class="stat"><strong id="chapters">–</strong><span>Chương · lớp 6–12</span></div></section>
+<section class="toolbar"><label>Lớp<select id="grade"></select></label><label>Chương<select id="chapter"></select></label><label>Tình trạng<select id="filter"><option value="all">Tất cả câu</option><option value="ready">Chỉ câu hợp lệ</option><option value="blocked">Chỉ câu cần rà soát</option></select></label><label>Mức độ<select id="diffFilter"><option value="all">Tất cả mức độ</option><option value="Dễ">Chỉ câu Dễ</option><option value="Trung bình">Chỉ câu Trung bình</option><option value="Khó">Chỉ câu Khó</option></select></label><label>Tìm kiếm<input type="search" id="search" placeholder="Nhập từ khóa Toán học..." autocomplete="off"></label></section>
+<div class="notice" id="notice">Đang đọc kho dữ liệu...</div>
+<section class="items" id="items" aria-live="polite"></section>
+<div class="pager"><button type="button" id="prev">← Trang trước</button><span id="pageInfo">1/1</span><button type="button" id="next">Trang sau →</button></div>
+<p>Tải báo cáo tổng hợp: <a href="/mathverse3dtung/game-park/quality-reports/QA_TONG_HOP_THEO_CHUONG.csv">Theo chương</a> · <a href="/mathverse3dtung/game-park/quality-reports/QA_CAU_CAN_RA_SOAT.csv">63 câu cần rà soát</a>. Công thức được dựng bằng MathML ngay trong trình duyệt; không cần cài LaTeX.</p>
+</main><script type="module">
+import {addSegments} from '../dual/wonder-park-ui.mjs?v=r107_v15';
+const $=id=>document.getElementById(id);let chapters=[],page=0;const PAGE_SIZE=12;
+const roman=['I','II','III','IV','V','VI','VII','VIII','IX','X'];
+const stats=()=>{const grade=Number($('grade').value),selected=chapters.filter(c=>c.grade===grade);$('total').textContent=selected.reduce((n,c)=>n+c.questions.length,0).toLocaleString('vi-VN');$('valid').textContent=selected.reduce((n,c)=>n+c.questions.filter(q=>!q.issues?.length).length,0).toLocaleString('vi-VN');$('blocked').textContent=selected.reduce((n,c)=>n+c.questions.filter(q=>q.issues?.length).length,0);$('chapters').textContent=selected.length;};
+const setupChapters=()=>{const grade=Number($('grade').value),list=chapters.filter(c=>c.grade===grade);$('chapter').replaceChildren();for(const c of list){const o=document.createElement('option');o.value=c.chapter;o.textContent=`Chương ${roman[c.chapter-1]||c.chapter}: ${c.title}`;$('chapter').appendChild(o)}$('chapter').value='1';stats();page=0;render();};
+function render(){const grade=Number($('grade').value),chapter=Number($('chapter').value),term=$('search').value.toLocaleLowerCase('vi-VN').trim(),filter=$('filter').value,diffFilter=$('diffFilter').value;
+ const c=chapters.find(c=>c.grade===grade&&c.chapter===chapter),all=(c?.questions||[]),rows=all.filter(q=>(filter==='all'||(filter==='ready')===(!q.issues?.length))&&(diffFilter==='all'||q.difficulty===diffFilter)&&(!term||(q.prompt+' '+Object.values(q.choices||{}).join(' ')).toLocaleLowerCase('vi-VN').includes(term)));
+ const pages=Math.max(1,Math.ceil(rows.length/PAGE_SIZE));page=Math.max(0,Math.min(page,pages-1));$('items').replaceChildren();$('pageInfo').textContent=`Trang ${page+1}/${pages}`;$('prev').disabled=page===0;$('next').disabled=page>=pages-1;
+ $('notice').textContent=`Toán ${grade} · ${c?.title||'Chương'} · ${rows.length}/${all.length} câu theo bộ lọc · ${all.filter(q=>!q.issues?.length).length} câu đủ điều kiện thi. Chỉ xác nhận cấu trúc đề, không thay thế kiểm duyệt nội dung của giáo viên.`;
+ for(const q of rows.slice(page*PAGE_SIZE,(page+1)*PAGE_SIZE)){
+   const card=document.createElement('article');card.className='q';card.setAttribute('aria-disabled',String(Boolean(q.issues?.length)));
+   const top=document.createElement('div');top.className='top';
+   const left=document.createElement('div');left.style.display='flex';left.style.alignItems='center';left.style.gap='8px';
+   const nm=document.createElement('b');nm.textContent=`Câu ${q.number}`;
+   const diffPill=document.createElement('span');diffPill.className='pill pill-diff';diffPill.dataset.diff=q.difficulty||'Dễ';diffPill.textContent=q.difficulty||'Dễ';
+   left.append(nm,diffPill);
+   const status=document.createElement('span');status.className='pill';status.textContent=q.issues?.length?'⚠ Chưa dùng trong game':'✓ Sẵn sàng';
+   top.append(left,status);card.appendChild(top);
+   const prompt=document.createElement('div');prompt.className='question';addSegments(prompt,q.prompt_segments||[{t:'txt',v:q.prompt}]);card.appendChild(prompt);
+   for(const k of ['A','B','C','D']){const option=document.createElement('div');option.className='opt'+(q.answer===k?' good':'');const label=document.createElement('b');label.textContent=k+'.';const content=document.createElement('span');addSegments(content,q.choice_segments?.[k]||[{t:'txt',v:q.choices?.[k]||'(không có)'}]);option.append(label,content);card.appendChild(option);}
+   const foot=document.createElement('div');foot.className='note';foot.textContent=q.issues?.length?`Cần rà soát: ${q.issues.join(', ')}`:`Đáp án nguồn: ${q.answer} · Mã ${q.id}${q.formattingFixes?.length?' · Đã chỉnh hiển thị công thức (không thay đáp án)':''}`;card.appendChild(foot);$('items').appendChild(card);
+ }
+}
+fetch('/game-park/assets/teacher-bank-6-12-63-chapters.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{chapters=d.chapters||[];for(let grade=6;grade<=12;grade++){const o=document.createElement('option');o.value=grade;o.textContent='Toán '+grade;$('grade').appendChild(o)}$('grade').value='6';setupChapters();}).catch(e=>{$('notice').textContent='Không đọc được dữ liệu. Hãy mở MATHVERSE qua file .bat, không mở HTML trực tiếp. '+e.message});
+$('grade').addEventListener('change',setupChapters);$('chapter').addEventListener('change',()=>{page=0;render()});$('filter').addEventListener('change',()=>{page=0;render()});$('diffFilter').addEventListener('change',()=>{page=0;render()});$('search').addEventListener('input',()=>{page=0;render()});$('prev').addEventListener('click',()=>{page--;render();scrollTo(0,0)});$('next').addEventListener('click',()=>{page++;render();scrollTo(0,0)});
+</script></body></html>

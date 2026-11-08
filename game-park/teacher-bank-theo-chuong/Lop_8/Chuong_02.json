@@ -1,0 +1,4137 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 8,
+      "chapter": 2,
+      "roman": "II",
+      "title": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "8-02-01",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Khai triển hằng đẳng thức (x + 2)^{2} ta được",
+          "choices": {
+            "A": "x^{2} + 2x + 4",
+            "B": "x^{2} + 4",
+            "C": "x^{2} - 4x + 4",
+            "D": "x^{2} + 4x + 4"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khai triển hằng đẳng thức "
+            },
+            {
+              "t": "math",
+              "v": "(x + 2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2x + 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 4x + 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 4x + 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khai triển hằng đẳng thức (x + 2)$^2$ ta được",
+            "choices": {
+              "A": "x$^2$ + 2x + 4",
+              "B": "x$^2$ + 4",
+              "C": "x$^2$ - 4x + 4",
+              "D": "x$^2$ + 4x + 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-02",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Viết biểu thức x^{2} - 16 dưới dạng tích ta được.",
+          "choices": {
+            "A": "(x + 4)^{2}",
+            "B": "(x - 4)^{2}",
+            "C": "(x - 4)(x + 4)",
+            "D": "(x - 16)(x + 1)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Viết biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 16 dưới dạng tích ta được."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(x + 4)^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "(x - 4)^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(x - 4)(x + 4)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(x - 16)(x + 1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Viết biểu thức x$^2$ - 16 dưới dạng tích ta được.",
+            "choices": {
+              "A": "(x + 4)$^2$",
+              "B": "(x - 4)$^2$",
+              "C": "(x - 4)(x + 4)",
+              "D": "(x - 16)(x + 1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-03",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương II, xét nội dung: Phân tích đa thức 4x^{2} - 8x thành nhân tử ta được. Đáp án đúng là",
+          "choices": {
+            "A": "4x(x - 2)",
+            "B": "4x(x + 2)",
+            "C": "x(4x - 2)",
+            "D": "4(x^{2} - 2)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương II, xét nội dung: Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "4x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 8x thành nhân tử ta được. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4x(x - 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4x(x + 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x(4x - 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 2)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương II, xét nội dung: Phân tích đa thức 4x$^2$ - 8x thành nhân tử ta được. Đáp án đúng là",
+            "choices": {
+              "A": "4x(x - 2)",
+              "B": "4x(x + 2)",
+              "C": "x(4x - 2)",
+              "D": "4(x$^2$ - 2)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-04",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương II (Hằng đẳng thức đáng nhớ và ứng dụng), khai triển hằng đẳng thức (x + 5)^{2} ta được",
+          "choices": {
+            "A": "x^{2} + 25",
+            "B": "x^{2} + 10x + 25",
+            "C": "x^{2} + 5x + 25",
+            "D": "x^{2} - 10x + 25"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương II (Hằng đẳng thức đáng nhớ và ứng dụng), khai triển hằng đẳng thức "
+            },
+            {
+              "t": "math",
+              "v": "(x + 5)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 25"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 10x + 25"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 5x + 25"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 10x + 25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương II (Hằng đẳng thức đáng nhớ và ứng dụng), khai triển hằng đẳng thức (x + 5)$^2$ ta được",
+            "choices": {
+              "A": "x$^2$ + 25",
+              "B": "x$^2$ + 10x + 25",
+              "C": "x$^2$ + 5x + 25",
+              "D": "x$^2$ - 10x + 25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-05",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Viết biểu thức x^{2} - 49 dưới dạng tích ta được",
+          "choices": {
+            "A": "(x - 7)(x + 7)",
+            "B": "(x - 49)(x + 1)",
+            "C": "(x + 7)^{2}",
+            "D": "(x - 7)^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Viết biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 49 dưới dạng tích ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(x - 7)(x + 7)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x - 49)(x + 1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(x + 7)^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(x - 7)^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Viết biểu thức x$^2$ - 49 dưới dạng tích ta được",
+            "choices": {
+              "A": "(x - 7)(x + 7)",
+              "B": "(x - 49)(x + 1)",
+              "C": "(x + 7)$^2$",
+              "D": "(x - 7)$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-06",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về hằng đẳng thức đáng nhớ và ứng dụng, một học sinh gặp câu hỏi: Phân tích đa thức 7x^{2} - 14x thành nhân tử ta được. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "x(7x - 2)",
+            "B": "7(x^{2} - 2)",
+            "C": "7x(x + 2)",
+            "D": "7x(x - 2)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về hằng đẳng thức đáng nhớ và ứng dụng, một học sinh gặp câu hỏi: Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "7x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 14x thành nhân tử ta được. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x(7x - 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7x(x + 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7x(x - 2)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về hằng đẳng thức đáng nhớ và ứng dụng, một học sinh gặp câu hỏi: Phân tích đa thức 7x$^2$ - 14x thành nhân tử ta được. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "x(7x - 2)",
+              "B": "7(x$^2$ - 2)",
+              "C": "7x(x + 2)",
+              "D": "7x(x - 2)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-07",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Khai triển hằng đẳng thức (x + 8)^{2} ta được",
+          "choices": {
+            "A": "x^{2} + 8x + 64",
+            "B": "x^{2} + 16x + 64",
+            "C": "x^{2} - 16x + 64",
+            "D": "x^{2} + 64"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Khai triển hằng đẳng thức "
+            },
+            {
+              "t": "math",
+              "v": "(x + 8)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 8x + 64"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 16x + 64"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 16x + 64"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 64"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Khai triển hằng đẳng thức (x + 8)$^2$ ta được",
+            "choices": {
+              "A": "x$^2$ + 8x + 64",
+              "B": "x$^2$ + 16x + 64",
+              "C": "x$^2$ - 16x + 64",
+              "D": "x$^2$ + 64"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-08",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Viết biểu thức x^{2} - 100 dưới dạng tích ta được",
+          "choices": {
+            "A": "(x - 10)^{2}",
+            "B": "(x - 10)(x + 10)",
+            "C": "(x - 100)(x + 1)",
+            "D": "(x + 10)^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Viết biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 100 dưới dạng tích ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(x - 10)^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x - 10)(x + 10)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(x - 100)(x + 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(x + 10)^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương II: Viết biểu thức x$^2$ - 100 dưới dạng tích ta được",
+            "choices": {
+              "A": "(x - 10)$^2$",
+              "B": "(x - 10)(x + 10)",
+              "C": "(x - 100)(x + 1)",
+              "D": "(x + 10)$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-09",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Phân tích đa thức 10x^{2} - 20x thành nhân tử ta được",
+          "choices": {
+            "A": "10x(x + 2)",
+            "B": "10(x^{2} - 2)",
+            "C": "10x(x - 2)",
+            "D": "x(10x - 2)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "10x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 20x thành nhân tử ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10x(x + 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10x(x - 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x(10x - 2)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Phân tích đa thức 10x$^2$ - 20x thành nhân tử ta được",
+            "choices": {
+              "A": "10x(x + 2)",
+              "B": "10(x$^2$ - 2)",
+              "C": "10x(x - 2)",
+              "D": "x(10x - 2)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-10",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Khai triển hằng đẳng thức (x + 11)^{2} ta được. Phương án chính xác là",
+          "choices": {
+            "A": "x^{2} - 22x + 121",
+            "B": "x^{2} + 22x + 121",
+            "C": "x^{2} + 11x + 121",
+            "D": "x^{2} + 121"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Khai triển hằng đẳng thức "
+            },
+            {
+              "t": "math",
+              "v": "(x + 11)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 22x + 121"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 22x + 121"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 11x + 121"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 121"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Khai triển hằng đẳng thức (x + 11)$^2$ ta được. Phương án chính xác là",
+            "choices": {
+              "A": "x$^2$ - 22x + 121",
+              "B": "x$^2$ + 22x + 121",
+              "C": "x$^2$ + 11x + 121",
+              "D": "x$^2$ + 121"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-11",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Viết biểu thức x^{2} - 169 dưới dạng tích ta được",
+          "choices": {
+            "A": "(x - 13)^{2}",
+            "B": "(x - 169)(x + 1)",
+            "C": "(x + 13)^{2}",
+            "D": "(x - 13)(x + 13)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Viết biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 169 dưới dạng tích ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(x - 13)^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x - 169)(x + 1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(x + 13)^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(x - 13)(x + 13)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Viết biểu thức x$^2$ - 169 dưới dạng tích ta được",
+            "choices": {
+              "A": "(x - 13)$^2$",
+              "B": "(x - 169)(x + 1)",
+              "C": "(x + 13)$^2$",
+              "D": "(x - 13)(x + 13)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-12",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Phân tích đa thức 13x^{2} - 26x thành nhân tử ta được",
+          "choices": {
+            "A": "13x(x + 2)",
+            "B": "13(x^{2} - 2)",
+            "C": "x(13x - 2)",
+            "D": "13x(x - 2)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "13x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 26x thành nhân tử ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "13x(x + 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "13("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x(13x - 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "13x(x - 2)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương II): Phân tích đa thức 13x$^2$ - 26x thành nhân tử ta được",
+            "choices": {
+              "A": "13x(x + 2)",
+              "B": "13(x$^2$ - 2)",
+              "C": "x(13x - 2)",
+              "D": "13x(x - 2)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-13",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), khai triển hằng đẳng thức (x + 14)^{2} ta được",
+          "choices": {
+            "A": "x^{2} + 14x + 196",
+            "B": "x^{2} + 28x + 196",
+            "C": "x^{2} - 28x + 196",
+            "D": "x^{2} + 196"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), khai triển hằng đẳng thức "
+            },
+            {
+              "t": "math",
+              "v": "(x + 14)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 14x + 196"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 28x + 196"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 28x + 196"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 196"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương II), khai triển hằng đẳng thức (x + 14)$^2$ ta được",
+            "choices": {
+              "A": "x$^2$ + 14x + 196",
+              "B": "x$^2$ + 28x + 196",
+              "C": "x$^2$ - 28x + 196",
+              "D": "x$^2$ + 196"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-14",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Viết biểu thức x^{2} - 256 dưới dạng tích ta được",
+          "choices": {
+            "A": "(x - 16)^{2}",
+            "B": "(x - 16)(x + 16)",
+            "C": "(x - 256)(x + 1)",
+            "D": "(x + 16)^{2}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Viết biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 256 dưới dạng tích ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(x - 16)^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x - 16)(x + 16)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(x - 256)(x + 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(x + 16)^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Viết biểu thức x$^2$ - 256 dưới dạng tích ta được",
+            "choices": {
+              "A": "(x - 16)$^2$",
+              "B": "(x - 16)(x + 16)",
+              "C": "(x - 256)(x + 1)",
+              "D": "(x + 16)$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-15",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương II: Phân tích đa thức 16x^{2} - 32x thành nhân tử ta được. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "16x(x + 2)",
+            "B": "16x(x - 2)",
+            "C": "x(16x - 2)",
+            "D": "16(x^{2} - 2)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương II: Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "16x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 32x thành nhân tử ta được. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16x(x + 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16x(x - 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x(16x - 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 2)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương II: Phân tích đa thức 16x$^2$ - 32x thành nhân tử ta được. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "16x(x + 2)",
+              "B": "16x(x - 2)",
+              "C": "x(16x - 2)",
+              "D": "16(x$^2$ - 2)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-16",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Khai triển hằng đẳng thức (x + 17)^{2} ta được",
+          "choices": {
+            "A": "x^{2} + 17x + 289",
+            "B": "x^{2} - 34x + 289",
+            "C": "x^{2} + 289",
+            "D": "x^{2} + 34x + 289"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Khai triển hằng đẳng thức "
+            },
+            {
+              "t": "math",
+              "v": "(x + 17)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 17x + 289"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 34x + 289"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 289"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 34x + 289"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Khai triển hằng đẳng thức (x + 17)$^2$ ta được",
+            "choices": {
+              "A": "x$^2$ + 17x + 289",
+              "B": "x$^2$ - 34x + 289",
+              "C": "x$^2$ + 289",
+              "D": "x$^2$ + 34x + 289"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-17",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Viết biểu thức x^{2} - 361 dưới dạng tích ta được?",
+          "choices": {
+            "A": "(x - 19)(x + 19)",
+            "B": "(x + 19)^{2}",
+            "C": "(x - 361)(x + 1)",
+            "D": "(x - 19)^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Viết biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 361 dưới dạng tích ta được?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(x - 19)(x + 19)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "(x + 19)^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(x - 361)(x + 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(x - 19)^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Viết biểu thức x$^2$ - 361 dưới dạng tích ta được?",
+            "choices": {
+              "A": "(x - 19)(x + 19)",
+              "B": "(x + 19)$^2$",
+              "C": "(x - 361)(x + 1)",
+              "D": "(x - 19)$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-18",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương II: Phân tích đa thức 19x^{2} - 38x thành nhân tử ta được",
+          "choices": {
+            "A": "19x(x - 2)",
+            "B": "19(x^{2} - 2)",
+            "C": "x(19x - 2)",
+            "D": "19x(x + 2)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương II: Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "19x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 38x thành nhân tử ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "19x(x - 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "19("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x(19x - 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "19x(x + 2)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương II: Phân tích đa thức 19x$^2$ - 38x thành nhân tử ta được",
+            "choices": {
+              "A": "19x(x - 2)",
+              "B": "19(x$^2$ - 2)",
+              "C": "x(19x - 2)",
+              "D": "19x(x + 2)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-19",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Khai triển hằng đẳng thức (x + 20)^{2} ta được. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "x^{2} + 40x + 400",
+            "B": "x^{2} - 40x + 400",
+            "C": "x^{2} + 400",
+            "D": "x^{2} + 20x + 400"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Khai triển hằng đẳng thức "
+            },
+            {
+              "t": "math",
+              "v": "(x + 20)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 40x + 400"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 40x + 400"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 400"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 20x + 400"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Khai triển hằng đẳng thức (x + 20)$^2$ ta được. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "x$^2$ + 40x + 400",
+              "B": "x$^2$ - 40x + 400",
+              "C": "x$^2$ + 400",
+              "D": "x$^2$ + 20x + 400"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-20",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Viết biểu thức x^{2} - 484 dưới dạng tích ta được",
+          "choices": {
+            "A": "(x - 484)(x + 1)",
+            "B": "(x - 22)^{2}",
+            "C": "(x - 22)(x + 22)",
+            "D": "(x + 22)^{2}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Viết biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 484 dưới dạng tích ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(x - 484)(x + 1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "(x - 22)^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(x - 22)(x + 22)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(x + 22)^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương II để giải quyết yêu cầu: Viết biểu thức x$^2$ - 484 dưới dạng tích ta được",
+            "choices": {
+              "A": "(x - 484)(x + 1)",
+              "B": "(x - 22)$^2$",
+              "C": "(x - 22)(x + 22)",
+              "D": "(x + 22)$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-21",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Tính nhanh giá trị của biểu thức P = x^{2} - 6x + 9 tại x = 103",
+          "choices": {
+            "A": "1000",
+            "B": "10200",
+            "C": "100",
+            "D": "10000"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính nhanh giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 6x + 9 tại x = 103"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1000"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10200"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10000"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính nhanh giá trị của biểu thức P = x$^2$ - 6x + 9 tại x = 103",
+            "choices": {
+              "A": "1000",
+              "B": "10200",
+              "C": "100",
+              "D": "10000"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-22",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương II (Hằng đẳng thức đáng nhớ và ứng dụng) để giải bài toán: Tính nhanh hiệu hai bình phương: 56^{2} - 46^{2} bằng",
+          "choices": {
+            "A": "1020",
+            "B": "102",
+            "C": "2040",
+            "D": "100"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương II (Hằng đẳng thức đáng nhớ và ứng dụng) để giải bài toán: Tính nhanh hiệu hai bình phương: "
+            },
+            {
+              "t": "math",
+              "v": "56^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "46^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1020"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "102"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2040"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương II (Hằng đẳng thức đáng nhớ và ứng dụng) để giải bài toán: Tính nhanh hiệu hai bình phương: 56$^2$ - 46$^2$ bằng",
+            "choices": {
+              "A": "1020",
+              "B": "102",
+              "C": "2040",
+              "D": "100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-23",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương II: Phân tích đa thức x^{2} - 12x + 36 - y^{2} thành nhân tử ta được. Kết quả thu được là",
+          "choices": {
+            "A": "(x - y)^{2} - 36",
+            "B": "(x - 6 - y)(x - 6 + y)",
+            "C": "(x + 6 - y)(x + 6 + y)",
+            "D": "(x - 6)(x + y)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương II: Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 12x + 36 - "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " thành nhân tử ta được. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(x - y)^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 36"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x - 6 - y)(x - 6 + y)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(x + 6 - y)(x + 6 + y)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(x - 6)(x + y)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương II: Phân tích đa thức x$^2$ - 12x + 36 - y$^2$ thành nhân tử ta được. Kết quả thu được là",
+            "choices": {
+              "A": "(x - y)$^2$ - 36",
+              "B": "(x - 6 - y)(x - 6 + y)",
+              "C": "(x + 6 - y)(x + 6 + y)",
+              "D": "(x - 6)(x + y)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-24",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Tính nhanh giá trị của biểu thức P = x^{2} - 12x + 36 tại x = 106. Đáp án đúng là",
+          "choices": {
+            "A": "1000",
+            "B": "100",
+            "C": "10000",
+            "D": "10200"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Tính nhanh giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 12x + 36 tại x = 106. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1000"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10000"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10200"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Tính nhanh giá trị của biểu thức P = x$^2$ - 12x + 36 tại x = 106. Đáp án đúng là",
+            "choices": {
+              "A": "1000",
+              "B": "100",
+              "C": "10000",
+              "D": "10200"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-25",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Tính nhanh hiệu hai bình phương: 59^{2} - 49^{2} bằng",
+          "choices": {
+            "A": "2160",
+            "B": "100",
+            "C": "1080",
+            "D": "108"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Tính nhanh hiệu hai bình phương: "
+            },
+            {
+              "t": "math",
+              "v": "59^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "49^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2160"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1080"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "108"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương II, hãy xác định: Tính nhanh hiệu hai bình phương: 59$^2$ - 49$^2$ bằng",
+            "choices": {
+              "A": "2160",
+              "B": "100",
+              "C": "1080",
+              "D": "108"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-26",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Phân tích đa thức x^{2} - 18x + 81 - y^{2} thành nhân tử ta được. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "(x - y)^{2} - 81",
+            "B": "(x + 9 - y)(x + 9 + y)",
+            "C": "(x - 9)(x + y)",
+            "D": "(x - 9 - y)(x - 9 + y)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 18x + 81 - "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " thành nhân tử ta được. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(x - y)^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 81"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x + 9 - y)(x + 9 + y)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(x - 9)(x + y)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(x - 9 - y)(x - 9 + y)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Phân tích đa thức x$^2$ - 18x + 81 - y$^2$ thành nhân tử ta được. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "(x - y)$^2$ - 81",
+              "B": "(x + 9 - y)(x + 9 + y)",
+              "C": "(x - 9)(x + y)",
+              "D": "(x - 9 - y)(x - 9 + y)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-27",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Tính nhanh giá trị của biểu thức P = x^{2} - 18x + 81 tại x = 109",
+          "choices": {
+            "A": "1000",
+            "B": "100",
+            "C": "10000",
+            "D": "10200"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Tính nhanh giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 18x + 81 tại x = 109"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1000"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10000"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10200"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương II vào bài tập sau: Tính nhanh giá trị của biểu thức P = x$^2$ - 18x + 81 tại x = 109",
+            "choices": {
+              "A": "1000",
+              "B": "100",
+              "C": "10000",
+              "D": "10200"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-28",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tính nhanh hiệu hai bình phương: 62^{2} - 52^{2} bằng",
+          "choices": {
+            "A": "100",
+            "B": "1140",
+            "C": "2280",
+            "D": "114"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tính nhanh hiệu hai bình phương: "
+            },
+            {
+              "t": "math",
+              "v": "62^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "52^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1140"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2280"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "114"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tính nhanh hiệu hai bình phương: 62$^2$ - 52$^2$ bằng",
+            "choices": {
+              "A": "100",
+              "B": "1140",
+              "C": "2280",
+              "D": "114"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-29",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Hằng đẳng thức đáng nhớ và ứng dụng): Phân tích đa thức x^{2} - 24x + 144 - y^{2} thành nhân tử ta được. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "(x - y)^{2} - 144",
+            "B": "(x + 12 - y)(x + 12 + y)",
+            "C": "(x - 12 - y)(x - 12 + y)",
+            "D": "(x - 12)(x + y)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Hằng đẳng thức đáng nhớ và ứng dụng): Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 24x + 144 - "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " thành nhân tử ta được. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(x - y)^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 144"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x + 12 - y)(x + 12 + y)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(x - 12 - y)(x - 12 + y)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(x - 12)(x + y)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Hằng đẳng thức đáng nhớ và ứng dụng): Phân tích đa thức x$^2$ - 24x + 144 - y$^2$ thành nhân tử ta được. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "(x - y)$^2$ - 144",
+              "B": "(x + 12 - y)(x + 12 + y)",
+              "C": "(x - 12 - y)(x - 12 + y)",
+              "D": "(x - 12)(x + y)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-30",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Tính nhanh giá trị của biểu thức P = x^{2} - 24x + 144 tại x = 112",
+          "choices": {
+            "A": "10000",
+            "B": "1000",
+            "C": "100",
+            "D": "10200"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Tính nhanh giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 24x + 144 tại x = 112"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10000"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1000"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10200"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương II, hãy tìm kết quả của bài toán: Tính nhanh giá trị của biểu thức P = x$^2$ - 24x + 144 tại x = 112",
+            "choices": {
+              "A": "10000",
+              "B": "1000",
+              "C": "100",
+              "D": "10200"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-31",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Tính nhanh hiệu hai bình phương: 65^{2} - 55^{2} bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "120",
+            "B": "2400",
+            "C": "1200",
+            "D": "100"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Tính nhanh hiệu hai bình phương: "
+            },
+            {
+              "t": "math",
+              "v": "65^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "55^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "120"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2400"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1200"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương II nêu câu hỏi: Tính nhanh hiệu hai bình phương: 65$^2$ - 55$^2$ bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "120",
+              "B": "2400",
+              "C": "1200",
+              "D": "100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-32",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Phân tích đa thức x^{2} - 30x + 225 - y^{2} thành nhân tử ta được",
+          "choices": {
+            "A": "(x + 15 - y)(x + 15 + y)",
+            "B": "(x - 15)(x + y)",
+            "C": "(x - y)^{2} - 225",
+            "D": "(x - 15 - y)(x - 15 + y)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 30x + 225 - "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " thành nhân tử ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(x + 15 - y)(x + 15 + y)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x - 15)(x + y)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(x - y)^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 225"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(x - 15 - y)(x - 15 + y)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Phân tích đa thức x$^2$ - 30x + 225 - y$^2$ thành nhân tử ta được",
+            "choices": {
+              "A": "(x + 15 - y)(x + 15 + y)",
+              "B": "(x - 15)(x + y)",
+              "C": "(x - y)$^2$ - 225",
+              "D": "(x - 15 - y)(x - 15 + y)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-33",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Tính nhanh giá trị của biểu thức P = x^{2} - 30x + 225 tại x = 115",
+          "choices": {
+            "A": "1000",
+            "B": "100",
+            "C": "10200",
+            "D": "10000"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Tính nhanh giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 30x + 225 tại x = 115"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1000"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10200"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10000"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương II: Tính nhanh giá trị của biểu thức P = x$^2$ - 30x + 225 tại x = 115",
+            "choices": {
+              "A": "1000",
+              "B": "100",
+              "C": "10200",
+              "D": "10000"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-34",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tính nhanh hiệu hai bình phương: 68^{2} - 58^{2} bằng",
+          "choices": {
+            "A": "100",
+            "B": "2520",
+            "C": "1260",
+            "D": "126"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tính nhanh hiệu hai bình phương: "
+            },
+            {
+              "t": "math",
+              "v": "68^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "58^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2520"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1260"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "126"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tính nhanh hiệu hai bình phương: 68$^2$ - 58$^2$ bằng",
+            "choices": {
+              "A": "100",
+              "B": "2520",
+              "C": "1260",
+              "D": "126"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-35",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Phân tích đa thức x^{2} - 36x + 324 - y^{2} thành nhân tử ta được",
+          "choices": {
+            "A": "(x - 18 - y)(x - 18 + y)",
+            "B": "(x + 18 - y)(x + 18 + y)",
+            "C": "(x - 18)(x + y)",
+            "D": "(x - y)^{2} - 324"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 36x + 324 - "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " thành nhân tử ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(x - 18 - y)(x - 18 + y)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x + 18 - y)(x + 18 + y)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(x - 18)(x + y)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(x - y)^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 324"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương II, xét bài toán: Phân tích đa thức x$^2$ - 36x + 324 - y$^2$ thành nhân tử ta được",
+            "choices": {
+              "A": "(x - 18 - y)(x - 18 + y)",
+              "B": "(x + 18 - y)(x + 18 + y)",
+              "C": "(x - 18)(x + y)",
+              "D": "(x - y)$^2$ - 324"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-36",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Hằng đẳng thức đáng nhớ và ứng dụng): Tính nhanh giá trị của biểu thức P = x^{2} - 36x + 324 tại x = 118. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "1000",
+            "B": "100",
+            "C": "10200",
+            "D": "10000"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Hằng đẳng thức đáng nhớ và ứng dụng): Tính nhanh giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 36x + 324 tại x = 118. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1000"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10200"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10000"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Hằng đẳng thức đáng nhớ và ứng dụng): Tính nhanh giá trị của biểu thức P = x$^2$ - 36x + 324 tại x = 118. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "1000",
+              "B": "100",
+              "C": "10200",
+              "D": "10000"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-37",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tính nhanh hiệu hai bình phương: 71^{2} - 61^{2} bằng",
+          "choices": {
+            "A": "1320",
+            "B": "2640",
+            "C": "132",
+            "D": "100"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tính nhanh hiệu hai bình phương: "
+            },
+            {
+              "t": "math",
+              "v": "71^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "61^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1320"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2640"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "132"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tính nhanh hiệu hai bình phương: 71$^2$ - 61$^2$ bằng",
+            "choices": {
+              "A": "1320",
+              "B": "2640",
+              "C": "132",
+              "D": "100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-38",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương II: Phân tích đa thức x^{2} - 42x + 441 - y^{2} thành nhân tử ta được. Kết luận đúng là",
+          "choices": {
+            "A": "(x + 21 - y)(x + 21 + y)",
+            "B": "(x - 21)(x + y)",
+            "C": "(x - y)^{2} - 441",
+            "D": "(x - 21 - y)(x - 21 + y)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương II: Phân tích đa thức "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 42x + 441 - "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " thành nhân tử ta được. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(x + 21 - y)(x + 21 + y)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x - 21)(x + y)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(x - y)^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " - 441"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(x - 21 - y)(x - 21 + y)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương II: Phân tích đa thức x$^2$ - 42x + 441 - y$^2$ thành nhân tử ta được. Kết luận đúng là",
+            "choices": {
+              "A": "(x + 21 - y)(x + 21 + y)",
+              "B": "(x - 21)(x + y)",
+              "C": "(x - y)$^2$ - 441",
+              "D": "(x - 21 - y)(x - 21 + y)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-39",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Tính nhanh giá trị của biểu thức P = x^{2} - 42x + 441 tại x = 121",
+          "choices": {
+            "A": "10200",
+            "B": "10000",
+            "C": "1000",
+            "D": "100"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Tính nhanh giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 42x + 441 tại x = 121"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10200"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10000"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1000"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương II: Tính nhanh giá trị của biểu thức P = x$^2$ - 42x + 441 tại x = 121",
+            "choices": {
+              "A": "10200",
+              "B": "10000",
+              "C": "1000",
+              "D": "100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-40",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tính nhanh hiệu hai bình phương: 74^{2} - 64^{2} bằng",
+          "choices": {
+            "A": "1380",
+            "B": "138",
+            "C": "2760",
+            "D": "100"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tính nhanh hiệu hai bình phương: "
+            },
+            {
+              "t": "math",
+              "v": "74^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "64^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1380"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "138"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2760"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tính nhanh hiệu hai bình phương: 74$^2$ - 64$^2$ bằng",
+            "choices": {
+              "A": "1380",
+              "B": "138",
+              "C": "2760",
+              "D": "100"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-41",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Tìm giá trị nhỏ nhất của đa thức A = x^{2} - 6x + 14.",
+          "choices": {
+            "A": "5",
+            "B": "-5",
+            "C": "3",
+            "D": "14"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị nhỏ nhất của đa thức A = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 6x + 14."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị nhỏ nhất của đa thức A = x$^2$ - 6x + 14.",
+            "choices": {
+              "A": "5",
+              "B": "-5",
+              "C": "3",
+              "D": "14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-42",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương II – Hằng đẳng thức đáng nhớ và ứng dụng): Cho x + y = 5 và x·y = 2. Giá trị của biểu thức S = x^{2} + y^{2} bằng. Kết quả đúng là",
+          "choices": {
+            "A": "21",
+            "B": "29",
+            "C": "25",
+            "D": "23"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương II – Hằng đẳng thức đáng nhớ và ứng dụng): Cho x + y = 5 và x"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "y = 2. Giá trị của biểu thức S = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "29"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương II – Hằng đẳng thức đáng nhớ và ứng dụng): Cho x + y = 5 và x$\\cdot$y = 2. Giá trị của biểu thức S = x$^2$ + y$^2$ bằng. Kết quả đúng là",
+            "choices": {
+              "A": "21",
+              "B": "29",
+              "C": "25",
+              "D": "23"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-43",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Tìm giá trị nhỏ nhất của đa thức A = x^{2} - 10x + 32.",
+          "choices": {
+            "A": "7",
+            "B": "5",
+            "C": "-7",
+            "D": "32"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Tìm giá trị nhỏ nhất của đa thức A = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 10x + 32."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương II để giải bài toán: Tìm giá trị nhỏ nhất của đa thức A = x$^2$ - 10x + 32.",
+            "choices": {
+              "A": "7",
+              "B": "5",
+              "C": "-7",
+              "D": "32"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-44",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương II: Cho x + y = 7 và x·y = 2. Giá trị của biểu thức S = x^{2} + y^{2} bằng",
+          "choices": {
+            "A": "47",
+            "B": "49",
+            "C": "45",
+            "D": "53"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương II: Cho x + y = 7 và x"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "y = 2. Giá trị của biểu thức S = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "47"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "49"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "45"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "53"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương II: Cho x + y = 7 và x$\\cdot$y = 2. Giá trị của biểu thức S = x$^2$ + y$^2$ bằng",
+            "choices": {
+              "A": "47",
+              "B": "49",
+              "C": "45",
+              "D": "53"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-45",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương II: Tìm giá trị nhỏ nhất của đa thức A = x^{2} - 14x + 58.. Đáp số chính xác là",
+          "choices": {
+            "A": "9",
+            "B": "-9",
+            "C": "7",
+            "D": "58"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương II: Tìm giá trị nhỏ nhất của đa thức A = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 14x + 58.. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "58"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương II: Tìm giá trị nhỏ nhất của đa thức A = x$^2$ - 14x + 58.. Đáp số chính xác là",
+            "choices": {
+              "A": "9",
+              "B": "-9",
+              "C": "7",
+              "D": "58"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-46",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Cho x + y = 9 và x·y = 2. Giá trị của biểu thức S = x^{2} + y^{2} bằng",
+          "choices": {
+            "A": "77",
+            "B": "85",
+            "C": "81",
+            "D": "79"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Cho x + y = 9 và x"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "y = 2. Giá trị của biểu thức S = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "77"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "85"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "81"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "79"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương II để tìm đáp án cho bài toán: Cho x + y = 9 và x$\\cdot$y = 2. Giá trị của biểu thức S = x$^2$ + y$^2$ bằng",
+            "choices": {
+              "A": "77",
+              "B": "85",
+              "C": "81",
+              "D": "79"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-47",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Tìm giá trị nhỏ nhất của đa thức A = x^{2} - 18x + 92.",
+          "choices": {
+            "A": "9",
+            "B": "-11",
+            "C": "92",
+            "D": "11"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Tìm giá trị nhỏ nhất của đa thức A = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 18x + 92."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "92"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương II: Tìm giá trị nhỏ nhất của đa thức A = x$^2$ - 18x + 92.",
+            "choices": {
+              "A": "9",
+              "B": "-11",
+              "C": "92",
+              "D": "11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-48",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Cho x + y = 11 và x·y = 2. Giá trị của biểu thức S = x^{2} + y^{2} bằng",
+          "choices": {
+            "A": "125",
+            "B": "119",
+            "C": "117",
+            "D": "121"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Cho x + y = 11 và x"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "y = 2. Giá trị của biểu thức S = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "125"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "119"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "117"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "121"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương II): Cho x + y = 11 và x$\\cdot$y = 2. Giá trị của biểu thức S = x$^2$ + y$^2$ bằng",
+            "choices": {
+              "A": "125",
+              "B": "119",
+              "C": "117",
+              "D": "121"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-49",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Tìm giá trị nhỏ nhất của đa thức A = x^{2} - 22x + 134.",
+          "choices": {
+            "A": "-13",
+            "B": "134",
+            "C": "13",
+            "D": "11"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Tìm giá trị nhỏ nhất của đa thức A = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 22x + 134."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "134"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương II, hãy giải quyết bài toán: Tìm giá trị nhỏ nhất của đa thức A = x$^2$ - 22x + 134.",
+            "choices": {
+              "A": "-13",
+              "B": "134",
+              "C": "13",
+              "D": "11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-02-50",
+          "grade": 8,
+          "chapter": 2,
+          "chapterTitle": "HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương II: Cho x + y = 13 và x·y = 2. Giá trị của biểu thức S = x^{2} + y^{2} bằng. Phương án đúng là",
+          "choices": {
+            "A": "167",
+            "B": "173",
+            "C": "169",
+            "D": "165"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương II: Cho x + y = 13 và x"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "y = 2. Giá trị của biểu thức S = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "167"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "173"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "169"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "165"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương II: Cho x + y = 13 và x$\\cdot$y = 2. Giá trị của biểu thức S = x$^2$ + y$^2$ bằng. Phương án đúng là",
+            "choices": {
+              "A": "167",
+              "B": "173",
+              "C": "169",
+              "D": "165"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "II",
+            "answerKey": "Bảng đáp án Chương II",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

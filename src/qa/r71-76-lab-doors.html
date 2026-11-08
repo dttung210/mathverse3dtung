@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="vi"><head>
+<script id="mv-gh-pages-shim">
+(function(){
+  var BASE = "/mathverse3dtung";
+  window.__MV_BASE_PATH__ = BASE;
+  var PREFIXES = ["dual/","src/","data/","vendor/","game-park/","museum-assets/","museum-thumbs/","museum-data/","r75/","lab/","api/","granddome/","favicon.svg","health"];
+  function shouldPrefix(u){
+    if(!BASE || typeof u !== 'string') return false;
+    if(!u.startsWith('/') || u.startsWith(BASE + '/') || u.startsWith('//')) return false;
+    var clean = u.slice(1);
+    for(var i = 0; i < PREFIXES.length; i++){
+      if(clean.startsWith(PREFIXES[i]) || clean === 'r75' || clean === 'lab' || clean === 'game-park') return true;
+    }
+    return false;
+  }
+  function mapUrl(u){
+    if(typeof u !== 'string') return u;
+    var origin = window.location && window.location.origin ? window.location.origin : '';
+    var hadOrigin = false;
+    if(origin && u.indexOf(origin + '/') === 0){
+      u = u.slice(origin.length);
+      hadOrigin = true;
+    }
+    var finish = function(res){
+      return (hadOrigin && res.indexOf('/') === 0) ? (origin + res) : res;
+    };
+    var qIdx = u.indexOf('?');
+    var pathOnly = qIdx >= 0 ? u.slice(0, qIdx) : u;
+    var query = qIdx >= 0 ? u.slice(qIdx) : '';
+    var rel = BASE && pathOnly.startsWith(BASE + '/') ? pathOnly.slice(BASE.length) : pathOnly;
+    if(rel === '/api/discovery/r99/photo'){
+      var params = new URLSearchParams(query);
+      var id = params.get('id') || '';
+      return finish((BASE || '') + '/api/discovery/r99/photo/' + encodeURIComponent(id) + '.json');
+    }
+    var mTile = rel.match(/^\/api\/discovery\/r99\/(terrain|satellite)\/(\d+)\/(\d+)\/(\d+)$/);
+    if(mTile){
+      var kind = mTile[1], z = mTile[2], x = mTile[3], y = mTile[4];
+      if(kind === 'terrain') return 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/' + z + '/' + x + '/' + y + '.png';
+      return 'https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless_3857/default/GoogleMapsCompatible/' + z + '/' + y + '/' + x + '.jpg';
+    }
+    var StaticJsonRoutes = {
+      '/health': '/health.json',
+      '/api/health': '/api/health.json',
+      '/granddome/api/museum': '/granddome/api/museum.json',
+      '/api/discovery/r98/catalog': '/api/discovery/r98/catalog.json',
+      '/api/discovery/r99/catalog': '/api/discovery/r99/catalog.json',
+      '/api/discovery/countries': '/api/discovery/countries.json',
+      '/api/discovery/unesco': '/api/discovery/unesco.json'
+    };
+    if(StaticJsonRoutes[rel]){
+      return finish((BASE || '') + StaticJsonRoutes[rel] + query);
+    }
+    if(shouldPrefix(u)){
+      return finish(BASE + u);
+    }
+    return finish(u);
+  }
+  if(window.Request){
+    var OrigRequest = window.Request;
+    window.Request = function(input, init){
+      if(typeof input === 'string') input = mapUrl(input);
+      else if(input && typeof input.url === 'string') input = new OrigRequest(mapUrl(input.url), input);
+      return new OrigRequest(input, init);
+    };
+    window.Request.prototype = OrigRequest.prototype;
+  }
+  var origFetch = window.fetch;
+  if(origFetch){
+    window.fetch = function(input, init){
+      if(typeof input === 'string'){
+        input = mapUrl(input);
+      } else if(input && typeof input.url === 'string'){
+        input = new Request(mapUrl(input.url), input);
+      }
+      return origFetch.call(this, input, init);
+    };
+  }
+  var origOpen = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method, url){
+    var args = Array.prototype.slice.call(arguments);
+    if(typeof url === 'string') args[1] = mapUrl(url);
+    return origOpen.apply(this, args);
+  };
+  if(BASE){
+    [HTMLImageElement, HTMLIFrameElement, HTMLScriptElement, HTMLLinkElement, HTMLAnchorElement, HTMLMediaElement, HTMLSourceElement].forEach(function(Ctor){
+      if(!Ctor || !Ctor.prototype) return;
+      var prop = (Ctor === HTMLLinkElement || Ctor === HTMLAnchorElement) ? 'href' : 'src';
+      var desc = Object.getOwnPropertyDescriptor(Ctor.prototype, prop);
+      if(desc && desc.set){
+        Object.defineProperty(Ctor.prototype, prop, {
+          configurable: true,
+          enumerable: desc.enumerable,
+          get: desc.get,
+          set: function(v){
+            return desc.set.call(this, typeof v === 'string' ? mapUrl(v) : v);
+          }
+        });
+      }
+    });
+    var origSetAttr = Element.prototype.setAttribute;
+    Element.prototype.setAttribute = function(name, value){
+      if((name === 'src' || name === 'href') && typeof value === 'string'){
+        value = mapUrl(value);
+      }
+      return origSetAttr.call(this, name, value);
+    };
+    var origWinOpen = window.open;
+    if(origWinOpen){
+      window.open = function(url){
+        var args = Array.prototype.slice.call(arguments);
+        if(typeof url === 'string') args[0] = mapUrl(url);
+        return origWinOpen.apply(this, args);
+      };
+    }
+  }
+})();
+</script><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>MATHVERSE R7.1 · Kiểm tra 76 cửa Lab</title>
+<style>
+:root{font-family:'Segoe UI',Arial,sans-serif;color-scheme:dark}*{box-sizing:border-box}body{background:#0b1726;color:#eaf4f4;margin:0;padding:20px}main{max-width:1520px;margin:auto}h1{font-size:25px;margin-bottom:6px}p,small{color:#b9cfd5}p{line-height:1.5}.metrics{display:flex;flex-wrap:wrap;gap:10px;margin:17px 0}.metric{border:1px solid #294c59;background:#142b3d;border-radius:12px;padding:12px 18px;min-width:135px}.metric strong{font-size:23px;color:#53d3c5;display:block}.toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:16px 0}button,select,input{font:inherit;border:1px solid #3b6570;border-radius:9px;background:#143647;color:#edf9f9;padding:10px;cursor:pointer}button{background:#167d80}table{border-collapse:collapse;width:100%;min-width:1000px;font-size:13px}thead{position:sticky;top:0;background:#152f40}th,td{border-bottom:1px solid #2a4755;padding:10px 9px;text-align:left}td select,td input{width:100%;max-width:150px;padding:5px;font-size:12px}th{color:#e7f6f5}tbody tr:nth-child(odd){background:#122538}tbody tr:hover{background:#174150}.scroll{overflow:auto;max-height:64vh;border:1px solid #254e59;border-radius:12px}.notice{background:#163344;border-left:3px solid #d6b47c;padding:12px;margin:12px 0}.warn{color:#ffe0a4}.small{font-size:12px}a{color:#8cf1df}button:focus-visible,select:focus-visible{outline:2px solid #a9e7dc;outline-offset:2px}
+</style></head><body><main>
+<h1>🏛️ MATHVERSE R7.1 · Nghiệm thu 76 cửa Lab</h1>
+<p>Kiểm tra 7 lớp, 34 phòng chuyên đề và <strong>một cửa duy nhất cho mỗi nhóm Lab</strong>. Danh sách 310 mô hình ở trong 76 Lab; không trưng bày 310 bục dày đặc.</p>
+<div class="metrics"><div class="metric"><strong id="rooms">–</strong>Phòng chuyên đề</div><div class="metric"><strong id="doors">–</strong>Cửa Lab</div><div class="metric"><strong id="models">–</strong>Mô hình</div><div class="metric"><strong id="done">0</strong>Cửa đã nghiệm thu</div></div>
+<div class="notice">Mở ứng dụng thật trên Windows → chọn lớp → phòng → <strong>nhấp cửa Lab hoặc nhấn E</strong> → kiểm tra Kho SGK chỉ hiển thị các mô hình thuộc Lab đã chọn. Đánh dấu trạng thái bên dưới rồi xuất CSV. <span class="warn">Kết quả tự động không thay thế thử nghiệm WebGL trên máy cô.</span></div>
+<div class="toolbar"><label>Lớp <select id="grade"><option value="all">Tất cả</option></select></label><button id="export">Xuất CSV</button><button id="clear">Xóa kết quả đánh dấu</button><small id="status"></small></div>
+<div class="scroll"><table><thead><tr><th>Lớp</th><th>Phòng</th><th>Mã Lab</th><th>Tên cửa Lab</th><th>Mô hình</th><th>Cửa 3D</th><th>Nhấp / E</th><th>Kho SGK đúng</th><th>Chuyển động</th><th>Ghi chú</th></tr></thead><tbody id="items"></tbody></table></div>
+<p class="small">Dữ liệu chỉ lưu trên trình duyệt của cô. Các phép kiểm tra trong ứng dụng không sửa dữ liệu SGK hoặc thuật toán Toán học.</p>
+<script type="module">
+import {ROOM_BY_ID,MODE_BY_ID} from '/src/museum/r6-room-layout.js?v=r107_v15';
+import {getLabDoorsForRoom} from '/src/museum/r68-unified-labs.mjs?v=r107_v15';
+const $=id=>document.getElementById(id),KEY='mathverse:R71:qa:doors';let state={};try{state=JSON.parse(localStorage.getItem(KEY)||'{}')}catch{}
+const rows=[...ROOM_BY_ID.values()].flatMap(room=>getLabDoorsForRoom(room.roomId).map(lab=>({grade:room.grade,room,lab})));
+$('rooms').textContent=ROOM_BY_ID.size;$('doors').textContent=rows.length;$('models').textContent=MODE_BY_ID.size;
+const tests=['visible','click','warehouse','motion'];for(let g=6;g<=12;g++){
+const opt=document.createElement('option');opt.value=g;opt.textContent='Toán '+g;$('grade').append(opt)}
+function progress(){$('done').textContent=rows.filter(({lab})=>tests.every(t=>state[lab.labId]?.[t])).length+'/'+rows.length}
+function draw(){const body=$('items');body.replaceChildren();const grade=$('grade').value;
+for(const {room,lab} of rows.filter(r=>grade==='all'||String(r.grade)===grade)){
+const tr=document.createElement('tr');function td(text){const e=document.createElement('td');e.textContent=text;tr.append(e);return e}
+td(room.grade);td(room.roomId+' · '+room.name);td(lab.labId);td(lab.name);td(lab.modes.length);
+for(const check of tests){const cell=td(''),sel=document.createElement('select');for(const [v,label] of [['','Chưa thử'],['pass','Đạt'],['fail','Lỗi'],['na','Không áp dụng']]){
+const option=document.createElement('option');option.value=v;option.textContent=label;sel.append(option)}
+sel.value=state[lab.labId]?.[check]||'';sel.onchange=()=>{state[lab.labId]??={};state[lab.labId][check]=sel.value;localStorage.setItem(KEY,JSON.stringify(state));progress()};cell.append(sel)}
+const cell=td(''),notes=document.createElement('input');notes.placeholder='Lỗi hoặc nhận xét';notes.value=state[lab.labId]?.note||'';
+notes.onchange=()=>{state[lab.labId]??={};state[lab.labId].note=notes.value;localStorage.setItem(KEY,JSON.stringify(state))};cell.append(notes);body.append(tr)}progress();}
+$('grade').onchange=draw;$('status').textContent=rows.length===76&&rows.reduce((n,x)=>n+x.lab.modes.length,0)===310?'Danh mục đúng 76/310':'Danh mục không khớp nguồn';
+$('export').onclick=()=>{const esc=x=>'"'+String(x??'').replaceAll('"','""')+'"';const lines=[['Lop','Phong','Ten_phong','Lab_ID','Ten_Lab','So_mo_hinh','Cua_3D','Nhap_E','Kho_SGK','Chuyen_dong','Ghi_chu']];
+for(const {grade,room,lab} of rows){const s=state[lab.labId]||{};lines.push([grade,room.roomId,room.name,lab.labId,lab.name,lab.modes.length,...tests.map(x=>s[x]||'chua-thu'),s.note||''])}
+const blob=new Blob(['\ufeff'+lines.map(r=>r.map(esc).join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='R71_NGHIEM_THU_76_CUA_LAB.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+$('clear').onclick=()=>{if(confirm('Xóa tất cả kết quả nghiệm thu?')){state={};localStorage.removeItem(KEY);draw()}};
+draw();
+</script></main></body></html>

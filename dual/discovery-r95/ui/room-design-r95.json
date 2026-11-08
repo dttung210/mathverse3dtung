@@ -1,0 +1,27 @@
+{
+  "version": "R95 UI proposal (no project modifications)",
+  "buildingPolicy": "Keep ONE existing Discovery building, foyer, and TWO existing wings only",
+  "palette": {"navy":"#091b2d","deepTeal":"#113748","teal":"#2dcab8","gold":"#d9b471","text":"#edf5f8","muted":"#9cb8c9"},
+  "roomA": {
+    "name": "ĐỊA CẦU THẾ GIỚI",
+    "primaryObject": "Reuse existing one globe; no second scene or second renderer",
+    "zones": ["Quả địa cầu 3D trung tâm", "Màn tra cứu và bộ lọc châu lục", "Bảng đối chiếu ảnh thật ↔ hình học 2D/3D"],
+    "filters": ["châu lục", "quốc gia", "lớp học", "dạng hình học", "trạng thái ảnh"],
+    "globeMarkerLimit": 45,
+    "display": "show highlighted pins based on current filter and latitude/longitude; declutter labels",
+    "interaction": "Pick marker → fact card + licensed photo or explicit empty state → verified SVG → optional GLB → back to globe",
+    "performance": "Load selected content only; provide keyboard list alternative to raycast"
+  },
+  "roomB": {
+    "name": "PHÒNG TRANH TOÁN HỌC TRONG THỰC TẾ",
+    "architecturalStyle": "warm gallery: dark oak, sandstone walls, soft ceiling lighting and single consistent gold frames",
+    "physicalFrames": 8,
+    "collections": ["Hình phẳng quanh em", "Khối hình đời thường", "Đối xứng và hoa văn", "Số học và tập hợp", "Đo lường và tỉ lệ", "Thống kê và xác suất", "Bộ sưu tập R93/R94 hiện có"],
+    "interaction": "Select exhibition collection → replace up to 8 framed artworks (reuse THREE meshes) → click or press E → photo+SVG comparison → optional GLB",
+    "photoPolicy": "not approved: show approved vector illustration with unmistakable 'minh họa' badge; never label it a real photo",
+    "performance": "Keep at most 8 picture textures mounted, lazy-load and dispose old textures"
+  },
+  "museumQuickAccess": "Add ONE Discovery shortcut to the existing Museum menu; preserve legacy buttons and return context",
+  "responsive": {"desktop": "image and geometry split 42/58 with independent scroll", "mobile": "photo/svg/3d tabs and 44px touch targets"},
+  "constraints": ["No duplicate Museum, Lab or Park", "No new game or third room", "Never modify education question banks", "All existing files backed up by Agent before code integration"]
+}

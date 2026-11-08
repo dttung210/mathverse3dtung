@@ -1,0 +1,4705 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 10,
+      "chapter": 6,
+      "roman": "VI",
+      "title": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "10-06-01",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Tập xác định D của hàm số y = (2x + 1)/(x - 3) là",
+          "choices": {
+            "A": "D = \\mathbb{R} ∖{} {3}",
+            "B": "D = \\mathbb{R} ∖{} {-3}",
+            "C": "D = \\mathbb{R}",
+            "D": "D = (3; +∈fty)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tập xác định D của hàm số y = (2x + 1)/(x - 3) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {-3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = (3; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tập xác định D của hàm số y = (2x + 1)/(x - 3) là",
+            "choices": {
+              "A": "D = $\\mathbb{R}$ ∖{} {3}",
+              "B": "D = $\\mathbb{R}$ ∖{} {-3}",
+              "C": "D = $\\mathbb{R}$",
+              "D": "D = (3; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-02",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x^{2} - 6x + 6 là.",
+          "choices": {
+            "A": "x = 3",
+            "B": "x = -3",
+            "C": "x = 6",
+            "D": "x = -(i + 2)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Hoành độ đỉnh và trục đối xứng của parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 6x + 6 là."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -(i + 2)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x$^2$ - 6x + 6 là.",
+            "choices": {
+              "A": "x = 3",
+              "B": "x = -3",
+              "C": "x = 6",
+              "D": "x = -(i + 2)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-03",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương VI, xét nội dung: Hàm số bậc hai y = x^{2} - 10x + 1 đồng biến trên khoảng nào sau đây. Đáp án đúng là",
+          "choices": {
+            "A": "(-5; +∈fty)",
+            "B": "(5; +∈fty)",
+            "C": "(-∈fty; +∈fty)",
+            "D": "(-∈fty; 5)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương VI, xét nội dung: Hàm số bậc hai y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 10x + 1 đồng biến trên khoảng nào sau đây. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-5; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(5; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 5)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương VI, xét nội dung: Hàm số bậc hai y = x$^2$ - 10x + 1 đồng biến trên khoảng nào sau đây. Đáp án đúng là",
+            "choices": {
+              "A": "(-5; +$\\infty$)",
+              "B": "(5; +$\\infty$)",
+              "C": "(-$\\infty$; +$\\infty$)",
+              "D": "(-$\\infty$; 5)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-04",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương VI (Hàm số, đồ thị và ứng dụng), tập xác định D của hàm số y = (2x + 1)/(x - 6) là",
+          "choices": {
+            "A": "D = \\mathbb{R} ∖{} {-6}",
+            "B": "D = \\mathbb{R} ∖{} {6}",
+            "C": "D = (6; +∈fty)",
+            "D": "D = \\mathbb{R}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương VI (Hàm số, đồ thị và ứng dụng), tập xác định D của hàm số y = (2x + 1)/(x - 6) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {-6}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {6}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = (6; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương VI (Hàm số, đồ thị và ứng dụng), tập xác định D của hàm số y = (2x + 1)/(x - 6) là",
+            "choices": {
+              "A": "D = $\\mathbb{R}$ ∖{} {-6}",
+              "B": "D = $\\mathbb{R}$ ∖{} {6}",
+              "C": "D = (6; +$\\infty$)",
+              "D": "D = $\\mathbb{R}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-05",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x^{2} - 12x + 9 là",
+          "choices": {
+            "A": "x = 12",
+            "B": "x = 6",
+            "C": "x = -(i + 2)",
+            "D": "x = -6"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Hoành độ đỉnh và trục đối xứng của parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 12x + 9 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -(i + 2)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x$^2$ - 12x + 9 là",
+            "choices": {
+              "A": "x = 12",
+              "B": "x = 6",
+              "C": "x = -(i + 2)",
+              "D": "x = -6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-06",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về hàm số, đồ thị và ứng dụng, một học sinh gặp câu hỏi: Hàm số bậc hai y = x^{2} - 16x + 1 đồng biến trên khoảng nào sau đây. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "(-∈fty; 8)",
+            "B": "(8; +∈fty)",
+            "C": "(-∈fty; +∈fty)",
+            "D": "(-8; +∈fty)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về hàm số, đồ thị và ứng dụng, một học sinh gặp câu hỏi: Hàm số bậc hai y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 16x + 1 đồng biến trên khoảng nào sau đây. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 8)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(8; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-8; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về hàm số, đồ thị và ứng dụng, một học sinh gặp câu hỏi: Hàm số bậc hai y = x$^2$ - 16x + 1 đồng biến trên khoảng nào sau đây. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "(-$\\infty$; 8)",
+              "B": "(8; +$\\infty$)",
+              "C": "(-$\\infty$; +$\\infty$)",
+              "D": "(-8; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-07",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Tập xác định D của hàm số y = (2x + 1)/(x - 9) là",
+          "choices": {
+            "A": "D = \\mathbb{R}",
+            "B": "D = \\mathbb{R} ∖{} {-9}",
+            "C": "D = (9; +∈fty)",
+            "D": "D = \\mathbb{R} ∖{} {9}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Tập xác định D của hàm số y = (2x + 1)/(x - 9) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {-9}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = (9; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {9}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Tập xác định D của hàm số y = (2x + 1)/(x - 9) là",
+            "choices": {
+              "A": "D = $\\mathbb{R}$",
+              "B": "D = $\\mathbb{R}$ ∖{} {-9}",
+              "C": "D = (9; +$\\infty$)",
+              "D": "D = $\\mathbb{R}$ ∖{} {9}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-08",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VI: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x^{2} - 18x + 12 là",
+          "choices": {
+            "A": "x = 18",
+            "B": "x = -(i + 2)",
+            "C": "x = 9",
+            "D": "x = -9"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VI: Hoành độ đỉnh và trục đối xứng của parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 18x + 12 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -(i + 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VI: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x$^2$ - 18x + 12 là",
+            "choices": {
+              "A": "x = 18",
+              "B": "x = -(i + 2)",
+              "C": "x = 9",
+              "D": "x = -9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-09",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Hàm số bậc hai y = x^{2} - 22x + 1 đồng biến trên khoảng nào sau đây?",
+          "choices": {
+            "A": "(-∈fty; 11)",
+            "B": "(-∈fty; +∈fty)",
+            "C": "(-11; +∈fty)",
+            "D": "(11; +∈fty)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Hàm số bậc hai y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 22x + 1 đồng biến trên khoảng nào sau đây?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 11)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-11; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(11; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Hàm số bậc hai y = x$^2$ - 22x + 1 đồng biến trên khoảng nào sau đây?",
+            "choices": {
+              "A": "(-$\\infty$; 11)",
+              "B": "(-$\\infty$; +$\\infty$)",
+              "C": "(-11; +$\\infty$)",
+              "D": "(11; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-10",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Tập xác định D của hàm số y = (2x + 1)/(x - 12) là. Phương án chính xác là",
+          "choices": {
+            "A": "D = \\mathbb{R} ∖{} {12}",
+            "B": "D = \\mathbb{R}",
+            "C": "D = \\mathbb{R} ∖{} {-12}",
+            "D": "D = (12; +∈fty)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Tập xác định D của hàm số y = (2x + 1)/(x - 12) là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {12}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {-12}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = (12; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Tập xác định D của hàm số y = (2x + 1)/(x - 12) là. Phương án chính xác là",
+            "choices": {
+              "A": "D = $\\mathbb{R}$ ∖{} {12}",
+              "B": "D = $\\mathbb{R}$",
+              "C": "D = $\\mathbb{R}$ ∖{} {-12}",
+              "D": "D = (12; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-11",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x^{2} - 24x + 15 là",
+          "choices": {
+            "A": "x = -(i + 2)",
+            "B": "x = -12",
+            "C": "x = 12",
+            "D": "x = 24"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Hoành độ đỉnh và trục đối xứng của parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 24x + 15 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = -(i + 2)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 24"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x$^2$ - 24x + 15 là",
+            "choices": {
+              "A": "x = -(i + 2)",
+              "B": "x = -12",
+              "C": "x = 12",
+              "D": "x = 24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-12",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VI): Hàm số bậc hai y = x^{2} - 28x + 1 đồng biến trên khoảng nào sau đây",
+          "choices": {
+            "A": "(-∈fty; 14)",
+            "B": "(-∈fty; +∈fty)",
+            "C": "(-14; +∈fty)",
+            "D": "(14; +∈fty)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VI): Hàm số bậc hai y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 28x + 1 đồng biến trên khoảng nào sau đây"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 14)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-14; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(14; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VI): Hàm số bậc hai y = x$^2$ - 28x + 1 đồng biến trên khoảng nào sau đây",
+            "choices": {
+              "A": "(-$\\infty$; 14)",
+              "B": "(-$\\infty$; +$\\infty$)",
+              "C": "(-14; +$\\infty$)",
+              "D": "(14; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-13",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VI), tập xác định D của hàm số y = (2x + 1)/(x - 15) là",
+          "choices": {
+            "A": "D = \\mathbb{R} ∖{} {-15}",
+            "B": "D = \\mathbb{R}",
+            "C": "D = (15; +∈fty)",
+            "D": "D = \\mathbb{R} ∖{} {15}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VI), tập xác định D của hàm số y = (2x + 1)/(x - 15) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {-15}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = (15; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {15}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VI), tập xác định D của hàm số y = (2x + 1)/(x - 15) là",
+            "choices": {
+              "A": "D = $\\mathbb{R}$ ∖{} {-15}",
+              "B": "D = $\\mathbb{R}$",
+              "C": "D = (15; +$\\infty$)",
+              "D": "D = $\\mathbb{R}$ ∖{} {15}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-14",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x^{2} - 30x + 18 là",
+          "choices": {
+            "A": "x = 30",
+            "B": "x = 15",
+            "C": "x = -15",
+            "D": "x = -(i + 2)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Hoành độ đỉnh và trục đối xứng của parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 30x + 18 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 30"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 15"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -15"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -(i + 2)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x$^2$ - 30x + 18 là",
+            "choices": {
+              "A": "x = 30",
+              "B": "x = 15",
+              "C": "x = -15",
+              "D": "x = -(i + 2)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-15",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương VI: Hàm số bậc hai y = x^{2} - 34x + 1 đồng biến trên khoảng nào sau đây. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "(-∈fty; +∈fty)",
+            "B": "(-∈fty; 17)",
+            "C": "(-17; +∈fty)",
+            "D": "(17; +∈fty)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương VI: Hàm số bậc hai y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 34x + 1 đồng biến trên khoảng nào sau đây. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 17)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-17; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(17; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương VI: Hàm số bậc hai y = x$^2$ - 34x + 1 đồng biến trên khoảng nào sau đây. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "(-$\\infty$; +$\\infty$)",
+              "B": "(-$\\infty$; 17)",
+              "C": "(-17; +$\\infty$)",
+              "D": "(17; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-16",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Tập xác định D của hàm số y = (2x + 1)/(x - 18) là",
+          "choices": {
+            "A": "D = \\mathbb{R} ∖{} {-18}",
+            "B": "D = (18; +∈fty)",
+            "C": "D = \\mathbb{R} ∖{} {18}",
+            "D": "D = \\mathbb{R}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Tập xác định D của hàm số y = (2x + 1)/(x - 18) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {-18}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = (18; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {18}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Tập xác định D của hàm số y = (2x + 1)/(x - 18) là",
+            "choices": {
+              "A": "D = $\\mathbb{R}$ ∖{} {-18}",
+              "B": "D = (18; +$\\infty$)",
+              "C": "D = $\\mathbb{R}$ ∖{} {18}",
+              "D": "D = $\\mathbb{R}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-17",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x^{2} - 36x + 21 là?",
+          "choices": {
+            "A": "x = 36",
+            "B": "x = -(i + 2)",
+            "C": "x = -18",
+            "D": "x = 18"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Hoành độ đỉnh và trục đối xứng của parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 36x + 21 là?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 36"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -(i + 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x$^2$ - 36x + 21 là?",
+            "choices": {
+              "A": "x = 36",
+              "B": "x = -(i + 2)",
+              "C": "x = -18",
+              "D": "x = 18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-18",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương VI: Hàm số bậc hai y = x^{2} - 40x + 1 đồng biến trên khoảng nào sau đây",
+          "choices": {
+            "A": "(20; +∈fty)",
+            "B": "(-∈fty; 20)",
+            "C": "(-20; +∈fty)",
+            "D": "(-∈fty; +∈fty)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương VI: Hàm số bậc hai y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 40x + 1 đồng biến trên khoảng nào sau đây"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(20; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 20)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-20; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương VI: Hàm số bậc hai y = x$^2$ - 40x + 1 đồng biến trên khoảng nào sau đây",
+            "choices": {
+              "A": "(20; +$\\infty$)",
+              "B": "(-$\\infty$; 20)",
+              "C": "(-20; +$\\infty$)",
+              "D": "(-$\\infty$; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-19",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Tập xác định D của hàm số y = (2x + 1)/(x - 21) là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "D = \\mathbb{R} ∖{} {-21}",
+            "B": "D = \\mathbb{R}",
+            "C": "D = (21; +∈fty)",
+            "D": "D = \\mathbb{R} ∖{} {21}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Tập xác định D của hàm số y = (2x + 1)/(x - 21) là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {-21}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = (21; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {21}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Tập xác định D của hàm số y = (2x + 1)/(x - 21) là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "D = $\\mathbb{R}$ ∖{} {-21}",
+              "B": "D = $\\mathbb{R}$",
+              "C": "D = (21; +$\\infty$)",
+              "D": "D = $\\mathbb{R}$ ∖{} {21}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-20",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương VI để giải quyết yêu cầu: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x^{2} - 42x + 24 là",
+          "choices": {
+            "A": "x = 42",
+            "B": "x = -(i + 2)",
+            "C": "x = 21",
+            "D": "x = -21"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương VI để giải quyết yêu cầu: Hoành độ đỉnh và trục đối xứng của parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 42x + 24 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 42"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -(i + 2)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 21"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -21"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương VI để giải quyết yêu cầu: Hoành độ đỉnh và trục đối xứng của parabol (P): y = x$^2$ - 42x + 24 là",
+            "choices": {
+              "A": "x = 42",
+              "B": "x = -(i + 2)",
+              "C": "x = 21",
+              "D": "x = -21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-21",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Tập nghiệm của bất phương trình bậc hai x^{2} - 5x + 4 ≤ 0 là",
+          "choices": {
+            "A": "S = [1; 4]",
+            "B": "S = (1; 4)",
+            "C": "S = (-∈fty; 1] \\cup [4; +∈fty)",
+            "D": "S = [-4; -1]"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tập nghiệm của bất phương trình bậc hai "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 5x + 4 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = [1; 4]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (1; 4)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 1] "
+              },
+              {
+                "t": "math",
+                "v": "\\cup"
+              },
+              {
+                "t": "txt",
+                "v": " [4; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = [-4; -1]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tập nghiệm của bất phương trình bậc hai x$^2$ - 5x + 4 $\\le$ 0 là",
+            "choices": {
+              "A": "S = [1; 4]",
+              "B": "S = (1; 4)",
+              "C": "S = (-$\\infty$; 1] $\\cup$ [4; +$\\infty$)",
+              "D": "S = [-4; -1]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-22",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương VI (Hàm số, đồ thị và ứng dụng) để giải bài toán: Tập xác định của hàm số y = \\sqrt{x - 2} + 1/(x - 6) là",
+          "choices": {
+            "A": "[2; +∈fty) ∖{} {6}",
+            "B": "[2; 6]",
+            "C": "(2; 6)",
+            "D": "\\mathbb{R} ∖{} {2; 6}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương VI (Hàm số, đồ thị và ứng dụng) để giải bài toán: Tập xác định của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x - 2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/(x - 6) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "[2; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ") ∖{} {6}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "[2; 6]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(2; 6)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {2; 6}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương VI (Hàm số, đồ thị và ứng dụng) để giải bài toán: Tập xác định của hàm số y = $\\sqrt{x - 2}$ + 1/(x - 6) là",
+            "choices": {
+              "A": "[2; +$\\infty$) ∖{} {6}",
+              "B": "[2; 6]",
+              "C": "(2; 6)",
+              "D": "$\\mathbb{R}$ ∖{} {2; 6}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-23",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương VI: Tổng các nghiệm thực của phương trình chứa căn \\sqrt{x^2 + 9} = \\sqrt{2x + 12} bằng. Kết quả thu được là",
+          "choices": {
+            "A": "-2",
+            "B": "3",
+            "C": "2",
+            "D": "4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương VI: Tổng các nghiệm thực của phương trình chứa căn "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x^2 + 9}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{2x + 12}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương VI: Tổng các nghiệm thực của phương trình chứa căn $\\sqrt{x^2 + 9}$ = $\\sqrt{2x + 12}$ bằng. Kết quả thu được là",
+            "choices": {
+              "A": "-2",
+              "B": "3",
+              "C": "2",
+              "D": "4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-24",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Tập nghiệm của bất phương trình bậc hai x^{2} - 11x + 28 ≤ 0 là. Đáp án đúng là",
+          "choices": {
+            "A": "S = [4; 7]",
+            "B": "S = (-∈fty; 4] \\cup [7; +∈fty)",
+            "C": "S = (4; 7)",
+            "D": "S = [-7; -4]"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Tập nghiệm của bất phương trình bậc hai "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 11x + 28 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0 là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = [4; 7]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 4] "
+              },
+              {
+                "t": "math",
+                "v": "\\cup"
+              },
+              {
+                "t": "txt",
+                "v": " [7; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (4; 7)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = [-7; -4]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Tập nghiệm của bất phương trình bậc hai x$^2$ - 11x + 28 $\\le$ 0 là. Đáp án đúng là",
+            "choices": {
+              "A": "S = [4; 7]",
+              "B": "S = (-$\\infty$; 4] $\\cup$ [7; +$\\infty$)",
+              "C": "S = (4; 7)",
+              "D": "S = [-7; -4]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-25",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương VI, hãy xác định: Tập xác định của hàm số y = \\sqrt{x - 5} + 1/(x - 9) là",
+          "choices": {
+            "A": "[5; 9]",
+            "B": "(5; 9)",
+            "C": "\\mathbb{R} ∖{} {5; 9}",
+            "D": "[5; +∈fty) ∖{} {9}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương VI, hãy xác định: Tập xác định của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x - 5}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/(x - 9) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "[5; 9]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(5; 9)"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {5; 9}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "[5; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ") ∖{} {9}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương VI, hãy xác định: Tập xác định của hàm số y = $\\sqrt{x - 5}$ + 1/(x - 9) là",
+            "choices": {
+              "A": "[5; 9]",
+              "B": "(5; 9)",
+              "C": "$\\mathbb{R}$ ∖{} {5; 9}",
+              "D": "[5; +$\\infty$) ∖{} {9}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-26",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Tổng các nghiệm thực của phương trình chứa căn \\sqrt{x^2 + 15} = \\sqrt{2x + 18} bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "2",
+            "D": "-2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Tổng các nghiệm thực của phương trình chứa căn "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x^2 + 15}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{2x + 18}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Tổng các nghiệm thực của phương trình chứa căn $\\sqrt{x^2 + 15}$ = $\\sqrt{2x + 18}$ bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "3",
+              "B": "4",
+              "C": "2",
+              "D": "-2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-27",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương VI vào bài tập sau: Tập nghiệm của bất phương trình bậc hai x^{2} - 17x + 70 ≤ 0 là",
+          "choices": {
+            "A": "S = (-∈fty; 7] \\cup [10; +∈fty)",
+            "B": "S = (7; 10)",
+            "C": "S = [7; 10]",
+            "D": "S = [-10; -7]"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương VI vào bài tập sau: Tập nghiệm của bất phương trình bậc hai "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 17x + 70 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 7] "
+              },
+              {
+                "t": "math",
+                "v": "\\cup"
+              },
+              {
+                "t": "txt",
+                "v": " [10; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (7; 10)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = [7; 10]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = [-10; -7]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương VI vào bài tập sau: Tập nghiệm của bất phương trình bậc hai x$^2$ - 17x + 70 $\\le$ 0 là",
+            "choices": {
+              "A": "S = (-$\\infty$; 7] $\\cup$ [10; +$\\infty$)",
+              "B": "S = (7; 10)",
+              "C": "S = [7; 10]",
+              "D": "S = [-10; -7]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-28",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tập xác định của hàm số y = \\sqrt{x - 8} + 1/(x - 12) là",
+          "choices": {
+            "A": "[8; 12]",
+            "B": "\\mathbb{R} ∖{} {8; 12}",
+            "C": "[8; +∈fty) ∖{} {12}",
+            "D": "(8; 12)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tập xác định của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x - 8}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/(x - 12) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "[8; 12]"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {8; 12}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "[8; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ") ∖{} {12}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(8; 12)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tập xác định của hàm số y = $\\sqrt{x - 8}$ + 1/(x - 12) là",
+            "choices": {
+              "A": "[8; 12]",
+              "B": "$\\mathbb{R}$ ∖{} {8; 12}",
+              "C": "[8; +$\\infty$) ∖{} {12}",
+              "D": "(8; 12)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-29",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Hàm số, đồ thị và ứng dụng): Tổng các nghiệm thực của phương trình chứa căn \\sqrt{x^2 + 21} = \\sqrt{2x + 24} bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "4",
+            "B": "-2",
+            "C": "2",
+            "D": "3"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Hàm số, đồ thị và ứng dụng): Tổng các nghiệm thực của phương trình chứa căn "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x^2 + 21}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{2x + 24}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Hàm số, đồ thị và ứng dụng): Tổng các nghiệm thực của phương trình chứa căn $\\sqrt{x^2 + 21}$ = $\\sqrt{2x + 24}$ bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "4",
+              "B": "-2",
+              "C": "2",
+              "D": "3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-30",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương VI, hãy tìm kết quả của bài toán: Tập nghiệm của bất phương trình bậc hai x^{2} - 23x + 130 ≤ 0 là",
+          "choices": {
+            "A": "S = [-13; -10]",
+            "B": "S = (10; 13)",
+            "C": "S = (-∈fty; 10] \\cup [13; +∈fty)",
+            "D": "S = [10; 13]"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương VI, hãy tìm kết quả của bài toán: Tập nghiệm của bất phương trình bậc hai "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 23x + 130 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = [-13; -10]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (10; 13)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 10] "
+              },
+              {
+                "t": "math",
+                "v": "\\cup"
+              },
+              {
+                "t": "txt",
+                "v": " [13; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = [10; 13]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương VI, hãy tìm kết quả của bài toán: Tập nghiệm của bất phương trình bậc hai x$^2$ - 23x + 130 $\\le$ 0 là",
+            "choices": {
+              "A": "S = [-13; -10]",
+              "B": "S = (10; 13)",
+              "C": "S = (-$\\infty$; 10] $\\cup$ [13; +$\\infty$)",
+              "D": "S = [10; 13]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-31",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương VI nêu câu hỏi: Tập xác định của hàm số y = \\sqrt{x - 11} + 1/(x - 15) là. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "(11; 15)",
+            "B": "[11; 15]",
+            "C": "\\mathbb{R} ∖{} {11; 15}",
+            "D": "[11; +∈fty) ∖{} {15}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương VI nêu câu hỏi: Tập xác định của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x - 11}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/(x - 15) là. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(11; 15)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "[11; 15]"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {11; 15}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "[11; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ") ∖{} {15}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương VI nêu câu hỏi: Tập xác định của hàm số y = $\\sqrt{x - 11}$ + 1/(x - 15) là. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "(11; 15)",
+              "B": "[11; 15]",
+              "C": "$\\mathbb{R}$ ∖{} {11; 15}",
+              "D": "[11; +$\\infty$) ∖{} {15}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-32",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Tổng các nghiệm thực của phương trình chứa căn \\sqrt{x^2 + 27} = \\sqrt{2x + 30} bằng",
+          "choices": {
+            "A": "-2",
+            "B": "2",
+            "C": "4",
+            "D": "3"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Tổng các nghiệm thực của phương trình chứa căn "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x^2 + 27}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{2x + 30}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Tổng các nghiệm thực của phương trình chứa căn $\\sqrt{x^2 + 27}$ = $\\sqrt{2x + 30}$ bằng",
+            "choices": {
+              "A": "-2",
+              "B": "2",
+              "C": "4",
+              "D": "3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-33",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VI: Tập nghiệm của bất phương trình bậc hai x^{2} - 29x + 208 ≤ 0 là",
+          "choices": {
+            "A": "S = [13; 16]",
+            "B": "S = [-16; -13]",
+            "C": "S = (13; 16)",
+            "D": "S = (-∈fty; 13] \\cup [16; +∈fty)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VI: Tập nghiệm của bất phương trình bậc hai "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 29x + 208 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = [13; 16]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = [-16; -13]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (13; 16)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 13] "
+              },
+              {
+                "t": "math",
+                "v": "\\cup"
+              },
+              {
+                "t": "txt",
+                "v": " [16; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VI: Tập nghiệm của bất phương trình bậc hai x$^2$ - 29x + 208 $\\le$ 0 là",
+            "choices": {
+              "A": "S = [13; 16]",
+              "B": "S = [-16; -13]",
+              "C": "S = (13; 16)",
+              "D": "S = (-$\\infty$; 13] $\\cup$ [16; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-34",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tập xác định của hàm số y = \\sqrt{x - 14} + 1/(x - 18) là",
+          "choices": {
+            "A": "[14; 18]",
+            "B": "\\mathbb{R} ∖{} {14; 18}",
+            "C": "(14; 18)",
+            "D": "[14; +∈fty) ∖{} {18}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tập xác định của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x - 14}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/(x - 18) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "[14; 18]"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {14; 18}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(14; 18)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "[14; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ") ∖{} {18}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tập xác định của hàm số y = $\\sqrt{x - 14}$ + 1/(x - 18) là",
+            "choices": {
+              "A": "[14; 18]",
+              "B": "$\\mathbb{R}$ ∖{} {14; 18}",
+              "C": "(14; 18)",
+              "D": "[14; +$\\infty$) ∖{} {18}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-35",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương VI, xét bài toán: Tổng các nghiệm thực của phương trình chứa căn \\sqrt{x^2 + 33} = \\sqrt{2x + 36} bằng",
+          "choices": {
+            "A": "4",
+            "B": "3",
+            "C": "-2",
+            "D": "2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương VI, xét bài toán: Tổng các nghiệm thực của phương trình chứa căn "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x^2 + 33}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{2x + 36}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương VI, xét bài toán: Tổng các nghiệm thực của phương trình chứa căn $\\sqrt{x^2 + 33}$ = $\\sqrt{2x + 36}$ bằng",
+            "choices": {
+              "A": "4",
+              "B": "3",
+              "C": "-2",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-36",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Hàm số, đồ thị và ứng dụng): Tập nghiệm của bất phương trình bậc hai x^{2} - 35x + 304 ≤ 0 là. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "S = (-∈fty; 16] \\cup [19; +∈fty)",
+            "B": "S = [-19; -16]",
+            "C": "S = [16; 19]",
+            "D": "S = (16; 19)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Hàm số, đồ thị và ứng dụng): Tập nghiệm của bất phương trình bậc hai "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 35x + 304 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0 là. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 16] "
+              },
+              {
+                "t": "math",
+                "v": "\\cup"
+              },
+              {
+                "t": "txt",
+                "v": " [19; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = [-19; -16]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = [16; 19]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (16; 19)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Hàm số, đồ thị và ứng dụng): Tập nghiệm của bất phương trình bậc hai x$^2$ - 35x + 304 $\\le$ 0 là. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "S = (-$\\infty$; 16] $\\cup$ [19; +$\\infty$)",
+              "B": "S = [-19; -16]",
+              "C": "S = [16; 19]",
+              "D": "S = (16; 19)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-37",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tập xác định của hàm số y = \\sqrt{x - 17} + 1/(x - 21) là",
+          "choices": {
+            "A": "[17; +∈fty) ∖{} {21}",
+            "B": "(17; 21)",
+            "C": "[17; 21]",
+            "D": "\\mathbb{R} ∖{} {17; 21}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tập xác định của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x - 17}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/(x - 21) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "[17; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ") ∖{} {21}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(17; 21)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "[17; 21]"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {17; 21}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tập xác định của hàm số y = $\\sqrt{x - 17}$ + 1/(x - 21) là",
+            "choices": {
+              "A": "[17; +$\\infty$) ∖{} {21}",
+              "B": "(17; 21)",
+              "C": "[17; 21]",
+              "D": "$\\mathbb{R}$ ∖{} {17; 21}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-38",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương VI: Tổng các nghiệm thực của phương trình chứa căn \\sqrt{x^2 + 39} = \\sqrt{2x + 42} bằng. Kết luận đúng là",
+          "choices": {
+            "A": "4",
+            "B": "2",
+            "C": "-2",
+            "D": "3"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương VI: Tổng các nghiệm thực của phương trình chứa căn "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x^2 + 39}"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{2x + 42}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương VI: Tổng các nghiệm thực của phương trình chứa căn $\\sqrt{x^2 + 39}$ = $\\sqrt{2x + 42}$ bằng. Kết luận đúng là",
+            "choices": {
+              "A": "4",
+              "B": "2",
+              "C": "-2",
+              "D": "3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-39",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VI: Tập nghiệm của bất phương trình bậc hai x^{2} - 41x + 418 ≤ 0 là",
+          "choices": {
+            "A": "S = [19; 22]",
+            "B": "S = [-22; -19]",
+            "C": "S = (19; 22)",
+            "D": "S = (-∈fty; 19] \\cup [22; +∈fty)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VI: Tập nghiệm của bất phương trình bậc hai "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 41x + 418 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 0 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = [19; 22]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = [-22; -19]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (19; 22)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 19] "
+              },
+              {
+                "t": "math",
+                "v": "\\cup"
+              },
+              {
+                "t": "txt",
+                "v": " [22; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VI: Tập nghiệm của bất phương trình bậc hai x$^2$ - 41x + 418 $\\le$ 0 là",
+            "choices": {
+              "A": "S = [19; 22]",
+              "B": "S = [-22; -19]",
+              "C": "S = (19; 22)",
+              "D": "S = (-$\\infty$; 19] $\\cup$ [22; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-40",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tập xác định của hàm số y = \\sqrt{x - 20} + 1/(x - 24) là",
+          "choices": {
+            "A": "(20; 24)",
+            "B": "[20; +∈fty) ∖{} {24}",
+            "C": "[20; 24]",
+            "D": "\\mathbb{R} ∖{} {20; 24}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tập xác định của hàm số y = "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x - 20}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/(x - 24) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(20; 24)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "[20; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ") ∖{} {24}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "[20; 24]"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {20; 24}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tập xác định của hàm số y = $\\sqrt{x - 20}$ + 1/(x - 24) là",
+            "choices": {
+              "A": "(20; 24)",
+              "B": "[20; +$\\infty$) ∖{} {24}",
+              "C": "[20; 24]",
+              "D": "$\\mathbb{R}$ ∖{} {20; 24}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-41",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = x^{2} - 2mx + m + 2 luôn dương (f(x) > 0, \\forallx ∈ \\mathbb{R})",
+          "choices": {
+            "A": "-1 < m < 2",
+            "B": "m > 2",
+            "C": "-2 < m < 1",
+            "D": "m ≤ -1 hoặc m ≥ 2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2mx + m + 2 luôn dương (f(x) > 0, "
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ")"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-1 < m < 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m > 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-2 < m < 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -1 hoặc m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = x$^2$ - 2mx + m + 2 luôn dương (f(x) > 0, $\\forall$x $\\in$ $\\mathbb{R}$)",
+            "choices": {
+              "A": "-1 < m < 2",
+              "B": "m > 2",
+              "C": "-2 < m < 1",
+              "D": "m $\\le$ -1 hoặc m $\\ge$ 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-42",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương VI – Hàm số, đồ thị và ứng dụng): Parabol (P): y = ax^{2} + bx + 2 đi qua điểm A(1; 6) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng. Kết quả đúng là",
+          "choices": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "-4"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương VI – Hàm số, đồ thị và ứng dụng): Parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "ax^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + bx + 2 đi qua điểm A(1; 6) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương VI – Hàm số, đồ thị và ứng dụng): Parabol (P): y = ax$^2$ + bx + 2 đi qua điểm A(1; 6) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng. Kết quả đúng là",
+            "choices": {
+              "A": "4",
+              "B": "6",
+              "C": "8",
+              "D": "-4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-43",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương VI để giải bài toán: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = x^{2} - 2mx + m + 2 luôn dương (f(x) > 0, \\forallx ∈ \\mathbb{R})",
+          "choices": {
+            "A": "m > 2",
+            "B": "-2 < m < 1",
+            "C": "m ≤ -1 hoặc m ≥ 2",
+            "D": "-1 < m < 2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương VI để giải bài toán: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2mx + m + 2 luôn dương (f(x) > 0, "
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ")"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m > 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-2 < m < 1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -1 hoặc m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-1 < m < 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương VI để giải bài toán: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = x$^2$ - 2mx + m + 2 luôn dương (f(x) > 0, $\\forall$x $\\in$ $\\mathbb{R}$)",
+            "choices": {
+              "A": "m > 2",
+              "B": "-2 < m < 1",
+              "C": "m $\\le$ -1 hoặc m $\\ge$ 2",
+              "D": "-1 < m < 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-44",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương VI: Parabol (P): y = ax^{2} + bx + 2 đi qua điểm A(1; 8) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng",
+          "choices": {
+            "A": "-6",
+            "B": "6",
+            "C": "12",
+            "D": "8"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương VI: Parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "ax^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + bx + 2 đi qua điểm A(1; 8) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương VI: Parabol (P): y = ax$^2$ + bx + 2 đi qua điểm A(1; 8) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng",
+            "choices": {
+              "A": "-6",
+              "B": "6",
+              "C": "12",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-45",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương VI: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = x^{2} - 2mx + m + 2 luôn dương (f(x) > 0, \\forallx ∈ \\mathbb{R}). Đáp số chính xác là",
+          "choices": {
+            "A": "m > 2",
+            "B": "-1 < m < 2",
+            "C": "-2 < m < 1",
+            "D": "m ≤ -1 hoặc m ≥ 2"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương VI: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2mx + m + 2 luôn dương (f(x) > 0, "
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": "). Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m > 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-1 < m < 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-2 < m < 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -1 hoặc m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương VI: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = x$^2$ - 2mx + m + 2 luôn dương (f(x) > 0, $\\forall$x $\\in$ $\\mathbb{R}$). Đáp số chính xác là",
+            "choices": {
+              "A": "m > 2",
+              "B": "-1 < m < 2",
+              "C": "-2 < m < 1",
+              "D": "m $\\le$ -1 hoặc m $\\ge$ 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-46",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương VI để tìm đáp án cho bài toán: Parabol (P): y = ax^{2} + bx + 2 đi qua điểm A(1; 10) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng",
+          "choices": {
+            "A": "16",
+            "B": "8",
+            "C": "-8",
+            "D": "10"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương VI để tìm đáp án cho bài toán: Parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "ax^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + bx + 2 đi qua điểm A(1; 10) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương VI để tìm đáp án cho bài toán: Parabol (P): y = ax$^2$ + bx + 2 đi qua điểm A(1; 10) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng",
+            "choices": {
+              "A": "16",
+              "B": "8",
+              "C": "-8",
+              "D": "10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-47",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VI: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = x^{2} - 2mx + m + 2 luôn dương (f(x) > 0, \\forallx ∈ \\mathbb{R})",
+          "choices": {
+            "A": "-2 < m < 1",
+            "B": "m ≤ -1 hoặc m ≥ 2",
+            "C": "m > 2",
+            "D": "-1 < m < 2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VI: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2mx + m + 2 luôn dương (f(x) > 0, "
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ")"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-2 < m < 1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -1 hoặc m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m > 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-1 < m < 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VI: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = x$^2$ - 2mx + m + 2 luôn dương (f(x) > 0, $\\forall$x $\\in$ $\\mathbb{R}$)",
+            "choices": {
+              "A": "-2 < m < 1",
+              "B": "m $\\le$ -1 hoặc m $\\ge$ 2",
+              "C": "m > 2",
+              "D": "-1 < m < 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-48",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VI): Parabol (P): y = ax^{2} + bx + 2 đi qua điểm A(1; 12) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng",
+          "choices": {
+            "A": "20",
+            "B": "12",
+            "C": "10",
+            "D": "-10"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VI): Parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "ax^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + bx + 2 đi qua điểm A(1; 12) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VI): Parabol (P): y = ax$^2$ + bx + 2 đi qua điểm A(1; 12) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng",
+            "choices": {
+              "A": "20",
+              "B": "12",
+              "C": "10",
+              "D": "-10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-49",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương VI, hãy giải quyết bài toán: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = x^{2} - 2mx + m + 2 luôn dương (f(x) > 0, \\forallx ∈ \\mathbb{R})",
+          "choices": {
+            "A": "-2 < m < 1",
+            "B": "m ≤ -1 hoặc m ≥ 2",
+            "C": "m > 2",
+            "D": "-1 < m < 2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương VI, hãy giải quyết bài toán: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2mx + m + 2 luôn dương (f(x) > 0, "
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ")"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-2 < m < 1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " -1 hoặc m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m > 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-1 < m < 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương VI, hãy giải quyết bài toán: Tìm tất cả các giá trị của tham số m để tam thức bậc hai f(x) = x$^2$ - 2mx + m + 2 luôn dương (f(x) > 0, $\\forall$x $\\in$ $\\mathbb{R}$)",
+            "choices": {
+              "A": "-2 < m < 1",
+              "B": "m $\\le$ -1 hoặc m $\\ge$ 2",
+              "C": "m > 2",
+              "D": "-1 < m < 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-06-50",
+          "grade": 10,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ, ĐỒ THỊ VÀ ỨNG DỤNG",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương VI: Parabol (P): y = ax^{2} + bx + 2 đi qua điểm A(1; 14) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng. Phương án đúng là",
+          "choices": {
+            "A": "24",
+            "B": "-12",
+            "C": "14",
+            "D": "12"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương VI: Parabol (P): y = "
+            },
+            {
+              "t": "math",
+              "v": "ax^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + bx + 2 đi qua điểm A(1; 14) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương VI: Parabol (P): y = ax$^2$ + bx + 2 đi qua điểm A(1; 14) và có trục đối xứng là đường thẳng x = 1. Giá trị của tổng a + b bằng. Phương án đúng là",
+            "choices": {
+              "A": "24",
+              "B": "-12",
+              "C": "14",
+              "D": "12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

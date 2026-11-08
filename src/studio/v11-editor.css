@@ -1,0 +1,100 @@
+/* MATHVERSE V11: precise multi-object workspaces without any online editor. */
+.labshell-app{--v10-left:242px;--v10-right:285px;--v11-surface:#ffffff;--v11-tint:#edf5f7;--v11-ink:#24475c;--v11-line:#d7e4eb}
+.labshell-app .stage-subhead{display:flex;align-items:center;gap:14px;padding:12px 17px;min-height:76px}
+.labshell-app .stage-subhead>div:first-child{flex:1;min-width:0}
+.labshell-app .stage-main-title{font-size:20px;line-height:1.3;max-width:600px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.labshell-app .stage-eyebrow{font-size:10px;letter-spacing:.065em}
+.labshell-app .stage-tools-top{display:flex!important;align-items:center;justify-content:flex-end!important;gap:5px;flex:0 0 auto;flex-wrap:nowrap!important;max-width:72%;margin:0!important;position:relative}
+.labshell-app .stage-tools-top>.lab-tool-btn{padding:8px 11px!important;font-size:11px!important;white-space:nowrap}
+.labshell-app .mv11-compose-switch{background:#047f79;color:#fff;border:1px solid #047f79;font-weight:800!important;box-shadow:0 2px 6px rgba(0,112,112,.13)}
+.labshell-app .mv11-compose-switch:hover{background:#066b65;color:#fff}
+.labshell-app .mv11-toolbar-more{position:relative;flex-shrink:0}
+.labshell-app .mv11-toolbar-more summary{list-style:none;border:1px solid #d7e5ec;padding:9px 12px;border-radius:9px;background:#f3f8fa;color:#294d64;cursor:pointer;font-size:11px;font-weight:750;white-space:nowrap}
+.labshell-app .mv11-toolbar-more summary::-webkit-details-marker{display:none}
+.labshell-app .mv11-toolbar-more[open] summary{border-color:#198b91;background:#e7f8f5}
+.labshell-app .mv11-toolbar-menu{position:absolute;z-index:25;right:0;top:calc(100% + 8px);width:214px;padding:8px;background:#fff;border:1px solid #d7e5ec;border-radius:15px;box-shadow:0 16px 44px rgba(10,51,74,.2);display:grid;gap:5px}
+.labshell-app .mv11-toolbar-menu .lab-tool-btn{width:100%;text-align:left;justify-content:flex-start;padding:9px 11px;display:block}
+.labshell-app .labshell-inspector{padding:13px 13px 22px}
+.labshell-app .inspector-desc{line-height:1.5;font-size:12px;max-height:80px;overflow:auto}
+.labshell-app .inspector-tab-bar{display:flex;gap:5px;margin:10px 0;padding:4px;background:#ecf3f6;border-radius:11px}
+.labshell-app .inspector-tab-bar button{flex:1;border:0;border-radius:8px;padding:8px 4px;background:transparent;color:#517286;font-size:11px;font-weight:750;cursor:pointer}
+.labshell-app .inspector-tab-bar button.active{color:#fff;background:#0d7d89;box-shadow:0 2px 5px rgba(3,72,91,.12)}
+.labshell-app .labshell-inspector[data-tab=controls] .inspector-formula-box,.labshell-app .labshell-inspector[data-tab=controls] .inspector-curriculum{display:none}
+.labshell-app .labshell-inspector[data-tab=formula] .inspector-controls,.labshell-app .labshell-inspector[data-tab=formula] .inspector-curriculum,.labshell-app .labshell-inspector[data-tab=formula] .inspector-desc{display:none}
+.labshell-app .labshell-inspector[data-tab=info] .inspector-controls,.labshell-app .labshell-inspector[data-tab=info] .inspector-formula-box{display:none}
+.labshell-app.v11-compose .labshell-inspector .inspector-formula-box,.labshell-app.v11-compose .labshell-inspector .inspector-curriculum,.labshell-app.v11-compose .labshell-inspector .inspector-desc,.labshell-app.v11-compose .labshell-inspector .inspector-tab-bar{display:none!important}
+.labshell-app.v11-compose .labshell-inspector .inspector-controls{display:block!important}
+.labshell-app.v11-compose .stage-tools-top>.lab-tool-btn:not(.mv11-compose-switch),.labshell-app.v11-compose .mv11-toolbar-more{display:none!important}
+.labshell-app.v11-compose .v10-viewport-badge,.labshell-app.v11-compose .stage-metrics-strip{display:none!important}
+.labshell-app.v11-compose .stage-viewport-outer{border-radius:12px;margin:5px 9px;min-height:0}
+.labshell-app.v11-compose .stage-viewport{overflow:visible}
+.labshell-app.v11-compose .stage-subhead{min-height:62px;padding:10px 15px}
+.labshell-app.v11-compose .stage-main-title{font-size:20px}
+.labshell-app.v11-compose .inspector-header{margin-bottom:8px}
+.labshell-app.v11-compose .inspector-header h2{font-size:14px}
+.mv11-workspace-shell{height:100%;width:100%;min-height:0;display:flex;flex-direction:column;background:#f8fbfd;font:13px/1.4 Inter,'Segoe UI',system-ui,sans-serif;color:#23485a}
+.mv11-toolstrip{min-height:47px;display:flex;align-items:center;gap:10px;padding:5px 8px;background:#fff;border-bottom:1px solid #dce7ec;flex:0 0 auto;min-width:0}
+.mv11-mode-switch{display:flex;padding:3px;gap:2px;border-radius:9px;background:#eaf2f5;flex-shrink:0}
+.mv11-mode-btn{background:transparent;padding:7px 9px;border:0;border-radius:7px;font:700 11px system-ui;white-space:nowrap;cursor:pointer;color:#507189}
+.mv11-mode-btn.active{background:#0f7d87;color:#fff;box-shadow:0 1px 4px rgba(1,68,83,.18)}
+.mv11-toolgroup{display:flex;gap:4px;flex:1;overflow:auto hidden;scrollbar-width:thin;white-space:nowrap;padding:2px 0}
+.mv11-tool{flex-shrink:0;border:1px solid transparent;border-radius:7px;background:#f0f5f7;color:#2c5467;padding:7px 9px;cursor:pointer;font:650 11px system-ui}
+.mv11-tool:hover,.mv11-mini-btn:hover{border-color:#90c9ce;background:#e4f5f3}
+.mv11-tool.active{background:#d9f3f0;color:#08716d;border-color:#54b9b4}
+.mv11-actiongroup{flex-shrink:0;display:flex;align-items:center;gap:3px}
+.mv11-mini-btn{border:1px solid #dae7ed;border-radius:8px;background:#f7fafb;padding:7px 8px;font:650 11px system-ui;color:#39596b;cursor:pointer;white-space:nowrap}
+.mv11-icon-btn{font-size:16px;padding:5px 9px}
+.mv11-actions-menu{position:relative}
+.mv11-actions-menu summary{list-style:none;border-radius:8px;padding:8px 10px;border:1px solid #cfe1e7;background:#f5f9fb;cursor:pointer;font-weight:700;font-size:11px}
+.mv11-actions-menu summary::-webkit-details-marker{display:none}
+.mv11-dropdown{position:absolute;right:0;top:calc(100% + 6px);z-index:30;display:grid;gap:5px;width:180px;padding:8px;background:#fff;border:1px solid #d9e6eb;border-radius:12px;box-shadow:0 10px 35px rgba(25,65,80,.18)}
+.mv11-dropdown button{text-align:left}
+.mv11-workspace-help{padding:5px 12px;color:#637f90;font-size:10px;border-bottom:1px solid #e1ebf0;background:#f9fbfd;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mv11-workspace-viewport{position:relative;flex:1;min-height:0;overflow:hidden;touch-action:none}
+.mv11-canvas2d,.mv11-canvas3d{display:block;width:100%;height:100%;cursor:crosshair;touch-action:none;outline:none}
+.mv11-scene-foot{display:flex;justify-content:space-between;gap:10px;padding:6px 13px;background:#eff5f7;color:#557182;font-size:10px;border-top:1px solid #dae7eb}
+.mv11-webgl-error{position:absolute;top:40%;left:10%;right:10%;padding:20px;border-radius:12px;background:#fceaea;color:#852a35}
+.mv11-inspector-section{padding:12px 10px;margin:5px 0 10px;border:1px solid #d7e6e9;background:#f8fbfc;border-radius:13px}
+.mv11-inspector-section h3{margin:0 0 10px;font-size:12px;letter-spacing:.02em;color:#24475a}
+.mv11-object-list{display:grid;gap:5px;max-height:218px;overflow:auto}
+.mv11-object-row{display:flex;align-items:center;gap:4px;padding:4px 5px;border:1px solid #e2ecf0;background:#fff;border-radius:9px}
+.mv11-object-row.active{background:#e5f7f4;border-color:#78bfc1}
+.mv11-object-name{font-size:11px;color:#35596a;font-weight:680;background:none;border:0;cursor:pointer;text-align:left;flex:1;min-width:0;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;padding:5px}
+.mv11-object-toggle{border:0;border-radius:6px;background:#f4f8fa;padding:5px;color:#547489;cursor:pointer}
+.mv11-muted{color:#6d8a97;font-size:11px;line-height:1.65}
+.mv11-property-field{display:grid;grid-template-columns:minmax(76px,1fr) minmax(90px,1fr);align-items:center;gap:6px;font-size:11px;margin-bottom:9px;color:#466677}
+.mv11-property-field input{background:#fff;border:1px solid #cedee5;border-radius:8px;min-width:0;width:100%;padding:6px 8px;font:600 11px system-ui;color:#234a59}
+.mv11-property-field input:focus{outline:2px solid #b2e2e2;border-color:#379d9f}
+.mv11-object-metrics{display:grid;grid-template-columns:1fr 1fr;gap:7px;font-weight:700;font-size:11px;color:#137f82;padding:8px 0}
+.mv11-properties-actions{display:flex;gap:7px;padding-top:12px}
+.mv11-properties-actions button{flex:1}
+.labshell-app.theme-dark .mv11-workspace-shell{background:#183448;color:#e4f5f8}
+.labshell-app.theme-dark .mv11-toolstrip,.labshell-app.theme-dark .mv11-workspace-help{background:#244456;color:#d6e8ef;border-color:#436778}
+.labshell-app.theme-dark .mv11-tool,.labshell-app.theme-dark .mv11-mini-btn,.labshell-app.theme-dark .mv11-actions-menu summary{background:#2b4c5e;border-color:#517286;color:#edfaff}
+.labshell-app.theme-dark .mv11-dropdown{background:#244456;border-color:#496b7b}
+.labshell-app.theme-dark .mv11-inspector-section,.labshell-app.theme-dark .mv11-object-row{background:#2a4554;border-color:#49697b;color:#e9f4fa}
+.labshell-app.theme-dark .mv11-object-name{color:#e5f5f9}
+.labshell-app.theme-dark .mv11-property-field input{background:#34566b;border-color:#52798a;color:#fff}
+@media(max-width:1450px){
+ .labshell-app .stage-tools-top{max-width:66%}
+ .labshell-app .stage-tools-top>.lab-tool-btn{padding:7px 8px!important}
+ .mv11-toolstrip{flex-wrap:wrap;gap:4px}.mv11-toolgroup{order:3;flex-basis:100%;max-width:100%;padding:2px}
+}
+@media(max-width:1050px){
+ .labshell-app .stage-subhead{display:flex}.labshell-app .stage-main-title{font-size:16px}.labshell-app .stage-eyebrow{display:none}
+ .labshell-app .stage-tools-top{max-width:72%}
+ .labshell-app .stage-tools-top #lab-btn-tool-edit,.labshell-app .stage-tools-top #lab-btn-tool-orbit{display:none}
+ .labshell-app .inspector-tab-bar button{font-size:10px}
+}
+@media(max-width:780px){
+ .labshell-app .stage-tools-top{flex-wrap:wrap!important;max-width:100%}.labshell-app .stage-subhead{display:block}
+ .labshell-app .stage-subhead>.stage-tools-top{margin-top:8px!important}
+ .labshell-app.v11-compose .labshell-stage-wrap{min-height:530px}
+ .mv11-workspace-viewport{min-height:240px}.mv11-scene-foot{font-size:9px}
+ .mv11-workspace-help{white-space:normal}
+}
+@media(prefers-reduced-motion:reduce){.mv11-tool,.mv11-mini-btn{transition:none}}
+
+.mv11-saved-scenes{max-width:155px;min-width:100px;border:1px solid #d1e0e7;background:#fff;border-radius:9px;color:#335668;font:650 11px system-ui;padding:7px;cursor:pointer}
+.labshell-app.theme-dark .mv11-saved-scenes{background:#244455;border-color:#517184;color:#fff}
+@media(max-width:1230px){.mv11-saved-scenes{max-width:120px}.mv11-actiongroup>.mv11-mini-btn:not(.mv11-icon-btn){display:none}}

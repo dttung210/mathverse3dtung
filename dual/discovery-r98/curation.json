@@ -1,0 +1,48 @@
+{
+  "version": 98,
+  "assets": [
+    {
+      "id": "unesco_parthenon",
+      "name": "Đền Parthenon",
+      "whcId": 404,
+      "status": "approved",
+      "approvedAt": "2026-11-06T14:52:58.349Z",
+      "glb": {
+        "url": "/dual/discovery-r98/assets/unesco_parthenon_glb.glb",
+        "hash": "e4b5091373259e067373630a3af4828c799e6cb3677dc2b28ac88c31b322562d",
+        "size": 26462232,
+        "ext": "glb",
+        "triangles": 450305,
+        "images": 2,
+        "materials": 2,
+        "meshes": 8,
+        "extensionsRequired": []
+      },
+      "photo": {
+        "url": "/dual/discovery-r98/assets/unesco_parthenon_photo.jpg",
+        "hash": "45cc6286001c9772cb6d914aa85c68bb8c225f6dde7d2ba9546bd4887c3afa9a",
+        "size": 346877,
+        "ext": "jpg"
+      },
+      "review": {
+        "modelAuthor": "Nick G. Gizelis (aumakua)",
+        "photoAuthor": "DJDunsie",
+        "reviewer": "Giáo viên Toán & Kỹ sư QA MATHVERSE R98",
+        "modelLicense": "CC BY 4.0",
+        "photoLicense": "CC BY 3.0",
+        "modelSource": "https://zenodo.org/records/10319004",
+        "photoSource": "https://commons.wikimedia.org/wiki/File:Parthenon,_Athens,_Greece.jpg",
+        "comparisonSource": "https://whc.unesco.org/en/list/404/",
+        "modelMethod": "photogrammetry",
+        "notes": "Bản quét quang trắc từ video drone (450.305 tam giác, 2 texture) khớp hiện trạng Đền Parthenon trên đồi Acropolis; có nền đồi bao quanh, chưa có chứng nhận sai số đo đạc trắc địa.",
+        "checks": {
+          "compareIdentity": true,
+          "comparePhoto": true,
+          "compareDimensions": true,
+          "compareLicense": true
+        },
+        "accuracyLevel": "reviewed_visual_not_metrically_certified"
+      }
+    }
+  ]
+}

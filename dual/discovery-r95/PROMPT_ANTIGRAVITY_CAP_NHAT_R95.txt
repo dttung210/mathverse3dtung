@@ -1,0 +1,34 @@
+BẠN LÀ KỸ SƯ THREE.JS/WEBGL, CHUYÊN GIA KIỂM ĐỊNH HÌNH HỌC TOÁN 6–12 VÀ THIẾT KẾ BẢO TÀNG ẢO.
+
+HÃY TRIỂN KHAI NGAY BỘ CẬP NHẬT “MATHVERSE DISCOVERY R95” TRỰC TIẾP VÀO DỰ ÁN MATHVERSE R92 + DISCOVERY R93 ĐANG MỞ TRONG ANTIGRAVITY IDE. KHÔNG CHỈ PHÂN TÍCH HOẶC ĐỀ XUẤT; HÃY THỰC SỰ CHỈNH SỬA, KIỂM THỬ VÀ BÁO CÁO. Người dùng không biết lập trình nên bạn chịu trách nhiệm hoàn thành từng bước.
+
+I. BẢO TOÀN TUYỆT ĐỐI DỰ ÁN GỐC
+- Kiểm tra đúng thư mục có `package.json`, `dual/app.mjs`, `dual/discovery-world.mjs`. Không tạo MATHVERSE mới, không đổi tên hay thay thế ứng dụng bằng bản demo. Không xóa một tệp nào của SGK Toán 6–12, 310 mô hình, Lab, Museum, Công viên, ngân hàng câu hỏi, nhân vật, hoạt cảnh, giao diện hoặc bản đồ chung.
+- Trước khi sửa: lập danh sách SHA-256 và bản sao lưu độc lập cho từng tệp cần can thiệp; chạy test baseline, ghi rõ các lỗi đã tồn tại. Không sửa dữ liệu để ép kiểm thử checksum di sản đạt.
+- R95 là GÓI BỔ SUNG, đặt trong `DISCOVERY_R95_ADDON/`. Nếu chưa có thư mục này, hãy sao chép `ADDON_DISCOVERY_R95/` từ bộ KIT đã giải nén vào đúng thư mục gốc, không ghi đè tệp khác. Nếu đã có R94, giữ R94 và hợp nhất an toàn, không thay thế.
+- Đọc thật kỹ các tệp ngay trong dự án: `DISCOVERY_R95_ADDON/00_README_CO_R95.md`, `DISCOVERY_R95_ADDON/docs/THIET_KE_LAI_2_PHONG_R95.md`, `DISCOVERY_R95_ADDON/docs/NGHIEM_THU_ANTIGRAVITY_R95.md`, `DISCOVERY_R95_ADDON/docs/THONG_SO_TRiEN_KHAI_R95_CHO_AGENT.txt` và các JSON trong `DISCOVERY_R95_ADDON/data/`.
+
+II. TÁI CẤU TRÚC KIẾN TRÚC VÀ TRẢI NGHIỆM — VẪN CHỈ HAI PHÒNG
+- Giữ nguyên Discovery là công trình riêng thứ tư, nằm cạnh Museum, Lab, Công viên. Nâng cấp mặt tiền và sảnh bằng vật liệu xanh navy, teal, vàng đồng, đèn trưng bày, biển chỉ đường rõ nét, kiến trúc không bị camera xuyên hoặc che quả địa cầu. Giữ điều khiển nhân vật, đi lại, phím E và chuột.
+- PHÒNG A: một quả địa cầu 3D thực sự tương tác; bổ sung **32 địa danh mới** vào danh sách hiện có. Có tìm kiếm tiếng Việt không dấu, lọc châu lục/khối lớp, marker, tên địa danh, tọa độ, quốc gia, thông tin lịch sử có nguồn, ảnh thực tế được cấp phép (khi đã duyệt) và hình học 2D/3D gắn đúng địa danh. Bấm marker hoặc danh sách mở nội dung tương ứng; có nút trở về địa cầu và reset camera.
+- PHÒNG B: bổ sung **36 chủ đề tranh mới**, chia 6 bộ sưu tập: Hình phẳng quanh em; Khối hình đời thường; Đối xứng và hoa văn; Số học và tập hợp; Đo lường và tỉ lệ; Thống kê và xác suất. Dùng tối đa 8 khung ảnh 3D trong cùng một phòng; đổi bộ sưu tập thì đổi texture và dữ liệu tương tác, KHÔNG dựng 36 khung vật lý cùng lúc. Chạm hoặc nhấn E để mở hình thực tế, sơ đồ hình học 2D, công thức LaTeX và GLB 3D nếu phù hợp.
+- THÊM LỐI VÀO TRUY CẬP NHANH: đặt mục “Địa cầu & Triển lãm Hình học” trong hệ thống **Truy cập nhanh Bảo tàng** đang có. Nếu đã có mục Discovery thì chỉ cập nhật đường dẫn và nhãn; không tạo nút trùng, không phá vỡ Truy cập nhanh cũ.
+
+III. CHẤT LƯỢNG HÌNH TOÁN HỌC — KHÔNG DÙNG KHỐI SƠ SÀI ĐÓNG GIẢ CÔNG TRÌNH
+- Bộ R95 có 68 SVG 2D và 13 GLB 3D. Hãy nạp tài nguyên từ `DISCOVERY_R95_ADDON/svg/` và `models/`. Kiểm tra phép đối xứng, đồng tâm, elip, góc, số mặt/đỉnh/cạnh, tỷ lệ hình khối, đúng công thức và đối chiếu với kiến thức Toán 6–12. Tách rõ mô hình Toán lý tưởng hóa và bản dựng kiến trúc nguyên trạng.
+- Ví dụ hình học đặc thù: Atomium 9 mặt cầu–20 thanh; Borobudur 5 tầng vuông–3 tầng tròn; Chichén Itzá 9 tầng bậc; Petronas hai hình vuông giao nhau; Colosseum vành elip; Parthenon mô hình dãy cột 8×17; cầu sử dụng các giàn tam giác. Những GLB này là MÔ HÌNH NGUYÊN LÍ, KHÔNG phải bản scan công trình thật. Nếu không có bản thiết kế xác minh, bắt buộc ghi “Mô hình toán học lý tưởng hóa”.
+- KHÔNG dùng ảnh AI giả làm ảnh địa danh thực tế. Tìm ảnh được cấp phép từ Wikimedia Commons/nguồn tin cậy; lưu tác giả, URL nguồn, loại giấy phép, ghi công và điều kiện chia sẻ. Không có ảnh được duyệt thì hiển thị hình SVG kèm thông báo “Đang bổ sung ảnh thực tế có nguồn”. Đối chiếu tọa độ, lịch sử và cấu trúc kiến trúc trước khi công bố. Những bản ghi `publishReady:false` không được mô tả là đã kiểm duyệt.
+- Thêm nội dung theo ID, không đổi ID hoặc ghi đè bản ghi cũ. JSON R95 dùng `title/latitude/longitude`; dữ liệu R93 dùng `name/lat/lng`. Hãy viết adapter thay vì thay đổi API của R93. Tham khảo helper `DISCOVERY_R95_ADDON/ui/catalog-merge-r95.mjs`.
+
+IV. MÃ NGUỒN VÀ GIAO DIỆN PHẢI GẮN VỚI ỨNG DỤNG THẬT
+- Kiểm tra và chỉ sửa ở các điểm nối cần thiết: `dual/discovery-data.mjs`, `dual/discovery-world.mjs`, `dual/discovery-ui.mjs`, `dual/discovery-shapes.mjs`, CSS riêng và nếu cần `dual/index.html`, `dual/app.mjs` để cập nhật Truy cập nhanh. Hạn chế thêm thư viện mới, tái sử dụng Three.js và WebGL renderer hiện tại.
+- Hãy thiết kế lại thẩm mỹ như `docs/THIET_KE_LAI_2_PHONG_R95.md`: phòng có tỷ lệ kiến trúc tốt, ánh sáng nhẹ, khung tranh rõ nét, bảng thông tin không che nhân vật, phân biệt hình thật–hình Toán; tối ưu desktop 1920×1080, 1366×768 và điện thoại 390×844.
+- Tối ưu hiệu năng: lazy-load, texture dùng lại cho tối đa 8 khung, dispose() đúng khi đổi, không tạo thêm renderer hoặc listener rò rỉ, duy trì hệ thống collision và điều hướng gốc.
+
+V. KIỂM THỬ NGHIỆM THU VÀ BÀN GIAO
+- Chạy `node --test DISCOVERY_R95_ADDON/qa/verify_r95.test.mjs` và bộ test hiện có. Xác nhận tăng thêm đúng 32 địa danh, 36 tranh, không mất bản cũ (R93 và R94 nếu có).
+- Mở ứng dụng thực bằng Chrome/Edge qua máy chủ localhost. Kiểm tra WebGL, đi vào công trình, hai phòng, bấm E, chọn marker ở 3 châu lục, tìm kiếm, thay 6 bộ tranh, xoay mô hình GLB, 2D hiển thị đúng, quay về Museum/Lab/Công viên. Chụp ảnh màn hình thật, không chỉ ảnh mockup HTML.
+- Test chuyển tranh 20 lượt và ghi renderer.info.memory; không tăng liên tục do rò rỉ. So sánh SHA-256 trước và sau để chứng minh không mất dữ liệu.
+- Xuất báo cáo TIẾNG VIỆT: (1) tệp thêm/sửa và bản sao lưu; (2) ảnh trước/sau; (3) danh sách địa danh/tranh đã hoạt động và mục chưa kiểm duyệt; (4) kết quả kiểm thử và lỗi còn lại; (5) cơ chế rollback; (6) chỉ tạo ZIP toàn bộ ứng dụng SAU KHI thực sự tích hợp, chạy và nghiệm thu tại máy người dùng.
+
+HÃY BẮT ĐẦU BẰNG KIỂM KÊ + SAO LƯU, SAU ĐÓ THỰC HIỆN TÍCH HỢP VÀ KIỂM THỬ. KHÔNG DỪNG Ở BẢN ĐỀ XUẤT. TRẢ LỜI HOÀN TOÀN BẰNG TIẾNG VIỆT.

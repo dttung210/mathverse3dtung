@@ -1,0 +1,51 @@
+/* MATHVERSE V12 Ultimate Studio: wide drawing canvas, contextual tools and collapsible timeline */
+.labshell-app.v11-compose .stage-viewport-outer{min-height:0;}
+.mv11-workspace-shell{background:#f5f9fc;color:#24455c;}
+.mv11-toolstrip{gap:8px;padding:7px 12px;border-bottom:1px solid #d8e6ee;background:#fff;box-shadow:0 2px 9px rgba(32,75,104,.035);}
+.mv11-mode-switch{background:#e8f2f6;border:1px solid #d8e5ec;padding:3px;}
+.mv11-mode-btn{padding:9px 11px;border-radius:9px;font-size:11.5px;}
+.mv11-toolgroup{align-items:center;scrollbar-width:thin;gap:5px;overflow:visible;}
+.mv11-tool{font-size:11px;padding:9px 11px;border:1px solid #e2edf1;background:#f7fafb;border-radius:9px;}
+.mv11-tool.active{box-shadow:inset 0 0 0 1px #3caca8;}
+.mv11-workspace-help{background:#eaf3f7;color:#3f697e;padding:6px 14px;font-size:10px;letter-spacing:.01em;}
+.mv11-workspace-viewport{background:#f9fcfd;min-height:260px;}
+.mv11-scene-foot{background:#f1f6f9;font-size:10px;}
+.mv11-inspector-section{border:1px solid #d8e7ed;background:#f8fbfd;box-shadow:0 3px 12px rgba(12,57,78,.035);}
+.mv11-inspector-section h3{font-weight:850;}
+.mv12-tool-catalog{position:relative;flex-shrink:0;}
+.mv12-tool-catalog>summary{list-style:none;cursor:pointer;user-select:none;white-space:nowrap;font:700 11px system-ui;padding:9px 10px;background:#eaf7f5;border:1px solid #b6dedd;border-radius:9px;color:#18696e;}
+.mv12-tool-catalog>summary::-webkit-details-marker{display:none}
+.mv12-tool-catalog[open]>summary{background:#0b8d88;color:#fff;}
+.mv12-tool-catalog-grid{display:grid;grid-template-columns:repeat(2,minmax(125px,1fr));gap:6px;position:absolute;top:calc(100% + 8px);left:0;padding:12px;background:#fff;z-index:55;min-width:315px;max-height:330px;overflow:auto;border:1px solid #d5e5ed;box-shadow:0 12px 38px rgba(16,65,85,.21);border-radius:13px;}
+.mv12-tool-catalog-grid button{text-align:left;white-space:normal;}
+.mv12-section-panel{padding:12px 10px;background:#f1f7f8;border:1px solid #bfdde2;border-radius:12px;margin:12px 0;}
+.mv12-section-panel h4{font-size:12px;color:#176a76;margin:0 0 9px;font-weight:830;}
+.mv12-toggle{display:flex;align-items:center;gap:6px;font-size:11px;color:#345d6e;cursor:pointer;}
+.mv12-section-slider{width:100%;accent-color:#0e8987;margin:12px 0 4px;}
+.mv12-section-viz{display:flex;gap:7px;align-items:center;justify-content:center;flex-direction:column;background:#fff;border:1px solid #d5e5e7;padding:6px;border-radius:10px;}
+.mv12-section-viz svg{width:100%;height:100px;display:block;}
+.mv12-section-viz p{margin:0;font-size:11px;font-weight:750;color:#396373;}
+.mv12-derived-note{background:#e6f5f2;border-left:3px solid #10958d;color:#346272;padding:10px;font-size:11px;line-height:1.5;border-radius:6px;}
+.mv12-timeline{background:#fff;border-top:1px solid #d9e7ed;flex:0 0 auto;}
+.mv12-timeline>summary{list-style:none;display:flex;align-items:center;cursor:pointer;min-height:32px;padding:7px 14px;font:750 11px system-ui;color:#486b7d;background:#f1f7f9;}
+.mv12-timeline>summary::after{content:'⌄';margin-left:auto;font-size:18px;color:#7895a3;}
+.mv12-timeline[open]>summary::after{transform:rotate(180deg);}
+.mv12-timeline>summary::-webkit-details-marker{display:none}
+.mv12-timeline-body{padding:9px 12px 10px;display:grid;gap:9px;max-height:170px;overflow:auto;}
+.mv12-timeline-actions{display:flex;align-items:center;gap:7px;flex-wrap:wrap;}
+.mv12-timeline-actions button,.mv12-timeline-actions select{border:1px solid #d7e6e9;padding:7px 10px;background:#fff;border-radius:8px;font:700 11px system-ui;color:#376578;cursor:pointer;}
+.mv12-timeline-actions button:hover{background:#e3f4f2;border-color:#9bcfca;}
+.mv12-timeline-actions button:first-child{background:#eaf6f1;color:#15746b;}
+.mv12-timeline-scrub{display:flex;align-items:center;gap:12px;}
+.mv12-timeline-scrub input{flex:1;accent-color:#0e9995;min-width:80px;}
+.mv12-timeline-scrub span{font:750 10px system-ui;color:#50758a;white-space:nowrap;}
+.mv12-timeline-markers{display:flex;gap:5px;overflow-x:auto;}
+.mv12-timeline-markers button{font-size:10px;padding:4px 8px;border-radius:15px;border:1px solid #b3d4d5;background:#e6f5f3;color:#156e73;cursor:pointer;white-space:nowrap;}
+.labshell-app.theme-dark .mv12-timeline,.labshell-app.theme-dark .mv12-section-viz,.labshell-app.theme-dark .mv12-tool-catalog-grid{background:#244657;color:#dceef4;border-color:#4f7182;}
+.labshell-app.theme-dark .mv12-timeline>summary,.labshell-app.theme-dark .mv11-workspace-shell{background:#18384a;color:#ddf0f5;}
+.labshell-app.theme-dark .mv12-section-panel,.labshell-app.theme-dark .mv12-timeline-body{background:#25485a;color:#e3f6fa;}
+.labshell-app.theme-dark .mv12-tool-catalog>summary{color:#dbf3f2;background:#285b66;border-color:#548c91;}
+@media(max-width:1450px){.mv11-toolstrip{gap:6px}.mv11-toolgroup{flex-basis:auto;max-width:100%;overflow-x:auto;order:initial}.mv11-tool{padding:8px 9px}.mv12-tool-catalog-grid{position:fixed;top:138px;left:35%;}}
+@media(max-width:950px){.mv11-toolstrip{flex-wrap:wrap}.mv11-mode-switch{max-width:100%}.mv11-toolgroup{order:3;flex-basis:100%;overflow-x:auto}.mv12-tool-catalog-grid{left:10%;top:150px;}}
+@media(max-width:700px){.mv12-timeline-actions{overflow-x:auto}.mv12-timeline-body{max-height:200px}.mv12-section-viz svg{height:80px}}
+@media(prefers-reduced-motion:reduce){.mv12-timeline *{transition:none!important;}}

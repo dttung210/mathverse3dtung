@@ -1,0 +1,451 @@
+/* MATHVERSE R6.3 + R7.5: Unified 6–12 warehouse & Canvas-Centric Lab View.
+   Maximizes focus on mathematical visualization, geometric diagrams, and interactive models
+   without losing or altering any features, parameters, or logic. */
+
+.mv-r5-backdrop {
+  padding: 8px;
+}
+.mv-r5-backdrop .mv-r5-window {
+  width: min(1940px, calc(100vw - 16px)) !important;
+  max-width: calc(100vw - 16px) !important;
+  height: calc(100dvh - 16px) !important;
+  max-height: 1080px !important;
+}
+.mv-r5-backdrop .mv-r5-body {
+  grid-template-columns: 210px 226px minmax(0, 1fr) !important;
+  transition: grid-template-columns 0.2s ease;
+}
+.mv-r63-header-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.mv-r63-focus-btn {
+  background: #145e6a;
+  color: #efffff;
+  border: 1px solid #52c8bd;
+  border-radius: 9px;
+  padding: 9px 14px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+.mv-r63-focus-btn:hover,
+.mv-r63-focus-btn:focus-visible {
+  outline: 2px solid #53d3c5;
+  outline-offset: 2px;
+  background: #187984;
+}
+
+/* Stage & Viewport Canvas-Centric Sizing */
+.mv-r5-backdrop .mv-r5-stage {
+  padding: 16px 24px !important;
+  min-width: 0;
+  overflow-y: auto;
+}
+.mv-r5-backdrop .mv-r5-stage-header h2 {
+  font-size: clamp(20px, 1.5vw, 26px);
+  line-height: 1.3;
+}
+
+/* Maximized Viewport Heights */
+.mv-r5-backdrop .mv-r5-viewbox,
+.mv-r5-backdrop .mv-g7-viewport {
+  height: clamp(480px, 68vh, 850px) !important;
+  min-height: 460px;
+  width: 100%;
+}
+.mv-r5-backdrop.mv-r63-focus .mv-r5-viewbox,
+.mv-r5-backdrop.mv-r63-focus .mv-g7-viewport {
+  height: clamp(520px, 72vh, 900px) !important;
+  min-height: 500px;
+}
+.mv-r5-backdrop .mv-g7-net {
+  min-height: 260px;
+}
+
+/* Dual-Grid for 3D + 2D Net Models (Grade 8 pyramids, Grade 11/12) */
+.mv-g7-dual-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 16px !important;
+  width: 100% !important;
+}
+.mv-g7-dual-col {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  min-width: 0 !important;
+}
+.mv-g7-dual-col .mv-g7-viewport,
+.mv-g7-dual-col .mv-g7-net {
+  height: clamp(450px, 64vh, 780px) !important;
+  min-height: 420px !important;
+}
+.mv-g7-dual-badge {
+  font-size: 12px;
+  font-weight: 750;
+  color: #0e7490;
+  padding: 5px 10px;
+  background: #e0f4f7;
+  border-radius: 6px;
+  width: max-content;
+}
+
+/* Stage Title Row & In-Stage Drawer Toggle Button */
+.mv-r11-stage-title-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
+  flex-wrap: wrap !important;
+  margin: 4px 0 12px 0 !important;
+}
+.mv-r11-stage-title-row h2 {
+  margin: 0 !important;
+  flex: 1 1 auto !important;
+  font-size: clamp(20px, 1.6vw, 28px) !important;
+  font-weight: 850 !important;
+  color: #0f2b3c !important;
+}
+.mv-stage-drawer-toggle-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+  padding: 8px 16px !important;
+  font-size: 13px !important;
+  font-weight: 750 !important;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+  transition: all 0.18s cubic-bezier(0.2, 0, 0, 1) !important;
+  white-space: nowrap !important;
+  background: linear-gradient(135deg, #0e7490 0%, #0891b2 100%) !important;
+  color: #ffffff !important;
+  border: 1.5px solid #0891b2 !important;
+  box-shadow: 0 2px 8px rgba(14, 116, 144, 0.25) !important;
+}
+.mv-stage-drawer-toggle-btn:hover {
+  background: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 14px rgba(14, 116, 144, 0.35) !important;
+}
+.mv-stage-drawer-toggle-btn.is-focus-active {
+  background: linear-gradient(135deg, #047857 0%, #059669 100%) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.25) !important;
+}
+.mv-stage-drawer-toggle-btn.is-focus-active:hover {
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%) !important;
+}
+
+/* Floating Glassmorphism Control Dock for Playback & Actions */
+.mv-r5-backdrop .mv-g7-buttons,
+.mv-r5-backdrop .mv-r5-stage-actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  padding: 8px 22px !important;
+  margin: 12px auto 8px auto !important;
+  max-width: max-content !important;
+  background: rgba(240, 249, 252, 0.96) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 1.5px solid #8ecfda !important;
+  border-radius: 999px !important;
+  box-shadow: 0 4px 18px rgba(8, 145, 178, 0.16) !important;
+  z-index: 10 !important;
+}
+.mv-r5-backdrop.mv-theme-dark .mv-g7-buttons,
+.mv-r5-backdrop.mv-theme-dark .mv-r5-stage-actions {
+  background: rgba(13, 30, 45, 0.92) !important;
+  border-color: #2b617b !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35) !important;
+}
+.mv-r5-backdrop .mv-g7-buttons button,
+.mv-r5-backdrop .mv-g7-button,
+.mv-r5-backdrop .mv-r5-action {
+  border-radius: 999px !important;
+  padding: 8px 18px !important;
+  font-size: 13.5px !important;
+  font-weight: 750 !important;
+}
+
+/* Timeline Scrubbing Bar */
+.mv-r5-backdrop .mv-g7-timeline {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 12px !important;
+  max-width: 580px !important;
+  margin: 6px auto 10px auto !important;
+  padding: 6px 18px !important;
+  border-radius: 999px !important;
+  background: rgba(243, 250, 252, 0.85) !important;
+  border: 1px solid #cce5ed !important;
+  box-shadow: 0 2px 8px rgba(8, 145, 178, 0.08) !important;
+}
+.mv-r5-backdrop.mv-theme-dark .mv-g7-timeline {
+  background: rgba(16, 36, 53, 0.85) !important;
+  border-color: #2c5972 !important;
+}
+
+/* Dynamic Values & Formulas Badges */
+.mv-r5-backdrop .mv-r5-values {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+  gap: 10px !important;
+  margin: 10px 0 !important;
+}
+.mv-r5-backdrop .mv-r5-value {
+  flex: 0 1 auto !important;
+  min-width: 130px !important;
+  text-align: center !important;
+  display: inline-flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 8px 16px !important;
+  border-radius: 12px !important;
+}
+
+/* Pedagogical Status / Takeaway Banner */
+.mv-r5-backdrop .mv-g7-status {
+  text-align: center !important;
+  margin: 10px auto !important;
+  max-width: 960px !important;
+  border-radius: 12px !important;
+}
+
+/* Sleek Parameters Grid */
+.mv-r5-backdrop .mv-r5-params {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  gap: 12px !important;
+  padding: 12px 18px !important;
+  margin: 10px 0 !important;
+  border-radius: 12px !important;
+}
+
+/* Sidebar List Styling */
+.mv-r5-backdrop .mv-r5-family strong,
+.mv-r5-backdrop .mv-r5-case strong {
+  font-size: 13px;
+}
+.mv-r5-backdrop .mv-r5-family small,
+.mv-r5-backdrop .mv-r5-case small {
+  font-size: 11px;
+}
+.mv-r5-backdrop .mv-r5-grades {
+  min-width: 0;
+}
+.mv-r5-backdrop .mv-r5-grade {
+  font-weight: 700;
+}
+
+/* Full Focus Presentation Mode: Maximize Drawing Area */
+.mv-r5-backdrop.mv-r63-focus .mv-r5-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) !important;
+}
+.mv-r5-backdrop.mv-r63-focus .mv-r5-families,
+.mv-r5-backdrop.mv-r63-focus .mv-r5-cases {
+  display: none !important;
+}
+.mv-r5-backdrop.mv-r63-focus .mv-r5-stage {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 18px 32px !important;
+}
+
+.mv-r63-room-context {
+  margin: 0 0 10px;
+  background: #142d40;
+  border: 1px solid #365569;
+  padding: 9px 12px;
+  border-radius: 10px;
+  color: #d6b47c;
+  font-weight: 650;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.mv-r63-math6-area {
+  min-width: 0;
+}
+.mv-r63-math6-view {
+  height: clamp(480px, 70vh, 850px);
+  min-height: 460px;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid #6ca8ad77;
+  border-radius: 16px;
+  background: #edf6f8;
+  box-shadow: 0 10px 28px #0002;
+}
+.mv-r63-math6-view .math6-exhibit-lab {
+  height: 100%;
+  font-size: 13px;
+  min-height: 0;
+}
+.mv-r63-math6-view .math6-display {
+  min-height: 260px;
+  flex: 1 1 auto;
+  background: #102638;
+}
+.mv-r63-math6-view .math6-display canvas {
+  touch-action: none;
+  object-fit: contain;
+}
+.mv-r63-math6-view .math6-portal-heading {
+  padding: 10px 12px;
+}
+.mv-r63-math6-view .math6-context {
+  font-size: 12px;
+}
+.mv-r63-math6-view .math6-motion {
+  max-height: 220px;
+  overflow: auto;
+}
+.mv-r63-math6-view .math6-motion-range input {
+  min-width: 120px;
+}
+.mv-r63-math6-view button,
+.mv-r63-math6-view select {
+  font-size: 12px;
+}
+.mv-r63-math6-inspector {
+  margin-top: 12px;
+  border-radius: 12px;
+  border: 1px solid #47858d55;
+  background: #f6fbfc;
+  color: #214456;
+  overflow: hidden;
+}
+.mv-r63-math6-inspector > summary {
+  font-weight: 750;
+  font-size: 14px;
+  padding: 12px 16px;
+  cursor: pointer;
+  color: #0a5f69;
+  background: #e7f5f5;
+}
+.mv-r63-math6-controls {
+  padding: 16px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+.mv-r63-math6-controls .math6-param-row {
+  min-width: 200px;
+}
+.mv-r63-math6-controls .math6-parameters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+.mv-r63-math6-controls .math6-controls-title,
+.mv-r63-math6-controls .math6-controls-note,
+.mv-r63-math6-controls .math6-controls-source {
+  grid-column: 1/-1;
+}
+.mv-r63-notice {
+  color: #8d3b2e;
+  background: #fff4ed;
+  padding: 10px;
+  border: 1px solid #daa08b;
+  border-radius: 9px;
+}
+.mv-r5-backdrop .mv-r5-footer {
+  font-size: 12px;
+}
+
+@media (min-width: 1050px) {
+  .labshell-app .stage-viewport-outer {
+    min-height: clamp(420px, 70vh, 880px);
+    margin: 6px 8px 6px;
+  }
+  .labshell-app .labshell-stage-wrap {
+    min-width: 0;
+  }
+  .labshell-app .stage-subhead {
+    padding: 9px 12px;
+    gap: 8px;
+  }
+  .labshell-app .stage-tools-top {
+    gap: 4px;
+  }
+  .labshell-app .lab-tool-btn {
+    font-size: 11px;
+    padding: 6px 8px;
+  }
+}
+@media (min-width: 1800px) {
+  .mv-r5-backdrop .mv-r5-body {
+    grid-template-columns: 235px 255px minmax(0, 1fr) !important;
+  }
+  .mv-r63-math6-view {
+    height: clamp(580px, 72vh, 880px);
+  }
+}
+@media (max-width: 1049px) {
+  .mv-r5-backdrop .mv-r5-body {
+    grid-template-columns: 165px 178px minmax(0, 1fr) !important;
+  }
+  .mv-r5-backdrop .mv-r5-stage {
+    padding: 12px !important;
+  }
+  .mv-r63-math6-view {
+    height: clamp(440px, 65vh, 690px);
+  }
+}
+@media (max-width: 740px) {
+  .mv-r5-backdrop .mv-r5-window {
+    height: calc(100dvh - 8px) !important;
+    width: calc(100vw - 8px) !important;
+    max-width: calc(100vw - 8px) !important;
+  }
+  .mv-r5-backdrop .mv-r5-body {
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: minmax(115px, 24%) minmax(0, 1fr) !important;
+  }
+  .mv-r5-backdrop .mv-r5-stage {
+    grid-column: 1/-1;
+    grid-row: 2;
+    min-height: 0;
+  }
+  .mv-r63-focus-btn {
+    font-size: 11px;
+    padding: 7px 9px;
+  }
+  .mv-r5-backdrop .mv-r5-toolbar {
+    padding: 6px;
+    gap: 6px;
+  }
+  .mv-r63-math6-view {
+    height: max(380px, 56vh);
+    min-height: 380px;
+  }
+  .mv-r5-backdrop .mv-r5-viewbox,
+  .mv-r5-backdrop .mv-g7-viewport {
+    height: 390px !important;
+    min-height: 270px;
+  }
+  .mv-r5-backdrop.mv-r63-focus .mv-r5-stage {
+    grid-row: 1;
+    padding: 9px !important;
+  }
+  .mv-r63-math6-controls {
+    grid-template-columns: 1fr;
+    padding: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mv-r63-focus-btn,
+  .mv-stage-drawer-toggle-btn {
+    transition: none;
+  }
+}

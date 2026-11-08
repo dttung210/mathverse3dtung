@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="vi"><head>
+<script id="mv-gh-pages-shim">
+(function(){
+  var BASE = "/mathverse3dtung";
+  window.__MV_BASE_PATH__ = BASE;
+  var PREFIXES = ["dual/","src/","data/","vendor/","game-park/","museum-assets/","museum-thumbs/","museum-data/","r75/","lab/","api/","granddome/","favicon.svg","health"];
+  function shouldPrefix(u){
+    if(!BASE || typeof u !== 'string') return false;
+    if(!u.startsWith('/') || u.startsWith(BASE + '/') || u.startsWith('//')) return false;
+    var clean = u.slice(1);
+    for(var i = 0; i < PREFIXES.length; i++){
+      if(clean.startsWith(PREFIXES[i]) || clean === 'r75' || clean === 'lab' || clean === 'game-park') return true;
+    }
+    return false;
+  }
+  function mapUrl(u){
+    if(typeof u !== 'string') return u;
+    var origin = window.location && window.location.origin ? window.location.origin : '';
+    var hadOrigin = false;
+    if(origin && u.indexOf(origin + '/') === 0){
+      u = u.slice(origin.length);
+      hadOrigin = true;
+    }
+    var finish = function(res){
+      return (hadOrigin && res.indexOf('/') === 0) ? (origin + res) : res;
+    };
+    var qIdx = u.indexOf('?');
+    var pathOnly = qIdx >= 0 ? u.slice(0, qIdx) : u;
+    var query = qIdx >= 0 ? u.slice(qIdx) : '';
+    var rel = BASE && pathOnly.startsWith(BASE + '/') ? pathOnly.slice(BASE.length) : pathOnly;
+    if(rel === '/api/discovery/r99/photo'){
+      var params = new URLSearchParams(query);
+      var id = params.get('id') || '';
+      return finish((BASE || '') + '/api/discovery/r99/photo/' + encodeURIComponent(id) + '.json');
+    }
+    var mTile = rel.match(/^\/api\/discovery\/r99\/(terrain|satellite)\/(\d+)\/(\d+)\/(\d+)$/);
+    if(mTile){
+      var kind = mTile[1], z = mTile[2], x = mTile[3], y = mTile[4];
+      if(kind === 'terrain') return 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/' + z + '/' + x + '/' + y + '.png';
+      return 'https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless_3857/default/GoogleMapsCompatible/' + z + '/' + y + '/' + x + '.jpg';
+    }
+    var StaticJsonRoutes = {
+      '/health': '/health.json',
+      '/api/health': '/api/health.json',
+      '/granddome/api/museum': '/granddome/api/museum.json',
+      '/api/discovery/r98/catalog': '/api/discovery/r98/catalog.json',
+      '/api/discovery/r99/catalog': '/api/discovery/r99/catalog.json',
+      '/api/discovery/countries': '/api/discovery/countries.json',
+      '/api/discovery/unesco': '/api/discovery/unesco.json'
+    };
+    if(StaticJsonRoutes[rel]){
+      return finish((BASE || '') + StaticJsonRoutes[rel] + query);
+    }
+    if(shouldPrefix(u)){
+      return finish(BASE + u);
+    }
+    return finish(u);
+  }
+  if(window.Request){
+    var OrigRequest = window.Request;
+    window.Request = function(input, init){
+      if(typeof input === 'string') input = mapUrl(input);
+      else if(input && typeof input.url === 'string') input = new OrigRequest(mapUrl(input.url), input);
+      return new OrigRequest(input, init);
+    };
+    window.Request.prototype = OrigRequest.prototype;
+  }
+  var origFetch = window.fetch;
+  if(origFetch){
+    window.fetch = function(input, init){
+      if(typeof input === 'string'){
+        input = mapUrl(input);
+      } else if(input && typeof input.url === 'string'){
+        input = new Request(mapUrl(input.url), input);
+      }
+      return origFetch.call(this, input, init);
+    };
+  }
+  var origOpen = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method, url){
+    var args = Array.prototype.slice.call(arguments);
+    if(typeof url === 'string') args[1] = mapUrl(url);
+    return origOpen.apply(this, args);
+  };
+  if(BASE){
+    [HTMLImageElement, HTMLIFrameElement, HTMLScriptElement, HTMLLinkElement, HTMLAnchorElement, HTMLMediaElement, HTMLSourceElement].forEach(function(Ctor){
+      if(!Ctor || !Ctor.prototype) return;
+      var prop = (Ctor === HTMLLinkElement || Ctor === HTMLAnchorElement) ? 'href' : 'src';
+      var desc = Object.getOwnPropertyDescriptor(Ctor.prototype, prop);
+      if(desc && desc.set){
+        Object.defineProperty(Ctor.prototype, prop, {
+          configurable: true,
+          enumerable: desc.enumerable,
+          get: desc.get,
+          set: function(v){
+            return desc.set.call(this, typeof v === 'string' ? mapUrl(v) : v);
+          }
+        });
+      }
+    });
+    var origSetAttr = Element.prototype.setAttribute;
+    Element.prototype.setAttribute = function(name, value){
+      if((name === 'src' || name === 'href') && typeof value === 'string'){
+        value = mapUrl(value);
+      }
+      return origSetAttr.call(this, name, value);
+    };
+    var origWinOpen = window.open;
+    if(origWinOpen){
+      window.open = function(url){
+        var args = Array.prototype.slice.call(arguments);
+        if(typeof url === 'string') args[0] = mapUrl(url);
+        return origWinOpen.apply(this, args);
+      };
+    }
+  }
+})();
+</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MATHVERSE R98 | Duyệt ảnh và mô hình UNESCO 3D</title><script type="importmap">{"imports":{"three":"/mathverse3dtung/vendor/three.module.js?v=r107_v15"}}</script>
+<style>body{background:#081827;color:#eef6f2;font:16px/1.55 system-ui,Arial;margin:0}header{background:#112d40;padding:24px max(20px,5vw);border-bottom:2px solid #bda36e}main{max-width:1100px;margin:25px auto;padding:0 16px}h1{margin:0;color:#f6d79a}h2{color:#f6d79a}section{padding:22px;margin:22px 0;background:#103047;border:1px solid #406273;border-radius:12px}label{display:block;margin:10px 0;font-weight:600}input,select,textarea{display:block;box-sizing:border-box;width:100%;padding:12px;background:#071c2b;color:#fff;border:1px solid #6a9aa2;border-radius:7px;font:inherit}input[type=checkbox]{display:inline-block;width:20px;vertical-align:middle;margin-right:8px}button,a.action{background:#d3ad6d;color:#0c2334;border:0;padding:12px 16px;border-radius:8px;font-weight:800;cursor:pointer;margin:6px 5px 6px 0}button:disabled{opacity:.5;cursor:not-allowed}.small{font-size:13px;color:#a7c8c7}.warn{border-left:5px solid #e9ba77;padding:12px;background:#302a25}.ok{color:#9ce5bf}.bad{color:#ffb4a9}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}#records article{padding:13px;border-bottom:1px solid #476c79}a{color:#9ed9ef}#status{white-space:pre-line;padding:13px;border:1px solid #628686;border-radius:8px}figure{margin:0}img{max-width:100%;max-height:270px;border-radius:7px}@media(max-width:750px){.grid{grid-template-columns:1fr}}</style></head>
+<body><header><h1>🏛 MATHVERSE R98 – DUYỆT DI SẢN 3D</h1><p>Chỉ hiển thị công trình UNESCO có <strong>ảnh đúng công trình + GLB thực địa + nguồn và giấy phép được kiểm tra</strong>.</p><a href="/">← Về MATHVERSE</a></header><main>
+<p class="warn">Bản này không tự suy diễn kiến trúc từ một ảnh. Kiểm tra tự động chỉ kiểm định GLB đọc được và có đủ độ chi tiết tối thiểu. Cô hoặc người phụ trách phải đối chiếu ảnh, dữ liệu quét và quyền sử dụng trước khi duyệt.</p>
+<section><h2>Bước 1 – Chọn công trình và tải hai tệp vào ứng dụng</h2>
+<label for="site">Công trình UNESCO</label><select id="site"></select>
+<div style="margin:10px 0"><button id="loadParthenonPreset" type="button" style="background:#38ddc7;color:#062030">📥 Nạp ứng viên Parthenon đã tải về máy (Zenodo #10319004 · 450.305 tam giác · CC BY 4.0 + Ảnh Wikimedia CC BY 3.0)</button></div>
+<div class="grid"><div><label for="glb">GLB quang trắc / LiDAR (tối đa 85 MB)</label><input type="file" id="glb" accept=".glb,model/gltf-binary"><button id="uploadGlb">Tải mô hình GLB</button><canvas id="glbPreview" width="520" height="300" style="width:100%;background:#081827;border:1px solid #517887;border-radius:8px;touch-action:none" aria-label="Xem trước GLB 3D trước khi duyệt"></canvas><div id="glbAngles" style="margin-top:6px"><button type="button" data-angle="0" data-tilt="0.18">Mặt đứng</button><button type="button" data-angle="0.68" data-tilt="0.34">Góc chéo</button><button type="button" data-angle="1.57" data-tilt="0.18">Mặt bên</button><button type="button" data-angle="3.14" data-tilt="0.18">Mặt sau</button><button type="button" data-angle="0" data-tilt="0.92">Từ trên</button></div><p id="glbPreviewStatus" class="small">Chọn GLB để xem mô hình có ảnh kết cấu trước khi duyệt.</p></div><div><label for="photo">Ảnh thật của đúng công trình (JPEG, PNG hoặc WebP, tối đa 13 MB)</label><input type="file" id="photo" accept="image/jpeg,image/png,image/webp"><button id="uploadPhoto">Tải ảnh thực tế</button><figure><img id="preview" alt="Xem trước ảnh tải lên" hidden></figure></div></div>
+<p class="small">Đầu vào hợp pháp: bộ GLB được chủ sở hữu cho phép tải, ảnh tư liệu có giấy phép. Không tải ngầm từ Sketchfab khi chưa xác thực.</p></section>
+<section><h2>Bước 2 – Nguồn gốc và kiểm duyệt thủ công</h2><div class="grid">
+<div><label>Tác giả/đơn vị mô hình 3D<input id="modelAuthor" placeholder="Ví dụ: đơn vị quét thực địa"></label><label>Trang nguồn GLB<input id="modelSource" placeholder="https://..."></label><label>Giấy phép GLB<select id="modelLicense"><option value="">Chọn giấy phép</option><option>CC BY 4.0</option><option>CC BY 3.0</option><option>CC BY-SA 4.0</option><option>CC BY-SA 3.0</option><option>CC0 1.0</option><option>Public Domain</option></select></label><label>Phương pháp dựng 3D<select id="modelMethod"><option value="">Chọn phương pháp</option><option value="photogrammetry">Quang trắc từ nhiều ảnh</option><option value="lidar">LiDAR quét hiện trường</option><option value="survey_mesh">Mesh từ dữ liệu đo đạc</option></select></label></div>
+<div><label>Tác giả ảnh thực tế<input id="photoAuthor" placeholder="Tác giả ảnh"></label><label>Trang nguồn ảnh<input id="photoSource" placeholder="https://commons.wikimedia.org/wiki/File:..."></label><label>Giấy phép ảnh<select id="photoLicense"><option value="">Chọn giấy phép</option><option>CC BY 4.0</option><option>CC BY 3.0</option><option>CC BY-SA 4.0</option><option>CC BY-SA 3.0</option><option>CC0 1.0</option><option>Public Domain</option></select></label><label>Nguồn thứ hai để đối chiếu công trình<input id="comparisonSource" placeholder="https://... bản vẽ hoặc ảnh góc khác"></label></div></div>
+<label>Người kiểm duyệt<input id="reviewer" placeholder="Tên người trực tiếp kiểm tra"></label><label>Ghi chú và hạn chế độ chính xác<textarea id="notes" rows="3" placeholder="Ví dụ: chỉ ngoại thất phía Đông, chưa có số liệu đo sai số"></textarea></label>
+<label><input type="checkbox" id="compareIdentity">Đã xác minh đúng công trình UNESCO, không nhầm các hạng mục lân cận.</label>
+<label><input type="checkbox" id="comparePhoto">Đã đối chiếu ảnh thật với GLB ở tối thiểu hai góc nhìn.</label>
+<label><input type="checkbox" id="compareDimensions">Đã rà hình khối, tỷ lệ và xác nhận những phần thiếu hoặc dựng suy đoán.</label>
+<label><input type="checkbox" id="compareLicense">Đã kiểm tra giấy phép ảnh và mô hình, tên tác giả, yêu cầu ghi công.</label>
+<button id="approve">✓ DUYỆT HIỆN VẬT CHO PHÒNG UNESCO, BẢN ĐỒ VÀ ĐỊA CẦU</button>
+<p class="small">Trạng thái duyệt là nghiệm thu nội bộ; không phải chứng nhận sai số đo đạc hoặc được UNESCO chứng nhận mô hình.</p></section>
+<section><h2>Bước 3 – Danh mục đã duyệt</h2><p id="status" role="status">Đang đọc danh mục...</p><div id="records"></div><button id="refresh">↻ Làm mới danh sách</button></section>
+<p><a href="https://zenodo.org/records/10319004" target="_blank" rel="noopener noreferrer">Nguồn ứng viên GLB Parthenon từ Zenodo</a> · <a href="https://openheritage3d.org/" target="_blank" rel="noopener noreferrer">Open Heritage 3D</a> · <a href="https://whc.unesco.org/" target="_blank" rel="noopener noreferrer">UNESCO World Heritage</a></p>
+</main><script type="module" src="./quan-ly.mjs"></script></body></html>

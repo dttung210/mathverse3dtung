@@ -1,0 +1,48 @@
+:host{all:initial; font:14px/1.46 'Segoe UI',Arial,sans-serif;color:#e8f2fc;--bg:#0a1a2b;--card:#142b41;--edge:#2e5068;--gold:#eac682}
+*,*::before,*::after{box-sizing:border-box}
+button,input,a{font:inherit}button{cursor:pointer}
+#exhibition-float-bar{position:fixed;bottom:96px;right:20px;z-index:2147400000;display:flex;gap:8px;flex-wrap:wrap;align-items:center;pointer-events:auto}
+#exhibition-float-bar[hidden],#entrance[hidden],#dialog[hidden]{display:none!important}
+#entrance,.exh-nav-btn{background:linear-gradient(105deg,#8b6a35,#b68a47);color:#fff9e3;border:1px solid #ffdd91;padding:10px 15px;border-radius:40px;box-shadow:0 8px 25px #00132385;font-weight:800;pointer-events:auto;font-size:13px}
+.exh-nav-btn.campus{background:linear-gradient(105deg,#0f52ba,#0284c7);border-color:#7dd3fc;color:#f0f9ff}
+.exh-nav-btn.lab{background:linear-gradient(105deg,#0d6e5b,#10b981);border-color:#6ee7b7;color:#ecfdf5}
+.exh-nav-btn.tts{background:linear-gradient(105deg,#6d28d9,#9333ea);border-color:#d8b4fe;color:#faf5ff}
+#dialog{position:fixed;inset:0;z-index:2147482000;background:#07121be8;display:flex;align-items:center;justify-content:center;padding:18px;pointer-events:auto}
+#window{width:min(1210px,98vw);height:min(840px,96vh);display:flex;flex-direction:column;background:linear-gradient(145deg,#0b2033,#091622);border:1px solid #d6b1737a;border-radius:20px;box-shadow:0 24px 85px #000a;overflow:hidden}
+header{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:16px 20px;background:linear-gradient(110deg,#142d42,#092135)}
+header h2{font-size:20px;color:#ffe6ad;margin:0}header p{font-size:12px;color:#bfd8e8;margin:4px 0 0}
+header button{border:1px solid #657c8e;border-radius:11px;background:#1d3b4c;color:white;padding:9px 14px;font-weight:800}
+#content{display:grid;grid-template-columns:minmax(320px,1.12fr) minmax(380px,1fr);gap:12px;padding:14px;overflow:hidden;flex:1;min-height:0}
+#collection{overflow:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;align-content:start;padding:4px}
+.person{min-height:236px;background:#0f283b;border:1px solid #3b5c73;border-radius:16px;padding:10px;display:flex;align-items:stretch;flex-direction:column;gap:7px;text-align:center;color:#edf5fa}
+.person[aria-pressed=true]{border-color:#f8d594;box-shadow:inset 0 0 0 1px #f8d594}
+.person:hover{background:#174059}
+.person img{display:block;width:100%;height:146px;object-fit:contain;border-radius:10px;background:#17283e}
+.person strong{font-size:13px;line-height:1.2}.person small{font-size:11px;color:#b3cbd6}
+#details{background:#101e30;border:1px solid #294762;border-radius:18px;padding:14px 16px;overflow:auto;min-height:0;display:flex;flex-direction:column;gap:10px}
+#dtitle{font-size:23px;font-weight:800;color:#ffe09c}
+#meta,#workgrade{font-size:12px;color:#a5ccd7}
+#desc,#historical-note{font-size:13px;color:#d8e9f2;line-height:1.55;margin:0}
+#historical-note{background:#1e3040;border-left:3px solid #f4d08c;padding:7px 10px;font-size:12px}
+#diagram{min-height:145px}#diagram svg{width:100%;height:220px;max-height:25vh}
+#formula{font:600 18px/1.5 'Cambria Math','Latin Modern Math','STIX Two Math','Georgia',serif;background:linear-gradient(135deg,#0e263d,#12334f);border:1.5px solid #d9af5b;border-radius:12px;padding:14px 18px;text-align:center;color:#ffe8a3;letter-spacing:0.02em;box-shadow:inset 0 2px 6px rgba(0,0,0,0.35);margin:10px 0}
+.math-frac{display:inline-flex;flex-direction:column;vertical-align:-0.55em;text-align:center;padding:0 0.25em;font-size:0.92em;line-height:1.1}
+.math-frac .num{border-bottom:1.5px solid currentColor;padding-bottom:1px}
+.math-frac .den{padding-top:1px}
+#actions{display:flex;gap:7px;flex-wrap:wrap}#actions button,#actions a{border:1px solid #6c8da1;border-radius:10px;background:#1b4455;color:#e8f8ff;padding:9px 11px;text-decoration:none;font-size:12px;font-weight:700}
+#actions button:focus-visible,#actions a:focus-visible,.person:focus-visible,header button:focus-visible{outline:3px solid #fae1ab;outline-offset:2px}
+#actions button.primary{background:#116879;border-color:#2cb6bb}
+#status{font-size:12px;color:#bdd7e4;min-height:0}#credit{font-size:11px;color:#9fbacb}
+@media(max-width:740px){#dialog{padding:5px}#window{height:99vh;width:99vw;border-radius:10px}#content{display:flex;flex-direction:column;overflow:auto}#collection{max-height:34vh;min-height:225px;grid-template-columns:repeat(3,minmax(0,1fr));overflow:auto}.person{min-height:185px;padding:5px}.person img{height:100px}#details{min-height:560px}header h2{font-size:15px}header{padding:9px}#entrance{bottom:75px;right:8px}}
+
+/* V2: large adjacent portrait + biography + works. */
+.header-actions{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.header-actions button{font-size:12px;padding:8px}
+#person-profile{display:grid;grid-template-columns:minmax(130px,36%) 1fr;gap:13px;border:1px solid #34556b;border-radius:12px;padding:11px;background:#112c3c}
+#detail-image{display:block;width:100%;height:275px;max-height:32vh;object-fit:contain;background:#102334;border:2px solid #bb9558;border-radius:10px}
+.profile-text{overflow:auto;max-height:300px}
+.part-label{font-size:12px;color:#ffe0a4;display:block;margin:0 0 5px}
+#bio{font-size:13px;color:#deebf2;line-height:1.55;margin:0 0 10px}
+#related-works{margin:0;padding-left:19px;font-size:12px;color:#cce0ea}
+#related-works li{margin:5px 0}#related-works strong{color:#fbe2b5}
+@media(max-width:740px){.header-actions{justify-content:stretch}.header-actions button{padding:6px 4px;font-size:11px}#person-profile{grid-template-columns:1fr}#detail-image{height:185px}.profile-text{max-height:none}}

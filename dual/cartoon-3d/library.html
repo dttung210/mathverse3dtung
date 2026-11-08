@@ -1,0 +1,122 @@
+<!doctype html><html lang="vi"><head>
+<script id="mv-gh-pages-shim">
+(function(){
+  var BASE = "/mathverse3dtung";
+  window.__MV_BASE_PATH__ = BASE;
+  var PREFIXES = ["dual/","src/","data/","vendor/","game-park/","museum-assets/","museum-thumbs/","museum-data/","r75/","lab/","api/","granddome/","favicon.svg","health"];
+  function shouldPrefix(u){
+    if(!BASE || typeof u !== 'string') return false;
+    if(!u.startsWith('/') || u.startsWith(BASE + '/') || u.startsWith('//')) return false;
+    var clean = u.slice(1);
+    for(var i = 0; i < PREFIXES.length; i++){
+      if(clean.startsWith(PREFIXES[i]) || clean === 'r75' || clean === 'lab' || clean === 'game-park') return true;
+    }
+    return false;
+  }
+  function mapUrl(u){
+    if(typeof u !== 'string') return u;
+    var origin = window.location && window.location.origin ? window.location.origin : '';
+    var hadOrigin = false;
+    if(origin && u.indexOf(origin + '/') === 0){
+      u = u.slice(origin.length);
+      hadOrigin = true;
+    }
+    var finish = function(res){
+      return (hadOrigin && res.indexOf('/') === 0) ? (origin + res) : res;
+    };
+    var qIdx = u.indexOf('?');
+    var pathOnly = qIdx >= 0 ? u.slice(0, qIdx) : u;
+    var query = qIdx >= 0 ? u.slice(qIdx) : '';
+    var rel = BASE && pathOnly.startsWith(BASE + '/') ? pathOnly.slice(BASE.length) : pathOnly;
+    if(rel === '/api/discovery/r99/photo'){
+      var params = new URLSearchParams(query);
+      var id = params.get('id') || '';
+      return finish((BASE || '') + '/api/discovery/r99/photo/' + encodeURIComponent(id) + '.json');
+    }
+    var mTile = rel.match(/^\/api\/discovery\/r99\/(terrain|satellite)\/(\d+)\/(\d+)\/(\d+)$/);
+    if(mTile){
+      var kind = mTile[1], z = mTile[2], x = mTile[3], y = mTile[4];
+      if(kind === 'terrain') return 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/' + z + '/' + x + '/' + y + '.png';
+      return 'https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless_3857/default/GoogleMapsCompatible/' + z + '/' + y + '/' + x + '.jpg';
+    }
+    var StaticJsonRoutes = {
+      '/health': '/health.json',
+      '/api/health': '/api/health.json',
+      '/granddome/api/museum': '/granddome/api/museum.json',
+      '/api/discovery/r98/catalog': '/api/discovery/r98/catalog.json',
+      '/api/discovery/r99/catalog': '/api/discovery/r99/catalog.json',
+      '/api/discovery/countries': '/api/discovery/countries.json',
+      '/api/discovery/unesco': '/api/discovery/unesco.json'
+    };
+    if(StaticJsonRoutes[rel]){
+      return finish((BASE || '') + StaticJsonRoutes[rel] + query);
+    }
+    if(shouldPrefix(u)){
+      return finish(BASE + u);
+    }
+    return finish(u);
+  }
+  if(window.Request){
+    var OrigRequest = window.Request;
+    window.Request = function(input, init){
+      if(typeof input === 'string') input = mapUrl(input);
+      else if(input && typeof input.url === 'string') input = new OrigRequest(mapUrl(input.url), input);
+      return new OrigRequest(input, init);
+    };
+    window.Request.prototype = OrigRequest.prototype;
+  }
+  var origFetch = window.fetch;
+  if(origFetch){
+    window.fetch = function(input, init){
+      if(typeof input === 'string'){
+        input = mapUrl(input);
+      } else if(input && typeof input.url === 'string'){
+        input = new Request(mapUrl(input.url), input);
+      }
+      return origFetch.call(this, input, init);
+    };
+  }
+  var origOpen = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method, url){
+    var args = Array.prototype.slice.call(arguments);
+    if(typeof url === 'string') args[1] = mapUrl(url);
+    return origOpen.apply(this, args);
+  };
+  if(BASE){
+    [HTMLImageElement, HTMLIFrameElement, HTMLScriptElement, HTMLLinkElement, HTMLAnchorElement, HTMLMediaElement, HTMLSourceElement].forEach(function(Ctor){
+      if(!Ctor || !Ctor.prototype) return;
+      var prop = (Ctor === HTMLLinkElement || Ctor === HTMLAnchorElement) ? 'href' : 'src';
+      var desc = Object.getOwnPropertyDescriptor(Ctor.prototype, prop);
+      if(desc && desc.set){
+        Object.defineProperty(Ctor.prototype, prop, {
+          configurable: true,
+          enumerable: desc.enumerable,
+          get: desc.get,
+          set: function(v){
+            return desc.set.call(this, typeof v === 'string' ? mapUrl(v) : v);
+          }
+        });
+      }
+    });
+    var origSetAttr = Element.prototype.setAttribute;
+    Element.prototype.setAttribute = function(name, value){
+      if((name === 'src' || name === 'href') && typeof value === 'string'){
+        value = mapUrl(value);
+      }
+      return origSetAttr.call(this, name, value);
+    };
+    var origWinOpen = window.open;
+    if(origWinOpen){
+      window.open = function(url){
+        var args = Array.prototype.slice.call(arguments);
+        if(typeof url === 'string') args[0] = mapUrl(url);
+        return origWinOpen.apply(this, args);
+      };
+    }
+  }
+})();
+</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>MATHVERSE — Thư viện Chibi Cartoon 3D</title>
+<style>
+:root{font-family:Arial,system-ui,sans-serif;color:#eaf7ff;background:#0c1b2a}*{box-sizing:border-box}body{margin:0}header{padding:16px 25px;background:#122b43;border-bottom:1px solid #48799a}h1{margin:0 0 7px;font-size:22px;color:#f9dc8d}header p{margin:0;color:#bbd5e8;font-size:13px;line-height:1.5}main{padding:18px;display:grid;grid-template-columns:minmax(250px,1fr) minmax(220px,320px);gap:14px;max-width:1120px;margin:auto}#viewer{width:100%;height:min(64vh,620px);min-height:400px;display:block;border:1px solid #659cba;border-radius:15px;background:radial-gradient(circle at center,#274c68,#0e1e30)}section{background:#152b40;border:1px solid #517892;border-radius:14px;padding:15px}select,button,a.download{background:#1d5073;color:white;padding:12px 13px;border:1px solid #80bfdc;border-radius:8px;font-size:14px;width:100%;display:block;text-decoration:none;cursor:pointer;margin:11px 0}a.download{background:#e1b962;color:#112a3d;font-weight:bold;text-align:center}label{font-size:13px;font-weight:700}#detail{font-size:12px;line-height:1.65;color:#c4deed}footer{margin-top:19px;color:#a9bac8;font-size:12px}@media(max-width:760px){main{grid-template-columns:1fr}#viewer{height:400px}header{padding:12px}}
+</style></head><body><header><h1>🎨 MATHVERSE CARTOON 3D — 22 MÔ HÌNH GLB</h1><p>10 nhân vật Chibi và 12 mô hình kiến trúc 3D nguyên bản. Tất cả các tệp GLB nằm sẵn trong bộ cài và xem được khi chạy máy chủ MATHVERSE. Chọn mô hình để xem xoay 3D, sau đó tải GLB nếu muốn chỉnh sửa trong Antigravity/Blender.</p></header>
+<main><canvas id="viewer" aria-label="Xem mô hình 3D"></canvas><section><label for="asset">Chọn mô hình 3D</label><select id="asset"></select><div id="detail"></div><a id="download" class="download" href="#" download>Tải mô hình GLB</a><button id="reset-camera" type="button">↺ Đặt lại góc nhìn</button><p>🖱 Kéo chuột để xoay mô hình. Cuộn chuột để phóng gần/xa. Những phiên bản kiến trúc có thể chọn trực tiếp trong ứng dụng tại nút <strong>🎨 CHIBI 3D</strong>.</p><footer>Đây là các mô hình 3D tạo mới bằng hình học, không phải tài nguyên tải từ repo GitHub. Các phòng học và mô hình Toán của bản gốc không thay đổi.</footer></section></main><script type="module" src="./library.mjs"></script></body></html>

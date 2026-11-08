@@ -1,0 +1,177 @@
+/* MATHVERSE Geometry Studio Pro: integrated UX, not a static screenshot. */
+:root{--studio-ink:#1b3041;--studio-soft:#f5f8fb;--studio-line:#dce5ed;--studio-blue:#186e9f;--studio-teal:#128b81}
+.labshell-overlay{background:rgba(7,19,29,.9);backdrop-filter:none}
+.labshell-app{grid-template-columns:1fr;grid-template-rows:68px minmax(0,1fr);background:#eef3f7;color:var(--studio-ink);letter-spacing:0}
+.labshell-header{background:#102a3c;border-bottom:1px solid #234253;padding:0 22px;gap:10px}
+.lab-btn-back{background:#e0f4ef!important;color:#174e50!important;border:1px solid #a4ddd0!important;box-shadow:none!important;white-space:nowrap}
+.lab-btn-back:hover{background:#c7e8e0!important}
+.lab-breadcrumb{font-size:11px;color:#8eaabc;max-width:66vw;min-width:0;flex-wrap:wrap;gap:5px;line-height:1.2}
+.lab-breadcrumb strong{font-size:12px;white-space:nowrap;max-width:360px;overflow:hidden;text-overflow:ellipsis}
+.lab-badge{background:#204b5d;color:#b5f0e6;border:1px solid #347b7d}
+.lab-btn{border-color:#355669;background:#193b50;color:#d7e9f1;border-radius:10px;white-space:nowrap}
+.labshell-workspace{grid-template-columns:minmax(258px,282px) minmax(0,1fr) minmax(278px,320px);background:#edf3f7;min-height:0}
+.labshell-app.library-collapsed .labshell-workspace{grid-template-columns:54px minmax(0,1fr) minmax(278px,320px)}
+.labshell-app.inspector-collapsed .labshell-workspace{grid-template-columns:minmax(258px,282px) minmax(0,1fr) 0px}
+.labshell-app.library-collapsed.inspector-collapsed .labshell-workspace{grid-template-columns:54px minmax(0,1fr) 0px}
+.labshell-sidebar{background:#f8fafc;color:#2b465c;border-right:1px solid #dce7ee;transition:background .25s;width:auto!important;min-width:0}
+.sidebar-header{padding:20px 17px 14px;border-bottom:1px solid #e1e9f0}
+.sidebar-title{color:#29485d;letter-spacing:.65px;font-size:11px}
+.sidebar-toggle-btn{color:#50748b;background:#e8f0f5;border:1px solid #d8e5ef;border-radius:9px;width:30px;height:30px}
+.library-modes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:14px 12px 7px;gap:6px}
+.library-mode{border:1px solid #dce6ed;border-radius:9px;background:white;color:#526d81;padding:9px 7px;font-size:11px;font-weight:760;text-align:center;line-height:1.2}
+.library-mode:hover{background:#eef7fa;color:#1a6d88}
+.library-mode.active{color:#087769;background:#e5f6f1;border-color:#93d4c4;box-shadow:inset 0 0 0 1px #b7e1d4}
+.library-count{color:#7a8e9e;padding:4px 15px 9px;font-size:10.5px;line-height:1.35}
+.filter-tabs{background:transparent;border-bottom:1px solid #e2eaf0;padding:8px 12px 10px;gap:5px}
+.filter-tab{border:1px solid transparent;color:#698095;padding:7px 8px;background:#eef3f7;border-radius:8px;font-size:10px}
+.filter-tab.active{background:#123e58;color:#effcfc;border-color:#123e58}
+.sidebar-search-box{padding:11px 12px 7px}
+.sidebar-search-box input{background:white;color:#2b4557;border-color:#d6e4ec;font-size:12px;padding:11px 12px;border-radius:10px;box-shadow:0 2px 4px rgba(16,45,65,.03)}
+.sidebar-model-list{padding:6px 10px 10px;gap:7px;overflow-y:auto}
+.studio-model-row{display:flex;align-items:stretch;gap:4px;min-width:0}
+.studio-model-row.dragging{opacity:.45}
+.model-card-item.studio-model-card{background:white;border:1px solid #e1e9ef;color:#253d50;border-radius:13px;padding:11px 9px;box-shadow:0 2px 7px rgba(29,62,86,.035);flex:1;min-width:0}
+.model-card-item.studio-model-card:hover{background:#f0f9fb;color:#153d52;border-color:#b5d8de}
+.model-card-item.studio-model-card.active{background:#e2f3f1;color:#143e4d;border:1px solid #7ac6bb;box-shadow:inset 3px 0 #0e9d8a}
+.studio-model-card .card-icon{width:35px;height:35px;min-width:35px;font-size:19px;border-radius:10px;background:#eef1fb;color:#5962a4}
+.studio-model-card .card-icon.solid3d{background:#e7f1fa;color:#1b78a1}
+.studio-model-card .card-icon.geometry2d{background:#e4f8f0;color:#148a6e}
+.studio-model-card .card-icon.functiongraph{background:#f4e9fc;color:#8560bb}
+.studio-model-card .card-icon.statisticschart{background:#fff1e3;color:#c58437}
+.studio-model-card .card-title{color:#234155;font-size:12px;white-space:normal;line-height:1.35}
+.studio-model-card .card-sub{color:#7a92a3;white-space:normal;line-height:1.35;margin-top:3px}
+.studio-fav{font-size:19px;align-self:stretch;border:1px solid #e0e9ee;border-radius:10px;background:white;color:#9db0bf;width:29px;flex:0 0 29px}
+.studio-fav:hover,.studio-fav.is-fav{color:#d88c22;background:#fff8ec;border-color:#ead5ae}
+.library-footer-hint{margin:0 12px 14px;padding:12px 13px;background:#e9f3f7;color:#53768a;border-radius:12px;font-size:11px;line-height:1.55}
+.sidebar-empty{color:#657f90}
+.labshell-app.library-collapsed .library-modes,.labshell-app.library-collapsed .library-count,.labshell-app.library-collapsed .library-footer-hint{display:none}
+.labshell-app.library-collapsed .sidebar-header{padding:14px 10px;justify-content:center}
+.labshell-app.library-collapsed .sidebar-toggle-btn{font-size:17px;flex:0 0 32px}
+.labshell-stage-wrap{background:#edf3f7;min-width:0}
+.stage-subhead{padding:16px 20px;gap:12px;align-items:flex-start;background:#fff;border-bottom:1px solid #e0eaf1;flex-wrap:wrap}
+.stage-eyebrow{font-size:10px;color:#12978b;letter-spacing:.9px}
+.stage-main-title{font-size:clamp(17px,1.7vw,23px);letter-spacing:-.5px;color:#1d3546;max-width:720px;line-height:1.26}
+.stage-tools-top{flex-wrap:wrap;gap:6px;justify-content:flex-end;max-width:100%}
+.lab-tool-btn{border-radius:9px;background:#f0f5f8;border-color:#d8e5ec;color:#33536a;font-size:10.5px;padding:9px 11px}
+.lab-tool-btn:hover{background:#e3f3f4;color:#174a5b;border-color:#a0c8d0}
+.lab-tool-btn.active{background:#1e6078;border-color:#1e6078;color:white}
+.lab-tool-btn.primary{background:#137f78;border-color:#137f78;color:white;box-shadow:0 3px 10px rgba(20,127,120,.13)}
+.lab-tool-btn.primary:hover{background:#0b6b64}
+.stage-viewport-outer{margin:12px 15px 7px;border:1px solid #d7e5ee;border-radius:17px;overflow:hidden;box-shadow:0 7px 24px rgba(34,66,86,.06);background:white}
+.stage-viewport{background:#f9fcfd;min-width:0}
+.stage-viewport canvas{touch-action:none}
+.stage-drop-target{position:absolute;inset:12px;z-index:5;border:3px dashed #169f95;border-radius:15px;background:rgba(219,246,241,.90);pointer-events:none;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#126d66;gap:12px;text-align:center}
+.stage-drop-target span{font-size:50px}
+.stage-drop-target b{font-size:21px}
+.stage-drop-target small{font-size:12px}
+.stage-drop-target[hidden]{display:none!important}
+.stage-metrics-strip{background:transparent;border-top:none;padding:7px 17px 4px;gap:8px}
+.metric-strip-card{background:white;border:1px solid #dbe7ef;box-shadow:0 2px 9px rgba(30,65,84,.035);min-width:125px;padding:10px 13px}
+.metric-strip-card .m-label{color:#738ca0}
+.metric-strip-card .m-val{color:#155b79}
+.stage-status{padding:7px 19px 12px;font-size:11px;color:#687f8e;line-height:1.35}
+.labshell-inspector{background:#fff;border-left:1px solid #e0e9ef;padding:20px 18px 26px;overflow-x:hidden;min-width:0}
+.labshell-app.inspector-collapsed .labshell-inspector{display:none}
+.inspector-header{padding-bottom:11px;border-bottom:1px solid #e5edf2;margin-bottom:10px}
+.inspector-header h2{color:#254356}
+.inspector-modality-tag{border-radius:20px}
+.inspector-desc{font-size:12px;color:#668092;line-height:1.65}
+.ctrl-group{padding:12px 12px 13px;background:#fafcfd;border:1px solid #e7eef3;border-radius:13px;margin-bottom:10px}
+.ctrl-group-title{color:#617d91;letter-spacing:.65px}
+.slider-row{margin-bottom:12px}
+.slider-head{font-size:11px}
+.slider-row input[type=range]{accent-color:#168f86}
+.inspector-formula-box{background:#eaf6f5;border-color:#d3e9e4;border-radius:14px;padding:16px}
+.formula-label{color:#18867a}
+.formula-render{color:#173a50}
+.copy-latex-btn{color:#17695f;border-color:#bcded6}
+.inspector-curriculum{background:#f7fafc}
+.labshell-app.projector-mode .labshell-workspace{grid-template-columns:minmax(0,1fr) 340px !important}
+.labshell-app.projector-mode .labshell-sidebar{display:none !important}
+.labshell-app.projector-mode .labshell-stage-wrap{grid-column:1/2 !important;min-width:0 !important;width:100% !important;height:100% !important}
+.labshell-app.projector-mode .labshell-inspector{grid-column:2/3 !important;width:340px !important;background:#102232 !important;color:#e2e8f0 !important;border-left:1px solid rgba(255,255,255,0.1) !important}
+.labshell-app.projector-mode.inspector-collapsed .labshell-workspace{grid-template-columns:minmax(0,1fr) !important}
+.labshell-app.projector-mode.inspector-collapsed .labshell-inspector{display:none !important}
+.labshell-app.projector-mode .stage-subhead{padding:12px 20px;background:#112333 !important;border-bottom:1px solid rgba(255,255,255,0.1) !important}
+.labshell-app.projector-mode .stage-eyebrow{color:#38bdf8 !important;font-size:11px !important}
+.labshell-app.projector-mode .stage-main-title{color:#ffffff !important;font-size:23px !important;max-width:none !important}
+.labshell-app.projector-mode .stage-viewport-outer{background:#0f1d2c !important}
+.labshell-app.projector-mode .inspector-header h2{color:#ffffff !important;font-size:17px !important}
+.labshell-app.projector-mode .ctrl-group-title{color:#38bdf8 !important;font-size:11px !important}
+.labshell-app.projector-mode .slider-head{color:#e2e8f0 !important;font-size:13px !important}
+.labshell-app.projector-mode .slider-head strong{color:#fef08a !important;font-size:14px !important}
+.labshell-app.projector-mode .inspector-formula-box{background:rgba(15,30,45,0.9) !important;border:1px solid rgba(56,189,248,0.3) !important}
+.labshell-app.projector-mode .formula-label{color:#38bdf8 !important;font-size:11px !important}
+.labshell-app.projector-mode .formula-render{color:#fef08a !important;font-size:18px !important;text-shadow:0 0 10px rgba(254,240,138,0.4) !important}
+.labshell-app.theme-dark .labshell-workspace,.labshell-app.theme-dark .labshell-stage-wrap{background:#172a38}
+.labshell-app.theme-dark .stage-subhead,.labshell-app.theme-dark .stage-metrics-strip{background:#203748}
+.labshell-app.theme-dark .stage-main-title{color:#e9f5f9}
+.labshell-app.theme-dark .labshell-sidebar,.labshell-app.theme-dark .labshell-inspector{background:#1b3040;color:#e2eef2;border-color:#395468}
+.labshell-app.theme-dark .sidebar-title,.labshell-app.theme-dark .inspector-header h2{color:#e2eef2}
+.labshell-app.theme-dark .sidebar-header,.labshell-app.theme-dark .inspector-header{border-color:#375269}
+.labshell-app.theme-dark .library-count,.labshell-app.theme-dark .inspector-desc,.labshell-app.theme-dark .stage-status{color:#9bb3c4}
+.labshell-app.theme-dark .library-mode,.labshell-app.theme-dark .studio-fav,.labshell-app.theme-dark .studio-model-card,.labshell-app.theme-dark .ctrl-group{background:#273f50;border-color:#3c5667;color:#e5f5fc}
+.labshell-app.theme-dark .studio-model-card .card-title,.labshell-app.theme-dark .formula-render{color:#f0f9fa}
+.labshell-app.theme-dark .studio-model-card .card-sub{color:#a3b9c4}
+.labshell-app.theme-dark .library-mode.active{background:#165d62;border-color:#309d99}
+.labshell-app.theme-dark .inspector-formula-box{background:#27495a;border-color:#3b6a72}
+.labshell-app.theme-dark .formula-label,.labshell-app.theme-dark .slider-head{color:#d0e2e9}
+.labshell-app.theme-dark .metric-strip-card{background:#244151;border-color:#33576a}
+.labshell-app.theme-dark .metric-strip-card .m-val{color:#b9eeef}
+.labshell-app.theme-dark .sidebar-search-box input{background:#26485b;border-color:#41647a;color:#fff}
+.labshell-app.theme-dark .filter-tab{background:#2a4253;color:#b7d2de}
+.labshell-app.theme-dark .filter-tab.active{background:#127d7b;color:white}
+.labshell-app.theme-dark .inspector-curriculum{background:#234052;border-color:#33546a;color:#b7cbd5}
+.labshell-app.theme-dark .curr-row b{color:white}
+/* world UI refreshed to match the editor, while preserving movement and museum layout */
+.sidebar.glass{background:rgba(12,34,48,.91);border:1px solid rgba(174,219,231,.2);border-radius:22px;box-shadow:0 15px 45px rgba(5,18,27,.26)}
+.topbar.glass{background:rgba(13,34,47,.9);border:1px solid rgba(153,206,217,.2);border-radius:16px}
+.bottom-toolbar.glass{background:rgba(15,37,49,.93);border-color:rgba(172,222,228,.25);box-shadow:0 12px 35px rgba(0,12,22,.34)}
+.minimap-panel.glass{background:rgba(12,34,48,.9);border-color:rgba(161,213,224,.2)}
+.grade-button{border-radius:11px}
+.grade-button.selected{background:rgba(49,174,172,.24);border-color:#5ad8c9}
+.catalog-item:hover{background:rgba(69,198,195,.13)}
+.world-hint.glass{border-color:rgba(115,214,217,.3);background:rgba(10,31,46,.8)}
+@media(max-width:1440px){
+  .labshell-workspace{grid-template-columns:240px minmax(0,1fr) 288px}
+  .labshell-app.library-collapsed .labshell-workspace{grid-template-columns:54px minmax(0,1fr) 288px}
+  .labshell-app.inspector-collapsed .labshell-workspace{grid-template-columns:240px minmax(0,1fr) 0px}
+  .labshell-app.library-collapsed.inspector-collapsed .labshell-workspace{grid-template-columns:54px minmax(0,1fr) 0px}
+  .lab-breadcrumb #lab-crumb-title{max-width:180px}
+}
+@media(max-width:1080px){
+  .labshell-app{grid-template-rows:62px minmax(0,1fr);overflow:hidden}
+  .labshell-workspace{display:grid;grid-template-columns:210px minmax(0,1fr) 250px}
+  .labshell-app.library-collapsed .labshell-workspace{grid-template-columns:54px minmax(0,1fr) 250px}
+  .labshell-app.inspector-collapsed .labshell-workspace{grid-template-columns:210px minmax(0,1fr) 0px}
+  .labshell-app.library-collapsed.inspector-collapsed .labshell-workspace{grid-template-columns:54px minmax(0,1fr) 0px}
+  .labshell-sidebar,.labshell-inspector{height:auto;max-height:none}
+  .lab-breadcrumb{display:none}
+  .stage-tools-top{justify-content:flex-start}
+  .stage-subhead{padding:12px 14px}
+  .lab-tool-btn{padding:7px 9px}
+}
+@media(max-width:720px){
+  .labshell-app{height:100dvh;grid-template-rows:56px minmax(0,1fr)}
+  .labshell-header{padding:0 9px}
+  .labshell-header-left{gap:5px}
+  .labshell-header-right{gap:4px}
+  .labshell-header .lab-btn{font-size:10px;padding:6px 8px}
+  .labshell-header .lab-badge{display:none}
+  .labshell-workspace,.labshell-app.library-collapsed .labshell-workspace,.labshell-app.inspector-collapsed .labshell-workspace,.labshell-app.library-collapsed.inspector-collapsed .labshell-workspace{display:flex;flex-direction:column;overflow-y:auto;min-height:0}
+  .labshell-sidebar{max-height:190px;flex:0 0 auto;overflow:hidden}
+  .labshell-app.library-collapsed .labshell-sidebar{max-height:52px}
+  .labshell-app.inspector-collapsed .labshell-inspector{display:none}
+  .labshell-sidebar .library-footer-hint{display:none}
+  .library-modes{grid-template-columns:repeat(4,minmax(0,1fr));gap:3px;padding:7px}
+  .library-mode{font-size:9px;padding:6px 3px}
+  .labshell-sidebar .sidebar-model-list{min-height:45px}
+  .labshell-stage-wrap{flex:1 0 425px;min-height:425px}
+  .stage-subhead{gap:6px}
+  .stage-viewport-outer{min-height:270px;margin:5px 8px}
+  .stage-metrics-strip{padding:5px 7px}
+  .stage-status{padding:4px 9px;font-size:10px}
+  .labshell-inspector{flex:0 0 auto;min-height:300px;overflow:visible}
+  .studio-fav{width:32px}
+}
+@media(prefers-reduced-motion:reduce){.studio-model-row,.library-mode,.lab-tool-btn{transition:none!important}}

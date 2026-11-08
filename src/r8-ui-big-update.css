@@ -1,0 +1,184 @@
+/* ==========================================================================
+   MATHVERSE R8 – BIG UI UPDATE (visual only, no functional change)
+   Loaded LAST. Goals:
+   1. Free up the 3D view: the in-room panel becomes one slim glass strip.
+   2. Clearer typography and contrast for every HUD text.
+   3. Consistent glass surfaces, focus rings and micro-animations.
+   4. Controls for the new bird's-eye camera ("Trên cao").
+   ========================================================================== */
+html[data-mv-ui="r6-museum"] {
+  --r8-glass: rgba(9, 24, 37, .78);
+  --r8-glass-strong: rgba(8, 21, 33, .92);
+  --r8-line: rgba(120, 214, 206, .22);
+  --r8-line-strong: rgba(120, 230, 216, .55);
+  --r8-aqua: #5fe0cf;
+  --r8-gold: #f3cd86;
+  --r8-text: #eef7f6;
+  --r8-sub: #a9c3c9;
+  --r8-radius: 14px;
+  --r8-font: "Segoe UI", "Be Vietnam Pro", Inter, Roboto, system-ui, sans-serif;
+  --r8-shadow: 0 10px 34px rgba(0, 6, 14, .42), inset 0 1px 0 rgba(255, 255, 255, .05);
+}
+html[data-mv-ui="r6-museum"] body {
+  font-family: var(--r8-font);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---------- 1. Glass surfaces ------------------------------------------- */
+html[data-mv-ui="r6-museum"] .topbar.glass,
+html[data-mv-ui="r6-museum"] .sidebar,
+html[data-mv-ui="r6-museum"] #minimap-panel.minimap-panel,
+html[data-mv-ui="r6-museum"] .bottom-toolbar.glass,
+html[data-mv-ui="r6-museum"] .r6-breadcrumb-bar,
+html[data-mv-ui="r6-museum"] #mv14-portal-hub {
+  background: linear-gradient(180deg, rgba(14, 34, 50, .86), var(--r8-glass)) !important;
+  border: 1px solid var(--r8-line) !important;
+  box-shadow: var(--r8-shadow) !important;
+  backdrop-filter: blur(18px) saturate(1.25) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(1.25) !important;
+}
+
+/* ---------- 2. Slim in-room strip (was a tall 3-row panel) -------------- */
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-hub {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  flex-wrap: nowrap !important;
+  padding: 6px 8px 6px 14px !important;
+  min-height: 0 !important;
+  height: 50px !important;
+  max-height: 50px !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  animation: r8-drop .35s ease both;
+}
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-hub .mv14-portal-heading {
+  display: flex !important; flex-direction: column !important; justify-content: center;
+  gap: 1px; margin: 0 !important; padding: 0 !important; min-width: 0; flex: 1 1 auto;
+  letter-spacing: .4px !important;
+}
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-state {
+  color: var(--r8-gold) !important; font-size: 12.5px !important; font-weight: 800 !important;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-count {
+  color: var(--r8-sub) !important; font-size: 11px !important; font-weight: 600 !important;
+  letter-spacing: 0 !important; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-buttons {
+  flex: 0 0 auto !important; max-height: none !important; margin: 0 !important;
+}
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-buttons .r71-lab-directory {
+  min-height: 34px !important; padding: 6px 14px !important; font-size: 12.5px !important;
+  border-radius: 9px !important;
+}
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside .mv14-portal-actions {
+  flex: 0 0 auto; margin: 0 !important; display: flex; gap: 6px;
+}
+html[data-mv-ui="r6-museum"] body.r6-thematic-inside .mv14-portal-actions button {
+  min-height: 34px; padding: 6px 12px; border-radius: 9px; font-size: 12px; font-weight: 650;
+}
+
+/* ---------- 3. Breadcrumb + top bar typography -------------------------- */
+html[data-mv-ui="r6-museum"] .r6-breadcrumbs { font-size: 13px !important; }
+html[data-mv-ui="r6-museum"] .r6-crumb { transition: color .15s ease; }
+html[data-mv-ui="r6-museum"] .r6-crumb.active { color: var(--r8-gold) !important; font-weight: 750; }
+html[data-mv-ui="r6-museum"] .topbar.glass strong,
+html[data-mv-ui="r6-museum"] #model-title { letter-spacing: .3px; color: var(--r8-text) !important; }
+html[data-mv-ui="r6-museum"] #model-summary { color: var(--r8-sub) !important; font-weight: 600; }
+
+/* ---------- 4. Sidebar readability -------------------------------------- */
+html[data-mv-ui="r6-museum"] .sidebar input[type="search"],
+html[data-mv-ui="r6-museum"] .sidebar input[type="text"] {
+  background: rgba(4, 16, 27, .72) !important; border: 1px solid var(--r8-line) !important;
+  border-radius: 10px !important; color: var(--r8-text) !important; font-size: 13px !important;
+}
+html[data-mv-ui="r6-museum"] .sidebar input:focus {
+  border-color: var(--r8-aqua) !important; outline: 2px solid rgba(95, 224, 207, .35) !important;
+}
+html[data-mv-ui="r6-museum"] .r6-lab-card {
+  border-radius: 12px !important; transition: transform .16s ease, border-color .16s ease, background .16s ease;
+}
+html[data-mv-ui="r6-museum"] .r6-lab-card:hover { transform: translateX(2px); border-color: var(--r8-line-strong) !important; }
+html[data-mv-ui="r6-museum"] .r6-lab-title { font-size: 13px !important; line-height: 1.35 !important; color: var(--r8-text) !important; }
+html[data-mv-ui="r6-museum"] .r6-lab-open-btn {
+  background: linear-gradient(135deg, #138078, #1aa196) !important; font-weight: 700 !important;
+  box-shadow: 0 4px 14px rgba(26, 161, 150, .25);
+}
+
+/* ---------- 5. Bottom dock ---------------------------------------------- */
+html[data-mv-ui="r6-museum"] .bottom-toolbar.glass { border-radius: 16px !important; gap: 6px !important; }
+html[data-mv-ui="r6-museum"] .bottom-toolbar.glass > button,
+html[data-mv-ui="r6-museum"] .bottom-toolbar .dock-grade-btn {
+  font-family: var(--r8-font) !important; font-weight: 650 !important;
+  transition: background .16s ease, border-color .16s ease, transform .12s ease, box-shadow .16s ease !important;
+}
+html[data-mv-ui="r6-museum"] .bottom-toolbar.glass > button:hover,
+html[data-mv-ui="r6-museum"] .bottom-toolbar .dock-grade-btn:hover { transform: translateY(-1px); }
+html[data-mv-ui="r6-museum"] .bottom-toolbar.glass > button:focus-visible,
+html[data-mv-ui="r6-museum"] .bottom-toolbar .dock-grade-btn:focus-visible {
+  outline: 2px solid var(--r8-aqua) !important; outline-offset: 2px;
+}
+html[data-mv-ui="r6-museum"] #btn-view-mode.is-active,
+html[data-mv-ui="r6-museum"] #btn-view-top.is-active {
+  background: linear-gradient(135deg, rgba(23, 125, 118, .95), rgba(18, 96, 112, .95)) !important;
+  border-color: var(--r8-aqua) !important; color: #fff !important;
+  box-shadow: 0 0 0 1px rgba(95, 224, 207, .25), 0 6px 18px rgba(26, 161, 150, .3) !important;
+}
+html[data-mv-ui="r6-museum"] #btn-view-mode:not(.is-active) { opacity: .88; }
+
+/* ---------- 6. World hint ---------------------------------------------- */
+html[data-mv-ui="r6-museum"] .world-hint {
+  font-size: 12.5px !important; font-weight: 600 !important; color: #d7e9ea !important;
+  padding: 8px 20px !important; border-radius: 999px !important;
+  background: var(--r8-glass-strong) !important; border-color: var(--r8-line) !important;
+  letter-spacing: .2px;
+}
+
+/* ---------- 7. Bird's-eye view controls --------------------------------- */
+.r8-top-zoom { display: none; }
+html[data-mv-ui="r6-museum"] body.r8-top-view .r8-top-zoom {
+  position: fixed; right: 18px; top: 50%; transform: translateY(-50%);
+  z-index: 30; display: flex; flex-direction: column; align-items: center; gap: 8px;
+  padding: 10px 8px; border-radius: 16px;
+  background: var(--r8-glass-strong); border: 1px solid var(--r8-line-strong);
+  box-shadow: var(--r8-shadow); backdrop-filter: blur(16px);
+  animation: r8-fade .25s ease both;
+}
+html[data-mv-ui="r6-museum"] .r8-top-zoom-label {
+  writing-mode: vertical-rl; transform: rotate(180deg);
+  font-size: 10.5px; font-weight: 800; letter-spacing: 2px; color: var(--r8-gold);
+  margin-bottom: 4px;
+}
+html[data-mv-ui="r6-museum"] .r8-top-zoom button {
+  width: 38px; height: 38px; border-radius: 11px; cursor: pointer;
+  font: 800 18px/1 var(--r8-font); color: var(--r8-text);
+  background: rgba(20, 70, 82, .85); border: 1px solid var(--r8-line-strong);
+  transition: background .15s ease, transform .1s ease;
+}
+html[data-mv-ui="r6-museum"] .r8-top-zoom button:hover { background: #178079; transform: scale(1.05); }
+html[data-mv-ui="r6-museum"] .r8-top-zoom button:focus-visible { outline: 2px solid var(--r8-aqua); outline-offset: 2px; }
+html[data-mv-ui="r6-museum"] .r8-top-zoom #r8-top-exit { font-size: 14px; background: rgba(90, 40, 46, .75); }
+html[data-mv-ui="r6-museum"] body.r8-top-view .center-crosshair { display: none !important; }
+html[data-mv-ui="r6-museum"] body.r8-top-view #world-hint::after {
+  content: " · 🛰 Trên cao: lăn chuột đổi độ cao, T để thoát";
+  color: var(--r8-gold);
+}
+
+/* ---------- 8. Motion ---------------------------------------------------- */
+@keyframes r8-drop { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+@keyframes r8-fade { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  html[data-mv-ui="r6-museum"] * { animation: none !important; transition: none !important; }
+}
+
+/* ---------- 9. Small screens / projector -------------------------------- */
+@media (max-width: 1100px) {
+  html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-count { display: none; }
+}
+@media (max-width: 780px) {
+  html[data-mv-ui="r6-museum"] body.r6-thematic-inside #mv14-portal-hub { height: auto !important; max-height: 96px !important; flex-wrap: wrap !important; }
+  html[data-mv-ui="r6-museum"] body.r8-top-view .r8-top-zoom { right: 8px; top: auto; bottom: 150px; transform: none; }
+}
+body.projector-master-mode .r8-top-zoom button { width: 46px; height: 46px; font-size: 22px; }

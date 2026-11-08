@@ -1,0 +1,991 @@
+{
+  "schemaVersion": "1.0.0",
+  "project": "MATHVERSE",
+  "scope": "Staged for Antigravity integration into existing universe, not installed",
+  "models": [
+    {
+      "id": "mv-fold-cube",
+      "notebookIndex": 1,
+      "name": "Hình lập phương",
+      "grades": [
+        6,
+        7
+      ],
+      "sourceGradeText": "Lớp 5, 7",
+      "lesson": "Hình lập phương và Hình hộp chữ nhật",
+      "tier": 1,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 6 mặt vuông phẳng",
+      "notebookEvidence": "Passage 1, 6, 7, 10",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.0
+      },
+      "storyboard": [
+        "Trải 6 mặt vuông và đánh dấu 5 nếp gấp",
+        "Nâng bốn mặt bên quanh cạnh đáy",
+        "Gập mặt nắp và nối đủ 12 cạnh",
+        "Giữ lập phương; đối chiếu 6 mặt cùng diện tích"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-rectangular-prism",
+      "notebookIndex": 2,
+      "name": "Hình hộp chữ nhật",
+      "grades": [
+        6,
+        7
+      ],
+      "sourceGradeText": "Lớp 5, 7",
+      "lesson": "Diện tích xung quanh & Thể tích khối hộp",
+      "tier": 1,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 6 mặt chữ nhật",
+      "notebookEvidence": "Passage 1, 6, 7, 10",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.6,
+        "b": 1.65,
+        "h": 1.9
+      },
+      "storyboard": [
+        "Trải 6 mặt chữ nhật theo kích thước a,b,h",
+        "Gấp bốn mặt bên thành khung hộp",
+        "Khép mặt nắp, tô các cặp mặt đối diện",
+        "Đối chiếu diện tích xung quanh và thể tích"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-equilateral-triangular-prism",
+      "notebookIndex": 3,
+      "name": "Lăng trụ tam giác đều",
+      "grades": [
+        7,
+        11
+      ],
+      "sourceGradeText": "Lớp 7, 11",
+      "lesson": "Hình lăng trụ đứng tam giác",
+      "tier": 1,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 2 đáy tam giác đều + 3 mặt bên",
+      "notebookEvidence": "Passage 1, 6, 7, 10",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.3,
+        "h": 2.2
+      },
+      "storyboard": [
+        "Trải ba mặt bên thành dải liên tục",
+        "Gập hai nếp dọc theo tam giác đều",
+        "Khép hai đáy tam giác bằng nhau",
+        "Làm nổi ba mặt bên và chiều cao đứng"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-trapezoidal-right-prism",
+      "notebookIndex": 4,
+      "name": "Lăng trụ đứng tứ giác",
+      "grades": [
+        7,
+        11
+      ],
+      "sourceGradeText": "Lớp 7, 11",
+      "lesson": "Hình lăng trụ đứng tứ giác (đáy hình thang)",
+      "tier": 1,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 2 đáy tứ giác + 4 mặt bên",
+      "notebookEvidence": "Passage 1, 6, 7, 10",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 3.0,
+        "b": 2.0,
+        "offset": 0.6,
+        "height": 2.2,
+        "h": 2.3
+      },
+      "storyboard": [
+        "Trải bốn mặt bên theo chu vi đáy hình thang",
+        "Gập tuần tự theo góc ngoài hình thang",
+        "Gấp hai đáy hình thang thành lăng trụ đứng",
+        "So sánh chu vi đáy và diện tích xung quanh"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-general-triangular-right-prism",
+      "notebookIndex": 5,
+      "name": "Lăng trụ đứng đáy tam giác",
+      "grades": [
+        7,
+        11
+      ],
+      "sourceGradeText": "Lớp 7, 11",
+      "lesson": "Hình lăng trụ đứng tam giác bất kỳ",
+      "tier": 1,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 2 đáy tam giác + 3 mặt bên",
+      "notebookEvidence": "Passage 1, 6, 7, 15",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.5,
+        "b": 1.6,
+        "h": 2.0
+      },
+      "storyboard": [
+        "Trải ba hình chữ nhật kích thước theo các cạnh tam giác",
+        "Gập dải tạo lăng trụ tam giác",
+        "Gấp hai mặt đáy theo nếp ngang",
+        "Đổi dạng tam giác và giữ các mặt khép chính xác"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-regular-triangular-pyramid",
+      "notebookIndex": 6,
+      "name": "Chóp tam giác đều",
+      "grades": [
+        8
+      ],
+      "sourceGradeText": "Lớp 8",
+      "lesson": "Hình chóp tam giác đều",
+      "tier": 1,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 1 đáy tam giác + 3 mặt bên cân",
+      "notebookEvidence": "Passage 1, 2, 6, 7",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.4,
+        "h": 2.3
+      },
+      "storyboard": [
+        "Dựng một đáy đều và ba tam giác cân mặt bên",
+        "Gấp từng mặt bên quanh cạnh đáy",
+        "Ba đỉnh S của bản trải gặp nhau trong không gian",
+        "Tô đường cao và trung đoạn để so sánh"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-regular-square-pyramid",
+      "notebookIndex": 7,
+      "name": "Chóp tứ giác đều",
+      "grades": [
+        8
+      ],
+      "sourceGradeText": "Lớp 8",
+      "lesson": "Hình chóp tứ giác đều",
+      "tier": 1,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 1 đáy hình vuông + 4 mặt bên cân",
+      "notebookEvidence": "Passage 1, 6, 7, 10",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.4,
+        "h": 2.5
+      },
+      "storyboard": [
+        "Dựng đáy vuông và bốn tam giác cân xung quanh",
+        "Nâng từng mặt bên theo góc nhị diện",
+        "Bốn điểm đỉnh S khớp cùng một vị trí",
+        "Hiện trung đoạn/đường cao và công thức"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-cone",
+      "notebookIndex": 8,
+      "name": "Hình nón",
+      "grades": [
+        9,
+        12
+      ],
+      "sourceGradeText": "Lớp 9, 12",
+      "lesson": "Hình nón - Diện tích xung quanh & Thể tích",
+      "tier": 1,
+      "shapeKind": "curved",
+      "unfolding": "Khai triển 1 đáy tròn + 1 hình quạt tròn",
+      "notebookEvidence": "Passage 1, 6, 7, 10",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "R": 1.25,
+        "h": 2.1
+      },
+      "storyboard": [
+        "Trải quạt có góc đúng từ bán kính và đường sinh",
+        "Cuộn quạt thành mặt nón theo phép uốn đẳng cự",
+        "Đưa đáy tròn về miệng nón",
+        "Phân biệt đường sinh, bán kính và chiều cao"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "flat-net",
+        "rim-closure",
+        "surface-area",
+        "volume",
+        "parametric-continuity"
+      ]
+    },
+    {
+      "id": "mv-fold-cylinder",
+      "notebookIndex": 9,
+      "name": "Hình trụ",
+      "grades": [
+        9,
+        12
+      ],
+      "sourceGradeText": "Lớp 9, 12",
+      "lesson": "Hình trụ - Diện tích xung quanh & Thể tích",
+      "tier": 1,
+      "shapeKind": "curved",
+      "unfolding": "Khai triển 2 đáy tròn + 1 hình chữ nhật uốn",
+      "notebookEvidence": "Passage 1, 6, 7, 10",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "R": 1.2,
+        "h": 2.5
+      },
+      "storyboard": [
+        "Trải chữ nhật rộng 2πR và hai hình tròn",
+        "Cuộn đều mặt bên thành mặt trụ",
+        "Dịch chuyển/đặt hai đáy tròn khít miệng trụ",
+        "Hiện chiều cao và chu vi đường tròn đáy"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "flat-net",
+        "rim-closure",
+        "surface-area",
+        "volume",
+        "parametric-continuity"
+      ]
+    },
+    {
+      "id": "mv-fold-offset-apex-rectangular-pyramid",
+      "notebookIndex": 10,
+      "name": "Chóp S.ABCD, SA \\perp đáy",
+      "grades": [
+        11
+      ],
+      "sourceGradeText": "Lớp 11",
+      "lesson": "Đường thẳng vuông góc với mặt phẳng",
+      "tier": 2,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 1 đáy chữ nhật + 4 mặt bên vuông",
+      "notebookEvidence": "Passage 1, 6, 7, 11",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.7,
+        "b": 1.9,
+        "h": 2.2
+      },
+      "storyboard": [
+        "Trải đáy chữ nhật và bốn tam giác cạnh khác nhau",
+        "Nâng SAB và SAD có SA vuông góc đáy",
+        "Gấp hai tam giác còn lại tới cùng đỉnh S",
+        "Highlight SA và mặt phẳng đáy"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-offset-apex-triangular-pyramid",
+      "notebookIndex": 11,
+      "name": "Chóp S.ABC, SA \\perp đáy",
+      "grades": [
+        11
+      ],
+      "sourceGradeText": "Lớp 11",
+      "lesson": "Hai mặt phẳng vuông góc",
+      "tier": 2,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 1 đáy tam giác + 3 mặt bên",
+      "notebookEvidence": "Passage 1, 6, 7, 11",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.4,
+        "b": 1.7,
+        "h": 2.0
+      },
+      "storyboard": [
+        "Trải tam giác ABC vuông tại B và ba tam giác mặt bên",
+        "Gấp mặt SAB quanh AB để dựng SA vuông góc đáy",
+        "Gập hai mặt còn lại, cạnh S hội tụ",
+        "Đánh dấu góc vuông và mặt phẳng"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-regular-tetrahedron",
+      "notebookIndex": 12,
+      "name": "Tứ diện đều",
+      "grades": [
+        11
+      ],
+      "sourceGradeText": "Lớp 11",
+      "lesson": "Hai mặt phẳng vuông góc / Khối đa diện",
+      "tier": 2,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 4 tam giác đều bằng nhau",
+      "notebookEvidence": "Passage 1, 6, 7, 10",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.4
+      },
+      "storyboard": [
+        "Trải bốn tam giác đều không trùng nhau",
+        "Gấp ba mặt quanh ba cạnh của tam giác trung tâm",
+        "Ba bản sao đỉnh D gặp nhau khi khép",
+        "Đo góc ngoài nếp gấp và thể tích"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-tri-rectangular-tetrahedron",
+      "notebookIndex": 13,
+      "name": "Tứ diện vuông",
+      "grades": [
+        11
+      ],
+      "sourceGradeText": "Lớp 11",
+      "lesson": "Góc và khoảng cách trong không gian",
+      "tier": 2,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 1 đáy tam giác + 3 mặt vuông",
+      "notebookEvidence": "Passage 1, 6, 7, 10",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 1.6,
+        "b": 2.2,
+        "c": 2.4
+      },
+      "storyboard": [
+        "Trải bốn tam giác của tứ diện ba cạnh vuông góc",
+        "Nâng hai mặt vuông quanh hai cạnh chung đỉnh O",
+        "Khép mặt cuối để tạo khối 3 trục vuông góc",
+        "Đối chiếu ba diện tích thành phần và diện tích mặt đối diện"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-square-frustum",
+      "notebookIndex": 14,
+      "name": "Chóp cụt tứ giác đều",
+      "grades": [
+        11
+      ],
+      "sourceGradeText": "Lớp 11",
+      "lesson": "Khối chóp cụt và Thể tích",
+      "tier": 2,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 2 đáy vuông + 4 mặt bên hình thang",
+      "notebookEvidence": "Passage 1, 6, 7, 10",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 3.0,
+        "b": 1.6,
+        "h": 2.1
+      },
+      "storyboard": [
+        "Trải hai đáy vuông và bốn mặt hình thang cân",
+        "Nâng bốn hình thang theo góc nhị diện",
+        "Khép nắp vuông nhỏ theo cạnh trên của mặt bên",
+        "Tô hai đáy song song và chiều cao"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-perpendicular-side-plane-pyramid",
+      "notebookIndex": 15,
+      "name": "Chóp S.ABCD, (SAB) \\perp đáy",
+      "grades": [
+        11
+      ],
+      "sourceGradeText": "Lớp 11",
+      "lesson": "Hai mặt phẳng vuông góc",
+      "tier": 2,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 1 đáy vuông + 4 mặt bên",
+      "notebookEvidence": "Passage 1, 6, 7, 11",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.4,
+        "b": 2.1,
+        "h": 2.1
+      },
+      "storyboard": [
+        "Trải đáy chữ nhật và bốn mặt bên",
+        "Nâng SAB thành mặt đứng vuông góc đáy",
+        "Gập các mặt còn lại về đỉnh chung S",
+        "Đo góc hai mặt phẳng vuông góc"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-trapezoid-base-pyramid",
+      "notebookIndex": 16,
+      "name": "Chóp S.ABCD đáy hình thang",
+      "grades": [
+        11
+      ],
+      "sourceGradeText": "Lớp 11",
+      "lesson": "Khoảng cách & Góc nhị diện",
+      "tier": 2,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 1 đáy hình thang + 4 mặt bên",
+      "notebookEvidence": "Passage 1, 6, 7, 15",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 1.5,
+        "hbase": 1.5,
+        "h": 2.1
+      },
+      "storyboard": [
+        "Trải đáy hình thang vuông và bốn mặt tam giác",
+        "Nâng mặt chứa cạnh SA thẳng đứng",
+        "Khép các mặt xiên với góc theo tọa độ S",
+        "Hiện mặt phẳng đáy, đường cao SA"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-equal-lateral-edges-pyramid",
+      "notebookIndex": 17,
+      "name": "Chóp S.ABC có SA=SB=SC",
+      "grades": [
+        11
+      ],
+      "sourceGradeText": "Lớp 11",
+      "lesson": "Chóp có các cạnh bên bằng nhau",
+      "tier": 2,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 1 đáy tam giác + 3 mặt bên cân",
+      "notebookEvidence": "Passage 1, 6, 7, 15",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.6,
+        "h": 2.1
+      },
+      "storyboard": [
+        "Trải đáy tam giác và ba mặt cân theo cạnh bên bằng nhau",
+        "Nâng từng mặt quanh các cạnh đáy không đối xứng",
+        "Gập tới đỉnh S nằm trên đường thẳng qua tâm ngoại tiếp",
+        "Tô các cạnh SA,SB,SC cùng màu để nhận biết bằng nhau"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-conical-frustum",
+      "notebookIndex": 18,
+      "name": "Hình nón cụt",
+      "grades": [
+        9,
+        12
+      ],
+      "sourceGradeText": "Lớp 9, 12",
+      "lesson": "Hình nón cụt - Nón và Trụ",
+      "tier": 2,
+      "shapeKind": "curved",
+      "unfolding": "Khai triển 2 đáy tròn + 1 dải quạt",
+      "notebookEvidence": "Passage 1, 6, 7, 10",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "R1": 1.65,
+        "R2": 0.85,
+        "h": 2.2
+      },
+      "storyboard": [
+        "Trải dải quạt và hai hình tròn có bán kính khác nhau",
+        "Cuộn dải vành khăn thành mặt nón cụt",
+        "Đặt hai đáy tròn vào hai miệng tương ứng",
+        "Hiện đường sinh và bán kính hai đáy"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "flat-net",
+        "rim-closure",
+        "surface-area",
+        "volume",
+        "parametric-continuity"
+      ]
+    },
+    {
+      "id": "mv-fold-oblique-parallelepiped",
+      "notebookIndex": 19,
+      "name": "Hình hộp xiên",
+      "grades": [
+        11
+      ],
+      "sourceGradeText": "Lớp 11",
+      "lesson": "Hình hộp & Quan hệ song song",
+      "tier": 3,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 6 mặt hình bình hành",
+      "notebookEvidence": "Passage 1, 6, 7, 16",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.2,
+        "b": 1.5,
+        "h": 1.8,
+        "shearX": 0.85,
+        "shearY": 0.33
+      },
+      "storyboard": [
+        "Trải sáu hình bình hành của hộp xiên",
+        "Gấp bốn mặt bên theo trục xiên",
+        "Khép nắp; giữ các mặt đối diện song song",
+        "Chiếu vectơ cạnh bên xuống mặt đáy"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    },
+    {
+      "id": "mv-fold-oblique-triangular-prism",
+      "notebookIndex": 20,
+      "name": "Lăng trụ tam giác xiên",
+      "grades": [
+        11
+      ],
+      "sourceGradeText": "Lớp 11",
+      "lesson": "Hình lăng trụ xiên",
+      "tier": 3,
+      "shapeKind": "polyhedron",
+      "unfolding": "Khai triển 2 đáy tam giác + 3 hình bình hành",
+      "notebookEvidence": "Passage 1, 6, 7, 16",
+      "evidenceStatus": "SECONDARY_NOTEBOOKLM_REPORT",
+      "proposedForMathverse": true,
+      "defaultParams": {
+        "a": 2.3,
+        "b": 1.6,
+        "h": 2.1,
+        "shearX": 0.8,
+        "shearY": 0.25
+      },
+      "storyboard": [
+        "Trải dải ba hình bình hành và hai đáy tam giác",
+        "Gập dải quanh cạnh bên xiên",
+        "Khép hai đáy tam giác ở hai đầu",
+        "Hiện chiều cao vuông góc không trùng cạnh bên xiên"
+      ],
+      "ui": {
+        "controls": [
+          "play",
+          "pause",
+          "step-back",
+          "step-forward",
+          "fold",
+          "unfold",
+          "reset",
+          "progress",
+          "speed",
+          "toggle-edges",
+          "toggle-colors"
+        ]
+      },
+      "mathCheck": [
+        "edge-closure",
+        "flat-coplanarity",
+        "surface-area",
+        "volume",
+        "hinge-invariant"
+      ]
+    }
+  ]
+}

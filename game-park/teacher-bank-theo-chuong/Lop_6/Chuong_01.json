@@ -1,0 +1,3953 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 6,
+      "chapter": 1,
+      "roman": "I",
+      "title": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "6-01-01",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Cho tập hợp A = {x ∈ ℕ | x < 5}. Số phần tử của tập hợp A là bao nhiêu?",
+          "choices": {
+            "A": "4 phần tử",
+            "B": "3 phần tử",
+            "C": "6 phần tử",
+            "D": "5 phần tử"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tập hợp A = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}"
+            },
+            {
+              "t": "txt",
+              "v": " | x < 5}. Số phần tử của tập hợp A là bao nhiêu?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tập hợp A = {x $\\in$ $\\mathbb{N}$ | x < 5}. Số phần tử của tập hợp A là bao nhiêu?",
+            "choices": {
+              "A": "4 phần tử",
+              "B": "3 phần tử",
+              "C": "6 phần tử",
+              "D": "5 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-02",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Hãy trả lời câu hỏi cơ bản sau: Số liền sau của số tự nhiên 137 là số nào?",
+          "choices": {
+            "A": "138",
+            "B": "139",
+            "C": "137",
+            "D": "136"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy trả lời câu hỏi cơ bản sau: Số liền sau của số tự nhiên 137 là số nào?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "138"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "139"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "137"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "136"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy trả lời câu hỏi cơ bản sau: Số liền sau của số tự nhiên 137 là số nào?",
+            "choices": {
+              "A": "138",
+              "B": "139",
+              "C": "137",
+              "D": "136"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-03",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương I, xét nội dung: Kết quả của phép nhân hai lũy thừa 4^{4} · 4^{3} viết dưới dạng một lũy thừa là. Đáp án đúng là",
+          "choices": {
+            "A": "4^{6}",
+            "B": "8^{7}",
+            "C": "4^{12}",
+            "D": "4^{7}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương I, xét nội dung: Kết quả của phép nhân hai lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "4^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "4^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " viết dưới dạng một lũy thừa là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "4^{6}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "8^{7}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "4^{12}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "4^{7}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương I, xét nội dung: Kết quả của phép nhân hai lũy thừa 4$^{4}$ $\\cdot$ 4$^{3}$ viết dưới dạng một lũy thừa là. Đáp án đúng là",
+            "choices": {
+              "A": "4$^{6}$",
+              "B": "8$^{7}$",
+              "C": "4$^{12}$",
+              "D": "4$^{7}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-04",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương I (Tập hợp các số tự nhiên), trong số tự nhiên 6782, chữ số 7 có giá trị bằng bao nhiêu",
+          "choices": {
+            "A": "7",
+            "B": "7000",
+            "C": "70",
+            "D": "700"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương I (Tập hợp các số tự nhiên), trong số tự nhiên 6782, chữ số 7 có giá trị bằng bao nhiêu"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7000"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "70"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "700"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương I (Tập hợp các số tự nhiên), trong số tự nhiên 6782, chữ số 7 có giá trị bằng bao nhiêu",
+            "choices": {
+              "A": "7",
+              "B": "7000",
+              "C": "70",
+              "D": "700"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-05",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Giá trị của lũy thừa 3^{4} bằng",
+          "choices": {
+            "A": "12",
+            "B": "27",
+            "C": "81",
+            "D": "83"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "3^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "81"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "83"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Giá trị của lũy thừa 3$^{4}$ bằng",
+            "choices": {
+              "A": "12",
+              "B": "27",
+              "C": "81",
+              "D": "83"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-06",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về tập hợp các số tự nhiên, một học sinh gặp câu hỏi: Cho tập hợp A = {x ∈ ℕ | x < 10}. Số phần tử của tập hợp A là bao nhiêu. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "10 phần tử",
+            "B": "9 phần tử",
+            "C": "8 phần tử",
+            "D": "11 phần tử"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về tập hợp các số tự nhiên, một học sinh gặp câu hỏi: Cho tập hợp A = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}"
+            },
+            {
+              "t": "txt",
+              "v": " | x < 10}. Số phần tử của tập hợp A là bao nhiêu. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "11 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về tập hợp các số tự nhiên, một học sinh gặp câu hỏi: Cho tập hợp A = {x $\\in$ $\\mathbb{N}$ | x < 10}. Số phần tử của tập hợp A là bao nhiêu. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "10 phần tử",
+              "B": "9 phần tử",
+              "C": "8 phần tử",
+              "D": "11 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-07",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Số liền sau của số tự nhiên 222 là số nào",
+          "choices": {
+            "A": "223",
+            "B": "222",
+            "C": "224",
+            "D": "221"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Số liền sau của số tự nhiên 222 là số nào"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "223"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "222"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "224"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "221"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Số liền sau của số tự nhiên 222 là số nào",
+            "choices": {
+              "A": "223",
+              "B": "222",
+              "C": "224",
+              "D": "221"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-08",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Kết quả của phép nhân hai lũy thừa 5^{9} · 5^{3} viết dưới dạng một lũy thừa là",
+          "choices": {
+            "A": "5^{11}",
+            "B": "5^{27}",
+            "C": "5^{12}",
+            "D": "10^{12}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Kết quả của phép nhân hai lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "5^{9}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "5^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " viết dưới dạng một lũy thừa là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "5^{11}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "5^{27}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "5^{12}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "10^{12}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Kết quả của phép nhân hai lũy thừa 5$^{9}$ $\\cdot$ 5$^{3}$ viết dưới dạng một lũy thừa là",
+            "choices": {
+              "A": "5$^{11}$",
+              "B": "5$^{27}$",
+              "C": "5$^{12}$",
+              "D": "10$^{12}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-09",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Trong số tự nhiên 5782, chữ số 7 có giá trị bằng bao nhiêu?",
+          "choices": {
+            "A": "700",
+            "B": "7000",
+            "C": "70",
+            "D": "7"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Trong số tự nhiên 5782, chữ số 7 có giá trị bằng bao nhiêu?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "700"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7000"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "70"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Trong số tự nhiên 5782, chữ số 7 có giá trị bằng bao nhiêu?",
+            "choices": {
+              "A": "700",
+              "B": "7000",
+              "C": "70",
+              "D": "7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-10",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Giá trị của lũy thừa 2^{3} bằng. Phương án chính xác là",
+          "choices": {
+            "A": "10",
+            "B": "4",
+            "C": "8",
+            "D": "6"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "2^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Giá trị của lũy thừa 2$^{3}$ bằng. Phương án chính xác là",
+            "choices": {
+              "A": "10",
+              "B": "4",
+              "C": "8",
+              "D": "6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-11",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho tập hợp A = {x ∈ ℕ | x < 15}. Số phần tử của tập hợp A là bao nhiêu",
+          "choices": {
+            "A": "15 phần tử",
+            "B": "16 phần tử",
+            "C": "14 phần tử",
+            "D": "13 phần tử"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho tập hợp A = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}"
+            },
+            {
+              "t": "txt",
+              "v": " | x < 15}. Số phần tử của tập hợp A là bao nhiêu"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "13 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho tập hợp A = {x $\\in$ $\\mathbb{N}$ | x < 15}. Số phần tử của tập hợp A là bao nhiêu",
+            "choices": {
+              "A": "15 phần tử",
+              "B": "16 phần tử",
+              "C": "14 phần tử",
+              "D": "13 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-12",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Số liền sau của số tự nhiên 307 là số nào",
+          "choices": {
+            "A": "308",
+            "B": "309",
+            "C": "306",
+            "D": "307"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Số liền sau của số tự nhiên 307 là số nào"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "308"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "309"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "306"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "307"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Số liền sau của số tự nhiên 307 là số nào",
+            "choices": {
+              "A": "308",
+              "B": "309",
+              "C": "306",
+              "D": "307"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-13",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), kết quả của phép nhân hai lũy thừa 2^{14} · 2^{3} viết dưới dạng một lũy thừa là",
+          "choices": {
+            "A": "2^{42}",
+            "B": "2^{16}",
+            "C": "2^{17}",
+            "D": "4^{17}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), kết quả của phép nhân hai lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "2^{14}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "2^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " viết dưới dạng một lũy thừa là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "2^{42}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "2^{16}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "2^{17}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "4^{17}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), kết quả của phép nhân hai lũy thừa 2$^{14}$ $\\cdot$ 2$^{3}$ viết dưới dạng một lũy thừa là",
+            "choices": {
+              "A": "2$^{42}$",
+              "B": "2$^{16}$",
+              "C": "2$^{17}$",
+              "D": "4$^{17}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-14",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Trong số tự nhiên 4782, chữ số 7 có giá trị bằng bao nhiêu",
+          "choices": {
+            "A": "70",
+            "B": "700",
+            "C": "7",
+            "D": "7000"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Trong số tự nhiên 4782, chữ số 7 có giá trị bằng bao nhiêu"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "70"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "700"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7000"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Trong số tự nhiên 4782, chữ số 7 có giá trị bằng bao nhiêu",
+            "choices": {
+              "A": "70",
+              "B": "700",
+              "C": "7",
+              "D": "7000"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-15",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương I: Giá trị của lũy thừa 4^{5} bằng. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "1024",
+            "B": "256",
+            "C": "1026",
+            "D": "20"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương I: Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "4^{5}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1024"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "256"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1026"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương I: Giá trị của lũy thừa 4$^{5}$ bằng. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "1024",
+              "B": "256",
+              "C": "1026",
+              "D": "20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-16",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Cho tập hợp A = {x ∈ ℕ | x < 20}. Số phần tử của tập hợp A là bao nhiêu",
+          "choices": {
+            "A": "21 phần tử",
+            "B": "19 phần tử",
+            "C": "20 phần tử",
+            "D": "18 phần tử"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Cho tập hợp A = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}"
+            },
+            {
+              "t": "txt",
+              "v": " | x < 20}. Số phần tử của tập hợp A là bao nhiêu"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "19 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "20 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Cho tập hợp A = {x $\\in$ $\\mathbb{N}$ | x < 20}. Số phần tử của tập hợp A là bao nhiêu",
+            "choices": {
+              "A": "21 phần tử",
+              "B": "19 phần tử",
+              "C": "20 phần tử",
+              "D": "18 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-17",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Số liền sau của số tự nhiên 392 là số nào?",
+          "choices": {
+            "A": "392",
+            "B": "394",
+            "C": "393",
+            "D": "391"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Số liền sau của số tự nhiên 392 là số nào?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "392"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "394"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "393"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "391"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Số liền sau của số tự nhiên 392 là số nào?",
+            "choices": {
+              "A": "392",
+              "B": "394",
+              "C": "393",
+              "D": "391"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-18",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương I: Kết quả của phép nhân hai lũy thừa 3^{19} · 3^{3} viết dưới dạng một lũy thừa là",
+          "choices": {
+            "A": "3^{21}",
+            "B": "6^{22}",
+            "C": "3^{57}",
+            "D": "3^{22}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương I: Kết quả của phép nhân hai lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "3^{19}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "3^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " viết dưới dạng một lũy thừa là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "3^{21}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "6^{22}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "3^{57}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "3^{22}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương I: Kết quả của phép nhân hai lũy thừa 3$^{19}$ $\\cdot$ 3$^{3}$ viết dưới dạng một lũy thừa là",
+            "choices": {
+              "A": "3$^{21}$",
+              "B": "6$^{22}$",
+              "C": "3$^{57}$",
+              "D": "3$^{22}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-19",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Trong số tự nhiên 3782, chữ số 7 có giá trị bằng bao nhiêu. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "7000",
+            "B": "700",
+            "C": "70",
+            "D": "7"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Trong số tự nhiên 3782, chữ số 7 có giá trị bằng bao nhiêu. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7000"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "700"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "70"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Trong số tự nhiên 3782, chữ số 7 có giá trị bằng bao nhiêu. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "7000",
+              "B": "700",
+              "C": "70",
+              "D": "7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-20",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Giá trị của lũy thừa 3^{4} bằng",
+          "choices": {
+            "A": "27",
+            "B": "81",
+            "C": "83",
+            "D": "12"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "3^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "27"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "81"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "83"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Giá trị của lũy thừa 3$^{4}$ bằng",
+            "choices": {
+              "A": "27",
+              "B": "81",
+              "C": "83",
+              "D": "12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-21",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Tính nhanh giá trị của biểu thức P = 25 · 64 + 25 · 36.",
+          "choices": {
+            "A": "2750",
+            "B": "2250",
+            "C": "2500",
+            "D": "2564"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính nhanh giá trị của biểu thức P = 25 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 64 + 25 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 36."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2750"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2250"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2500"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2564"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính nhanh giá trị của biểu thức P = 25 $\\cdot$ 64 + 25 $\\cdot$ 36.",
+            "choices": {
+              "A": "2750",
+              "B": "2250",
+              "C": "2500",
+              "D": "2564"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-22",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương I (Tập hợp các số tự nhiên) để giải bài toán: Tìm số tự nhiên x, biết: 2 · x + 12 = 56.",
+          "choices": {
+            "A": "x = 19",
+            "B": "x = 27",
+            "C": "x = 44",
+            "D": "x = 22"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương I (Tập hợp các số tự nhiên) để giải bài toán: Tìm số tự nhiên x, biết: 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " x + 12 = 56."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 19"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 27"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 44"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 22"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương I (Tập hợp các số tự nhiên) để giải bài toán: Tìm số tự nhiên x, biết: 2 $\\cdot$ x + 12 = 56.",
+            "choices": {
+              "A": "x = 19",
+              "B": "x = 27",
+              "C": "x = 44",
+              "D": "x = 22"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-23",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương I: Tập hợp B = {x ∈ ℕ^* | x ≤ 24} có bao nhiêu phần tử. Kết quả thu được là",
+          "choices": {
+            "A": "23 phần tử",
+            "B": "24 phần tử",
+            "C": "25 phần tử",
+            "D": "22 phần tử"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương I: Tập hợp B = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}^*"
+            },
+            {
+              "t": "txt",
+              "v": " | x "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 24} có bao nhiêu phần tử. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "23 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "24 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "22 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương I: Tập hợp B = {x $\\in$ $\\mathbb{N}^*$ | x $\\le$ 24} có bao nhiêu phần tử. Kết quả thu được là",
+            "choices": {
+              "A": "23 phần tử",
+              "B": "24 phần tử",
+              "C": "25 phần tử",
+              "D": "22 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-24",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Tính nhanh giá trị của biểu thức P = 28 · 64 + 28 · 36.. Đáp án đúng là",
+          "choices": {
+            "A": "2864",
+            "B": "3080",
+            "C": "2520",
+            "D": "2800"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Tính nhanh giá trị của biểu thức P = 28 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 64 + 28 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 36.. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2864"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3080"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2520"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2800"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Tính nhanh giá trị của biểu thức P = 28 $\\cdot$ 64 + 28 $\\cdot$ 36.. Đáp án đúng là",
+            "choices": {
+              "A": "2864",
+              "B": "3080",
+              "C": "2520",
+              "D": "2800"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-25",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Tìm số tự nhiên x, biết: 2 · x + 18 = 74.",
+          "choices": {
+            "A": "x = 25",
+            "B": "x = 33",
+            "C": "x = 28",
+            "D": "x = 56"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Tìm số tự nhiên x, biết: 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " x + 18 = 74."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 33"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 28"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 56"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Tìm số tự nhiên x, biết: 2 $\\cdot$ x + 18 = 74.",
+            "choices": {
+              "A": "x = 25",
+              "B": "x = 33",
+              "C": "x = 28",
+              "D": "x = 56"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-26",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Tập hợp B = {x ∈ ℕ^* | x ≤ 33} có bao nhiêu phần tử. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "33 phần tử",
+            "B": "32 phần tử",
+            "C": "34 phần tử",
+            "D": "31 phần tử"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Tập hợp B = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}^*"
+            },
+            {
+              "t": "txt",
+              "v": " | x "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 33} có bao nhiêu phần tử. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "33 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "34 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "31 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Tập hợp B = {x $\\in$ $\\mathbb{N}^*$ | x $\\le$ 33} có bao nhiêu phần tử. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "33 phần tử",
+              "B": "32 phần tử",
+              "C": "34 phần tử",
+              "D": "31 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-27",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tính nhanh giá trị của biểu thức P = 31 · 64 + 31 · 36.",
+          "choices": {
+            "A": "3164",
+            "B": "3100",
+            "C": "3410",
+            "D": "2790"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tính nhanh giá trị của biểu thức P = 31 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 64 + 31 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 36."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3164"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3100"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3410"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2790"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tính nhanh giá trị của biểu thức P = 31 $\\cdot$ 64 + 31 $\\cdot$ 36.",
+            "choices": {
+              "A": "3164",
+              "B": "3100",
+              "C": "3410",
+              "D": "2790"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-28",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tìm số tự nhiên x, biết: 2 · x + 24 = 92.",
+          "choices": {
+            "A": "x = 31",
+            "B": "x = 68",
+            "C": "x = 39",
+            "D": "x = 34"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tìm số tự nhiên x, biết: 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " x + 24 = 92."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 31"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 68"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 39"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 34"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tìm số tự nhiên x, biết: 2 $\\cdot$ x + 24 = 92.",
+            "choices": {
+              "A": "x = 31",
+              "B": "x = 68",
+              "C": "x = 39",
+              "D": "x = 34"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-29",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Tập hợp các số tự nhiên): Tập hợp B = {x ∈ ℕ^* | x ≤ 42} có bao nhiêu phần tử. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "43 phần tử",
+            "B": "41 phần tử",
+            "C": "40 phần tử",
+            "D": "42 phần tử"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Tập hợp các số tự nhiên): Tập hợp B = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}^*"
+            },
+            {
+              "t": "txt",
+              "v": " | x "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 42} có bao nhiêu phần tử. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "43 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "41 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "40 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "42 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Tập hợp các số tự nhiên): Tập hợp B = {x $\\in$ $\\mathbb{N}^*$ | x $\\le$ 42} có bao nhiêu phần tử. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "43 phần tử",
+              "B": "41 phần tử",
+              "C": "40 phần tử",
+              "D": "42 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-30",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tính nhanh giá trị của biểu thức P = 34 · 64 + 34 · 36.",
+          "choices": {
+            "A": "3060",
+            "B": "3400",
+            "C": "3740",
+            "D": "3464"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tính nhanh giá trị của biểu thức P = 34 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 64 + 34 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 36."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3060"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3400"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3740"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3464"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tính nhanh giá trị của biểu thức P = 34 $\\cdot$ 64 + 34 $\\cdot$ 36.",
+            "choices": {
+              "A": "3060",
+              "B": "3400",
+              "C": "3740",
+              "D": "3464"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-31",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Tìm số tự nhiên x, biết: 2 · x + 30 = 110.. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "x = 40",
+            "B": "x = 37",
+            "C": "x = 80",
+            "D": "x = 45"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Tìm số tự nhiên x, biết: 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " x + 30 = 110.. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 40"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 37"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 80"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 45"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Tìm số tự nhiên x, biết: 2 $\\cdot$ x + 30 = 110.. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "x = 40",
+              "B": "x = 37",
+              "C": "x = 80",
+              "D": "x = 45"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-32",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Tập hợp B = {x ∈ ℕ^* | x ≤ 51} có bao nhiêu phần tử",
+          "choices": {
+            "A": "51 phần tử",
+            "B": "49 phần tử",
+            "C": "52 phần tử",
+            "D": "50 phần tử"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Tập hợp B = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}^*"
+            },
+            {
+              "t": "txt",
+              "v": " | x "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 51} có bao nhiêu phần tử"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "51 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "49 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "52 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "50 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Tập hợp B = {x $\\in$ $\\mathbb{N}^*$ | x $\\le$ 51} có bao nhiêu phần tử",
+            "choices": {
+              "A": "51 phần tử",
+              "B": "49 phần tử",
+              "C": "52 phần tử",
+              "D": "50 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-33",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tính nhanh giá trị của biểu thức P = 37 · 64 + 37 · 36.",
+          "choices": {
+            "A": "3700",
+            "B": "3330",
+            "C": "3764",
+            "D": "4070"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tính nhanh giá trị của biểu thức P = 37 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 64 + 37 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 36."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3700"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3330"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3764"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4070"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tính nhanh giá trị của biểu thức P = 37 $\\cdot$ 64 + 37 $\\cdot$ 36.",
+            "choices": {
+              "A": "3700",
+              "B": "3330",
+              "C": "3764",
+              "D": "4070"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-34",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tìm số tự nhiên x, biết: 2 · x + 36 = 128.",
+          "choices": {
+            "A": "x = 51",
+            "B": "x = 92",
+            "C": "x = 46",
+            "D": "x = 43"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tìm số tự nhiên x, biết: 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " x + 36 = 128."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 51"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 92"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 46"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 43"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tìm số tự nhiên x, biết: 2 $\\cdot$ x + 36 = 128.",
+            "choices": {
+              "A": "x = 51",
+              "B": "x = 92",
+              "C": "x = 46",
+              "D": "x = 43"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-35",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Tập hợp B = {x ∈ ℕ^* | x ≤ 60} có bao nhiêu phần tử",
+          "choices": {
+            "A": "60 phần tử",
+            "B": "61 phần tử",
+            "C": "59 phần tử",
+            "D": "58 phần tử"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Tập hợp B = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}^*"
+            },
+            {
+              "t": "txt",
+              "v": " | x "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 60} có bao nhiêu phần tử"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "60 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "61 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "59 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "58 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Tập hợp B = {x $\\in$ $\\mathbb{N}^*$ | x $\\le$ 60} có bao nhiêu phần tử",
+            "choices": {
+              "A": "60 phần tử",
+              "B": "61 phần tử",
+              "C": "59 phần tử",
+              "D": "58 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-36",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Tập hợp các số tự nhiên): Tính nhanh giá trị của biểu thức P = 40 · 64 + 40 · 36.. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "4064",
+            "B": "4400",
+            "C": "3600",
+            "D": "4000"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Tập hợp các số tự nhiên): Tính nhanh giá trị của biểu thức P = 40 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 64 + 40 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 36.. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4064"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4400"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3600"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4000"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Tập hợp các số tự nhiên): Tính nhanh giá trị của biểu thức P = 40 $\\cdot$ 64 + 40 $\\cdot$ 36.. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "4064",
+              "B": "4400",
+              "C": "3600",
+              "D": "4000"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-37",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tìm số tự nhiên x, biết: 2 · x + 42 = 146.",
+          "choices": {
+            "A": "x = 52",
+            "B": "x = 49",
+            "C": "x = 104",
+            "D": "x = 57"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tìm số tự nhiên x, biết: 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " x + 42 = 146."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 52"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 49"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 104"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 57"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tìm số tự nhiên x, biết: 2 $\\cdot$ x + 42 = 146.",
+            "choices": {
+              "A": "x = 52",
+              "B": "x = 49",
+              "C": "x = 104",
+              "D": "x = 57"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-38",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương I: Tập hợp B = {x ∈ ℕ^* | x ≤ 69} có bao nhiêu phần tử. Kết luận đúng là",
+          "choices": {
+            "A": "68 phần tử",
+            "B": "67 phần tử",
+            "C": "69 phần tử",
+            "D": "70 phần tử"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương I: Tập hợp B = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}^*"
+            },
+            {
+              "t": "txt",
+              "v": " | x "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 69} có bao nhiêu phần tử. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "68 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "67 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "69 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "70 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương I: Tập hợp B = {x $\\in$ $\\mathbb{N}^*$ | x $\\le$ 69} có bao nhiêu phần tử. Kết luận đúng là",
+            "choices": {
+              "A": "68 phần tử",
+              "B": "67 phần tử",
+              "C": "69 phần tử",
+              "D": "70 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-39",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tính nhanh giá trị của biểu thức P = 43 · 64 + 43 · 36.",
+          "choices": {
+            "A": "4300",
+            "B": "3870",
+            "C": "4730",
+            "D": "4364"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tính nhanh giá trị của biểu thức P = 43 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 64 + 43 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " 36."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4300"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3870"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4730"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4364"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tính nhanh giá trị của biểu thức P = 43 $\\cdot$ 64 + 43 $\\cdot$ 36.",
+            "choices": {
+              "A": "4300",
+              "B": "3870",
+              "C": "4730",
+              "D": "4364"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-40",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tìm số tự nhiên x, biết: 2 · x + 48 = 164.",
+          "choices": {
+            "A": "x = 63",
+            "B": "x = 58",
+            "C": "x = 116",
+            "D": "x = 55"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tìm số tự nhiên x, biết: 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " x + 48 = 164."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 63"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 58"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 116"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 55"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tìm số tự nhiên x, biết: 2 $\\cdot$ x + 48 = 164.",
+            "choices": {
+              "A": "x = 63",
+              "B": "x = 58",
+              "C": "x = 116",
+              "D": "x = 55"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-41",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Tìm số tự nhiên n thỏa mãn: 2^{n + 1} + 2^{n} = 12.",
+          "choices": {
+            "A": "n = 2",
+            "B": "n = 4",
+            "C": "n = 3",
+            "D": "n = 1"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số tự nhiên n thỏa mãn: "
+            },
+            {
+              "t": "math",
+              "v": "2^{n + 1}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "2^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = 12."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số tự nhiên n thỏa mãn: 2$^{n + 1}$ + 2$^{n}$ = 12.",
+            "choices": {
+              "A": "n = 2",
+              "B": "n = 4",
+              "C": "n = 3",
+              "D": "n = 1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-42",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương I – Tập hợp các số tự nhiên): Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 44.. Kết quả đúng là",
+          "choices": {
+            "A": "S = 529",
+            "B": "S = 506",
+            "C": "S = 528",
+            "D": "S = 484"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương I – Tập hợp các số tự nhiên): Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 44.. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = 529"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = 506"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = 528"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = 484"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương I – Tập hợp các số tự nhiên): Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 44.. Kết quả đúng là",
+            "choices": {
+              "A": "S = 529",
+              "B": "S = 506",
+              "C": "S = 528",
+              "D": "S = 484"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-43",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm số tự nhiên n thỏa mãn: 2^{n + 1} + 2^{n} = 48.",
+          "choices": {
+            "A": "n = 3",
+            "B": "n = 6",
+            "C": "n = 4",
+            "D": "n = 5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm số tự nhiên n thỏa mãn: "
+            },
+            {
+              "t": "math",
+              "v": "2^{n + 1}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "2^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = 48."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm số tự nhiên n thỏa mãn: 2$^{n + 1}$ + 2$^{n}$ = 48.",
+            "choices": {
+              "A": "n = 3",
+              "B": "n = 6",
+              "C": "n = 4",
+              "D": "n = 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-44",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương I: Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 52.",
+          "choices": {
+            "A": "S = 676",
+            "B": "S = 728",
+            "C": "S = 702",
+            "D": "S = 729"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương I: Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 52."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = 676"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = 728"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = 702"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = 729"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương I: Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 52.",
+            "choices": {
+              "A": "S = 676",
+              "B": "S = 728",
+              "C": "S = 702",
+              "D": "S = 729"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-45",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm số tự nhiên n thỏa mãn: 2^{n + 1} + 2^{n} = 192.. Đáp số chính xác là",
+          "choices": {
+            "A": "n = 5",
+            "B": "n = 6",
+            "C": "n = 7",
+            "D": "n = 8"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm số tự nhiên n thỏa mãn: "
+            },
+            {
+              "t": "math",
+              "v": "2^{n + 1}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "2^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = 192.. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm số tự nhiên n thỏa mãn: 2$^{n + 1}$ + 2$^{n}$ = 192.. Đáp số chính xác là",
+            "choices": {
+              "A": "n = 5",
+              "B": "n = 6",
+              "C": "n = 7",
+              "D": "n = 8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-46",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 60.",
+          "choices": {
+            "A": "S = 960",
+            "B": "S = 930",
+            "C": "S = 961",
+            "D": "S = 900"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 60."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = 960"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = 930"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = 961"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = 900"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 60.",
+            "choices": {
+              "A": "S = 960",
+              "B": "S = 930",
+              "C": "S = 961",
+              "D": "S = 900"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-47",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm số tự nhiên n thỏa mãn: 2^{n + 1} + 2^{n} = 768.",
+          "choices": {
+            "A": "n = 9",
+            "B": "n = 7",
+            "C": "n = 8",
+            "D": "n = 10"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm số tự nhiên n thỏa mãn: "
+            },
+            {
+              "t": "math",
+              "v": "2^{n + 1}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "2^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = 768."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm số tự nhiên n thỏa mãn: 2$^{n + 1}$ + 2$^{n}$ = 768.",
+            "choices": {
+              "A": "n = 9",
+              "B": "n = 7",
+              "C": "n = 8",
+              "D": "n = 10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-48",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 68.",
+          "choices": {
+            "A": "S = 1190",
+            "B": "S = 1156",
+            "C": "S = 1225",
+            "D": "S = 1224"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 68."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = 1190"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = 1156"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = 1225"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = 1224"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 68.",
+            "choices": {
+              "A": "S = 1190",
+              "B": "S = 1156",
+              "C": "S = 1225",
+              "D": "S = 1224"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-49",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm số tự nhiên n thỏa mãn: 2^{n + 1} + 2^{n} = 3072.",
+          "choices": {
+            "A": "n = 10",
+            "B": "n = 9",
+            "C": "n = 12",
+            "D": "n = 11"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm số tự nhiên n thỏa mãn: "
+            },
+            {
+              "t": "math",
+              "v": "2^{n + 1}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "2^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = 3072."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 10"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm số tự nhiên n thỏa mãn: 2$^{n + 1}$ + 2$^{n}$ = 3072.",
+            "choices": {
+              "A": "n = 10",
+              "B": "n = 9",
+              "C": "n = 12",
+              "D": "n = 11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "6-01-50",
+          "grade": 6,
+          "chapter": 1,
+          "chapterTitle": "TẬP HỢP CÁC SỐ TỰ NHIÊN",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương I: Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 76.. Phương án đúng là",
+          "choices": {
+            "A": "S = 1520",
+            "B": "S = 1521",
+            "C": "S = 1444",
+            "D": "S = 1482"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương I: Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 76.. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = 1520"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = 1521"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = 1444"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = 1482"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương I: Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 76.. Phương án đúng là",
+            "choices": {
+              "A": "S = 1520",
+              "B": "S = 1521",
+              "C": "S = 1444",
+              "D": "S = 1482"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_6_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

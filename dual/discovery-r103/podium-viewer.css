@@ -1,0 +1,27 @@
+/* An interactive Sketchfab 3D viewer positioned ABOVE the physical pedestal in screen space.
+   The child viewer uses the source model's geometry; it is not a fake low-poly architectural mesh. */
+.r103-podium-layer[hidden]{display:none!important}
+.r103-podium-layer{position:fixed;inset:0;z-index:105;pointer-events:none;font-family:system-ui,'Segoe UI',sans-serif}
+.r103-podium-card{position:fixed;display:flex;flex-direction:column;overflow:hidden;pointer-events:auto;
+  background:#081e2e;border:1.5px solid #d7b375;border-radius:12px;
+  box-shadow:0 12px 44px rgba(0,0,0,.62)}
+.r103-podium-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:5px;
+  padding:4px 8px;background:#082335;color:#dff9f4;min-height:37px;text-align:center}
+.r103-podium-accent{color:#f0cd8c;font-size:10px;font-weight:750}
+.r103-podium-title{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.r103-podium-card[data-group="ancient"]{border-color:#f59a65}
+.r103-podium-card[data-group="new2007"]{border-color:#e8c078}
+.r103-podium-card[data-group="other"]{border-color:#ed5261}
+.r103-podium-frame{flex:1;min-height:95px;border:0;background:#081e2e;opacity:1}
+.r103-podium-footer{display:flex;align-items:center;justify-content:space-between;padding:5px 8px;gap:6px;min-height:36px;background:#0c2d40;flex-wrap:nowrap}
+.r103-podium-footer small{font-size:10px;color:#afe0de;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.r103-details-button{font-size:10px;border:1px solid #d6b476;border-radius:6px;background:#d2b574;color:#14273c;font-weight:800;padding:5px 7px;cursor:pointer;white-space:nowrap}
+.r103-details-button:focus-visible{outline:2px solid #4fe0db;outline-offset:2px}
+@media(max-width:920px){.r103-podium-footer{justify-content:center}.r103-podium-footer small{display:none}.r103-details-button{font-size:9px}.r103-podium-head{min-height:34px}}
+
+.r103-upload-button{font-size:9px;border:1px solid #5fa5a9;border-radius:6px;background:#173a4c;color:#c2edeb;font-weight:700;padding:5px 6px;cursor:pointer;white-space:nowrap}
+.r103-upload-button:disabled{opacity:.65;cursor:wait}
+.r103-file-input[hidden],.r103-podium-card[hidden],.r103-podium-pill[hidden]{display:none!important}
+.r103-podium-pill{position:fixed;pointer-events:auto;padding:6px 12px;border-radius:999px;border:1.5px solid #e5c178;background:rgba(8,31,48,.92);color:#fef08a;font-size:11px;font-weight:800;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.45);white-space:nowrap}
+.r103-podium-pill:hover{background:#123e5e;border-color:#5eead4;color:#fff}
+@media(max-width:1090px){.r103-upload-button{font-size:8px}}

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<script id="mv-gh-pages-shim">
+(function(){
+  var BASE = "/mathverse3dtung";
+  window.__MV_BASE_PATH__ = BASE;
+  var PREFIXES = ["dual/","src/","data/","vendor/","game-park/","museum-assets/","museum-thumbs/","museum-data/","r75/","lab/","api/","granddome/","favicon.svg","health"];
+  function shouldPrefix(u){
+    if(!BASE || typeof u !== 'string') return false;
+    if(!u.startsWith('/') || u.startsWith(BASE + '/') || u.startsWith('//')) return false;
+    var clean = u.slice(1);
+    for(var i = 0; i < PREFIXES.length; i++){
+      if(clean.startsWith(PREFIXES[i]) || clean === 'r75' || clean === 'lab' || clean === 'game-park') return true;
+    }
+    return false;
+  }
+  function mapUrl(u){
+    if(typeof u !== 'string') return u;
+    var origin = window.location && window.location.origin ? window.location.origin : '';
+    var hadOrigin = false;
+    if(origin && u.indexOf(origin + '/') === 0){
+      u = u.slice(origin.length);
+      hadOrigin = true;
+    }
+    var finish = function(res){
+      return (hadOrigin && res.indexOf('/') === 0) ? (origin + res) : res;
+    };
+    var qIdx = u.indexOf('?');
+    var pathOnly = qIdx >= 0 ? u.slice(0, qIdx) : u;
+    var query = qIdx >= 0 ? u.slice(qIdx) : '';
+    var rel = BASE && pathOnly.startsWith(BASE + '/') ? pathOnly.slice(BASE.length) : pathOnly;
+    if(rel === '/api/discovery/r99/photo'){
+      var params = new URLSearchParams(query);
+      var id = params.get('id') || '';
+      return finish((BASE || '') + '/api/discovery/r99/photo/' + encodeURIComponent(id) + '.json');
+    }
+    var mTile = rel.match(/^\/api\/discovery\/r99\/(terrain|satellite)\/(\d+)\/(\d+)\/(\d+)$/);
+    if(mTile){
+      var kind = mTile[1], z = mTile[2], x = mTile[3], y = mTile[4];
+      if(kind === 'terrain') return 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/' + z + '/' + x + '/' + y + '.png';
+      return 'https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless_3857/default/GoogleMapsCompatible/' + z + '/' + y + '/' + x + '.jpg';
+    }
+    var StaticJsonRoutes = {
+      '/health': '/health.json',
+      '/api/health': '/api/health.json',
+      '/granddome/api/museum': '/granddome/api/museum.json',
+      '/api/discovery/r98/catalog': '/api/discovery/r98/catalog.json',
+      '/api/discovery/r99/catalog': '/api/discovery/r99/catalog.json',
+      '/api/discovery/countries': '/api/discovery/countries.json',
+      '/api/discovery/unesco': '/api/discovery/unesco.json'
+    };
+    if(StaticJsonRoutes[rel]){
+      return finish((BASE || '') + StaticJsonRoutes[rel] + query);
+    }
+    if(shouldPrefix(u)){
+      return finish(BASE + u);
+    }
+    return finish(u);
+  }
+  if(window.Request){
+    var OrigRequest = window.Request;
+    window.Request = function(input, init){
+      if(typeof input === 'string') input = mapUrl(input);
+      else if(input && typeof input.url === 'string') input = new OrigRequest(mapUrl(input.url), input);
+      return new OrigRequest(input, init);
+    };
+    window.Request.prototype = OrigRequest.prototype;
+  }
+  var origFetch = window.fetch;
+  if(origFetch){
+    window.fetch = function(input, init){
+      if(typeof input === 'string'){
+        input = mapUrl(input);
+      } else if(input && typeof input.url === 'string'){
+        input = new Request(mapUrl(input.url), input);
+      }
+      return origFetch.call(this, input, init);
+    };
+  }
+  var origOpen = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method, url){
+    var args = Array.prototype.slice.call(arguments);
+    if(typeof url === 'string') args[1] = mapUrl(url);
+    return origOpen.apply(this, args);
+  };
+  if(BASE){
+    [HTMLImageElement, HTMLIFrameElement, HTMLScriptElement, HTMLLinkElement, HTMLAnchorElement, HTMLMediaElement, HTMLSourceElement].forEach(function(Ctor){
+      if(!Ctor || !Ctor.prototype) return;
+      var prop = (Ctor === HTMLLinkElement || Ctor === HTMLAnchorElement) ? 'href' : 'src';
+      var desc = Object.getOwnPropertyDescriptor(Ctor.prototype, prop);
+      if(desc && desc.set){
+        Object.defineProperty(Ctor.prototype, prop, {
+          configurable: true,
+          enumerable: desc.enumerable,
+          get: desc.get,
+          set: function(v){
+            return desc.set.call(this, typeof v === 'string' ? mapUrl(v) : v);
+          }
+        });
+      }
+    });
+    var origSetAttr = Element.prototype.setAttribute;
+    Element.prototype.setAttribute = function(name, value){
+      if((name === 'src' || name === 'href') && typeof value === 'string'){
+        value = mapUrl(value);
+      }
+      return origSetAttr.call(this, name, value);
+    };
+    var origWinOpen = window.open;
+    if(origWinOpen){
+      window.open = function(url){
+        var args = Array.prototype.slice.call(arguments);
+        if(typeof url === 'string') args[0] = mapUrl(url);
+        return origWinOpen.apply(this, args);
+      };
+    }
+  }
+})();
+</script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#081c2b"><title>MATHVERSE · Công viên 3D: Cổng mở và NPC hướng dẫn</title>
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="app-header">
+<div class="brand"><div class="mark">M<span>✧</span></div><div><div class="eyebrow">MATHVERSE · GRAND CAMPUS</div><h1>WONDER PARK <span style="color:#ffe4aa">3D</span></h1></div></div>
+<div class="head-actions"><button class="btn mv-campus-back" id="backToCampus" type="button">← VỀ ĐẠI SẢNH MATHVERSE</button><span class="small-tag" id="modeTag">CỔNG NGOÀI · MÔ HÌNH 3D TĨNH</span><button class="btn" id="btnHome">⌂ Về ngoài cổng</button><button class="btn" id="btnGuide">🔊 Nghe NPC</button></div>
+</header>
+<main class="page">
+<section class="scene" id="stage">
+<canvas id="worldCanvas" tabindex="0" aria-label="Công viên trò chơi 3D MATHVERSE. Mở cổng để đi vào không gian có chuyển động."></canvas><div class="sky"></div>
+<div class="stage-head"><div class="glass"><div class="eyebrow" id="sceneLabel">CHƯA VÀO CÔNG VIÊN</div><h2 id="sceneTitle">CỔNG MATHVERSE WONDER PARK</h2><p id="sceneDescription">Mô hình 3D các trò chơi đứng yên. Mở cổng để bước vào thế giới chuyển động.</p></div><div class="glass status"><span></span><b id="renderInfo">Đang khởi tạo 3D</b></div></div>
+<div class="ribbon" id="toast"></div>
+<div class="stage-bottom"><div class="glass hint"><span class="keyboard"><span class="key">W</span><span class="key">A</span><span class="key">S</span><span class="key">D</span> Đi bộ <span class="key">E</span> NPC</span><br/>Giữ chuột để xoay góc nhìn · Lăn chuột để zoom</div><div class="glass cam-btns"><button class="btn" id="btnOverview">🌐 Toàn cảnh</button><button class="btn" id="btnFollow">👤 Theo nhân vật</button></div></div>
+<div class="engine-tag" id="engineTag">MATHVERSE 3D • THREE.JS</div>
+<div class="center-modal" id="finishModal"><div class="modal-card"><div class="trophy" id="finishIcon">🏆</div><h2 id="finishTitle">Học bá Chuồng Gà</h2><p id="finishText"></p><button class="btn gold" id="btnAgain">↻ Chơi lại 10 câu</button><button class="btn" id="btnLeaveArena">Về công viên</button></div></div>
+</section>
+<aside class="sidebar">
+<div class="side-title"><div><div class="eyebrow" id="sideEyebrow">CHẾ ĐỘ THAM QUAN</div><h2 id="sideTitle">Cổng Công Viên 3D</h2></div><span class="emoji" id="sideIcon">🎡</span></div>
+<div class="pane active" id="outsidePane">
+<p class="intro">Đây là mặt tiền công viên trong vũ trụ MATHVERSE. Học sinh nhìn thấy <strong>nhân vật và 10 công trình 3D tĩnh</strong> trước khi mở cổng.</p>
+<div class="hero-notice"><strong>🔓 Mở cổng để chuyển trạng thái:</strong><br/>Cổng mở bằng hoạt ảnh 3D → nhân vật đi qua cổng → 10 khu bắt đầu chuyển động → NPC lễ tân giới thiệu và dẫn học sinh đến khu trò chơi.</div>
+<div class="mini-cards"><div class="mini-card"><strong>10 khu 3D</strong><small>Vị trí theo đường vòng, mỗi khu một chủ đề.</small></div><div class="mini-card"><strong>1 cổng chung</strong><small>Nhân vật đi từ ngoài vào trong công viên.</small></div></div>
+<div class="npc"><div class="npc-face">🧑‍✈️</div><div><strong>NPC lễ tân MATHVERSE</strong><p>“Chào mừng đến Công viên Toán học! Hãy mở cổng để khám phá các trò chơi.”</p><button class="btn" id="speakOutside">🔊 Nghe giới thiệu</button></div></div>
+<div class="action-group"><button class="btn gold" id="enterPark">🚪 MỞ CỔNG · BƯỚC VÀO CÔNG VIÊN</button><button class="btn" id="outsideLook">🔭 Xem công trình 3D tĩnh</button></div>
+<div class="footnote">Khu trò chơi đã được kết nối vào MATHVERSE Grand Campus. Bản thử chỉ dùng câu hỏi giáo viên đã cung cấp, không tự sinh đề.</div>
+</div>
+<div class="pane" id="parkPane">
+<p class="intro">Cổng đã mở. Các công trình nay có chuyển động 3D. Cô có thể đi bộ hoặc chọn nhanh một trong 10 khu; NPC từng khu sẽ giải thích cách chơi.</p>
+<div class="npc"><div class="npc-face">👩‍✈️</div><div><strong>NPC hướng dẫn Linh</strong><p id="parkNpcText">Chào mừng bạn đến công viên! Hãy khám phá từng khu vực.</p><button class="btn" id="speakPark">🔊 Nghe NPC giới thiệu</button></div></div>
+<div class="section-head">BẢN ĐỒ VÒNG TRÒN KHÁM PHÁ</div><div class="park-map" id="parkMap"></div>
+<div class="section-head">10 KHU VUI CHƠI</div><div class="area-list" id="zoneGrid"></div>
+<button class="btn" id="parkOverview">🌐 Quan sát toàn công viên đang chuyển động</button>
+<div class="footnote">Chỉ game 1 “Học bá Chuồng Gà” có luật chơi và bộ câu hỏi demo. Các khu còn lại là mô hình chuyển động để duyệt kiến trúc.</div>
+</div>
+<div class="pane" id="zonePane">
+<div class="npc"><div class="npc-face" id="zoneNpcIcon">🐔</div><div><strong id="zoneNpcName">Gà Giáo Sư</strong><p id="zoneNpcText">Khu trò chơi đang chờ khám phá.</p><button class="btn" id="speakZone">🔊 Nghe hướng dẫn</button></div></div>
+<div class="detail" id="zoneDetailText"></div>
+<div class="metric-row"><span>Trạng thái mô hình</span><strong id="zoneRenderStatus">3D chuyển động</strong></div>
+<div class="action-group"><button class="btn primary" id="zonePlay">🐔 Bắt đầu Học bá Chuồng Gà</button><button class="btn" id="backToPark">↩ Quay lại đường tròn khám phá</button></div>
+<div class="detail-note">Các game 2–10 mới có cảnh 3D và NPC giới thiệu; riêng Học bá Chuồng Gà đã có luật chơi và câu hỏi demo.</div>
+</div>
+<div class="pane" id="quizPane">
+<div class="metric-row"><span id="quizSubtitle">Toán 6 · Chương I</span><strong id="questionCount">Câu 1/10</strong></div>
+<div class="progress"><span id="quizProgress"></span></div>
+<div class="metric-row"><span>Gà đối thủ còn lại</span><strong id="opponentsLeft">10</strong></div>
+<div class="question" id="questionText"></div>
+<div class="answers" id="answerList"></div>
+<div class="feedback" id="quizFeedback">Chọn A, B, C hoặc D. Sai một câu sẽ bị loại và chơi lại từ đầu.</div>
+<div class="action-group"><button class="btn" id="quitQuiz">↩ Thoát trò chơi về công viên</button></div>
+<div class="footnote">10 câu ngẫu nhiên từ bộ 40 câu Chương I của tài liệu cô đã cung cấp, không dùng AI tạo câu mới. Đáp án theo tài liệu nguồn, cần giáo viên duyệt trước khi sử dụng chính thức.</div>
+</div>
+</aside>
+</main>
+<script id="BANK" type="application/json">[{"id": "6-01-01", "number": 1, "page": 1, "difficulty": "Dễ", "prompt": "Cho tập hợp A = {x ∈ℕ | x < 5}. Số phần tử của tập hợp A là bao nhiêu?", "choices": {"A": "5 phần tử", "B": "3 phần tử", "C": "4 phần tử", "D": "6 phần tử"}, "answer": "A", "issues": [], "prompt_segments": [{"t": "txt", "v": "Cho tập hợp "}, {"t": "math", "v": "A=\\{x\\in \\mathbb{N}\\mid x<5\\}", "source": "A = {x ∈ℕ | x < 5}"}, {"t": "txt", "v": ". Số phần tử của tập hợp A là bao nhiêu?"}], "choice_segments": {"A": [{"t": "txt", "v": "5 phần tử"}], "B": [{"t": "txt", "v": "3 phần tử"}], "C": [{"t": "txt", "v": "4 phần tử"}], "D": [{"t": "txt", "v": "6 phần tử"}]}}, {"id": "6-01-02", "number": 2, "page": 1, "difficulty": "Dễ", "prompt": "Số liền sau của số tự nhiên 137 là số nào?", "choices": {"A": "137", "B": "138", "C": "139", "D": "136"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Số liền sau của số tự nhiên 137 là số nào?"}], "choice_segments": {"A": [{"t": "txt", "v": "137"}], "B": [{"t": "txt", "v": "138"}], "C": [{"t": "txt", "v": "139"}], "D": [{"t": "txt", "v": "136"}]}}, {"id": "6-01-03", "number": 3, "page": 1, "difficulty": "Dễ", "prompt": "Kết quả của phép nhân hai lũy thừa 4^4 · 4^3 viết dưới dạng một lũy thừa là:", "choices": {"A": "4^7", "B": "4^6", "C": "4^12", "D": "8^7"}, "answer": "A", "issues": [], "prompt_segments": [{"t": "txt", "v": "Kết quả của phép nhân hai lũy thừa "}, {"t": "math", "v": "4^4 \\cdot  4^3", "source": "4^4 · 4^3"}, {"t": "txt", "v": " viết dưới dạng một lũy thừa là:"}], "choice_segments": {"A": [{"t": "math", "v": "4^7", "source": "4^7"}], "B": [{"t": "math", "v": "4^6", "source": "4^6"}], "C": [{"t": "math", "v": "4^12", "source": "4^12"}], "D": [{"t": "math", "v": "8^7", "source": "8^7"}]}}, {"id": "6-01-04", "number": 4, "page": 1, "difficulty": "Dễ", "prompt": "Trong số tự nhiên 6782, chữ số 7 có giá trị bằng bao nhiêu?", "choices": {"A": "70", "B": "7000", "C": "700", "D": "7"}, "answer": "C", "issues": [], "prompt_segments": [{"t": "txt", "v": "Trong số tự nhiên 6782, chữ số 7 có giá trị bằng bao nhiêu?"}], "choice_segments": {"A": [{"t": "txt", "v": "70"}], "B": [{"t": "txt", "v": "7000"}], "C": [{"t": "txt", "v": "700"}], "D": [{"t": "txt", "v": "7"}]}}, {"id": "6-01-05", "number": 5, "page": 1, "difficulty": "Dễ", "prompt": "Giá trị của lũy thừa 3^4 bằng:", "choices": {"A": "83", "B": "12", "C": "27", "D": "81"}, "answer": "D", "issues": [], "prompt_segments": [{"t": "txt", "v": "Giá trị của lũy thừa "}, {"t": "math", "v": "3^4", "source": "3^4"}, {"t": "txt", "v": " bằng:"}], "choice_segments": {"A": [{"t": "txt", "v": "83"}], "B": [{"t": "txt", "v": "12"}], "C": [{"t": "txt", "v": "27"}], "D": [{"t": "txt", "v": "81"}]}}, {"id": "6-01-06", "number": 6, "page": 1, "difficulty": "Dễ", "prompt": "Cho tập hợp A = {x ∈ℕ | x < 10}. Số phần tử của tập hợp A là bao nhiêu?", "choices": {"A": "8 phần tử", "B": "10 phần tử", "C": "9 phần tử", "D": "11 phần tử"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Cho tập hợp "}, {"t": "math", "v": "A=\\{x\\in \\mathbb{N}\\mid x<10\\}", "source": "A = {x ∈ℕ | x < 10}"}, {"t": "txt", "v": ". Số phần tử của tập hợp A là bao nhiêu?"}], "choice_segments": {"A": [{"t": "txt", "v": "8 phần tử"}], "B": [{"t": "txt", "v": "10 phần tử"}], "C": [{"t": "txt", "v": "9 phần tử"}], "D": [{"t": "txt", "v": "11 phần tử"}]}}, {"id": "6-01-07", "number": 7, "page": 1, "difficulty": "Dễ", "prompt": "Số liền sau của số tự nhiên 222 là số nào?", "choices": {"A": "222", "B": "224", "C": "223", "D": "221"}, "answer": "C", "issues": [], "prompt_segments": [{"t": "txt", "v": "Số liền sau của số tự nhiên 222 là số nào?"}], "choice_segments": {"A": [{"t": "txt", "v": "222"}], "B": [{"t": "txt", "v": "224"}], "C": [{"t": "txt", "v": "223"}], "D": [{"t": "txt", "v": "221"}]}}, {"id": "6-01-08", "number": 8, "page": 1, "difficulty": "Dễ", "prompt": "Kết quả của phép nhân hai lũy thừa 5^9 · 5^3 viết dưới dạng một lũy thừa là:", "choices": {"A": "10^12", "B": "5^12", "C": "5^11", "D": "5^27"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Kết quả của phép nhân hai lũy thừa "}, {"t": "math", "v": "5^9 \\cdot  5^3", "source": "5^9 · 5^3"}, {"t": "txt", "v": " viết dưới dạng một lũy thừa là:"}], "choice_segments": {"A": [{"t": "math", "v": "10^12", "source": "10^12"}], "B": [{"t": "math", "v": "5^12", "source": "5^12"}], "C": [{"t": "math", "v": "5^11", "source": "5^11"}], "D": [{"t": "math", "v": "5^27", "source": "5^27"}]}}, {"id": "6-01-09", "number": 9, "page": 1, "difficulty": "Dễ", "prompt": "Trong số tự nhiên 5782, chữ số 7 có giá trị bằng bao nhiêu?", "choices": {"A": "7000", "B": "7", "C": "70", "D": "700"}, "answer": "D", "issues": [], "prompt_segments": [{"t": "txt", "v": "Trong số tự nhiên 5782, chữ số 7 có giá trị bằng bao nhiêu?"}], "choice_segments": {"A": [{"t": "txt", "v": "7000"}], "B": [{"t": "txt", "v": "7"}], "C": [{"t": "txt", "v": "70"}], "D": [{"t": "txt", "v": "700"}]}}, {"id": "6-01-10", "number": 10, "page": 1, "difficulty": "Dễ", "prompt": "Giá trị của lũy thừa 2^3 bằng:", "choices": {"A": "4", "B": "6", "C": "8", "D": "10"}, "answer": "C", "issues": [], "prompt_segments": [{"t": "txt", "v": "Giá trị của lũy thừa "}, {"t": "math", "v": "2^3", "source": "2^3"}, {"t": "txt", "v": " bằng:"}], "choice_segments": {"A": [{"t": "txt", "v": "4"}], "B": [{"t": "txt", "v": "6"}], "C": [{"t": "txt", "v": "8"}], "D": [{"t": "txt", "v": "10"}]}}, {"id": "6-01-11", "number": 11, "page": 1, "difficulty": "Dễ", "prompt": "Cho tập hợp A = {x ∈ℕ | x < 15}. Số phần tử của tập hợp A là bao nhiêu?", "choices": {"A": "15 phần tử", "B": "14 phần tử", "C": "16 phần tử", "D": "13 phần tử"}, "answer": "A", "issues": [], "prompt_segments": [{"t": "txt", "v": "Cho tập hợp "}, {"t": "math", "v": "A=\\{x\\in \\mathbb{N}\\mid x<15\\}", "source": "A = {x ∈ℕ | x < 15}"}, {"t": "txt", "v": ". Số phần tử của tập hợp A là bao nhiêu?"}], "choice_segments": {"A": [{"t": "txt", "v": "15 phần tử"}], "B": [{"t": "txt", "v": "14 phần tử"}], "C": [{"t": "txt", "v": "16 phần tử"}], "D": [{"t": "txt", "v": "13 phần tử"}]}}, {"id": "6-01-12", "number": 12, "page": 2, "difficulty": "Dễ", "prompt": "Số liền sau của số tự nhiên 307 là số nào?", "choices": {"A": "307", "B": "306", "C": "309", "D": "308"}, "answer": "D", "issues": [], "prompt_segments": [{"t": "txt", "v": "Số liền sau của số tự nhiên 307 là số nào?"}], "choice_segments": {"A": [{"t": "txt", "v": "307"}], "B": [{"t": "txt", "v": "306"}], "C": [{"t": "txt", "v": "309"}], "D": [{"t": "txt", "v": "308"}]}}, {"id": "6-01-13", "number": 13, "page": 2, "difficulty": "Dễ", "prompt": "Kết quả của phép nhân hai lũy thừa 2^14 · 2^3 viết dưới dạng một lũy thừa là:", "choices": {"A": "2^42", "B": "4^17", "C": "2^16", "D": "2^17"}, "answer": "D", "issues": [], "prompt_segments": [{"t": "txt", "v": "Kết quả của phép nhân hai lũy thừa "}, {"t": "math", "v": "2^14 \\cdot  2^3", "source": "2^14 · 2^3"}, {"t": "txt", "v": " viết dưới dạng một lũy thừa là:"}], "choice_segments": {"A": [{"t": "math", "v": "2^42", "source": "2^42"}], "B": [{"t": "math", "v": "4^17", "source": "4^17"}], "C": [{"t": "math", "v": "2^16", "source": "2^16"}], "D": [{"t": "math", "v": "2^17", "source": "2^17"}]}}, {"id": "6-01-14", "number": 14, "page": 2, "difficulty": "Dễ", "prompt": "Trong số tự nhiên 4782, chữ số 7 có giá trị bằng bao nhiêu?", "choices": {"A": "70", "B": "700", "C": "7000", "D": "7"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Trong số tự nhiên 4782, chữ số 7 có giá trị bằng bao nhiêu?"}], "choice_segments": {"A": [{"t": "txt", "v": "70"}], "B": [{"t": "txt", "v": "700"}], "C": [{"t": "txt", "v": "7000"}], "D": [{"t": "txt", "v": "7"}]}}, {"id": "6-01-15", "number": 15, "page": 2, "difficulty": "Dễ", "prompt": "Giá trị của lũy thừa 4^5 bằng:", "choices": {"A": "256", "B": "1024", "C": "1026", "D": "20"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Giá trị của lũy thừa "}, {"t": "math", "v": "4^5", "source": "4^5"}, {"t": "txt", "v": " bằng:"}], "choice_segments": {"A": [{"t": "txt", "v": "256"}], "B": [{"t": "txt", "v": "1024"}], "C": [{"t": "txt", "v": "1026"}], "D": [{"t": "txt", "v": "20"}]}}, {"id": "6-01-16", "number": 16, "page": 2, "difficulty": "Trung bình", "prompt": "Tính nhanh giá trị của biểu thức P = 25 · 64 + 25 · 36.", "choices": {"A": "2564", "B": "2750", "C": "2250", "D": "2500"}, "answer": "D", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tính nhanh giá trị của biểu thức "}, {"t": "math", "v": "P = 25 \\cdot  64 + 25 \\cdot  36", "source": "P = 25 · 64 + 25 · 36"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "txt", "v": "2564"}], "B": [{"t": "txt", "v": "2750"}], "C": [{"t": "txt", "v": "2250"}], "D": [{"t": "txt", "v": "2500"}]}}, {"id": "6-01-17", "number": 17, "page": 2, "difficulty": "Trung bình", "prompt": "Tìm số tự nhiên x, biết: 2 · x + 12 = 56.", "choices": {"A": "x = 27", "B": "x = 22", "C": "x = 19", "D": "x = 44"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tìm số tự nhiên x, biết: "}, {"t": "math", "v": "2 \\cdot  x + 12 = 56", "source": "2 · x + 12 = 56"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "x = 27", "source": "x = 27"}], "B": [{"t": "math", "v": "x = 22", "source": "x = 22"}], "C": [{"t": "math", "v": "x = 19", "source": "x = 19"}], "D": [{"t": "math", "v": "x = 44", "source": "x = 44"}]}}, {"id": "6-01-18", "number": 18, "page": 2, "difficulty": "Trung bình", "prompt": "Tập hợp B = {x ∈ℕ* | x ≤ 24} có bao nhiêu phần tử?", "choices": {"A": "25 phần tử", "B": "23 phần tử", "C": "22 phần tử", "D": "24 phần tử"}, "answer": "D", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tập hợp "}, {"t": "math", "v": "B=\\{x\\in \\mathbb{N}^{*}\\mid x\\le24\\}", "source": "B = {x ∈ℕ* | x ≤ 24}"}, {"t": "txt", "v": " có bao nhiêu phần tử?"}], "choice_segments": {"A": [{"t": "txt", "v": "25 phần tử"}], "B": [{"t": "txt", "v": "23 phần tử"}], "C": [{"t": "txt", "v": "22 phần tử"}], "D": [{"t": "txt", "v": "24 phần tử"}]}}, {"id": "6-01-19", "number": 19, "page": 2, "difficulty": "Trung bình", "prompt": "Tính nhanh giá trị của biểu thức P = 28 · 64 + 28 · 36.", "choices": {"A": "2800", "B": "2864", "C": "3080", "D": "2520"}, "answer": "A", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tính nhanh giá trị của biểu thức "}, {"t": "math", "v": "P = 28 \\cdot  64 + 28 \\cdot  36", "source": "P = 28 · 64 + 28 · 36"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "txt", "v": "2800"}], "B": [{"t": "txt", "v": "2864"}], "C": [{"t": "txt", "v": "3080"}], "D": [{"t": "txt", "v": "2520"}]}}, {"id": "6-01-20", "number": 20, "page": 2, "difficulty": "Trung bình", "prompt": "Tìm số tự nhiên x, biết: 2 · x + 18 = 74.", "choices": {"A": "x = 56", "B": "x = 28", "C": "x = 33", "D": "x = 25"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tìm số tự nhiên x, biết: "}, {"t": "math", "v": "2 \\cdot  x + 18 = 74", "source": "2 · x + 18 = 74"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "x = 56", "source": "x = 56"}], "B": [{"t": "math", "v": "x = 28", "source": "x = 28"}], "C": [{"t": "math", "v": "x = 33", "source": "x = 33"}], "D": [{"t": "math", "v": "x = 25", "source": "x = 25"}]}}, {"id": "6-01-21", "number": 21, "page": 2, "difficulty": "Trung bình", "prompt": "Tập hợp B = {x ∈ℕ* | x ≤ 33} có bao nhiêu phần tử?", "choices": {"A": "34 phần tử", "B": "32 phần tử", "C": "33 phần tử", "D": "31 phần tử"}, "answer": "C", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tập hợp "}, {"t": "math", "v": "B=\\{x\\in \\mathbb{N}^{*}\\mid x\\le33\\}", "source": "B = {x ∈ℕ* | x ≤ 33}"}, {"t": "txt", "v": " có bao nhiêu phần tử?"}], "choice_segments": {"A": [{"t": "txt", "v": "34 phần tử"}], "B": [{"t": "txt", "v": "32 phần tử"}], "C": [{"t": "txt", "v": "33 phần tử"}], "D": [{"t": "txt", "v": "31 phần tử"}]}}, {"id": "6-01-22", "number": 22, "page": 2, "difficulty": "Trung bình", "prompt": "Tính nhanh giá trị của biểu thức P = 31 · 64 + 31 · 36.", "choices": {"A": "3410", "B": "2790", "C": "3164", "D": "3100"}, "answer": "D", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tính nhanh giá trị của biểu thức "}, {"t": "math", "v": "P = 31 \\cdot  64 + 31 \\cdot  36", "source": "P = 31 · 64 + 31 · 36"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "txt", "v": "3410"}], "B": [{"t": "txt", "v": "2790"}], "C": [{"t": "txt", "v": "3164"}], "D": [{"t": "txt", "v": "3100"}]}}, {"id": "6-01-23", "number": 23, "page": 2, "difficulty": "Trung bình", "prompt": "Tìm số tự nhiên x, biết: 2 · x + 24 = 92.", "choices": {"A": "x = 39", "B": "x = 34", "C": "x = 68", "D": "x = 31"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tìm số tự nhiên x, biết: "}, {"t": "math", "v": "2 \\cdot  x + 24 = 92", "source": "2 · x + 24 = 92"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "x = 39", "source": "x = 39"}], "B": [{"t": "math", "v": "x = 34", "source": "x = 34"}], "C": [{"t": "math", "v": "x = 68", "source": "x = 68"}], "D": [{"t": "math", "v": "x = 31", "source": "x = 31"}]}}, {"id": "6-01-24", "number": 24, "page": 2, "difficulty": "Trung bình", "prompt": "Tập hợp B = {x ∈ℕ* | x ≤ 42} có bao nhiêu phần tử?", "choices": {"A": "43 phần tử", "B": "42 phần tử", "C": "41 phần tử", "D": "40 phần tử"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tập hợp "}, {"t": "math", "v": "B=\\{x\\in \\mathbb{N}^{*}\\mid x\\le42\\}", "source": "B = {x ∈ℕ* | x ≤ 42}"}, {"t": "txt", "v": " có bao nhiêu phần tử?"}], "choice_segments": {"A": [{"t": "txt", "v": "43 phần tử"}], "B": [{"t": "txt", "v": "42 phần tử"}], "C": [{"t": "txt", "v": "41 phần tử"}], "D": [{"t": "txt", "v": "40 phần tử"}]}}, {"id": "6-01-25", "number": 25, "page": 2, "difficulty": "Trung bình", "prompt": "Tính nhanh giá trị của biểu thức P = 34 · 64 + 34 · 36.", "choices": {"A": "3740", "B": "3464", "C": "3060", "D": "3400"}, "answer": "D", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tính nhanh giá trị của biểu thức "}, {"t": "math", "v": "P = 34 \\cdot  64 + 34 \\cdot  36", "source": "P = 34 · 64 + 34 · 36"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "txt", "v": "3740"}], "B": [{"t": "txt", "v": "3464"}], "C": [{"t": "txt", "v": "3060"}], "D": [{"t": "txt", "v": "3400"}]}}, {"id": "6-01-26", "number": 26, "page": 2, "difficulty": "Trung bình", "prompt": "Tìm số tự nhiên x, biết: 2 · x + 30 = 110.", "choices": {"A": "x = 80", "B": "x = 40", "C": "x = 37", "D": "x = 45"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tìm số tự nhiên x, biết: "}, {"t": "math", "v": "2 \\cdot  x + 30 = 110", "source": "2 · x + 30 = 110"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "x = 80", "source": "x = 80"}], "B": [{"t": "math", "v": "x = 40", "source": "x = 40"}], "C": [{"t": "math", "v": "x = 37", "source": "x = 37"}], "D": [{"t": "math", "v": "x = 45", "source": "x = 45"}]}}, {"id": "6-01-27", "number": 27, "page": 2, "difficulty": "Trung bình", "prompt": "Tập hợp B = {x ∈ℕ* | x ≤ 51} có bao nhiêu phần tử?", "choices": {"A": "52 phần tử", "B": "50 phần tử", "C": "51 phần tử", "D": "49 phần tử"}, "answer": "C", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tập hợp "}, {"t": "math", "v": "B=\\{x\\in \\mathbb{N}^{*}\\mid x\\le51\\}", "source": "B = {x ∈ℕ* | x ≤ 51}"}, {"t": "txt", "v": " có bao nhiêu phần tử?"}], "choice_segments": {"A": [{"t": "txt", "v": "52 phần tử"}], "B": [{"t": "txt", "v": "50 phần tử"}], "C": [{"t": "txt", "v": "51 phần tử"}], "D": [{"t": "txt", "v": "49 phần tử"}]}}, {"id": "6-01-28", "number": 28, "page": 3, "difficulty": "Trung bình", "prompt": "Tính nhanh giá trị của biểu thức P = 37 · 64 + 37 · 36.", "choices": {"A": "3700", "B": "3330", "C": "3764", "D": "4070"}, "answer": "A", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tính nhanh giá trị của biểu thức "}, {"t": "math", "v": "P = 37 \\cdot  64 + 37 \\cdot  36", "source": "P = 37 · 64 + 37 · 36"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "txt", "v": "3700"}], "B": [{"t": "txt", "v": "3330"}], "C": [{"t": "txt", "v": "3764"}], "D": [{"t": "txt", "v": "4070"}]}}, {"id": "6-01-29", "number": 29, "page": 3, "difficulty": "Trung bình", "prompt": "Tìm số tự nhiên x, biết: 2 · x + 36 = 128.", "choices": {"A": "x = 92", "B": "x = 51", "C": "x = 46", "D": "x = 43"}, "answer": "C", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tìm số tự nhiên x, biết: "}, {"t": "math", "v": "2 \\cdot  x + 36 = 128", "source": "2 · x + 36 = 128"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "x = 92", "source": "x = 92"}], "B": [{"t": "math", "v": "x = 51", "source": "x = 51"}], "C": [{"t": "math", "v": "x = 46", "source": "x = 46"}], "D": [{"t": "math", "v": "x = 43", "source": "x = 43"}]}}, {"id": "6-01-30", "number": 30, "page": 3, "difficulty": "Trung bình", "prompt": "Tập hợp B = {x ∈ℕ* | x ≤ 60} có bao nhiêu phần tử?", "choices": {"A": "58 phần tử", "B": "59 phần tử", "C": "60 phần tử", "D": "61 phần tử"}, "answer": "C", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tập hợp "}, {"t": "math", "v": "B=\\{x\\in \\mathbb{N}^{*}\\mid x\\le60\\}", "source": "B = {x ∈ℕ* | x ≤ 60}"}, {"t": "txt", "v": " có bao nhiêu phần tử?"}], "choice_segments": {"A": [{"t": "txt", "v": "58 phần tử"}], "B": [{"t": "txt", "v": "59 phần tử"}], "C": [{"t": "txt", "v": "60 phần tử"}], "D": [{"t": "txt", "v": "61 phần tử"}]}}, {"id": "6-01-31", "number": 31, "page": 3, "difficulty": "Khó", "prompt": "Tìm số tự nhiên n thỏa mãn: 2^(n + 1) + 2^n = 12.", "choices": {"A": "n = 2", "B": "n = 1", "C": "n = 3", "D": "n = 4"}, "answer": "A", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tìm số tự nhiên n thỏa mãn: "}, {"t": "math", "v": "2^{n+1} + 2^n = 12", "source": "2^(n + 1) + 2^n = 12"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "n = 2", "source": "n = 2"}], "B": [{"t": "math", "v": "n = 1", "source": "n = 1"}], "C": [{"t": "math", "v": "n = 3", "source": "n = 3"}], "D": [{"t": "math", "v": "n = 4", "source": "n = 4"}]}}, {"id": "6-01-32", "number": 32, "page": 3, "difficulty": "Khó", "prompt": "Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 44.", "choices": {"A": "S = 528", "B": "S = 484", "C": "S = 529", "D": "S = 506"}, "answer": "D", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tính tổng dãy số cách đều "}, {"t": "math", "v": "S = 2 + 4 + 6 + \\cdots  + 44", "source": "S = 2 + 4 + 6 + ... + 44"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "S = 528", "source": "S = 528"}], "B": [{"t": "math", "v": "S = 484", "source": "S = 484"}], "C": [{"t": "math", "v": "S = 529", "source": "S = 529"}], "D": [{"t": "math", "v": "S = 506", "source": "S = 506"}]}}, {"id": "6-01-33", "number": 33, "page": 3, "difficulty": "Khó", "prompt": "Tìm số tự nhiên n thỏa mãn: 2^(n + 1) + 2^n = 48.", "choices": {"A": "n = 5", "B": "n = 4", "C": "n = 3", "D": "n = 6"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tìm số tự nhiên n thỏa mãn: "}, {"t": "math", "v": "2^{n+1} + 2^n = 48", "source": "2^(n + 1) + 2^n = 48"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "n = 5", "source": "n = 5"}], "B": [{"t": "math", "v": "n = 4", "source": "n = 4"}], "C": [{"t": "math", "v": "n = 3", "source": "n = 3"}], "D": [{"t": "math", "v": "n = 6", "source": "n = 6"}]}}, {"id": "6-01-34", "number": 34, "page": 3, "difficulty": "Khó", "prompt": "Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 52.", "choices": {"A": "S = 702", "B": "S = 729", "C": "S = 676", "D": "S = 728"}, "answer": "A", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tính tổng dãy số cách đều "}, {"t": "math", "v": "S = 2 + 4 + 6 + \\cdots  + 52", "source": "S = 2 + 4 + 6 + ... + 52"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "S = 702", "source": "S = 702"}], "B": [{"t": "math", "v": "S = 729", "source": "S = 729"}], "C": [{"t": "math", "v": "S = 676", "source": "S = 676"}], "D": [{"t": "math", "v": "S = 728", "source": "S = 728"}]}}, {"id": "6-01-35", "number": 35, "page": 3, "difficulty": "Khó", "prompt": "Tìm số tự nhiên n thỏa mãn: 2^(n + 1) + 2^n = 192.", "choices": {"A": "n = 5", "B": "n = 6", "C": "n = 7", "D": "n = 8"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tìm số tự nhiên n thỏa mãn: "}, {"t": "math", "v": "2^{n+1} + 2^n = 192", "source": "2^(n + 1) + 2^n = 192"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "n = 5", "source": "n = 5"}], "B": [{"t": "math", "v": "n = 6", "source": "n = 6"}], "C": [{"t": "math", "v": "n = 7", "source": "n = 7"}], "D": [{"t": "math", "v": "n = 8", "source": "n = 8"}]}}, {"id": "6-01-36", "number": 36, "page": 3, "difficulty": "Khó", "prompt": "Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 60.", "choices": {"A": "S = 930", "B": "S = 961", "C": "S = 900", "D": "S = 960"}, "answer": "A", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tính tổng dãy số cách đều "}, {"t": "math", "v": "S = 2 + 4 + 6 + \\cdots  + 60", "source": "S = 2 + 4 + 6 + ... + 60"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "S = 930", "source": "S = 930"}], "B": [{"t": "math", "v": "S = 961", "source": "S = 961"}], "C": [{"t": "math", "v": "S = 900", "source": "S = 900"}], "D": [{"t": "math", "v": "S = 960", "source": "S = 960"}]}}, {"id": "6-01-37", "number": 37, "page": 3, "difficulty": "Khó", "prompt": "Tìm số tự nhiên n thỏa mãn: 2^(n + 1) + 2^n = 768.", "choices": {"A": "n = 10", "B": "n = 7", "C": "n = 9", "D": "n = 8"}, "answer": "D", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tìm số tự nhiên n thỏa mãn: "}, {"t": "math", "v": "2^{n+1} + 2^n = 768", "source": "2^(n + 1) + 2^n = 768"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "n = 10", "source": "n = 10"}], "B": [{"t": "math", "v": "n = 7", "source": "n = 7"}], "C": [{"t": "math", "v": "n = 9", "source": "n = 9"}], "D": [{"t": "math", "v": "n = 8", "source": "n = 8"}]}}, {"id": "6-01-38", "number": 38, "page": 3, "difficulty": "Khó", "prompt": "Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 68.", "choices": {"A": "S = 1225", "B": "S = 1190", "C": "S = 1224", "D": "S = 1156"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tính tổng dãy số cách đều "}, {"t": "math", "v": "S = 2 + 4 + 6 + \\cdots  + 68", "source": "S = 2 + 4 + 6 + ... + 68"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "S = 1225", "source": "S = 1225"}], "B": [{"t": "math", "v": "S = 1190", "source": "S = 1190"}], "C": [{"t": "math", "v": "S = 1224", "source": "S = 1224"}], "D": [{"t": "math", "v": "S = 1156", "source": "S = 1156"}]}}, {"id": "6-01-39", "number": 39, "page": 3, "difficulty": "Khó", "prompt": "Tìm số tự nhiên n thỏa mãn: 2^(n + 1) + 2^n = 3072.", "choices": {"A": "n = 9", "B": "n = 12", "C": "n = 11", "D": "n = 10"}, "answer": "D", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tìm số tự nhiên n thỏa mãn: "}, {"t": "math", "v": "2^{n+1} + 2^n = 3072", "source": "2^(n + 1) + 2^n = 3072"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "n = 9", "source": "n = 9"}], "B": [{"t": "math", "v": "n = 12", "source": "n = 12"}], "C": [{"t": "math", "v": "n = 11", "source": "n = 11"}], "D": [{"t": "math", "v": "n = 10", "source": "n = 10"}]}}, {"id": "6-01-40", "number": 40, "page": 3, "difficulty": "Khó", "prompt": "Tính tổng dãy số cách đều S = 2 + 4 + 6 + ... + 76.", "choices": {"A": "S = 1520", "B": "S = 1482", "C": "S = 1521", "D": "S = 1444"}, "answer": "B", "issues": [], "prompt_segments": [{"t": "txt", "v": "Tính tổng dãy số cách đều "}, {"t": "math", "v": "S = 2 + 4 + 6 + \\cdots  + 76", "source": "S = 2 + 4 + 6 + ... + 76"}, {"t": "txt", "v": "."}], "choice_segments": {"A": [{"t": "math", "v": "S = 1520", "source": "S = 1520"}], "B": [{"t": "math", "v": "S = 1482", "source": "S = 1482"}], "C": [{"t": "math", "v": "S = 1521", "source": "S = 1521"}], "D": [{"t": "math", "v": "S = 1444", "source": "S = 1444"}]}}]</script>
+<script>
+// Same-origin bridge: closing the park restores the MATHVERSE Grand Campus lobby.
+document.getElementById('backToCampus').addEventListener('click', () => {
+  if (window.parent !== window) {
+    window.parent.postMessage({type:'MATHVERSE_PARK_RETURN_TO_CAMPUS'}, window.location.origin);
+  } else {
+    window.location.assign('/');
+  }
+});
+</script>
+<script type="module" src="./assets/main.js"></script>
+</body>
+</html>

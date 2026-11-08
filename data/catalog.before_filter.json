@@ -1,0 +1,952 @@
+{
+  "version": 1,
+  "origin": "Dữ liệu mô hình mẫu biên soạn mới; không trích dữ liệu repo gốc",
+  "items": [
+    {
+      "id": "g6_01",
+      "grade": 6,
+      "type": "cube",
+      "title": "Hình lập phương và 12 cạnh",
+      "category": "Hình học",
+      "description": "Quan sát 6 mặt vuông bằng nhau, 12 cạnh và 8 đỉnh.",
+      "formula": "V=a^3",
+      "params": {
+        "a": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_02",
+      "grade": 6,
+      "type": "cuboid",
+      "title": "Hình hộp chữ nhật",
+      "category": "Hình học",
+      "description": "Điều chỉnh chiều dài, chiều rộng và chiều cao để thấy thể tích thay đổi.",
+      "formula": "V=abh",
+      "params": {
+        "a": 4,
+        "b": 3,
+        "h": 2
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_03",
+      "grade": 6,
+      "type": "polygon",
+      "title": "Lục giác đều trong mặt phẳng",
+      "category": "Hình học phẳng",
+      "description": "Thay đổi số cạnh của đa giác đều và quan sát chu vi. Trục đối xứng chưa được vẽ trong bản này.",
+      "formula": "P=2nR\\sin\\frac{\\pi}{n}",
+      "params": {
+        "n": 6,
+        "r": 2.6
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_04",
+      "grade": 6,
+      "type": "circle",
+      "title": "Đường tròn và bán kính",
+      "category": "Hình học phẳng",
+      "description": "Quan sát tâm, bán kính, chu vi và diện tích.",
+      "formula": "C=2\\pi r,\\quad S=\\pi r^2",
+      "params": {
+        "r": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_05",
+      "grade": 6,
+      "type": "angles",
+      "title": "Góc nhọn, góc vuông, góc tù",
+      "category": "Hình học phẳng",
+      "description": "Kéo tham số số đo góc từ 5° đến 175°.",
+      "formula": "0^\\circ<\\alpha<180^\\circ",
+      "params": {
+        "deg": 65
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_06",
+      "grade": 6,
+      "type": "rhombus",
+      "title": "Hình thoi và hai đường chéo",
+      "category": "Hình học phẳng",
+      "description": "Quan sát hai đường chéo cắt nhau và thay đổi độ dài.",
+      "formula": "S=\\frac{d_1d_2}{2}",
+      "params": {
+        "a": 6,
+        "b": 4
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_07",
+      "grade": 6,
+      "type": "trapezoid",
+      "title": "Hình thang cân",
+      "category": "Hình học phẳng",
+      "description": "Hai đáy song song; cạnh bên bằng nhau trong mô hình cân.",
+      "formula": "S=\\frac{(a+b)h}{2}",
+      "params": {
+        "a": 6,
+        "b": 3,
+        "h": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_08",
+      "grade": 6,
+      "type": "triangle",
+      "title": "Tam giác vuông",
+      "category": "Hình học phẳng",
+      "description": "Thay đổi hai cạnh góc vuông của tam giác.",
+      "formula": "S=\\frac{ab}{2}",
+      "params": {
+        "a": 3,
+        "b": 4
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_09",
+      "grade": 6,
+      "type": "parallelogram",
+      "title": "Hình bình hành và chiều cao (Chương IV)",
+      "category": "Hình phẳng trong thực tiễn",
+      "description": "Hình bình hành có hai cặp cạnh đối song song và bằng nhau. Chu vi C = 2(a + b), diện tích S = a * h.",
+      "formula": "C=2(a+b); \\quad S=a \\cdot h",
+      "params": {
+        "a": 6,
+        "b": 4,
+        "h": 3.5
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_10",
+      "grade": 6,
+      "type": "symmetryAxis",
+      "title": "Hình có trục đối xứng (Chương V)",
+      "category": "Tính đối xứng trong tự nhiên",
+      "description": "Trục đối xứng chia hình thành hai phần bằng nhau mà khi gấp lại theo trục thì hai phần trùng khít lên nhau.",
+      "formula": "\\text{Trục đối xứng } \\Delta; \\quad \\Delta \\perp MM' \\text{ tại trung điểm}",
+      "params": {
+        "a": 6,
+        "h": 5
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_11",
+      "grade": 6,
+      "type": "symmetryCenter",
+      "title": "Hình có tâm đối xứng (Chương V)",
+      "category": "Tính đối xứng trong tự nhiên",
+      "description": "Tâm đối xứng O là điểm mà khi quay hình 180 độ quanh O, hình trùng khít với chính nó.",
+      "formula": "\\text{Đối xứng tâm } O: M \\mapsto M' \\iff O \\text{ là trung điểm } MM'",
+      "params": {
+        "a": 6,
+        "b": 4,
+        "deg": 60
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_12",
+      "grade": 6,
+      "type": "segmentMidpoint",
+      "title": "Đoạn thẳng và trung điểm M (Chương VIII)",
+      "category": "Hình học cơ bản",
+      "description": "Điểm M nằm giữa A, B và cách đều A, B được gọi là trung điểm của đoạn thẳng AB.",
+      "formula": "M \\text{ là trung điểm } AB \\iff MA = MB = \\frac{AB}{2}",
+      "params": {
+        "len": 8
+      },
+      "custom": false
+    },
+    {
+      "id": "g6_13",
+      "grade": 6,
+      "type": "barChart",
+      "title": "Biểu đồ cột thống kê 3D (Chương IX)",
+      "category": "Dữ liệu & xác suất",
+      "description": "Biểu diễn số liệu thống kê bằng các cột hình hộp chữ nhật trực quan trong không gian 3 chiều.",
+      "formula": "\\text{Chiều cao mỗi cột tỉ lệ thuận với số liệu thống kê tương ứng}",
+      "params": {
+        "c1": 6,
+        "c2": 8,
+        "c3": 5,
+        "c4": 9
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_01",
+      "grade": 7,
+      "type": "triPrism",
+      "title": "Lăng trụ đứng tam giác",
+      "category": "Hình học không gian",
+      "description": "Quan sát hai đáy tam giác song song bằng nhau và các mặt bên hình chữ nhật.",
+      "formula": "V=S_{\\text{đáy}}h",
+      "params": {
+        "a": 3,
+        "h": 4
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_02",
+      "grade": 7,
+      "type": "cuboid",
+      "title": "Lăng trụ đứng tứ giác",
+      "category": "Hình học không gian",
+      "description": "Một trường hợp đặc biệt của lăng trụ đứng có đáy hình chữ nhật.",
+      "formula": "V=abh",
+      "params": {
+        "a": 3,
+        "b": 4,
+        "h": 5
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_03",
+      "grade": 7,
+      "type": "triangle",
+      "title": "Hai cạnh góc vuông của tam giác",
+      "category": "Tam giác",
+      "description": "Điều chỉnh hai cạnh và quan sát góc vuông.",
+      "formula": "S=\\frac{ab}{2}",
+      "params": {
+        "a": 5,
+        "b": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_04",
+      "grade": 7,
+      "type": "angles",
+      "title": "Hai góc kề nhau",
+      "category": "Góc và đường thẳng",
+      "description": "Di chuyển một tia để quan sát số đo góc tạo thành.",
+      "formula": "\\alpha+\\beta=180^\\circ\\ \\text{(nếu kề bù)}",
+      "params": {
+        "deg": 120
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_05",
+      "grade": 7,
+      "type": "polygon",
+      "title": "Đa giác đều và góc ở tâm",
+      "category": "Hình học phẳng",
+      "description": "Thay đổi số cạnh n để quan sát góc ở tâm của đa giác đều.",
+      "formula": "\\alpha=\\frac{360^\\circ}{n}",
+      "params": {
+        "n": 5,
+        "r": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_06",
+      "grade": 7,
+      "type": "rhombus",
+      "title": "Hình thoi từ tứ giác",
+      "category": "Hình học phẳng",
+      "description": "Thay đổi hai đường chéo; quan sát dạng hình thoi.",
+      "formula": "S=\\frac{d_1d_2}{2}",
+      "params": {
+        "a": 5,
+        "b": 5
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_07",
+      "grade": 7,
+      "type": "trapezoid",
+      "title": "Hình thang cân và tính diện tích",
+      "category": "Hình học phẳng",
+      "description": "Khám phá hai đáy và chiều cao.",
+      "formula": "S=\\frac{(a+b)h}{2}",
+      "params": {
+        "a": 7,
+        "b": 4,
+        "h": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_08",
+      "grade": 7,
+      "type": "circle",
+      "title": "Đường tròn — tập hợp điểm cách đều tâm",
+      "category": "Hình học phẳng",
+      "description": "Quan sát đường tròn tâm O và bán kính r; chưa minh họa tam giác nội tiếp.",
+      "formula": "x^2+y^2=r^2",
+      "params": {
+        "r": 2.5
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_09",
+      "grade": 7,
+      "type": "parallelLines",
+      "title": "Hai đường thẳng song song và cát tuyến (Chương III)",
+      "category": "Góc và đường thẳng song song",
+      "description": "Hai đường thẳng song song bị cắt bởi một cát tuyến tạo ra các cặp góc so le trong bằng nhau và đồng vị bằng nhau.",
+      "formula": "a // b \\implies \\widehat{A}_1 = \\widehat{B}_1; \\quad \\widehat{A}_1 + \\widehat{B}_2 = 180^\\circ",
+      "params": {
+        "angle": 65,
+        "dist": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_10",
+      "grade": 7,
+      "type": "triangleAngles",
+      "title": "Tổng ba góc trong tam giác (Chương IV)",
+      "category": "Tam giác bằng nhau",
+      "description": "Tổng số đo ba góc trong một tam giác luôn bằng 180 độ.",
+      "formula": "\\widehat{A} + \\widehat{B} + \\widehat{C} = 180^\\circ",
+      "params": {
+        "a": 60,
+        "b": 70
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_11",
+      "grade": 7,
+      "type": "congruentTriangles",
+      "title": "Hai tam giác bằng nhau (Chương IV)",
+      "category": "Tam giác bằng nhau",
+      "description": "Hai tam giác có các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau.",
+      "formula": "\\Delta ABC = \\Delta A'B'C'",
+      "params": {
+        "a": 4,
+        "b": 5,
+        "deg": 60
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_12",
+      "grade": 7,
+      "type": "pieChart",
+      "title": "Biểu đồ hình quạt tròn 3D (Chương V)",
+      "category": "Thu thập & biểu diễn dữ liệu",
+      "description": "Biểu đồ hình quạt tròn dùng để so sánh các phần trong toàn bộ dữ liệu (tổng cộng 100%).",
+      "formula": "\\text{Góc ở tâm tỉ lệ thuận với tỉ lệ phần trăm của từng nhóm dữ liệu}",
+      "params": {
+        "p1": 40,
+        "p2": 35,
+        "p3": 25
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_13",
+      "grade": 7,
+      "type": "triangleCenters",
+      "title": "Sự đồng quy của ba đường trung tuyến (Chương IX)",
+      "category": "Quan hệ trong tam giác",
+      "description": "Ba đường trung tuyến của tam giác đồng quy tại Trọng tâm G. G cách đỉnh một khoảng bằng 2/3 độ dài đường trung tuyến.",
+      "formula": "\\frac{GA}{AM} = \\frac{GB}{BN} = \\frac{GC}{CP} = \\frac{2}{3}",
+      "params": {
+        "a": 6,
+        "b": 5,
+        "c": 5.5
+      },
+      "custom": false
+    },
+    {
+      "id": "g7_14",
+      "grade": 7,
+      "type": "prismQuad",
+      "title": "Lăng trụ đứng tứ giác (Chương X)",
+      "category": "Hình khối trong thực tiễn",
+      "description": "Lăng trụ đứng tứ giác có hai đáy tứ giác song song bằng nhau, các mặt bên là hình chữ nhật vuông góc với đáy.",
+      "formula": "V = S_{\\text{đáy}} \\cdot h; \\quad S_{xq} = C_{\\text{đáy}} \\cdot h",
+      "params": {
+        "a": 5,
+        "b": 3,
+        "h_base": 3,
+        "h": 6
+      },
+      "custom": false
+    },
+    {
+      "id": "g8_01",
+      "grade": 8,
+      "type": "squarePyramid",
+      "title": "Hình chóp tứ giác đều",
+      "category": "Hình học không gian",
+      "description": "Mặt đáy là hình vuông; đỉnh nằm trên đường vuông góc qua tâm đáy.",
+      "formula": "V=\\frac{1}{3}a^2h",
+      "params": {
+        "a": 4,
+        "h": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g8_02",
+      "grade": 8,
+      "type": "trianglePyramid",
+      "title": "Hình chóp tam giác đều",
+      "category": "Hình học không gian",
+      "description": "Đáy là tam giác đều; chân đường cao tại tâm đáy.",
+      "formula": "V=\\frac{\\sqrt3}{12}a^2h",
+      "params": {
+        "a": 4,
+        "h": 4
+      },
+      "custom": false
+    },
+    {
+      "id": "g8_03",
+      "grade": 8,
+      "type": "pythagoras",
+      "title": "Định lý Pythagore trực quan",
+      "category": "Tam giác",
+      "description": "Thay đổi hai cạnh góc vuông và kiểm tra hệ thức.",
+      "formula": "a^2+b^2=c^2",
+      "params": {
+        "a": 3,
+        "b": 4
+      },
+      "custom": false
+    },
+    {
+      "id": "g8_04",
+      "grade": 8,
+      "type": "trapezoid",
+      "title": "Hình thang cân và đường cao",
+      "category": "Tứ giác",
+      "description": "Khảo sát sự thay đổi diện tích khi kéo chiều cao.",
+      "formula": "S=\\frac{(a+b)h}{2}",
+      "params": {
+        "a": 6,
+        "b": 4,
+        "h": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g8_05",
+      "grade": 8,
+      "type": "rhombus",
+      "title": "Hình thoi và diện tích",
+      "category": "Tứ giác",
+      "description": "Hai đường chéo vuông góc với nhau trong mô hình.",
+      "formula": "S=\\frac{d_1d_2}{2}",
+      "params": {
+        "a": 5,
+        "b": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g8_06",
+      "grade": 8,
+      "type": "triangle",
+      "title": "Tam giác vuông và độ dài cạnh",
+      "category": "Hình học phẳng",
+      "description": "Xác định cạnh huyền và tỉ số độ dài.",
+      "formula": "c=\\sqrt{a^2+b^2}",
+      "params": {
+        "a": 5,
+        "b": 4
+      },
+      "custom": false
+    },
+    {
+      "id": "g8_07",
+      "grade": 8,
+      "type": "cuboid",
+      "title": "Thể tích khối hộp",
+      "category": "Hình học không gian",
+      "description": "So sánh khối hộp và hình chóp cùng chiều cao.",
+      "formula": "V=abh",
+      "params": {
+        "a": 4,
+        "b": 3,
+        "h": 5
+      },
+      "custom": false
+    },
+    {
+      "id": "g8_08",
+      "grade": 8,
+      "type": "lineGraph",
+      "title": "Đồ thị hàm số bậc nhất",
+      "category": "Hàm số và đồ thị",
+      "description": "Thay đổi hệ số góc và tung độ gốc.",
+      "formula": "y=ax+b",
+      "params": {
+        "a": 1,
+        "b": 2
+      },
+      "custom": false
+    },
+    {
+      "id": "g9_01",
+      "grade": 9,
+      "type": "cylinder",
+      "title": "Hình trụ",
+      "category": "Hình học không gian",
+      "description": "Quan sát hai đáy tròn và mặt xung quanh hình trụ.",
+      "formula": "V=\\pi r^2h",
+      "params": {
+        "r": 2,
+        "h": 5
+      },
+      "custom": false
+    },
+    {
+      "id": "g9_02",
+      "grade": 9,
+      "type": "cone",
+      "title": "Hình nón",
+      "category": "Hình học không gian",
+      "description": "Khảo sát chiều cao và bán kính đáy của hình nón.",
+      "formula": "V=\\frac13\\pi r^2h",
+      "params": {
+        "r": 3,
+        "h": 5
+      },
+      "custom": false
+    },
+    {
+      "id": "g9_03",
+      "grade": 9,
+      "type": "sphere",
+      "title": "Hình cầu",
+      "category": "Hình học không gian",
+      "description": "Quan sát mặt cầu với các hướng nhìn khác nhau.",
+      "formula": "V=\\frac43\\pi r^3",
+      "params": {
+        "r": 2.5
+      },
+      "custom": false
+    },
+    {
+      "id": "g9_04",
+      "grade": 9,
+      "type": "parabola",
+      "title": "Đồ thị hàm số bậc hai",
+      "category": "Hàm số và đồ thị",
+      "description": "Dịch chuyển đỉnh parabol qua tham số a,b,c.",
+      "formula": "y=ax^2+bx+c",
+      "params": {
+        "a": 0.5,
+        "b": 0,
+        "c": 1
+      },
+      "custom": false
+    },
+    {
+      "id": "g9_05",
+      "grade": 9,
+      "type": "circle",
+      "title": "Đường tròn và bán kính",
+      "category": "Đường tròn",
+      "description": "Điều chỉnh bán kính và khảo sát chu vi của đường tròn.",
+      "formula": "C=2\\pi r",
+      "params": {
+        "r": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g9_06",
+      "grade": 9,
+      "type": "triangle",
+      "title": "Tỉ số lượng giác trong tam giác vuông",
+      "category": "Lượng giác",
+      "description": "Thay đổi hai cạnh góc vuông để khảo sát độ dài cạnh huyền.",
+      "formula": "\\tan\\alpha=\\frac{a}{b}",
+      "params": {
+        "a": 3,
+        "b": 4
+      },
+      "custom": false
+    },
+    {
+      "id": "g9_07",
+      "grade": 9,
+      "type": "pythagoras",
+      "title": "Hệ thức cạnh trong tam giác vuông",
+      "category": "Hình học phẳng",
+      "description": "Liên hệ hai cạnh góc vuông với cạnh huyền.",
+      "formula": "c^2=a^2+b^2",
+      "params": {
+        "a": 6,
+        "b": 8
+      },
+      "custom": false
+    },
+    {
+      "id": "g9_08",
+      "grade": 9,
+      "type": "angles",
+      "title": "Công cụ quan sát số đo góc",
+      "category": "Đường tròn",
+      "description": "Kéo thanh số đo để quan sát góc trong mặt phẳng. Đây chưa phải mô hình góc nội tiếp đường tròn.",
+      "formula": "0^\\circ<\\alpha<180^\\circ",
+      "params": {
+        "deg": 40
+      },
+      "custom": false
+    },
+    {
+      "id": "g10_01",
+      "grade": 10,
+      "type": "vector",
+      "title": "Vectơ và tọa độ",
+      "category": "Vectơ",
+      "description": "Điều chỉnh ba tọa độ của một vectơ không gian; dùng như phần mở rộng trực quan.",
+      "formula": "|\\vec u|=\\sqrt{x^2+y^2+z^2}",
+      "params": {
+        "x": 3,
+        "y": 2,
+        "z": 0
+      },
+      "custom": false
+    },
+    {
+      "id": "g10_02",
+      "grade": 10,
+      "type": "lineGraph",
+      "title": "Đường thẳng trong hệ trục",
+      "category": "Hàm số",
+      "description": "Quan sát tác động của hệ số a và b tới đồ thị.",
+      "formula": "y=ax+b",
+      "params": {
+        "a": -1,
+        "b": 2
+      },
+      "custom": false
+    },
+    {
+      "id": "g10_03",
+      "grade": 10,
+      "type": "parabola",
+      "title": "Parabol và tọa độ đỉnh",
+      "category": "Hàm số bậc hai",
+      "description": "Quan sát sự thay đổi tọa độ đỉnh theo hệ số.",
+      "formula": "x_{\\rm đỉnh}=-\\frac{b}{2a}",
+      "params": {
+        "a": 1,
+        "b": -2,
+        "c": -3
+      },
+      "custom": false
+    },
+    {
+      "id": "g10_04",
+      "grade": 10,
+      "type": "circle",
+      "title": "Đường tròn trong mặt phẳng tọa độ",
+      "category": "Phương pháp tọa độ",
+      "description": "Đường tròn tâm O, bán kính r.",
+      "formula": "x^2+y^2=r^2",
+      "params": {
+        "r": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g10_05",
+      "grade": 10,
+      "type": "ellipse",
+      "title": "Đường elip",
+      "category": "Ba đường conic",
+      "description": "Điều chỉnh hai bán trục a,b của elip.",
+      "formula": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1",
+      "params": {
+        "a": 4,
+        "b": 2
+      },
+      "custom": false
+    },
+    {
+      "id": "g10_06",
+      "grade": 10,
+      "type": "hyperbola",
+      "title": "Đường hypebol",
+      "category": "Ba đường conic",
+      "description": "Quan sát hai nhánh và tiệm cận của hypebol chuẩn.",
+      "formula": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1",
+      "params": {
+        "a": 2,
+        "b": 1
+      },
+      "custom": false
+    },
+    {
+      "id": "g10_07",
+      "grade": 10,
+      "type": "angles",
+      "title": "Góc giữa hai vectơ minh họa",
+      "category": "Vectơ",
+      "description": "Khám phá góc trong hình học tọa độ.",
+      "formula": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\alpha",
+      "params": {
+        "deg": 60
+      },
+      "custom": false
+    },
+    {
+      "id": "g10_08",
+      "grade": 10,
+      "type": "triangle",
+      "title": "Tam giác trong mặt phẳng tọa độ",
+      "category": "Hình học tọa độ",
+      "description": "Mô hình tam giác vuông để khảo sát khoảng cách.",
+      "formula": "c=\\sqrt{a^2+b^2}",
+      "params": {
+        "a": 4,
+        "b": 5
+      },
+      "custom": false
+    },
+    {
+      "id": "g11_01",
+      "grade": 11,
+      "type": "twoPlanes",
+      "title": "Hai mặt phẳng song song / cắt nhau",
+      "category": "Quan hệ song song",
+      "description": "Kéo góc bằng 0 để quan sát song song; tăng góc để quan sát giao nhau.",
+      "formula": "(P)\\parallel(Q)\\ \\text{khi cùng pháp tuyến}",
+      "params": {
+        "gap": 1.4,
+        "angle": 0
+      },
+      "custom": false
+    },
+    {
+      "id": "g11_02",
+      "grade": 11,
+      "type": "plane",
+      "title": "Mặt phẳng trong không gian",
+      "category": "Hình học không gian",
+      "description": "Một mặt phẳng nghiêng có thể xoay theo tham số.",
+      "formula": "ax+by+cz+d=0",
+      "params": {
+        "angle": 35
+      },
+      "custom": false
+    },
+    {
+      "id": "g11_03",
+      "grade": 11,
+      "type": "crossSection",
+      "title": "Thiết diện hình hộp bởi mặt phẳng ngang",
+      "category": "Thiết diện",
+      "description": "Kéo vị trí thiết diện song song với đáy.",
+      "formula": "S_{\\text{thiết diện}}=ab",
+      "params": {
+        "a": 4,
+        "b": 3,
+        "h": 5,
+        "t": 45
+      },
+      "custom": false
+    },
+    {
+      "id": "g11_04",
+      "grade": 11,
+      "type": "squarePyramid",
+      "title": "Hình chóp và đường cao",
+      "category": "Hình học không gian",
+      "description": "Quan sát mặt bên và vị trí đường cao trong hình chóp đều.",
+      "formula": "V=\\frac13S_{\\text{đáy}}h",
+      "params": {
+        "a": 4,
+        "h": 6
+      },
+      "custom": false
+    },
+    {
+      "id": "g11_05",
+      "grade": 11,
+      "type": "triPrism",
+      "title": "Lăng trụ đứng và mặt đáy",
+      "category": "Quan hệ song song",
+      "description": "Các mặt đáy song song trong hình lăng trụ đứng.",
+      "formula": "V=S_{\\text{đáy}}h",
+      "params": {
+        "a": 4,
+        "h": 4
+      },
+      "custom": false
+    },
+    {
+      "id": "g11_06",
+      "grade": 11,
+      "type": "sine",
+      "title": "Hàm số lượng giác sin",
+      "category": "Hàm số lượng giác",
+      "description": "Điều chỉnh biên độ và hệ số của hàm sin.",
+      "formula": "y=A\\sin(kx)",
+      "params": {
+        "amp": 1.5,
+        "freq": 1
+      },
+      "custom": false
+    },
+    {
+      "id": "g11_07",
+      "grade": 11,
+      "type": "exponential",
+      "title": "Hàm số mũ",
+      "category": "Hàm số mũ",
+      "description": "Thay đổi cơ số lớn hơn 1 để quan sát tốc độ tăng.",
+      "formula": "y=a^x\\quad(a>1)",
+      "params": {
+        "a": 2
+      },
+      "custom": false
+    },
+    {
+      "id": "g11_08",
+      "grade": 11,
+      "type": "linePlane",
+      "title": "Đường thẳng cắt mặt phẳng",
+      "category": "Quan hệ vuông góc",
+      "description": "Thay đổi độ nghiêng và vị trí của một đường thẳng xuyên qua mặt phẳng.",
+      "formula": "d\\perp(P)\\ \\text{khi vec-tơ chỉ phương } d\\parallel\\vec n_P",
+      "params": {
+        "angle": 50,
+        "offset": 0
+      },
+      "custom": false
+    },
+    {
+      "id": "g12_01",
+      "grade": 12,
+      "type": "tetrahedron",
+      "title": "Tứ diện đều",
+      "category": "Khối đa diện",
+      "description": "Dựng tứ diện đều gồm 4 mặt tam giác đều.",
+      "formula": "V=\\frac{a^3}{6\\sqrt2}",
+      "params": {
+        "a": 4
+      },
+      "custom": false
+    },
+    {
+      "id": "g12_02",
+      "grade": 12,
+      "type": "sphere",
+      "title": "Mặt cầu tọa độ O",
+      "category": "Hình học tọa độ Oxyz",
+      "description": "Mô hình cầu tâm tại O để minh họa phương trình mặt cầu.",
+      "formula": "x^2+y^2+z^2=R^2",
+      "params": {
+        "r": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g12_03",
+      "grade": 12,
+      "type": "derivative",
+      "title": "Đồ thị hàm bậc ba và cực trị",
+      "category": "Ứng dụng đạo hàm",
+      "description": "Đường màu cam biểu diễn hàm bậc ba; đường xanh biểu diễn đạo hàm. Khảo sát sự phụ thuộc của cực trị vào hệ số.",
+      "formula": "f(x)=ax^3-bx,\\ f\\prime(x)=3ax^2-b",
+      "params": {
+        "a": 0.5,
+        "b": 3
+      },
+      "custom": false
+    },
+    {
+      "id": "g12_04",
+      "grade": 12,
+      "type": "surface",
+      "title": "Mặt cong ba chiều",
+      "category": "Mở rộng trực quan",
+      "description": "Mặt cong minh họa bằng biểu thức tham số sin cos, dùng mở rộng trực quan.",
+      "formula": "z=A\\sin(kx)\\cos(ky)",
+      "params": {
+        "amp": 1,
+        "freq": 1.2
+      },
+      "custom": false
+    },
+    {
+      "id": "g12_05",
+      "grade": 12,
+      "type": "crossSection",
+      "title": "Thiết diện khối hộp trong Oxyz",
+      "category": "Hình học tọa độ",
+      "description": "Mặt phẳng ngang z=t\\,h cắt khối hộp.",
+      "formula": "S_{\\text{thiết diện}}=ab",
+      "params": {
+        "a": 5,
+        "b": 3,
+        "h": 4,
+        "t": 60
+      },
+      "custom": false
+    },
+    {
+      "id": "g12_06",
+      "grade": 12,
+      "type": "linePlane",
+      "title": "Đường thẳng và mặt phẳng Oxyz",
+      "category": "Hình học tọa độ",
+      "description": "Quan sát sự thay đổi hướng của đường thẳng so với mặt phẳng.",
+      "formula": "d:\\ \\mathbf r=\\mathbf r_0+t\\mathbf u",
+      "params": {
+        "angle": 65,
+        "offset": 1
+      },
+      "custom": false
+    },
+    {
+      "id": "g12_07",
+      "grade": 12,
+      "type": "cone",
+      "title": "Khối nón và thể tích",
+      "category": "Khối tròn xoay",
+      "description": "Thay đổi bán kính đáy và chiều cao của khối nón.",
+      "formula": "V=\\frac13\\pi r^2h",
+      "params": {
+        "r": 2.5,
+        "h": 6
+      },
+      "custom": false
+    },
+    {
+      "id": "g12_08",
+      "grade": 12,
+      "type": "vector",
+      "title": "Vectơ chỉ phương trong Oxyz",
+      "category": "Hình học tọa độ",
+      "description": "Điều chỉnh x, y, z của vectơ chỉ phương.",
+      "formula": "\\vec u=(x;y;z)",
+      "params": {
+        "x": 2,
+        "y": -3,
+        "z": 4
+      },
+      "custom": false
+    }
+  ]
+}

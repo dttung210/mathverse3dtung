@@ -1,0 +1,4541 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 8,
+      "chapter": 6,
+      "roman": "VI",
+      "title": "PHÂN THỨC ĐẠI SỐ",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "8-06-01",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Điều kiện xác định của phân thức đại số (2x + 1)/(x - 2) là",
+          "choices": {
+            "A": "x \\ne -1/2",
+            "B": "x \\ne -2",
+            "C": "x \\ne 2",
+            "D": "x = 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Điều kiện xác định của phân thức đại số (2x + 1)/(x - 2) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -1/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Điều kiện xác định của phân thức đại số (2x + 1)/(x - 2) là",
+            "choices": {
+              "A": "x $\\ne$ -1/2",
+              "B": "x $\\ne$ -2",
+              "C": "x $\\ne$ 2",
+              "D": "x = 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-02",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Rút gọn phân thức 6x^{2}y / (9xy^{2}) với x \\ne 0, y \\ne 0 ta được.",
+          "choices": {
+            "A": "2y / (3x)",
+            "B": "2x / (3y)",
+            "C": "3x / (2y)",
+            "D": "2x^{2} / (3y^{2})"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Rút gọn phân thức "
+            },
+            {
+              "t": "math",
+              "v": "6x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y / ("
+            },
+            {
+              "t": "math",
+              "v": "9xy^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0 ta được."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2y / (3x)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x / (3y)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3x / (2y)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " / ("
+              },
+              {
+                "t": "math",
+                "v": "3y^{2}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Rút gọn phân thức 6x$^2$y / (9xy$^2$) với x $\\ne$ 0, y $\\ne$ 0 ta được.",
+            "choices": {
+              "A": "2y / (3x)",
+              "B": "2x / (3y)",
+              "C": "3x / (2y)",
+              "D": "2x$^2$ / (3y$^2$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-03",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương VI, xét nội dung: Phân thức đối của phân thức (x - 5)/(x^{2} + 1) là. Đáp án đúng là",
+          "choices": {
+            "A": "(-x - 5)/(x^{2} + 1)",
+            "B": "(x^{2} + 1)/(x - 5)",
+            "C": "(5 - x)/(x^{2} + 1)",
+            "D": "(x + 5)/(x^{2} + 1)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương VI, xét nội dung: Phân thức đối của phân thức (x - 5)/("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1) là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-x - 5)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)/(x - 5)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(5 - x)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(x + 5)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương VI, xét nội dung: Phân thức đối của phân thức (x - 5)/(x$^2$ + 1) là. Đáp án đúng là",
+            "choices": {
+              "A": "(-x - 5)/(x$^2$ + 1)",
+              "B": "(x$^2$ + 1)/(x - 5)",
+              "C": "(5 - x)/(x$^2$ + 1)",
+              "D": "(x + 5)/(x$^2$ + 1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-04",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương VI (Phân thức đại số), điều kiện xác định của phân thức đại số (2x + 1)/(x - 5) là",
+          "choices": {
+            "A": "x \\ne -1/2",
+            "B": "x \\ne -5",
+            "C": "x \\ne 5",
+            "D": "x = 5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương VI (Phân thức đại số), điều kiện xác định của phân thức đại số (2x + 1)/(x - 5) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -1/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương VI (Phân thức đại số), điều kiện xác định của phân thức đại số (2x + 1)/(x - 5) là",
+            "choices": {
+              "A": "x $\\ne$ -1/2",
+              "B": "x $\\ne$ -5",
+              "C": "x $\\ne$ 5",
+              "D": "x = 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-05",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Rút gọn phân thức 12x^{2}y / (18xy^{2}) với x \\ne 0, y \\ne 0 ta được",
+          "choices": {
+            "A": "2y / (3x)",
+            "B": "2x^{2} / (3y^{2})",
+            "C": "2x / (3y)",
+            "D": "3x / (2y)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Rút gọn phân thức "
+            },
+            {
+              "t": "math",
+              "v": "12x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y / ("
+            },
+            {
+              "t": "math",
+              "v": "18xy^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0 ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2y / (3x)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " / ("
+              },
+              {
+                "t": "math",
+                "v": "3y^{2}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x / (3y)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3x / (2y)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Rút gọn phân thức 12x$^2$y / (18xy$^2$) với x $\\ne$ 0, y $\\ne$ 0 ta được",
+            "choices": {
+              "A": "2y / (3x)",
+              "B": "2x$^2$ / (3y$^2$)",
+              "C": "2x / (3y)",
+              "D": "3x / (2y)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-06",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về phân thức đại số, một học sinh gặp câu hỏi: Phân thức đối của phân thức (x - 8)/(x^{2} + 1) là. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "(x + 8)/(x^{2} + 1)",
+            "B": "(8 - x)/(x^{2} + 1)",
+            "C": "(x^{2} + 1)/(x - 8)",
+            "D": "(-x - 8)/(x^{2} + 1)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về phân thức đại số, một học sinh gặp câu hỏi: Phân thức đối của phân thức (x - 8)/("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1) là. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(x + 8)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(8 - x)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)/(x - 8)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-x - 8)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về phân thức đại số, một học sinh gặp câu hỏi: Phân thức đối của phân thức (x - 8)/(x$^2$ + 1) là. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "(x + 8)/(x$^2$ + 1)",
+              "B": "(8 - x)/(x$^2$ + 1)",
+              "C": "(x$^2$ + 1)/(x - 8)",
+              "D": "(-x - 8)/(x$^2$ + 1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-07",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 8) là",
+          "choices": {
+            "A": "x = 8",
+            "B": "x \\ne 8",
+            "C": "x \\ne -1/2",
+            "D": "x \\ne -8"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 8) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 8) là",
+            "choices": {
+              "A": "x = 8",
+              "B": "x $\\ne$ 8",
+              "C": "x $\\ne$ -1/2",
+              "D": "x $\\ne$ -8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-08",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VI: Rút gọn phân thức 18x^{2}y / (27xy^{2}) với x \\ne 0, y \\ne 0 ta được",
+          "choices": {
+            "A": "2x^{2} / (3y^{2})",
+            "B": "3x / (2y)",
+            "C": "2y / (3x)",
+            "D": "2x / (3y)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VI: Rút gọn phân thức "
+            },
+            {
+              "t": "math",
+              "v": "18x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y / ("
+            },
+            {
+              "t": "math",
+              "v": "27xy^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0 ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " / ("
+              },
+              {
+                "t": "math",
+                "v": "3y^{2}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3x / (2y)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2y / (3x)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2x / (3y)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VI: Rút gọn phân thức 18x$^2$y / (27xy$^2$) với x $\\ne$ 0, y $\\ne$ 0 ta được",
+            "choices": {
+              "A": "2x$^2$ / (3y$^2$)",
+              "B": "3x / (2y)",
+              "C": "2y / (3x)",
+              "D": "2x / (3y)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-09",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Phân thức đối của phân thức (x - 11)/(x^{2} + 1) là",
+          "choices": {
+            "A": "(11 - x)/(x^{2} + 1)",
+            "B": "(x^{2} + 1)/(x - 11)",
+            "C": "(x + 11)/(x^{2} + 1)",
+            "D": "(-x - 11)/(x^{2} + 1)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Phân thức đối của phân thức (x - 11)/("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(11 - x)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)/(x - 11)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(x + 11)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-x - 11)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Phân thức đối của phân thức (x - 11)/(x$^2$ + 1) là",
+            "choices": {
+              "A": "(11 - x)/(x$^2$ + 1)",
+              "B": "(x$^2$ + 1)/(x - 11)",
+              "C": "(x + 11)/(x$^2$ + 1)",
+              "D": "(-x - 11)/(x$^2$ + 1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-10",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 11) là. Phương án chính xác là",
+          "choices": {
+            "A": "x = 11",
+            "B": "x \\ne -11",
+            "C": "x \\ne 11",
+            "D": "x \\ne -1/2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 11) là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 11"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -1/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 11) là. Phương án chính xác là",
+            "choices": {
+              "A": "x = 11",
+              "B": "x $\\ne$ -11",
+              "C": "x $\\ne$ 11",
+              "D": "x $\\ne$ -1/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-11",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Rút gọn phân thức 24x^{2}y / (36xy^{2}) với x \\ne 0, y \\ne 0 ta được",
+          "choices": {
+            "A": "2x^{2} / (3y^{2})",
+            "B": "3x / (2y)",
+            "C": "2x / (3y)",
+            "D": "2y / (3x)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Rút gọn phân thức "
+            },
+            {
+              "t": "math",
+              "v": "24x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y / ("
+            },
+            {
+              "t": "math",
+              "v": "36xy^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0 ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " / ("
+              },
+              {
+                "t": "math",
+                "v": "3y^{2}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3x / (2y)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x / (3y)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2y / (3x)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Rút gọn phân thức 24x$^2$y / (36xy$^2$) với x $\\ne$ 0, y $\\ne$ 0 ta được",
+            "choices": {
+              "A": "2x$^2$ / (3y$^2$)",
+              "B": "3x / (2y)",
+              "C": "2x / (3y)",
+              "D": "2y / (3x)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-12",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VI): Phân thức đối của phân thức (x - 14)/(x^{2} + 1) là",
+          "choices": {
+            "A": "(x^{2} + 1)/(x - 14)",
+            "B": "(14 - x)/(x^{2} + 1)",
+            "C": "(-x - 14)/(x^{2} + 1)",
+            "D": "(x + 14)/(x^{2} + 1)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VI): Phân thức đối của phân thức (x - 14)/("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)/(x - 14)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(14 - x)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-x - 14)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(x + 14)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VI): Phân thức đối của phân thức (x - 14)/(x$^2$ + 1) là",
+            "choices": {
+              "A": "(x$^2$ + 1)/(x - 14)",
+              "B": "(14 - x)/(x$^2$ + 1)",
+              "C": "(-x - 14)/(x$^2$ + 1)",
+              "D": "(x + 14)/(x$^2$ + 1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-13",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VI), điều kiện xác định của phân thức đại số (2x + 1)/(x - 14) là",
+          "choices": {
+            "A": "x = 14",
+            "B": "x \\ne 14",
+            "C": "x \\ne -1/2",
+            "D": "x \\ne -14"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VI), điều kiện xác định của phân thức đại số (2x + 1)/(x - 14) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 14"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VI), điều kiện xác định của phân thức đại số (2x + 1)/(x - 14) là",
+            "choices": {
+              "A": "x = 14",
+              "B": "x $\\ne$ 14",
+              "C": "x $\\ne$ -1/2",
+              "D": "x $\\ne$ -14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-14",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Rút gọn phân thức 30x^{2}y / (45xy^{2}) với x \\ne 0, y \\ne 0 ta được",
+          "choices": {
+            "A": "2x / (3y)",
+            "B": "2x^{2} / (3y^{2})",
+            "C": "2y / (3x)",
+            "D": "3x / (2y)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Rút gọn phân thức "
+            },
+            {
+              "t": "math",
+              "v": "30x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y / ("
+            },
+            {
+              "t": "math",
+              "v": "45xy^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0 ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2x / (3y)"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " / ("
+              },
+              {
+                "t": "math",
+                "v": "3y^{2}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2y / (3x)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3x / (2y)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Rút gọn phân thức 30x$^2$y / (45xy$^2$) với x $\\ne$ 0, y $\\ne$ 0 ta được",
+            "choices": {
+              "A": "2x / (3y)",
+              "B": "2x$^2$ / (3y$^2$)",
+              "C": "2y / (3x)",
+              "D": "3x / (2y)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-15",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương VI: Phân thức đối của phân thức (x - 17)/(x^{2} + 1) là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "(x + 17)/(x^{2} + 1)",
+            "B": "(x^{2} + 1)/(x - 17)",
+            "C": "(17 - x)/(x^{2} + 1)",
+            "D": "(-x - 17)/(x^{2} + 1)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương VI: Phân thức đối của phân thức (x - 17)/("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1) là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(x + 17)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)/(x - 17)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(17 - x)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-x - 17)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương VI: Phân thức đối của phân thức (x - 17)/(x$^2$ + 1) là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "(x + 17)/(x$^2$ + 1)",
+              "B": "(x$^2$ + 1)/(x - 17)",
+              "C": "(17 - x)/(x$^2$ + 1)",
+              "D": "(-x - 17)/(x$^2$ + 1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-16",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 17) là",
+          "choices": {
+            "A": "x \\ne -17",
+            "B": "x \\ne 17",
+            "C": "x \\ne -1/2",
+            "D": "x = 17"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 17) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -1/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 17) là",
+            "choices": {
+              "A": "x $\\ne$ -17",
+              "B": "x $\\ne$ 17",
+              "C": "x $\\ne$ -1/2",
+              "D": "x = 17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-17",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Rút gọn phân thức 36x^{2}y / (54xy^{2}) với x \\ne 0, y \\ne 0 ta được?",
+          "choices": {
+            "A": "3x / (2y)",
+            "B": "2y / (3x)",
+            "C": "2x / (3y)",
+            "D": "2x^{2} / (3y^{2})"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Rút gọn phân thức "
+            },
+            {
+              "t": "math",
+              "v": "36x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y / ("
+            },
+            {
+              "t": "math",
+              "v": "54xy^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0 ta được?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3x / (2y)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2y / (3x)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x / (3y)"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " / ("
+              },
+              {
+                "t": "math",
+                "v": "3y^{2}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Rút gọn phân thức 36x$^2$y / (54xy$^2$) với x $\\ne$ 0, y $\\ne$ 0 ta được?",
+            "choices": {
+              "A": "3x / (2y)",
+              "B": "2y / (3x)",
+              "C": "2x / (3y)",
+              "D": "2x$^2$ / (3y$^2$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-18",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương VI: Phân thức đối của phân thức (x - 20)/(x^{2} + 1) là",
+          "choices": {
+            "A": "(20 - x)/(x^{2} + 1)",
+            "B": "(x + 20)/(x^{2} + 1)",
+            "C": "(x^{2} + 1)/(x - 20)",
+            "D": "(-x - 20)/(x^{2} + 1)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương VI: Phân thức đối của phân thức (x - 20)/("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(20 - x)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(x + 20)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)/(x - 20)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-x - 20)/("
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương VI: Phân thức đối của phân thức (x - 20)/(x$^2$ + 1) là",
+            "choices": {
+              "A": "(20 - x)/(x$^2$ + 1)",
+              "B": "(x + 20)/(x$^2$ + 1)",
+              "C": "(x$^2$ + 1)/(x - 20)",
+              "D": "(-x - 20)/(x$^2$ + 1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-19",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 20) là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "x \\ne -20",
+            "B": "x \\ne -1/2",
+            "C": "x = 20",
+            "D": "x \\ne 20"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 20) là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Điều kiện xác định của phân thức đại số (2x + 1)/(x - 20) là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "x $\\ne$ -20",
+              "B": "x $\\ne$ -1/2",
+              "C": "x = 20",
+              "D": "x $\\ne$ 20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-20",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương VI để giải quyết yêu cầu: Rút gọn phân thức 42x^{2}y / (63xy^{2}) với x \\ne 0, y \\ne 0 ta được",
+          "choices": {
+            "A": "2x^{2} / (3y^{2})",
+            "B": "2y / (3x)",
+            "C": "3x / (2y)",
+            "D": "2x / (3y)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương VI để giải quyết yêu cầu: Rút gọn phân thức "
+            },
+            {
+              "t": "math",
+              "v": "42x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y / ("
+            },
+            {
+              "t": "math",
+              "v": "63xy^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ") với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, y "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0 ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " / ("
+              },
+              {
+                "t": "math",
+                "v": "3y^{2}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2y / (3x)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3x / (2y)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2x / (3y)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương VI để giải quyết yêu cầu: Rút gọn phân thức 42x$^2$y / (63xy$^2$) với x $\\ne$ 0, y $\\ne$ 0 ta được",
+            "choices": {
+              "A": "2x$^2$ / (3y$^2$)",
+              "B": "2y / (3x)",
+              "C": "3x / (2y)",
+              "D": "2x / (3y)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-21",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn phân thức (x^{2} - 4) / (x + 2) với x \\ne -2 ta được",
+          "choices": {
+            "A": "x + 2",
+            "B": "1",
+            "C": "x - 2",
+            "D": "x - 4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn phân thức ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4) / (x + 2) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -2 ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x + 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x - 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x - 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn phân thức (x$^2$ - 4) / (x + 2) với x $\\ne$ -2 ta được",
+            "choices": {
+              "A": "x + 2",
+              "B": "1",
+              "C": "x - 2",
+              "D": "x - 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-22",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương VI (Phân thức đại số) để giải bài toán: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 4) + 8/(x + 4) với x \\ne -4",
+          "choices": {
+            "A": "2",
+            "B": "2/(x + 4)",
+            "C": "2x + 8",
+            "D": "2x"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương VI (Phân thức đại số) để giải bài toán: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 4) + 8/(x + 4) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -4"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/(x + 4)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x + 8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2x"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương VI (Phân thức đại số) để giải bài toán: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 4) + 8/(x + 4) với x $\\ne$ -4",
+            "choices": {
+              "A": "2",
+              "B": "2/(x + 4)",
+              "C": "2x + 8",
+              "D": "2x"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-23",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương VI: Tính giá trị của phân thức A = (x^{2} - 4)/(x - 2) tại x = 12. Kết quả thu được là",
+          "choices": {
+            "A": "140",
+            "B": "14",
+            "C": "12",
+            "D": "10"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương VI: Tính giá trị của phân thức A = ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4)/(x - 2) tại x = 12. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "140"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương VI: Tính giá trị của phân thức A = (x$^2$ - 4)/(x - 2) tại x = 12. Kết quả thu được là",
+            "choices": {
+              "A": "140",
+              "B": "14",
+              "C": "12",
+              "D": "10"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-24",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Rút gọn phân thức (x^{2} - 25) / (x + 5) với x \\ne -5 ta được. Đáp án đúng là",
+          "choices": {
+            "A": "x - 25",
+            "B": "x - 5",
+            "C": "1",
+            "D": "x + 5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Rút gọn phân thức ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 25) / (x + 5) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -5 ta được. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x - 25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x - 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x + 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Rút gọn phân thức (x$^2$ - 25) / (x + 5) với x $\\ne$ -5 ta được. Đáp án đúng là",
+            "choices": {
+              "A": "x - 25",
+              "B": "x - 5",
+              "C": "1",
+              "D": "x + 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-25",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương VI, hãy xác định: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 7) + 14/(x + 7) với x \\ne -7",
+          "choices": {
+            "A": "2/(x + 7)",
+            "B": "2x",
+            "C": "2x + 14",
+            "D": "2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương VI, hãy xác định: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 7) + 14/(x + 7) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -7"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/(x + 7)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x + 14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương VI, hãy xác định: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 7) + 14/(x + 7) với x $\\ne$ -7",
+            "choices": {
+              "A": "2/(x + 7)",
+              "B": "2x",
+              "C": "2x + 14",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-26",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Tính giá trị của phân thức A = (x^{2} - 4)/(x - 2) tại x = 15. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "221",
+            "B": "13",
+            "C": "17",
+            "D": "15"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Tính giá trị của phân thức A = ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4)/(x - 2) tại x = 15. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "221"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Tính giá trị của phân thức A = (x$^2$ - 4)/(x - 2) tại x = 15. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "221",
+              "B": "13",
+              "C": "17",
+              "D": "15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-27",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương VI vào bài tập sau: Rút gọn phân thức (x^{2} - 64) / (x + 8) với x \\ne -8 ta được",
+          "choices": {
+            "A": "x - 8",
+            "B": "x + 8",
+            "C": "1",
+            "D": "x - 64"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương VI vào bài tập sau: Rút gọn phân thức ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 64) / (x + 8) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -8 ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x - 8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x + 8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x - 64"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương VI vào bài tập sau: Rút gọn phân thức (x$^2$ - 64) / (x + 8) với x $\\ne$ -8 ta được",
+            "choices": {
+              "A": "x - 8",
+              "B": "x + 8",
+              "C": "1",
+              "D": "x - 64"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-28",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 10) + 20/(x + 10) với x \\ne -10",
+          "choices": {
+            "A": "2x + 20",
+            "B": "2/(x + 10)",
+            "C": "2x",
+            "D": "2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 10) + 20/(x + 10) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -10"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2x + 20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/(x + 10)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 10) + 20/(x + 10) với x $\\ne$ -10",
+            "choices": {
+              "A": "2x + 20",
+              "B": "2/(x + 10)",
+              "C": "2x",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-29",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Phân thức đại số): Tính giá trị của phân thức A = (x^{2} - 4)/(x - 2) tại x = 18. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "320",
+            "B": "16",
+            "C": "18",
+            "D": "20"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Phân thức đại số): Tính giá trị của phân thức A = ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4)/(x - 2) tại x = 18. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "320"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Phân thức đại số): Tính giá trị của phân thức A = (x$^2$ - 4)/(x - 2) tại x = 18. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "320",
+              "B": "16",
+              "C": "18",
+              "D": "20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-30",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương VI, hãy tìm kết quả của bài toán: Rút gọn phân thức (x^{2} - 121) / (x + 11) với x \\ne -11 ta được",
+          "choices": {
+            "A": "x - 121",
+            "B": "1",
+            "C": "x + 11",
+            "D": "x - 11"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương VI, hãy tìm kết quả của bài toán: Rút gọn phân thức ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 121) / (x + 11) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -11 ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x - 121"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x + 11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x - 11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương VI, hãy tìm kết quả của bài toán: Rút gọn phân thức (x$^2$ - 121) / (x + 11) với x $\\ne$ -11 ta được",
+            "choices": {
+              "A": "x - 121",
+              "B": "1",
+              "C": "x + 11",
+              "D": "x - 11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-31",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương VI nêu câu hỏi: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 13) + 26/(x + 13) với x \\ne -13. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "2",
+            "B": "2x",
+            "C": "2x + 26",
+            "D": "2/(x + 13)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương VI nêu câu hỏi: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 13) + 26/(x + 13) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -13. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x + 26"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/(x + 13)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương VI nêu câu hỏi: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 13) + 26/(x + 13) với x $\\ne$ -13. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "2",
+              "B": "2x",
+              "C": "2x + 26",
+              "D": "2/(x + 13)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-32",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Tính giá trị của phân thức A = (x^{2} - 4)/(x - 2) tại x = 21",
+          "choices": {
+            "A": "23",
+            "B": "19",
+            "C": "21",
+            "D": "437"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Tính giá trị của phân thức A = ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4)/(x - 2) tại x = 21"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "437"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Tính giá trị của phân thức A = (x$^2$ - 4)/(x - 2) tại x = 21",
+            "choices": {
+              "A": "23",
+              "B": "19",
+              "C": "21",
+              "D": "437"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-33",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VI: Rút gọn phân thức (x^{2} - 196) / (x + 14) với x \\ne -14 ta được",
+          "choices": {
+            "A": "x - 14",
+            "B": "x - 196",
+            "C": "1",
+            "D": "x + 14"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VI: Rút gọn phân thức ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 196) / (x + 14) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -14 ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x - 14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x - 196"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x + 14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VI: Rút gọn phân thức (x$^2$ - 196) / (x + 14) với x $\\ne$ -14 ta được",
+            "choices": {
+              "A": "x - 14",
+              "B": "x - 196",
+              "C": "1",
+              "D": "x + 14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-34",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 16) + 32/(x + 16) với x \\ne -16",
+          "choices": {
+            "A": "2",
+            "B": "2x + 32",
+            "C": "2/(x + 16)",
+            "D": "2x"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 16) + 32/(x + 16) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -16"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x + 32"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2/(x + 16)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2x"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 16) + 32/(x + 16) với x $\\ne$ -16",
+            "choices": {
+              "A": "2",
+              "B": "2x + 32",
+              "C": "2/(x + 16)",
+              "D": "2x"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-35",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương VI, xét bài toán: Tính giá trị của phân thức A = (x^{2} - 4)/(x - 2) tại x = 24",
+          "choices": {
+            "A": "572",
+            "B": "22",
+            "C": "24",
+            "D": "26"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương VI, xét bài toán: Tính giá trị của phân thức A = ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4)/(x - 2) tại x = 24"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "572"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "22"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "26"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương VI, xét bài toán: Tính giá trị của phân thức A = (x$^2$ - 4)/(x - 2) tại x = 24",
+            "choices": {
+              "A": "572",
+              "B": "22",
+              "C": "24",
+              "D": "26"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-36",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Phân thức đại số): Rút gọn phân thức (x^{2} - 289) / (x + 17) với x \\ne -17 ta được. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "x - 17",
+            "B": "x - 289",
+            "C": "1",
+            "D": "x + 17"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Phân thức đại số): Rút gọn phân thức ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 289) / (x + 17) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -17 ta được. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x - 17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x - 289"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x + 17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Phân thức đại số): Rút gọn phân thức (x$^2$ - 289) / (x + 17) với x $\\ne$ -17 ta được. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "x - 17",
+              "B": "x - 289",
+              "C": "1",
+              "D": "x + 17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-37",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 19) + 38/(x + 19) với x \\ne -19",
+          "choices": {
+            "A": "2/(x + 19)",
+            "B": "2x + 38",
+            "C": "2x",
+            "D": "2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 19) + 38/(x + 19) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -19"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/(x + 19)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2x + 38"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 19) + 38/(x + 19) với x $\\ne$ -19",
+            "choices": {
+              "A": "2/(x + 19)",
+              "B": "2x + 38",
+              "C": "2x",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-38",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương VI: Tính giá trị của phân thức A = (x^{2} - 4)/(x - 2) tại x = 27. Kết luận đúng là",
+          "choices": {
+            "A": "29",
+            "B": "27",
+            "C": "725",
+            "D": "25"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương VI: Tính giá trị của phân thức A = ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 4)/(x - 2) tại x = 27. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "29"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "27"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "725"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương VI: Tính giá trị của phân thức A = (x$^2$ - 4)/(x - 2) tại x = 27. Kết luận đúng là",
+            "choices": {
+              "A": "29",
+              "B": "27",
+              "C": "725",
+              "D": "25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-39",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VI: Rút gọn phân thức (x^{2} - 400) / (x + 20) với x \\ne -20 ta được",
+          "choices": {
+            "A": "1",
+            "B": "x - 20",
+            "C": "x + 20",
+            "D": "x - 400"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VI: Rút gọn phân thức ("
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 400) / (x + 20) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -20 ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x - 20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x + 20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x - 400"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VI: Rút gọn phân thức (x$^2$ - 400) / (x + 20) với x $\\ne$ -20 ta được",
+            "choices": {
+              "A": "1",
+              "B": "x - 20",
+              "C": "x + 20",
+              "D": "x - 400"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-40",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 22) + 44/(x + 22) với x \\ne -22",
+          "choices": {
+            "A": "2x",
+            "B": "2",
+            "C": "2x + 44",
+            "D": "2/(x + 22)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 22) + 44/(x + 22) với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -22"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2x"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2x + 44"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/(x + 22)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Thực hiện phép cộng hai phân thức cùng mẫu: 2x/(x + 22) + 44/(x + 22) với x $\\ne$ -22",
+            "choices": {
+              "A": "2x",
+              "B": "2",
+              "C": "2x + 44",
+              "D": "2/(x + 22)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-41",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 7)/(x + 2) nhận giá trị nguyên",
+          "choices": {
+            "A": "x ∈ {1; 3; -1; -3}",
+            "B": "x ∈ {-3; -1}",
+            "C": "x = -2",
+            "D": "x ∈ {-5; -3; -1; 1}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 7)/(x + 2) nhận giá trị nguyên"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {1; 3; -1; -3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {-3; -1}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {-5; -3; -1; 1}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 7)/(x + 2) nhận giá trị nguyên",
+            "choices": {
+              "A": "x $\\in$ {1; 3; -1; -3}",
+              "B": "x $\\in$ {-3; -1}",
+              "C": "x = -2",
+              "D": "x $\\in$ {-5; -3; -1; 1}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-42",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương VI – Phân thức đại số): Cho x + 1/x = 4 (với x \\ne 0). Giá trị của biểu thức M = x^{2} + 1/x^{2} bằng. Kết quả đúng là",
+          "choices": {
+            "A": "14",
+            "B": "16",
+            "C": "18",
+            "D": "8"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương VI – Phân thức đại số): Cho x + 1/x = 4 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0). Giá trị của biểu thức M = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương VI – Phân thức đại số): Cho x + 1/x = 4 (với x $\\ne$ 0). Giá trị của biểu thức M = x$^2$ + 1/x$^2$ bằng. Kết quả đúng là",
+            "choices": {
+              "A": "14",
+              "B": "16",
+              "C": "18",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-43",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương VI để giải bài toán: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 11)/(x + 4) nhận giá trị nguyên",
+          "choices": {
+            "A": "x ∈ {1; 3; -1; -3}",
+            "B": "x = -4",
+            "C": "x ∈ {-7; -5; -3; -1}",
+            "D": "x ∈ {-5; -3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương VI để giải bài toán: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 11)/(x + 4) nhận giá trị nguyên"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {1; 3; -1; -3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {-7; -5; -3; -1}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {-5; -3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương VI để giải bài toán: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 11)/(x + 4) nhận giá trị nguyên",
+            "choices": {
+              "A": "x $\\in$ {1; 3; -1; -3}",
+              "B": "x = -4",
+              "C": "x $\\in$ {-7; -5; -3; -1}",
+              "D": "x $\\in$ {-5; -3}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-44",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương VI: Cho x + 1/x = 6 (với x \\ne 0). Giá trị của biểu thức M = x^{2} + 1/x^{2} bằng",
+          "choices": {
+            "A": "38",
+            "B": "36",
+            "C": "12",
+            "D": "34"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương VI: Cho x + 1/x = 6 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0). Giá trị của biểu thức M = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "38"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "34"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương VI: Cho x + 1/x = 6 (với x $\\ne$ 0). Giá trị của biểu thức M = x$^2$ + 1/x$^2$ bằng",
+            "choices": {
+              "A": "38",
+              "B": "36",
+              "C": "12",
+              "D": "34"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-45",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương VI: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 15)/(x + 6) nhận giá trị nguyên. Đáp số chính xác là",
+          "choices": {
+            "A": "x ∈ {-7; -5}",
+            "B": "x ∈ {1; 3; -1; -3}",
+            "C": "x ∈ {-9; -7; -5; -3}",
+            "D": "x = -6"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương VI: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 15)/(x + 6) nhận giá trị nguyên. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {-7; -5}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {1; 3; -1; -3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {-9; -7; -5; -3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương VI: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 15)/(x + 6) nhận giá trị nguyên. Đáp số chính xác là",
+            "choices": {
+              "A": "x $\\in$ {-7; -5}",
+              "B": "x $\\in$ {1; 3; -1; -3}",
+              "C": "x $\\in$ {-9; -7; -5; -3}",
+              "D": "x = -6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-46",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương VI để tìm đáp án cho bài toán: Cho x + 1/x = 8 (với x \\ne 0). Giá trị của biểu thức M = x^{2} + 1/x^{2} bằng",
+          "choices": {
+            "A": "64",
+            "B": "16",
+            "C": "66",
+            "D": "62"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương VI để tìm đáp án cho bài toán: Cho x + 1/x = 8 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0). Giá trị của biểu thức M = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "64"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "66"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "62"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương VI để tìm đáp án cho bài toán: Cho x + 1/x = 8 (với x $\\ne$ 0). Giá trị của biểu thức M = x$^2$ + 1/x$^2$ bằng",
+            "choices": {
+              "A": "64",
+              "B": "16",
+              "C": "66",
+              "D": "62"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-47",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VI: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 19)/(x + 8) nhận giá trị nguyên",
+          "choices": {
+            "A": "x ∈ {1; 3; -1; -3}",
+            "B": "x = -8",
+            "C": "x ∈ {-11; -9; -7; -5}",
+            "D": "x ∈ {-9; -7}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VI: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 19)/(x + 8) nhận giá trị nguyên"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {1; 3; -1; -3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {-11; -9; -7; -5}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {-9; -7}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VI: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 19)/(x + 8) nhận giá trị nguyên",
+            "choices": {
+              "A": "x $\\in$ {1; 3; -1; -3}",
+              "B": "x = -8",
+              "C": "x $\\in$ {-11; -9; -7; -5}",
+              "D": "x $\\in$ {-9; -7}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-48",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VI): Cho x + 1/x = 10 (với x \\ne 0). Giá trị của biểu thức M = x^{2} + 1/x^{2} bằng",
+          "choices": {
+            "A": "102",
+            "B": "100",
+            "C": "98",
+            "D": "20"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VI): Cho x + 1/x = 10 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0). Giá trị của biểu thức M = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "102"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "98"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VI): Cho x + 1/x = 10 (với x $\\ne$ 0). Giá trị của biểu thức M = x$^2$ + 1/x$^2$ bằng",
+            "choices": {
+              "A": "102",
+              "B": "100",
+              "C": "98",
+              "D": "20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-49",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương VI, hãy giải quyết bài toán: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 23)/(x + 10) nhận giá trị nguyên",
+          "choices": {
+            "A": "x ∈ {-13; -11; -9; -7}",
+            "B": "x = -10",
+            "C": "x ∈ {1; 3; -1; -3}",
+            "D": "x ∈ {-11; -9}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương VI, hãy giải quyết bài toán: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 23)/(x + 10) nhận giá trị nguyên"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {-13; -11; -9; -7}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {1; 3; -1; -3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {-11; -9}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương VI, hãy giải quyết bài toán: Tìm tất cả các giá trị nguyên của x để phân thức P = (2x + 23)/(x + 10) nhận giá trị nguyên",
+            "choices": {
+              "A": "x $\\in$ {-13; -11; -9; -7}",
+              "B": "x = -10",
+              "C": "x $\\in$ {1; 3; -1; -3}",
+              "D": "x $\\in$ {-11; -9}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-06-50",
+          "grade": 8,
+          "chapter": 6,
+          "chapterTitle": "PHÂN THỨC ĐẠI SỐ",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương VI: Cho x + 1/x = 12 (với x \\ne 0). Giá trị của biểu thức M = x^{2} + 1/x^{2} bằng. Phương án đúng là",
+          "choices": {
+            "A": "24",
+            "B": "144",
+            "C": "146",
+            "D": "142"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương VI: Cho x + 1/x = 12 (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0). Giá trị của biểu thức M = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1/"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "144"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "146"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "142"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương VI: Cho x + 1/x = 12 (với x $\\ne$ 0). Giá trị của biểu thức M = x$^2$ + 1/x$^2$ bằng. Phương án đúng là",
+            "choices": {
+              "A": "24",
+              "B": "144",
+              "C": "146",
+              "D": "142"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

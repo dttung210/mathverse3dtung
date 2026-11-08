@@ -1,0 +1,5469 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 11,
+      "chapter": 1,
+      "roman": "I",
+      "title": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "11-01-01",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Đổi số đo của góc 30° sang đơn vị radian ta được",
+          "choices": {
+            "A": "\\pi/6",
+            "B": "2\\pi/3",
+            "C": "\\pi/5",
+            "D": "3\\pi/4"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Đổi số đo của góc 30° sang đơn vị radian ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Đổi số đo của góc 30° sang đơn vị radian ta được",
+            "choices": {
+              "A": "$\\pi$/6",
+              "B": "2$\\pi$/3",
+              "C": "$\\pi$/5",
+              "D": "3$\\pi$/4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-02",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Tập giá trị T của hàm số y = sin x trên \\mathbb{R} là.",
+          "choices": {
+            "A": "T = [0; 1]",
+            "B": "T = \\mathbb{R}",
+            "C": "T = (-1; 1)",
+            "D": "T = [-1; 1]"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Tập giá trị T của hàm số y = sin x trên "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": " là."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "T = [0; 1]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "T = (-1; 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "T = [-1; 1]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Tập giá trị T của hàm số y = sin x trên $\\mathbb{R}$ là.",
+            "choices": {
+              "A": "T = [0; 1]",
+              "B": "T = $\\mathbb{R}$",
+              "C": "T = (-1; 1)",
+              "D": "T = [-1; 1]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-03",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương I, xét nội dung: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là. Đáp án đúng là",
+          "choices": {
+            "A": "T = \\pi",
+            "B": "T = \\pi/2",
+            "C": "T = 2\\pi",
+            "D": "T = 4\\pi"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương I, xét nội dung: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "T = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "T = 4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương I, xét nội dung: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là. Đáp án đúng là",
+            "choices": {
+              "A": "T = $\\pi$",
+              "B": "T = $\\pi$/2",
+              "C": "T = 2$\\pi$",
+              "D": "T = 4$\\pi$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-04",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương I (Hàm số lượng giác và phương trình lượng giác), đổi số đo góc lượng giác \\alpha = 5\\pi/6 (rad) sang đơn vị độ ta được",
+          "choices": {
+            "A": "300°",
+            "B": "75°",
+            "C": "225°",
+            "D": "150°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương I (Hàm số lượng giác và phương trình lượng giác), đổi số đo góc lượng giác "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 5"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "/6 (rad) sang đơn vị độ ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "300°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "75°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "225°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "150°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương I (Hàm số lượng giác và phương trình lượng giác), đổi số đo góc lượng giác $\\alpha$ = 5$\\pi$/6 (rad) sang đơn vị độ ta được",
+            "choices": {
+              "A": "300°",
+              "B": "75°",
+              "C": "225°",
+              "D": "150°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-05",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Đổi số đo của góc 90° sang đơn vị radian ta được",
+          "choices": {
+            "A": "2\\pi/3",
+            "B": "\\pi/5",
+            "C": "3\\pi/4",
+            "D": "\\pi/2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Đổi số đo của góc 90° sang đơn vị radian ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/4"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Đổi số đo của góc 90° sang đơn vị radian ta được",
+            "choices": {
+              "A": "2$\\pi$/3",
+              "B": "$\\pi$/5",
+              "C": "3$\\pi$/4",
+              "D": "$\\pi$/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-06",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về hàm số lượng giác và phương trình lượng giác, một học sinh gặp câu hỏi: Tập giá trị T của hàm số y = sin x trên \\mathbb{R} là. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "T = (-1; 1)",
+            "B": "T = \\mathbb{R}",
+            "C": "T = [0; 1]",
+            "D": "T = [-1; 1]"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về hàm số lượng giác và phương trình lượng giác, một học sinh gặp câu hỏi: Tập giá trị T của hàm số y = sin x trên "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": " là. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "T = (-1; 1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "T = [0; 1]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "T = [-1; 1]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về hàm số lượng giác và phương trình lượng giác, một học sinh gặp câu hỏi: Tập giá trị T của hàm số y = sin x trên $\\mathbb{R}$ là. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "T = (-1; 1)",
+              "B": "T = $\\mathbb{R}$",
+              "C": "T = [0; 1]",
+              "D": "T = [-1; 1]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-07",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là",
+          "choices": {
+            "A": "T = \\pi/2",
+            "B": "T = 4\\pi",
+            "C": "T = \\pi",
+            "D": "T = 2\\pi"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "T = 4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "T = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là",
+            "choices": {
+              "A": "T = $\\pi$/2",
+              "B": "T = 4$\\pi$",
+              "C": "T = $\\pi$",
+              "D": "T = 2$\\pi$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-08",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Đổi số đo góc lượng giác \\alpha = 9\\pi/6 (rad) sang đơn vị độ ta được",
+          "choices": {
+            "A": "270°",
+            "B": "540°",
+            "C": "405°",
+            "D": "135°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Đổi số đo góc lượng giác "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 9"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "/6 (rad) sang đơn vị độ ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "270°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "540°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "405°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "135°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Đổi số đo góc lượng giác $\\alpha$ = 9$\\pi$/6 (rad) sang đơn vị độ ta được",
+            "choices": {
+              "A": "270°",
+              "B": "540°",
+              "C": "405°",
+              "D": "135°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-09",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Đổi số đo của góc 60° sang đơn vị radian ta được",
+          "choices": {
+            "A": "\\pi/5",
+            "B": "2\\pi/3",
+            "C": "3\\pi/4",
+            "D": "\\pi/3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Đổi số đo của góc 60° sang đơn vị radian ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/4"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Đổi số đo của góc 60° sang đơn vị radian ta được",
+            "choices": {
+              "A": "$\\pi$/5",
+              "B": "2$\\pi$/3",
+              "C": "3$\\pi$/4",
+              "D": "$\\pi$/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-10",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Tập giá trị T của hàm số y = sin x trên \\mathbb{R} là. Phương án chính xác là",
+          "choices": {
+            "A": "T = [0; 1]",
+            "B": "T = [-1; 1]",
+            "C": "T = \\mathbb{R}",
+            "D": "T = (-1; 1)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Tập giá trị T của hàm số y = sin x trên "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": " là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "T = [0; 1]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "T = [-1; 1]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "T = (-1; 1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Tập giá trị T của hàm số y = sin x trên $\\mathbb{R}$ là. Phương án chính xác là",
+            "choices": {
+              "A": "T = [0; 1]",
+              "B": "T = [-1; 1]",
+              "C": "T = $\\mathbb{R}$",
+              "D": "T = (-1; 1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-11",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là",
+          "choices": {
+            "A": "T = \\pi/2",
+            "B": "T = \\pi",
+            "C": "T = 2\\pi",
+            "D": "T = 4\\pi"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "T = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "T = 4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là",
+            "choices": {
+              "A": "T = $\\pi$/2",
+              "B": "T = $\\pi$",
+              "C": "T = 2$\\pi$",
+              "D": "T = 4$\\pi$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-12",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Đổi số đo góc lượng giác \\alpha = 13\\pi/6 (rad) sang đơn vị độ ta được",
+          "choices": {
+            "A": "390°",
+            "B": "585°",
+            "C": "195°",
+            "D": "780°"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Đổi số đo góc lượng giác "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 13"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "/6 (rad) sang đơn vị độ ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "390°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "585°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "195°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "780°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Đổi số đo góc lượng giác $\\alpha$ = 13$\\pi$/6 (rad) sang đơn vị độ ta được",
+            "choices": {
+              "A": "390°",
+              "B": "585°",
+              "C": "195°",
+              "D": "780°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-13",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), đổi số đo của góc 30° sang đơn vị radian ta được",
+          "choices": {
+            "A": "\\pi/5",
+            "B": "2\\pi/3",
+            "C": "3\\pi/4",
+            "D": "\\pi/6"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), đổi số đo của góc 30° sang đơn vị radian ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/4"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), đổi số đo của góc 30° sang đơn vị radian ta được",
+            "choices": {
+              "A": "$\\pi$/5",
+              "B": "2$\\pi$/3",
+              "C": "3$\\pi$/4",
+              "D": "$\\pi$/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-14",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Tập giá trị T của hàm số y = sin x trên \\mathbb{R} là",
+          "choices": {
+            "A": "T = \\mathbb{R}",
+            "B": "T = [0; 1]",
+            "C": "T = [-1; 1]",
+            "D": "T = (-1; 1)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Tập giá trị T của hàm số y = sin x trên "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "T = [0; 1]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "T = [-1; 1]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "T = (-1; 1)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Tập giá trị T của hàm số y = sin x trên $\\mathbb{R}$ là",
+            "choices": {
+              "A": "T = $\\mathbb{R}$",
+              "B": "T = [0; 1]",
+              "C": "T = [-1; 1]",
+              "D": "T = (-1; 1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-15",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương I: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "T = \\pi/2",
+            "B": "T = 4\\pi",
+            "C": "T = \\pi",
+            "D": "T = 2\\pi"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương I: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "T = 4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "T = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương I: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "T = $\\pi$/2",
+              "B": "T = 4$\\pi$",
+              "C": "T = $\\pi$",
+              "D": "T = 2$\\pi$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-16",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Đổi số đo góc lượng giác \\alpha = 17\\pi/6 (rad) sang đơn vị độ ta được",
+          "choices": {
+            "A": "1020°",
+            "B": "510°",
+            "C": "255°",
+            "D": "765°"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Đổi số đo góc lượng giác "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 17"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "/6 (rad) sang đơn vị độ ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1020°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "510°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "255°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "765°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Đổi số đo góc lượng giác $\\alpha$ = 17$\\pi$/6 (rad) sang đơn vị độ ta được",
+            "choices": {
+              "A": "1020°",
+              "B": "510°",
+              "C": "255°",
+              "D": "765°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-17",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Đổi số đo của góc 90° sang đơn vị radian ta được?",
+          "choices": {
+            "A": "3\\pi/4",
+            "B": "2\\pi/3",
+            "C": "\\pi/5",
+            "D": "\\pi/2"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Đổi số đo của góc 90° sang đơn vị radian ta được?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Đổi số đo của góc 90° sang đơn vị radian ta được?",
+            "choices": {
+              "A": "3$\\pi$/4",
+              "B": "2$\\pi$/3",
+              "C": "$\\pi$/5",
+              "D": "$\\pi$/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-18",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương I: Tập giá trị T của hàm số y = sin x trên \\mathbb{R} là",
+          "choices": {
+            "A": "T = \\mathbb{R}",
+            "B": "T = [0; 1]",
+            "C": "T = (-1; 1)",
+            "D": "T = [-1; 1]"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương I: Tập giá trị T của hàm số y = sin x trên "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "T = [0; 1]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "T = (-1; 1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "T = [-1; 1]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương I: Tập giá trị T của hàm số y = sin x trên $\\mathbb{R}$ là",
+            "choices": {
+              "A": "T = $\\mathbb{R}$",
+              "B": "T = [0; 1]",
+              "C": "T = (-1; 1)",
+              "D": "T = [-1; 1]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-19",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "T = 2\\pi",
+            "B": "T = 4\\pi",
+            "C": "T = \\pi",
+            "D": "T = \\pi/2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "T = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "T = 4"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "T = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Chu kì tuần hoàn nhỏ nhất T của hàm số y = cos x là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "T = 2$\\pi$",
+              "B": "T = 4$\\pi$",
+              "C": "T = $\\pi$",
+              "D": "T = $\\pi$/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-20",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Đổi số đo góc lượng giác \\alpha = 21\\pi/6 (rad) sang đơn vị độ ta được",
+          "choices": {
+            "A": "945°",
+            "B": "315°",
+            "C": "630°",
+            "D": "1260°"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Đổi số đo góc lượng giác "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 21"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "/6 (rad) sang đơn vị độ ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "945°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "315°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "630°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1260°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Đổi số đo góc lượng giác $\\alpha$ = 21$\\pi$/6 (rad) sang đơn vị độ ta được",
+            "choices": {
+              "A": "945°",
+              "B": "315°",
+              "C": "630°",
+              "D": "1260°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-21",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 2·cos 2x + 5",
+          "choices": {
+            "A": "M = 9; m = 5",
+            "B": "M = 5; m = 3",
+            "C": "M = 7; m = 3",
+            "D": "M = 2; m = -2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 2"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos 2x + 5"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "M = 9; m = 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "M = 5; m = 3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "M = 7; m = 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "M = 2; m = -2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 2$\\cdot$cos 2x + 5",
+            "choices": {
+              "A": "M = 9; m = 5",
+              "B": "M = 5; m = 3",
+              "C": "M = 7; m = 3",
+              "D": "M = 2; m = -2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-22",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương I (Hàm số lượng giác và phương trình lượng giác) để giải bài toán: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+          "choices": {
+            "A": "x = \\pi/6 + k\\pi (k ∈ \\mathbb{Z}) []",
+            "B": "x = \\pi/3 + k2\\pi hoặc x = 2\\pi/3 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "C": "x = \\pm\\pi/6 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "D": "x = \\pi/6 + k2\\pi hoặc x = 5\\pi/6 + k2\\pi (k ∈ \\mathbb{Z})"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương I (Hàm số lượng giác và phương trình lượng giác) để giải bài toán: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 5"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương I (Hàm số lượng giác và phương trình lượng giác) để giải bài toán: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+            "choices": {
+              "A": "x = $\\pi$/6 + k$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "B": "x = $\\pi$/3 + k2$\\pi$ hoặc x = 2$\\pi$/3 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "C": "x = $\\pm$$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "D": "x = $\\pi$/6 + k2$\\pi$ hoặc x = 5$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-23",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương I: Cho góc \\alpha thỏa mãn cos \\alpha = 1/3. Theo công thức nhân đôi, giá trị của cos 2\\alpha = 2cos^{2}\\alpha - 1 bằng. Kết quả thu được là",
+          "choices": {
+            "A": "2/9",
+            "B": "-7/9",
+            "C": "-1/9",
+            "D": "7/9"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương I: Cho góc "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/3. Theo công thức nhân đôi, giá trị của cos 2"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "2cos^{2}"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " - 1 bằng. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-7/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-1/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương I: Cho góc $\\alpha$ thỏa mãn cos $\\alpha$ = 1/3. Theo công thức nhân đôi, giá trị của cos 2$\\alpha$ = 2cos$^2$$\\alpha$ - 1 bằng. Kết quả thu được là",
+            "choices": {
+              "A": "2/9",
+              "B": "-7/9",
+              "C": "-1/9",
+              "D": "7/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-24",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 5·cos 2x + 5. Đáp án đúng là",
+          "choices": {
+            "A": "M = 5; m = -5",
+            "B": "M = 15; m = 5",
+            "C": "M = 10; m = 0",
+            "D": "M = 5; m = 0"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos 2x + 5. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "M = 5; m = -5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "M = 15; m = 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "M = 10; m = 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "M = 5; m = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 5$\\cdot$cos 2x + 5. Đáp án đúng là",
+            "choices": {
+              "A": "M = 5; m = -5",
+              "B": "M = 15; m = 5",
+              "C": "M = 10; m = 0",
+              "D": "M = 5; m = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-25",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+          "choices": {
+            "A": "x = \\pi/3 + k2\\pi hoặc x = 2\\pi/3 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "B": "x = \\pi/6 + k\\pi (k ∈ \\mathbb{Z}) []",
+            "C": "x = \\pm\\pi/6 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "D": "x = \\pi/6 + k2\\pi hoặc x = 5\\pi/6 + k2\\pi (k ∈ \\mathbb{Z})"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 5"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+            "choices": {
+              "A": "x = $\\pi$/3 + k2$\\pi$ hoặc x = 2$\\pi$/3 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "B": "x = $\\pi$/6 + k$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "C": "x = $\\pm$$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "D": "x = $\\pi$/6 + k2$\\pi$ hoặc x = 5$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-26",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Cho góc \\alpha thỏa mãn cos \\alpha = 1/3. Theo công thức nhân đôi, giá trị của cos 2\\alpha = 2cos^{2}\\alpha - 1 bằng. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "-1/9",
+            "B": "2/9",
+            "C": "-7/9",
+            "D": "7/9"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Cho góc "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/3. Theo công thức nhân đôi, giá trị của cos 2"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "2cos^{2}"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " - 1 bằng. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-1/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-7/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Cho góc $\\alpha$ thỏa mãn cos $\\alpha$ = 1/3. Theo công thức nhân đôi, giá trị của cos 2$\\alpha$ = 2cos$^2$$\\alpha$ - 1 bằng. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "-1/9",
+              "B": "2/9",
+              "C": "-7/9",
+              "D": "7/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-27",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 8·cos 2x + 5",
+          "choices": {
+            "A": "M = 8; m = -8",
+            "B": "M = 21; m = 5",
+            "C": "M = 5; m = -3",
+            "D": "M = 13; m = -3"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 8"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos 2x + 5"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "M = 8; m = -8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "M = 21; m = 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "M = 5; m = -3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "M = 13; m = -3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 8$\\cdot$cos 2x + 5",
+            "choices": {
+              "A": "M = 8; m = -8",
+              "B": "M = 21; m = 5",
+              "C": "M = 5; m = -3",
+              "D": "M = 13; m = -3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-28",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+          "choices": {
+            "A": "x = \\pi/6 + k2\\pi hoặc x = 5\\pi/6 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "B": "x = \\pm\\pi/6 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "C": "x = \\pi/3 + k2\\pi hoặc x = 2\\pi/3 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "D": "x = \\pi/6 + k\\pi (k ∈ \\mathbb{Z})"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 5"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+            "choices": {
+              "A": "x = $\\pi$/6 + k2$\\pi$ hoặc x = 5$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "B": "x = $\\pm$$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "C": "x = $\\pi$/3 + k2$\\pi$ hoặc x = 2$\\pi$/3 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "D": "x = $\\pi$/6 + k$\\pi$ (k $\\in$ $\\mathbb{Z}$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-29",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Hàm số lượng giác và phương trình lượng giác): Cho góc \\alpha thỏa mãn cos \\alpha = 1/3. Theo công thức nhân đôi, giá trị của cos 2\\alpha = 2cos^{2}\\alpha - 1 bằng. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "-7/9",
+            "B": "-1/9",
+            "C": "2/9",
+            "D": "7/9"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Hàm số lượng giác và phương trình lượng giác): Cho góc "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/3. Theo công thức nhân đôi, giá trị của cos 2"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "2cos^{2}"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " - 1 bằng. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-7/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-1/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Hàm số lượng giác và phương trình lượng giác): Cho góc $\\alpha$ thỏa mãn cos $\\alpha$ = 1/3. Theo công thức nhân đôi, giá trị của cos 2$\\alpha$ = 2cos$^2$$\\alpha$ - 1 bằng. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "-7/9",
+              "B": "-1/9",
+              "C": "2/9",
+              "D": "7/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-30",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 11·cos 2x + 5",
+          "choices": {
+            "A": "M = 16; m = -6",
+            "B": "M = 11; m = -11",
+            "C": "M = 5; m = -6",
+            "D": "M = 27; m = 5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 11"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos 2x + 5"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "M = 16; m = -6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "M = 11; m = -11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "M = 5; m = -6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "M = 27; m = 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 11$\\cdot$cos 2x + 5",
+            "choices": {
+              "A": "M = 16; m = -6",
+              "B": "M = 11; m = -11",
+              "C": "M = 5; m = -6",
+              "D": "M = 27; m = 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-31",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là. Hãy chọn đáp số đúng: []",
+          "choices": {
+            "A": "x = \\pi/6 + k2\\pi hoặc x = 5\\pi/6 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "B": "x = \\pi/3 + k2\\pi hoặc x = 2\\pi/3 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "C": "x = \\pm\\pi/6 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "D": "x = \\pi/6 + k\\pi (k ∈ \\mathbb{Z})"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là. Hãy chọn đáp số đúng: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 5"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là. Hãy chọn đáp số đúng: []",
+            "choices": {
+              "A": "x = $\\pi$/6 + k2$\\pi$ hoặc x = 5$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "B": "x = $\\pi$/3 + k2$\\pi$ hoặc x = 2$\\pi$/3 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "C": "x = $\\pm$$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "D": "x = $\\pi$/6 + k$\\pi$ (k $\\in$ $\\mathbb{Z}$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-32",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Cho góc \\alpha thỏa mãn cos \\alpha = 1/3. Theo công thức nhân đôi, giá trị của cos 2\\alpha = 2cos^{2}\\alpha - 1 bằng",
+          "choices": {
+            "A": "-7/9",
+            "B": "7/9",
+            "C": "-1/9",
+            "D": "2/9"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Cho góc "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/3. Theo công thức nhân đôi, giá trị của cos 2"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "2cos^{2}"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " - 1 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-7/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-1/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Cho góc $\\alpha$ thỏa mãn cos $\\alpha$ = 1/3. Theo công thức nhân đôi, giá trị của cos 2$\\alpha$ = 2cos$^2$$\\alpha$ - 1 bằng",
+            "choices": {
+              "A": "-7/9",
+              "B": "7/9",
+              "C": "-1/9",
+              "D": "2/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-33",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 14·cos 2x + 5",
+          "choices": {
+            "A": "M = 14; m = -14",
+            "B": "M = 19; m = -9",
+            "C": "M = 5; m = -9",
+            "D": "M = 33; m = 5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 14"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos 2x + 5"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "M = 14; m = -14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "M = 19; m = -9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "M = 5; m = -9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "M = 33; m = 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 14$\\cdot$cos 2x + 5",
+            "choices": {
+              "A": "M = 14; m = -14",
+              "B": "M = 19; m = -9",
+              "C": "M = 5; m = -9",
+              "D": "M = 33; m = 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-34",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+          "choices": {
+            "A": "x = \\pi/3 + k2\\pi hoặc x = 2\\pi/3 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "B": "x = \\pm\\pi/6 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "C": "x = \\pi/6 + k2\\pi hoặc x = 5\\pi/6 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "D": "x = \\pi/6 + k\\pi (k ∈ \\mathbb{Z})"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 5"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+            "choices": {
+              "A": "x = $\\pi$/3 + k2$\\pi$ hoặc x = 2$\\pi$/3 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "B": "x = $\\pm$$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "C": "x = $\\pi$/6 + k2$\\pi$ hoặc x = 5$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "D": "x = $\\pi$/6 + k$\\pi$ (k $\\in$ $\\mathbb{Z}$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-35",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Cho góc \\alpha thỏa mãn cos \\alpha = 1/3. Theo công thức nhân đôi, giá trị của cos 2\\alpha = 2cos^{2}\\alpha - 1 bằng",
+          "choices": {
+            "A": "7/9",
+            "B": "-1/9",
+            "C": "-7/9",
+            "D": "2/9"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Cho góc "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/3. Theo công thức nhân đôi, giá trị của cos 2"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "2cos^{2}"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " - 1 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-1/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-7/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Cho góc $\\alpha$ thỏa mãn cos $\\alpha$ = 1/3. Theo công thức nhân đôi, giá trị của cos 2$\\alpha$ = 2cos$^2$$\\alpha$ - 1 bằng",
+            "choices": {
+              "A": "7/9",
+              "B": "-1/9",
+              "C": "-7/9",
+              "D": "2/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-36",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Hàm số lượng giác và phương trình lượng giác): Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 17·cos 2x + 5. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "M = 17; m = -17",
+            "B": "M = 22; m = -12",
+            "C": "M = 5; m = -12",
+            "D": "M = 39; m = 5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Hàm số lượng giác và phương trình lượng giác): Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 17"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos 2x + 5. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "M = 17; m = -17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "M = 22; m = -12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "M = 5; m = -12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "M = 39; m = 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Hàm số lượng giác và phương trình lượng giác): Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 17$\\cdot$cos 2x + 5. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "M = 17; m = -17",
+              "B": "M = 22; m = -12",
+              "C": "M = 5; m = -12",
+              "D": "M = 39; m = 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-37",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+          "choices": {
+            "A": "x = \\pi/6 + k2\\pi hoặc x = 5\\pi/6 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "B": "x = \\pi/3 + k2\\pi hoặc x = 2\\pi/3 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "C": "x = \\pm\\pi/6 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "D": "x = \\pi/6 + k\\pi (k ∈ \\mathbb{Z})"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 5"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+            "choices": {
+              "A": "x = $\\pi$/6 + k2$\\pi$ hoặc x = 5$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "B": "x = $\\pi$/3 + k2$\\pi$ hoặc x = 2$\\pi$/3 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "C": "x = $\\pm$$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "D": "x = $\\pi$/6 + k$\\pi$ (k $\\in$ $\\mathbb{Z}$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-38",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương I: Cho góc \\alpha thỏa mãn cos \\alpha = 1/3. Theo công thức nhân đôi, giá trị của cos 2\\alpha = 2cos^{2}\\alpha - 1 bằng. Kết luận đúng là",
+          "choices": {
+            "A": "2/9",
+            "B": "-1/9",
+            "C": "7/9",
+            "D": "-7/9"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương I: Cho góc "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " thỏa mãn cos "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/3. Theo công thức nhân đôi, giá trị của cos 2"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " = "
+            },
+            {
+              "t": "math",
+              "v": "2cos^{2}"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "txt",
+              "v": " - 1 bằng. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-1/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-7/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương I: Cho góc $\\alpha$ thỏa mãn cos $\\alpha$ = 1/3. Theo công thức nhân đôi, giá trị của cos 2$\\alpha$ = 2cos$^2$$\\alpha$ - 1 bằng. Kết luận đúng là",
+            "choices": {
+              "A": "2/9",
+              "B": "-1/9",
+              "C": "7/9",
+              "D": "-7/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-39",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 20·cos 2x + 5",
+          "choices": {
+            "A": "M = 25; m = -15",
+            "B": "M = 45; m = 5",
+            "C": "M = 5; m = -15",
+            "D": "M = 20; m = -20"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 20"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "cos 2x + 5"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "M = 25; m = -15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "M = 45; m = 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "M = 5; m = -15"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "M = 20; m = -20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tìm giá trị lớn nhất M và giá trị nhỏ nhất m của hàm số y = 20$\\cdot$cos 2x + 5",
+            "choices": {
+              "A": "M = 25; m = -15",
+              "B": "M = 45; m = 5",
+              "C": "M = 5; m = -15",
+              "D": "M = 20; m = -20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-40",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+          "choices": {
+            "A": "x = \\pm\\pi/6 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "B": "x = \\pi/3 + k2\\pi hoặc x = 2\\pi/3 + k2\\pi (k ∈ \\mathbb{Z}) []",
+            "C": "x = \\pi/6 + k\\pi (k ∈ \\mathbb{Z}) []",
+            "D": "x = \\pi/6 + k2\\pi hoặc x = 5\\pi/6 + k2\\pi (k ∈ \\mathbb{Z})"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/3 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ") []"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = "
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " hoặc x = 5"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": "/6 + k2"
+              },
+              {
+                "t": "math",
+                "v": "\\pi"
+              },
+              {
+                "t": "txt",
+                "v": " (k "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{Z}"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Họ nghiệm của phương trình lượng giác cơ bản sin x = 1/2 là: []",
+            "choices": {
+              "A": "x = $\\pm$$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "B": "x = $\\pi$/3 + k2$\\pi$ hoặc x = 2$\\pi$/3 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "C": "x = $\\pi$/6 + k$\\pi$ (k $\\in$ $\\mathbb{Z}$) []",
+              "D": "x = $\\pi$/6 + k2$\\pi$ hoặc x = 5$\\pi$/6 + k2$\\pi$ (k $\\in$ $\\mathbb{Z}$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-41",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2\\pi] là",
+          "choices": {
+            "A": "1 nghiệm",
+            "B": "2 nghiệm",
+            "C": "3 nghiệm",
+            "D": "4 nghiệm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "] là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1 nghiệm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2 nghiệm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3 nghiệm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "4 nghiệm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2$\\pi$] là",
+            "choices": {
+              "A": "1 nghiệm",
+              "B": "2 nghiệm",
+              "C": "3 nghiệm",
+              "D": "4 nghiệm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-42",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương I – Hàm số lượng giác và phương trình lượng giác): Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 3 có nghiệm thực. Kết quả đúng là",
+          "choices": {
+            "A": "-1 ≤ m ≤ 1",
+            "B": "1 ≤ m ≤ 5",
+            "C": "2 ≤ m ≤ 4",
+            "D": "m ≥ 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương I – Hàm số lượng giác và phương trình lượng giác): Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 3 có nghiệm thực. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương I – Hàm số lượng giác và phương trình lượng giác): Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 3 có nghiệm thực. Kết quả đúng là",
+            "choices": {
+              "A": "-1 $\\le$ m $\\le$ 1",
+              "B": "1 $\\le$ m $\\le$ 5",
+              "C": "2 $\\le$ m $\\le$ 4",
+              "D": "m $\\ge$ 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-43",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2\\pi] là",
+          "choices": {
+            "A": "1 nghiệm",
+            "B": "4 nghiệm",
+            "C": "2 nghiệm",
+            "D": "3 nghiệm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "] là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1 nghiệm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 nghiệm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2 nghiệm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3 nghiệm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2$\\pi$] là",
+            "choices": {
+              "A": "1 nghiệm",
+              "B": "4 nghiệm",
+              "C": "2 nghiệm",
+              "D": "3 nghiệm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-44",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương I: Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 5 có nghiệm thực",
+          "choices": {
+            "A": "-1 ≤ m ≤ 1",
+            "B": "m ≥ 4",
+            "C": "4 ≤ m ≤ 6",
+            "D": "3 ≤ m ≤ 7"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương I: Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 5 có nghiệm thực"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương I: Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 5 có nghiệm thực",
+            "choices": {
+              "A": "-1 $\\le$ m $\\le$ 1",
+              "B": "m $\\ge$ 4",
+              "C": "4 $\\le$ m $\\le$ 6",
+              "D": "3 $\\le$ m $\\le$ 7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-45",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương I: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2\\pi] là. Đáp số chính xác là",
+          "choices": {
+            "A": "1 nghiệm",
+            "B": "3 nghiệm",
+            "C": "4 nghiệm",
+            "D": "2 nghiệm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương I: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "] là. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1 nghiệm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3 nghiệm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 nghiệm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 nghiệm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương I: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2$\\pi$] là. Đáp số chính xác là",
+            "choices": {
+              "A": "1 nghiệm",
+              "B": "3 nghiệm",
+              "C": "4 nghiệm",
+              "D": "2 nghiệm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-46",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 7 có nghiệm thực",
+          "choices": {
+            "A": "m ≥ 6",
+            "B": "6 ≤ m ≤ 8",
+            "C": "-1 ≤ m ≤ 1",
+            "D": "5 ≤ m ≤ 9"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 7 có nghiệm thực"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 7 có nghiệm thực",
+            "choices": {
+              "A": "m $\\ge$ 6",
+              "B": "6 $\\le$ m $\\le$ 8",
+              "C": "-1 $\\le$ m $\\le$ 1",
+              "D": "5 $\\le$ m $\\le$ 9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-47",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2\\pi] là",
+          "choices": {
+            "A": "2 nghiệm",
+            "B": "4 nghiệm",
+            "C": "1 nghiệm",
+            "D": "3 nghiệm"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "] là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2 nghiệm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 nghiệm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1 nghiệm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3 nghiệm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2$\\pi$] là",
+            "choices": {
+              "A": "2 nghiệm",
+              "B": "4 nghiệm",
+              "C": "1 nghiệm",
+              "D": "3 nghiệm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-48",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 9 có nghiệm thực",
+          "choices": {
+            "A": "7 ≤ m ≤ 11",
+            "B": "-1 ≤ m ≤ 1",
+            "C": "8 ≤ m ≤ 10",
+            "D": "m ≥ 8"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 9 có nghiệm thực"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 11"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 10"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 9 có nghiệm thực",
+            "choices": {
+              "A": "7 $\\le$ m $\\le$ 11",
+              "B": "-1 $\\le$ m $\\le$ 1",
+              "C": "8 $\\le$ m $\\le$ 10",
+              "D": "m $\\ge$ 8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-49",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2\\pi] là",
+          "choices": {
+            "A": "1 nghiệm",
+            "B": "3 nghiệm",
+            "C": "4 nghiệm",
+            "D": "2 nghiệm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2"
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "txt",
+              "v": "] là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1 nghiệm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3 nghiệm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4 nghiệm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 nghiệm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Số nghiệm của phương trình cos x = 1/2 thuộc đoạn [0; 2$\\pi$] là",
+            "choices": {
+              "A": "1 nghiệm",
+              "B": "3 nghiệm",
+              "C": "4 nghiệm",
+              "D": "2 nghiệm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-01-50",
+          "grade": 11,
+          "chapter": 1,
+          "chapterTitle": "HÀM SỐ LƯỢNG GIÁC VÀ PHƯƠNG TRÌNH LƯỢNG GIÁC",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương I: Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 11 có nghiệm thực. Phương án đúng là",
+          "choices": {
+            "A": "-1 ≤ m ≤ 1",
+            "B": "9 ≤ m ≤ 13",
+            "C": "m ≥ 10",
+            "D": "10 ≤ m ≤ 12"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương I: Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 11 có nghiệm thực. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "9 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 13"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 10"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương I: Tìm tất cả các giá trị thực của tham số m để phương trình sin x = m - 11 có nghiệm thực. Phương án đúng là",
+            "choices": {
+              "A": "-1 $\\le$ m $\\le$ 1",
+              "B": "9 $\\le$ m $\\le$ 13",
+              "C": "m $\\ge$ 10",
+              "D": "10 $\\le$ m $\\le$ 12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+<!doctype html><html lang="vi"><head>
+<script id="mv-gh-pages-shim">
+(function(){
+  var BASE = "/mathverse3dtung";
+  window.__MV_BASE_PATH__ = BASE;
+  var PREFIXES = ["dual/","src/","data/","vendor/","game-park/","museum-assets/","museum-thumbs/","museum-data/","r75/","lab/","api/","granddome/","favicon.svg","health"];
+  function shouldPrefix(u){
+    if(!BASE || typeof u !== 'string') return false;
+    if(!u.startsWith('/') || u.startsWith(BASE + '/') || u.startsWith('//')) return false;
+    var clean = u.slice(1);
+    for(var i = 0; i < PREFIXES.length; i++){
+      if(clean.startsWith(PREFIXES[i]) || clean === 'r75' || clean === 'lab' || clean === 'game-park') return true;
+    }
+    return false;
+  }
+  function mapUrl(u){
+    if(typeof u !== 'string') return u;
+    var origin = window.location && window.location.origin ? window.location.origin : '';
+    var hadOrigin = false;
+    if(origin && u.indexOf(origin + '/') === 0){
+      u = u.slice(origin.length);
+      hadOrigin = true;
+    }
+    var finish = function(res){
+      return (hadOrigin && res.indexOf('/') === 0) ? (origin + res) : res;
+    };
+    var qIdx = u.indexOf('?');
+    var pathOnly = qIdx >= 0 ? u.slice(0, qIdx) : u;
+    var query = qIdx >= 0 ? u.slice(qIdx) : '';
+    var rel = BASE && pathOnly.startsWith(BASE + '/') ? pathOnly.slice(BASE.length) : pathOnly;
+    if(rel === '/api/discovery/r99/photo'){
+      var params = new URLSearchParams(query);
+      var id = params.get('id') || '';
+      return finish((BASE || '') + '/api/discovery/r99/photo/' + encodeURIComponent(id) + '.json');
+    }
+    var mTile = rel.match(/^\/api\/discovery\/r99\/(terrain|satellite)\/(\d+)\/(\d+)\/(\d+)$/);
+    if(mTile){
+      var kind = mTile[1], z = mTile[2], x = mTile[3], y = mTile[4];
+      if(kind === 'terrain') return 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/' + z + '/' + x + '/' + y + '.png';
+      return 'https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless_3857/default/GoogleMapsCompatible/' + z + '/' + y + '/' + x + '.jpg';
+    }
+    var StaticJsonRoutes = {
+      '/health': '/health.json',
+      '/api/health': '/api/health.json',
+      '/granddome/api/museum': '/granddome/api/museum.json',
+      '/api/discovery/r98/catalog': '/api/discovery/r98/catalog.json',
+      '/api/discovery/r99/catalog': '/api/discovery/r99/catalog.json',
+      '/api/discovery/countries': '/api/discovery/countries.json',
+      '/api/discovery/unesco': '/api/discovery/unesco.json'
+    };
+    if(StaticJsonRoutes[rel]){
+      return finish((BASE || '') + StaticJsonRoutes[rel] + query);
+    }
+    if(shouldPrefix(u)){
+      return finish(BASE + u);
+    }
+    return finish(u);
+  }
+  if(window.Request){
+    var OrigRequest = window.Request;
+    window.Request = function(input, init){
+      if(typeof input === 'string') input = mapUrl(input);
+      else if(input && typeof input.url === 'string') input = new OrigRequest(mapUrl(input.url), input);
+      return new OrigRequest(input, init);
+    };
+    window.Request.prototype = OrigRequest.prototype;
+  }
+  var origFetch = window.fetch;
+  if(origFetch){
+    window.fetch = function(input, init){
+      if(typeof input === 'string'){
+        input = mapUrl(input);
+      } else if(input && typeof input.url === 'string'){
+        input = new Request(mapUrl(input.url), input);
+      }
+      return origFetch.call(this, input, init);
+    };
+  }
+  var origOpen = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method, url){
+    var args = Array.prototype.slice.call(arguments);
+    if(typeof url === 'string') args[1] = mapUrl(url);
+    return origOpen.apply(this, args);
+  };
+  if(BASE){
+    [HTMLImageElement, HTMLIFrameElement, HTMLScriptElement, HTMLLinkElement, HTMLAnchorElement, HTMLMediaElement, HTMLSourceElement].forEach(function(Ctor){
+      if(!Ctor || !Ctor.prototype) return;
+      var prop = (Ctor === HTMLLinkElement || Ctor === HTMLAnchorElement) ? 'href' : 'src';
+      var desc = Object.getOwnPropertyDescriptor(Ctor.prototype, prop);
+      if(desc && desc.set){
+        Object.defineProperty(Ctor.prototype, prop, {
+          configurable: true,
+          enumerable: desc.enumerable,
+          get: desc.get,
+          set: function(v){
+            return desc.set.call(this, typeof v === 'string' ? mapUrl(v) : v);
+          }
+        });
+      }
+    });
+    var origSetAttr = Element.prototype.setAttribute;
+    Element.prototype.setAttribute = function(name, value){
+      if((name === 'src' || name === 'href') && typeof value === 'string'){
+        value = mapUrl(value);
+      }
+      return origSetAttr.call(this, name, value);
+    };
+    var origWinOpen = window.open;
+    if(origWinOpen){
+      window.open = function(url){
+        var args = Array.prototype.slice.call(arguments);
+        if(typeof url === 'string') args[0] = mapUrl(url);
+        return origWinOpen.apply(this, args);
+      };
+    }
+  }
+})();
+</script><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MATHVERSE R6.7 · Kiểm tra 310 hiện vật 3D</title>
+<style>*{box-sizing:border-box}body{margin:0;font:15px/1.5 "Segoe UI",Arial,sans-serif;background:#0b1726;color:#e9f4f3}header{padding:17px 24px;background:#142b3d;border-bottom:1px solid #34535c;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}h1{font-size:20px;margin:0}small{color:#b1c8cb}.main{display:grid;grid-template-columns:315px minmax(0,1fr);gap:16px;padding:16px;min-height:calc(100vh - 120px)}aside{background:#142b3d;border:1px solid #34505d;border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:13px}label{font-size:13px;color:#b7d0d5;font-weight:700}select,input,button{display:block;width:100%;padding:11px 12px;color:#e4f7f5;background:#18364b;border:1px solid #527781;border-radius:8px;font:inherit}button{background:#167d80;border-color:#5bd2c2;cursor:pointer;font-weight:700}button:focus,select:focus{outline:2px solid #53d3c5}#view{position:relative;background:radial-gradient(ellipse at center,#203e52,#081623);border:1px solid #496577;border-radius:14px;overflow:hidden;min-height:510px}canvas{display:block;width:100%;height:100%;cursor:grab}canvas:active{cursor:grabbing}.overlay{position:absolute;top:12px;left:14px;background:#0b1726da;padding:12px;border:1px solid #4b8b83;border-radius:10px;max-width:75%;pointer-events:none}.overlay b{display:block}.overlay small{display:block}.footer{padding:0 16px 16px;color:#a7c2c5;font-size:12px}.warn{border-left:3px solid #eac57d;padding:10px;background:#263b4c;color:#ffe8bb}.status{color:#53d3c5;font-weight:700}#error{color:#ffd2bb;display:none}.ind{display:flex;align-items:center;gap:8px;font-size:12px;color:#a4bfc6}.dot{height:8px;width:8px;background:#53d3c5;border-radius:50%}@media(max-width:850px){.main{display:flex;flex-direction:column}aside{display:grid;grid-template-columns:repeat(2,1fr)}aside label{grid-column:span 2}#view{min-height:460px}}
+</style></head><body>
+<header><div><h1>MATHVERSE R6.7 · Trình kiểm tra 310 hiện vật 3D</h1><small>Vật thể Three.js của phòng bảo tàng – không phải trình dựng Toán học chính xác trong Kho SGK</small></div><span class="status" id="summary">Đang tải kho...</span></header>
+<div class="main"><aside><label for="grade">Khối lớp</label><select id="grade"></select><label for="room">Phòng chuyên đề</label><select id="room"></select><label for="mode">Hiện vật / chế độ</label><select id="mode"></select><button id="previous">← Mô hình trước</button><button id="next">Mô hình tiếp →</button><button id="rotation">⏸ Dừng xoay</button><button id="reset">↻ Đặt lại góc nhìn</button><div class="warn">Kéo chuột để xoay hiện vật; lăn chuột để phóng to. Mọi vật thể trưng bày có hình học 3D; kiến thức 2D chỉ được tạo thành đồ dùng nổi, không biến thành khối Toán học có thể tích.</div><div id="error" role="alert"></div></aside>
+<section id="view"><div class="overlay"><b id="name">Chọn hiện vật</b><small id="code"></small><small id="type"></small></div></section></div>
+<div class="footer">Nếu WebGL không hoạt động trong Cốc Cốc, kiểm tra cài đặt tăng tốc phần cứng và mở lại trình duyệt. Khi đổi phòng, hệ thống hủy tài nguyên Three.js cũ.</div>
+<script type="module">
+import * as THREE from '/vendor/three.module.js?v=r107_v15';
+import {getRoomsForGrade,getModesForRoom} from '/src/museum/r6-room-layout.js?v=r107_v15';
+import {createModeExhibit} from '/src/museum/r67-mode-exhibits.mjs?v=r107_v15';
+const $=x=>document.getElementById(x),container=$('view');let renderer,scene,camera,root,raf=0,az=.5,elev=.27,dist=5,turn=true,dragging=false,lastX=0,lastY=0;
+try{renderer=new THREE.WebGLRenderer({antialias:true,powerPreference:'high-performance'});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.setClearColor(0x0c2030,1);container.append(renderer.domElement);}catch(error){$('error').style.display='block';$('error').textContent='Không bật được WebGL: '+error.message;throw error;}
+scene=new THREE.Scene();camera=new THREE.PerspectiveCamera(48,1,.1,70);const amb=new THREE.HemisphereLight(0xd9fbf8,0x294157,2);scene.add(amb);const key=new THREE.DirectionalLight(0xffffff,2.8);key.position.set(3,6,5);scene.add(key);const fill=new THREE.PointLight(0x53d3c5,3,12);fill.position.set(-3,3,3);scene.add(fill);
+const ground=new THREE.Mesh(new THREE.CylinderGeometry(1.7,1.8,.20,36),new THREE.MeshStandardMaterial({color:0x193d4e,metalness:.16,roughness:.6}));ground.position.y=.05;scene.add(ground);
+function dispose(obj){if(!obj)return;obj.traverse(x=>{x.geometry?.dispose?.();const arr=Array.isArray(x.material)?x.material:x.material?[x.material]:[];for(const m of arr){m.map?.dispose?.();m.dispose?.();}});scene.remove(obj);}
+function chosen(){const room=$('room').value;return getModesForRoom(room).find(m=>m.id===$('mode').value);}
+function updateMode(){dispose(root);const m=chosen();if(!m)return;root=createModeExhibit(m.grade,m);scene.add(root);$('name').textContent=m.name;$('code').textContent=`Toán ${m.grade} · ${m.roomId} · ${m.labId} · ${m.id}`;$('type').textContent=`Loại trưng bày: ${root.userData.exhibitKind}`;$('summary').textContent=`${[6,7,8,9,10,11,12].reduce((s,g)=>s+getRoomsForGrade(g).reduce((n,r)=>n+r.modeCount,0),0)} hình trưng bày · 0 bảng phẳng`;}
+function updateRooms(){const rooms=getRoomsForGrade(Number($('grade').value));$('room').replaceChildren(...rooms.map(r=>new Option(`${r.roomId} · ${r.name} (${r.modeCount})`,r.roomId)));updateModes();}
+function updateModes(){const modes=getModesForRoom($('room').value);$('mode').replaceChildren(...modes.map(m=>new Option(`${m.id} · ${m.name}`,m.id)));updateMode();}
+for(let g=6;g<=12;g++)$('grade').append(new Option('Toán '+g,g));$('grade').addEventListener('change',updateRooms);$('room').addEventListener('change',updateModes);$('mode').addEventListener('change',updateMode);
+$('previous').onclick=()=>{const s=$('mode');s.selectedIndex=(s.selectedIndex+s.options.length-1)%s.options.length;updateMode();};$('next').onclick=()=>{const s=$('mode');s.selectedIndex=(s.selectedIndex+1)%s.options.length;updateMode();};$('rotation').onclick=()=>{turn=!turn;$('rotation').textContent=turn?'⏸ Dừng xoay':'▶ Tiếp tục xoay';};$('reset').onclick=()=>{az=.5;elev=.27;dist=5;};
+renderer.domElement.addEventListener('pointerdown',e=>{dragging=true;lastX=e.clientX;lastY=e.clientY;renderer.domElement.setPointerCapture(e.pointerId);});renderer.domElement.addEventListener('pointermove',e=>{if(!dragging)return;az+=(e.clientX-lastX)*.008;elev=Math.max(-.35,Math.min(.75,elev+(e.clientY-lastY)*.006));lastX=e.clientX;lastY=e.clientY;});renderer.domElement.addEventListener('pointerup',()=>dragging=false);renderer.domElement.addEventListener('pointercancel',()=>dragging=false);
+renderer.domElement.addEventListener('wheel',e=>{e.preventDefault();dist=Math.max(2.8,Math.min(10,dist+e.deltaY*.007));},{passive:false});
+function frame(t){raf=requestAnimationFrame(frame);if(turn&&!dragging&&root)root.rotation.y+=.0025;const box=container.getBoundingClientRect(),w=Math.max(1,Math.floor(box.width)),h=Math.max(1,Math.floor(box.height));if(renderer.domElement.width!==Math.floor(w*renderer.getPixelRatio())||renderer.domElement.height!==Math.floor(h*renderer.getPixelRatio())){renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();}camera.position.set(Math.sin(az)*dist*Math.cos(elev),1.65+dist*Math.sin(elev),Math.cos(az)*dist*Math.cos(elev));camera.lookAt(0,1.45,0);renderer.render(scene,camera);}
+window.addEventListener('beforeunload',()=>{cancelAnimationFrame(raf);dispose(root);renderer.dispose();});updateRooms();raf=requestAnimationFrame(frame);
+</script></body></html>

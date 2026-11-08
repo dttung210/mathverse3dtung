@@ -1,0 +1,122 @@
+/* V15 — four-portal Math 6: uncluttered foyer and contextual lab controls. */
+body.mv15-grade6-foyer #sidebar,
+body.mv15-grade6-foyer #minimap-panel,
+body.mv15-grade6-lab #minimap-panel {display:none!important;}
+body.mv15-grade6-foyer .bottom-toolbar {display:none!important;}
+body.mv15-grade6-foyer .topbar.glass,
+body.mv15-grade6-lab .topbar.glass {left:22px;right:22px;top:16px;min-height:58px;
+  background:linear-gradient(110deg,rgba(7,28,42,.9),rgba(19,48,62,.86));border-color:rgba(126,226,210,.21);
+  box-shadow:0 10px 34px rgba(0,7,17,.28);backdrop-filter:blur(12px);}
+body.mv15-grade6-foyer .topbar #model-summary{display:none;}
+body.mv15-grade6-foyer #world-hint{bottom:172px;background:rgba(10,36,47,.88);font-size:12px;
+  box-shadow:0 12px 34px rgba(0,12,32,.32);white-space:normal;text-align:center;max-width:80vw;}
+body.mv15-grade6-foyer #mv14-portal-hub{position:fixed;left:50%;right:auto;top:auto;bottom:24px;transform:translateX(-50%);
+  width:min(980px,calc(100vw - 50px));padding:16px 18px 17px;border-radius:24px;
+  background:linear-gradient(130deg,rgba(8,25,44,.90),rgba(11,42,58,.89));
+  box-shadow:0 16px 52px rgba(1,15,31,.56);border:1px solid rgba(138,230,225,.22);backdrop-filter:blur(15px);z-index:17;}
+body.mv15-grade6-foyer #mv14-portal-hub .mv14-portal-heading{display:flex;margin-bottom:13px;padding:0 4px;
+  font-size:12px;letter-spacing:.075em;color:#d0f9ed;}
+body.mv15-grade6-foyer #mv14-portal-hub .mv14-portal-heading span:last-child{font-size:11px;color:#98b9cb;letter-spacing:0;}
+body.mv15-grade6-foyer .mv14-portal-buttons{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;}
+body.mv15-grade6-foyer .mv14-gate-button{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px;
+  min-height:95px;padding:13px 8px;border:1px solid color-mix(in srgb,var(--portal-accent) 40%,transparent);
+  border-radius:16px;background:linear-gradient(160deg,rgba(255,255,255,.09),rgba(255,255,255,.023));
+  box-shadow:inset 0 0 22px rgba(255,255,255,.016);color:#f6fbfd;transition:transform .18s,border-color .18s,background .18s;
+  font-size:12px;letter-spacing:.01em;}
+body.mv15-grade6-foyer .mv14-gate-button:hover,
+body.mv15-grade6-foyer .mv14-gate-button:focus-visible{transform:translateY(-3px);border-color:var(--portal-accent);
+  background:color-mix(in srgb,var(--portal-accent) 19%,#0e2a3d);}
+body.mv15-grade6-foyer .mv14-gate-button>span{font-size:26px;line-height:1;color:var(--portal-accent);}
+body.mv15-grade6-foyer .mv14-gate-button strong{font-size:12px;max-width:100%;white-space:normal;text-wrap:balance;}
+body.mv15-grade6-foyer .mv14-gate-button small{font-size:10px;opacity:.8;font-weight:600;}
+body.mv15-grade6-foyer .mv14-portal-actions{margin-top:12px;justify-content:center;}
+body.mv15-grade6-foyer #mv15-hall-link{padding:5px 17px;border-color:rgba(255,255,255,.14);font-size:10px;color:#d5e4eb;}
+body.mv15-grade6-foyer .center-crosshair{opacity:.32;}
+/* Inside a portal the world becomes a gallery. Keep just one compact navigation rail. */
+body.mv15-grade6-lab #mv14-portal-hub{position:fixed;left:50%;right:auto;top:85px;bottom:auto;
+  width:min(680px,calc(100vw - 305px));transform:translateX(-35%);padding:8px 13px;
+  display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:5px 12px;
+  background:rgba(11,32,48,.89);border-radius:15px;z-index:12;}
+body.mv15-grade6-lab .mv14-portal-heading{margin:0;flex:1;display:grid;gap:4px;min-width:160px;}
+body.mv15-grade6-lab .mv14-portal-heading span:first-child{font-size:10.5px;color:#9ce8da;}
+body.mv15-grade6-lab .mv14-portal-heading span:last-child{font-size:10px;color:#b8ced8;}
+body.mv15-grade6-lab .mv14-portal-actions{margin:0;display:flex;align-items:center;gap:7px;}
+body.mv15-grade6-lab #mv14-portal-back{background:#dbfff5;border-color:#b0fff0;color:#134c4d;font-size:11px;padding:8px 10px;}
+body.mv15-grade6-lab #mv14-math6-browse{background:#243e57;border-color:#4a8492;font-size:11px;padding:8px 10px;}
+body.mv15-grade6-lab #mv15-hall-link{display:none;}
+body.mv15-grade6-lab #sidebar{width:264px;left:13px;top:82px;bottom:86px;border-radius:16px;
+  background:rgba(12,29,43,.91);padding:12px;gap:5px;}
+body.mv15-grade6-lab #sidebar .brand,body.mv15-grade6-lab #sidebar .sidebar-footer {display:none;}
+body.mv15-grade6-lab #grade-nav{display:none;}
+body.mv15-grade6-lab #sidebar .section-head:first-of-type{display:none;}
+body.mv15-grade6-lab #sidebar .padded-top{margin:6px 2px;}
+body.mv15-grade6-lab .catalog-item{padding:10px 8px;}
+body.mv15-grade6-lab #world-hint{bottom:90px;left:58%;font-size:10px;background:rgba(8,32,48,.86);}
+body.mv15-grade6-lab .bottom-toolbar{left:auto;right:16px;bottom:15px;transform:none;max-width:min(625px,calc(100vw - 290px));
+  background:rgba(8,31,44,.86);padding:6px;border-radius:13px;}
+body.mv15-grade6-lab .bottom-toolbar .dock-grade-strip,
+body.mv15-grade6-lab .bottom-toolbar .dock-separator,
+body.mv15-grade6-lab #btn-avatar,
+body.mv15-grade6-lab #btn-sprint,
+body.mv15-grade6-lab #btn-pointerlock,
+body.mv15-grade6-lab #btn-stop{display:none!important;}
+body.mv15-grade6-lab .bottom-toolbar button{padding:7px 10px;}
+body.mv15-grade6-lab .bottom-toolbar .museum-quality-picker{font-size:10px;}
+/* More visual breathing space in the SGK drawer. Real SVG mini-previews, no stock photos. */
+body.mv15-grade6-lab .mv14-math6-sheet{width:min(1010px,95vw);height:min(740px,90vh);padding:23px;
+  background:linear-gradient(145deg,#f5fafb,#edf5f7);}
+body.mv15-grade6-lab .mv14-math6-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;}
+body.mv15-grade6-lab .mv14-math6-drawer-card{transition:transform .16s,box-shadow .16s;border-radius:14px;min-height:145px;
+  box-shadow:0 2px 12px rgba(13,70,83,.055);}
+body.mv15-grade6-lab .mv14-math6-drawer-card:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(12,64,75,.14);}
+body.mv15-grade6-lab .mv14-math6-preview{background:#e5f5f5;min-height:72px;}
+/* Accessibility */
+@media (max-width:1020px){
+  body.mv15-grade6-lab #mv14-portal-hub{left:270px;transform:none;width:calc(100vw - 285px);}
+  body.mv15-grade6-lab .mv14-portal-heading span:last-child{display:none;}
+  body.mv15-grade6-foyer #mv14-portal-hub{width:calc(100vw - 24px);bottom:10px;}
+  body.mv15-grade6-foyer .mv14-portal-heading span:last-child{display:none;}
+}
+@media (max-width:730px){
+  body.mv15-grade6-foyer .topbar.glass,body.mv15-grade6-lab .topbar.glass{left:8px;right:8px;top:7px;}
+  body.mv15-grade6-foyer #mv14-portal-hub{top:75px;bottom:auto;max-height:calc(100dvh - 170px);overflow:auto;
+    padding:10px;width:calc(100vw - 18px);border-radius:15px;}
+  body.mv15-grade6-foyer .mv14-portal-buttons{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;}
+  body.mv15-grade6-foyer .mv14-gate-button{min-height:65px;gap:3px;padding:6px;}
+  body.mv15-grade6-foyer .mv14-gate-button>span{font-size:19px;}
+  body.mv15-grade6-foyer .mv14-gate-button strong{font-size:10px;}
+  body.mv15-grade6-foyer .mv14-gate-button small{font-size:9px;}
+  body.mv15-grade6-lab #mv14-portal-hub{left:7px;right:7px;top:70px;width:auto;transform:none;padding:8px;}
+  body.mv15-grade6-lab #sidebar{display:none!important;}
+  body.mv15-grade6-lab .bottom-toolbar{left:7px;right:7px;bottom:8px;max-width:none;transform:none;}
+  body.mv15-grade6-lab .mv14-math6-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  body.mv15-grade6-foyer .touch-pad{bottom:12px;right:8px;}
+  body.mv15-grade6-lab .touch-pad{bottom:70px;}
+  body.mv15-grade6-lab .mv14-portal-actions{flex-wrap:wrap;}
+}
+@media (max-width:470px){
+  body.mv15-grade6-lab #mv14-portal-hub{top:65px;}
+  body.mv15-grade6-lab #mv14-portal-back,body.mv15-grade6-lab #mv14-math6-browse{font-size:9.5px;padding:5px 8px;}
+  body.mv15-grade6-lab .mv14-math6-grid{grid-template-columns:1fr;}
+  body.mv15-grade6-foyer .topbar #model-summary{display:none;}
+}
+@media (prefers-reduced-motion:reduce){
+  body.mv15-grade6-foyer .mv14-gate-button,body.mv15-grade6-lab .mv14-math6-drawer-card{transition:none;}
+}
+/* V15.1 — let the genuine 3D dioramas, not overlays, lead the gallery view. */
+body.mv15-grade6-lab #sidebar{display:none!important;}
+body.mv15-grade6-lab #mv14-portal-hub{
+  left:50%;right:auto;top:78px;transform:translateX(-50%);
+  width:min(570px,calc(100vw - 40px));padding:9px 15px;
+  background:rgba(11,31,42,.88);box-shadow:0 9px 27px rgba(4,22,32,.19);
+  border:1px solid rgba(92,204,196,.24);
+}
+body.mv15-grade6-lab #mv14-portal-hub .mv14-portal-heading{font-size:12px;}
+body.mv15-grade6-lab #mv14-portal-count{font-size:10px;letter-spacing:0;}
+body.mv15-grade6-lab .bottom-toolbar{left:auto;right:18px;max-width:min(490px,calc(100vw - 32px));}
+body.mv15-grade6-lab #world-hint{left:50%;bottom:88px;transform:translateX(-50%);max-width:min(510px,90vw);font-size:11px;}
+@media(max-width:760px){
+ body.mv15-grade6-lab #mv14-portal-hub{top:67px;left:8px;right:8px;transform:none;width:auto;}
+ body.mv15-grade6-lab .bottom-toolbar{right:8px;left:8px;max-width:none;}
+ body.mv15-grade6-lab #world-hint{bottom:80px;}
+}

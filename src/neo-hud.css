@@ -1,0 +1,378 @@
+/* ========================================================
+   MATHVERSE V9: NEO-ACADEMY HUD & GLASSMORPHISM DESIGN SYSTEM
+   Đại tu giao diện hiện đại, tinh tế, tối ưu máy chiếu & trải nghiệm
+   ======================================================== */
+
+:root {
+  --neo-bg-blur: rgba(13, 25, 38, 0.78);
+  --neo-border-specular: rgba(255, 255, 255, 0.14);
+  --neo-shadow: 0 16px 42px rgba(0, 8, 20, 0.38), 0 0 1px rgba(255, 255, 255, 0.12);
+  --neo-radius-dock: 22px;
+  --neo-radius-card: 16px;
+  
+  /* Grade Theme Accents */
+  --grade-0-color: #67decf;
+  --grade-6-color: #00d2ff;
+  --grade-7-color: #3b82f6;
+  --grade-8-color: #ff9900;
+  --grade-9-color: #a855f7;
+  --grade-10-color: #10b981;
+  --grade-11-color: #f43f5e;
+  --grade-12-color: #f59e0b;
+}
+
+/* 1. TOPBAR NÂNG CẤP HIỆN ĐẠI */
+.topbar.glass {
+  background: var(--neo-bg-blur) !important;
+  backdrop-filter: blur(22px) saturate(180%) !important;
+  border: 1px solid var(--neo-border-specular) !important;
+  box-shadow: var(--neo-shadow) !important;
+  border-radius: var(--neo-radius-card) !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.topbar-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.topbar-badge .grade-pill {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--grade-0-color);
+  box-shadow: 0 0 10px var(--grade-0-color);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+/* 2. FLOATING SMART DOCK (DOCK NỔI THÔNG MINH) */
+.bottom-toolbar.glass {
+  background: rgba(11, 22, 34, 0.82) !important;
+  backdrop-filter: blur(24px) saturate(190%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+  box-shadow: 0 20px 50px rgba(0, 4, 12, 0.55), 0 0 2px rgba(255, 255, 255, 0.2) !important;
+  border-radius: var(--neo-radius-dock) !important;
+  padding: 7px 12px !important;
+  gap: 7px !important;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s !important;
+}
+
+.bottom-toolbar button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.09) !important;
+  border-radius: 13px !important;
+  padding: 8px 14px !important;
+  font-size: 12px !important;
+  font-weight: 650 !important;
+  color: #e5f0f3 !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.bottom-toolbar button:hover {
+  background: rgba(255, 255, 255, 0.14) !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+  transform: translateY(-2px);
+  color: #fff !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.bottom-toolbar button:active {
+  transform: translateY(0);
+}
+
+/* Phân cách giữa các nhóm nút trên dock */
+.dock-separator {
+  width: 1px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 0 2px;
+  align-self: center;
+}
+
+/* Cụm nút chọn nhanh 7 lớp trên Dock (Fast Travel Strip) */
+.dock-grade-strip {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(0, 0, 0, 0.22);
+  padding: 3px 5px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.dock-grade-btn {
+  padding: 6px 10px !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  border-radius: 10px !important;
+  min-width: 32px;
+  justify-content: center;
+}
+
+.dock-grade-btn[data-grade="0"] { color: var(--grade-0-color) !important; }
+.dock-grade-btn[data-grade="6"] { color: var(--grade-6-color) !important; }
+.dock-grade-btn[data-grade="7"] { color: var(--grade-7-color) !important; }
+.dock-grade-btn[data-grade="8"] { color: var(--grade-8-color) !important; }
+.dock-grade-btn[data-grade="9"] { color: var(--grade-9-color) !important; }
+.dock-grade-btn[data-grade="10"] { color: var(--grade-10-color) !important; }
+.dock-grade-btn[data-grade="11"] { color: var(--grade-11-color) !important; }
+.dock-grade-btn[data-grade="12"] { color: var(--grade-12-color) !important; }
+
+.dock-grade-btn.active {
+  background: rgba(255, 255, 255, 0.16) !important;
+  border-color: currentColor !important;
+  box-shadow: 0 0 12px currentColor !important;
+}
+
+/* Nút Chế độ Máy chiếu nổi bật */
+#btn-projector {
+  background: linear-gradient(135deg, rgba(23, 133, 125, 0.35), rgba(42, 172, 149, 0.45)) !important;
+  border-color: rgba(103, 222, 207, 0.4) !important;
+  color: #67decf !important;
+}
+
+#btn-projector:hover {
+  background: linear-gradient(135deg, rgba(23, 133, 125, 0.55), rgba(42, 172, 149, 0.65)) !important;
+  box-shadow: 0 0 20px rgba(103, 222, 207, 0.4) !important;
+}
+
+/* 3. CHẾ ĐỘ MÁY CHIẾU GIẢNG DẠY SIÊU SẠCH (PROJECTOR MASTER MODE) */
+body.projector-master-mode .sidebar,
+body.projector-master-mode .minimap-panel,
+body.projector-master-mode .center-crosshair,
+body.projector-master-mode .world-hint {
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: opacity 0.3s ease !important;
+}
+
+body.projector-master-mode .topbar {
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+body.projector-master-mode .bottom-toolbar {
+  opacity: 0.15;
+  transform: translateX(-50%) translateY(10px);
+  transition: all 0.3s ease;
+}
+
+body.projector-master-mode .bottom-toolbar:hover {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Lớp vẽ phủ máy chiếu toàn màn hình (Projector Master Overlay Canvas) */
+.projector-canvas-layer {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  pointer-events: none;
+  display: none;
+}
+
+/* Banner thanh công cụ máy chiếu cao cấp */
+#projector-banner {
+  display: none;
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(10, 22, 38, 0.94);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.5), 0 0 15px rgba(56, 189, 248, 0.2);
+  padding: 6px 14px 6px 18px;
+  border-radius: 32px;
+  z-index: 100;
+  color: #f8fafc;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  align-items: center;
+  gap: 14px;
+  animation: fadeInDown 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body.projector-master-mode #projector-banner {
+  display: inline-flex;
+}
+
+.proj-title {
+  color: #38bdf8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.proj-tool-group {
+  display: flex;
+  gap: 6px;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 3px 6px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.proj-tool {
+  background: transparent;
+  border: 1px solid transparent;
+  color: #94a3b8;
+  border-radius: 14px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.proj-tool:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.proj-tool.active {
+  background: rgba(56, 189, 248, 0.22);
+  border-color: #38bdf8;
+  color: #38bdf8;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.35);
+}
+
+#projector-exit-btn {
+  background: rgba(239, 68, 68, 0.18);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: #fca5a5;
+  border-radius: 16px;
+  padding: 5px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#projector-exit-btn:hover {
+  background: rgba(239, 68, 68, 0.65);
+  border-color: #ef4444;
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.45);
+}
+
+/* Phóng to công thức và nhãn thước đo trong Chế độ Máy chiếu (+35% High Contrast) */
+body.projector-master-mode .viewer-dialog {
+  max-width: 92vw !important;
+  font-size: 1.15em !important;
+}
+
+body.projector-master-mode .math-formula,
+body.projector-master-mode .formula-box,
+body.projector-master-mode [id*="formula"] {
+  font-size: 1.35em !important;
+  font-weight: 700 !important;
+  color: #fef08a !important;
+  text-shadow: 0 0 14px rgba(254, 240, 138, 0.5) !important;
+}
+
+body.projector-master-mode .param-control output {
+  font-size: 1.3em !important;
+  color: #38bdf8 !important;
+  font-weight: 800 !important;
+}
+
+body.projector-master-mode .metric-card strong {
+  font-size: 1.35em !important;
+  color: #4ade80 !important;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translate(-50%, -15px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+/* 4. TỐI ƯU SIDEBAR & MINIMAP */
+.sidebar.glass {
+  background: var(--neo-bg-blur) !important;
+  backdrop-filter: blur(24px) saturate(180%) !important;
+  border: 1px solid var(--neo-border-specular) !important;
+  box-shadow: var(--neo-shadow) !important;
+}
+
+.minimap-panel.glass {
+  background: var(--neo-bg-blur) !important;
+  backdrop-filter: blur(20px) !important;
+  border: 1px solid var(--neo-border-specular) !important;
+  box-shadow: var(--neo-shadow) !important;
+}
+
+#minimap-canvas {
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* 5. PHÍM TẮT & GỢI Ý MỜ (HUD HINTS) */
+.world-hint.glass {
+  background: rgba(14, 28, 42, 0.7) !important;
+  backdrop-filter: blur(14px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 20px !important;
+}
+
+/* 6. AVATAR SELECTOR MODAL */
+.avatar-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin: 20px 0;
+}
+.avatar-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.avatar-card:hover {
+  background: rgba(103, 222, 207, 0.12);
+  border-color: var(--aqua);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+.avatar-card.active {
+  background: rgba(103, 222, 207, 0.2);
+  border-color: var(--aqua);
+  box-shadow: 0 0 16px rgba(103, 222, 207, 0.3);
+}
+.avatar-card .avatar-icon {
+  font-size: 38px;
+  margin-bottom: 2px;
+}
+.avatar-card strong {
+  font-size: 15px;
+  color: #fff;
+}
+.avatar-card small {
+  font-size: 11px;
+  color: #a0aec0;
+  line-height: 1.4;
+}

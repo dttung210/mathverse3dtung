@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<script id="mv-gh-pages-shim">
+(function(){
+  var BASE = "/mathverse3dtung";
+  window.__MV_BASE_PATH__ = BASE;
+  var PREFIXES = ["dual/","src/","data/","vendor/","game-park/","museum-assets/","museum-thumbs/","museum-data/","r75/","lab/","api/","granddome/","favicon.svg","health"];
+  function shouldPrefix(u){
+    if(!BASE || typeof u !== 'string') return false;
+    if(!u.startsWith('/') || u.startsWith(BASE + '/') || u.startsWith('//')) return false;
+    var clean = u.slice(1);
+    for(var i = 0; i < PREFIXES.length; i++){
+      if(clean.startsWith(PREFIXES[i]) || clean === 'r75' || clean === 'lab' || clean === 'game-park') return true;
+    }
+    return false;
+  }
+  function mapUrl(u){
+    if(typeof u !== 'string') return u;
+    var origin = window.location && window.location.origin ? window.location.origin : '';
+    var hadOrigin = false;
+    if(origin && u.indexOf(origin + '/') === 0){
+      u = u.slice(origin.length);
+      hadOrigin = true;
+    }
+    var finish = function(res){
+      return (hadOrigin && res.indexOf('/') === 0) ? (origin + res) : res;
+    };
+    var qIdx = u.indexOf('?');
+    var pathOnly = qIdx >= 0 ? u.slice(0, qIdx) : u;
+    var query = qIdx >= 0 ? u.slice(qIdx) : '';
+    var rel = BASE && pathOnly.startsWith(BASE + '/') ? pathOnly.slice(BASE.length) : pathOnly;
+    if(rel === '/api/discovery/r99/photo'){
+      var params = new URLSearchParams(query);
+      var id = params.get('id') || '';
+      return finish((BASE || '') + '/api/discovery/r99/photo/' + encodeURIComponent(id) + '.json');
+    }
+    var mTile = rel.match(/^\/api\/discovery\/r99\/(terrain|satellite)\/(\d+)\/(\d+)\/(\d+)$/);
+    if(mTile){
+      var kind = mTile[1], z = mTile[2], x = mTile[3], y = mTile[4];
+      if(kind === 'terrain') return 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/' + z + '/' + x + '/' + y + '.png';
+      return 'https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless_3857/default/GoogleMapsCompatible/' + z + '/' + y + '/' + x + '.jpg';
+    }
+    var StaticJsonRoutes = {
+      '/health': '/health.json',
+      '/api/health': '/api/health.json',
+      '/granddome/api/museum': '/granddome/api/museum.json',
+      '/api/discovery/r98/catalog': '/api/discovery/r98/catalog.json',
+      '/api/discovery/r99/catalog': '/api/discovery/r99/catalog.json',
+      '/api/discovery/countries': '/api/discovery/countries.json',
+      '/api/discovery/unesco': '/api/discovery/unesco.json'
+    };
+    if(StaticJsonRoutes[rel]){
+      return finish((BASE || '') + StaticJsonRoutes[rel] + query);
+    }
+    if(shouldPrefix(u)){
+      return finish(BASE + u);
+    }
+    return finish(u);
+  }
+  if(window.Request){
+    var OrigRequest = window.Request;
+    window.Request = function(input, init){
+      if(typeof input === 'string') input = mapUrl(input);
+      else if(input && typeof input.url === 'string') input = new OrigRequest(mapUrl(input.url), input);
+      return new OrigRequest(input, init);
+    };
+    window.Request.prototype = OrigRequest.prototype;
+  }
+  var origFetch = window.fetch;
+  if(origFetch){
+    window.fetch = function(input, init){
+      if(typeof input === 'string'){
+        input = mapUrl(input);
+      } else if(input && typeof input.url === 'string'){
+        input = new Request(mapUrl(input.url), input);
+      }
+      return origFetch.call(this, input, init);
+    };
+  }
+  var origOpen = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method, url){
+    var args = Array.prototype.slice.call(arguments);
+    if(typeof url === 'string') args[1] = mapUrl(url);
+    return origOpen.apply(this, args);
+  };
+  if(BASE){
+    [HTMLImageElement, HTMLIFrameElement, HTMLScriptElement, HTMLLinkElement, HTMLAnchorElement, HTMLMediaElement, HTMLSourceElement].forEach(function(Ctor){
+      if(!Ctor || !Ctor.prototype) return;
+      var prop = (Ctor === HTMLLinkElement || Ctor === HTMLAnchorElement) ? 'href' : 'src';
+      var desc = Object.getOwnPropertyDescriptor(Ctor.prototype, prop);
+      if(desc && desc.set){
+        Object.defineProperty(Ctor.prototype, prop, {
+          configurable: true,
+          enumerable: desc.enumerable,
+          get: desc.get,
+          set: function(v){
+            return desc.set.call(this, typeof v === 'string' ? mapUrl(v) : v);
+          }
+        });
+      }
+    });
+    var origSetAttr = Element.prototype.setAttribute;
+    Element.prototype.setAttribute = function(name, value){
+      if((name === 'src' || name === 'href') && typeof value === 'string'){
+        value = mapUrl(value);
+      }
+      return origSetAttr.call(this, name, value);
+    };
+    var origWinOpen = window.open;
+    if(origWinOpen){
+      window.open = function(url){
+        var args = Array.prototype.slice.call(arguments);
+        if(typeof url === 'string') args[0] = mapUrl(url);
+        return origWinOpen.apply(this, args);
+      };
+    }
+  }
+})();
+</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MATHVERSE V12 · Đề Xuất Big Update Đồ Họa 3D Depth Starter & Tối Ưu GLB/FPS</title>
+  <link rel="stylesheet" href="/mathverse3dtung/src/graphics-r74/graphics-ui.css?v=107.9" />
+  <style>
+    :root {
+      --bg: #071324;
+      --card: rgba(12, 28, 48, 0.92);
+      --border: rgba(125, 211, 252, 0.24);
+      --gold: #fbbf24;
+      --cyan: #38bdf8;
+      --emerald: #34d399;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(circle at 20% 0%, #0f294a 0%, #06101e 70%);
+      color: var(--text);
+      line-height: 1.55;
+      padding: 24px 20px 60px;
+    }
+    .container { max-width: 1280px; margin: 0 auto; }
+    .hero {
+      background: linear-gradient(135deg, rgba(14, 42, 74, 0.95), rgba(8, 22, 40, 0.96));
+      border: 1px solid rgba(251, 191, 36, 0.45);
+      border-radius: 18px;
+      padding: 24px 28px;
+      box-shadow: 0 20px 48px rgba(0, 0, 0, 0.45);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    .eyebrow {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gold);
+      background: rgba(251, 191, 36, 0.14);
+      border: 1px solid rgba(251, 191, 36, 0.35);
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 8px;
+    }
+    h1 { margin: 0 0 6px; font-size: 26px; color: #fff; }
+    .hero p { margin: 0; color: #cbd5e1; max-width: 780px; font-size: 14px; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .btn {
+      appearance: none;
+      border: 1px solid rgba(125, 211, 252, 0.45);
+      background: linear-gradient(135deg, #0284c7, #1d4ed8);
+      color: #fff;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 10px 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 8px 20px rgba(2, 132, 199, 0.3);
+    }
+    .btn-gold {
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+      border-color: #fde68a;
+      color: #081c2e;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 20px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+    }
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 17px;
+      color: var(--cyan);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card p { margin: 0 0 10px; font-size: 13.5px; color: #dbeafe; }
+    .tag-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .tag {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 6px;
+      background: rgba(56, 189, 248, 0.14);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: #bae6fd;
+    }
+    .tag-ok {
+      background: rgba(52, 211, 153, 0.15);
+      border-color: rgba(52, 211, 153, 0.4);
+      color: #6ee7b7;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      padding: 9px 11px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: rgba(15, 23, 42, 0.85);
+      color: var(--gold);
+      font-weight: 800;
+    }
+    tr:nth-child(even) td { background: rgba(15, 23, 42, 0.35); }
+    code {
+      font-family: Consolas, monospace;
+      font-size: 12px;
+      background: rgba(2, 6, 23, 0.7);
+      color: #7dd3fc;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+    .section-title {
+      font-size: 20px;
+      color: var(--gold);
+      margin: 28px 0 12px;
+      border-bottom: 1px solid rgba(251, 191, 36, 0.3);
+      padding-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div>
+        <span class="eyebrow">MATHVERSE V12 · BIG UPDATE ĐỒ HỌA 3D DEPTH STARTER</span>
+        <h1>Đề Xuất & Kiến Trúc Nâng Cấp Đồ Họa 3D Có Chiều Sâu, PBR, Hậu Kỳ & Tối Ưu GLB/FPS</h1>
+        <p>Thiết kế trên nền tảng <strong>3D Depth Starter (Three.js r161)</strong>: Kết hợp Hệ thống Chiếu sáng 3 điểm, Bóng đổ mềm &amp; Bóng tiếp xúc, SSAO/GTAO, Vật liệu PBR (Gỗ, Kính, Kim loại, Nhựa, Đá), DOF giới thiệu, glTF-Transform và Bộ điều tốc FPS thông minh cho máy học sinh phổ thông.</p>
+      </div>
+      <div class="hero-actions">
+        <button type="button" id="open-ab-btn" class="btn btn-gold">🧪 Mở Ngay Cảnh Thử Nghiệm A/B 3D</button>
+        <a href="/" class="btn">🏛 Về Đại Sảnh Grand Campus</a>
+        <a href="/mathverse3dtung/r75/" class="btn">⚗ Vào Phòng Lab 3D R75</a>
+      </div>
+    </header>
+
+    <h2 class="section-title">1. Bảng Đề Xuất Tổng Thể 10 Hạng Mục Nâng Cấp Đồ Họa 3D Depth Starter</h2>
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Hạng mục nâng cấp</th>
+            <th>Nguyên lý tạo chiều sâu &amp; Sư phạm</th>
+            <th>Giải pháp kỹ thuật trong MATHVERSE V12</th>
+            <th>Công tắc &amp; Mức tối ưu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1. Lighting – Hệ thống Chiếu sáng Đa tầng</strong></td>
+            <td>Mô phỏng nguồn sáng chính, hướng sáng, cường độ và ánh sáng phản xạ môi trường. Giúp khối 3D tách biệt rõ <strong>mặt sáng – mặt trung gian – mặt tối</strong> và nổi khối rõ rệt.</td>
+            <td><code>DirectionalLight</code> (Key Light nắng ấm <code>0xffedcf</code>) + <code>HemisphereLight</code> (Bầu trời <code>0xe8f8ff</code> / Mặt đất <code>0x7c90a7</code>) + <code>FillDirectionalLight</code> bù viền lạnh (<code>0x8abdfc</code>).</td>
+            <td>Chỉnh góc xoay 360° &amp; độ cao mặt trời thời gian thực trong bảng <strong>✨ ĐỒ HỌA 3D</strong>.</td>
+          </tr>
+          <tr>
+            <td><strong>2. Shadows – Bóng đổ Mềm &amp; Bóng Tiếp xúc (Contact Shadows)</strong></td>
+            <td>Bóng đổ lên sàn và <strong>bóng tiếp xúc (Contact Shadow)</strong> ngay dưới đáy vật thể giúp não bộ học sinh xác định chính xác <strong>vị trí và độ cao $h$</strong> của khối trong không gian Oxyz.</td>
+            <td><code>PCFSoftShadowMap</code> 1 nguồn sáng chính (<code>bias = -0.00012</code>, <code>normalBias = 0.024</code>) + <code>createContactShadowDisc()</code> tự động co giãn và mờ dần theo độ cao thực tế của khối.</td>
+            <td><code>Low: 512px</code> · <code>Medium: 1024px</code> · <code>High: 2048px</code> + Checkbox bật/tắt <strong>Bóng tiếp xúc</strong>.</td>
+          </tr>
+          <tr>
+            <td><strong>3. Ambient Occlusion (SSAO / GTAO)</strong></td>
+            <td>Làm tối nhẹ các hốc, góc phòng, chân bàn, khe tiếp giáp giữa các khối đa diện, tăng cảm giác đặc chắc và chiều sâu kiến trúc.</td>
+            <td>Shader hậu kỳ độ sâu tuyến tính <code>createModularPostProcessorV12</code> hỗ trợ <code>SSAO</code> và <code>GTAO</code> <strong>độc lập (không bao giờ bật đồng thời)</strong>.</td>
+            <td>Chọn <code>Off / SSAO / GTAO</code>. Tự động tắt ở chế độ <code>Low</code>.</td>
+          </tr>
+          <tr>
+            <td><strong>4. Vật liệu PBR &amp; Môi trường HDRI</strong></td>
+            <td>Mô phỏng chân thực <strong>Gỗ, Kính, Kim loại, Nhựa, Đá</strong> qua độ nhám (<code>roughness</code>), tính kim loại (<code>metalness</code>), lớp phủ bóng (<code>clearcoat</code>) và phản xạ bầu trời HDRI.</td>
+            <td>Thư viện <code>PBR_PRESETS_V12</code> (<code>woodOak</code>, <code>crystalGlass</code>, <code>brushedMetal</code>, <code>glossyPlastic</code>, <code>marbleStone</code>) + <code>PMREMGenerator</code> HDRI nội suy.</td>
+            <td>Menu chọn trực tiếp 5 chất liệu PBR trong Cảnh thử nghiệm A/B.</td>
+          </tr>
+          <tr>
+            <td><strong>5. Depth of Field (DOF) – Xóa phông Điện ảnh</strong></td>
+            <td>Làm mờ nhẹ hậu cảnh xa để tạo cảm giác máy quay điện ảnh ở màn giới thiệu; <strong>tự động tắt khi học sinh quan sát hoặc đo đạc hình học</strong> để không làm nhòe đỉnh/cạnh/nhãn.</td>
+            <td>Pass <code>uDOFEnabled</code> tính bán kính nhòe (Circle of Confusion) quanh mặt phẳng tiêu cự trung tâm; tự động ngắt khi chuyển sang <code>OrthographicCamera</code>.</td>
+            <td>Tắt mặc định khi học; có checkbox <strong>DOF Giới thiệu</strong> để trình chiếu.</td>
+          </tr>
+          <tr>
+            <td><strong>6. Post-Processing: Bloom, Tone Mapping, AA &amp; Color Grading</strong></td>
+            <td>Cân bằng dải động sáng tối không cháy sáng, khử răng cưa sắc nét cho đường thẳng hình học và chỉnh tông màu hài hòa.</td>
+            <td><code>SRGBColorSpace</code> + <code>ACESFilmicToneMapping</code> + <code>antialias: true</code> + <code>Bloom</code> ngưỡng cao (<code>luma &gt; 0.78</code>) + <code>Color Grading</code> (Neutral / Warm Studio / Cinema).</td>
+            <td>Tùy chỉnh <code>Exposure</code>, <code>Contrast</code>, <code>Saturation</code>, <code>Bloom</code>, <code>Color Grade</code>.</td>
+          </tr>
+          <tr>
+            <td><strong>7. Camera Sư phạm: Phối cảnh &amp; Trực giao</strong></td>
+            <td><code>PerspectiveCamera</code> tạo chiều sâu không gian phòng học; <code>OrthographicCamera</code> bảo toàn song song và tỉ lệ độ dài khi đo đạc.</td>
+            <td><code>createDualCameraRig()</code> đồng bộ vị trí/góc nhìn tức thì giữa 2 hệ thống thấu kính, tích hợp vào <code>Solid3DViewer</code>, <code>viewer.js</code> và <code>three-lab.mjs</code>.</td>
+            <td>Nút <code>📐 Phối cảnh / Trực giao</code> trên mọi trình xem 3D.</td>
+          </tr>
+          <tr>
+            <td><strong>8. Vật lý 3D (Rigid-body / Rapier) &amp; Hoạt ảnh Timeline (GSAP)</strong></td>
+            <td>Chỉ dùng vật lý trọng lực/va chạm cho thí nghiệm rơi/nảy; dùng nội suy bảo toàn ràng buộc hình học cho khai triển/thiết diện.</td>
+            <td><code>createRigidDropSimulatorV12()</code> (trọng lực $g = -16.5$, hệ số nảy $e = 0.56$) + <code>tweenGeometryConstraint()</code> bảo toàn 100% số đo Toán học.</td>
+            <td>Nút <code>🎲 Thả Rơi Vật Lý (Bounce)</code> trong Cảnh A/B.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="section-title">2. Đối Chiếu Công Nghệ: Three.js r161 Thuần (Hiện Tại) vs. Hệ Sinh Thái React Three Fiber</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h2>⚡ Kiến trúc Hiện tại của MATHVERSE V12 (Vanilla Three.js r161)</h2>
+        <p>Dự án sử dụng <strong>Three.js r161 thuần (ES Modules nội bộ)</strong> không phụ thuộc bước đóng gói React, giúp mở trực tiếp nhanh và tương thích 100% với JSXGraph + ECharts:</p>
+        <div class="tag-row">
+          <span class="tag tag-ok">WebGLRenderer + PCFSoftShadowMap</span>
+          <span class="tag tag-ok">PMREMGenerator Studio HDRI</span>
+          <span class="tag tag-ok">Custom Depth Shader SSAO / GTAO / DOF</span>
+          <span class="tag tag-ok">Shared PBR Material Cache</span>
+        </div>
+      </div>
+      <div class="card">
+        <h2>🔗 Tương đương trong Hệ sinh thái R3F / Drei / Postprocessing</h2>
+        <p>Nếu tách một nhánh micro-frontend React trong tương lai, các thành phần trong <code>depth-pipeline-v12.mjs</code> ánh xạ 1-1 sang:</p>
+        <div class="tag-row">
+          <span class="tag">@react-three/drei: Environment, ContactShadows, OrbitControls</span>
+          <span class="tag">@react-three/postprocessing: N8AO / SSAO, Bloom, DepthOfField</span>
+          <span class="tag">@react-three/rapier: RigidBody, CuboidCollider</span>
+          <span class="tag">GSAP Timeline: gsap.to(mesh.rotation, ...)</span>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title">3. Kiểm Toán 54 Mô Hình .GLB Thực Tế &amp; Lộ Trình Nén glTF-Transform + Tối Ưu FPS</h2>
+    <div class="card">
+      <p>Công cụ <code>node tools/optimize-glb-pipeline.mjs</code> đã quét toàn bộ <strong>54 file .GLB (183.6 MB · 3.512.526 tam giác)</strong> trong dự án và xuất báo cáo tại <code>GLB_OPTIMIZATION_REPORT_V12.json</code>:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Nhóm mô hình .GLB</th>
+            <th>Dung lượng &amp; Số lượng Tam giác hiện tại</th>
+            <th>Đề xuất tối ưu với <code>glTF-Transform</code></th>
+            <th>Giải pháp tối ưu FPS thời gian thực đã bật</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>22 Mô hình Chibi 3D &amp; Kiến trúc Cartoon</strong><br/>(<code>dual/cartoon-3d/assets/</code>)</td>
+            <td><strong>8 KB – 86 KB / file</strong><br/>(~1.200 – 6.800 tam giác/mô hình)</td>
+            <td>Đã đạt chuẩn siêu nhẹ (&lt; 90 KB). Giữ nguyên cấu trúc nhị phân glTF 2.0.</td>
+            <td>Chia sẻ vật liệu dùng chung (<code>getSharedPBRMaterial</code>) giảm biên dịch Shader.</td>
+          </tr>
+          <tr>
+            <td><strong>10 Mô hình Kỳ quan Thế giới độ chi tiết cao</strong><br/>(<code>wonder_taj.glb</code> 43.6 MB, <code>unesco_parthenon_glb.glb</code> 25.8 MB, <code>r106_burj.glb</code> 23.2 MB...)</td>
+            <td><strong>4 MB – 43.6 MB / file</strong><br/>(60.000 – 661.000 tam giác/mô hình)</td>
+            <td>Chạy chuỗi lệnh:<br/><code>gltf-transform weld</code> → <code>simplify --ratio 0.25</code> → <code>quantize</code> → <code>draco</code> giúp giảm <strong>75% – 85%</strong> dung lượng tải.</td>
+            <td>1. Chỉ tải GLB khi học sinh bước vào phòng hoặc bấm xem bục (Lazy Loading).<br/>2. <code>createAdaptiveFPSGovernorV12</code> tự hạ DPR khi FPS &lt; 38.<br/>3. Tắt đổ bóng cho các biển chữ/UI phẳng.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script type="module">
+    import { openABDepthTestModal } from '/src/graphics-r74/depth-pipeline-v12.mjs?v=r107_v15';
+    document.getElementById('open-ab-btn')?.addEventListener('click', () => {
+      openABDepthTestModal();
+    });
+  </script>
+</body>
+</html>
+

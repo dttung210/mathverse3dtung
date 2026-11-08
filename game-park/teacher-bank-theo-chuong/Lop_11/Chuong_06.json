@@ -1,0 +1,4717 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 11,
+      "chapter": 6,
+      "roman": "VI",
+      "title": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "11-06-01",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Với a > 0, a \\ne 1, giá trị của \\log_a(a^{3}) bằng",
+          "choices": {
+            "A": "1",
+            "B": "3",
+            "C": "a^{3}",
+            "D": "0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Với a > 0, a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1, giá trị của "
+            },
+            {
+              "t": "math",
+              "v": "\\log_a"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{3}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "a^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Với a > 0, a $\\ne$ 1, giá trị của $\\log_a$(a$^{3}$) bằng",
+            "choices": {
+              "A": "1",
+              "B": "3",
+              "C": "a$^{3}$",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-02",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Tập xác định D của hàm số lôgarit y = \\log_2(x - 3) là.",
+          "choices": {
+            "A": "D = \\mathbb{R} ∖{} {3}",
+            "B": "D = (3; +∈fty)",
+            "C": "D = [3; +∈fty)",
+            "D": "D = (0; +∈fty)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Tập xác định D của hàm số lôgarit y = "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 3) là."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = (3; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = [3; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = (0; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Tập xác định D của hàm số lôgarit y = $\\log_2$(x - 3) là.",
+            "choices": {
+              "A": "D = $\\mathbb{R}$ ∖{} {3}",
+              "B": "D = (3; +$\\infty$)",
+              "C": "D = [3; +$\\infty$)",
+              "D": "D = (0; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-03",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương VI, xét nội dung: Nghiệm của phương trình mũ cơ bản 2^{x - 1} = 16 là. Đáp án đúng là",
+          "choices": {
+            "A": "x = 5",
+            "B": "x = 4",
+            "C": "x = 3",
+            "D": "x = 9"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương VI, xét nội dung: Nghiệm của phương trình mũ cơ bản "
+            },
+            {
+              "t": "math",
+              "v": "2^{x - 1}"
+            },
+            {
+              "t": "txt",
+              "v": " = 16 là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương VI, xét nội dung: Nghiệm của phương trình mũ cơ bản 2$^{x - 1}$ = 16 là. Đáp án đúng là",
+            "choices": {
+              "A": "x = 5",
+              "B": "x = 4",
+              "C": "x = 3",
+              "D": "x = 9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-04",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương VI (Hàm số mũ và hàm số lôgarit), với a > 0, a \\ne 1, giá trị của \\log_a(a^{6}) bằng",
+          "choices": {
+            "A": "a^{6}",
+            "B": "6",
+            "C": "0",
+            "D": "1"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương VI (Hàm số mũ và hàm số lôgarit), với a > 0, a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1, giá trị của "
+            },
+            {
+              "t": "math",
+              "v": "\\log_a"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{6}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "a^{6}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương VI (Hàm số mũ và hàm số lôgarit), với a > 0, a $\\ne$ 1, giá trị của $\\log_a$(a$^{6}$) bằng",
+            "choices": {
+              "A": "a$^{6}$",
+              "B": "6",
+              "C": "0",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-05",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Tập xác định D của hàm số lôgarit y = \\log_2(x - 6) là",
+          "choices": {
+            "A": "D = (6; +∈fty)",
+            "B": "D = [6; +∈fty)",
+            "C": "D = (0; +∈fty)",
+            "D": "D = \\mathbb{R} ∖{} {6}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Tập xác định D của hàm số lôgarit y = "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 6) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = (6; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = [6; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = (0; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {6}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Tập xác định D của hàm số lôgarit y = $\\log_2$(x - 6) là",
+            "choices": {
+              "A": "D = (6; +$\\infty$)",
+              "B": "D = [6; +$\\infty$)",
+              "C": "D = (0; +$\\infty$)",
+              "D": "D = $\\mathbb{R}$ ∖{} {6}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-06",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về hàm số mũ và hàm số lôgarit, một học sinh gặp câu hỏi: Nghiệm của phương trình mũ cơ bản 2^{x - 1} = 8 là. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "x = 4",
+            "B": "x = 3",
+            "C": "x = 5",
+            "D": "x = 2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về hàm số mũ và hàm số lôgarit, một học sinh gặp câu hỏi: Nghiệm của phương trình mũ cơ bản "
+            },
+            {
+              "t": "math",
+              "v": "2^{x - 1}"
+            },
+            {
+              "t": "txt",
+              "v": " = 8 là. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về hàm số mũ và hàm số lôgarit, một học sinh gặp câu hỏi: Nghiệm của phương trình mũ cơ bản 2$^{x - 1}$ = 8 là. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "x = 4",
+              "B": "x = 3",
+              "C": "x = 5",
+              "D": "x = 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-07",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Với a > 0, a \\ne 1, giá trị của \\log_a(a^{9}) bằng",
+          "choices": {
+            "A": "a^{9}",
+            "B": "0",
+            "C": "1",
+            "D": "9"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Với a > 0, a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1, giá trị của "
+            },
+            {
+              "t": "math",
+              "v": "\\log_a"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{9}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "a^{9}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Với a > 0, a $\\ne$ 1, giá trị của $\\log_a$(a$^{9}$) bằng",
+            "choices": {
+              "A": "a$^{9}$",
+              "B": "0",
+              "C": "1",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-08",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VI: Tập xác định D của hàm số lôgarit y = \\log_2(x - 9) là",
+          "choices": {
+            "A": "D = (9; +∈fty)",
+            "B": "D = (0; +∈fty)",
+            "C": "D = \\mathbb{R} ∖{} {9}",
+            "D": "D = [9; +∈fty)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VI: Tập xác định D của hàm số lôgarit y = "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 9) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = (9; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = (0; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {9}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = [9; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương VI: Tập xác định D của hàm số lôgarit y = $\\log_2$(x - 9) là",
+            "choices": {
+              "A": "D = (9; +$\\infty$)",
+              "B": "D = (0; +$\\infty$)",
+              "C": "D = $\\mathbb{R}$ ∖{} {9}",
+              "D": "D = [9; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-09",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Nghiệm của phương trình mũ cơ bản 2^{x - 1} = 4 là",
+          "choices": {
+            "A": "x = 3",
+            "B": "x = 2",
+            "C": "x = 1",
+            "D": "x = 3 (1)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Nghiệm của phương trình mũ cơ bản "
+            },
+            {
+              "t": "math",
+              "v": "2^{x - 1}"
+            },
+            {
+              "t": "txt",
+              "v": " = 4 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 1"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 3 (1)"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Nghiệm của phương trình mũ cơ bản 2$^{x - 1}$ = 4 là",
+            "choices": {
+              "A": "x = 3",
+              "B": "x = 2",
+              "C": "x = 1",
+              "D": "x = 3 (1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-10",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Với a > 0, a \\ne 1, giá trị của \\log_a(a^{12}) bằng. Phương án chính xác là",
+          "choices": {
+            "A": "1",
+            "B": "a^{12}",
+            "C": "12",
+            "D": "0"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Với a > 0, a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1, giá trị của "
+            },
+            {
+              "t": "math",
+              "v": "\\log_a"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{12}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "a^{12}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Với a > 0, a $\\ne$ 1, giá trị của $\\log_a$(a$^{12}$) bằng. Phương án chính xác là",
+            "choices": {
+              "A": "1",
+              "B": "a$^{12}$",
+              "C": "12",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-11",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Tập xác định D của hàm số lôgarit y = \\log_2(x - 12) là",
+          "choices": {
+            "A": "D = \\mathbb{R} ∖{} {12}",
+            "B": "D = [12; +∈fty)",
+            "C": "D = (12; +∈fty)",
+            "D": "D = (0; +∈fty)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Tập xác định D của hàm số lôgarit y = "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 12) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {12}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = [12; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = (12; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = (0; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Tập xác định D của hàm số lôgarit y = $\\log_2$(x - 12) là",
+            "choices": {
+              "A": "D = $\\mathbb{R}$ ∖{} {12}",
+              "B": "D = [12; +$\\infty$)",
+              "C": "D = (12; +$\\infty$)",
+              "D": "D = (0; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-12",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VI): Nghiệm của phương trình mũ cơ bản 2^{x - 1} = 32 là",
+          "choices": {
+            "A": "x = 5",
+            "B": "x = 6",
+            "C": "x = 4",
+            "D": "x = 17"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VI): Nghiệm của phương trình mũ cơ bản "
+            },
+            {
+              "t": "math",
+              "v": "2^{x - 1}"
+            },
+            {
+              "t": "txt",
+              "v": " = 32 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương VI): Nghiệm của phương trình mũ cơ bản 2$^{x - 1}$ = 32 là",
+            "choices": {
+              "A": "x = 5",
+              "B": "x = 6",
+              "C": "x = 4",
+              "D": "x = 17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-13",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VI), với a > 0, a \\ne 1, giá trị của \\log_a(a^{15}) bằng",
+          "choices": {
+            "A": "0",
+            "B": "15",
+            "C": "a^{15}",
+            "D": "1"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VI), với a > 0, a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1, giá trị của "
+            },
+            {
+              "t": "math",
+              "v": "\\log_a"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{15}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "a^{15}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương VI), với a > 0, a $\\ne$ 1, giá trị của $\\log_a$(a$^{15}$) bằng",
+            "choices": {
+              "A": "0",
+              "B": "15",
+              "C": "a$^{15}$",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-14",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Tập xác định D của hàm số lôgarit y = \\log_2(x - 15) là",
+          "choices": {
+            "A": "D = [15; +∈fty)",
+            "B": "D = \\mathbb{R} ∖{} {15}",
+            "C": "D = (15; +∈fty)",
+            "D": "D = (0; +∈fty)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Tập xác định D của hàm số lôgarit y = "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 15) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = [15; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {15}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = (15; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = (0; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Tập xác định D của hàm số lôgarit y = $\\log_2$(x - 15) là",
+            "choices": {
+              "A": "D = [15; +$\\infty$)",
+              "B": "D = $\\mathbb{R}$ ∖{} {15}",
+              "C": "D = (15; +$\\infty$)",
+              "D": "D = (0; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-15",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương VI: Nghiệm của phương trình mũ cơ bản 2^{x - 1} = 16 là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "x = 3",
+            "B": "x = 4",
+            "C": "x = 9",
+            "D": "x = 5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương VI: Nghiệm của phương trình mũ cơ bản "
+            },
+            {
+              "t": "math",
+              "v": "2^{x - 1}"
+            },
+            {
+              "t": "txt",
+              "v": " = 16 là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương VI: Nghiệm của phương trình mũ cơ bản 2$^{x - 1}$ = 16 là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "x = 3",
+              "B": "x = 4",
+              "C": "x = 9",
+              "D": "x = 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-16",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Với a > 0, a \\ne 1, giá trị của \\log_a(a^{18}) bằng",
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "18",
+            "D": "a^{18}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Với a > 0, a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1, giá trị của "
+            },
+            {
+              "t": "math",
+              "v": "\\log_a"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{18}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "a^{18}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Với a > 0, a $\\ne$ 1, giá trị của $\\log_a$(a$^{18}$) bằng",
+            "choices": {
+              "A": "0",
+              "B": "1",
+              "C": "18",
+              "D": "a$^{18}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-17",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Tập xác định D của hàm số lôgarit y = \\log_2(x - 18) là?",
+          "choices": {
+            "A": "D = [18; +∈fty)",
+            "B": "D = (18; +∈fty)",
+            "C": "D = \\mathbb{R} ∖{} {18}",
+            "D": "D = (0; +∈fty)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Tập xác định D của hàm số lôgarit y = "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 18) là?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = [18; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = (18; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {18}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = (0; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Tập xác định D của hàm số lôgarit y = $\\log_2$(x - 18) là?",
+            "choices": {
+              "A": "D = [18; +$\\infty$)",
+              "B": "D = (18; +$\\infty$)",
+              "C": "D = $\\mathbb{R}$ ∖{} {18}",
+              "D": "D = (0; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-18",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương VI: Nghiệm của phương trình mũ cơ bản 2^{x - 1} = 8 là",
+          "choices": {
+            "A": "x = 5",
+            "B": "x = 2",
+            "C": "x = 3",
+            "D": "x = 4"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương VI: Nghiệm của phương trình mũ cơ bản "
+            },
+            {
+              "t": "math",
+              "v": "2^{x - 1}"
+            },
+            {
+              "t": "txt",
+              "v": " = 8 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương VI: Nghiệm của phương trình mũ cơ bản 2$^{x - 1}$ = 8 là",
+            "choices": {
+              "A": "x = 5",
+              "B": "x = 2",
+              "C": "x = 3",
+              "D": "x = 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-19",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Với a > 0, a \\ne 1, giá trị của \\log_a(a^{21}) bằng. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "1",
+            "B": "0",
+            "C": "a^{21}",
+            "D": "21"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Với a > 0, a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 1, giá trị của "
+            },
+            {
+              "t": "math",
+              "v": "\\log_a"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{21}"
+            },
+            {
+              "t": "txt",
+              "v": ") bằng. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "a^{21}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Với a > 0, a $\\ne$ 1, giá trị của $\\log_a$(a$^{21}$) bằng. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "1",
+              "B": "0",
+              "C": "a$^{21}$",
+              "D": "21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-20",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương VI để giải quyết yêu cầu: Tập xác định D của hàm số lôgarit y = \\log_2(x - 21) là",
+          "choices": {
+            "A": "D = (0; +∈fty)",
+            "B": "D = \\mathbb{R} ∖{} {21}",
+            "C": "D = (21; +∈fty)",
+            "D": "D = [21; +∈fty)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương VI để giải quyết yêu cầu: Tập xác định D của hàm số lôgarit y = "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 21) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "D = (0; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "D = "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": " ∖{} {21}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "D = (21; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "D = [21; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương VI để giải quyết yêu cầu: Tập xác định D của hàm số lôgarit y = $\\log_2$(x - 21) là",
+            "choices": {
+              "A": "D = (0; +$\\infty$)",
+              "B": "D = $\\mathbb{R}$ ∖{} {21}",
+              "C": "D = (21; +$\\infty$)",
+              "D": "D = [21; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-21",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Cho \\log_2 a = 2 và \\log_2 b = 3. Giá trị của biểu thức \\log_2(a^{2} · b) bằng",
+          "choices": {
+            "A": "7 (1)",
+            "B": "12",
+            "C": "7",
+            "D": "1"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " a = 2 và "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " b = 3. Giá trị của biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "7 (1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Cho $\\log_2$ a = 2 và $\\log_2$ b = 3. Giá trị của biểu thức $\\log_2$(a$^2$ $\\cdot$ b) bằng",
+            "choices": {
+              "A": "7 (1)",
+              "B": "12",
+              "C": "7",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-22",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương VI (Hàm số mũ và hàm số lôgarit) để giải bài toán: Nghiệm của phương trình \\log_3(2x - 1) = 2 là",
+          "choices": {
+            "A": "x = 4",
+            "B": "x = 9/2",
+            "C": "x = 7/2",
+            "D": "x = 5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương VI (Hàm số mũ và hàm số lôgarit) để giải bài toán: Nghiệm của phương trình "
+            },
+            {
+              "t": "math",
+              "v": "\\log_3"
+            },
+            {
+              "t": "txt",
+              "v": "(2x - 1) = 2 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 9/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 7/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương VI (Hàm số mũ và hàm số lôgarit) để giải bài toán: Nghiệm của phương trình $\\log_3$(2x - 1) = 2 là",
+            "choices": {
+              "A": "x = 4",
+              "B": "x = 9/2",
+              "C": "x = 7/2",
+              "D": "x = 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-23",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương VI: Tập nghiệm của bất phương trình mũ (1/2)^{x - 3} > (1/2)^{3} (chú ý cơ số 0 < 1/2 < 1) là. Kết quả thu được là",
+          "choices": {
+            "A": "S = (0; 6)",
+            "B": "S = (-∈fty; 6)",
+            "C": "S = (-∈fty; 4)",
+            "D": "S = (6; +∈fty)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương VI: Tập nghiệm của bất phương trình mũ "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{x - 3}"
+            },
+            {
+              "t": "txt",
+              "v": " > "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " (chú ý cơ số 0 < 1/2 < 1) là. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = (0; 6)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 6)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 4)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (6; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương VI: Tập nghiệm của bất phương trình mũ (1/2)$^{x - 3}$ > (1/2)$^3$ (chú ý cơ số 0 < 1/2 < 1) là. Kết quả thu được là",
+            "choices": {
+              "A": "S = (0; 6)",
+              "B": "S = (-$\\infty$; 6)",
+              "C": "S = (-$\\infty$; 4)",
+              "D": "S = (6; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-24",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Cho \\log_2 a = 5 và \\log_2 b = 3. Giá trị của biểu thức \\log_2(a^{2} · b) bằng. Đáp án đúng là",
+          "choices": {
+            "A": "13",
+            "B": "7",
+            "C": "30",
+            "D": "28"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " a = 5 và "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " b = 3. Giá trị của biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b) bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "28"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Cho $\\log_2$ a = 5 và $\\log_2$ b = 3. Giá trị của biểu thức $\\log_2$(a$^2$ $\\cdot$ b) bằng. Đáp án đúng là",
+            "choices": {
+              "A": "13",
+              "B": "7",
+              "C": "30",
+              "D": "28"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-25",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương VI, hãy xác định: Nghiệm của phương trình \\log_3(2x - 1) = 2 là",
+          "choices": {
+            "A": "x = 5",
+            "B": "x = 7/2",
+            "C": "x = 4",
+            "D": "x = 9/2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương VI, hãy xác định: Nghiệm của phương trình "
+            },
+            {
+              "t": "math",
+              "v": "\\log_3"
+            },
+            {
+              "t": "txt",
+              "v": "(2x - 1) = 2 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 7/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 9/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương VI, hãy xác định: Nghiệm của phương trình $\\log_3$(2x - 1) = 2 là",
+            "choices": {
+              "A": "x = 5",
+              "B": "x = 7/2",
+              "C": "x = 4",
+              "D": "x = 9/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-26",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Tập nghiệm của bất phương trình mũ (1/2)^{x - 6} > (1/2)^{3} (chú ý cơ số 0 < 1/2 < 1) là. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "S = (-∈fty; 7)",
+            "B": "S = (9; +∈fty)",
+            "C": "S = (0; 9)",
+            "D": "S = (-∈fty; 9)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Tập nghiệm của bất phương trình mũ "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{x - 6}"
+            },
+            {
+              "t": "txt",
+              "v": " > "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " (chú ý cơ số 0 < 1/2 < 1) là. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 7)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (9; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (0; 9)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 9)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Tập nghiệm của bất phương trình mũ (1/2)$^{x - 6}$ > (1/2)$^3$ (chú ý cơ số 0 < 1/2 < 1) là. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "S = (-$\\infty$; 7)",
+              "B": "S = (9; +$\\infty$)",
+              "C": "S = (0; 9)",
+              "D": "S = (-$\\infty$; 9)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-27",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương VI vào bài tập sau: Cho \\log_2 a = 8 và \\log_2 b = 3. Giá trị của biểu thức \\log_2(a^{2} · b) bằng",
+          "choices": {
+            "A": "13",
+            "B": "48",
+            "C": "67",
+            "D": "19"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương VI vào bài tập sau: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " a = 8 và "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " b = 3. Giá trị của biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "48"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "67"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương VI vào bài tập sau: Cho $\\log_2$ a = 8 và $\\log_2$ b = 3. Giá trị của biểu thức $\\log_2$(a$^2$ $\\cdot$ b) bằng",
+            "choices": {
+              "A": "13",
+              "B": "48",
+              "C": "67",
+              "D": "19"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-28",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Nghiệm của phương trình \\log_3(2x - 1) = 2 là",
+          "choices": {
+            "A": "x = 7/2",
+            "B": "x = 5",
+            "C": "x = 9/2",
+            "D": "x = 4"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Nghiệm của phương trình "
+            },
+            {
+              "t": "math",
+              "v": "\\log_3"
+            },
+            {
+              "t": "txt",
+              "v": "(2x - 1) = 2 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 7/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 9/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Nghiệm của phương trình $\\log_3$(2x - 1) = 2 là",
+            "choices": {
+              "A": "x = 7/2",
+              "B": "x = 5",
+              "C": "x = 9/2",
+              "D": "x = 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-29",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Hàm số mũ và hàm số lôgarit): Tập nghiệm của bất phương trình mũ (1/2)^{x - 9} > (1/2)^{3} (chú ý cơ số 0 < 1/2 < 1) là. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "S = (0; 12)",
+            "B": "S = (12; +∈fty)",
+            "C": "S = (-∈fty; 12)",
+            "D": "S = (-∈fty; 10)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Hàm số mũ và hàm số lôgarit): Tập nghiệm của bất phương trình mũ "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{x - 9}"
+            },
+            {
+              "t": "txt",
+              "v": " > "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " (chú ý cơ số 0 < 1/2 < 1) là. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = (0; 12)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (12; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 12)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 10)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Hàm số mũ và hàm số lôgarit): Tập nghiệm của bất phương trình mũ (1/2)$^{x - 9}$ > (1/2)$^3$ (chú ý cơ số 0 < 1/2 < 1) là. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "S = (0; 12)",
+              "B": "S = (12; +$\\infty$)",
+              "C": "S = (-$\\infty$; 12)",
+              "D": "S = (-$\\infty$; 10)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-30",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương VI, hãy tìm kết quả của bài toán: Cho \\log_2 a = 11 và \\log_2 b = 3. Giá trị của biểu thức \\log_2(a^{2} · b) bằng",
+          "choices": {
+            "A": "124",
+            "B": "25",
+            "C": "19",
+            "D": "66"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương VI, hãy tìm kết quả của bài toán: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " a = 11 và "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " b = 3. Giá trị của biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "124"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "66"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương VI, hãy tìm kết quả của bài toán: Cho $\\log_2$ a = 11 và $\\log_2$ b = 3. Giá trị của biểu thức $\\log_2$(a$^2$ $\\cdot$ b) bằng",
+            "choices": {
+              "A": "124",
+              "B": "25",
+              "C": "19",
+              "D": "66"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-31",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương VI nêu câu hỏi: Nghiệm của phương trình \\log_3(2x - 1) = 2 là. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "x = 4",
+            "B": "x = 9/2",
+            "C": "x = 5",
+            "D": "x = 7/2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương VI nêu câu hỏi: Nghiệm của phương trình "
+            },
+            {
+              "t": "math",
+              "v": "\\log_3"
+            },
+            {
+              "t": "txt",
+              "v": "(2x - 1) = 2 là. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 9/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 7/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương VI nêu câu hỏi: Nghiệm của phương trình $\\log_3$(2x - 1) = 2 là. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "x = 4",
+              "B": "x = 9/2",
+              "C": "x = 5",
+              "D": "x = 7/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-32",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Tập nghiệm của bất phương trình mũ (1/2)^{x - 12} > (1/2)^{3} (chú ý cơ số 0 < 1/2 < 1) là",
+          "choices": {
+            "A": "S = (-∈fty; 13)",
+            "B": "S = (-∈fty; 15)",
+            "C": "S = (0; 15)",
+            "D": "S = (15; +∈fty)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Tập nghiệm của bất phương trình mũ "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{x - 12}"
+            },
+            {
+              "t": "txt",
+              "v": " > "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " (chú ý cơ số 0 < 1/2 < 1) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 13)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 15)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (0; 15)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (15; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Tập nghiệm của bất phương trình mũ (1/2)$^{x - 12}$ > (1/2)$^3$ (chú ý cơ số 0 < 1/2 < 1) là",
+            "choices": {
+              "A": "S = (-$\\infty$; 13)",
+              "B": "S = (-$\\infty$; 15)",
+              "C": "S = (0; 15)",
+              "D": "S = (15; +$\\infty$)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-33",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VI: Cho \\log_2 a = 14 và \\log_2 b = 3. Giá trị của biểu thức \\log_2(a^{2} · b) bằng",
+          "choices": {
+            "A": "199",
+            "B": "31",
+            "C": "84",
+            "D": "25"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VI: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " a = 14 và "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " b = 3. Giá trị của biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "199"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "31"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "84"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương VI: Cho $\\log_2$ a = 14 và $\\log_2$ b = 3. Giá trị của biểu thức $\\log_2$(a$^2$ $\\cdot$ b) bằng",
+            "choices": {
+              "A": "199",
+              "B": "31",
+              "C": "84",
+              "D": "25"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-34",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Nghiệm của phương trình \\log_3(2x - 1) = 2 là",
+          "choices": {
+            "A": "x = 7/2",
+            "B": "x = 4",
+            "C": "x = 9/2",
+            "D": "x = 5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Nghiệm của phương trình "
+            },
+            {
+              "t": "math",
+              "v": "\\log_3"
+            },
+            {
+              "t": "txt",
+              "v": "(2x - 1) = 2 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 7/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 9/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Nghiệm của phương trình $\\log_3$(2x - 1) = 2 là",
+            "choices": {
+              "A": "x = 7/2",
+              "B": "x = 4",
+              "C": "x = 9/2",
+              "D": "x = 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-35",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương VI, xét bài toán: Tập nghiệm của bất phương trình mũ (1/2)^{x - 15} > (1/2)^{3} (chú ý cơ số 0 < 1/2 < 1) là",
+          "choices": {
+            "A": "S = (18; +∈fty)",
+            "B": "S = (-∈fty; 16)",
+            "C": "S = (-∈fty; 18)",
+            "D": "S = (0; 18)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương VI, xét bài toán: Tập nghiệm của bất phương trình mũ "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{x - 15}"
+            },
+            {
+              "t": "txt",
+              "v": " > "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " (chú ý cơ số 0 < 1/2 < 1) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = (18; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 16)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 18)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (0; 18)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương VI, xét bài toán: Tập nghiệm của bất phương trình mũ (1/2)$^{x - 15}$ > (1/2)$^3$ (chú ý cơ số 0 < 1/2 < 1) là",
+            "choices": {
+              "A": "S = (18; +$\\infty$)",
+              "B": "S = (-$\\infty$; 16)",
+              "C": "S = (-$\\infty$; 18)",
+              "D": "S = (0; 18)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-36",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Hàm số mũ và hàm số lôgarit): Cho \\log_2 a = 17 và \\log_2 b = 3. Giá trị của biểu thức \\log_2(a^{2} · b) bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "292",
+            "B": "37",
+            "C": "31",
+            "D": "102"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Hàm số mũ và hàm số lôgarit): Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " a = 17 và "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " b = 3. Giá trị của biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b) bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "292"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "37"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "31"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "102"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Hàm số mũ và hàm số lôgarit): Cho $\\log_2$ a = 17 và $\\log_2$ b = 3. Giá trị của biểu thức $\\log_2$(a$^2$ $\\cdot$ b) bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "292",
+              "B": "37",
+              "C": "31",
+              "D": "102"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-37",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Nghiệm của phương trình \\log_3(2x - 1) = 2 là",
+          "choices": {
+            "A": "x = 9/2",
+            "B": "x = 7/2",
+            "C": "x = 5",
+            "D": "x = 4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Nghiệm của phương trình "
+            },
+            {
+              "t": "math",
+              "v": "\\log_3"
+            },
+            {
+              "t": "txt",
+              "v": "(2x - 1) = 2 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 9/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 7/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Nghiệm của phương trình $\\log_3$(2x - 1) = 2 là",
+            "choices": {
+              "A": "x = 9/2",
+              "B": "x = 7/2",
+              "C": "x = 5",
+              "D": "x = 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-38",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương VI: Tập nghiệm của bất phương trình mũ (1/2)^{x - 18} > (1/2)^{3} (chú ý cơ số 0 < 1/2 < 1) là. Kết luận đúng là",
+          "choices": {
+            "A": "S = (21; +∈fty)",
+            "B": "S = (0; 21)",
+            "C": "S = (-∈fty; 21)",
+            "D": "S = (-∈fty; 19)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương VI: Tập nghiệm của bất phương trình mũ "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{x - 18}"
+            },
+            {
+              "t": "txt",
+              "v": " > "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " (chú ý cơ số 0 < 1/2 < 1) là. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = (21; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (0; 21)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 21)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 19)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương VI: Tập nghiệm của bất phương trình mũ (1/2)$^{x - 18}$ > (1/2)$^3$ (chú ý cơ số 0 < 1/2 < 1) là. Kết luận đúng là",
+            "choices": {
+              "A": "S = (21; +$\\infty$)",
+              "B": "S = (0; 21)",
+              "C": "S = (-$\\infty$; 21)",
+              "D": "S = (-$\\infty$; 19)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-39",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VI: Cho \\log_2 a = 20 và \\log_2 b = 3. Giá trị của biểu thức \\log_2(a^{2} · b) bằng",
+          "choices": {
+            "A": "120",
+            "B": "37",
+            "C": "403",
+            "D": "43"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VI: Cho "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " a = 20 và "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": " b = 3. Giá trị của biểu thức "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "("
+            },
+            {
+              "t": "math",
+              "v": "a^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "120"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "37"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "403"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "43"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương VI: Cho $\\log_2$ a = 20 và $\\log_2$ b = 3. Giá trị của biểu thức $\\log_2$(a$^2$ $\\cdot$ b) bằng",
+            "choices": {
+              "A": "120",
+              "B": "37",
+              "C": "403",
+              "D": "43"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-40",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Nghiệm của phương trình \\log_3(2x - 1) = 2 là",
+          "choices": {
+            "A": "x = 9/2",
+            "B": "x = 7/2",
+            "C": "x = 5",
+            "D": "x = 4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Nghiệm của phương trình "
+            },
+            {
+              "t": "math",
+              "v": "\\log_3"
+            },
+            {
+              "t": "txt",
+              "v": "(2x - 1) = 2 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 9/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 7/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Nghiệm của phương trình $\\log_3$(2x - 1) = 2 là",
+            "choices": {
+              "A": "x = 9/2",
+              "B": "x = 7/2",
+              "C": "x = 5",
+              "D": "x = 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-41",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Tổng các nghiệm thực của phương trình 4^{x} - 6·2^{x} + 8 = 0 bằng",
+          "choices": {
+            "A": "3",
+            "B": "8",
+            "C": "6",
+            "D": "2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tổng các nghiệm thực của phương trình "
+            },
+            {
+              "t": "math",
+              "v": "4^{x}"
+            },
+            {
+              "t": "txt",
+              "v": " - 6"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "math",
+              "v": "2^{x}"
+            },
+            {
+              "t": "txt",
+              "v": " + 8 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tổng các nghiệm thực của phương trình 4$^{x}$ - 6$\\cdot$2$^{x}$ + 8 = 0 bằng",
+            "choices": {
+              "A": "3",
+              "B": "8",
+              "C": "6",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-42",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương VI – Hàm số mũ và hàm số lôgarit): Tập nghiệm của bất phương trình \\log_{1/3}(x - 2) ≥ -1 (chú ý điều kiện xác định x > 2) là. Kết quả đúng là",
+          "choices": {
+            "A": "S = [5; +∈fty)",
+            "B": "S = (2; 5]",
+            "C": "S = [2; 5]",
+            "D": "S = (-∈fty; 5]"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương VI – Hàm số mũ và hàm số lôgarit): Tập nghiệm của bất phương trình "
+            },
+            {
+              "t": "math",
+              "v": "\\log_{1/3}"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 2) "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " -1 (chú ý điều kiện xác định x > 2) là. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = [5; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (2; 5]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = [2; 5]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 5]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương VI – Hàm số mũ và hàm số lôgarit): Tập nghiệm của bất phương trình $\\log_{1/3}$(x - 2) $\\ge$ -1 (chú ý điều kiện xác định x > 2) là. Kết quả đúng là",
+            "choices": {
+              "A": "S = [5; +$\\infty$)",
+              "B": "S = (2; 5]",
+              "C": "S = [2; 5]",
+              "D": "S = (-$\\infty$; 5]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-43",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương VI để giải bài toán: Tập nghiệm của bất phương trình lôgarit \\log_2(x - 4) ≤ 3 (với điều kiện xác định x > 4) là",
+          "choices": {
+            "A": "S = [4; 12]",
+            "B": "S = (12; +∈fty)",
+            "C": "S = (4; 12]",
+            "D": "S = (-∈fty; 12]"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương VI để giải bài toán: Tập nghiệm của bất phương trình lôgarit "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 4) "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 3 (với điều kiện xác định x > 4) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = [4; 12]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (12; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (4; 12]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 12]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương VI để giải bài toán: Tập nghiệm của bất phương trình lôgarit $\\log_2$(x - 4) $\\le$ 3 (với điều kiện xác định x > 4) là",
+            "choices": {
+              "A": "S = [4; 12]",
+              "B": "S = (12; +$\\infty$)",
+              "C": "S = (4; 12]",
+              "D": "S = (-$\\infty$; 12]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-44",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương VI: Tổng các nghiệm thực của phương trình 4^{x} - 6·2^{x} + 8 = 0 bằng",
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "6",
+            "D": "8"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương VI: Tổng các nghiệm thực của phương trình "
+            },
+            {
+              "t": "math",
+              "v": "4^{x}"
+            },
+            {
+              "t": "txt",
+              "v": " - 6"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "math",
+              "v": "2^{x}"
+            },
+            {
+              "t": "txt",
+              "v": " + 8 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương VI: Tổng các nghiệm thực của phương trình 4$^{x}$ - 6$\\cdot$2$^{x}$ + 8 = 0 bằng",
+            "choices": {
+              "A": "2",
+              "B": "3",
+              "C": "6",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-45",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương VI: Tập nghiệm của bất phương trình \\log_{1/3}(x - 2) ≥ -1 (chú ý điều kiện xác định x > 2) là. Đáp số chính xác là",
+          "choices": {
+            "A": "S = [2; 5]",
+            "B": "S = [5; +∈fty)",
+            "C": "S = (2; 5]",
+            "D": "S = (-∈fty; 5]"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương VI: Tập nghiệm của bất phương trình "
+            },
+            {
+              "t": "math",
+              "v": "\\log_{1/3}"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 2) "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " -1 (chú ý điều kiện xác định x > 2) là. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = [2; 5]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = [5; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (2; 5]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 5]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương VI: Tập nghiệm của bất phương trình $\\log_{1/3}$(x - 2) $\\ge$ -1 (chú ý điều kiện xác định x > 2) là. Đáp số chính xác là",
+            "choices": {
+              "A": "S = [2; 5]",
+              "B": "S = [5; +$\\infty$)",
+              "C": "S = (2; 5]",
+              "D": "S = (-$\\infty$; 5]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-46",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương VI để tìm đáp án cho bài toán: Tập nghiệm của bất phương trình lôgarit \\log_2(x - 7) ≤ 3 (với điều kiện xác định x > 7) là",
+          "choices": {
+            "A": "S = (15; +∈fty)",
+            "B": "S = (7; 15]",
+            "C": "S = [7; 15]",
+            "D": "S = (-∈fty; 15]"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương VI để tìm đáp án cho bài toán: Tập nghiệm của bất phương trình lôgarit "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 7) "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 3 (với điều kiện xác định x > 7) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = (15; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (7; 15]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = [7; 15]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 15]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương VI để tìm đáp án cho bài toán: Tập nghiệm của bất phương trình lôgarit $\\log_2$(x - 7) $\\le$ 3 (với điều kiện xác định x > 7) là",
+            "choices": {
+              "A": "S = (15; +$\\infty$)",
+              "B": "S = (7; 15]",
+              "C": "S = [7; 15]",
+              "D": "S = (-$\\infty$; 15]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-47",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VI: Tổng các nghiệm thực của phương trình 4^{x} - 6·2^{x} + 8 = 0 bằng",
+          "choices": {
+            "A": "3",
+            "B": "6",
+            "C": "8",
+            "D": "2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VI: Tổng các nghiệm thực của phương trình "
+            },
+            {
+              "t": "math",
+              "v": "4^{x}"
+            },
+            {
+              "t": "txt",
+              "v": " - 6"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "math",
+              "v": "2^{x}"
+            },
+            {
+              "t": "txt",
+              "v": " + 8 = 0 bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương VI: Tổng các nghiệm thực của phương trình 4$^{x}$ - 6$\\cdot$2$^{x}$ + 8 = 0 bằng",
+            "choices": {
+              "A": "3",
+              "B": "6",
+              "C": "8",
+              "D": "2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-48",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VI): Tập nghiệm của bất phương trình \\log_{1/3}(x - 2) ≥ -1 (chú ý điều kiện xác định x > 2) là",
+          "choices": {
+            "A": "S = (2; 5]",
+            "B": "S = [5; +∈fty)",
+            "C": "S = (-∈fty; 5]",
+            "D": "S = [2; 5]"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VI): Tập nghiệm của bất phương trình "
+            },
+            {
+              "t": "math",
+              "v": "\\log_{1/3}"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 2) "
+            },
+            {
+              "t": "math",
+              "v": "\\ge"
+            },
+            {
+              "t": "txt",
+              "v": " -1 (chú ý điều kiện xác định x > 2) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = (2; 5]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = [5; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 5]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = [2; 5]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương VI): Tập nghiệm của bất phương trình $\\log_{1/3}$(x - 2) $\\ge$ -1 (chú ý điều kiện xác định x > 2) là",
+            "choices": {
+              "A": "S = (2; 5]",
+              "B": "S = [5; +$\\infty$)",
+              "C": "S = (-$\\infty$; 5]",
+              "D": "S = [2; 5]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-49",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương VI, hãy giải quyết bài toán: Tập nghiệm của bất phương trình lôgarit \\log_2(x - 10) ≤ 3 (với điều kiện xác định x > 10) là",
+          "choices": {
+            "A": "S = (-∈fty; 18]",
+            "B": "S = (10; 18]",
+            "C": "S = (18; +∈fty)",
+            "D": "S = [10; 18]"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương VI, hãy giải quyết bài toán: Tập nghiệm của bất phương trình lôgarit "
+            },
+            {
+              "t": "math",
+              "v": "\\log_2"
+            },
+            {
+              "t": "txt",
+              "v": "(x - 10) "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " 3 (với điều kiện xác định x > 10) là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "S = (-"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": "; 18]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "S = (10; 18]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "S = (18; +"
+              },
+              {
+                "t": "math",
+                "v": "\\infty"
+              },
+              {
+                "t": "txt",
+                "v": ")"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "S = [10; 18]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương VI, hãy giải quyết bài toán: Tập nghiệm của bất phương trình lôgarit $\\log_2$(x - 10) $\\le$ 3 (với điều kiện xác định x > 10) là",
+            "choices": {
+              "A": "S = (-$\\infty$; 18]",
+              "B": "S = (10; 18]",
+              "C": "S = (18; +$\\infty$)",
+              "D": "S = [10; 18]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "11-06-50",
+          "grade": 11,
+          "chapter": 6,
+          "chapterTitle": "HÀM SỐ MŨ VÀ HÀM SỐ LÔGARIT",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương VI: Tổng các nghiệm thực của phương trình 4^{x} - 6·2^{x} + 8 = 0 bằng. Phương án đúng là",
+          "choices": {
+            "A": "3",
+            "B": "2",
+            "C": "6",
+            "D": "8"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương VI: Tổng các nghiệm thực của phương trình "
+            },
+            {
+              "t": "math",
+              "v": "4^{x}"
+            },
+            {
+              "t": "txt",
+              "v": " - 6"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "math",
+              "v": "2^{x}"
+            },
+            {
+              "t": "txt",
+              "v": " + 8 = 0 bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương VI: Tổng các nghiệm thực của phương trình 4$^{x}$ - 6$\\cdot$2$^{x}$ + 8 = 0 bằng. Phương án đúng là",
+            "choices": {
+              "A": "3",
+              "B": "2",
+              "C": "6",
+              "D": "8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_11_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "VI",
+            "answerKey": "Bảng đáp án Chương VI",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

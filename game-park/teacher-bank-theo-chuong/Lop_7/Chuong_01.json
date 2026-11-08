@@ -1,0 +1,3851 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 7,
+      "chapter": 1,
+      "roman": "I",
+      "title": "SỐ HỮU TỈ",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "7-01-01",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Số đối của số hữu tỉ -3/7 là",
+          "choices": {
+            "A": "3/7",
+            "B": "7/3",
+            "C": "-7/3",
+            "D": "-3/7"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số đối của số hữu tỉ -3/7 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7/3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-7/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-3/7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số đối của số hữu tỉ -3/7 là",
+            "choices": {
+              "A": "3/7",
+              "B": "7/3",
+              "C": "-7/3",
+              "D": "-3/7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-02",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Giá trị của lũy thừa (-1/3)^{2} bằng.",
+          "choices": {
+            "A": "1/9",
+            "B": "-1/9",
+            "C": "-2/3",
+            "D": "2/3"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "(-1/3)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-1/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-2/3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Giá trị của lũy thừa (-1/3)$^2$ bằng.",
+            "choices": {
+              "A": "1/9",
+              "B": "-1/9",
+              "C": "-2/3",
+              "D": "2/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-03",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương I, xét nội dung: Kết quả của phép tính (2/3)^{4} · (2/3)^{3} bằng. Đáp án đúng là",
+          "choices": {
+            "A": "(2/3)^{12}",
+            "B": "(2/3)^{7}",
+            "C": "(2/3)^{6}",
+            "D": "(4/9)^{7}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương I, xét nội dung: Kết quả của phép tính "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(2/3)^{12}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "(2/3)^{7}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(2/3)^{6}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(4/9)^{7}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương I, xét nội dung: Kết quả của phép tính (2/3)$^{4}$ $\\cdot$ (2/3)$^{3}$ bằng. Đáp án đúng là",
+            "choices": {
+              "A": "(2/3)$^{12}$",
+              "B": "(2/3)$^{7}$",
+              "C": "(2/3)$^{6}$",
+              "D": "(4/9)$^{7}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-04",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương I (Số hữu tỉ), số đối của số hữu tỉ -6/13 là",
+          "choices": {
+            "A": "6/13",
+            "B": "-6/13",
+            "C": "13/6",
+            "D": "-13/6"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương I (Số hữu tỉ), số đối của số hữu tỉ -6/13 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6/13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-6/13"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "13/6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-13/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương I (Số hữu tỉ), số đối của số hữu tỉ -6/13 là",
+            "choices": {
+              "A": "6/13",
+              "B": "-6/13",
+              "C": "13/6",
+              "D": "-13/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-05",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Giá trị của lũy thừa (-1/6)^{2} bằng",
+          "choices": {
+            "A": "-1/36",
+            "B": "-2/6",
+            "C": "1/36",
+            "D": "2/6"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "(-1/6)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-1/36"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-2/6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/36"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Giá trị của lũy thừa (-1/6)$^2$ bằng",
+            "choices": {
+              "A": "-1/36",
+              "B": "-2/6",
+              "C": "1/36",
+              "D": "2/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-06",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về số hữu tỉ, một học sinh gặp câu hỏi: Kết quả của phép tính (2/3)^{7} · (2/3)^{3} bằng. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "(4/9)^{10}",
+            "B": "(2/3)^{9}",
+            "C": "(2/3)^{21}",
+            "D": "(2/3)^{10}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về số hữu tỉ, một học sinh gặp câu hỏi: Kết quả của phép tính "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{7}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(4/9)^{10}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "(2/3)^{9}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(2/3)^{21}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(2/3)^{10}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về số hữu tỉ, một học sinh gặp câu hỏi: Kết quả của phép tính (2/3)$^{7}$ $\\cdot$ (2/3)$^{3}$ bằng. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "(4/9)$^{10}$",
+              "B": "(2/3)$^{9}$",
+              "C": "(2/3)$^{21}$",
+              "D": "(2/3)$^{10}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-07",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Số đối của số hữu tỉ -9/19 là",
+          "choices": {
+            "A": "-19/9",
+            "B": "-9/19",
+            "C": "19/9",
+            "D": "9/19"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Số đối của số hữu tỉ -9/19 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-19/9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-9/19"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "19/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9/19"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Số đối của số hữu tỉ -9/19 là",
+            "choices": {
+              "A": "-19/9",
+              "B": "-9/19",
+              "C": "19/9",
+              "D": "9/19"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-08",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Giá trị của lũy thừa (-1/9)^{2} bằng",
+          "choices": {
+            "A": "1/81",
+            "B": "-1/81",
+            "C": "-2/9",
+            "D": "2/9"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "(-1/9)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/81"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-1/81"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-2/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Giá trị của lũy thừa (-1/9)$^2$ bằng",
+            "choices": {
+              "A": "1/81",
+              "B": "-1/81",
+              "C": "-2/9",
+              "D": "2/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-09",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Kết quả của phép tính (2/3)^{10} · (2/3)^{3} bằng",
+          "choices": {
+            "A": "(2/3)^{30}",
+            "B": "(2/3)^{12}",
+            "C": "(4/9)^{13}",
+            "D": "(2/3)^{13}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Kết quả của phép tính "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{10}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(2/3)^{30}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "(2/3)^{12}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(4/9)^{13}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(2/3)^{13}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Kết quả của phép tính (2/3)$^{10}$ $\\cdot$ (2/3)$^{3}$ bằng",
+            "choices": {
+              "A": "(2/3)$^{30}$",
+              "B": "(2/3)$^{12}$",
+              "C": "(4/9)$^{13}$",
+              "D": "(2/3)$^{13}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-10",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Số đối của số hữu tỉ -12/25 là. Phương án chính xác là",
+          "choices": {
+            "A": "-12/25",
+            "B": "12/25",
+            "C": "-25/12",
+            "D": "25/12"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Số đối của số hữu tỉ -12/25 là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-12/25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12/25"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-25/12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "25/12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Số đối của số hữu tỉ -12/25 là. Phương án chính xác là",
+            "choices": {
+              "A": "-12/25",
+              "B": "12/25",
+              "C": "-25/12",
+              "D": "25/12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-11",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Giá trị của lũy thừa (-1/12)^{2} bằng",
+          "choices": {
+            "A": "-1/144",
+            "B": "1/144",
+            "C": "2/12",
+            "D": "-2/12"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "(-1/12)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-1/144"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/144"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2/12"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-2/12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Giá trị của lũy thừa (-1/12)$^2$ bằng",
+            "choices": {
+              "A": "-1/144",
+              "B": "1/144",
+              "C": "2/12",
+              "D": "-2/12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-12",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Kết quả của phép tính (2/3)^{13} · (2/3)^{3} bằng",
+          "choices": {
+            "A": "(2/3)^{39}",
+            "B": "(2/3)^{16}",
+            "C": "(2/3)^{15}",
+            "D": "(4/9)^{16}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Kết quả của phép tính "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{13}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(2/3)^{39}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "(2/3)^{16}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(2/3)^{15}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(4/9)^{16}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Kết quả của phép tính (2/3)$^{13}$ $\\cdot$ (2/3)$^{3}$ bằng",
+            "choices": {
+              "A": "(2/3)$^{39}$",
+              "B": "(2/3)$^{16}$",
+              "C": "(2/3)$^{15}$",
+              "D": "(4/9)$^{16}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-13",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), số đối của số hữu tỉ -15/31 là",
+          "choices": {
+            "A": "-31/15",
+            "B": "-15/31",
+            "C": "31/15",
+            "D": "15/31"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), số đối của số hữu tỉ -15/31 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-31/15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-15/31"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "31/15"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15/31"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), số đối của số hữu tỉ -15/31 là",
+            "choices": {
+              "A": "-31/15",
+              "B": "-15/31",
+              "C": "31/15",
+              "D": "15/31"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-14",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Giá trị của lũy thừa (-1/15)^{2} bằng",
+          "choices": {
+            "A": "2/15",
+            "B": "-1/225",
+            "C": "1/225",
+            "D": "-2/15"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "(-1/15)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-1/225"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/225"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-2/15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Giá trị của lũy thừa (-1/15)$^2$ bằng",
+            "choices": {
+              "A": "2/15",
+              "B": "-1/225",
+              "C": "1/225",
+              "D": "-2/15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-15",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương I: Kết quả của phép tính (2/3)^{16} · (2/3)^{3} bằng. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "(4/9)^{19}",
+            "B": "(2/3)^{18}",
+            "C": "(2/3)^{19}",
+            "D": "(2/3)^{48}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương I: Kết quả của phép tính "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{16}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(4/9)^{19}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "(2/3)^{18}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(2/3)^{19}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(2/3)^{48}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương I: Kết quả của phép tính (2/3)$^{16}$ $\\cdot$ (2/3)$^{3}$ bằng. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "(4/9)$^{19}$",
+              "B": "(2/3)$^{18}$",
+              "C": "(2/3)$^{19}$",
+              "D": "(2/3)$^{48}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-16",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Số đối của số hữu tỉ -18/37 là",
+          "choices": {
+            "A": "-37/18",
+            "B": "-18/37",
+            "C": "18/37",
+            "D": "37/18"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Số đối của số hữu tỉ -18/37 là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-37/18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-18/37"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18/37"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "37/18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Số đối của số hữu tỉ -18/37 là",
+            "choices": {
+              "A": "-37/18",
+              "B": "-18/37",
+              "C": "18/37",
+              "D": "37/18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-17",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Giá trị của lũy thừa (-1/18)^{2} bằng?",
+          "choices": {
+            "A": "2/18",
+            "B": "-2/18",
+            "C": "-1/324",
+            "D": "1/324"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "(-1/18)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "2/18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-2/18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-1/324"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/324"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Giá trị của lũy thừa (-1/18)$^2$ bằng?",
+            "choices": {
+              "A": "2/18",
+              "B": "-2/18",
+              "C": "-1/324",
+              "D": "1/324"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-18",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương I: Kết quả của phép tính (2/3)^{19} · (2/3)^{3} bằng",
+          "choices": {
+            "A": "(2/3)^{57}",
+            "B": "(2/3)^{22}",
+            "C": "(4/9)^{22}",
+            "D": "(2/3)^{21}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương I: Kết quả của phép tính "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{19}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "(2/3)^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "(2/3)^{57}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "(2/3)^{22}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "(4/9)^{22}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "(2/3)^{21}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương I: Kết quả của phép tính (2/3)$^{19}$ $\\cdot$ (2/3)$^{3}$ bằng",
+            "choices": {
+              "A": "(2/3)$^{57}$",
+              "B": "(2/3)$^{22}$",
+              "C": "(4/9)$^{22}$",
+              "D": "(2/3)$^{21}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-19",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Số đối của số hữu tỉ -21/43 là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "21/43",
+            "B": "-21/43",
+            "C": "43/21",
+            "D": "-43/21"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Số đối của số hữu tỉ -21/43 là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21/43"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-21/43"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "43/21"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-43/21"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Số đối của số hữu tỉ -21/43 là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "21/43",
+              "B": "-21/43",
+              "C": "43/21",
+              "D": "-43/21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-20",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Giá trị của lũy thừa (-1/21)^{2} bằng",
+          "choices": {
+            "A": "-1/441",
+            "B": "-2/21",
+            "C": "1/441",
+            "D": "2/21"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Giá trị của lũy thừa "
+            },
+            {
+              "t": "math",
+              "v": "(-1/21)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-1/441"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-2/21"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1/441"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2/21"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Giá trị của lũy thừa (-1/21)$^2$ bằng",
+            "choices": {
+              "A": "-1/441",
+              "B": "-2/21",
+              "C": "1/441",
+              "D": "2/21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-21",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm số hữu tỉ x, biết: x + 1/2 = 3/2.",
+          "choices": {
+            "A": "x = 3/2",
+            "B": "x = -2/2",
+            "C": "x = 2/2",
+            "D": "x = 4/2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số hữu tỉ x, biết: x + 1/2 = 3/2."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 3/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -2/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 2/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 4/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số hữu tỉ x, biết: x + 1/2 = 3/2.",
+            "choices": {
+              "A": "x = 3/2",
+              "B": "x = -2/2",
+              "C": "x = 2/2",
+              "D": "x = 4/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-22",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương I (Số hữu tỉ) để giải bài toán: Tính nhanh giá trị biểu thức A = (3/6) · (7/11) + (3/6) · (4/11).",
+          "choices": {
+            "A": "1/6",
+            "B": "33/67",
+            "C": "6/6",
+            "D": "3/6"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương I (Số hữu tỉ) để giải bài toán: Tính nhanh giá trị biểu thức A = (3/6) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (7/11) + (3/6) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (4/11)."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "33/67"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6/6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3/6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương I (Số hữu tỉ) để giải bài toán: Tính nhanh giá trị biểu thức A = (3/6) $\\cdot$ (7/11) + (3/6) $\\cdot$ (4/11).",
+            "choices": {
+              "A": "1/6",
+              "B": "33/67",
+              "C": "6/6",
+              "D": "3/6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-23",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương I: Tìm số tự nhiên n biết (1/2)^{n} = 1/32.. Kết quả thu được là",
+          "choices": {
+            "A": "n = 4",
+            "B": "n = 16",
+            "C": "n = 5",
+            "D": "n = 6"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương I: Tìm số tự nhiên n biết "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/32.. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương I: Tìm số tự nhiên n biết (1/2)$^{n}$ = 1/32.. Kết quả thu được là",
+            "choices": {
+              "A": "n = 4",
+              "B": "n = 16",
+              "C": "n = 5",
+              "D": "n = 6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-24",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Tìm số hữu tỉ x, biết: x + 1/5 = 3/5.. Đáp án đúng là",
+          "choices": {
+            "A": "x = 3/5",
+            "B": "x = 4/5",
+            "C": "x = -2/5",
+            "D": "x = 2/5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Tìm số hữu tỉ x, biết: x + 1/5 = 3/5.. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 3/5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 4/5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -2/5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 2/5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Tìm số hữu tỉ x, biết: x + 1/5 = 3/5.. Đáp án đúng là",
+            "choices": {
+              "A": "x = 3/5",
+              "B": "x = 4/5",
+              "C": "x = -2/5",
+              "D": "x = 2/5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-25",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Tính nhanh giá trị biểu thức A = (3/9) · (7/11) + (3/9) · (4/11).",
+          "choices": {
+            "A": "33/100",
+            "B": "6/9",
+            "C": "3/9",
+            "D": "1/9"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Tính nhanh giá trị biểu thức A = (3/9) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (7/11) + (3/9) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (4/11)."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "33/100"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6/9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Tính nhanh giá trị biểu thức A = (3/9) $\\cdot$ (7/11) + (3/9) $\\cdot$ (4/11).",
+            "choices": {
+              "A": "33/100",
+              "B": "6/9",
+              "C": "3/9",
+              "D": "1/9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-26",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Tìm số tự nhiên n biết (1/2)^{n} = 1/8.. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "n = 3",
+            "B": "n = 4",
+            "C": "n = 2",
+            "D": "n = 3 (1)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Tìm số tự nhiên n biết "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/8.. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 3 (1)"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Tìm số tự nhiên n biết (1/2)$^{n}$ = 1/8.. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "n = 3",
+              "B": "n = 4",
+              "C": "n = 2",
+              "D": "n = 3 (1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-27",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tìm số hữu tỉ x, biết: x + 1/8 = 3/8.",
+          "choices": {
+            "A": "x = 2/8",
+            "B": "x = -2/8",
+            "C": "x = 4/8",
+            "D": "x = 3/8"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tìm số hữu tỉ x, biết: x + 1/8 = 3/8."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 2/8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -2/8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 4/8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 3/8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tìm số hữu tỉ x, biết: x + 1/8 = 3/8.",
+            "choices": {
+              "A": "x = 2/8",
+              "B": "x = -2/8",
+              "C": "x = 4/8",
+              "D": "x = 3/8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-28",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tính nhanh giá trị biểu thức A = (3/12) · (7/11) + (3/12) · (4/11).",
+          "choices": {
+            "A": "6/12",
+            "B": "1/12",
+            "C": "33/133",
+            "D": "3/12"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tính nhanh giá trị biểu thức A = (3/12) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (7/11) + (3/12) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (4/11)."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6/12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "33/133"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3/12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Tính nhanh giá trị biểu thức A = (3/12) $\\cdot$ (7/11) + (3/12) $\\cdot$ (4/11).",
+            "choices": {
+              "A": "6/12",
+              "B": "1/12",
+              "C": "33/133",
+              "D": "3/12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-29",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Số hữu tỉ): Tìm số tự nhiên n biết (1/2)^{n} = 1/64.. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "n = 6",
+            "B": "n = 32",
+            "C": "n = 5",
+            "D": "n = 7"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Số hữu tỉ): Tìm số tự nhiên n biết "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/64.. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 32"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Số hữu tỉ): Tìm số tự nhiên n biết (1/2)$^{n}$ = 1/64.. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "n = 6",
+              "B": "n = 32",
+              "C": "n = 5",
+              "D": "n = 7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-30",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tìm số hữu tỉ x, biết: x + 1/11 = 3/11.",
+          "choices": {
+            "A": "x = 2/11",
+            "B": "x = 3/11",
+            "C": "x = -2/11",
+            "D": "x = 4/11"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tìm số hữu tỉ x, biết: x + 1/11 = 3/11."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 2/11"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 3/11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = -2/11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 4/11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tìm số hữu tỉ x, biết: x + 1/11 = 3/11.",
+            "choices": {
+              "A": "x = 2/11",
+              "B": "x = 3/11",
+              "C": "x = -2/11",
+              "D": "x = 4/11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-31",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Tính nhanh giá trị biểu thức A = (3/15) · (7/11) + (3/15) · (4/11).. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "3/15",
+            "B": "6/15",
+            "C": "33/166",
+            "D": "1/15"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Tính nhanh giá trị biểu thức A = (3/15) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (7/11) + (3/15) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (4/11).. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6/15"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "33/166"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Tính nhanh giá trị biểu thức A = (3/15) $\\cdot$ (7/11) + (3/15) $\\cdot$ (4/11).. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "3/15",
+              "B": "6/15",
+              "C": "33/166",
+              "D": "1/15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-32",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Tìm số tự nhiên n biết (1/2)^{n} = 1/16.",
+          "choices": {
+            "A": "n = 8",
+            "B": "n = 5",
+            "C": "n = 3",
+            "D": "n = 4"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Tìm số tự nhiên n biết "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/16."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Tìm số tự nhiên n biết (1/2)$^{n}$ = 1/16.",
+            "choices": {
+              "A": "n = 8",
+              "B": "n = 5",
+              "C": "n = 3",
+              "D": "n = 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-33",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tìm số hữu tỉ x, biết: x + 1/14 = 3/14.",
+          "choices": {
+            "A": "x = 2/14",
+            "B": "x = 4/14",
+            "C": "x = 3/14",
+            "D": "x = -2/14"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tìm số hữu tỉ x, biết: x + 1/14 = 3/14."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 2/14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 4/14"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 3/14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -2/14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tìm số hữu tỉ x, biết: x + 1/14 = 3/14.",
+            "choices": {
+              "A": "x = 2/14",
+              "B": "x = 4/14",
+              "C": "x = 3/14",
+              "D": "x = -2/14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-34",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tính nhanh giá trị biểu thức A = (3/18) · (7/11) + (3/18) · (4/11).",
+          "choices": {
+            "A": "33/199",
+            "B": "1/18",
+            "C": "3/18",
+            "D": "6/18"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tính nhanh giá trị biểu thức A = (3/18) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (7/11) + (3/18) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (4/11)."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "33/199"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3/18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6/18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Tính nhanh giá trị biểu thức A = (3/18) $\\cdot$ (7/11) + (3/18) $\\cdot$ (4/11).",
+            "choices": {
+              "A": "33/199",
+              "B": "1/18",
+              "C": "3/18",
+              "D": "6/18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-35",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Tìm số tự nhiên n biết (1/2)^{n} = 1/128.",
+          "choices": {
+            "A": "n = 64",
+            "B": "n = 8",
+            "C": "n = 6",
+            "D": "n = 7"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Tìm số tự nhiên n biết "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/128."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 64"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Tìm số tự nhiên n biết (1/2)$^{n}$ = 1/128.",
+            "choices": {
+              "A": "n = 64",
+              "B": "n = 8",
+              "C": "n = 6",
+              "D": "n = 7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-36",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Số hữu tỉ): Tìm số hữu tỉ x, biết: x + 1/17 = 3/17.. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "x = 3/17",
+            "B": "x = 2/17",
+            "C": "x = 4/17",
+            "D": "x = -2/17"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Số hữu tỉ): Tìm số hữu tỉ x, biết: x + 1/17 = 3/17.. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 3/17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 2/17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 4/17"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -2/17"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Số hữu tỉ): Tìm số hữu tỉ x, biết: x + 1/17 = 3/17.. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "x = 3/17",
+              "B": "x = 2/17",
+              "C": "x = 4/17",
+              "D": "x = -2/17"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-37",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tính nhanh giá trị biểu thức A = (3/21) · (7/11) + (3/21) · (4/11).",
+          "choices": {
+            "A": "6/21",
+            "B": "3/21",
+            "C": "33/232",
+            "D": "1/21"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tính nhanh giá trị biểu thức A = (3/21) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (7/11) + (3/21) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (4/11)."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6/21"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/21"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "33/232"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1/21"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Tính nhanh giá trị biểu thức A = (3/21) $\\cdot$ (7/11) + (3/21) $\\cdot$ (4/11).",
+            "choices": {
+              "A": "6/21",
+              "B": "3/21",
+              "C": "33/232",
+              "D": "1/21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-38",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương I: Tìm số tự nhiên n biết (1/2)^{n} = 1/32.. Kết luận đúng là",
+          "choices": {
+            "A": "n = 6",
+            "B": "n = 16",
+            "C": "n = 4",
+            "D": "n = 5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương I: Tìm số tự nhiên n biết "
+            },
+            {
+              "t": "math",
+              "v": "(1/2)^{n}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1/32.. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n = 6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n = 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương I: Tìm số tự nhiên n biết (1/2)$^{n}$ = 1/32.. Kết luận đúng là",
+            "choices": {
+              "A": "n = 6",
+              "B": "n = 16",
+              "C": "n = 4",
+              "D": "n = 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-39",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tìm số hữu tỉ x, biết: x + 1/20 = 3/20.",
+          "choices": {
+            "A": "x = 3/20",
+            "B": "x = 4/20",
+            "C": "x = 2/20",
+            "D": "x = -2/20"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tìm số hữu tỉ x, biết: x + 1/20 = 3/20."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 3/20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 4/20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 2/20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = -2/20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tìm số hữu tỉ x, biết: x + 1/20 = 3/20.",
+            "choices": {
+              "A": "x = 3/20",
+              "B": "x = 4/20",
+              "C": "x = 2/20",
+              "D": "x = -2/20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-40",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tính nhanh giá trị biểu thức A = (3/24) · (7/11) + (3/24) · (4/11).",
+          "choices": {
+            "A": "1/24",
+            "B": "3/24",
+            "C": "33/265",
+            "D": "6/24"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tính nhanh giá trị biểu thức A = (3/24) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (7/11) + (3/24) "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " (4/11)."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1/24"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3/24"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "33/265"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6/24"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Tính nhanh giá trị biểu thức A = (3/24) $\\cdot$ (7/11) + (3/24) $\\cdot$ (4/11).",
+            "choices": {
+              "A": "1/24",
+              "B": "3/24",
+              "C": "33/265",
+              "D": "6/24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-41",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Tìm giá trị nhỏ nhất của biểu thức P = (x - 1/2)^{2} + 5.",
+          "choices": {
+            "A": "0",
+            "B": "1/2",
+            "C": "-5",
+            "D": "5"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị nhỏ nhất của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 1/2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1/2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị nhỏ nhất của biểu thức P = (x - 1/2)$^2$ + 5.",
+            "choices": {
+              "A": "0",
+              "B": "1/2",
+              "C": "-5",
+              "D": "5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-42",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương I – Số hữu tỉ): So sánh hai lũy thừa A = 2^{15} và B = 3^{10}.. Kết quả đúng là",
+          "choices": {
+            "A": "A < B (vì 8 < 9)",
+            "B": "A > B",
+            "C": "A = B",
+            "D": "Không so sánh được"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương I – Số hữu tỉ): So sánh hai lũy thừa A = "
+            },
+            {
+              "t": "math",
+              "v": "2^{15}"
+            },
+            {
+              "t": "txt",
+              "v": " và B = "
+            },
+            {
+              "t": "math",
+              "v": "3^{10}"
+            },
+            {
+              "t": "txt",
+              "v": ".. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "A < B (vì 8 < 9)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "A > B"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "A = B"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Không so sánh được"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương I – Số hữu tỉ): So sánh hai lũy thừa A = 2$^{15}$ và B = 3$^{10}$.. Kết quả đúng là",
+            "choices": {
+              "A": "A < B (vì 8 < 9)",
+              "B": "A > B",
+              "C": "A = B",
+              "D": "Không so sánh được"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-43",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm giá trị nhỏ nhất của biểu thức P = (x - 3/2)^{2} + 9.",
+          "choices": {
+            "A": "3/2",
+            "B": "-9",
+            "C": "9",
+            "D": "0"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm giá trị nhỏ nhất của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 3/2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 9."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm giá trị nhỏ nhất của biểu thức P = (x - 3/2)$^2$ + 9.",
+            "choices": {
+              "A": "3/2",
+              "B": "-9",
+              "C": "9",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-44",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương I: So sánh hai lũy thừa A = 2^{21} và B = 3^{14}.",
+          "choices": {
+            "A": "A = B",
+            "B": "A < B (vì 8 < 9)",
+            "C": "Không so sánh được",
+            "D": "A > B"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương I: So sánh hai lũy thừa A = "
+            },
+            {
+              "t": "math",
+              "v": "2^{21}"
+            },
+            {
+              "t": "txt",
+              "v": " và B = "
+            },
+            {
+              "t": "math",
+              "v": "3^{14}"
+            },
+            {
+              "t": "txt",
+              "v": "."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "A = B"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "A < B (vì 8 < 9)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Không so sánh được"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "A > B"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương I: So sánh hai lũy thừa A = 2$^{21}$ và B = 3$^{14}$.",
+            "choices": {
+              "A": "A = B",
+              "B": "A < B (vì 8 < 9)",
+              "C": "Không so sánh được",
+              "D": "A > B"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-45",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm giá trị nhỏ nhất của biểu thức P = (x - 5/2)^{2} + 13.. Đáp số chính xác là",
+          "choices": {
+            "A": "13",
+            "B": "-13",
+            "C": "0",
+            "D": "5/2"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm giá trị nhỏ nhất của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 5/2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 13.. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-13"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5/2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm giá trị nhỏ nhất của biểu thức P = (x - 5/2)$^2$ + 13.. Đáp số chính xác là",
+            "choices": {
+              "A": "13",
+              "B": "-13",
+              "C": "0",
+              "D": "5/2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-46",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: So sánh hai lũy thừa A = 2^{27} và B = 3^{18}.",
+          "choices": {
+            "A": "Không so sánh được",
+            "B": "A < B (vì 8 < 9)",
+            "C": "A > B",
+            "D": "A = B"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: So sánh hai lũy thừa A = "
+            },
+            {
+              "t": "math",
+              "v": "2^{27}"
+            },
+            {
+              "t": "txt",
+              "v": " và B = "
+            },
+            {
+              "t": "math",
+              "v": "3^{18}"
+            },
+            {
+              "t": "txt",
+              "v": "."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Không so sánh được"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "A < B (vì 8 < 9)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "A > B"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "A = B"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: So sánh hai lũy thừa A = 2$^{27}$ và B = 3$^{18}$.",
+            "choices": {
+              "A": "Không so sánh được",
+              "B": "A < B (vì 8 < 9)",
+              "C": "A > B",
+              "D": "A = B"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-47",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm giá trị nhỏ nhất của biểu thức P = (x - 7/2)^{2} + 17.",
+          "choices": {
+            "A": "17",
+            "B": "-17",
+            "C": "7/2",
+            "D": "0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm giá trị nhỏ nhất của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 7/2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 17."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7/2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm giá trị nhỏ nhất của biểu thức P = (x - 7/2)$^2$ + 17.",
+            "choices": {
+              "A": "17",
+              "B": "-17",
+              "C": "7/2",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-48",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): So sánh hai lũy thừa A = 2^{33} và B = 3^{22}.",
+          "choices": {
+            "A": "A = B",
+            "B": "Không so sánh được",
+            "C": "A > B",
+            "D": "A < B (vì 8 < 9)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): So sánh hai lũy thừa A = "
+            },
+            {
+              "t": "math",
+              "v": "2^{33}"
+            },
+            {
+              "t": "txt",
+              "v": " và B = "
+            },
+            {
+              "t": "math",
+              "v": "3^{22}"
+            },
+            {
+              "t": "txt",
+              "v": "."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "A = B"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Không so sánh được"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "A > B"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "A < B (vì 8 < 9)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): So sánh hai lũy thừa A = 2$^{33}$ và B = 3$^{22}$.",
+            "choices": {
+              "A": "A = B",
+              "B": "Không so sánh được",
+              "C": "A > B",
+              "D": "A < B (vì 8 < 9)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-49",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm giá trị nhỏ nhất của biểu thức P = (x - 9/2)^{2} + 21.",
+          "choices": {
+            "A": "9/2",
+            "B": "21",
+            "C": "0",
+            "D": "-21"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm giá trị nhỏ nhất của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 9/2)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 21."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9/2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-21"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm giá trị nhỏ nhất của biểu thức P = (x - 9/2)$^2$ + 21.",
+            "choices": {
+              "A": "9/2",
+              "B": "21",
+              "C": "0",
+              "D": "-21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "7-01-50",
+          "grade": 7,
+          "chapter": 1,
+          "chapterTitle": "SỐ HỮU TỈ",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương I: So sánh hai lũy thừa A = 2^{39} và B = 3^{26}.. Phương án đúng là",
+          "choices": {
+            "A": "Không so sánh được",
+            "B": "A < B (vì 8 < 9)",
+            "C": "A = B",
+            "D": "A > B"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương I: So sánh hai lũy thừa A = "
+            },
+            {
+              "t": "math",
+              "v": "2^{39}"
+            },
+            {
+              "t": "txt",
+              "v": " và B = "
+            },
+            {
+              "t": "math",
+              "v": "3^{26}"
+            },
+            {
+              "t": "txt",
+              "v": ".. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Không so sánh được"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "A < B (vì 8 < 9)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "A = B"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "A > B"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương I: So sánh hai lũy thừa A = 2$^{39}$ và B = 3$^{26}$.. Phương án đúng là",
+            "choices": {
+              "A": "Không so sánh được",
+              "B": "A < B (vì 8 < 9)",
+              "C": "A = B",
+              "D": "A > B"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_7_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

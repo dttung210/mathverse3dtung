@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="vi" data-mv-ui="r6-museum">
+<head>
+<script id="mv-gh-pages-shim">
+(function(){
+  var BASE = "/mathverse3dtung";
+  window.__MV_BASE_PATH__ = BASE;
+  var PREFIXES = ["dual/","src/","data/","vendor/","game-park/","museum-assets/","museum-thumbs/","museum-data/","r75/","lab/","api/","granddome/","favicon.svg","health"];
+  function shouldPrefix(u){
+    if(!BASE || typeof u !== 'string') return false;
+    if(!u.startsWith('/') || u.startsWith(BASE + '/') || u.startsWith('//')) return false;
+    var clean = u.slice(1);
+    for(var i = 0; i < PREFIXES.length; i++){
+      if(clean.startsWith(PREFIXES[i]) || clean === 'r75' || clean === 'lab' || clean === 'game-park') return true;
+    }
+    return false;
+  }
+  function mapUrl(u){
+    if(typeof u !== 'string') return u;
+    var origin = window.location && window.location.origin ? window.location.origin : '';
+    var hadOrigin = false;
+    if(origin && u.indexOf(origin + '/') === 0){
+      u = u.slice(origin.length);
+      hadOrigin = true;
+    }
+    var finish = function(res){
+      return (hadOrigin && res.indexOf('/') === 0) ? (origin + res) : res;
+    };
+    var qIdx = u.indexOf('?');
+    var pathOnly = qIdx >= 0 ? u.slice(0, qIdx) : u;
+    var query = qIdx >= 0 ? u.slice(qIdx) : '';
+    var rel = BASE && pathOnly.startsWith(BASE + '/') ? pathOnly.slice(BASE.length) : pathOnly;
+    if(rel === '/api/discovery/r99/photo'){
+      var params = new URLSearchParams(query);
+      var id = params.get('id') || '';
+      return finish((BASE || '') + '/api/discovery/r99/photo/' + encodeURIComponent(id) + '.json');
+    }
+    var mTile = rel.match(/^\/api\/discovery\/r99\/(terrain|satellite)\/(\d+)\/(\d+)\/(\d+)$/);
+    if(mTile){
+      var kind = mTile[1], z = mTile[2], x = mTile[3], y = mTile[4];
+      if(kind === 'terrain') return 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/' + z + '/' + x + '/' + y + '.png';
+      return 'https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless_3857/default/GoogleMapsCompatible/' + z + '/' + y + '/' + x + '.jpg';
+    }
+    var StaticJsonRoutes = {
+      '/health': '/health.json',
+      '/api/health': '/api/health.json',
+      '/granddome/api/museum': '/granddome/api/museum.json',
+      '/api/discovery/r98/catalog': '/api/discovery/r98/catalog.json',
+      '/api/discovery/r99/catalog': '/api/discovery/r99/catalog.json',
+      '/api/discovery/countries': '/api/discovery/countries.json',
+      '/api/discovery/unesco': '/api/discovery/unesco.json'
+    };
+    if(StaticJsonRoutes[rel]){
+      return finish((BASE || '') + StaticJsonRoutes[rel] + query);
+    }
+    if(shouldPrefix(u)){
+      return finish(BASE + u);
+    }
+    return finish(u);
+  }
+  if(window.Request){
+    var OrigRequest = window.Request;
+    window.Request = function(input, init){
+      if(typeof input === 'string') input = mapUrl(input);
+      else if(input && typeof input.url === 'string') input = new OrigRequest(mapUrl(input.url), input);
+      return new OrigRequest(input, init);
+    };
+    window.Request.prototype = OrigRequest.prototype;
+  }
+  var origFetch = window.fetch;
+  if(origFetch){
+    window.fetch = function(input, init){
+      if(typeof input === 'string'){
+        input = mapUrl(input);
+      } else if(input && typeof input.url === 'string'){
+        input = new Request(mapUrl(input.url), input);
+      }
+      return origFetch.call(this, input, init);
+    };
+  }
+  var origOpen = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method, url){
+    var args = Array.prototype.slice.call(arguments);
+    if(typeof url === 'string') args[1] = mapUrl(url);
+    return origOpen.apply(this, args);
+  };
+  if(BASE){
+    [HTMLImageElement, HTMLIFrameElement, HTMLScriptElement, HTMLLinkElement, HTMLAnchorElement, HTMLMediaElement, HTMLSourceElement].forEach(function(Ctor){
+      if(!Ctor || !Ctor.prototype) return;
+      var prop = (Ctor === HTMLLinkElement || Ctor === HTMLAnchorElement) ? 'href' : 'src';
+      var desc = Object.getOwnPropertyDescriptor(Ctor.prototype, prop);
+      if(desc && desc.set){
+        Object.defineProperty(Ctor.prototype, prop, {
+          configurable: true,
+          enumerable: desc.enumerable,
+          get: desc.get,
+          set: function(v){
+            return desc.set.call(this, typeof v === 'string' ? mapUrl(v) : v);
+          }
+        });
+      }
+    });
+    var origSetAttr = Element.prototype.setAttribute;
+    Element.prototype.setAttribute = function(name, value){
+      if((name === 'src' || name === 'href') && typeof value === 'string'){
+        value = mapUrl(value);
+      }
+      return origSetAttr.call(this, name, value);
+    };
+    var origWinOpen = window.open;
+    if(origWinOpen){
+      window.open = function(url){
+        var args = Array.prototype.slice.call(arguments);
+        if(typeof url === 'string') args[0] = mapUrl(url);
+        return origWinOpen.apply(this, args);
+      };
+    }
+  }
+})();
+</script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <meta name="theme-color" content="#0b1726"/>
+  <link rel="icon" type="image/svg+xml" href="/mathverse3dtung/favicon.svg"/>
+  <title>MATHVERSE TOÁN HỌC MR.TUNG 3D — BẢO TÀNG TOÁN HỌC 6–12 · MUSEUM ATLAS</title>
+  <link rel="stylesheet" href="/mathverse3dtung/src/styles.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/studio/studio.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/studio/v10-layout.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/neo-hud.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/studio/v11-editor.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/studio/v12-ultimate.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/math6-lab/inline-math6.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/studio/v13-unified.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/portal-labs/portal-labs.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/portal-labs/v15-grade6.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/curriculum/curriculum.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/r6-museum-ui.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/r6-lab-layout.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/r69-visible-lab-doors.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/r63-kho-ui.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/curriculum/grade6-unified.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/r71-expanded-lab-doors.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/r8-ui-big-update.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/r9-ui.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/r11-adaptive-studio.css"/>
+  <link rel="stylesheet" href="/mathverse3dtung/src/graphics-r74/graphics-ui.css"/>
+</head>
+<body class="mv-sidebar-collapsed mv-dock-collapsed mv-hud-collapsed">
+  <canvas id="world" aria-label="Không gian ba chiều các phòng mô hình Toán học"></canvas>
+  <div class="ambient-glow"></div>
+  <div id="loading-overlay" class="loading-overlay" data-step="0"><div class="loading-mark">✳</div><h2>MATHVERSE TOÁN HỌC MR.TUNG 3D</h2><p>Đang nạp mô hình Toán và kho hình dựng sẵn.</p><span class="loader-ring"></span>
+    <ol class="r9-load-steps" aria-label="Tiến độ tải"><li data-s="1">Phông chữ</li><li data-s="2">58 chương · 166 Lab · 310 mô hình</li><li data-s="3">Không gian 3D</li></ol><div class="r9-load-bar"><i></i></div></div>
+  <aside id="sidebar" class="sidebar glass">
+    <div class="brand"><span class="brand-mark">✳</span><div><strong>MATHVERSE TOÁN HỌC MR.TUNG 3D</strong><small>BẢO TÀNG TOÁN HỌC 6–12</small></div></div>
+    <div class="section-head">CHỌN KHỐI LỚP <button class="small-icon" id="sidebar-collapse" title="Thu gọn cột danh mục bên trái">◀ Thu gọn</button></div>
+    <nav id="grade-nav" aria-label="Chọn khối lớp"></nav>
+    <div class="section-head padded-top"><span id="catalog-label">HIỆN VẬT TRƯNG BÀY</span><small id="catalog-count">63</small></div>
+    <input id="catalog-search" class="search-field" placeholder="Tìm hiện vật..." aria-label="Tìm hiện vật"/>
+    <div id="catalog-items" class="catalog-scroll"></div><div class="catalog-pages"><button id="page-prev" title="Trang trước">‹</button><span id="page-status">Trang 1/1</span><button id="page-next" title="Trang tiếp theo">›</button></div>
+    <div class="sidebar-footer"><div class="tiny-dot"></div> Dữ liệu lưu trên máy cô</div>
+  </aside>
+  <button id="sidebar-reopen-btn" class="sidebar-reopen-btn glass" type="button" title="Mở lại cột danh mục bên trái">☰ Danh mục</button>
+  <header class="topbar glass">
+    <div class="topbar-badge"><span id="grade-pill" class="grade-pill"></span><span id="room-indicator">SẢNH CHÍNH · TOÁN 6—12</span><span id="model-summary">63 mô hình chuẩn GDPT 2018</span></div>
+    <div class="top-actions">
+      <button id="btn-grand-campus" class="top-btn" type="button" title="Trở về Đại Sảnh Vũ Trụ MATHVERSE 3D (Sảnh Lễ Tân · 11 Game · 230 Infographic)">🌐 <span>Đại Sảnh Vũ Trụ</span></button>
+      <button id="btn-lab-tts" class="top-btn" type="button" title="Nghe giọng đọc Tiếng Việt thuyết minh Tòa Lab & Phòng học hiện tại">🔊 <span>Thuyết minh</span></button>
+      <button id="btn-history-gallery" class="top-btn" type="button" title="Mở Bảo tàng 18 Danh nhân Toán học & 2 Xưởng GeoGebra">🏛 <span>18 Danh Nhân</span></button>
+      <button id="btn-studio-launchpad" class="top-btn" type="button" title="Mở Bản đồ Chương trình Toán 6–12 (Mở nhanh 1 chạm theo Chương & Bài học · phím L)">⚡ <span>Studio Bài Học</span></button>
+      <button id="btn-brightness-toggle" class="top-btn" type="button" title="Mở / Thu gọn thanh điều chỉnh độ sáng & tương phản">🔆 <span>Độ sáng</span></button>
+      <button id="btn-hud-collapse" class="top-btn" type="button" title="Thu gọn / Mở rộng các thanh công cụ để nhìn toàn màn hình 3D (phím H)">▼ <span>Mở thanh UI</span></button>
+      <button id="btn-theme-toggle" class="top-btn" title="Chuyển chế độ: ☀️ Tươi sáng (Daylight) / 🌙 Không gian (Dark)">☀️ <span id="theme-label">Ban ngày</span></button>
+      <button id="btn-curriculum" class="top-btn" title="Kho SGK đầy đủ Toán 6–12, gồm cả 63 mô hình Toán 6">📚 <span>Kho SGK 6–12</span></button>
+      <button id="btn-audio" class="top-btn" title="Bật / Tắt âm thanh phản hồi UI">🔊 <span>Âm thanh</span></button>
+      <button id="btn-help" class="top-btn">❔ Hướng dẫn</button>
+      <button id="btn-teacher" class="top-btn">⚙ Giáo viên</button>
+    </div>
+  </header>
+  <!-- Thanh công cụ thu gọn thông minh: mặc định thu gọn toàn bộ, bấm vào nút nào sổ ra chức năng tương ứng -->
+  <nav id="mv-compact-launcher" class="mv-compact-launcher glass" aria-label="Thanh công cụ thu gọn nhanh">
+    <button id="mv-ql-campus" class="mv-ql-btn" type="button" title="Về Đại Sảnh Vũ Trụ MATHVERSE (Sảnh Lễ Tân · 11 Game · 230 Infographic)">🌐 <span>Đại Sảnh</span></button>
+    <button id="mv-ql-sidebar" class="mv-ql-btn" type="button" title="Mở / Đóng cột Danh mục Lớp & Mô hình bên trái">☰ <span>Danh mục</span></button>
+    <button id="mv-ql-studio" class="mv-ql-btn mv-ql-accent" type="button" title="Mở Sơ đồ Phòng Học 2D & 3D theo Chương SGK (phím L)">⚡ <span>Sơ đồ 2D/3D</span></button>
+    <button id="mv-ql-grades" class="mv-ql-btn" type="button" aria-expanded="false" title="Sổ ra danh sách chọn nhanh Khối Lớp (Sảnh, Lớp 6–12) & Kho SGK">🏫 <span id="mv-ql-grade-label">Chọn Lớp</span> ▾</button>
+    <button id="mv-ql-history" class="mv-ql-btn" type="button" title="Mở Bảo tàng 18 Danh nhân Toán học & 2 Xưởng GeoGebra">🏛 <span>18 Danh nhân</span></button>
+    <button id="mv-ql-brightness" class="mv-ql-btn" type="button" aria-expanded="false" title="Sổ ra thanh điều chỉnh Độ sáng & Tương phản màu sắc">🔆 <span id="mv-ql-brightness-label">Độ sáng 100%</span> ▾</button>
+    <button id="mv-ql-minimap" class="mv-ql-btn" type="button" title="Sổ ra / Thu gọn Bản đồ 7 phòng">🗺 <span>Bản đồ</span></button>
+    <button id="mv-ql-dock" class="mv-ql-btn" type="button" title="Sổ ra / Thu gọn Thanh điều khiển Góc nhìn & Nhân vật bên dưới">🛠 <span>Góc nhìn & Công cụ</span></button>
+    <button id="mv-ql-expand-all" class="mv-ql-btn" type="button" title="Mở rộng hoặc thu gọn toàn bộ giao diện (phím H)">⤢ <span>Toàn bộ UI</span></button>
+  </nav>
+  <!-- Hộp sổ ra 1: Thanh điều chỉnh độ sáng & tương phản có thể thu gọn -->
+  <section id="mv-brightness-popover" class="mv-tool-popover glass" role="dialog" aria-label="Điều chỉnh độ sáng màn hình và 3D" hidden>
+    <div class="mv-pop-head">
+      <strong>🔆 ĐỘ SÁNG & TƯƠNG PHẢN</strong>
+      <output id="mv-brightness-val" class="mv-pop-badge">100%</output>
+      <button id="mv-brightness-close" class="mv-pop-close" type="button" title="Thu gọn bảng độ sáng">▲ Thu gọn</button>
+    </div>
+    <div class="mv-pop-slider-row">
+      <span title="Giảm độ sáng">🌙 50%</span>
+      <input id="mv-brightness-slider" type="range" min="50" max="160" step="5" value="100" aria-label="Thanh kéo điều chỉnh độ sáng"/>
+      <span title="Tăng độ sáng">☀️ 160%</span>
+    </div>
+    <div class="mv-pop-presets" role="group" aria-label="Mức độ sáng gợi ý">
+      <button type="button" class="mv-br-preset" data-val="80">Dịu 80%</button>
+      <button type="button" class="mv-br-preset is-active" data-val="100">Chuẩn 100%</button>
+      <button type="button" class="mv-br-preset" data-val="120">Sáng rõ 120%</button>
+      <button type="button" class="mv-br-preset" data-val="140">Rực rỡ 140%</button>
+    </div>
+    <div class="mv-pop-theme-row">
+      <button type="button" id="mv-br-daylight" class="mv-br-theme-btn is-active">☀️ Phòng Sáng (Daylight)</button>
+      <button type="button" id="mv-br-dark" class="mv-br-theme-btn">🌙 Phòng Tối (Dark)</button>
+    </div>
+  </section>
+  <!-- Hộp sổ ra 2: Chọn nhanh Lớp 6–12 & Kho SGK -->
+  <section id="mv-grade-popover" class="mv-tool-popover glass" role="dialog" aria-label="Chọn nhanh lớp học" hidden>
+    <div class="mv-pop-head">
+      <strong>🏫 CHỌN LỚP & KHO HỌC LIỆU</strong>
+      <button id="mv-grade-popover-close" class="mv-pop-close" type="button" title="Thu gọn bảng chọn lớp">▲ Thu gọn</button>
+    </div>
+    <div class="mv-pop-grade-grid">
+      <button type="button" class="mv-pop-grade-btn is-active" data-grade="0">⌂ Sảnh Chính</button>
+      <button type="button" class="mv-pop-grade-btn" data-grade="6">Toán Lớp 6</button>
+      <button type="button" class="mv-pop-grade-btn" data-grade="7">Toán Lớp 7</button>
+      <button type="button" class="mv-pop-grade-btn" data-grade="8">Toán Lớp 8</button>
+      <button type="button" class="mv-pop-grade-btn" data-grade="9">Toán Lớp 9</button>
+      <button type="button" class="mv-pop-grade-btn" data-grade="10">Toán Lớp 10</button>
+      <button type="button" class="mv-pop-grade-btn" data-grade="11">Toán Lớp 11</button>
+      <button type="button" class="mv-pop-grade-btn" data-grade="12">Toán Lớp 12</button>
+    </div>
+    <div class="mv-pop-theme-row">
+      <button type="button" id="mv-pop-open-kho" class="mv-br-theme-btn is-active">📚 Mở Kho SGK 6–12</button>
+      <button type="button" id="mv-pop-open-studio" class="mv-br-theme-btn">⚡ Sơ đồ Chương 2D/3D</button>
+    </div>
+  </section>
+  <nav id="r6-breadcrumb-bar" class="r6-breadcrumb-bar glass" aria-label="Điều hướng phân cấp phòng học">
+    <ol class="r6-breadcrumbs" id="r6-breadcrumbs">
+      <li class="r6-crumb active" data-level="hall" tabindex="0" role="button" aria-current="location"><span class="crumb-icon">⌂</span> Sảnh Mathverse</li>
+    </ol>
+  </nav>
+  <!-- V15: four real portals in grade-six foyer; other rooms preserve their older layout -->
+  <section id="mv14-portal-hub" class="mv14-portal-hub" aria-label="Các cổng thần kỳ trong lớp" hidden>
+    <div class="mv14-portal-heading"><span id="mv14-portal-state">CHỌN CỔNG THẦN KỲ</span><span id="mv14-portal-count"></span></div>
+    <div id="mv14-portal-buttons" class="mv14-portal-buttons"></div>
+    <div class="mv14-portal-actions"><button id="mv14-portal-back" type="button" hidden>&#x21a9; Về sảnh 4 cổng</button><button id="mv15-hall-link" type="button" hidden>⌂ Sảnh bảo tàng</button><button id="mv14-math6-browse" type="button" hidden>Xem kho SGK Toán 6</button></div>
+  </section>
+  <div id="mv14-math6-drawer" class="mv14-math6-drawer" hidden>
+    <div class="mv14-math6-sheet"><header><h2>Kho thí nghiệm Toán 6</h2><button id="mv14-math6-close" type="button" aria-label="Đóng">&#xd7;</button></header>
+      <p>Chỉ hiển thị thí nghiệm thuộc cổng đã chọn. Nhấp vào một thẻ để mở bài trong cửa sổ Lab tích hợp.</p>
+      <input id="mv14-math6-filter" type="search" placeholder="Tìm theo tên thí nghiệm" aria-label="Tìm thí nghiệm Toán 6"/>
+      <div id="mv14-math6-cards" class="mv14-math6-grid"></div>
+    </div>
+  </div>
+  <!-- Bản đồ thu nhỏ 7 phòng trực quan -->
+  <aside id="minimap-panel" class="minimap-panel glass collapsed" aria-label="Bản đồ phòng học">
+    <div class="minimap-header">
+      <span>🗺 BẢN ĐỒ 7 PHÒNG</span>
+      <button id="minimap-expand" class="small-btn" type="button" title="Phóng to bản đồ (phím M)" aria-pressed="false">⤢</button>
+      <button id="minimap-toggle" class="small-btn" title="Thu gọn / Mở rộng">▼</button>
+    </div>
+    <div id="minimap-body">
+      <canvas id="minimap-canvas" width="240" height="145" title="Nhấp vào phòng để đến ngay"></canvas>
+      <div id="minimap-status" class="minimap-status">ĐẠI SẢNH TRUNG TÂM</div>
+      <div class="minimap-nav">
+        <button class="map-btn active" data-room="0" title="Về sảnh">⌂ Sảnh</button>
+        <button class="map-btn" data-room="6" title="Đến Lớp 6">L6</button>
+        <button class="map-btn" data-room="7" title="Đến Lớp 7">L7</button>
+        <button class="map-btn" data-room="8" title="Đến Lớp 8">L8</button>
+        <button class="map-btn" data-room="9" title="Đến Lớp 9">L9</button>
+        <button class="map-btn" data-room="10" title="Đến Lớp 10">L10</button>
+        <button class="map-btn" data-room="11" title="Đến Lớp 11">L11</button>
+        <button class="map-btn" data-room="12" title="Đến Lớp 12">L12</button>
+      </div>
+    </div>
+  </aside>
+
+  <div class="center-crosshair" aria-hidden="true">+</div>
+  <div class="world-hint glass" id="world-hint"><strong>W A S D</strong> để di chuyển · <strong>Giữ và rê chuột</strong> để nhìn · <strong>Nhấp mô hình</strong> để khám phá</div>
+  <div class="r8-top-zoom glass" id="r8-top-zoom" aria-label="Độ cao góc nhìn trên cao">
+    <span class="r8-top-zoom-label" id="r9-aerial-label">🛰 TRÊN CAO</span>
+    <button id="r8-top-zoom-in" type="button" title="Hạ thấp (nhìn gần hơn)">＋</button>
+    <input id="r9-aerial-height" type="range" min="0" max="100" value="27" aria-label="Độ cao camera" title="Kéo để nâng / hạ camera"/>
+    <button id="r8-top-zoom-out" type="button" title="Nâng cao (nhìn bao quát)">－</button>
+    <button id="r8-top-exit" type="button" title="Trở về góc nhìn 3D (phím T)">✕</button>
+  </div>
+  <div id="r9-shortcuts" class="r9-shortcuts glass" role="dialog" aria-label="Phím tắt" hidden>
+    <header><strong>⌨ Phím tắt</strong><button id="r9-shortcuts-close" type="button" aria-label="Đóng">✕</button></header>
+    <dl>
+      <dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></dt><dd>Di chuyển</dd>
+      <dt><kbd>E</kbd></dt><dd>Mở mô hình ở bục gần nhất</dd>
+      <dt><kbd>T</kbd></dt><dd>Bật / tắt góc Trên cao</dd>
+      <dt><kbd>G</kbd></dt><dd>Góc 3/4</dd>
+      <dt><kbd>O</kbd></dt><dd>Toàn cảnh cả phòng</dd>
+      <dt><kbd>M</kbd></dt><dd>Phóng to / thu nhỏ bản đồ</dd>
+      <dt>Rê chuột lên bục</dt><dd>Xem tên đầy đủ mô hình</dd>
+      <dt>Lăn chuột</dt><dd>Đổi độ cao / khoảng cách camera</dd>
+      <dt><kbd>?</kbd></dt><dd>Mở bảng này</dd>
+    </dl>
+  </div>
+  <div class="bottom-toolbar glass">
+    <div class="r9-grade-wrap">
+    <button id="r9-grade-toggle" type="button" aria-haspopup="true" aria-expanded="false" title="Chọn phòng học (Sảnh, Lớp 6–12)">🏫 <span id="r9-grade-current">Sảnh</span> <i aria-hidden="true">▾</i></button>
+    <div class="dock-grade-strip" aria-label="Chọn nhanh phòng học">
+      <button class="dock-grade-btn active" data-grade="0" title="Về sảnh trung tâm">⌂ Sảnh</button>
+      <button class="dock-grade-btn" data-grade="6" title="Đến phòng Lớp 6">L6</button>
+      <button class="dock-grade-btn" data-grade="7" title="Đến phòng Lớp 7">L7</button>
+      <button class="dock-grade-btn" data-grade="8" title="Đến phòng Lớp 8">L8</button>
+      <button class="dock-grade-btn" data-grade="9" title="Đến phòng Lớp 9">L9</button>
+      <button class="dock-grade-btn" data-grade="10" title="Đến phòng Lớp 10">L10</button>
+      <button class="dock-grade-btn" data-grade="11" title="Đến phòng Lớp 11">L11</button>
+      <button class="dock-grade-btn" data-grade="12" title="Đến phòng Lớp 12">L12</button>
+    </div>
+    </div>
+    <div class="dock-separator"></div>
+    <button id="btn-home" style="display:none;">⌂ <span>Về sảnh</span></button>
+    <button id="btn-focus8" style="display:none;">✧ <span>Đến lớp 8</span></button>
+    <div class="r9-view-seg" role="group" aria-label="Góc nhìn camera">
+      <button id="btn-view-mode">👤 <span>Góc nhìn: 3D</span></button>
+      <button id="btn-view-iso" type="button" title="Góc nghiêng 3/4 – thấy cả Lab mà vẫn có chiều sâu (phím G)" aria-pressed="false">◩ <span>Góc 3/4</span></button>
+      <button id="btn-view-top" title="Nhìn từ trên cao xuống (phím T) · Lăn chuột để nâng/hạ độ cao" aria-pressed="false">🛰 <span>Trên cao</span></button>
+      <button id="btn-view-overview" type="button" title="Toàn cảnh: khung hình vừa đủ cả phòng (phím O)" aria-pressed="false">⤢ <span>Toàn cảnh</span></button>
+    </div>
+    <div class="dock-separator"></div>
+    <button id="btn-avatar" title="Đổi nhân vật đại diện (Thầy Tùng, Minh Triết, Tuệ An, Bot Pi)">🎭 <span>Nhân vật</span></button>
+    <button id="btn-pointerlock">🎯 <span>Khóa chuột</span></button>
+    <button id="btn-sprint">⚡ <span>Tốc độ: Thường</span></button>
+    <label class="museum-quality-picker" title="Điều chỉnh chất lượng hiển thị theo cấu hình máy"><span>⚙ Đồ họa</span><select id="museum-render-quality" aria-label="Chất lượng đồ họa"><option value="auto">Tự động</option><option value="eco">Mượt / Tiết kiệm</option><option value="high">Đẹp / Chi tiết</option></select></label>
+    <button id="btn-shortcuts" type="button" title="Bảng phím tắt (phím ?)">⌨</button>
+    <div class="dock-separator"></div>
+    <button id="btn-stop">🛑 <span>Dừng</span></button>
+    <button id="btn-new" class="teacher-action" hidden>＋ <span>Thêm mô hình</span></button>
+    <button id="btn-undo" class="teacher-action" title="Hoàn tác thao tác trước" hidden>↩ <span>Hoàn tác</span></button>
+    <button id="btn-redo" class="teacher-action" title="Làm lại thao tác vừa hoàn tác" hidden>↪ <span>Làm lại</span></button>
+    <button id="btn-ai" class="teacher-action" hidden>✦ <span>Nhập ý tưởng / ảnh</span></button>
+    <button id="btn-export" class="teacher-action" hidden>⇩ <span>Xuất dữ liệu</span></button>
+    <button id="btn-import" class="teacher-action" hidden>⇧ <span>Nhập dữ liệu</span></button><button id="btn-reset" class="teacher-action" hidden>↺ <span>Khôi phục mẫu</span></button>
+    <input id="file-import" type="file" accept="application/json,.json" hidden/>
+    <div class="dock-separator"></div>
+    <button id="btn-dock-collapse" type="button" title="Cuộn gọn thanh công cụ phía dưới">▾ <span>Thu gọn</span></button>
+  </div>
+  <button id="dock-reopen-btn" class="dock-reopen-btn glass" type="button" title="Mở lại thanh điều khiển bên dưới">▴ Thanh công cụ</button>
+  <button id="mobile-menu-button" class="mobile-menu-btn">☰ Phòng học</button>
+  <div class="touch-pad" aria-label="Điều khiển cảm ứng">
+    <button data-move="w" aria-label="Đi tiến">▲</button>
+    <div><button data-move="a" aria-label="Sang trái">◀</button><button data-move="s" aria-label="Đi lùi">▼</button><button data-move="d" aria-label="Sang phải">▶</button></div>
+  </div>
+  <div id="toast" role="status" class="toast" hidden></div>
+  <div id="error-boot" class="fatal-overlay" hidden><div class="dialog-card"><h2>Không tải được bộ dựng hình 3D</h2><p id="boot-message">Kiểm tra mạng Internet và chạy lại ứng dụng.</p><p>Kiểm tra tệp Three.js trong thư mục vendor và khởi động lại ứng dụng.</p><a href="/mathverse3dtung/api/health" target="_blank">Kiểm tra máy chủ</a></div></div>
+
+  <div id="welcome-overlay" class="modal-overlay" hidden>
+    <section class="welcome-panel glass" role="dialog" aria-modal="true" aria-label="Chào mừng">
+      <div class="eyebrow">TRẢI NGHIỆM KHÔNG GIAN TOÁN HỌC</div>
+      <h1>7 phòng trưng bày.<br/><em>63 mô hình trong 7 lớp.</em></h1>
+      <p>Đi bộ qua 7 phòng Toán lớp 6–12, mở mô hình để khám phá, kéo mẫu trong kho dựng sẵn và chỉnh trực tiếp trên vùng làm việc. Có 42 mẫu mới bên cạnh 63 mô hình gốc.</p>
+      <div class="welcome-stats"><span>7 phòng học</span><span>63 trạm mẫu</span><span>29 loại mô hình</span></div>
+      <div class="welcome-buttons" style="display:flex;justify-content:center;width:100%;">
+        <button class="primary-btn" id="welcome-enter" style="font-size:16px;font-weight:700;padding:15px 36px;width:100%;max-width:380px;justify-content:center;box-shadow:0 0 25px rgba(112,217,208,0.45);cursor:pointer;letter-spacing:0.5px;">🚀 THAM GIA PHÒNG LAB TOÁN HỌC →</button>
+      </div>
+      <div class="welcome-direct-link" style="margin-top:14px;padding:9px 14px;background:rgba(11,31,51,0.65);border:1px solid rgba(112,217,208,0.3);border-radius:10px;text-align:center;font-size:13px;color:var(--muted);">
+        <span style="color:#70d9d0;font-weight:600;">🔗 Link truy cập trực tiếp:</span>
+        <a href="/lab" target="_blank" style="color:#ffffff;font-weight:700;margin:0 6px;text-decoration:underline;">/lab</a>
+        <span style="opacity:0.6;">hoặc</span>
+        <a href="/mathverse3dtung/r75/" target="_blank" style="color:#ffffff;font-weight:700;margin:0 6px;text-decoration:underline;">/r75/</a>
+        <span style="opacity:0.75;">(Vào thẳng không qua sảnh)</span>
+      </div>
+      <small style="margin-top:10px;display:block;">Trình duyệt Chrome hoặc Edge khuyến nghị. Không yêu cầu tài khoản.</small>
+    </section>
+  </div>
+  <div id="viewer-overlay" class="modal-overlay" hidden>
+    <section class="viewer-dialog glass" role="dialog" aria-modal="true" aria-labelledby="viewer-title">
+      <div class="viewer-bar"><div><span id="viewer-grade" class="eyebrow">LỚP 8</span><h2 id="viewer-title">Mô hình hình học</h2></div><button id="viewer-close" class="close-btn" title="Đóng">✕</button></div>
+      <div class="viewer-content">
+        <div class="viewer-stage">
+          <canvas id="viewer-canvas"></canvas>
+          <div class="viewer-canvas-help">Rê chuột để xoay · Lăn chuột để phóng to</div>
+          <div class="viewer-view-presets">
+            <button id="view-preset-iso" class="view-preset-btn active" title="Góc nhìn 3D phối cảnh">3D</button>
+            <button id="view-preset-front" class="view-preset-btn" title="Nhìn chính diện">Chính diện</button>
+            <button id="view-preset-top" class="view-preset-btn" title="Nhìn từ trên xuống">Từ trên</button>
+            <button id="view-preset-side" class="view-preset-btn" title="Nhìn từ bên">Từ bên</button>
+          </div>
+          <div class="viewer-stage-toolbar">
+            <button id="viewer-reset">↺ Đặt lại</button>
+            <button id="viewer-spin">Tự quay: Tắt</button>
+            <button id="viewer-export-png" title="Chụp ảnh mô hình 3D độ nét cao để dán vào bài giảng PowerPoint">📷 Xuất ảnh (PNG)</button>
+            <div class="viewer-mode-group">
+              <button id="viewer-mode-solid" class="mode-btn active" title="Hình đặc">Đặc</button>
+              <button id="viewer-mode-wire" class="mode-btn" title="Khung dây">Khung dây</button>
+              <button id="viewer-mode-trans" class="mode-btn" title="Bán trong suốt">Trong suốt</button>
+            </div>
+          </div>
+        </div>
+        <div class="viewer-info">
+          <h3>Kiến thức</h3><p id="viewer-description"></p>
+          <div class="formula-box">
+            <label>CÔNG THỨC TOÁN HỌC</label>
+            <div id="viewer-formula" class="formula-text"></div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:6px;">
+              <button id="viewer-copy" type="button">📋 Sao chép LaTeX</button>
+              <button id="viewer-speak" type="button" style="background:linear-gradient(135deg,#6d28d9,#9333ea);color:#fff;border:1px solid #d8b4fe;border-radius:8px;padding:6px 12px;font-weight:700;cursor:pointer;">🔊 Thuyết minh Tiếng Việt</button>
+            </div>
+          </div>
+          <h3>Chỉnh sửa hình trực tiếp</h3>
+          <div id="param-controls"></div>
+          <div class="toggles">
+            <label><input id="viewer-edges" type="checkbox" checked/> Cạnh</label>
+            <label><input id="viewer-faces" type="checkbox" checked/> Mặt</label>
+            <label><input id="viewer-axes" type="checkbox" checked/> Trục Oxyz</label>
+            <label><input id="viewer-grid" type="checkbox" checked/> Lưới</label>
+            <label><input id="viewer-labels" type="checkbox" checked/> Nhãn đỉnh</label>
+          </div>
+          <div id="viewer-simulations" class="simulations-box" hidden>
+            <label class="section-label">MÔ PHỎNG TOÁN HỌC THỰC</label>
+            <div id="cross-section-control" class="sim-row" hidden>
+              <label class="sim-check"><input id="viewer-cross-section" type="checkbox"/> 📐 <b>Mặt phẳng cắt (Thiết diện)</b></label>
+              <div id="cross-section-slider-wrap" class="sim-slider" hidden>
+                <div class="sim-slider-head"><span>Vị trí cắt:</span> <output id="cross-section-val">50%</output></div>
+                <input id="cross-section-slider" type="range" min="5" max="95" value="50" step="1"/>
+                <div id="cross-section-math" class="sim-math-info"></div>
+              </div>
+            </div>
+            <div id="unfold-control" class="sim-row" hidden>
+              <label class="sim-check"><input id="viewer-unfold" type="checkbox"/> 📦 <b>Trải hình phẳng 2D (Khai triển)</b></label>
+              <div id="unfold-slider-wrap" class="sim-slider" hidden>
+                <div class="sim-slider-head"><span>Độ mở phẳng:</span> <output id="unfold-val">0%</output></div>
+                <input id="unfold-slider" type="range" min="0" max="100" value="0" step="1"/>
+              </div>
+            </div>
+          </div>
+          <div class="metrics" id="viewer-metrics"></div>
+          <button class="primary-btn full" id="viewer-save" hidden>Lưu thông số này (giáo viên)</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div id="editor-overlay" class="modal-overlay" hidden>
+    <form id="editor-form" class="editor-dialog glass" role="dialog" aria-modal="true" aria-labelledby="editor-heading">
+      <div class="dialog-head"><div><span class="eyebrow">KHU VỰC GIÁO VIÊN</span><h2 id="editor-heading">Thêm mô hình mới</h2></div><button type="button" data-close="editor-overlay" class="close-btn">✕</button></div>
+      <div class="form-grid">
+        <label>Khối lớp<select id="editor-grade" required></select></label>
+        <label>Loại hình 3D<select id="editor-type" required></select></label>
+        <label class="wide">Tên mô hình<input id="editor-title" maxlength="110" required/></label>
+        <label>Chương sách (SGK)<input id="editor-chapter" maxlength="60" placeholder="Ví dụ: Chương IV"/></label>
+        <label>Bộ sách / Nguồn<input id="editor-source" maxlength="60" placeholder="Kết nối tri thức / Cánh diều"/></label>
+        <label>Chủ đề<input id="editor-category" maxlength="50" placeholder="Hình học không gian"/></label>
+        <label>Màu sắc 3D<input id="editor-color" type="color" value="#4cd2b2"/></label>
+        <label class="wide">Nội dung giải thích<textarea id="editor-description" rows="3" maxlength="800"></textarea></label>
+        <label class="wide">Công thức LaTeX<input id="editor-formula" maxlength="300" placeholder="V=\\frac{1}{3}a^2h"/></label>
+      </div>
+      <h3>Thông số ban đầu</h3><div id="editor-param-fields" class="form-grid"></div>
+      <div class="dialog-actions"><button type="button" class="secondary-btn" data-close="editor-overlay">Hủy</button><button type="button" class="danger-btn" id="editor-delete" hidden>Ẩn / Xóa mô hình</button><button type="submit" class="primary-btn">Lưu vào phòng học</button></div>
+    </form>
+  </div>
+  <div id="ai-overlay" class="modal-overlay" hidden>
+    <div class="editor-dialog glass" role="dialog" aria-modal="true" aria-labelledby="ai-heading">
+      <div class="dialog-head"><div><span class="eyebrow">GIÁO VIÊN · TẠO MÔ HÌNH</span><h2 id="ai-heading">Chỉ nhập ý tưởng hoặc ảnh</h2></div><button data-close="ai-overlay" class="close-btn">✕</button></div>
+      <p class="muted">AI chỉ có thể chọn trong các loại hình được hỗ trợ. Mô hình mới sẽ mở ở bước kiểm tra trước khi đưa vào phòng lớp.</p>
+      <div class="form-grid"><label>Đưa vào khối lớp<select id="ai-grade"></select></label><label>Ảnh đề bài (không bắt buộc)<input id="ai-file" type="file" accept="image/jpeg,image/png,image/webp"/></label></div>
+      <label class="ai-prompt-label">Nội dung cô muốn dựng<textarea rows="5" id="ai-prompt" placeholder="Ví dụ: Tạo hình chóp tứ giác đều lớp 8, cạnh đáy 4cm, chiều cao 3cm, cho phép thay đổi chiều cao."></textarea></label>
+      <div class="dialog-actions"><button id="ai-offline" class="secondary-btn">Dùng mẫu từ khóa (không cần API)</button><button id="ai-generate" class="primary-btn">✦ Phân tích bằng Gemini</button></div>
+      <div id="ai-result" class="ai-result" aria-live="polite">Chưa tạo mô hình. Ảnh chỉ gửi tới Gemini khi cô nhấn “Phân tích bằng Gemini”.</div>
+      <small>Để dùng Gemini, chạy <code>CAI_DAT_AI.bat</code> một lần. Không tải ảnh có thông tin cá nhân của học sinh.</small>
+    </div>
+  </div>
+  <div id="help-overlay" class="modal-overlay" hidden>
+    <section class="editor-dialog glass" role="dialog" aria-modal="true" aria-label="Hướng dẫn sử dụng">
+      <div class="dialog-head"><h2>Hướng dẫn sử dụng</h2><button data-close="help-overlay" class="close-btn">✕</button></div>
+      <div class="help-grid"><div><b>01 · Vào từng phòng</b><p>Đi theo biển Lớp 6–12 tại sảnh; hoặc nhấn một nút lớp ở cột bên trái để đến phòng nhanh.</p></div><div><b>02 · Điều khiển</b><p>W tiến, S lùi, A trái, D phải, Shift đi nhanh. Giữ và rê chuột trên khung 3D để xoay góc nhìn.</p></div><div><b>03 · Xem mô hình</b><p>Nhấp vào hình 3D hoặc tên ở danh mục. Kéo thanh tham số trong cửa sổ lớn để thay đổi hình thật.</p></div><div><b>04 · Chế độ giáo viên</b><p>Bật ⚙ Giáo viên để thêm/sửa/xóa mô hình và xuất/nhập dữ liệu JSON. Dữ liệu chỉ lưu trên trình duyệt này.</p></div><div><b>05 · AI</b><p>Nhập ý tưởng có thể nhận mẫu hình offline. Đọc ảnh yêu cầu API Gemini đã cấu hình trên máy; cô phải kiểm tra hình trước khi lưu.</p></div><div><b>06 · Dự phòng</b><p>Thường xuyên chọn Xuất dữ liệu để sao lưu. Xóa lịch sử trang web có thể xóa mô hình tự thêm.</p></div></div>
+      <p class="muted small">Tham khảo luồng trải nghiệm: <a href="https://github.com/nandana-das/interactive-3d-virtual-museum" target="_blank" rel="noopener noreferrer">Interactive 3D Virtual Museum — Nandana Das</a>. Mã của ứng dụng Toán được viết riêng.</p>
+    </section>
+  </div>
+  <div id="avatar-overlay" class="modal-overlay" hidden>
+    <section class="editor-dialog glass" role="dialog" aria-modal="true" aria-label="Chọn nhân vật 3D" style="max-width: 650px;">
+      <div class="dialog-head">
+        <div>
+          <span class="eyebrow">MATHVERSE 3D AVATAR</span>
+          <h2>Chọn nhân vật đại diện</h2>
+        </div>
+        <button data-close="avatar-overlay" class="close-btn">✕</button>
+      </div>
+      <p class="muted">Hóa thân vào một nhân vật để khám phá không gian Toán học 3D với góc nhìn thứ ba sống động.</p>
+      <div class="avatar-card-grid">
+        <div class="avatar-card" data-avatar="alex">
+          <div class="avatar-icon">👨‍🏫</div>
+          <strong>Thầy Tùng (Chibi 3D)</strong>
+          <small>Giảng viên Toán học · Áo vest &amp; Mũ cử nhân Chibi</small>
+        </div>
+        <div class="avatar-card" data-avatar="triet">
+          <div class="avatar-icon">👦</div>
+          <strong>Minh Triết (Chibi 3D)</strong>
+          <small>Nam sinh năng động · Hoodie &amp; Tai nghe số Chibi</small>
+        </div>
+        <div class="avatar-card" data-avatar="an">
+          <div class="avatar-icon">👧</div>
+          <strong>Tuệ An (Chibi 3D)</strong>
+          <small>Nữ sinh thông thái · Nơ ruby &amp; Ba lô pha lê Chibi</small>
+        </div>
+        <div class="avatar-card" data-avatar="bot">
+          <div class="avatar-icon">🤖</div>
+          <strong>Bot Pi (Chibi 3D)</strong>
+          <small>Robot trợ lý Sci-Fi · Mặt kính LED &amp; Vòng quỹ đạo</small>
+        </div>
+        <div class="avatar-card" data-avatar="suhocba">
+          <div class="avatar-icon">🧘</div>
+          <strong>Sư Học Bá (Chibi 3D)</strong>
+          <small>Sư chùa đầu trọc Chibi · 6 chấm giới hương, Áo cà sa &amp; Tràng hạt</small>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div id="npc-overlay" class="modal-overlay" hidden>
+    <section class="editor-dialog glass" role="dialog" aria-modal="true" aria-label="Hướng dẫn viên lớp học" style="max-width: 620px;">
+      <div class="dialog-head">
+        <div style="display:flex; align-items:center; gap:12px;">
+          <div id="npc-dialog-icon" style="font-size:36px; line-height:1;">👨‍🏫</div>
+          <div>
+            <span id="npc-dialog-badge" class="eyebrow" style="color:var(--dock-accent,#38bdf8);">HƯỚNG DẪN VIÊN</span>
+            <h2 id="npc-dialog-title" style="margin:0; font-size:20px;">Thầy Tùng · Lớp 8</h2>
+          </div>
+        </div>
+        <button data-close="npc-overlay" class="close-btn">✕</button>
+      </div>
+      <div id="npc-dialog-quote" style="background:rgba(255,255,255,0.04); border-left:3px solid #38bdf8; padding:14px 16px; border-radius:8px; margin:14px 0; font-size:15px; line-height:1.6; color:#f1f5f9;">
+        "Lời chào và lời khuyên bài học..."
+      </div>
+      <div style="margin-bottom:14px;">
+        <span style="font-size:12px; font-weight:700; color:#94a3b8; text-transform:uppercase; letter-spacing:0.05em;">Chủ đề trọng tâm khối lớp:</span>
+        <ul id="npc-dialog-topics" style="margin:8px 0 0 0; padding-left:20px; font-size:14px; line-height:1.7; color:#cbd5e1;"></ul>
+      </div>
+      <div class="dialog-actions" style="margin-top:16px; display:flex; justify-content:space-between; align-items:center;">
+        <button type="button" id="npc-dialog-speak" class="secondary-btn" style="display:flex; align-items:center; gap:6px;">
+          <span>🔊</span> Nghe giọng đọc
+        </button>
+        <div style="display:flex; gap:8px;">
+          <button type="button" class="secondary-btn" data-close="npc-overlay">Đóng (Esc)</button>
+          <button type="button" id="npc-dialog-explore" class="primary-btn" style="display:flex; align-items:center; gap:6px;">
+            <span>🚀</span> Khám phá bài học
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script type="module" src="/mathverse3dtung/src/bootstrap.js?v=r107.5"></script>
+
+</body>
+</html>

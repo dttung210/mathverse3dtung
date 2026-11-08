@@ -1,0 +1,5733 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 10,
+      "chapter": 4,
+      "roman": "IV",
+      "title": "VECTƠ",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "10-04-01",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ?",
+          "choices": {
+            "A": "\\overrightarrow{AB} + \\overrightarrow{AC} = \\overrightarrow{BC}",
+            "B": "\\overrightarrow{AB} - \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "C": "\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "D": "\\overrightarrow{BA} + \\overrightarrow{BC} = \\overrightarrow{AC}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " - "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BA}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ?",
+            "choices": {
+              "A": "$\\overrightarrow{AB}$ + $\\overrightarrow{AC}$ = $\\overrightarrow{BC}$",
+              "B": "$\\overrightarrow{AB}$ - $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "C": "$\\overrightarrow{AB}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "D": "$\\overrightarrow{BA}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-02",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 3) và B(4; 7). Tọa độ của vectơ \\overrightarrow{AB} là.",
+          "choices": {
+            "A": "(5; 10)",
+            "B": "(-3; -4)",
+            "C": "(3; 4)",
+            "D": "(4; 3)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 3) và B(4; 7). Tọa độ của vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " là."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(5; 10)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-3; -4)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(3; 4)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(4; 3)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 3) và B(4; 7). Tọa độ của vectơ $\\overrightarrow{AB}$ là.",
+            "choices": {
+              "A": "(5; 10)",
+              "B": "(-3; -4)",
+              "C": "(3; 4)",
+              "D": "(4; 3)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-03",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương IV, xét nội dung: Cho hai vectơ \\vec{u} = (2; 3) và \\vec{v} = (3; -2). Tích vô hướng \\vec{u} · \\vec{v} bằng. Đáp án đúng là",
+          "choices": {
+            "A": "(6; -6)",
+            "B": "12",
+            "C": "0",
+            "D": "0 (1)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương IV, xét nội dung: Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (2; 3) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2). Tích vô hướng "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(6; -6)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0 (1)"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương IV, xét nội dung: Cho hai vectơ $\\vec{u}$ = (2; 3) và $\\vec{v}$ = (3; -2). Tích vô hướng $\\vec{u}$ $\\cdot$ $\\vec{v}$ bằng. Đáp án đúng là",
+            "choices": {
+              "A": "(6; -6)",
+              "B": "12",
+              "C": "0",
+              "D": "0 (1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-04",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương IV (Vectơ), với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ",
+          "choices": {
+            "A": "\\overrightarrow{AB} + \\overrightarrow{AC} = \\overrightarrow{BC}",
+            "B": "\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "C": "\\overrightarrow{BA} + \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "D": "\\overrightarrow{AB} - \\overrightarrow{BC} = \\overrightarrow{AC}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương IV (Vectơ), với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BA}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " - "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương IV (Vectơ), với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ",
+            "choices": {
+              "A": "$\\overrightarrow{AB}$ + $\\overrightarrow{AC}$ = $\\overrightarrow{BC}$",
+              "B": "$\\overrightarrow{AB}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "C": "$\\overrightarrow{BA}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "D": "$\\overrightarrow{AB}$ - $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-05",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 6) và B(4; 10). Tọa độ của vectơ \\overrightarrow{AB} là",
+          "choices": {
+            "A": "(-3; -4)",
+            "B": "(3; 4)",
+            "C": "(5; 16)",
+            "D": "(4; 3)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 6) và B(4; 10). Tọa độ của vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-3; -4)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(3; 4)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(5; 16)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(4; 3)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 6) và B(4; 10). Tọa độ của vectơ $\\overrightarrow{AB}$ là",
+            "choices": {
+              "A": "(-3; -4)",
+              "B": "(3; 4)",
+              "C": "(5; 16)",
+              "D": "(4; 3)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-06",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về vectơ, một học sinh gặp câu hỏi: Cho hai vectơ \\vec{u} = (2; 6) và \\vec{v} = (3; -2). Tích vô hướng \\vec{u} · \\vec{v} bằng. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "-6",
+            "B": "-6 (1)",
+            "C": "18",
+            "D": "(6; -12)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về vectơ, một học sinh gặp câu hỏi: Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (2; 6) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2). Tích vô hướng "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-6 (1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(6; -12)"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về vectơ, một học sinh gặp câu hỏi: Cho hai vectơ $\\vec{u}$ = (2; 6) và $\\vec{v}$ = (3; -2). Tích vô hướng $\\vec{u}$ $\\cdot$ $\\vec{v}$ bằng. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "-6",
+              "B": "-6 (1)",
+              "C": "18",
+              "D": "(6; -12)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-07",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ",
+          "choices": {
+            "A": "\\overrightarrow{AB} - \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "B": "\\overrightarrow{BA} + \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "C": "\\overrightarrow{AB} + \\overrightarrow{AC} = \\overrightarrow{BC}",
+            "D": "\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " - "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BA}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ",
+            "choices": {
+              "A": "$\\overrightarrow{AB}$ - $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "B": "$\\overrightarrow{BA}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "C": "$\\overrightarrow{AB}$ + $\\overrightarrow{AC}$ = $\\overrightarrow{BC}$",
+              "D": "$\\overrightarrow{AB}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-08",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 9) và B(4; 13). Tọa độ của vectơ \\overrightarrow{AB} là",
+          "choices": {
+            "A": "(5; 22)",
+            "B": "(3; 4)",
+            "C": "(4; 3)",
+            "D": "(-3; -4)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 9) và B(4; 13). Tọa độ của vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(5; 22)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(3; 4)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(4; 3)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-3; -4)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương IV: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 9) và B(4; 13). Tọa độ của vectơ $\\overrightarrow{AB}$ là",
+            "choices": {
+              "A": "(5; 22)",
+              "B": "(3; 4)",
+              "C": "(4; 3)",
+              "D": "(-3; -4)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-09",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Cho hai vectơ \\vec{u} = (2; 9) và \\vec{v} = (3; -2). Tích vô hướng \\vec{u} · \\vec{v} bằng",
+          "choices": {
+            "A": "(6; -18)",
+            "B": "-12",
+            "C": "-12 (1)",
+            "D": "24"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (2; 9) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2). Tích vô hướng "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(6; -18)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-12 (1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Cho hai vectơ $\\vec{u}$ = (2; 9) và $\\vec{v}$ = (3; -2). Tích vô hướng $\\vec{u}$ $\\cdot$ $\\vec{v}$ bằng",
+            "choices": {
+              "A": "(6; -18)",
+              "B": "-12",
+              "C": "-12 (1)",
+              "D": "24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-10",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ. Phương án chính xác là",
+          "choices": {
+            "A": "\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "B": "\\overrightarrow{AB} + \\overrightarrow{AC} = \\overrightarrow{BC}",
+            "C": "\\overrightarrow{BA} + \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "D": "\\overrightarrow{AB} - \\overrightarrow{BC} = \\overrightarrow{AC}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BA}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " - "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ. Phương án chính xác là",
+            "choices": {
+              "A": "$\\overrightarrow{AB}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "B": "$\\overrightarrow{AB}$ + $\\overrightarrow{AC}$ = $\\overrightarrow{BC}$",
+              "C": "$\\overrightarrow{BA}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "D": "$\\overrightarrow{AB}$ - $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-11",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 12) và B(4; 16). Tọa độ của vectơ \\overrightarrow{AB} là",
+          "choices": {
+            "A": "(5; 28)",
+            "B": "(3; 4)",
+            "C": "(-3; -4)",
+            "D": "(4; 3)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 12) và B(4; 16). Tọa độ của vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(5; 28)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(3; 4)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-3; -4)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(4; 3)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 12) và B(4; 16). Tọa độ của vectơ $\\overrightarrow{AB}$ là",
+            "choices": {
+              "A": "(5; 28)",
+              "B": "(3; 4)",
+              "C": "(-3; -4)",
+              "D": "(4; 3)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-12",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Cho hai vectơ \\vec{u} = (2; 12) và \\vec{v} = (3; -2). Tích vô hướng \\vec{u} · \\vec{v} bằng",
+          "choices": {
+            "A": "-18 (1)",
+            "B": "30",
+            "C": "(6; -24)",
+            "D": "-18"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (2; 12) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2). Tích vô hướng "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-18 (1)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(6; -24)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-18"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương IV): Cho hai vectơ $\\vec{u}$ = (2; 12) và $\\vec{v}$ = (3; -2). Tích vô hướng $\\vec{u}$ $\\cdot$ $\\vec{v}$ bằng",
+            "choices": {
+              "A": "-18 (1)",
+              "B": "30",
+              "C": "(6; -24)",
+              "D": "-18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-13",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ",
+          "choices": {
+            "A": "\\overrightarrow{AB} + \\overrightarrow{AC} = \\overrightarrow{BC}",
+            "B": "\\overrightarrow{AB} - \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "C": "\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "D": "\\overrightarrow{BA} + \\overrightarrow{BC} = \\overrightarrow{AC}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " - "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BA}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương IV), với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ",
+            "choices": {
+              "A": "$\\overrightarrow{AB}$ + $\\overrightarrow{AC}$ = $\\overrightarrow{BC}$",
+              "B": "$\\overrightarrow{AB}$ - $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "C": "$\\overrightarrow{AB}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "D": "$\\overrightarrow{BA}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-14",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 15) và B(4; 19). Tọa độ của vectơ \\overrightarrow{AB} là",
+          "choices": {
+            "A": "(3; 4)",
+            "B": "(-3; -4)",
+            "C": "(4; 3)",
+            "D": "(5; 34)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 15) và B(4; 19). Tọa độ của vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(3; 4)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-3; -4)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(4; 3)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(5; 34)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 15) và B(4; 19). Tọa độ của vectơ $\\overrightarrow{AB}$ là",
+            "choices": {
+              "A": "(3; 4)",
+              "B": "(-3; -4)",
+              "C": "(4; 3)",
+              "D": "(5; 34)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-15",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương IV: Cho hai vectơ \\vec{u} = (2; 15) và \\vec{v} = (3; -2). Tích vô hướng \\vec{u} · \\vec{v} bằng. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "36",
+            "B": "-24 (1)",
+            "C": "-24",
+            "D": "(6; -30)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương IV: Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (2; 15) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2). Tích vô hướng "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-24 (1)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-24"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(6; -30)"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương IV: Cho hai vectơ $\\vec{u}$ = (2; 15) và $\\vec{v}$ = (3; -2). Tích vô hướng $\\vec{u}$ $\\cdot$ $\\vec{v}$ bằng. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "36",
+              "B": "-24 (1)",
+              "C": "-24",
+              "D": "(6; -30)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-16",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ",
+          "choices": {
+            "A": "\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "B": "\\overrightarrow{BA} + \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "C": "\\overrightarrow{AB} - \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "D": "\\overrightarrow{AB} + \\overrightarrow{AC} = \\overrightarrow{BC}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BA}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " - "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ",
+            "choices": {
+              "A": "$\\overrightarrow{AB}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "B": "$\\overrightarrow{BA}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "C": "$\\overrightarrow{AB}$ - $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "D": "$\\overrightarrow{AB}$ + $\\overrightarrow{AC}$ = $\\overrightarrow{BC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-17",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 18) và B(4; 22). Tọa độ của vectơ \\overrightarrow{AB} là?",
+          "choices": {
+            "A": "(-3; -4)",
+            "B": "(4; 3)",
+            "C": "(3; 4)",
+            "D": "(5; 40)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 18) và B(4; 22). Tọa độ của vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " là?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-3; -4)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(4; 3)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(3; 4)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(5; 40)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 18) và B(4; 22). Tọa độ của vectơ $\\overrightarrow{AB}$ là?",
+            "choices": {
+              "A": "(-3; -4)",
+              "B": "(4; 3)",
+              "C": "(3; 4)",
+              "D": "(5; 40)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-18",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương IV: Cho hai vectơ \\vec{u} = (2; 18) và \\vec{v} = (3; -2). Tích vô hướng \\vec{u} · \\vec{v} bằng",
+          "choices": {
+            "A": "(6; -36)",
+            "B": "-30",
+            "C": "42",
+            "D": "-30 (1)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương IV: Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (2; 18) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2). Tích vô hướng "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(6; -36)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-30"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "42"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-30 (1)"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương IV: Cho hai vectơ $\\vec{u}$ = (2; 18) và $\\vec{v}$ = (3; -2). Tích vô hướng $\\vec{u}$ $\\cdot$ $\\vec{v}$ bằng",
+            "choices": {
+              "A": "(6; -36)",
+              "B": "-30",
+              "C": "42",
+              "D": "-30 (1)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-19",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "\\overrightarrow{BA} + \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "B": "\\overrightarrow{AB} + \\overrightarrow{AC} = \\overrightarrow{BC}",
+            "C": "\\overrightarrow{AB} - \\overrightarrow{BC} = \\overrightarrow{AC}",
+            "D": "\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BA}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " - "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{BC}"
+              },
+              {
+                "t": "txt",
+                "v": " = "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Với ba điểm A, B, C bất kỳ, đẳng thức nào sau đây là quy tắc ba điểm đối với phép cộng vectơ. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "$\\overrightarrow{BA}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "B": "$\\overrightarrow{AB}$ + $\\overrightarrow{AC}$ = $\\overrightarrow{BC}$",
+              "C": "$\\overrightarrow{AB}$ - $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$",
+              "D": "$\\overrightarrow{AB}$ + $\\overrightarrow{BC}$ = $\\overrightarrow{AC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-20",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 21) và B(4; 25). Tọa độ của vectơ \\overrightarrow{AB} là",
+          "choices": {
+            "A": "(5; 46)",
+            "B": "(4; 3)",
+            "C": "(3; 4)",
+            "D": "(-3; -4)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 21) và B(4; 25). Tọa độ của vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(5; 46)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(4; 3)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(3; 4)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-3; -4)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương IV để giải quyết yêu cầu: Trong mặt phẳng tọa độ Oxy, cho hai điểm A(1; 21) và B(4; 25). Tọa độ của vectơ $\\overrightarrow{AB}$ là",
+            "choices": {
+              "A": "(5; 46)",
+              "B": "(4; 3)",
+              "C": "(3; 4)",
+              "D": "(-3; -4)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-21",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Cho hình vuông ABCD có độ dài cạnh bằng 3. Độ dài của vectơ tổng |\\overrightarrow{AB} + \\overrightarrow{AD}| bằng",
+          "choices": {
+            "A": "0",
+            "B": "3\\sqrt{2}",
+            "C": "6",
+            "D": "3"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho hình vuông ABCD có độ dài cạnh bằng 3. Độ dài của vectơ tổng |"
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AD}"
+            },
+            {
+              "t": "txt",
+              "v": "| bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho hình vuông ABCD có độ dài cạnh bằng 3. Độ dài của vectơ tổng |$\\overrightarrow{AB}$ + $\\overrightarrow{AD}$| bằng",
+            "choices": {
+              "A": "0",
+              "B": "3$\\sqrt{2}$",
+              "C": "6",
+              "D": "3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-22",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương IV (Vectơ) để giải bài toán: Trong mặt phẳng Oxy, tìm m để hai vectơ \\vec{a} = (3; -2) và \\vec{b} = (12; m) cùng phương",
+          "choices": {
+            "A": "m = 18",
+            "B": "m = -18",
+            "C": "m = -8",
+            "D": "m = 8"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương IV (Vectơ) để giải bài toán: Trong mặt phẳng Oxy, tìm m để hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{a}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{b}"
+            },
+            {
+              "t": "txt",
+              "v": " = (12; m) cùng phương"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = 18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = -18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = -8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = 8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương IV (Vectơ) để giải bài toán: Trong mặt phẳng Oxy, tìm m để hai vectơ $\\vec{a}$ = (3; -2) và $\\vec{b}$ = (12; m) cùng phương",
+            "choices": {
+              "A": "m = 18",
+              "B": "m = -18",
+              "C": "m = -8",
+              "D": "m = 8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-23",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương IV: Cho hai vectơ \\vec{u} = (4; 3) và \\vec{v} = (-6; m). Giá trị của m để \\vec{u} vuông góc với \\vec{v} (\\vec{u} \\perp \\vec{v}) là. Kết quả thu được là",
+          "choices": {
+            "A": "m = -8",
+            "B": "m = 8",
+            "C": "m = 0",
+            "D": "m = 12"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương IV: Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (4; 3) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (-6; m). Giá trị của m để "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " vuông góc với "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\perp"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": ") là. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = -8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = 8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = 12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương IV: Cho hai vectơ $\\vec{u}$ = (4; 3) và $\\vec{v}$ = (-6; m). Giá trị của m để $\\vec{u}$ vuông góc với $\\vec{v}$ ($\\vec{u}$ $\\perp$ $\\vec{v}$) là. Kết quả thu được là",
+            "choices": {
+              "A": "m = -8",
+              "B": "m = 8",
+              "C": "m = 0",
+              "D": "m = 12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-24",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Cho hình vuông ABCD có độ dài cạnh bằng 6. Độ dài của vectơ tổng |\\overrightarrow{AB} + \\overrightarrow{AD}| bằng. Đáp án đúng là",
+          "choices": {
+            "A": "6\\sqrt{2}",
+            "B": "12",
+            "C": "0",
+            "D": "6"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Cho hình vuông ABCD có độ dài cạnh bằng 6. Độ dài của vectơ tổng |"
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AD}"
+            },
+            {
+              "t": "txt",
+              "v": "| bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Cho hình vuông ABCD có độ dài cạnh bằng 6. Độ dài của vectơ tổng |$\\overrightarrow{AB}$ + $\\overrightarrow{AD}$| bằng. Đáp án đúng là",
+            "choices": {
+              "A": "6$\\sqrt{2}$",
+              "B": "12",
+              "C": "0",
+              "D": "6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-25",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Trong mặt phẳng Oxy, tìm m để hai vectơ \\vec{a} = (3; -2) và \\vec{b} = (12; m) cùng phương",
+          "choices": {
+            "A": "m = -8",
+            "B": "m = 18",
+            "C": "m = -18",
+            "D": "m = 8"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Trong mặt phẳng Oxy, tìm m để hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{a}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{b}"
+            },
+            {
+              "t": "txt",
+              "v": " = (12; m) cùng phương"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = -8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = 18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = -18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = 8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương IV, hãy xác định: Trong mặt phẳng Oxy, tìm m để hai vectơ $\\vec{a}$ = (3; -2) và $\\vec{b}$ = (12; m) cùng phương",
+            "choices": {
+              "A": "m = -8",
+              "B": "m = 18",
+              "C": "m = -18",
+              "D": "m = 8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-26",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Cho hai vectơ \\vec{u} = (7; 3) và \\vec{v} = (-6; m). Giá trị của m để \\vec{u} vuông góc với \\vec{v} (\\vec{u} \\perp \\vec{v}) là. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "m = -14",
+            "B": "m = 0",
+            "C": "m = 14",
+            "D": "m = 21"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (7; 3) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (-6; m). Giá trị của m để "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " vuông góc với "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\perp"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": ") là. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = -14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = 14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = 21"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Cho hai vectơ $\\vec{u}$ = (7; 3) và $\\vec{v}$ = (-6; m). Giá trị của m để $\\vec{u}$ vuông góc với $\\vec{v}$ ($\\vec{u}$ $\\perp$ $\\vec{v}$) là. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "m = -14",
+              "B": "m = 0",
+              "C": "m = 14",
+              "D": "m = 21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-27",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Cho hình vuông ABCD có độ dài cạnh bằng 9. Độ dài của vectơ tổng |\\overrightarrow{AB} + \\overrightarrow{AD}| bằng",
+          "choices": {
+            "A": "9\\sqrt{2}",
+            "B": "0",
+            "C": "18",
+            "D": "9"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Cho hình vuông ABCD có độ dài cạnh bằng 9. Độ dài của vectơ tổng |"
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AD}"
+            },
+            {
+              "t": "txt",
+              "v": "| bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương IV vào bài tập sau: Cho hình vuông ABCD có độ dài cạnh bằng 9. Độ dài của vectơ tổng |$\\overrightarrow{AB}$ + $\\overrightarrow{AD}$| bằng",
+            "choices": {
+              "A": "9$\\sqrt{2}$",
+              "B": "0",
+              "C": "18",
+              "D": "9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-28",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Trong mặt phẳng Oxy, tìm m để hai vectơ \\vec{a} = (3; -2) và \\vec{b} = (12; m) cùng phương",
+          "choices": {
+            "A": "m = -18",
+            "B": "m = 18",
+            "C": "m = 8",
+            "D": "m = -8"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Trong mặt phẳng Oxy, tìm m để hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{a}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{b}"
+            },
+            {
+              "t": "txt",
+              "v": " = (12; m) cùng phương"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = -18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = 18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = 8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = -8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Trong mặt phẳng Oxy, tìm m để hai vectơ $\\vec{a}$ = (3; -2) và $\\vec{b}$ = (12; m) cùng phương",
+            "choices": {
+              "A": "m = -18",
+              "B": "m = 18",
+              "C": "m = 8",
+              "D": "m = -8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-29",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Vectơ): Cho hai vectơ \\vec{u} = (10; 3) và \\vec{v} = (-6; m). Giá trị của m để \\vec{u} vuông góc với \\vec{v} (\\vec{u} \\perp \\vec{v}) là. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "m = 30",
+            "B": "m = 20",
+            "C": "m = 0",
+            "D": "m = -20"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Vectơ): Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (10; 3) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (-6; m). Giá trị của m để "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " vuông góc với "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\perp"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": ") là. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = 30"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = 20"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = -20"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Vectơ): Cho hai vectơ $\\vec{u}$ = (10; 3) và $\\vec{v}$ = (-6; m). Giá trị của m để $\\vec{u}$ vuông góc với $\\vec{v}$ ($\\vec{u}$ $\\perp$ $\\vec{v}$) là. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "m = 30",
+              "B": "m = 20",
+              "C": "m = 0",
+              "D": "m = -20"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-30",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Cho hình vuông ABCD có độ dài cạnh bằng 12. Độ dài của vectơ tổng |\\overrightarrow{AB} + \\overrightarrow{AD}| bằng",
+          "choices": {
+            "A": "0",
+            "B": "12\\sqrt{2}",
+            "C": "24",
+            "D": "12"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Cho hình vuông ABCD có độ dài cạnh bằng 12. Độ dài của vectơ tổng |"
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AD}"
+            },
+            {
+              "t": "txt",
+              "v": "| bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương IV, hãy tìm kết quả của bài toán: Cho hình vuông ABCD có độ dài cạnh bằng 12. Độ dài của vectơ tổng |$\\overrightarrow{AB}$ + $\\overrightarrow{AD}$| bằng",
+            "choices": {
+              "A": "0",
+              "B": "12$\\sqrt{2}$",
+              "C": "24",
+              "D": "12"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-31",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Trong mặt phẳng Oxy, tìm m để hai vectơ \\vec{a} = (3; -2) và \\vec{b} = (12; m) cùng phương. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "m = -8",
+            "B": "m = 8",
+            "C": "m = -18",
+            "D": "m = 18"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Trong mặt phẳng Oxy, tìm m để hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{a}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{b}"
+            },
+            {
+              "t": "txt",
+              "v": " = (12; m) cùng phương. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = -8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = 8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = -18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = 18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương IV nêu câu hỏi: Trong mặt phẳng Oxy, tìm m để hai vectơ $\\vec{a}$ = (3; -2) và $\\vec{b}$ = (12; m) cùng phương. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "m = -8",
+              "B": "m = 8",
+              "C": "m = -18",
+              "D": "m = 18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-32",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Cho hai vectơ \\vec{u} = (13; 3) và \\vec{v} = (-6; m). Giá trị của m để \\vec{u} vuông góc với \\vec{v} (\\vec{u} \\perp \\vec{v}) là",
+          "choices": {
+            "A": "m = -26",
+            "B": "m = 0",
+            "C": "m = 39",
+            "D": "m = 26"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (13; 3) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (-6; m). Giá trị của m để "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " vuông góc với "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\perp"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": ") là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = -26"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = 39"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = 26"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Cho hai vectơ $\\vec{u}$ = (13; 3) và $\\vec{v}$ = (-6; m). Giá trị của m để $\\vec{u}$ vuông góc với $\\vec{v}$ ($\\vec{u}$ $\\perp$ $\\vec{v}$) là",
+            "choices": {
+              "A": "m = -26",
+              "B": "m = 0",
+              "C": "m = 39",
+              "D": "m = 26"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-33",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Cho hình vuông ABCD có độ dài cạnh bằng 15. Độ dài của vectơ tổng |\\overrightarrow{AB} + \\overrightarrow{AD}| bằng",
+          "choices": {
+            "A": "0",
+            "B": "30",
+            "C": "15\\sqrt{2}",
+            "D": "15"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Cho hình vuông ABCD có độ dài cạnh bằng 15. Độ dài của vectơ tổng |"
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AD}"
+            },
+            {
+              "t": "txt",
+              "v": "| bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương IV: Cho hình vuông ABCD có độ dài cạnh bằng 15. Độ dài của vectơ tổng |$\\overrightarrow{AB}$ + $\\overrightarrow{AD}$| bằng",
+            "choices": {
+              "A": "0",
+              "B": "30",
+              "C": "15$\\sqrt{2}$",
+              "D": "15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-34",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Trong mặt phẳng Oxy, tìm m để hai vectơ \\vec{a} = (3; -2) và \\vec{b} = (12; m) cùng phương",
+          "choices": {
+            "A": "m = -18",
+            "B": "m = 18",
+            "C": "m = 8",
+            "D": "m = -8"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Trong mặt phẳng Oxy, tìm m để hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{a}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{b}"
+            },
+            {
+              "t": "txt",
+              "v": " = (12; m) cùng phương"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = -18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = 18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = 8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = -8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Trong mặt phẳng Oxy, tìm m để hai vectơ $\\vec{a}$ = (3; -2) và $\\vec{b}$ = (12; m) cùng phương",
+            "choices": {
+              "A": "m = -18",
+              "B": "m = 18",
+              "C": "m = 8",
+              "D": "m = -8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-35",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Cho hai vectơ \\vec{u} = (16; 3) và \\vec{v} = (-6; m). Giá trị của m để \\vec{u} vuông góc với \\vec{v} (\\vec{u} \\perp \\vec{v}) là",
+          "choices": {
+            "A": "m = 32",
+            "B": "m = 0",
+            "C": "m = 48",
+            "D": "m = -32"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (16; 3) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (-6; m). Giá trị của m để "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " vuông góc với "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\perp"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": ") là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = 32"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = 48"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = -32"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương IV, xét bài toán: Cho hai vectơ $\\vec{u}$ = (16; 3) và $\\vec{v}$ = (-6; m). Giá trị của m để $\\vec{u}$ vuông góc với $\\vec{v}$ ($\\vec{u}$ $\\perp$ $\\vec{v}$) là",
+            "choices": {
+              "A": "m = 32",
+              "B": "m = 0",
+              "C": "m = 48",
+              "D": "m = -32"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-36",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Vectơ): Cho hình vuông ABCD có độ dài cạnh bằng 18. Độ dài của vectơ tổng |\\overrightarrow{AB} + \\overrightarrow{AD}| bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "0",
+            "B": "36",
+            "C": "18",
+            "D": "18\\sqrt{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Vectơ): Cho hình vuông ABCD có độ dài cạnh bằng 18. Độ dài của vectơ tổng |"
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AD}"
+            },
+            {
+              "t": "txt",
+              "v": "| bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "36"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "18"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Vectơ): Cho hình vuông ABCD có độ dài cạnh bằng 18. Độ dài của vectơ tổng |$\\overrightarrow{AB}$ + $\\overrightarrow{AD}$| bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "0",
+              "B": "36",
+              "C": "18",
+              "D": "18$\\sqrt{2}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-37",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Trong mặt phẳng Oxy, tìm m để hai vectơ \\vec{a} = (3; -2) và \\vec{b} = (12; m) cùng phương",
+          "choices": {
+            "A": "m = -8",
+            "B": "m = -18",
+            "C": "m = 18",
+            "D": "m = 8"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Trong mặt phẳng Oxy, tìm m để hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{a}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{b}"
+            },
+            {
+              "t": "txt",
+              "v": " = (12; m) cùng phương"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = -8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = -18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = 18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = 8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Trong mặt phẳng Oxy, tìm m để hai vectơ $\\vec{a}$ = (3; -2) và $\\vec{b}$ = (12; m) cùng phương",
+            "choices": {
+              "A": "m = -8",
+              "B": "m = -18",
+              "C": "m = 18",
+              "D": "m = 8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-38",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương IV: Cho hai vectơ \\vec{u} = (19; 3) và \\vec{v} = (-6; m). Giá trị của m để \\vec{u} vuông góc với \\vec{v} (\\vec{u} \\perp \\vec{v}) là. Kết luận đúng là",
+          "choices": {
+            "A": "m = 38",
+            "B": "m = 57",
+            "C": "m = -38",
+            "D": "m = 0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương IV: Cho hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " = (19; 3) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " = (-6; m). Giá trị của m để "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " vuông góc với "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "\\vec{u}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\perp"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}"
+            },
+            {
+              "t": "txt",
+              "v": ") là. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = 38"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = 57"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = -38"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương IV: Cho hai vectơ $\\vec{u}$ = (19; 3) và $\\vec{v}$ = (-6; m). Giá trị của m để $\\vec{u}$ vuông góc với $\\vec{v}$ ($\\vec{u}$ $\\perp$ $\\vec{v}$) là. Kết luận đúng là",
+            "choices": {
+              "A": "m = 38",
+              "B": "m = 57",
+              "C": "m = -38",
+              "D": "m = 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-39",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Cho hình vuông ABCD có độ dài cạnh bằng 21. Độ dài của vectơ tổng |\\overrightarrow{AB} + \\overrightarrow{AD}| bằng",
+          "choices": {
+            "A": "42",
+            "B": "0",
+            "C": "21",
+            "D": "21\\sqrt{2}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Cho hình vuông ABCD có độ dài cạnh bằng 21. Độ dài của vectơ tổng |"
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AD}"
+            },
+            {
+              "t": "txt",
+              "v": "| bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "42"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "21"
+              },
+              {
+                "t": "math",
+                "v": "\\sqrt{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương IV: Cho hình vuông ABCD có độ dài cạnh bằng 21. Độ dài của vectơ tổng |$\\overrightarrow{AB}$ + $\\overrightarrow{AD}$| bằng",
+            "choices": {
+              "A": "42",
+              "B": "0",
+              "C": "21",
+              "D": "21$\\sqrt{2}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-40",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Trong mặt phẳng Oxy, tìm m để hai vectơ \\vec{a} = (3; -2) và \\vec{b} = (12; m) cùng phương",
+          "choices": {
+            "A": "m = 8",
+            "B": "m = -18",
+            "C": "m = 18",
+            "D": "m = -8"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Trong mặt phẳng Oxy, tìm m để hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{a}"
+            },
+            {
+              "t": "txt",
+              "v": " = (3; -2) và "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{b}"
+            },
+            {
+              "t": "txt",
+              "v": " = (12; m) cùng phương"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m = 8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m = -18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m = 18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m = -8"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Trong mặt phẳng Oxy, tìm m để hai vectơ $\\vec{a}$ = (3; -2) và $\\vec{b}$ = (12; m) cùng phương",
+            "choices": {
+              "A": "m = 8",
+              "B": "m = -18",
+              "C": "m = 18",
+              "D": "m = -8"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-41",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Cho tam giác đều ABC có độ dài cạnh bằng 4. Tích vô hướng \\overrightarrow{AB} · \\overrightarrow{BC} (chú ý góc giữa hai vectơ \\overrightarrow{AB} và \\overrightarrow{BC} bằng 120°) bằng",
+          "choices": {
+            "A": "8",
+            "B": "-16",
+            "C": "-8",
+            "D": "16"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tam giác đều ABC có độ dài cạnh bằng 4. Tích vô hướng "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{BC}"
+            },
+            {
+              "t": "txt",
+              "v": " (chú ý góc giữa hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{BC}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng 120°) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-16"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tam giác đều ABC có độ dài cạnh bằng 4. Tích vô hướng $\\overrightarrow{AB}$ $\\cdot$ $\\overrightarrow{BC}$ (chú ý góc giữa hai vectơ $\\overrightarrow{AB}$ và $\\overrightarrow{BC}$ bằng 120°) bằng",
+            "choices": {
+              "A": "8",
+              "B": "-16",
+              "C": "-8",
+              "D": "16"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-42",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương IV – Vectơ): Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ \\overrightarrow{AG} theo hai vectơ \\overrightarrow{AB} và \\overrightarrow{AC} ta được. Kết quả đúng là: []",
+          "choices": {
+            "A": "\\overrightarrow{AG} = 1/3 · \\overrightarrow{AB} + 2/3 · \\overrightarrow{AC} []",
+            "B": "\\overrightarrow{AG} = 1/2 · \\overrightarrow{AB} + 1/2 · \\overrightarrow{AC} []",
+            "C": "\\overrightarrow{AG} = 1/3 · \\overrightarrow{AB} + 1/3 · \\overrightarrow{AC} []",
+            "D": "\\overrightarrow{AG} = 2/3 · \\overrightarrow{AB} + 2/3 · \\overrightarrow{AC}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương IV – Vectơ): Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AG}"
+            },
+            {
+              "t": "txt",
+              "v": " theo hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AC}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được. Kết quả đúng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/2 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1/2 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương IV – Vectơ): Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ $\\overrightarrow{AG}$ theo hai vectơ $\\overrightarrow{AB}$ và $\\overrightarrow{AC}$ ta được. Kết quả đúng là: []",
+            "choices": {
+              "A": "$\\overrightarrow{AG}$ = 1/3 $\\cdot$ $\\overrightarrow{AB}$ + 2/3 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "B": "$\\overrightarrow{AG}$ = 1/2 $\\cdot$ $\\overrightarrow{AB}$ + 1/2 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "C": "$\\overrightarrow{AG}$ = 1/3 $\\cdot$ $\\overrightarrow{AB}$ + 1/3 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "D": "$\\overrightarrow{AG}$ = 2/3 $\\cdot$ $\\overrightarrow{AB}$ + 2/3 $\\cdot$ $\\overrightarrow{AC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-43",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Cho tam giác đều ABC có độ dài cạnh bằng 8. Tích vô hướng \\overrightarrow{AB} · \\overrightarrow{BC} (chú ý góc giữa hai vectơ \\overrightarrow{AB} và \\overrightarrow{BC} bằng 120°) bằng",
+          "choices": {
+            "A": "-32",
+            "B": "32",
+            "C": "-64",
+            "D": "64"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Cho tam giác đều ABC có độ dài cạnh bằng 8. Tích vô hướng "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{BC}"
+            },
+            {
+              "t": "txt",
+              "v": " (chú ý góc giữa hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{BC}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng 120°) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-32"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-64"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "64"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương IV để giải bài toán: Cho tam giác đều ABC có độ dài cạnh bằng 8. Tích vô hướng $\\overrightarrow{AB}$ $\\cdot$ $\\overrightarrow{BC}$ (chú ý góc giữa hai vectơ $\\overrightarrow{AB}$ và $\\overrightarrow{BC}$ bằng 120°) bằng",
+            "choices": {
+              "A": "-32",
+              "B": "32",
+              "C": "-64",
+              "D": "64"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-44",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ \\overrightarrow{AG} theo hai vectơ \\overrightarrow{AB} và \\overrightarrow{AC} ta được: []",
+          "choices": {
+            "A": "\\overrightarrow{AG} = 1/3 · \\overrightarrow{AB} + 2/3 · \\overrightarrow{AC} []",
+            "B": "\\overrightarrow{AG} = 1/3 · \\overrightarrow{AB} + 1/3 · \\overrightarrow{AC} []",
+            "C": "\\overrightarrow{AG} = 1/2 · \\overrightarrow{AB} + 1/2 · \\overrightarrow{AC} []",
+            "D": "\\overrightarrow{AG} = 2/3 · \\overrightarrow{AB} + 2/3 · \\overrightarrow{AC}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AG}"
+            },
+            {
+              "t": "txt",
+              "v": " theo hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AC}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/2 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1/2 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương IV: Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ $\\overrightarrow{AG}$ theo hai vectơ $\\overrightarrow{AB}$ và $\\overrightarrow{AC}$ ta được: []",
+            "choices": {
+              "A": "$\\overrightarrow{AG}$ = 1/3 $\\cdot$ $\\overrightarrow{AB}$ + 2/3 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "B": "$\\overrightarrow{AG}$ = 1/3 $\\cdot$ $\\overrightarrow{AB}$ + 1/3 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "C": "$\\overrightarrow{AG}$ = 1/2 $\\cdot$ $\\overrightarrow{AB}$ + 1/2 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "D": "$\\overrightarrow{AG}$ = 2/3 $\\cdot$ $\\overrightarrow{AB}$ + 2/3 $\\cdot$ $\\overrightarrow{AC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-45",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Cho tam giác đều ABC có độ dài cạnh bằng 12. Tích vô hướng \\overrightarrow{AB} · \\overrightarrow{BC} (chú ý góc giữa hai vectơ \\overrightarrow{AB} và \\overrightarrow{BC} bằng 120°) bằng. Đáp số chính xác là",
+          "choices": {
+            "A": "72",
+            "B": "-72",
+            "C": "-144",
+            "D": "144"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Cho tam giác đều ABC có độ dài cạnh bằng 12. Tích vô hướng "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{BC}"
+            },
+            {
+              "t": "txt",
+              "v": " (chú ý góc giữa hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{BC}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng 120°) bằng. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "72"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-72"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-144"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "144"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương IV: Cho tam giác đều ABC có độ dài cạnh bằng 12. Tích vô hướng $\\overrightarrow{AB}$ $\\cdot$ $\\overrightarrow{BC}$ (chú ý góc giữa hai vectơ $\\overrightarrow{AB}$ và $\\overrightarrow{BC}$ bằng 120°) bằng. Đáp số chính xác là",
+            "choices": {
+              "A": "72",
+              "B": "-72",
+              "C": "-144",
+              "D": "144"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-46",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ \\overrightarrow{AG} theo hai vectơ \\overrightarrow{AB} và \\overrightarrow{AC} ta được: []",
+          "choices": {
+            "A": "\\overrightarrow{AG} = 1/3 · \\overrightarrow{AB} + 1/3 · \\overrightarrow{AC} []",
+            "B": "\\overrightarrow{AG} = 1/2 · \\overrightarrow{AB} + 1/2 · \\overrightarrow{AC} []",
+            "C": "\\overrightarrow{AG} = 2/3 · \\overrightarrow{AB} + 2/3 · \\overrightarrow{AC} []",
+            "D": "\\overrightarrow{AG} = 1/3 · \\overrightarrow{AB} + 2/3 · \\overrightarrow{AC}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AG}"
+            },
+            {
+              "t": "txt",
+              "v": " theo hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AC}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/2 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1/2 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương IV để tìm đáp án cho bài toán: Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ $\\overrightarrow{AG}$ theo hai vectơ $\\overrightarrow{AB}$ và $\\overrightarrow{AC}$ ta được: []",
+            "choices": {
+              "A": "$\\overrightarrow{AG}$ = 1/3 $\\cdot$ $\\overrightarrow{AB}$ + 1/3 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "B": "$\\overrightarrow{AG}$ = 1/2 $\\cdot$ $\\overrightarrow{AB}$ + 1/2 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "C": "$\\overrightarrow{AG}$ = 2/3 $\\cdot$ $\\overrightarrow{AB}$ + 2/3 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "D": "$\\overrightarrow{AG}$ = 1/3 $\\cdot$ $\\overrightarrow{AB}$ + 2/3 $\\cdot$ $\\overrightarrow{AC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-47",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Cho tam giác đều ABC có độ dài cạnh bằng 16. Tích vô hướng \\overrightarrow{AB} · \\overrightarrow{BC} (chú ý góc giữa hai vectơ \\overrightarrow{AB} và \\overrightarrow{BC} bằng 120°) bằng",
+          "choices": {
+            "A": "256",
+            "B": "-256",
+            "C": "128",
+            "D": "-128"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Cho tam giác đều ABC có độ dài cạnh bằng 16. Tích vô hướng "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{BC}"
+            },
+            {
+              "t": "txt",
+              "v": " (chú ý góc giữa hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{BC}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng 120°) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "256"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-256"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "128"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-128"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương IV: Cho tam giác đều ABC có độ dài cạnh bằng 16. Tích vô hướng $\\overrightarrow{AB}$ $\\cdot$ $\\overrightarrow{BC}$ (chú ý góc giữa hai vectơ $\\overrightarrow{AB}$ và $\\overrightarrow{BC}$ bằng 120°) bằng",
+            "choices": {
+              "A": "256",
+              "B": "-256",
+              "C": "128",
+              "D": "-128"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-48",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ \\overrightarrow{AG} theo hai vectơ \\overrightarrow{AB} và \\overrightarrow{AC} ta được: []",
+          "choices": {
+            "A": "\\overrightarrow{AG} = 1/3 · \\overrightarrow{AB} + 2/3 · \\overrightarrow{AC} []",
+            "B": "\\overrightarrow{AG} = 1/3 · \\overrightarrow{AB} + 1/3 · \\overrightarrow{AC} []",
+            "C": "\\overrightarrow{AG} = 2/3 · \\overrightarrow{AB} + 2/3 · \\overrightarrow{AC} []",
+            "D": "\\overrightarrow{AG} = 1/2 · \\overrightarrow{AB} + 1/2 · \\overrightarrow{AC}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AG}"
+            },
+            {
+              "t": "txt",
+              "v": " theo hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AC}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/2 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1/2 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương IV): Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ $\\overrightarrow{AG}$ theo hai vectơ $\\overrightarrow{AB}$ và $\\overrightarrow{AC}$ ta được: []",
+            "choices": {
+              "A": "$\\overrightarrow{AG}$ = 1/3 $\\cdot$ $\\overrightarrow{AB}$ + 2/3 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "B": "$\\overrightarrow{AG}$ = 1/3 $\\cdot$ $\\overrightarrow{AB}$ + 1/3 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "C": "$\\overrightarrow{AG}$ = 2/3 $\\cdot$ $\\overrightarrow{AB}$ + 2/3 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "D": "$\\overrightarrow{AG}$ = 1/2 $\\cdot$ $\\overrightarrow{AB}$ + 1/2 $\\cdot$ $\\overrightarrow{AC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-49",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Cho tam giác đều ABC có độ dài cạnh bằng 20. Tích vô hướng \\overrightarrow{AB} · \\overrightarrow{BC} (chú ý góc giữa hai vectơ \\overrightarrow{AB} và \\overrightarrow{BC} bằng 120°) bằng",
+          "choices": {
+            "A": "200",
+            "B": "400",
+            "C": "-200",
+            "D": "-400"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Cho tam giác đều ABC có độ dài cạnh bằng 20. Tích vô hướng "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{BC}"
+            },
+            {
+              "t": "txt",
+              "v": " (chú ý góc giữa hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{BC}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng 120°) bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "200"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "400"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-200"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-400"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương IV, hãy giải quyết bài toán: Cho tam giác đều ABC có độ dài cạnh bằng 20. Tích vô hướng $\\overrightarrow{AB}$ $\\cdot$ $\\overrightarrow{BC}$ (chú ý góc giữa hai vectơ $\\overrightarrow{AB}$ và $\\overrightarrow{BC}$ bằng 120°) bằng",
+            "choices": {
+              "A": "200",
+              "B": "400",
+              "C": "-200",
+              "D": "-400"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-04-50",
+          "grade": 10,
+          "chapter": 4,
+          "chapterTitle": "VECTƠ",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương IV: Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ \\overrightarrow{AG} theo hai vectơ \\overrightarrow{AB} và \\overrightarrow{AC} ta được. Phương án đúng là: []",
+          "choices": {
+            "A": "\\overrightarrow{AG} = 2/3 · \\overrightarrow{AB} + 2/3 · \\overrightarrow{AC} []",
+            "B": "\\overrightarrow{AG} = 1/3 · \\overrightarrow{AB} + 1/3 · \\overrightarrow{AC} []",
+            "C": "\\overrightarrow{AG} = 1/2 · \\overrightarrow{AB} + 1/2 · \\overrightarrow{AC} []",
+            "D": "\\overrightarrow{AG} = 1/3 · \\overrightarrow{AB} + 2/3 · \\overrightarrow{AC}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương IV: Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AG}"
+            },
+            {
+              "t": "txt",
+              "v": " theo hai vectơ "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}"
+            },
+            {
+              "t": "txt",
+              "v": " và "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AC}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được. Phương án đúng là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/2 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1/2 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              },
+              {
+                "t": "txt",
+                "v": " []"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AG}"
+              },
+              {
+                "t": "txt",
+                "v": " = 1/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AB}"
+              },
+              {
+                "t": "txt",
+                "v": " + 2/3 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\overrightarrow{AC}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương IV: Trong tam giác ABC có G là trọng tâm và M là trung điểm của BC, biểu diễn vectơ $\\overrightarrow{AG}$ theo hai vectơ $\\overrightarrow{AB}$ và $\\overrightarrow{AC}$ ta được. Phương án đúng là: []",
+            "choices": {
+              "A": "$\\overrightarrow{AG}$ = 2/3 $\\cdot$ $\\overrightarrow{AB}$ + 2/3 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "B": "$\\overrightarrow{AG}$ = 1/3 $\\cdot$ $\\overrightarrow{AB}$ + 1/3 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "C": "$\\overrightarrow{AG}$ = 1/2 $\\cdot$ $\\overrightarrow{AB}$ + 1/2 $\\cdot$ $\\overrightarrow{AC}$ []",
+              "D": "$\\overrightarrow{AG}$ = 1/3 $\\cdot$ $\\overrightarrow{AB}$ + 2/3 $\\cdot$ $\\overrightarrow{AC}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "IV",
+            "answerKey": "Bảng đáp án Chương IV",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

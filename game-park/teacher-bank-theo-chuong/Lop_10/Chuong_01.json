@@ -1,0 +1,5251 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 10,
+      "chapter": 1,
+      "roman": "I",
+      "title": "MỆNH ĐỀ VÀ TẬP HỢP",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "10-01-01",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Mệnh đề phủ định của mệnh đề P: '\\forallx ∈ \\mathbb{R}, x^{2} + 1 > 0' là",
+          "choices": {
+            "A": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 1 ≤ 0'",
+            "B": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 1 < 0'",
+            "C": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 1 < 0'",
+            "D": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 1 ≤ 0'"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Mệnh đề phủ định của mệnh đề P: '"
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 1 > 0' là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0'"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1 < 0'"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1 < 0'"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 1 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0'"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Mệnh đề phủ định của mệnh đề P: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 1 > 0' là",
+            "choices": {
+              "A": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 1 $\\le$ 0'",
+              "B": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 1 < 0'",
+              "C": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 1 < 0'",
+              "D": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 1 $\\le$ 0'"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-02",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Cho hai tập hợp A = {1; 2; 3; 5} và B = {2; 5; 7}. Tập hợp giao A \\cap B là.",
+          "choices": {
+            "A": "{7}",
+            "B": "{2; 5}",
+            "C": "{1; 2; 3; 5; 7}",
+            "D": "{1; 3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Cho hai tập hợp A = {1; 2; 3; 5} và B = {2; 5; 7}. Tập hợp giao A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B là."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{7}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{2; 5}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "{1; 2; 3; 5; 7}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "{1; 3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Cho hai tập hợp A = {1; 2; 3; 5} và B = {2; 5; 7}. Tập hợp giao A $\\cap$ B là.",
+            "choices": {
+              "A": "{7}",
+              "B": "{2; 5}",
+              "C": "{1; 2; 3; 5; 7}",
+              "D": "{1; 3}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-03",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương I, xét nội dung: Một tập hợp A có 5 phần tử. Số tập hợp con của tập hợp A là. Đáp án đúng là",
+          "choices": {
+            "A": "32 tập con",
+            "B": "31 tập con",
+            "C": "10 tập con",
+            "D": "25 tập con"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương I, xét nội dung: Một tập hợp A có 5 phần tử. Số tập hợp con của tập hợp A là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "32 tập con"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "31 tập con"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10 tập con"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "25 tập con"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương I, xét nội dung: Một tập hợp A có 5 phần tử. Số tập hợp con của tập hợp A là. Đáp án đúng là",
+            "choices": {
+              "A": "32 tập con",
+              "B": "31 tập con",
+              "C": "10 tập con",
+              "D": "25 tập con"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-04",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương I (Mệnh đề và tập hợp), mệnh đề phủ định của mệnh đề P: '\\forallx ∈ \\mathbb{R}, x^{2} + 4 > 0' là",
+          "choices": {
+            "A": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 4 ≤ 0'",
+            "B": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 4 ≤ 0'",
+            "C": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 4 < 0'",
+            "D": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 4 < 0'"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương I (Mệnh đề và tập hợp), mệnh đề phủ định của mệnh đề P: '"
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 4 > 0' là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 4 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0'"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 4 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0'"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 4 < 0'"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 4 < 0'"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương I (Mệnh đề và tập hợp), mệnh đề phủ định của mệnh đề P: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 4 > 0' là",
+            "choices": {
+              "A": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 4 $\\le$ 0'",
+              "B": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 4 $\\le$ 0'",
+              "C": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 4 < 0'",
+              "D": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 4 < 0'"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-05",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Cho hai tập hợp A = {1; 2; 3; 8} và B = {2; 8; 10}. Tập hợp giao A \\cap B là",
+          "choices": {
+            "A": "{1; 3}",
+            "B": "{1; 2; 3; 8; 10}",
+            "C": "{2; 8}",
+            "D": "{10}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Cho hai tập hợp A = {1; 2; 3; 8} và B = {2; 8; 10}. Tập hợp giao A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{1; 3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{1; 2; 3; 8; 10}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "{2; 8}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "{10}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Cho hai tập hợp A = {1; 2; 3; 8} và B = {2; 8; 10}. Tập hợp giao A $\\cap$ B là",
+            "choices": {
+              "A": "{1; 3}",
+              "B": "{1; 2; 3; 8; 10}",
+              "C": "{2; 8}",
+              "D": "{10}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-06",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về mệnh đề và tập hợp, một học sinh gặp câu hỏi: Một tập hợp A có 3 phần tử. Số tập hợp con của tập hợp A là. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "8 tập con",
+            "B": "6 tập con",
+            "C": "7 tập con",
+            "D": "9 tập con"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về mệnh đề và tập hợp, một học sinh gặp câu hỏi: Một tập hợp A có 3 phần tử. Số tập hợp con của tập hợp A là. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8 tập con"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6 tập con"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7 tập con"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9 tập con"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về mệnh đề và tập hợp, một học sinh gặp câu hỏi: Một tập hợp A có 3 phần tử. Số tập hợp con của tập hợp A là. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "8 tập con",
+              "B": "6 tập con",
+              "C": "7 tập con",
+              "D": "9 tập con"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-07",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Mệnh đề phủ định của mệnh đề P: '\\forallx ∈ \\mathbb{R}, x^{2} + 7 > 0' là",
+          "choices": {
+            "A": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 7 ≤ 0'",
+            "B": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 7 < 0'",
+            "C": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 7 < 0'",
+            "D": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 7 ≤ 0'"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Mệnh đề phủ định của mệnh đề P: '"
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 7 > 0' là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 7 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0'"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 7 < 0'"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 7 < 0'"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 7 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0'"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Mệnh đề phủ định của mệnh đề P: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 7 > 0' là",
+            "choices": {
+              "A": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 7 $\\le$ 0'",
+              "B": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 7 < 0'",
+              "C": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 7 < 0'",
+              "D": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 7 $\\le$ 0'"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-08",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Cho hai tập hợp A = {1; 2; 3; 11} và B = {2; 11; 13}. Tập hợp giao A \\cap B là",
+          "choices": {
+            "A": "{1; 3}",
+            "B": "{13}",
+            "C": "{2; 11}",
+            "D": "{1; 2; 3; 11; 13}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Cho hai tập hợp A = {1; 2; 3; 11} và B = {2; 11; 13}. Tập hợp giao A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{1; 3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{13}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "{2; 11}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "{1; 2; 3; 11; 13}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Cho hai tập hợp A = {1; 2; 3; 11} và B = {2; 11; 13}. Tập hợp giao A $\\cap$ B là",
+            "choices": {
+              "A": "{1; 3}",
+              "B": "{13}",
+              "C": "{2; 11}",
+              "D": "{1; 2; 3; 11; 13}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-09",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Một tập hợp A có 6 phần tử. Số tập hợp con của tập hợp A là",
+          "choices": {
+            "A": "36 tập con",
+            "B": "12 tập con",
+            "C": "63 tập con",
+            "D": "64 tập con"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Một tập hợp A có 6 phần tử. Số tập hợp con của tập hợp A là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36 tập con"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 tập con"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "63 tập con"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "64 tập con"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Một tập hợp A có 6 phần tử. Số tập hợp con của tập hợp A là",
+            "choices": {
+              "A": "36 tập con",
+              "B": "12 tập con",
+              "C": "63 tập con",
+              "D": "64 tập con"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-10",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Mệnh đề phủ định của mệnh đề P: '\\forallx ∈ \\mathbb{R}, x^{2} + 10 > 0' là. Phương án chính xác là: []",
+          "choices": {
+            "A": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 10 < 0' []",
+            "B": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 10 < 0' []",
+            "C": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 10 ≤ 0' []",
+            "D": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 10 ≤ 0'"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Mệnh đề phủ định của mệnh đề P: '"
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 10 > 0' là. Phương án chính xác là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 10 < 0' []"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 10 < 0' []"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 10 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0' []"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 10 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0'"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Mệnh đề phủ định của mệnh đề P: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 10 > 0' là. Phương án chính xác là: []",
+            "choices": {
+              "A": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 10 < 0' []",
+              "B": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 10 < 0' []",
+              "C": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 10 $\\le$ 0' []",
+              "D": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 10 $\\le$ 0'"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-11",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho hai tập hợp A = {1; 2; 3; 14} và B = {2; 14; 16}. Tập hợp giao A \\cap B là",
+          "choices": {
+            "A": "{1; 2; 3; 14; 16}",
+            "B": "{1; 3}",
+            "C": "{16}",
+            "D": "{2; 14}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho hai tập hợp A = {1; 2; 3; 14} và B = {2; 14; 16}. Tập hợp giao A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{1; 2; 3; 14; 16}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{1; 3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "{16}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "{2; 14}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Cho hai tập hợp A = {1; 2; 3; 14} và B = {2; 14; 16}. Tập hợp giao A $\\cap$ B là",
+            "choices": {
+              "A": "{1; 2; 3; 14; 16}",
+              "B": "{1; 3}",
+              "C": "{16}",
+              "D": "{2; 14}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-12",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Một tập hợp A có 4 phần tử. Số tập hợp con của tập hợp A là",
+          "choices": {
+            "A": "16 tập con",
+            "B": "8 tập con",
+            "C": "16 tập con (1)",
+            "D": "15 tập con"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Một tập hợp A có 4 phần tử. Số tập hợp con của tập hợp A là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "16 tập con"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8 tập con"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16 tập con (1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15 tập con"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice"
+          ],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Một tập hợp A có 4 phần tử. Số tập hợp con của tập hợp A là",
+            "choices": {
+              "A": "16 tập con",
+              "B": "8 tập con",
+              "C": "16 tập con (1)",
+              "D": "15 tập con"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-13",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), mệnh đề phủ định của mệnh đề P: '\\forallx ∈ \\mathbb{R}, x^{2} + 13 > 0' là: []",
+          "choices": {
+            "A": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 13 < 0' []",
+            "B": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 13 ≤ 0' []",
+            "C": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 13 ≤ 0' []",
+            "D": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 13 < 0'"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), mệnh đề phủ định của mệnh đề P: '"
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 13 > 0' là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 13 < 0' []"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 13 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0' []"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 13 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0' []"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 13 < 0'"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), mệnh đề phủ định của mệnh đề P: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 13 > 0' là: []",
+            "choices": {
+              "A": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 13 < 0' []",
+              "B": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 13 $\\le$ 0' []",
+              "C": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 13 $\\le$ 0' []",
+              "D": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 13 < 0'"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-14",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Cho hai tập hợp A = {1; 2; 3; 17} và B = {2; 17; 19}. Tập hợp giao A \\cap B là",
+          "choices": {
+            "A": "{2; 17}",
+            "B": "{19}",
+            "C": "{1; 2; 3; 17; 19}",
+            "D": "{1; 3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Cho hai tập hợp A = {1; 2; 3; 17} và B = {2; 17; 19}. Tập hợp giao A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{2; 17}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{19}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "{1; 2; 3; 17; 19}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "{1; 3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Cho hai tập hợp A = {1; 2; 3; 17} và B = {2; 17; 19}. Tập hợp giao A $\\cap$ B là",
+            "choices": {
+              "A": "{2; 17}",
+              "B": "{19}",
+              "C": "{1; 2; 3; 17; 19}",
+              "D": "{1; 3}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-15",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương I: Một tập hợp A có 7 phần tử. Số tập hợp con của tập hợp A là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "127 tập con",
+            "B": "14 tập con",
+            "C": "49 tập con",
+            "D": "128 tập con"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương I: Một tập hợp A có 7 phần tử. Số tập hợp con của tập hợp A là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "127 tập con"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14 tập con"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "49 tập con"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "128 tập con"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương I: Một tập hợp A có 7 phần tử. Số tập hợp con của tập hợp A là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "127 tập con",
+              "B": "14 tập con",
+              "C": "49 tập con",
+              "D": "128 tập con"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-16",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Mệnh đề phủ định của mệnh đề P: '\\forallx ∈ \\mathbb{R}, x^{2} + 16 > 0' là: []",
+          "choices": {
+            "A": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 16 ≤ 0' []",
+            "B": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 16 < 0' []",
+            "C": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 16 < 0' []",
+            "D": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 16 ≤ 0'"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Mệnh đề phủ định của mệnh đề P: '"
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 16 > 0' là: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 16 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0' []"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 16 < 0' []"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 16 < 0' []"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 16 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0'"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Mệnh đề phủ định của mệnh đề P: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 16 > 0' là: []",
+            "choices": {
+              "A": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 16 $\\le$ 0' []",
+              "B": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 16 < 0' []",
+              "C": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 16 < 0' []",
+              "D": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 16 $\\le$ 0'"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-17",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho hai tập hợp A = {1; 2; 3; 20} và B = {2; 20; 22}. Tập hợp giao A \\cap B là?",
+          "choices": {
+            "A": "{1; 2; 3; 20; 22}",
+            "B": "{22}",
+            "C": "{2; 20}",
+            "D": "{1; 3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho hai tập hợp A = {1; 2; 3; 20} và B = {2; 20; 22}. Tập hợp giao A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B là?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{1; 2; 3; 20; 22}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{22}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "{2; 20}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "{1; 3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Cho hai tập hợp A = {1; 2; 3; 20} và B = {2; 20; 22}. Tập hợp giao A $\\cap$ B là?",
+            "choices": {
+              "A": "{1; 2; 3; 20; 22}",
+              "B": "{22}",
+              "C": "{2; 20}",
+              "D": "{1; 3}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-18",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương I: Một tập hợp A có 5 phần tử. Số tập hợp con của tập hợp A là",
+          "choices": {
+            "A": "25 tập con",
+            "B": "10 tập con",
+            "C": "32 tập con",
+            "D": "31 tập con"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương I: Một tập hợp A có 5 phần tử. Số tập hợp con của tập hợp A là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "25 tập con"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10 tập con"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "32 tập con"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "31 tập con"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương I: Một tập hợp A có 5 phần tử. Số tập hợp con của tập hợp A là",
+            "choices": {
+              "A": "25 tập con",
+              "B": "10 tập con",
+              "C": "32 tập con",
+              "D": "31 tập con"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-19",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Mệnh đề phủ định của mệnh đề P: '\\forallx ∈ \\mathbb{R}, x^{2} + 19 > 0' là. Hãy chọn phương án đúng: []",
+          "choices": {
+            "A": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 19 ≤ 0' []",
+            "B": "\\bar{P}: '\\forallx ∈ \\mathbb{R}, x^{2} + 19 < 0' []",
+            "C": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 19 < 0' []",
+            "D": "\\bar{P}: '\\existsx ∈ \\mathbb{R}, x^{2} + 19 ≤ 0'"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Mệnh đề phủ định của mệnh đề P: '"
+            },
+            {
+              "t": "math",
+              "v": "\\forall"
+            },
+            {
+              "t": "txt",
+              "v": "x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 19 > 0' là. Hãy chọn phương án đúng: []"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 19 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0' []"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\forall"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 19 < 0' []"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 19 < 0' []"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\bar{P}"
+              },
+              {
+                "t": "txt",
+                "v": ": '"
+              },
+              {
+                "t": "math",
+                "v": "\\exists"
+              },
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " "
+              },
+              {
+                "t": "math",
+                "v": "\\mathbb{R}"
+              },
+              {
+                "t": "txt",
+                "v": ", "
+              },
+              {
+                "t": "math",
+                "v": "x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 19 "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 0'"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Mệnh đề phủ định của mệnh đề P: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 19 > 0' là. Hãy chọn phương án đúng: []",
+            "choices": {
+              "A": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 19 $\\le$ 0' []",
+              "B": "$\\bar{P}$: '$\\forall$x $\\in$ $\\mathbb{R}$, x$^2$ + 19 < 0' []",
+              "C": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 19 < 0' []",
+              "D": "$\\bar{P}$: '$\\exists$x $\\in$ $\\mathbb{R}$, x$^2$ + 19 $\\le$ 0'"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-20",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Cho hai tập hợp A = {1; 2; 3; 23} và B = {2; 23; 25}. Tập hợp giao A \\cap B là",
+          "choices": {
+            "A": "{25}",
+            "B": "{1; 3}",
+            "C": "{1; 2; 3; 23; 25}",
+            "D": "{2; 23}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Cho hai tập hợp A = {1; 2; 3; 23} và B = {2; 23; 25}. Tập hợp giao A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{25}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{1; 3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "{1; 2; 3; 23; 25}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "{2; 23}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Cho hai tập hợp A = {1; 2; 3; 23} và B = {2; 23; 25}. Tập hợp giao A $\\cap$ B là",
+            "choices": {
+              "A": "{25}",
+              "B": "{1; 3}",
+              "C": "{1; 2; 3; 23; 25}",
+              "D": "{2; 23}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-21",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Cho hai tập hợp A = (-3; 4] và B = (1; 7). Tập hợp A \\cap B bằng",
+          "choices": {
+            "A": "(-3; 7)",
+            "B": "(1; 4]",
+            "C": "[-3; 1]",
+            "D": "(4; 7)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho hai tập hợp A = (-3; 4] và B = (1; 7). Tập hợp A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-3; 7)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(1; 4]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "[-3; 1]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(4; 7)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho hai tập hợp A = (-3; 4] và B = (1; 7). Tập hợp A $\\cap$ B bằng",
+            "choices": {
+              "A": "(-3; 7)",
+              "B": "(1; 4]",
+              "C": "[-3; 1]",
+              "D": "(4; 7)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-22",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương I (Mệnh đề và tập hợp) để giải bài toán: Cho hai tập hợp A = [-2; 4) và B = [0; 7]. Tập hợp hiệu A ∖{} B bằng",
+          "choices": {
+            "A": "(-2; 4)",
+            "B": "[4; 7]",
+            "C": "[-2; 0)",
+            "D": "[-2; 0]"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương I (Mệnh đề và tập hợp) để giải bài toán: Cho hai tập hợp A = [-2; 4) và B = [0; 7]. Tập hợp hiệu A ∖{} B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-2; 4)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "[4; 7]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "[-2; 0)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "[-2; 0]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương I (Mệnh đề và tập hợp) để giải bài toán: Cho hai tập hợp A = [-2; 4) và B = [0; 7]. Tập hợp hiệu A ∖{} B bằng",
+            "choices": {
+              "A": "(-2; 4)",
+              "B": "[4; 7]",
+              "C": "[-2; 0)",
+              "D": "[-2; 0]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-23",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương I: Liệt kê các phần tử của tập hợp M = {x ∈ \\mathbb{Z} | x^{2} - 5x + 6 = 0} ta được. Kết quả thu được là",
+          "choices": {
+            "A": "{1; 6}",
+            "B": "{2; 3}",
+            "C": "{-2; -3}",
+            "D": "\\emptyset"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương I: Liệt kê các phần tử của tập hợp M = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{Z}"
+            },
+            {
+              "t": "txt",
+              "v": " | "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 5x + 6 = 0} ta được. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{1; 6}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{2; 3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "{-2; -3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\emptyset"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương I: Liệt kê các phần tử của tập hợp M = {x $\\in$ $\\mathbb{Z}$ | x$^2$ - 5x + 6 = 0} ta được. Kết quả thu được là",
+            "choices": {
+              "A": "{1; 6}",
+              "B": "{2; 3}",
+              "C": "{-2; -3}",
+              "D": "$\\emptyset$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-24",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Cho hai tập hợp A = (-3; 7] và B = (1; 10). Tập hợp A \\cap B bằng. Đáp án đúng là",
+          "choices": {
+            "A": "(7; 10)",
+            "B": "(1; 7]",
+            "C": "[-3; 1]",
+            "D": "(-3; 10)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Cho hai tập hợp A = (-3; 7] và B = (1; 10). Tập hợp A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B bằng. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(7; 10)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(1; 7]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "[-3; 1]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-3; 10)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Cho hai tập hợp A = (-3; 7] và B = (1; 10). Tập hợp A $\\cap$ B bằng. Đáp án đúng là",
+            "choices": {
+              "A": "(7; 10)",
+              "B": "(1; 7]",
+              "C": "[-3; 1]",
+              "D": "(-3; 10)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-25",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Cho hai tập hợp A = [-2; 7) và B = [0; 10]. Tập hợp hiệu A ∖{} B bằng",
+          "choices": {
+            "A": "[7; 10]",
+            "B": "[-2; 0)",
+            "C": "(-2; 7)",
+            "D": "[-2; 0]"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Cho hai tập hợp A = [-2; 7) và B = [0; 10]. Tập hợp hiệu A ∖{} B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "[7; 10]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "[-2; 0)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-2; 7)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "[-2; 0]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Cho hai tập hợp A = [-2; 7) và B = [0; 10]. Tập hợp hiệu A ∖{} B bằng",
+            "choices": {
+              "A": "[7; 10]",
+              "B": "[-2; 0)",
+              "C": "(-2; 7)",
+              "D": "[-2; 0]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-26",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Liệt kê các phần tử của tập hợp M = {x ∈ \\mathbb{Z} | x^{2} - 8x + 12 = 0} ta được. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "\\emptyset",
+            "B": "{1; 12}",
+            "C": "{-2; -6}",
+            "D": "{2; 6}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Liệt kê các phần tử của tập hợp M = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{Z}"
+            },
+            {
+              "t": "txt",
+              "v": " | "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 8x + 12 = 0} ta được. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\emptyset"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{1; 12}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "{-2; -6}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "{2; 6}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Liệt kê các phần tử của tập hợp M = {x $\\in$ $\\mathbb{Z}$ | x$^2$ - 8x + 12 = 0} ta được. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "$\\emptyset$",
+              "B": "{1; 12}",
+              "C": "{-2; -6}",
+              "D": "{2; 6}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-27",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Cho hai tập hợp A = (-3; 10] và B = (1; 13). Tập hợp A \\cap B bằng",
+          "choices": {
+            "A": "(1; 10]",
+            "B": "(-3; 13)",
+            "C": "(10; 13)",
+            "D": "[-3; 1]"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Cho hai tập hợp A = (-3; 10] và B = (1; 13). Tập hợp A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(1; 10]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(-3; 13)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(10; 13)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "[-3; 1]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Cho hai tập hợp A = (-3; 10] và B = (1; 13). Tập hợp A $\\cap$ B bằng",
+            "choices": {
+              "A": "(1; 10]",
+              "B": "(-3; 13)",
+              "C": "(10; 13)",
+              "D": "[-3; 1]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-28",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho hai tập hợp A = [-2; 10) và B = [0; 13]. Tập hợp hiệu A ∖{} B bằng",
+          "choices": {
+            "A": "[10; 13]",
+            "B": "[-2; 0)",
+            "C": "(-2; 10)",
+            "D": "[-2; 0]"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho hai tập hợp A = [-2; 10) và B = [0; 13]. Tập hợp hiệu A ∖{} B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "[10; 13]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "[-2; 0)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-2; 10)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "[-2; 0]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Cho hai tập hợp A = [-2; 10) và B = [0; 13]. Tập hợp hiệu A ∖{} B bằng",
+            "choices": {
+              "A": "[10; 13]",
+              "B": "[-2; 0)",
+              "C": "(-2; 10)",
+              "D": "[-2; 0]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-29",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Mệnh đề và tập hợp): Liệt kê các phần tử của tập hợp M = {x ∈ \\mathbb{Z} | x^{2} - 11x + 18 = 0} ta được. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "{-2; -9}",
+            "B": "{2; 9}",
+            "C": "{1; 18}",
+            "D": "\\emptyset"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Mệnh đề và tập hợp): Liệt kê các phần tử của tập hợp M = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{Z}"
+            },
+            {
+              "t": "txt",
+              "v": " | "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 11x + 18 = 0} ta được. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{-2; -9}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{2; 9}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "{1; 18}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\emptyset"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Mệnh đề và tập hợp): Liệt kê các phần tử của tập hợp M = {x $\\in$ $\\mathbb{Z}$ | x$^2$ - 11x + 18 = 0} ta được. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "{-2; -9}",
+              "B": "{2; 9}",
+              "C": "{1; 18}",
+              "D": "$\\emptyset$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-30",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Cho hai tập hợp A = (-3; 13] và B = (1; 16). Tập hợp A \\cap B bằng",
+          "choices": {
+            "A": "[-3; 1]",
+            "B": "(1; 13]",
+            "C": "(13; 16)",
+            "D": "(-3; 16)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Cho hai tập hợp A = (-3; 13] và B = (1; 16). Tập hợp A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "[-3; 1]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(1; 13]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(13; 16)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-3; 16)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Cho hai tập hợp A = (-3; 13] và B = (1; 16). Tập hợp A $\\cap$ B bằng",
+            "choices": {
+              "A": "[-3; 1]",
+              "B": "(1; 13]",
+              "C": "(13; 16)",
+              "D": "(-3; 16)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-31",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Cho hai tập hợp A = [-2; 13) và B = [0; 16]. Tập hợp hiệu A ∖{} B bằng. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "[13; 16]",
+            "B": "[-2; 0]",
+            "C": "(-2; 13)",
+            "D": "[-2; 0)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Cho hai tập hợp A = [-2; 13) và B = [0; 16]. Tập hợp hiệu A ∖{} B bằng. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "[13; 16]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "[-2; 0]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-2; 13)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "[-2; 0)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Cho hai tập hợp A = [-2; 13) và B = [0; 16]. Tập hợp hiệu A ∖{} B bằng. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "[13; 16]",
+              "B": "[-2; 0]",
+              "C": "(-2; 13)",
+              "D": "[-2; 0)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-32",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Liệt kê các phần tử của tập hợp M = {x ∈ \\mathbb{Z} | x^{2} - 14x + 24 = 0} ta được",
+          "choices": {
+            "A": "{-2; -12}",
+            "B": "\\emptyset",
+            "C": "{2; 12}",
+            "D": "{1; 24}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Liệt kê các phần tử của tập hợp M = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{Z}"
+            },
+            {
+              "t": "txt",
+              "v": " | "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 14x + 24 = 0} ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{-2; -12}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\emptyset"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "{2; 12}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "{1; 24}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Liệt kê các phần tử của tập hợp M = {x $\\in$ $\\mathbb{Z}$ | x$^2$ - 14x + 24 = 0} ta được",
+            "choices": {
+              "A": "{-2; -12}",
+              "B": "$\\emptyset$",
+              "C": "{2; 12}",
+              "D": "{1; 24}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-33",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Cho hai tập hợp A = (-3; 16] và B = (1; 19). Tập hợp A \\cap B bằng",
+          "choices": {
+            "A": "(1; 16]",
+            "B": "(16; 19)",
+            "C": "[-3; 1]",
+            "D": "(-3; 19)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Cho hai tập hợp A = (-3; 16] và B = (1; 19). Tập hợp A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(1; 16]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(16; 19)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "[-3; 1]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-3; 19)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Cho hai tập hợp A = (-3; 16] và B = (1; 19). Tập hợp A $\\cap$ B bằng",
+            "choices": {
+              "A": "(1; 16]",
+              "B": "(16; 19)",
+              "C": "[-3; 1]",
+              "D": "(-3; 19)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-34",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho hai tập hợp A = [-2; 16) và B = [0; 19]. Tập hợp hiệu A ∖{} B bằng",
+          "choices": {
+            "A": "(-2; 16)",
+            "B": "[-2; 0)",
+            "C": "[-2; 0]",
+            "D": "[16; 19]"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho hai tập hợp A = [-2; 16) và B = [0; 19]. Tập hợp hiệu A ∖{} B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-2; 16)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "[-2; 0)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "[-2; 0]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "[16; 19]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Cho hai tập hợp A = [-2; 16) và B = [0; 19]. Tập hợp hiệu A ∖{} B bằng",
+            "choices": {
+              "A": "(-2; 16)",
+              "B": "[-2; 0)",
+              "C": "[-2; 0]",
+              "D": "[16; 19]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-35",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Liệt kê các phần tử của tập hợp M = {x ∈ \\mathbb{Z} | x^{2} - 17x + 30 = 0} ta được",
+          "choices": {
+            "A": "{2; 15}",
+            "B": "{-2; -15}",
+            "C": "\\emptyset",
+            "D": "{1; 30}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Liệt kê các phần tử của tập hợp M = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{Z}"
+            },
+            {
+              "t": "txt",
+              "v": " | "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 17x + 30 = 0} ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{2; 15}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{-2; -15}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\emptyset"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "{1; 30}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Liệt kê các phần tử của tập hợp M = {x $\\in$ $\\mathbb{Z}$ | x$^2$ - 17x + 30 = 0} ta được",
+            "choices": {
+              "A": "{2; 15}",
+              "B": "{-2; -15}",
+              "C": "$\\emptyset$",
+              "D": "{1; 30}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-36",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Mệnh đề và tập hợp): Cho hai tập hợp A = (-3; 19] và B = (1; 22). Tập hợp A \\cap B bằng. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "(1; 19]",
+            "B": "(19; 22)",
+            "C": "[-3; 1]",
+            "D": "(-3; 22)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Mệnh đề và tập hợp): Cho hai tập hợp A = (-3; 19] và B = (1; 22). Tập hợp A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B bằng. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(1; 19]"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "(19; 22)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "[-3; 1]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(-3; 22)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Mệnh đề và tập hợp): Cho hai tập hợp A = (-3; 19] và B = (1; 22). Tập hợp A $\\cap$ B bằng. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "(1; 19]",
+              "B": "(19; 22)",
+              "C": "[-3; 1]",
+              "D": "(-3; 22)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-37",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho hai tập hợp A = [-2; 19) và B = [0; 22]. Tập hợp hiệu A ∖{} B bằng",
+          "choices": {
+            "A": "[-2; 0)",
+            "B": "[19; 22]",
+            "C": "(-2; 19)",
+            "D": "[-2; 0]"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho hai tập hợp A = [-2; 19) và B = [0; 22]. Tập hợp hiệu A ∖{} B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "[-2; 0)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "[19; 22]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(-2; 19)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "[-2; 0]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Cho hai tập hợp A = [-2; 19) và B = [0; 22]. Tập hợp hiệu A ∖{} B bằng",
+            "choices": {
+              "A": "[-2; 0)",
+              "B": "[19; 22]",
+              "C": "(-2; 19)",
+              "D": "[-2; 0]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-38",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương I: Liệt kê các phần tử của tập hợp M = {x ∈ \\mathbb{Z} | x^{2} - 20x + 36 = 0} ta được. Kết luận đúng là",
+          "choices": {
+            "A": "{2; 18}",
+            "B": "{-2; -18}",
+            "C": "\\emptyset",
+            "D": "{1; 36}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương I: Liệt kê các phần tử của tập hợp M = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{Z}"
+            },
+            {
+              "t": "txt",
+              "v": " | "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 20x + 36 = 0} ta được. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "{2; 18}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "{-2; -18}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\emptyset"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "{1; 36}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương I: Liệt kê các phần tử của tập hợp M = {x $\\in$ $\\mathbb{Z}$ | x$^2$ - 20x + 36 = 0} ta được. Kết luận đúng là",
+            "choices": {
+              "A": "{2; 18}",
+              "B": "{-2; -18}",
+              "C": "$\\emptyset$",
+              "D": "{1; 36}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-39",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Cho hai tập hợp A = (-3; 22] và B = (1; 25). Tập hợp A \\cap B bằng",
+          "choices": {
+            "A": "(-3; 25)",
+            "B": "[-3; 1]",
+            "C": "(1; 22]",
+            "D": "(22; 25)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Cho hai tập hợp A = (-3; 22] và B = (1; 25). Tập hợp A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-3; 25)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "[-3; 1]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "(1; 22]"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "(22; 25)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Cho hai tập hợp A = (-3; 22] và B = (1; 25). Tập hợp A $\\cap$ B bằng",
+            "choices": {
+              "A": "(-3; 25)",
+              "B": "[-3; 1]",
+              "C": "(1; 22]",
+              "D": "(22; 25)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-40",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho hai tập hợp A = [-2; 22) và B = [0; 25]. Tập hợp hiệu A ∖{} B bằng",
+          "choices": {
+            "A": "(-2; 22)",
+            "B": "[-2; 0]",
+            "C": "[-2; 0)",
+            "D": "[22; 25]"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho hai tập hợp A = [-2; 22) và B = [0; 25]. Tập hợp hiệu A ∖{} B bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "(-2; 22)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "[-2; 0]"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "[-2; 0)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "[22; 25]"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Cho hai tập hợp A = [-2; 22) và B = [0; 25]. Tập hợp hiệu A ∖{} B bằng",
+            "choices": {
+              "A": "(-2; 22)",
+              "B": "[-2; 0]",
+              "C": "[-2; 0)",
+              "D": "[22; 25]"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-41",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Lớp 10A có 40 học sinh, trong đó có 25 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là",
+          "choices": {
+            "A": "5 học sinh",
+            "B": "10 học sinh",
+            "C": "0 học sinh",
+            "D": "15 học sinh"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Lớp 10A có 40 học sinh, trong đó có 25 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 học sinh"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10 học sinh"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0 học sinh"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15 học sinh"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Lớp 10A có 40 học sinh, trong đó có 25 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là",
+            "choices": {
+              "A": "5 học sinh",
+              "B": "10 học sinh",
+              "C": "0 học sinh",
+              "D": "15 học sinh"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-42",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương I – Mệnh đề và tập hợp): Tìm điều kiện của tham số m để hai khoảng A = (-∈fty; m) và B = (3; +∈fty) có giao khác rỗng (A \\cap B \\ne \\emptyset). Kết quả đúng là",
+          "choices": {
+            "A": "m ≤ 3",
+            "B": "m > 3",
+            "C": "m ≥ 3",
+            "D": "m < 3"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương I – Mệnh đề và tập hợp): Tìm điều kiện của tham số m để hai khoảng A = (-"
+            },
+            {
+              "t": "math",
+              "v": "\\infty"
+            },
+            {
+              "t": "txt",
+              "v": "; m) và B = (3; +"
+            },
+            {
+              "t": "math",
+              "v": "\\infty"
+            },
+            {
+              "t": "txt",
+              "v": ") có giao khác rỗng (A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\emptyset"
+            },
+            {
+              "t": "txt",
+              "v": "). Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m > 3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m < 3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương I – Mệnh đề và tập hợp): Tìm điều kiện của tham số m để hai khoảng A = (-$\\infty$; m) và B = (3; +$\\infty$) có giao khác rỗng (A $\\cap$ B $\\ne$ $\\emptyset$). Kết quả đúng là",
+            "choices": {
+              "A": "m $\\le$ 3",
+              "B": "m > 3",
+              "C": "m $\\ge$ 3",
+              "D": "m < 3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-43",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Lớp 10A có 42 học sinh, trong đó có 27 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là",
+          "choices": {
+            "A": "10 học sinh",
+            "B": "15 học sinh",
+            "C": "5 học sinh",
+            "D": "0 học sinh"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Lớp 10A có 42 học sinh, trong đó có 27 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10 học sinh"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15 học sinh"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5 học sinh"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0 học sinh"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Lớp 10A có 42 học sinh, trong đó có 27 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là",
+            "choices": {
+              "A": "10 học sinh",
+              "B": "15 học sinh",
+              "C": "5 học sinh",
+              "D": "0 học sinh"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-44",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương I: Tìm điều kiện của tham số m để hai khoảng A = (-∈fty; m) và B = (5; +∈fty) có giao khác rỗng (A \\cap B \\ne \\emptyset)",
+          "choices": {
+            "A": "m > 5",
+            "B": "m ≤ 5",
+            "C": "m ≥ 5",
+            "D": "m < 5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương I: Tìm điều kiện của tham số m để hai khoảng A = (-"
+            },
+            {
+              "t": "math",
+              "v": "\\infty"
+            },
+            {
+              "t": "txt",
+              "v": "; m) và B = (5; +"
+            },
+            {
+              "t": "math",
+              "v": "\\infty"
+            },
+            {
+              "t": "txt",
+              "v": ") có giao khác rỗng (A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\emptyset"
+            },
+            {
+              "t": "txt",
+              "v": ")"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m > 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m < 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương I: Tìm điều kiện của tham số m để hai khoảng A = (-$\\infty$; m) và B = (5; +$\\infty$) có giao khác rỗng (A $\\cap$ B $\\ne$ $\\emptyset$)",
+            "choices": {
+              "A": "m > 5",
+              "B": "m $\\le$ 5",
+              "C": "m $\\ge$ 5",
+              "D": "m < 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-45",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương I: Lớp 10A có 44 học sinh, trong đó có 29 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là. Đáp số chính xác là",
+          "choices": {
+            "A": "5 học sinh",
+            "B": "10 học sinh",
+            "C": "15 học sinh",
+            "D": "0 học sinh"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương I: Lớp 10A có 44 học sinh, trong đó có 29 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là. Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 học sinh"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10 học sinh"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15 học sinh"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0 học sinh"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương I: Lớp 10A có 44 học sinh, trong đó có 29 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là. Đáp số chính xác là",
+            "choices": {
+              "A": "5 học sinh",
+              "B": "10 học sinh",
+              "C": "15 học sinh",
+              "D": "0 học sinh"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-46",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Tìm điều kiện của tham số m để hai khoảng A = (-∈fty; m) và B = (7; +∈fty) có giao khác rỗng (A \\cap B \\ne \\emptyset)",
+          "choices": {
+            "A": "m ≤ 7",
+            "B": "m ≥ 7",
+            "C": "m < 7",
+            "D": "m > 7"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Tìm điều kiện của tham số m để hai khoảng A = (-"
+            },
+            {
+              "t": "math",
+              "v": "\\infty"
+            },
+            {
+              "t": "txt",
+              "v": "; m) và B = (7; +"
+            },
+            {
+              "t": "math",
+              "v": "\\infty"
+            },
+            {
+              "t": "txt",
+              "v": ") có giao khác rỗng (A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\emptyset"
+            },
+            {
+              "t": "txt",
+              "v": ")"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m < 7"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m > 7"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Tìm điều kiện của tham số m để hai khoảng A = (-$\\infty$; m) và B = (7; +$\\infty$) có giao khác rỗng (A $\\cap$ B $\\ne$ $\\emptyset$)",
+            "choices": {
+              "A": "m $\\le$ 7",
+              "B": "m $\\ge$ 7",
+              "C": "m < 7",
+              "D": "m > 7"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-47",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Lớp 10A có 46 học sinh, trong đó có 31 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là",
+          "choices": {
+            "A": "5 học sinh",
+            "B": "0 học sinh",
+            "C": "15 học sinh",
+            "D": "10 học sinh"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Lớp 10A có 46 học sinh, trong đó có 31 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 học sinh"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0 học sinh"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "15 học sinh"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "10 học sinh"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Lớp 10A có 46 học sinh, trong đó có 31 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là",
+            "choices": {
+              "A": "5 học sinh",
+              "B": "0 học sinh",
+              "C": "15 học sinh",
+              "D": "10 học sinh"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-48",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Tìm điều kiện của tham số m để hai khoảng A = (-∈fty; m) và B = (9; +∈fty) có giao khác rỗng (A \\cap B \\ne \\emptyset)",
+          "choices": {
+            "A": "m ≤ 9",
+            "B": "m > 9",
+            "C": "m ≥ 9",
+            "D": "m < 9"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Tìm điều kiện của tham số m để hai khoảng A = (-"
+            },
+            {
+              "t": "math",
+              "v": "\\infty"
+            },
+            {
+              "t": "txt",
+              "v": "; m) và B = (9; +"
+            },
+            {
+              "t": "math",
+              "v": "\\infty"
+            },
+            {
+              "t": "txt",
+              "v": ") có giao khác rỗng (A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\emptyset"
+            },
+            {
+              "t": "txt",
+              "v": ")"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m > 9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m < 9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Tìm điều kiện của tham số m để hai khoảng A = (-$\\infty$; m) và B = (9; +$\\infty$) có giao khác rỗng (A $\\cap$ B $\\ne$ $\\emptyset$)",
+            "choices": {
+              "A": "m $\\le$ 9",
+              "B": "m > 9",
+              "C": "m $\\ge$ 9",
+              "D": "m < 9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-49",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Lớp 10A có 48 học sinh, trong đó có 33 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là",
+          "choices": {
+            "A": "0 học sinh",
+            "B": "15 học sinh",
+            "C": "10 học sinh",
+            "D": "5 học sinh"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Lớp 10A có 48 học sinh, trong đó có 33 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0 học sinh"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15 học sinh"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "10 học sinh"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "5 học sinh"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Lớp 10A có 48 học sinh, trong đó có 33 bạn thích môn Toán, 20 bạn thích môn Anh và 10 bạn thích cả hai môn Toán và Anh. Số học sinh không thích cả hai môn đó là",
+            "choices": {
+              "A": "0 học sinh",
+              "B": "15 học sinh",
+              "C": "10 học sinh",
+              "D": "5 học sinh"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "10-01-50",
+          "grade": 10,
+          "chapter": 1,
+          "chapterTitle": "MỆNH ĐỀ VÀ TẬP HỢP",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương I: Tìm điều kiện của tham số m để hai khoảng A = (-∈fty; m) và B = (11; +∈fty) có giao khác rỗng (A \\cap B \\ne \\emptyset). Phương án đúng là",
+          "choices": {
+            "A": "m > 11",
+            "B": "m < 11",
+            "C": "m ≥ 11",
+            "D": "m ≤ 11"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương I: Tìm điều kiện của tham số m để hai khoảng A = (-"
+            },
+            {
+              "t": "math",
+              "v": "\\infty"
+            },
+            {
+              "t": "txt",
+              "v": "; m) và B = (11; +"
+            },
+            {
+              "t": "math",
+              "v": "\\infty"
+            },
+            {
+              "t": "txt",
+              "v": ") có giao khác rỗng (A "
+            },
+            {
+              "t": "math",
+              "v": "\\cap"
+            },
+            {
+              "t": "txt",
+              "v": " B "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\emptyset"
+            },
+            {
+              "t": "txt",
+              "v": "). Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "m > 11"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "m < 11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "m "
+              },
+              {
+                "t": "math",
+                "v": "\\le"
+              },
+              {
+                "t": "txt",
+                "v": " 11"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương I: Tìm điều kiện của tham số m để hai khoảng A = (-$\\infty$; m) và B = (11; +$\\infty$) có giao khác rỗng (A $\\cap$ B $\\ne$ $\\emptyset$). Phương án đúng là",
+            "choices": {
+              "A": "m > 11",
+              "B": "m < 11",
+              "C": "m $\\ge$ 11",
+              "D": "m $\\le$ 11"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_10_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}

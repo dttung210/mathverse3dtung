@@ -1,0 +1,3729 @@
+{
+  "schemaVersion": 9,
+  "sourceType": "teacher-provided-original-LaTeX",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu/chương từ LaTeX gốc; bản Word 40 câu/chương dùng đối chiếu; không sinh câu mới.",
+  "questionsProvenance": "User uploaded PDF, Word and original LaTeX; preserves answer key and MathTeX",
+  "chapters": [
+    {
+      "grade": 9,
+      "chapter": 8,
+      "roman": "VIII",
+      "title": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "9-08-01",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Gieo đồng thời hai con xúc xắc cân đối và đồng chất. Số phần tử của không gian mẫu Ω là:",
+          "choices": {
+            "A": "12 phần tử",
+            "B": "18 phần tử",
+            "C": "36 phần tử",
+            "D": "6 phần tử"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Gieo đồng thời hai con xúc xắc cân đối và đồng chất. Số phần tử của không gian mẫu "
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": " là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "36 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Gieo đồng thời hai con xúc xắc cân đối và đồng chất. Số phần tử của không gian mẫu $\\Omega$ là:",
+            "choices": {
+              "A": "12 phần tử",
+              "B": "18 phần tử",
+              "C": "36 phần tử",
+              "D": "6 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-02",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Tung một đồng xu cân đối hai lần liên tiếp. Không gian mẫu Ω có bao nhiêu phần tử?",
+          "choices": {
+            "A": "8 phần tử",
+            "B": "4 phần tử",
+            "C": "6 phần tử",
+            "D": "2 phần tử"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tung một đồng xu cân đối hai lần liên tiếp. Không gian mẫu "
+            },
+            {
+              "t": "math",
+              "v": "\\Omega"
+            },
+            {
+              "t": "txt",
+              "v": " có bao nhiêu phần tử?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "8 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tung một đồng xu cân đối hai lần liên tiếp. Không gian mẫu $\\Omega$ có bao nhiêu phần tử?",
+            "choices": {
+              "A": "8 phần tử",
+              "B": "4 phần tử",
+              "C": "6 phần tử",
+              "D": "2 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-03",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Một hộp có 7 quả bóng được đánh số từ 1 đến 7. Lấy ngẫu nhiên 1 quả bóng. Không gian mẫu có số phần tử là:",
+          "choices": {
+            "A": "1 phần tử",
+            "B": "14 phần tử",
+            "C": "7 phần tử",
+            "D": "49 phần tử"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hộp có 7 quả bóng được đánh số từ 1 đến 7. Lấy ngẫu nhiên 1 quả bóng. Không gian mẫu có số phần tử là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "1 phần tử"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "14 phần tử"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "7 phần tử"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "49 phần tử"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hộp có 7 quả bóng được đánh số từ 1 đến 7. Lấy ngẫu nhiên 1 quả bóng. Không gian mẫu có số phần tử là:",
+            "choices": {
+              "A": "1 phần tử",
+              "B": "14 phần tử",
+              "C": "7 phần tử",
+              "D": "49 phần tử"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-04",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 58 và nhỏ hơn 66 bằng cách liệt kê phần tử:",
+          "choices": {
+            "A": "K = {58; 60; 62; 64; 66}",
+            "B": "K = {60; 62; 64}",
+            "C": "K = {59; 61; 63}",
+            "D": "K = {60; 64}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 58 và nhỏ hơn 66 bằng cách liệt kê phần tử:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "K = {58; 60; 62; 64; 66}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "K = {60; 62; 64}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "K = {59; 61; 63}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "K = {60; 64}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết tập hợp K gồm các số tự nhiên chẵn lớn hơn 58 và nhỏ hơn 66 bằng cách liệt kê phần tử:",
+            "choices": {
+              "A": "K = {58; 60; 62; 64; 66}",
+              "B": "K = {60; 62; 64}",
+              "C": "K = {59; 61; 63}",
+              "D": "K = {60; 64}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-05",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Cho tập hợp H = {x ∈ ℕ | 29 ≤ x < 35}. Khẳng định nào dưới đây là ĐÚNG?",
+          "choices": {
+            "A": "29 ∉ H và 35 ∈ H",
+            "B": "35 ∈ H",
+            "C": "28 ∈ H",
+            "D": "29 ∈ H và 35 ∉ H"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho tập hợp H = {x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{N}"
+            },
+            {
+              "t": "txt",
+              "v": " | 29 "
+            },
+            {
+              "t": "math",
+              "v": "\\le"
+            },
+            {
+              "t": "txt",
+              "v": " x < 35}. Khẳng định nào dưới đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "29 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H và 35 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "35 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "28 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "29 "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " H và 35 "
+              },
+              {
+                "t": "math",
+                "v": "\\notin"
+              },
+              {
+                "t": "txt",
+                "v": " H"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho tập hợp H = {x $\\in$ $\\mathbb{N}$ | 29 $\\le$ x < 35}. Khẳng định nào dưới đây là ĐÚNG?",
+            "choices": {
+              "A": "29 $\\notin$ H và 35 $\\in$ H",
+              "B": "35 $\\in$ H",
+              "C": "28 $\\in$ H",
+              "D": "29 $\\in$ H và 35 $\\notin$ H"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-06",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Trong hệ thập phân, số tự nhiên gồm 3 nghìn, 5 trăm và 6 đơn vị được viết là:",
+          "choices": {
+            "A": "356",
+            "B": "3056",
+            "C": "14",
+            "D": "3506"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong hệ thập phân, số tự nhiên gồm 3 nghìn, 5 trăm và 6 đơn vị được viết là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "356"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3056"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3506"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong hệ thập phân, số tự nhiên gồm 3 nghìn, 5 trăm và 6 đơn vị được viết là:",
+            "choices": {
+              "A": "356",
+              "B": "3056",
+              "C": "14",
+              "D": "3506"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-07",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Thương của phép chia hai lũy thừa cùng cơ số 6^(34) : 6^(3) bằng:",
+          "choices": {
+            "A": "6^(37)",
+            "B": "1^(31)",
+            "C": "6^(102)",
+            "D": "6^(31)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thương của phép chia hai lũy thừa cùng cơ số "
+            },
+            {
+              "t": "math",
+              "v": "6^{34}"
+            },
+            {
+              "t": "txt",
+              "v": " : "
+            },
+            {
+              "t": "math",
+              "v": "6^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "6^{37}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "1^{31}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "6^{102}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "6^{31}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thương của phép chia hai lũy thừa cùng cơ số 6$^{34}$ : 6$^{3}$ bằng:",
+            "choices": {
+              "A": "6$^{37}$",
+              "B": "1$^{31}$",
+              "C": "6$^{102}$",
+              "D": "6$^{31}$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-08",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Với mọi cơ số a ≠ 0, giá trị của biểu thức P = (44)^(0) + 58 bằng:",
+          "choices": {
+            "A": "59",
+            "B": "102",
+            "C": "58",
+            "D": "1"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Với mọi cơ số a "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " 0, giá trị của biểu thức P = "
+            },
+            {
+              "t": "math",
+              "v": "(44)^{0}"
+            },
+            {
+              "t": "txt",
+              "v": " + 58 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "59"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "102"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "58"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Với mọi cơ số a $\\ne$ 0, giá trị của biểu thức P = (44)$^0$ + 58 bằng:",
+            "choices": {
+              "A": "59",
+              "B": "102",
+              "C": "58",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-09",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Khi chia số tự nhiên 237 cho 8, số dư của phép chia đó bằng:",
+          "choices": {
+            "A": "3",
+            "B": "0",
+            "C": "5",
+            "D": "29"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi chia số tự nhiên 237 cho 8, số dư của phép chia đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "29"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi chia số tự nhiên 237 cho 8, số dư của phép chia đó bằng:",
+            "choices": {
+              "A": "3",
+              "B": "0",
+              "C": "5",
+              "D": "29"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-10",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 29 · a + 29 · b được viết gọn thành:",
+          "choices": {
+            "A": "841 · (a + b)",
+            "B": "58 · (a + b)",
+            "C": "29 · (a + b)",
+            "D": "29 · a · b"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 29 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " a + 29 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " b được viết gọn thành:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "841 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "58 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "29 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " (a + b)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "29 "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " a "
+              },
+              {
+                "t": "math",
+                "v": "\\cdot"
+              },
+              {
+                "t": "txt",
+                "v": " b"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng, biểu thức 29 $\\cdot$ a + 29 $\\cdot$ b được viết gọn thành:",
+            "choices": {
+              "A": "841 $\\cdot$ (a + b)",
+              "B": "58 $\\cdot$ (a + b)",
+              "C": "29 $\\cdot$ (a + b)",
+              "D": "29 $\\cdot$ a $\\cdot$ b"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-11",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Để số tự nhiên có ba chữ số 22x chia hết cho 9 thì chữ số x phải bằng:",
+          "choices": {
+            "A": "5",
+            "B": "7",
+            "C": "2",
+            "D": "0"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để số tự nhiên có ba chữ số 22x chia hết cho 9 thì chữ số x phải bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để số tự nhiên có ba chữ số 22x chia hết cho 9 thì chữ số x phải bằng:",
+            "choices": {
+              "A": "5",
+              "B": "7",
+              "C": "2",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-12",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Trong các số sau đây, số nào là bội của 32?",
+          "choices": {
+            "A": "128",
+            "B": "95",
+            "C": "130",
+            "D": "67"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các số sau đây, số nào là bội của 32?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "128"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "95"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "130"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "67"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các số sau đây, số nào là bội của 32?",
+            "choices": {
+              "A": "128",
+              "B": "95",
+              "C": "130",
+              "D": "67"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-13",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Khi so sánh hai số âm -37 và -31, khẳng định nào sau đây là ĐÚNG?",
+          "choices": {
+            "A": "|-37| < |-31|",
+            "B": "-37 = -31",
+            "C": "-37 > -31",
+            "D": "-37 < -31"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi so sánh hai số âm -37 và -31, khẳng định nào sau đây là ĐÚNG?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "|-37| < |-31|"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-37 = -31"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-37 > -31"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-37 < -31"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi so sánh hai số âm -37 và -31, khẳng định nào sau đây là ĐÚNG?",
+            "choices": {
+              "A": "|-37| < |-31|",
+              "B": "-37 = -31",
+              "C": "-37 > -31",
+              "D": "-37 < -31"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-14",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm số x thỏa mãn đẳng thức: x + 61 = 155:",
+          "choices": {
+            "A": "x = 216",
+            "B": "x = -94",
+            "C": "x = 94",
+            "D": "x = 80"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số x thỏa mãn đẳng thức: x + 61 = 155:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 216"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = -94"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 94"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 80"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số x thỏa mãn đẳng thức: x + 61 = 155:",
+            "choices": {
+              "A": "x = 216",
+              "B": "x = -94",
+              "C": "x = 94",
+              "D": "x = 80"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-15",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Số nghịch đảo của phân số (30)/(63) là:",
+          "choices": {
+            "A": "(63)/(30)",
+            "B": "(-63)/(30)",
+            "C": "1 - (30)/(63)",
+            "D": "(-30)/(63)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số nghịch đảo của phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{30}{63}"
+            },
+            {
+              "t": "txt",
+              "v": " là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{63}{30}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{-63}{30}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1 - "
+              },
+              {
+                "t": "math",
+                "v": "\\frac{30}{63}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{-30}{63}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số nghịch đảo của phân số 30/63 là:",
+            "choices": {
+              "A": "63/30",
+              "B": "-63/30",
+              "C": "1 - 30/63",
+              "D": "-30/63"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-16",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Viết phân số (2)/(4) dưới dạng tỉ số phần trăm ta được:",
+          "choices": {
+            "A": "50%",
+            "B": "40%",
+            "C": "2,4%",
+            "D": "20%"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Viết phân số "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{2}{4}"
+            },
+            {
+              "t": "txt",
+              "v": " dưới dạng tỉ số phần trăm ta được:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "50%"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "40%"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "2,4%"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "20%"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Viết phân số 2/4 dưới dạng tỉ số phần trăm ta được:",
+            "choices": {
+              "A": "50%",
+              "B": "40%",
+              "C": "2,4%",
+              "D": "20%"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-17",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Một tấm bìa hình chữ nhật có chiều dài 36 cm và chiều rộng 31 cm. Chu vi tấm bìa đó bằng:",
+          "choices": {
+            "A": "125 cm",
+            "B": "67 cm",
+            "C": "1116 cm",
+            "D": "134 cm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một tấm bìa hình chữ nhật có chiều dài 36 cm và chiều rộng 31 cm. Chu vi tấm bìa đó bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "125 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "67 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "1116 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "134 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một tấm bìa hình chữ nhật có chiều dài 36 cm và chiều rộng 31 cm. Chu vi tấm bìa đó bằng:",
+            "choices": {
+              "A": "125 cm",
+              "B": "67 cm",
+              "C": "1116 cm",
+              "D": "134 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-18",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 58 cm và 32 cm thì có diện tích bằng:",
+          "choices": {
+            "A": "90 cm^(2)",
+            "B": "928 cm^(2)",
+            "C": "464 cm^(2)",
+            "D": "1856 cm^(2)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 58 cm và 32 cm thì có diện tích bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "90 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "928 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "464 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1856 c"
+              },
+              {
+                "t": "math",
+                "v": "m^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tam giác vuông có độ dài hai cạnh góc vuông lần lượt là 58 cm và 32 cm thì có diện tích bằng:",
+            "choices": {
+              "A": "90 cm$^2$",
+              "B": "928 cm$^2$",
+              "C": "464 cm$^2$",
+              "D": "1856 cm$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-19",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Số trung bình cộng của bốn số 29, 31, 35, 41 bằng:",
+          "choices": {
+            "A": "35",
+            "B": "33",
+            "C": "34",
+            "D": "136"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Số trung bình cộng của bốn số 29, 31, 35, 41 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "33"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "34"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "136"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Số trung bình cộng của bốn số 29, 31, 35, 41 bằng:",
+            "choices": {
+              "A": "35",
+              "B": "33",
+              "C": "34",
+              "D": "136"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-20",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Tại x = 3, biểu thức bậc nhất L(x) = 29x - 33 nhận giá trị bằng:",
+          "choices": {
+            "A": "54",
+            "B": "87",
+            "C": "120",
+            "D": "62"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tại x = 3, biểu thức bậc nhất L(x) = 29x - 33 nhận giá trị bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "54"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "87"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "120"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "62"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tại x = 3, biểu thức bậc nhất L(x) = 29x - 33 nhận giá trị bằng:",
+            "choices": {
+              "A": "54",
+              "B": "87",
+              "C": "120",
+              "D": "62"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-21",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất của biến cố 'Hai con xúc xắc xuất hiện số chấm bằng nhau' bằng:",
+          "choices": {
+            "A": "(1)/(3)",
+            "B": "(1)/(12)",
+            "C": "(1)/(6)",
+            "D": "(1)/(36)"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất của biến cố 'Hai con xúc xắc xuất hiện số chấm bằng nhau' bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{12}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{6}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{36}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất của biến cố 'Hai con xúc xắc xuất hiện số chấm bằng nhau' bằng:",
+            "choices": {
+              "A": "1/3",
+              "B": "1/12",
+              "C": "1/6",
+              "D": "1/36"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-22",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Gieo đồng thời hai con xúc xắc cân đối. Số kết quả thuận lợi cho biến cố 'Tổng số chấm xuất hiện trên hai con xúc xắc bằng 7' là:",
+          "choices": {
+            "A": "5 kết quả",
+            "B": "12 kết quả",
+            "C": "6 kết quả",
+            "D": "7 kết quả"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Gieo đồng thời hai con xúc xắc cân đối. Số kết quả thuận lợi cho biến cố 'Tổng số chấm xuất hiện trên hai con xúc xắc bằng 7' là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "5 kết quả"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12 kết quả"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6 kết quả"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "7 kết quả"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Gieo đồng thời hai con xúc xắc cân đối. Số kết quả thuận lợi cho biến cố 'Tổng số chấm xuất hiện trên hai con xúc xắc bằng 7' là:",
+            "choices": {
+              "A": "5 kết quả",
+              "B": "12 kết quả",
+              "C": "6 kết quả",
+              "D": "7 kết quả"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-23",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Có hai túi: túi I đựng 2 thẻ ghi số 1; 2 và túi II đựng 3 thẻ ghi số 3; 4; 5. Lấy ngẫu nhiên mỗi túi 1 thẻ. Xác suất để tích hai số trên hai thẻ là số chẵn bằng:",
+          "choices": {
+            "A": "(1)/(3)",
+            "B": "(1)/(2)",
+            "C": "(5)/(6)",
+            "D": "(2)/(3)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Có hai túi: túi I đựng 2 thẻ ghi số 1; 2 và túi II đựng 3 thẻ ghi số 3; 4; 5. Lấy ngẫu nhiên mỗi túi 1 thẻ. Xác suất để tích hai số trên hai thẻ là số chẵn bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{5}{6}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{2}{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Có hai túi: túi I đựng 2 thẻ ghi số 1; 2 và túi II đựng 3 thẻ ghi số 3; 4; 5. Lấy ngẫu nhiên mỗi túi 1 thẻ. Xác suất để tích hai số trên hai thẻ là số chẵn bằng:",
+            "choices": {
+              "A": "1/3",
+              "B": "1/2",
+              "C": "5/6",
+              "D": "2/3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-24",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Tính hợp lý tổng S = (104 + 103) + (-3 - 94):",
+          "choices": {
+            "A": "110",
+            "B": "100",
+            "C": "284",
+            "D": "90"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính hợp lý tổng S = (104 + 103) + (-3 - 94):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "110"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "100"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "284"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "90"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính hợp lý tổng S = (104 + 103) + (-3 - 94):",
+            "choices": {
+              "A": "110",
+              "B": "100",
+              "C": "284",
+              "D": "90"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-25",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Giải phương trình: 4(x - 29) - 2(x - 32) = 72:",
+          "choices": {
+            "A": "x = 91",
+            "B": "x = 54",
+            "C": "x = 33",
+            "D": "x = 62"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giải phương trình: 4(x - 29) - 2(x - 32) = 72:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x = 91"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x = 54"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x = 33"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x = 62"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giải phương trình: 4(x - 29) - 2(x - 32) = 72:",
+            "choices": {
+              "A": "x = 91",
+              "B": "x = 54",
+              "C": "x = 33",
+              "D": "x = 62"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-26",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Hai lớp quyên góp được tổng cộng 314 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 66 quyển. Số sách lớp thứ nhất quyên góp là:",
+          "choices": {
+            "A": "124 quyển",
+            "B": "157 quyển",
+            "C": "248 quyển",
+            "D": "190 quyển"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hai lớp quyên góp được tổng cộng 314 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 66 quyển. Số sách lớp thứ nhất quyên góp là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "124 quyển"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "157 quyển"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "248 quyển"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "190 quyển"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hai lớp quyên góp được tổng cộng 314 quyển sách, trong đó lớp thứ nhất góp nhiều hơn lớp thứ hai 66 quyển. Số sách lớp thứ nhất quyên góp là:",
+            "choices": {
+              "A": "124 quyển",
+              "B": "157 quyển",
+              "C": "248 quyển",
+              "D": "190 quyển"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-27",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 372 cm. Độ dài cạnh lớn nhất của tam giác là:",
+          "choices": {
+            "A": "124 cm",
+            "B": "93 cm",
+            "C": "155 cm",
+            "D": "186 cm"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 372 cm. Độ dài cạnh lớn nhất của tam giác là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "124 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "93 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "155 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "186 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Ba cạnh của một tam giác tỉ lệ với 3 : 4 : 5 và chu vi của tam giác đó bằng 372 cm. Độ dài cạnh lớn nhất của tam giác là:",
+            "choices": {
+              "A": "124 cm",
+              "B": "93 cm",
+              "C": "155 cm",
+              "D": "186 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-28",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Một hóa đơn mua hàng chưa tính thuế có giá 580.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+          "choices": {
+            "A": "609.000 đồng",
+            "B": "590.000 đồng",
+            "C": "638.000 đồng",
+            "D": "522.000 đồng"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một hóa đơn mua hàng chưa tính thuế có giá 580.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "609.000 đồng"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "590.000 đồng"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "638.000 đồng"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "522.000 đồng"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một hóa đơn mua hàng chưa tính thuế có giá 580.000 đồng. Khi thanh toán cần cộng thêm 10% thuế giá trị gia tăng (VAT). Tổng số tiền khách phải trả là:",
+            "choices": {
+              "A": "609.000 đồng",
+              "B": "590.000 đồng",
+              "C": "638.000 đồng",
+              "D": "522.000 đồng"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-29",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3^(k + 1) - 3^(k) = 54:",
+          "choices": {
+            "A": "k = 2",
+            "B": "k = 5",
+            "C": "k = 3",
+            "D": "k = 4"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số tự nhiên k thỏa mãn đẳng thức: "
+            },
+            {
+              "t": "math",
+              "v": "3^{k + 1}"
+            },
+            {
+              "t": "txt",
+              "v": " - "
+            },
+            {
+              "t": "math",
+              "v": "3^{k}"
+            },
+            {
+              "t": "txt",
+              "v": " = 54:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "k = 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "k = 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "k = 3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "k = 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số tự nhiên k thỏa mãn đẳng thức: 3$^{k + 1}$ - 3$^{k}$ = 54:",
+            "choices": {
+              "A": "k = 2",
+              "B": "k = 5",
+              "C": "k = 3",
+              "D": "k = 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-30",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 58| = 35 bằng:",
+          "choices": {
+            "A": "0",
+            "B": "58",
+            "C": "116",
+            "D": "35"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 58| = 35 bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "58"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "116"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "35"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tổng tất cả các giá trị thực của x thỏa mãn |2x - 58| = 35 bằng:",
+            "choices": {
+              "A": "0",
+              "B": "58",
+              "C": "116",
+              "D": "35"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-31",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn biểu thức H = (x + 31)^(2) + (x - 31)^(2) - 2x^(2) ta được kết quả không phụ thuộc vào x là:",
+          "choices": {
+            "A": "961",
+            "B": "1922",
+            "C": "0",
+            "D": "124"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn biểu thức H = "
+            },
+            {
+              "t": "math",
+              "v": "(x + 31)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 31)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 2"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được kết quả không phụ thuộc vào x là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "961"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "1922"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "124"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn biểu thức H = (x + 31)$^2$ + (x - 31)$^2$ - 2x$^2$ ta được kết quả không phụ thuộc vào x là:",
+            "choices": {
+              "A": "961",
+              "B": "1922",
+              "C": "0",
+              "D": "124"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-32",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Khi thay x = -1 vào đa thức P(x) = x^(3) + 29x^(2) - 31x + 5, giá trị của P(-1) bằng:",
+          "choices": {
+            "A": "-64",
+            "B": "64",
+            "C": "62",
+            "D": "6"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi thay x = -1 vào đa thức P(x) = "
+            },
+            {
+              "t": "math",
+              "v": "x^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + 29"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " - 31x + 5, giá trị của P(-1) bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-64"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "64"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "62"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi thay x = -1 vào đa thức P(x) = x$^3$ + 29x$^2$ - 31x + 5, giá trị của P(-1) bằng:",
+            "choices": {
+              "A": "-64",
+              "B": "64",
+              "C": "62",
+              "D": "6"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-33",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Biểu thức Q(x) = (x + 29) / [(x - 29)(x + 33)] xác định khi và chỉ khi:",
+          "choices": {
+            "A": "x > 29",
+            "B": "x ≠ 29 và x ≠ -33",
+            "C": "x ≠ 29",
+            "D": "x ≠ -29 và x ≠ 33"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biểu thức Q(x) = (x + 29) / [(x - 29)(x + 33)] xác định khi và chỉ khi:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "x > 29"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 29 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -33"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 29"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " -29 và x "
+              },
+              {
+                "t": "math",
+                "v": "\\ne"
+              },
+              {
+                "t": "txt",
+                "v": " 33"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biểu thức Q(x) = (x + 29) / [(x - 29)(x + 33)] xác định khi và chỉ khi:",
+            "choices": {
+              "A": "x > 29",
+              "B": "x $\\ne$ 29 và x $\\ne$ -33",
+              "C": "x $\\ne$ 29",
+              "D": "x $\\ne$ -29 và x $\\ne$ 33"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-34",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Một ca nô có vận tốc riêng là 47 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+          "choices": {
+            "A": "94 km",
+            "B": "88 km",
+            "C": "100 km",
+            "D": "50 km"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một ca nô có vận tốc riêng là 47 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "94 km"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "88 km"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "100 km"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "50 km"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một ca nô có vận tốc riêng là 47 km/h chạy xuôi dòng trên khúc sông có vận tốc dòng nước là 3 km/h. Trong 2 giờ, ca nô xuôi dòng được quãng đường là:",
+            "choices": {
+              "A": "94 km",
+              "B": "88 km",
+              "C": "100 km",
+              "D": "50 km"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-35",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Cho đoạn thẳng AB = 124 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+          "choices": {
+            "A": "31 cm",
+            "B": "93 cm",
+            "C": "62 cm",
+            "D": "91 cm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho đoạn thẳng AB = 124 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "31 cm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "93 cm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "62 cm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "91 cm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho đoạn thẳng AB = 124 cm, điểm O là trung điểm của AB và điểm I là trung điểm của đoạn OA. Độ dài đoạn thẳng IB bằng:",
+            "choices": {
+              "A": "31 cm",
+              "B": "93 cm",
+              "C": "62 cm",
+              "D": "91 cm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-36",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Trong tứ giác lồi ABCD, biết góc A = 89°, góc B = 91° và góc C = 2 · góc D. Số đo góc D bằng:",
+          "choices": {
+            "A": "45°",
+            "B": "120°",
+            "C": "90°",
+            "D": "60°"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong tứ giác lồi ABCD, biết góc A = 89°, góc B = 91° và góc C = 2 "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " góc D. Số đo góc D bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "45°"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "120°"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "90°"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "60°"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong tứ giác lồi ABCD, biết góc A = 89°, góc B = 91° và góc C = 2 $\\cdot$ góc D. Số đo góc D bằng:",
+            "choices": {
+              "A": "45°",
+              "B": "120°",
+              "C": "90°",
+              "D": "60°"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-37",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Một mảnh đất hình chữ nhật có chiều rộng 18 m và chiều dài 24 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+          "choices": {
+            "A": "36 m",
+            "B": "30 m",
+            "C": "42 m",
+            "D": "300 m"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một mảnh đất hình chữ nhật có chiều rộng 18 m và chiều dài 24 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "36 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "30 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "42 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "300 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một mảnh đất hình chữ nhật có chiều rộng 18 m và chiều dài 24 m. Độ dài đường chéo nối hai góc đối diện của mảnh đất bằng:",
+            "choices": {
+              "A": "36 m",
+              "B": "30 m",
+              "C": "42 m",
+              "D": "300 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-38",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 145 dm^(2) và chứa được tối đa 870 lít nước (1 dm^(3) = 1 lít). Chiều cao của thùng chứa là:",
+          "choices": {
+            "A": "12 dm",
+            "B": "18 dm",
+            "C": "5 dm",
+            "D": "6 dm"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 145 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " và chứa được tối đa 870 lít nước (1 d"
+            },
+            {
+              "t": "math",
+              "v": "m^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " = 1 lít). Chiều cao của thùng chứa là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12 dm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18 dm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "5 dm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "6 dm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một thùng chứa dạng hình hộp chữ nhật có diện tích đáy 145 dm$^2$ và chứa được tối đa 870 lít nước (1 dm$^3$ = 1 lít). Chiều cao của thùng chứa là:",
+            "choices": {
+              "A": "12 dm",
+              "B": "18 dm",
+              "C": "5 dm",
+              "D": "6 dm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-39",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Điểm trung bình của 4 bài kiểm tra là 9,0 điểm. Biết điểm của 3 bài đầu lần lượt là 8, 9 và 8. Điểm của bài kiểm tra thứ tư là:",
+          "choices": {
+            "A": "10 điểm",
+            "B": "11 điểm",
+            "C": "9 điểm",
+            "D": "8 điểm"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Điểm trung bình của 4 bài kiểm tra là 9,0 điểm. Biết điểm của 3 bài đầu lần lượt là 8, 9 và 8. Điểm của bài kiểm tra thứ tư là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "10 điểm"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "11 điểm"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "9 điểm"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 điểm"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Điểm trung bình của 4 bài kiểm tra là 9,0 điểm. Biết điểm của 3 bài đầu lần lượt là 8, 9 và 8. Điểm của bài kiểm tra thứ tư là:",
+            "choices": {
+              "A": "10 điểm",
+              "B": "11 điểm",
+              "C": "9 điểm",
+              "D": "8 điểm"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-40",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Trong một chiếc hộp có 33 thẻ đánh số từ 1 đến 33 và 35 thẻ đánh số từ 34 đến 68. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 33 là:",
+          "choices": {
+            "A": "(34)/(68)",
+            "B": "(33)/(68)",
+            "C": "(1)/(68)",
+            "D": "(35)/(68)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong một chiếc hộp có 33 thẻ đánh số từ 1 đến 33 và 35 thẻ đánh số từ 34 đến 68. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 33 là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{34}{68}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{33}{68}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{68}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{35}{68}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong một chiếc hộp có 33 thẻ đánh số từ 1 đến 33 và 35 thẻ đánh số từ 34 đến 68. Rút ngẫu nhiên 1 thẻ, xác suất để rút được thẻ mang số lớn hơn 33 là:",
+            "choices": {
+              "A": "34/68",
+              "B": "33/68",
+              "C": "1/68",
+              "D": "35/68"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-41",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Từ một nhóm gồm 3 học sinh nam và 2 học sinh nữ, chọn ngẫu nhiên đồng thời 2 học sinh. Xác suất để chọn được đúng 1 học sinh nam và 1 học sinh nữ bằng:",
+          "choices": {
+            "A": "(3)/(10)",
+            "B": "(3)/(5)",
+            "C": "(1)/(2)",
+            "D": "(2)/(5)"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Từ một nhóm gồm 3 học sinh nam và 2 học sinh nữ, chọn ngẫu nhiên đồng thời 2 học sinh. Xác suất để chọn được đúng 1 học sinh nam và 1 học sinh nữ bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{3}{10}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{3}{5}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{2}{5}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Từ một nhóm gồm 3 học sinh nam và 2 học sinh nữ, chọn ngẫu nhiên đồng thời 2 học sinh. Xác suất để chọn được đúng 1 học sinh nam và 1 học sinh nữ bằng:",
+            "choices": {
+              "A": "3/10",
+              "B": "3/5",
+              "C": "1/2",
+              "D": "2/5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-42",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Gieo đồng thời hai con xúc xắc cân đối và đồng chất. Xác suất của biến cố 'Tổng số chấm xuất hiện trên hai con xúc xắc lớn hơn hoặc bằng 10' bằng:",
+          "choices": {
+            "A": "(1)/(6)",
+            "B": "(1)/(4)",
+            "C": "(5)/(36)",
+            "D": "(7)/(36)"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Gieo đồng thời hai con xúc xắc cân đối và đồng chất. Xác suất của biến cố 'Tổng số chấm xuất hiện trên hai con xúc xắc lớn hơn hoặc bằng 10' bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{6}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{4}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{5}{36}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{7}{36}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Gieo đồng thời hai con xúc xắc cân đối và đồng chất. Xác suất của biến cố 'Tổng số chấm xuất hiện trên hai con xúc xắc lớn hơn hoặc bằng 10' bằng:",
+            "choices": {
+              "A": "1/6",
+              "B": "1/4",
+              "C": "5/36",
+              "D": "7/36"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-43",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 29)^(2) + (x - 33)^(2) với mọi số thực x:",
+          "choices": {
+            "A": "0",
+            "B": "4",
+            "C": "16",
+            "D": "8 (đạt được khi x = 31)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm giá trị nhỏ nhất của biểu thức A(x) = "
+            },
+            {
+              "t": "math",
+              "v": "(x - 29)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "(x - 33)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " với mọi số thực x:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "8 (đạt được khi x = 31)"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm giá trị nhỏ nhất của biểu thức A(x) = (x - 29)$^2$ + (x - 33)$^2$ với mọi số thực x:",
+            "choices": {
+              "A": "0",
+              "B": "4",
+              "C": "16",
+              "D": "8 (đạt được khi x = 31)"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-44",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Giá trị lớn nhất của biểu thức phân thức B(x) = 128 / ((x + 29)^(2) + 4) với mọi x ∈ ℝ bằng:",
+          "choices": {
+            "A": "4",
+            "B": "128",
+            "C": "16.0",
+            "D": "32"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Giá trị lớn nhất của biểu thức phân thức B(x) = 128 / ("
+            },
+            {
+              "t": "math",
+              "v": "(x + 29)^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 4) với mọi x "
+            },
+            {
+              "t": "math",
+              "v": "\\in"
+            },
+            {
+              "t": "txt",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "128"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16.0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Giá trị lớn nhất của biểu thức phân thức B(x) = 128 / ((x + 29)$^2$ + 4) với mọi x $\\in$ $\\mathbb{R}$ bằng:",
+            "choices": {
+              "A": "4",
+              "B": "128",
+              "C": "16.0",
+              "D": "32"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-45",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Tính tổng của 39 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (155):",
+          "choices": {
+            "A": "3003",
+            "B": "3042",
+            "C": "6162",
+            "D": "3081"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính tổng của 39 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (155):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "3003"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "3042"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6162"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3081"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính tổng của 39 số hạng đầu tiên của dãy số cách đều: 3 + 7 + 11 + ... + (155):",
+            "choices": {
+              "A": "3003",
+              "B": "3042",
+              "C": "6162",
+              "D": "3081"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-46",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Tính giá trị của tổng S = 2/(1·3) + 2/(3·5) + 2/(5·7) + ... + 2/(67·69):",
+          "choices": {
+            "A": "(1)/(69)",
+            "B": "(67)/(69)",
+            "C": "(34)/(69)",
+            "D": "(68)/(69)"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính giá trị của tổng S = 2/(1"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "3) + 2/(3"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "5) + 2/(5"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "7) + ... + 2/(67"
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": "69):"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "\\frac{1}{69}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "\\frac{67}{69}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "\\frac{34}{69}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "\\frac{68}{69}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính giá trị của tổng S = 2/(1$\\cdot$3) + 2/(3$\\cdot$5) + 2/(5$\\cdot$7) + ... + 2/(67$\\cdot$69):",
+            "choices": {
+              "A": "1/69",
+              "B": "67/69",
+              "C": "34/69",
+              "D": "68/69"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-47",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Có tất cả bao nhiêu số nguyên x (với x ≠ -29) sao cho biểu thức P = (3x + 98)/(x + 29) nhận giá trị là một số nguyên?",
+          "choices": {
+            "A": "6 số nguyên",
+            "B": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên ±1, ±11)",
+            "C": "8 số nguyên",
+            "D": "2 số nguyên"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Có tất cả bao nhiêu số nguyên x (với x "
+            },
+            {
+              "t": "math",
+              "v": "\\ne"
+            },
+            {
+              "t": "txt",
+              "v": " -29) sao cho biểu thức P = (3x + 98)/(x + 29) nhận giá trị là một số nguyên?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6 số nguyên"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "1, "
+              },
+              {
+                "t": "math",
+                "v": "\\pm"
+              },
+              {
+                "t": "txt",
+                "v": "11)"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 số nguyên"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "2 số nguyên"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Có tất cả bao nhiêu số nguyên x (với x $\\ne$ -29) sao cho biểu thức P = (3x + 98)/(x + 29) nhận giá trị là một số nguyên?",
+            "choices": {
+              "A": "6 số nguyên",
+              "B": "4 số nguyên (vì 11 là số nguyên tố nên có 4 ước nguyên $\\pm$1, $\\pm$11)",
+              "C": "8 số nguyên",
+              "D": "2 số nguyên"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-48",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Vòi nước thứ nhất chảy riêng đầy bể trong 12 giờ, vòi thứ hai chảy riêng đầy bể trong 24 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+          "choices": {
+            "A": "18.0 giờ",
+            "B": "4 giờ",
+            "C": "8 giờ",
+            "D": "12 giờ"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vòi nước thứ nhất chảy riêng đầy bể trong 12 giờ, vòi thứ hai chảy riêng đầy bể trong 24 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18.0 giờ"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "4 giờ"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "8 giờ"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12 giờ"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vòi nước thứ nhất chảy riêng đầy bể trong 12 giờ, vòi thứ hai chảy riêng đầy bể trong 24 giờ. Nếu mở cả hai vòi cùng chảy vào bể cạn thì bể sẽ đầy sau:",
+            "choices": {
+              "A": "18.0 giờ",
+              "B": "4 giờ",
+              "C": "8 giờ",
+              "D": "12 giờ"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-49",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Biết hai số thực u và v thỏa mãn u + v = 32 và u · v = 31. Giá trị của biểu thức T = u^(3) + v^(3) bằng:",
+          "choices": {
+            "A": "962",
+            "B": "35744",
+            "C": "32768",
+            "D": "29792"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biết hai số thực u và v thỏa mãn u + v = 32 và u "
+            },
+            {
+              "t": "math",
+              "v": "\\cdot"
+            },
+            {
+              "t": "txt",
+              "v": " v = 31. Giá trị của biểu thức T = "
+            },
+            {
+              "t": "math",
+              "v": "u^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "v^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " bằng:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "962"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "35744"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "32768"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "29792"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biết hai số thực u và v thỏa mãn u + v = 32 và u $\\cdot$ v = 31. Giá trị của biểu thức T = u$^3$ + v$^3$ bằng:",
+            "choices": {
+              "A": "962",
+              "B": "35744",
+              "C": "32768",
+              "D": "29792"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        },
+        {
+          "id": "9-08-50",
+          "grade": 9,
+          "chapter": 8,
+          "chapterTitle": "XÁC SUẤT CỦA BIẾN CỐ TRONG MỘT SỐ MÔ HÌNH XÁC SUẤT ĐƠN GIẢN",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 270 m^(2). Chiều rộng ban đầu của khu đất là:",
+          "choices": {
+            "A": "29 m",
+            "B": "87 m",
+            "C": "58 m",
+            "D": "32 m"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 270 "
+            },
+            {
+              "t": "math",
+              "v": "m^{2}"
+            },
+            {
+              "t": "txt",
+              "v": ". Chiều rộng ban đầu của khu đất là:"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "29 m"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "87 m"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "58 m"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "32 m"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một khu đất hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm 3 m thì diện tích khu đất tăng thêm 270 m$^2$. Chiều rộng ban đầu của khu đất là:",
+            "choices": {
+              "A": "29 m",
+              "B": "87 m",
+              "C": "58 m",
+              "D": "32 m"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_9_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "VIII",
+            "answerKey": "Bảng đáp án Chương VIII"
+          }
+        }
+      ]
+    }
+  ]
+}

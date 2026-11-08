@@ -1,0 +1,1039 @@
+/* ==========================================================================
+   MATHVERSE R6 — MUSEUM ATLAS (SẢNH BẢO TÀNG UI-ONLY)
+   Phong cách: Tối sang trọng, hình 3D trung tâm, viền thanh thoát,
+               nhấn xanh ngọc (teal #167D80), aqua (#53D3C5) và vàng đồng (#D6B47C).
+   Phạm vi: CHỈ SẢNH BẢO TÀNG, không ảnh hưởng LabShell/Kho SGK/Studio.
+   ========================================================================== */
+
+/* 1. HỆ THỐNG BIẾN THỊ GIÁC R6 MUSEUM ATLAS */
+html[data-mv-ui="r6-museum"], :root {
+  --mv-r6-night: #0b1726;
+  --mv-r6-slate: #142b3d;
+  --mv-r6-slate-dark: #0a1927;
+  --mv-r6-slate-surface: #122d3f;
+  --mv-r6-card-bg: #142f42;
+  --mv-r6-card-hover: #193a52;
+  --mv-r6-card-active: #1a4a4b;
+  --mv-r6-teal: #167d80;
+  --mv-r6-teal-dark: #164c52;
+  --mv-r6-aqua: #53d3c5;
+  --mv-r6-aqua-light: #c5fff4;
+  --mv-r6-gold: #d6b47c;
+  --mv-r6-gold-text: #f2cf90;
+  --mv-r6-text-warm: #eaf4f4;
+  --mv-r6-text-sub: #afc8d1;
+  --mv-r6-text-muted: #89a9b8;
+  --mv-r6-border: rgba(200, 233, 234, 0.14);
+  --mv-r6-border-subtle: rgba(200, 233, 234, 0.08);
+  --mv-r6-border-focus: #53d3c5;
+  --mv-r6-shadow: 0 16px 40px rgba(0, 5, 15, 0.45);
+  --mv-r6-font: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", Arial, sans-serif;
+}
+
+/* 2. KHÔNG GIAN SÂN KHẤU 3D VÀ AMBIENT OVERLAY */
+html[data-mv-ui="r6-museum"] body {
+  background-color: var(--mv-r6-night) !important;
+  font-family: var(--mv-r6-font) !important;
+  color: var(--mv-r6-text-warm) !important;
+}
+
+html[data-mv-ui="r6-museum"] #world {
+  display: block;
+  width: 100vw;
+  height: 100dvh;
+  touch-action: none;
+  z-index: 1;
+}
+
+html[data-mv-ui="r6-museum"] .ambient-glow {
+  position: fixed;
+  inset: 0;
+  pointer-events: none !important;
+  z-index: 1;
+  background: radial-gradient(ellipse at 65% 55%, rgba(38, 68, 87, 0.35) 0%, rgba(18, 44, 63, 0.25) 30%, rgba(9, 23, 37, 0.72) 75%) !important;
+}
+
+/* Lưới phối cảnh sàn tinh tế tăng chiều sâu không gian (an toàn, không che click) */
+html[data-mv-ui="r6-museum"] .ambient-glow::after {
+  content: "";
+  position: absolute;
+  inset: 32% -12% -20%;
+  background: repeating-linear-gradient(0deg, transparent 0 50px, rgba(147, 210, 208, 0.035) 51px 52px),
+              repeating-linear-gradient(90deg, transparent 0 65px, rgba(147, 210, 208, 0.03) 66px 67px);
+  transform: perspective(650px) rotateX(62deg);
+  transform-origin: center 80%;
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+/* 3. SIDEBAR SẢNH BẢO TÀNG (BÁM SÁT MẪU TRANG 2) */
+html[data-mv-ui="r6-museum"] .sidebar {
+  width: 260px !important;
+  left: 16px !important;
+  top: 16px !important;
+  bottom: 84px !important;
+  background: rgba(10, 25, 39, 0.94) !important;
+  border: 1px solid rgba(184, 226, 233, 0.13) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 20px 50px rgba(3, 9, 14, 0.65), 0 0 1px rgba(200, 233, 234, 0.15) !important;
+  backdrop-filter: blur(22px) !important;
+  padding: 20px 14px 14px !important;
+  gap: 8px !important;
+  z-index: 4 !important;
+  font-family: var(--mv-r6-font) !important;
+}
+
+/* Logo & Phụ đề */
+html[data-mv-ui="r6-museum"] .brand {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  padding: 2px 4px 15px !important;
+  border-bottom: 1px solid rgba(76, 103, 117, 0.28) !important;
+}
+
+html[data-mv-ui="r6-museum"] .brand-mark {
+  display: grid !important;
+  place-items: center !important;
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px !important;
+  border-radius: 10px !important;
+  background: linear-gradient(135deg, var(--mv-r6-teal), var(--mv-r6-aqua)) !important;
+  color: var(--mv-r6-night) !important;
+  font-size: 21px !important;
+  font-weight: 900 !important;
+  box-shadow: 0 0 16px rgba(83, 211, 197, 0.35) !important;
+}
+
+html[data-mv-ui="r6-museum"] .brand strong {
+  font-size: 19px !important;
+  font-weight: 850 !important;
+  letter-spacing: 1.3px !important;
+  color: #ffffff !important;
+  line-height: 1.2 !important;
+}
+
+html[data-mv-ui="r6-museum"] .brand small {
+  display: block !important;
+  font-size: 9.5px !important;
+  font-weight: 750 !important;
+  letter-spacing: 1.8px !important;
+  color: var(--mv-r6-text-muted) !important;
+  margin-top: 3px !important;
+  text-transform: uppercase !important;
+}
+
+/* Tiêu đề nhóm */
+html[data-mv-ui="r6-museum"] .section-head {
+  font-size: 10px !important;
+  font-weight: 800 !important;
+  letter-spacing: 1.4px !important;
+  color: #90abb8 !important;
+  text-transform: uppercase !important;
+  margin: 10px 4px 4px !important;
+}
+
+/* Lưới chọn lớp 4 cột gọn gàng */
+html[data-mv-ui="r6-museum"] #grade-nav {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 6px !important;
+  margin-bottom: 4px !important;
+}
+
+html[data-mv-ui="r6-museum"] .grade-button {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 8px 2px !important;
+  border: 1px solid #365366 !important;
+  background: #162d41 !important;
+  border-radius: 9px !important;
+  color: #b9cdd4 !important;
+  font-size: 11.5px !important;
+  font-weight: 750 !important;
+  min-height: 35px !important;
+  transition: all 0.18s ease !important;
+}
+
+html[data-mv-ui="r6-museum"] .grade-button b {
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  white-space: nowrap !important;
+}
+
+html[data-mv-ui="r6-museum"] .grade-button span {
+  display: none !important; /* Ẩn số hình cồng kềnh để giữ đúng form nút chip L6..L12 */
+}
+
+html[data-mv-ui="r6-museum"] .grade-button:hover {
+  background: #1b3a52 !important;
+  border-color: var(--mv-r6-aqua) !important;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
+html[data-mv-ui="r6-museum"] .grade-button.selected {
+  background: var(--mv-r6-teal-dark) !important;
+  border-color: #4acabc !important;
+  color: var(--mv-r6-aqua-light) !important;
+  box-shadow: 0 0 12px rgba(74, 202, 188, 0.3) !important;
+}
+
+/* Nút Sảnh chính xếp ở vị trí ô thứ 8 gọn gàng, hiển thị biểu tượng ⌂ */
+html[data-mv-ui="r6-museum"] .grade-button.grade-home {
+  order: 8 !important;
+  grid-column: span 1 !important;
+  font-size: 0 !important;
+  padding: 8px 2px !important;
+}
+
+html[data-mv-ui="r6-museum"] .grade-button.grade-home::before {
+  content: "⌂" !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #b9cdd4 !important;
+}
+
+html[data-mv-ui="r6-museum"] .grade-button.grade-home.selected::before {
+  color: var(--mv-r6-aqua-light) !important;
+}
+
+/* Ô tìm kiếm hiện vật */
+html[data-mv-ui="r6-museum"] .search-field {
+  background: #122d3f !important;
+  border: 1px solid #315063 !important;
+  border-radius: 10px !important;
+  padding: 9px 12px !important;
+  color: var(--mv-r6-text-warm) !important;
+  font-size: 12px !important;
+  outline: none !important;
+  transition: border-color 0.2s, box-shadow 0.2s !important;
+}
+
+html[data-mv-ui="r6-museum"] .search-field:focus {
+  border-color: var(--mv-r6-aqua) !important;
+  box-shadow: 0 0 10px rgba(83, 211, 197, 0.25) !important;
+}
+
+html[data-mv-ui="r6-museum"] .search-field::placeholder {
+  color: #7b95a5 !important;
+}
+
+/* Danh sách hiện vật trưng bày */
+html[data-mv-ui="r6-museum"] .catalog-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 3px 2px 3px 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  scrollbar-width: thin;
+  scrollbar-color: #365366 transparent;
+}
+
+html[data-mv-ui="r6-museum"] .catalog-scroll > div {
+  width: 100%;
+}
+
+html[data-mv-ui="r6-museum"] .catalog-item {
+  border: 1px solid rgba(200, 233, 234, 0.08) !important;
+  background: var(--mv-r6-card-bg) !important;
+  border-radius: 11px !important;
+  padding: 10px 11px !important;
+  display: flex !important;
+  gap: 10px !important;
+  align-items: flex-start !important;
+  width: 100% !important;
+  transition: all 0.18s ease !important;
+  text-align: left !important;
+  color: var(--mv-r6-text-warm) !important;
+}
+
+html[data-mv-ui="r6-museum"] .catalog-item:hover {
+  background: var(--mv-r6-card-hover) !important;
+  border-color: rgba(83, 211, 197, 0.35) !important;
+  transform: translateX(2px) !important;
+}
+
+html[data-mv-ui="r6-museum"] .catalog-item .number {
+  width: 28px !important;
+  height: 28px !important;
+  min-width: 28px !important;
+  border: 1px solid #527378 !important;
+  border-radius: 8px !important;
+  display: grid !important;
+  place-items: center !important;
+  color: #a7e7df !important;
+  background: #122d3f !important;
+  font-size: 11px !important;
+  font-weight: 750 !important;
+}
+
+html[data-mv-ui="r6-museum"] .catalog-item strong {
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  color: var(--mv-r6-text-warm) !important;
+  line-height: 1.35 !important;
+  display: block !important;
+}
+
+html[data-mv-ui="r6-museum"] .catalog-item small {
+  font-size: 10px !important;
+  color: #8facbc !important;
+  display: block !important;
+  margin-top: 3px !important;
+  font-weight: 500 !important;
+}
+
+html[data-mv-ui="r6-museum"] .catalog-pages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 4px 2px;
+  font-size: 11px;
+  color: #8facbc;
+}
+
+html[data-mv-ui="r6-museum"] .catalog-pages button {
+  background: #162d41 !important;
+  border: 1px solid #365366 !important;
+  border-radius: 7px !important;
+  color: #b9cdd4 !important;
+  padding: 3px 10px !important;
+  font-size: 13px !important;
+}
+
+html[data-mv-ui="r6-museum"] .sidebar-footer {
+  font-size: 10.5px !important;
+  color: #8facbc !important;
+  border-top: 1px solid rgba(76, 103, 117, 0.28) !important;
+  padding: 10px 4px 0 !important;
+}
+
+/* 4. THANH ĐIỀU HƯỚNG TRÊN (TOPBAR HUD) */
+html[data-mv-ui="r6-museum"] .topbar.glass {
+  position: fixed !important;
+  left: 290px !important;
+  right: 235px !important;
+  top: 16px !important;
+  height: 52px !important;
+  min-height: 52px !important;
+  background: rgba(14, 34, 50, 0.9) !important;
+  border: 1px solid rgba(81, 108, 121, 0.55) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 10px 32px rgba(0, 5, 15, 0.38) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  padding: 0 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  z-index: 3 !important;
+}
+
+html[data-mv-ui="r6-museum"] .topbar-badge {
+  display: flex !important;
+  align-items: center !important;
+  gap: 9px !important;
+  background: #0b2637d9 !important;
+  border: 1px solid #456173aa !important;
+  border-radius: 12px !important;
+  padding: 7px 15px !important;
+}
+
+html[data-mv-ui="r6-museum"] .topbar-badge .grade-pill {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  background: var(--mv-r6-aqua) !important;
+  box-shadow: 0 0 8px var(--mv-r6-aqua) !important;
+}
+
+html[data-mv-ui="r6-museum"] #room-indicator {
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.8px !important;
+  color: #ffffff !important;
+  text-transform: uppercase !important;
+}
+
+html[data-mv-ui="r6-museum"] #model-summary {
+  font-size: 11px !important;
+  color: #9eb8c8 !important;
+  margin-left: 8px !important;
+  padding-left: 10px !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+html[data-mv-ui="r6-museum"] .top-actions {
+  display: flex !important;
+  gap: 7px !important;
+}
+
+html[data-mv-ui="r6-museum"] .top-btn {
+  background: #18384cdd !important;
+  border: 1px solid #516c79 !important;
+  border-radius: 10px !important;
+  padding: 7px 13px !important;
+  font-size: 11.5px !important;
+  font-weight: 700 !important;
+  color: #d5e7e7 !important;
+  transition: all 0.18s ease !important;
+}
+
+html[data-mv-ui="r6-museum"] .top-btn:hover {
+  background: #224d67 !important;
+  border-color: var(--mv-r6-aqua) !important;
+  color: #ffffff !important;
+  transform: translateY(-1px) !important;
+}
+
+html[data-mv-ui="r6-museum"] #btn-curriculum {
+  background: #164c52 !important;
+  border-color: #4acabc !important;
+  color: var(--mv-r6-aqua-light) !important;
+  font-weight: 800 !important;
+}
+
+/* 5. BẢN ĐỒ PHÒNG MINIMAP GỌN GÀNG */
+html[data-mv-ui="r6-museum"] #minimap-panel.minimap-panel {
+  width: 204px !important;
+  right: 16px !important;
+  top: 16px !important;
+  background: rgba(16, 42, 61, 0.94) !important;
+  border: 1px solid rgba(82, 118, 131, 0.65) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.38) !important;
+  backdrop-filter: blur(18px) !important;
+  padding: 12px !important;
+  z-index: 3 !important;
+}
+
+html[data-mv-ui="r6-museum"] .minimap-header {
+  font-size: 11px !important;
+  letter-spacing: 1.4px !important;
+  font-weight: 800 !important;
+  color: #d9ecea !important;
+  margin-bottom: 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+html[data-mv-ui="r6-museum"] #minimap-canvas {
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 8px !important;
+  border: 1px solid #3f6775 !important;
+  background: linear-gradient(145deg, #1d4457, #102b40) !important;
+}
+
+html[data-mv-ui="r6-museum"] #minimap-status {
+  font-size: 10px !important;
+  color: #90abb8 !important;
+  text-align: center !important;
+  margin: 6px 0 !important;
+  font-weight: 700 !important;
+}
+
+html[data-mv-ui="r6-museum"] .minimap-nav {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 4px !important;
+  margin-top: 6px !important;
+}
+
+html[data-mv-ui="r6-museum"] .map-btn {
+  font-size: 10.5px !important;
+  border: 1px solid #5b8290 !important;
+  padding: 4px 2px !important;
+  border-radius: 6px !important;
+  background: #162d41 !important;
+  color: #b9cdd4 !important;
+  font-weight: 700 !important;
+  min-height: 25px !important;
+  text-align: center !important;
+  transition: all 0.15s ease !important;
+}
+
+html[data-mv-ui="r6-museum"] .map-btn:hover {
+  background: #1f4258 !important;
+  border-color: var(--mv-r6-aqua) !important;
+  color: #ffffff !important;
+}
+
+html[data-mv-ui="r6-museum"] .map-btn.active {
+  color: #d5ffed !important;
+  border-color: var(--mv-r6-aqua) !important;
+  background: #255a54 !important;
+  box-shadow: 0 0 8px rgba(83, 211, 197, 0.3) !important;
+}
+
+/* Đưa nút Sảnh về vị trí ô thứ 8 dạng ⌂ */
+html[data-mv-ui="r6-museum"] .map-btn[data-room="0"] {
+  order: 8 !important;
+  font-size: 0 !important;
+}
+
+html[data-mv-ui="r6-museum"] .map-btn[data-room="0"]::before {
+  content: "⌂" !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  color: #b9cdd4 !important;
+}
+
+html[data-mv-ui="r6-museum"] .map-btn[data-room="0"].active::before {
+  color: #d5ffed !important;
+}
+
+/* 6. DOCK ĐIỀU HƯỚNG NỔI (MUSEUM ATLAS DOCK) */
+html[data-mv-ui="r6-museum"] .bottom-toolbar.glass {
+  position: fixed !important;
+  left: 50% !important;
+  bottom: 20px !important;
+  transform: translateX(-50%) !important;
+  background: rgba(11, 34, 51, 0.94) !important;
+  border: 1px solid rgba(83, 112, 125, 0.75) !important;
+  border-radius: 19px !important;
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.58) !important;
+  backdrop-filter: blur(22px) !important;
+  padding: 8px 12px !important;
+  gap: 7px !important;
+  z-index: 4 !important;
+}
+
+html[data-mv-ui="r6-museum"] .dock-grade-strip {
+  display: flex !important;
+  gap: 4px !important;
+  align-items: center !important;
+}
+
+html[data-mv-ui="r6-museum"] .dock-grade-btn {
+  background: #142b3d !important;
+  border: 1px solid #2e4d5f !important;
+  border-radius: 9px !important;
+  padding: 6px 9px !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  color: #adc5cc !important;
+  transition: all 0.15s ease !important;
+}
+
+html[data-mv-ui="r6-museum"] .dock-grade-btn:hover {
+  background: #1f3f54 !important;
+  border-color: var(--mv-r6-aqua) !important;
+  color: #ffffff !important;
+}
+
+html[data-mv-ui="r6-museum"] .dock-grade-btn.active {
+  background: var(--mv-r6-teal-dark) !important;
+  border-color: #4acabc !important;
+  color: var(--mv-r6-aqua-light) !important;
+  box-shadow: 0 0 10px rgba(74, 202, 188, 0.3) !important;
+}
+
+html[data-mv-ui="r6-museum"] .dock-separator {
+  width: 1px !important;
+  height: 22px !important;
+  background: rgba(200, 233, 234, 0.18) !important;
+  margin: 0 3px !important;
+}
+
+html[data-mv-ui="r6-museum"] .bottom-toolbar button {
+  background: #19384a !important;
+  border: 1px solid #365366 !important;
+  border-radius: 12px !important;
+  padding: 8px 13px !important;
+  font-size: 12px !important;
+  font-weight: 650 !important;
+  color: var(--mv-r6-text-warm) !important;
+  transition: all 0.18s ease !important;
+}
+
+html[data-mv-ui="r6-museum"] .bottom-toolbar button:hover {
+  background: #224a61 !important;
+  border-color: var(--mv-r6-aqua) !important;
+  color: #ffffff !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Nút Máy chiếu được làm nổi bật như Mẫu tham chiếu trang 2 */
+html[data-mv-ui="r6-museum"] #btn-projector {
+  background: #1a695f !important;
+  border-color: #56bba8 !important;
+  color: #e3ffed !important;
+  font-weight: 750 !important;
+  box-shadow: 0 0 12px rgba(86, 187, 168, 0.3) !important;
+}
+
+html[data-mv-ui="r6-museum"] .museum-quality-picker {
+  background: #19384a !important;
+  border: 1px solid #365366 !important;
+  border-radius: 12px !important;
+  padding: 6px 11px !important;
+  font-size: 11.5px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  color: #d5e7e7 !important;
+}
+
+html[data-mv-ui="r6-museum"] .museum-quality-picker select {
+  background: transparent !important;
+  border: none !important;
+  color: var(--mv-r6-aqua) !important;
+  font-weight: 700 !important;
+  font-size: 11.5px !important;
+  outline: none !important;
+  cursor: pointer !important;
+}
+
+/* 7. HƯỚNG DẪN THAO TÁC (WORLD HINT) */
+html[data-mv-ui="r6-museum"] .world-hint {
+  position: fixed !important;
+  left: 50% !important;
+  bottom: 84px !important;
+  transform: translateX(-50%) !important;
+  background: rgba(11, 34, 51, 0.88) !important;
+  border: 1px solid rgba(200, 233, 234, 0.16) !important;
+  border-radius: 16px !important;
+  padding: 7px 18px !important;
+  font-size: 11.5px !important;
+  color: var(--mv-r6-text-sub) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35) !important;
+  backdrop-filter: blur(12px) !important;
+  pointer-events: none !important;
+  z-index: 2 !important;
+}
+
+html[data-mv-ui="r6-museum"] .world-hint strong {
+  color: var(--mv-r6-aqua) !important;
+  font-weight: 750 !important;
+}
+
+/* 8. BANNER MÁY CHIẾU & TOAST */
+html[data-mv-ui="r6-museum"] #projector-banner {
+  background: linear-gradient(135deg, rgba(20, 43, 61, 0.96), rgba(11, 23, 38, 0.96)) !important;
+  border: 1px solid var(--mv-r6-gold) !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6) !important;
+  border-radius: 14px !important;
+}
+
+html[data-mv-ui="r6-museum"] .proj-title {
+  color: var(--mv-r6-gold-text) !important;
+  font-weight: 800 !important;
+}
+
+html[data-mv-ui="r6-museum"] .toast {
+  background: var(--mv-r6-teal-dark) !important;
+  border: 1px solid var(--mv-r6-aqua) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+  font-size: 13px !important;
+}
+
+/* 9. PORTAL HUB & GRADE 6 FOUR GATES */
+html[data-mv-ui="r6-museum"] #mv14-portal-hub {
+  background: rgba(14, 34, 50, 0.88) !important;
+  border: 1px solid rgba(81, 108, 121, 0.5) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 10px 30px rgba(0, 5, 15, 0.35) !important;
+  backdrop-filter: blur(16px) !important;
+}
+
+html[data-mv-ui="r6-museum"] .mv14-portal-heading {
+  color: var(--mv-r6-gold) !important;
+  font-weight: 800 !important;
+  font-size: 11px !important;
+  letter-spacing: 1.5px !important;
+}
+
+html[data-mv-ui="r6-museum"] .mv14-gate-button {
+  background: #142f42 !important;
+  border: 1px solid rgba(83, 211, 197, 0.25) !important;
+  border-radius: 10px !important;
+  color: var(--mv-r6-text-warm) !important;
+  transition: all 0.18s ease !important;
+}
+
+html[data-mv-ui="r6-museum"] .mv14-gate-button:hover {
+  background: #193a52 !important;
+  border-color: var(--mv-r6-aqua) !important;
+  transform: translateY(-1px) !important;
+}
+
+html[data-mv-ui="r6-museum"] .mv14-gate-button.active {
+  background: var(--mv-r6-teal-dark) !important;
+  border-color: #4acabc !important;
+  color: var(--mv-r6-aqua-light) !important;
+  box-shadow: 0 0 12px rgba(74, 202, 188, 0.3) !important;
+}
+
+/* 10. MODAL CHÀO MỪNG (WELCOME OVERLAY) */
+html[data-mv-ui="r6-museum"] .welcome-panel {
+  background: linear-gradient(145deg, rgba(20, 43, 61, 0.98), rgba(9, 21, 36, 0.98)) !important;
+  border: 1px solid rgba(83, 211, 197, 0.32) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.75) !important;
+}
+
+html[data-mv-ui="r6-museum"] .welcome-panel .eyebrow {
+  color: var(--mv-r6-gold) !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  letter-spacing: 2px !important;
+}
+
+html[data-mv-ui="r6-museum"] .welcome-panel h1 em {
+  color: var(--mv-r6-aqua) !important;
+}
+
+html[data-mv-ui="r6-museum"] .welcome-panel .primary-btn {
+  background: linear-gradient(135deg, var(--mv-r6-teal), var(--mv-r6-aqua)) !important;
+  color: var(--mv-r6-night) !important;
+  font-weight: 800 !important;
+  border: none !important;
+  box-shadow: 0 4px 16px rgba(83, 211, 197, 0.35) !important;
+}
+
+/* 11. ĐÁP ỨNG VIEWPORT & MÁY CHIẾU (RESPONSIVE) */
+@media (max-width: 1250px) {
+  html[data-mv-ui="r6-museum"] .topbar.glass {
+    left: 285px !important;
+    right: 220px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  html[data-mv-ui="r6-museum"] .sidebar {
+    width: 240px !important;
+  }
+  html[data-mv-ui="r6-museum"] .topbar.glass {
+    left: 265px !important;
+    right: 16px !important;
+  }
+  html[data-mv-ui="r6-museum"] #minimap-panel.minimap-panel {
+    top: 76px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  html[data-mv-ui="r6-museum"] .topbar.glass {
+    left: 12px !important;
+    right: 12px !important;
+    top: 10px !important;
+    padding: 0 10px !important;
+  }
+  html[data-mv-ui="r6-museum"] #model-summary {
+    display: none !important;
+  }
+  html[data-mv-ui="r6-museum"] .bottom-toolbar.glass {
+    left: 10px !important;
+    right: 10px !important;
+    bottom: 60px !important;
+    transform: none !important;
+    justify-content: flex-start !important;
+    overflow-x: auto !important;
+  }
+  html[data-mv-ui="r6-museum"] .sidebar {
+    width: 100% !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    top: auto !important;
+    border-radius: 16px 16px 0 0 !important;
+    z-index: 5 !important;
+  }
+}
+
+/* 13. THANH ĐIỀU HƯỚNG PHÂN CẤP BREADCRUMB R6 (MUSEUM ATLAS) */
+html[data-mv-ui="r6-museum"] .r6-breadcrumb-bar {
+  position: fixed;
+  top: 66px !important;
+  left: 295px !important;
+  right: 270px !important;
+  height: 38px !important;
+  background: rgba(12, 28, 43, 0.92);
+  border: 1px solid rgba(83, 211, 197, 0.22);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  z-index: 35 !important;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 4px 20px rgba(0, 5, 12, 0.45);
+  font-family: var(--mv-r6-font);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+html[data-mv-ui="r6-museum"] .mv14-portal-hub {
+  top: 112px !important;
+  z-index: 25 !important;
+}
+
+html[data-mv-ui="r6-museum"] .r6-breadcrumb-bar::-webkit-scrollbar {
+  display: none;
+}
+
+html[data-mv-ui="r6-museum"] .r6-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  font-size: 12.5px;
+}
+
+html[data-mv-ui="r6-museum"] .r6-crumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--mv-r6-text-sub);
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+html[data-mv-ui="r6-museum"] .r6-crumb:hover {
+  color: var(--mv-r6-aqua);
+  background: rgba(83, 211, 197, 0.1);
+}
+
+html[data-mv-ui="r6-museum"] .r6-crumb.active {
+  color: var(--mv-r6-gold-text);
+  font-weight: 700;
+  cursor: default;
+}
+
+html[data-mv-ui="r6-museum"] .r6-crumb-sep {
+  color: var(--mv-r6-text-muted);
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+/* 14. THẺ PHÒNG CHUYÊN ĐỀ & LAB TRONG SIDEBAR */
+html[data-mv-ui="r6-museum"] .r6-thematic-room-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: var(--mv-r6-card-bg);
+  border: 1px solid var(--mv-r6-border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  color: var(--mv-r6-text-warm);
+}
+
+html[data-mv-ui="r6-museum"] .r6-thematic-room-card:hover {
+  background: var(--mv-r6-card-hover);
+  border-color: var(--mv-r6-aqua);
+  transform: translateY(-1px);
+}
+
+html[data-mv-ui="r6-museum"] .r6-thematic-room-card.active {
+  background: var(--mv-r6-card-active);
+  border-color: var(--mv-r6-aqua);
+  box-shadow: 0 0 14px rgba(83, 211, 197, 0.28);
+}
+
+html[data-mv-ui="r6-museum"] .r6-room-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+html[data-mv-ui="r6-museum"] .r6-room-id-badge {
+  font-family: monospace;
+  font-size: 10.5px;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(22, 125, 128, 0.3);
+  color: var(--mv-r6-aqua);
+  border: 1px solid rgba(83, 211, 197, 0.3);
+}
+
+html[data-mv-ui="r6-museum"] .r6-room-stats-badge {
+  font-size: 10px;
+  color: var(--mv-r6-text-muted);
+}
+
+html[data-mv-ui="r6-museum"] .r6-thematic-room-card strong {
+  font-size: 12.5px;
+  font-weight: 750;
+  line-height: 1.35;
+  color: #ffffff;
+}
+
+html[data-mv-ui="r6-museum"] .r6-thematic-room-card small {
+  font-size: 10.5px;
+  color: var(--mv-r6-text-sub);
+  line-height: 1.3;
+}
+
+/* Thẻ Lab phân cấp bên trong phòng */
+html[data-mv-ui="r6-museum"] .r6-lab-card {
+  width: 100%;
+  background: rgba(14, 30, 45, 0.9);
+  border-left: 3px solid var(--mv-r6-teal);
+  border-radius: 0 8px 8px 0;
+  padding: 8px 10px;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+html[data-mv-ui="r6-museum"] .r6-lab-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+html[data-mv-ui="r6-museum"] .r6-lab-title {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--mv-r6-text-warm);
+}
+
+html[data-mv-ui="r6-museum"] .r6-mode-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: 4px;
+}
+
+html[data-mv-ui="r6-museum"] .r6-mode-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 6px;
+  padding: 5px 8px;
+  color: var(--mv-r6-text-sub);
+  font-size: 11px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.15s ease;
+}
+
+html[data-mv-ui="r6-museum"] .r6-mode-btn:hover {
+  background: rgba(83, 211, 197, 0.12);
+  border-color: var(--mv-r6-aqua);
+  color: #ffffff;
+}
+
+html[data-mv-ui="r6-museum"] .r6-mode-btn.active {
+  background: rgba(22, 125, 128, 0.35);
+  border-color: var(--mv-r6-aqua);
+  color: var(--mv-r6-aqua-light);
+  font-weight: 700;
+}
+
+/* Modality badges */
+html[data-mv-ui="r6-museum"] .r6-tag {
+  display: inline-block;
+  font-size: 9.5px;
+  font-weight: 750;
+  padding: 1.5px 5px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+html[data-mv-ui="r6-museum"] .r6-tag-plane { background: rgba(32, 204, 181, 0.2); color: #20ccb5; border: 1px solid rgba(32, 204, 181, 0.35); }
+html[data-mv-ui="r6-museum"] .r6-tag-solid { background: rgba(156, 139, 255, 0.2); color: #9c8bff; border: 1px solid rgba(156, 139, 255, 0.35); }
+html[data-mv-ui="r6-museum"] .r6-tag-graph { background: rgba(72, 186, 253, 0.2); color: #48bafd; border: 1px solid rgba(72, 186, 253, 0.35); }
+html[data-mv-ui="r6-museum"] .r6-tag-stats { background: rgba(255, 198, 108, 0.2); color: #ffc66c; border: 1px solid rgba(255, 198, 108, 0.35); }
+html[data-mv-ui="r6-museum"] .r6-tag-real  { background: rgba(255, 140, 156, 0.2); color: #ff8c9c; border: 1px solid rgba(255, 140, 156, 0.35); }
+
+/* Thẻ tổng quan 7 khối lớp ở Đại Sảnh */
+html[data-mv-ui="r6-museum"] .r6-grade-overview-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--mv-r6-card-bg);
+  border: 1px solid var(--mv-r6-border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+html[data-mv-ui="r6-museum"] .r6-grade-overview-card:hover {
+  background: var(--mv-r6-card-hover);
+  border-color: var(--mv-r6-aqua);
+  transform: translateX(2px);
+}
+
+html[data-mv-ui="r6-museum"] .r6-grade-overview-card strong {
+  font-size: 13px;
+  color: #ffffff;
+}
+
+html[data-mv-ui="r6-museum"] .r6-grade-overview-card small {
+  font-size: 10.5px;
+  color: var(--mv-r6-text-muted);
+}
+
+/* Nút quay lại cấp trước trong danh mục */
+html[data-mv-ui="r6-museum"] .r6-nav-back-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  background: rgba(22, 125, 128, 0.15);
+  border: 1px solid rgba(83, 211, 197, 0.25);
+  color: var(--mv-r6-aqua);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 11.5px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: all 0.2s ease;
+}
+
+html[data-mv-ui="r6-museum"] .r6-nav-back-btn:hover {
+  background: rgba(22, 125, 128, 0.35);
+  border-color: var(--mv-r6-aqua);
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  html[data-mv-ui="r6-museum"] .r6-breadcrumb-bar {
+    left: 265px !important;
+    right: 16px !important;
+    top: 70px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  html[data-mv-ui="r6-museum"] .r6-breadcrumb-bar {
+    left: 12px !important;
+    right: 12px !important;
+    top: 60px !important;
+  }
+}
+
+html[data-mv-ui="r6-museum"] .r6-crumb:focus-visible {
+  outline: 2px solid var(--mv-r6-aqua) !important;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px rgba(83, 211, 197, 0.35);
+}
+

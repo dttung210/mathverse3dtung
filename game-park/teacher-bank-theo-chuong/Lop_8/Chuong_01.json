@@ -1,0 +1,4476 @@
+{
+  "schemaVersion": 10,
+  "sourceType": "teacher-provided-KNTT-LaTeX-2026-11-02",
+  "sourceFile": "Bo_Phieu_Hoc_Tap_Toan_6_12_Word_LaTeX_PDF.zip / LaTeX/*.tex",
+  "reviewRequired": true,
+  "sourcePolicy": "Bộ 50 câu mỗi chương từ các tệp PDF/LaTeX cô cung cấp ngày 02-11-2026. Mọi câu có lỗi được cách ly; không tự tạo câu mới. Chưa xác nhận đầy đủ nội dung toán học của từng câu.",
+  "questionsProvenance": "User uploaded PDF + matching LaTeX 2026-11-02 (replaces outdated question bank); question answer keys come from supplied documents, only independently verified corrections applied.",
+  "chapters": [
+    {
+      "grade": 8,
+      "chapter": 1,
+      "roman": "I",
+      "title": "ĐA THỨC",
+      "totalSource": 50,
+      "questions": [
+        {
+          "id": "8-01-01",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 1,
+          "difficulty": "Dễ",
+          "prompt": "Bậc của đơn thức thu gọn A = -2x^{2y}^3z là",
+          "choices": {
+            "A": "Bậc 2",
+            "B": "Bậc 6",
+            "C": "Bậc 6 (1)",
+            "D": "Bậc 5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bậc của đơn thức thu gọn A = -"
+            },
+            {
+              "t": "math",
+              "v": "2x^{2y}"
+            },
+            {
+              "t": "math",
+              "v": "^3"
+            },
+            {
+              "t": "txt",
+              "v": "z là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 6"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 6 (1)"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 5"
+              }
+            ]
+          },
+          "issues": [
+            "duplicate_or_semantically_equivalent_choice",
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Bậc của đơn thức thu gọn A = -2x$^{2y}$$^3$z là",
+            "choices": {
+              "A": "Bậc 2",
+              "B": "Bậc 6",
+              "C": "Bậc 6 (1)",
+              "D": "Bậc 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 1,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-02",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 2,
+          "difficulty": "Dễ",
+          "prompt": "Thực hiện yêu cầu nhận biết sau: Thu gọn tổng hai đơn thức đồng dạng 5x^{2}y^{3} + 3x^{2}y^{3} ta được.",
+          "choices": {
+            "A": "15x^{2}y^{3}",
+            "B": "8x^{2}y^{3}",
+            "C": "8x^{4}y^{6}",
+            "D": "-2x^{2}y^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện yêu cầu nhận biết sau: Thu gọn tổng hai đơn thức đồng dạng "
+            },
+            {
+              "t": "math",
+              "v": "5x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "3x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được."
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "15x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "8x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "8x^{4}"
+              },
+              {
+                "t": "math",
+                "v": "y^{6}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-"
+              },
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện yêu cầu nhận biết sau: Thu gọn tổng hai đơn thức đồng dạng 5x$^2$y$^3$ + 3x$^2$y$^3$ ta được.",
+            "choices": {
+              "A": "15x$^2$y$^3$",
+              "B": "8x$^2$y$^3$",
+              "C": "8x$^4$y$^6$",
+              "D": "-2x$^2$y$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 2,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-03",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 3,
+          "difficulty": "Dễ",
+          "prompt": "Trong bài học thuộc Chương I, xét nội dung: Thương của phép chia đơn thức 18x^{4}y^{3} cho đơn thức 2x^{2}y là. Đáp án đúng là",
+          "choices": {
+            "A": "9x^{2}y^{2}",
+            "B": "12x^{2}y^{2}",
+            "C": "9x^{6}y^{4}",
+            "D": "9xy^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong bài học thuộc Chương I, xét nội dung: Thương của phép chia đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "18x^{4}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " cho đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "2x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y là. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "9x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "12x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "9x^{6}"
+              },
+              {
+                "t": "math",
+                "v": "y^{4}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "9xy^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong bài học thuộc Chương I, xét nội dung: Thương của phép chia đơn thức 18x$^4$y$^3$ cho đơn thức 2x$^2$y là. Đáp án đúng là",
+            "choices": {
+              "A": "9x$^2$y$^2$",
+              "B": "12x$^2$y$^2$",
+              "C": "9x$^6$y$^4$",
+              "D": "9xy$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 3,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-04",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 4,
+          "difficulty": "Dễ",
+          "prompt": "Dựa vào kiến thức chuẩn SGK của Chương I (Đa thức), bậc của đơn thức thu gọn A = -5x^{5y}^3z là",
+          "choices": {
+            "A": "Bậc 15",
+            "B": "Bậc 5",
+            "C": "Bậc 8",
+            "D": "Bậc 9"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa vào kiến thức chuẩn SGK của Chương I (Đa thức), bậc của đơn thức thu gọn A = -"
+            },
+            {
+              "t": "math",
+              "v": "5x^{5y}"
+            },
+            {
+              "t": "math",
+              "v": "^3"
+            },
+            {
+              "t": "txt",
+              "v": "z là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 9"
+              }
+            ]
+          },
+          "issues": [
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Dựa vào kiến thức chuẩn SGK của Chương I (Đa thức), bậc của đơn thức thu gọn A = -5x$^{5y}$$^3$z là",
+            "choices": {
+              "A": "Bậc 15",
+              "B": "Bậc 5",
+              "C": "Bậc 8",
+              "D": "Bậc 9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 4,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-05",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 5,
+          "difficulty": "Dễ",
+          "prompt": "Chọn kết quả đúng nhất khi xét: Thu gọn tổng hai đơn thức đồng dạng 8x^{2}y^{3} + 9x^{2}y^{3} ta được",
+          "choices": {
+            "A": "72x^{2}y^{3}",
+            "B": "17x^{2}y^{3}",
+            "C": "1x^{2}y^{3}",
+            "D": "17x^{4}y^{6}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Chọn kết quả đúng nhất khi xét: Thu gọn tổng hai đơn thức đồng dạng "
+            },
+            {
+              "t": "math",
+              "v": "8x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "9x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "72x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "17x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "1x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "17x^{4}"
+              },
+              {
+                "t": "math",
+                "v": "y^{6}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Chọn kết quả đúng nhất khi xét: Thu gọn tổng hai đơn thức đồng dạng 8x$^2$y$^3$ + 9x$^2$y$^3$ ta được",
+            "choices": {
+              "A": "72x$^2$y$^3$",
+              "B": "17x$^2$y$^3$",
+              "C": "1x$^2$y$^3$",
+              "D": "17x$^4$y$^6$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 5,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-06",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 6,
+          "difficulty": "Dễ",
+          "prompt": "Khi làm bài tập cơ bản về đa thức, một học sinh gặp câu hỏi: Thương của phép chia đơn thức 36x^{4}y^{3} cho đơn thức 2x^{2}y là. Kết quả nào dưới đây đúng?",
+          "choices": {
+            "A": "18xy^{2}",
+            "B": "18x^{2}y^{2}",
+            "C": "24x^{2}y^{2}",
+            "D": "18x^{6}y^{4}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Khi làm bài tập cơ bản về đa thức, một học sinh gặp câu hỏi: Thương của phép chia đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "36x^{4}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " cho đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "2x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y là. Kết quả nào dưới đây đúng?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "18xy^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "18x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "24x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "18x^{6}"
+              },
+              {
+                "t": "math",
+                "v": "y^{4}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Khi làm bài tập cơ bản về đa thức, một học sinh gặp câu hỏi: Thương của phép chia đơn thức 36x$^4$y$^3$ cho đơn thức 2x$^2$y là. Kết quả nào dưới đây đúng?",
+            "choices": {
+              "A": "18xy$^2$",
+              "B": "18x$^2$y$^2$",
+              "C": "24x$^2$y$^2$",
+              "D": "18x$^6$y$^4$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 6,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-07",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 7,
+          "difficulty": "Dễ",
+          "prompt": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Bậc của đơn thức thu gọn A = -8x^{8y}^3z là",
+          "choices": {
+            "A": "Bậc 12",
+            "B": "Bậc 11",
+            "C": "Bậc 8",
+            "D": "Bậc 24"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Bậc của đơn thức thu gọn A = -"
+            },
+            {
+              "t": "math",
+              "v": "8x^{8y}"
+            },
+            {
+              "t": "math",
+              "v": "^3"
+            },
+            {
+              "t": "txt",
+              "v": "z là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 11"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 8"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 24"
+              }
+            ]
+          },
+          "issues": [
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Xác định giá trị hoặc khẳng định đúng cho bài toán sau: Bậc của đơn thức thu gọn A = -8x$^{8y}$$^3$z là",
+            "choices": {
+              "A": "Bậc 12",
+              "B": "Bậc 11",
+              "C": "Bậc 8",
+              "D": "Bậc 24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 7,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-08",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 8,
+          "difficulty": "Dễ",
+          "prompt": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Thu gọn tổng hai đơn thức đồng dạng 11x^{2}y^{3} + 15x^{2}y^{3} ta được",
+          "choices": {
+            "A": "4x^{2}y^{3}",
+            "B": "26x^{2}y^{3}",
+            "C": "26x^{4}y^{6}",
+            "D": "165x^{2}y^{3}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Thu gọn tổng hai đơn thức đồng dạng "
+            },
+            {
+              "t": "math",
+              "v": "11x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "15x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "4x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "26x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "26x^{4}"
+              },
+              {
+                "t": "math",
+                "v": "y^{6}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "165x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng trực tiếp định nghĩa và quy tắc trong Chương I: Thu gọn tổng hai đơn thức đồng dạng 11x$^2$y$^3$ + 15x$^2$y$^3$ ta được",
+            "choices": {
+              "A": "4x$^2$y$^3$",
+              "B": "26x$^2$y$^3$",
+              "C": "26x$^4$y$^6$",
+              "D": "165x$^2$y$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 8,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-09",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 9,
+          "difficulty": "Dễ",
+          "prompt": "Kiểm tra nhanh kiến thức nền tảng: Thương của phép chia đơn thức 54x^{4}y^{3} cho đơn thức 2x^{2}y là",
+          "choices": {
+            "A": "27xy^{2}",
+            "B": "27x^{2}y^{2}",
+            "C": "36x^{2}y^{2}",
+            "D": "27x^{6}y^{4}"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra nhanh kiến thức nền tảng: Thương của phép chia đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "54x^{4}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " cho đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "2x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "27xy^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "27x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "36x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "27x^{6}"
+              },
+              {
+                "t": "math",
+                "v": "y^{4}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra nhanh kiến thức nền tảng: Thương của phép chia đơn thức 54x$^4$y$^3$ cho đơn thức 2x$^2$y là",
+            "choices": {
+              "A": "27xy$^2$",
+              "B": "27x$^2$y$^2$",
+              "C": "36x$^2$y$^2$",
+              "D": "27x$^6$y$^4$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 9,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-10",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 10,
+          "difficulty": "Dễ",
+          "prompt": "Cho dữ kiện nhận biết sau đây: Bậc của đơn thức thu gọn A = -11x^{11y}^3z là. Phương án chính xác là",
+          "choices": {
+            "A": "Bậc 11",
+            "B": "Bậc 15",
+            "C": "Bậc 14",
+            "D": "Bậc 33"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho dữ kiện nhận biết sau đây: Bậc của đơn thức thu gọn A = -"
+            },
+            {
+              "t": "math",
+              "v": "11x^{11y}"
+            },
+            {
+              "t": "math",
+              "v": "^3"
+            },
+            {
+              "t": "txt",
+              "v": "z là. Phương án chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 11"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 15"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 14"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 33"
+              }
+            ]
+          },
+          "issues": [
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Cho dữ kiện nhận biết sau đây: Bậc của đơn thức thu gọn A = -11x$^{11y}$$^3$z là. Phương án chính xác là",
+            "choices": {
+              "A": "Bậc 11",
+              "B": "Bậc 15",
+              "C": "Bậc 14",
+              "D": "Bậc 33"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 10,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-11",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 11,
+          "difficulty": "Dễ",
+          "prompt": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Thu gọn tổng hai đơn thức đồng dạng 14x^{2}y^{3} + 21x^{2}y^{3} ta được",
+          "choices": {
+            "A": "294x^{2}y^{3}",
+            "B": "35x^{4}y^{6}",
+            "C": "7x^{2}y^{3}",
+            "D": "35x^{2}y^{3}"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Thu gọn tổng hai đơn thức đồng dạng "
+            },
+            {
+              "t": "math",
+              "v": "14x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "21x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "294x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "35x^{4}"
+              },
+              {
+                "t": "math",
+                "v": "y^{6}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "7x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "35x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy chỉ ra kết quả đúng trong bốn lựa chọn A, B, C, D đối với yêu cầu: Thu gọn tổng hai đơn thức đồng dạng 14x$^2$y$^3$ + 21x$^2$y$^3$ ta được",
+            "choices": {
+              "A": "294x$^2$y$^3$",
+              "B": "35x$^4$y$^6$",
+              "C": "7x$^2$y$^3$",
+              "D": "35x$^2$y$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 11,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-12",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 12,
+          "difficulty": "Dễ",
+          "prompt": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Thương của phép chia đơn thức 72x^{4}y^{3} cho đơn thức 2x^{2}y là",
+          "choices": {
+            "A": "36x^{2}y^{2}",
+            "B": "48x^{2}y^{2}",
+            "C": "36x^{6}y^{4}",
+            "D": "36xy^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Thương của phép chia đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "72x^{4}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " cho đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "2x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "36x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "48x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "36x^{6}"
+              },
+              {
+                "t": "math",
+                "v": "y^{4}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "36xy^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi ôn tập lý thuyết và kỹ năng cơ bản (Chương I): Thương của phép chia đơn thức 72x$^4$y$^3$ cho đơn thức 2x$^2$y là",
+            "choices": {
+              "A": "36x$^2$y$^2$",
+              "B": "48x$^2$y$^2$",
+              "C": "36x$^6$y$^4$",
+              "D": "36xy$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 12,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-13",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 13,
+          "difficulty": "Dễ",
+          "prompt": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), bậc của đơn thức thu gọn A = -14x^{14y}^3z là",
+          "choices": {
+            "A": "Bậc 14",
+            "B": "Bậc 17",
+            "C": "Bậc 42",
+            "D": "Bậc 18"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), bậc của đơn thức thu gọn A = -"
+            },
+            {
+              "t": "math",
+              "v": "14x^{14y}"
+            },
+            {
+              "t": "math",
+              "v": "^3"
+            },
+            {
+              "t": "txt",
+              "v": "z là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 14"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 42"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 18"
+              }
+            ]
+          },
+          "issues": [
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Theo nội dung sách giáo khoa Kết nối tri thức với cuộc sống (Chương I), bậc của đơn thức thu gọn A = -14x$^{14y}$$^3$z là",
+            "choices": {
+              "A": "Bậc 14",
+              "B": "Bậc 17",
+              "C": "Bậc 42",
+              "D": "Bậc 18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 13,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-14",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 14,
+          "difficulty": "Dễ",
+          "prompt": "Tìm đáp số đúng của bài toán cơ bản sau: Thu gọn tổng hai đơn thức đồng dạng 17x^{2}y^{3} + 27x^{2}y^{3} ta được",
+          "choices": {
+            "A": "44x^{2}y^{3}",
+            "B": "10x^{2}y^{3}",
+            "C": "459x^{2}y^{3}",
+            "D": "44x^{4}y^{6}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm đáp số đúng của bài toán cơ bản sau: Thu gọn tổng hai đơn thức đồng dạng "
+            },
+            {
+              "t": "math",
+              "v": "17x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "27x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "44x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "10x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "459x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "44x^{4}"
+              },
+              {
+                "t": "math",
+                "v": "y^{6}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm đáp số đúng của bài toán cơ bản sau: Thu gọn tổng hai đơn thức đồng dạng 17x$^2$y$^3$ + 27x$^2$y$^3$ ta được",
+            "choices": {
+              "A": "44x$^2$y$^3$",
+              "B": "10x$^2$y$^3$",
+              "C": "459x$^2$y$^3$",
+              "D": "44x$^4$y$^6$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 14,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-15",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 15,
+          "difficulty": "Dễ",
+          "prompt": "Xét đối tượng toán học trong Chương I: Thương của phép chia đơn thức 90x^{4}y^{3} cho đơn thức 2x^{2}y là. Giá trị hoặc tính chất tương ứng là",
+          "choices": {
+            "A": "45x^{2}y^{2}",
+            "B": "45xy^{2}",
+            "C": "45x^{6}y^{4}",
+            "D": "60x^{2}y^{2}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét đối tượng toán học trong Chương I: Thương của phép chia đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "90x^{4}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " cho đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "2x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y là. Giá trị hoặc tính chất tương ứng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "45x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "45xy^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "45x^{6}"
+              },
+              {
+                "t": "math",
+                "v": "y^{4}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "60x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét đối tượng toán học trong Chương I: Thương của phép chia đơn thức 90x$^4$y$^3$ cho đơn thức 2x$^2$y là. Giá trị hoặc tính chất tương ứng là",
+            "choices": {
+              "A": "45x$^2$y$^2$",
+              "B": "45xy$^2$",
+              "C": "45x$^6$y$^4$",
+              "D": "60x$^2$y$^2$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 15,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-16",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 16,
+          "difficulty": "Dễ",
+          "prompt": "Hoàn thành phép xác định cơ bản sau đây: Bậc của đơn thức thu gọn A = -17x^{17y}^3z là",
+          "choices": {
+            "A": "Bậc 17",
+            "B": "Bậc 51",
+            "C": "Bậc 20",
+            "D": "Bậc 21"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hoàn thành phép xác định cơ bản sau đây: Bậc của đơn thức thu gọn A = -"
+            },
+            {
+              "t": "math",
+              "v": "17x^{17y}"
+            },
+            {
+              "t": "math",
+              "v": "^3"
+            },
+            {
+              "t": "txt",
+              "v": "z là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 17"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 51"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 20"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 21"
+              }
+            ]
+          },
+          "issues": [
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Hoàn thành phép xác định cơ bản sau đây: Bậc của đơn thức thu gọn A = -17x$^{17y}$$^3$z là",
+            "choices": {
+              "A": "Bậc 17",
+              "B": "Bậc 51",
+              "C": "Bậc 20",
+              "D": "Bậc 21"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 16,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-17",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 17,
+          "difficulty": "Dễ",
+          "prompt": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Thu gọn tổng hai đơn thức đồng dạng 20x^{2}y^{3} + 33x^{2}y^{3} ta được?",
+          "choices": {
+            "A": "53x^{2}y^{3}",
+            "B": "13x^{2}y^{3}",
+            "C": "53x^{4}y^{6}",
+            "D": "660x^{2}y^{3}"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Thu gọn tổng hai đơn thức đồng dạng "
+            },
+            {
+              "t": "math",
+              "v": "20x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "33x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "53x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "13x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "53x^{4}"
+              },
+              {
+                "t": "math",
+                "v": "y^{6}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "660x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Trong các khẳng định hoặc giá trị dưới đây, đâu là đáp án đúng cho câu hỏi: Thu gọn tổng hai đơn thức đồng dạng 20x$^2$y$^3$ + 33x$^2$y$^3$ ta được?",
+            "choices": {
+              "A": "53x$^2$y$^3$",
+              "B": "13x$^2$y$^3$",
+              "C": "53x$^4$y$^6$",
+              "D": "660x$^2$y$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 17,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-18",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 18,
+          "difficulty": "Dễ",
+          "prompt": "Bài tập khởi động Chương I: Thương của phép chia đơn thức 108x^{4}y^{3} cho đơn thức 2x^{2}y là",
+          "choices": {
+            "A": "54xy^{2}",
+            "B": "72x^{2}y^{2}",
+            "C": "54x^{2}y^{2}",
+            "D": "54x^{6}y^{4}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài tập khởi động Chương I: Thương của phép chia đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "108x^{4}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " cho đơn thức "
+            },
+            {
+              "t": "math",
+              "v": "2x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "54xy^{2}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "72x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "54x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{2}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "54x^{6}"
+              },
+              {
+                "t": "math",
+                "v": "y^{4}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài tập khởi động Chương I: Thương của phép chia đơn thức 108x$^4$y$^3$ cho đơn thức 2x$^2$y là",
+            "choices": {
+              "A": "54xy$^2$",
+              "B": "72x$^2$y$^2$",
+              "C": "54x$^2$y$^2$",
+              "D": "54x$^6$y$^4$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 18,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-19",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 19,
+          "difficulty": "Dễ",
+          "prompt": "Quan sát dữ kiện đề bài: Bậc của đơn thức thu gọn A = -20x^{20y}^3z là. Hãy chọn phương án đúng",
+          "choices": {
+            "A": "Bậc 20",
+            "B": "Bậc 24",
+            "C": "Bậc 23",
+            "D": "Bậc 60"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Quan sát dữ kiện đề bài: Bậc của đơn thức thu gọn A = -"
+            },
+            {
+              "t": "math",
+              "v": "20x^{20y}"
+            },
+            {
+              "t": "math",
+              "v": "^3"
+            },
+            {
+              "t": "txt",
+              "v": "z là. Hãy chọn phương án đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 24"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 23"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 60"
+              }
+            ]
+          },
+          "issues": [
+            "unattached_math_power"
+          ],
+          "sourceTex": {
+            "question": "Quan sát dữ kiện đề bài: Bậc của đơn thức thu gọn A = -20x$^{20y}$$^3$z là. Hãy chọn phương án đúng",
+            "choices": {
+              "A": "Bậc 20",
+              "B": "Bậc 24",
+              "C": "Bậc 23",
+              "D": "Bậc 60"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 19,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-20",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 20,
+          "difficulty": "Dễ",
+          "prompt": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Thu gọn tổng hai đơn thức đồng dạng 23x^{2}y^{3} + 39x^{2}y^{3} ta được",
+          "choices": {
+            "A": "62x^{4}y^{6}",
+            "B": "16x^{2}y^{3}",
+            "C": "62x^{2}y^{3}",
+            "D": "897x^{2}y^{3}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Thu gọn tổng hai đơn thức đồng dạng "
+            },
+            {
+              "t": "math",
+              "v": "23x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " + "
+            },
+            {
+              "t": "math",
+              "v": "39x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{3}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "62x^{4}"
+              },
+              {
+                "t": "math",
+                "v": "y^{6}"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "16x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "62x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "897x^{2}"
+              },
+              {
+                "t": "math",
+                "v": "y^{3}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng công thức hoặc tính chất đầu bài của Chương I để giải quyết yêu cầu: Thu gọn tổng hai đơn thức đồng dạng 23x$^2$y$^3$ + 39x$^2$y$^3$ ta được",
+            "choices": {
+              "A": "62x$^4$y$^6$",
+              "B": "16x$^2$y$^3$",
+              "C": "62x$^2$y$^3$",
+              "D": "897x$^2$y$^3$"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 20,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-21",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 21,
+          "difficulty": "Trung bình",
+          "prompt": "Tính giá trị của đa thức P = x^{2}y - 2xy + 5 tại x = 2 và y = -1",
+          "choices": {
+            "A": "9",
+            "B": "5",
+            "C": "-3",
+            "D": "1"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tính giá trị của đa thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y - 2xy + 5 tại x = 2 và y = -1"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-3"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "1"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tính giá trị của đa thức P = x$^2$y - 2xy + 5 tại x = 2 và y = -1",
+            "choices": {
+              "A": "9",
+              "B": "5",
+              "C": "-3",
+              "D": "1"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 21,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-22",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 22,
+          "difficulty": "Trung bình",
+          "prompt": "Vận dụng quy tắc trong Chương I (Đa thức) để giải bài toán: Rút gọn biểu thức M = (x + 3)(x - 3) - x^{2} ta được",
+          "choices": {
+            "A": "-9",
+            "B": "2x^{2} + 0x - 9",
+            "C": "6x - 9",
+            "D": "0x - 9"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng quy tắc trong Chương I (Đa thức) để giải bài toán: Rút gọn biểu thức M = (x + 3)(x - 3) - "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-9"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 0x - 9"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "6x - 9"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0x - 9"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng quy tắc trong Chương I (Đa thức) để giải bài toán: Rút gọn biểu thức M = (x + 3)(x - 3) - x$^2$ ta được",
+            "choices": {
+              "A": "-9",
+              "B": "2x$^2$ + 0x - 9",
+              "C": "6x - 9",
+              "D": "0x - 9"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 22,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-23",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 23,
+          "difficulty": "Trung bình",
+          "prompt": "Biến đổi và tính toán theo kiến thức Chương I: Bậc của đa thức Q = 3x^{4}y - 4x^{2}y^{2} + 5xy - 3x^{4}y + 7 sau khi đã thu gọn là. Kết quả thu được là",
+          "choices": {
+            "A": "Bậc 4",
+            "B": "Bậc 0",
+            "C": "Bậc 2",
+            "D": "Bậc 5"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Biến đổi và tính toán theo kiến thức Chương I: Bậc của đa thức Q = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y - "
+            },
+            {
+              "t": "math",
+              "v": "4x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5xy - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y + 7 sau khi đã thu gọn là. Kết quả thu được là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 4"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Biến đổi và tính toán theo kiến thức Chương I: Bậc của đa thức Q = 3x$^4$y - 4x$^2$y$^2$ + 5xy - 3x$^4$y + 7 sau khi đã thu gọn là. Kết quả thu được là",
+            "choices": {
+              "A": "Bậc 4",
+              "B": "Bậc 0",
+              "C": "Bậc 2",
+              "D": "Bậc 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 23,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-24",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 24,
+          "difficulty": "Trung bình",
+          "prompt": "Xét bài toán mức độ thông hiểu sau: Tính giá trị của đa thức P = x^{2}y - 2xy + 8 tại x = 2 và y = -1. Đáp án đúng là",
+          "choices": {
+            "A": "12",
+            "B": "8",
+            "C": "4",
+            "D": "0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán mức độ thông hiểu sau: Tính giá trị của đa thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y - 2xy + 8 tại x = 2 và y = -1. Đáp án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "8"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán mức độ thông hiểu sau: Tính giá trị của đa thức P = x$^2$y - 2xy + 8 tại x = 2 và y = -1. Đáp án đúng là",
+            "choices": {
+              "A": "12",
+              "B": "8",
+              "C": "4",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 24,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-25",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 25,
+          "difficulty": "Trung bình",
+          "prompt": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Rút gọn biểu thức M = (x + 6)(x - 3) - x^{2} ta được",
+          "choices": {
+            "A": "2x^{2} + 3x - 18",
+            "B": "-18",
+            "C": "3x - 18",
+            "D": "9x - 18"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Rút gọn biểu thức M = (x + 6)(x - 3) - "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 3x - 18"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "-18"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "3x - 18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9x - 18"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Để hoàn thành phiếu học tập Chương I, hãy xác định: Rút gọn biểu thức M = (x + 6)(x - 3) - x$^2$ ta được",
+            "choices": {
+              "A": "2x$^2$ + 3x - 18",
+              "B": "-18",
+              "C": "3x - 18",
+              "D": "9x - 18"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 25,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-26",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 26,
+          "difficulty": "Trung bình",
+          "prompt": "Phân tích dữ kiện bài toán: Bậc của đa thức Q = 3x^{4}y - 7x^{2}y^{2} + 5xy - 3x^{4}y + 7 sau khi đã thu gọn là. Giá trị cần tìm bằng",
+          "choices": {
+            "A": "Bậc 5",
+            "B": "Bậc 0",
+            "C": "Bậc 4",
+            "D": "Bậc 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích dữ kiện bài toán: Bậc của đa thức Q = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y - "
+            },
+            {
+              "t": "math",
+              "v": "7x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5xy - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y + 7 sau khi đã thu gọn là. Giá trị cần tìm bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích dữ kiện bài toán: Bậc của đa thức Q = 3x$^4$y - 7x$^2$y$^2$ + 5xy - 3x$^4$y + 7 sau khi đã thu gọn là. Giá trị cần tìm bằng",
+            "choices": {
+              "A": "Bậc 5",
+              "B": "Bậc 0",
+              "C": "Bậc 4",
+              "D": "Bậc 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 26,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-27",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 27,
+          "difficulty": "Trung bình",
+          "prompt": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tính giá trị của đa thức P = x^{2}y - 2xy + 11 tại x = 2 và y = -1",
+          "choices": {
+            "A": "15",
+            "B": "7",
+            "C": "11",
+            "D": "3"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tính giá trị của đa thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y - 2xy + 11 tại x = 2 và y = -1"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "7"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "11"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Áp dụng tính chất đã học ở Chương I vào bài tập sau: Tính giá trị của đa thức P = x$^2$y - 2xy + 11 tại x = 2 và y = -1",
+            "choices": {
+              "A": "15",
+              "B": "7",
+              "C": "11",
+              "D": "3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 27,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-28",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 28,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Rút gọn biểu thức M = (x + 9)(x - 3) - x^{2} ta được",
+          "choices": {
+            "A": "12x - 27",
+            "B": "6x - 27",
+            "C": "-27",
+            "D": "2x^{2} + 6x - 27"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Rút gọn biểu thức M = (x + 9)(x - 3) - "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "12x - 27"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "6x - 27"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-27"
+              }
+            ],
+            "D": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 6x - 27"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hiện các bước suy luận hợp lý để giải quyết yêu cầu: Rút gọn biểu thức M = (x + 9)(x - 3) - x$^2$ ta được",
+            "choices": {
+              "A": "12x - 27",
+              "B": "6x - 27",
+              "C": "-27",
+              "D": "2x$^2$ + 6x - 27"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 28,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-29",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 29,
+          "difficulty": "Trung bình",
+          "prompt": "Cho bài toán tự luyện (Đa thức): Bậc của đa thức Q = 3x^{4}y - 10x^{2}y^{2} + 5xy - 3x^{4}y + 7 sau khi đã thu gọn là. Phương án nào sau đây chính xác?",
+          "choices": {
+            "A": "Bậc 0",
+            "B": "Bậc 5",
+            "C": "Bậc 2",
+            "D": "Bậc 4"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho bài toán tự luyện (Đa thức): Bậc của đa thức Q = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y - "
+            },
+            {
+              "t": "math",
+              "v": "10x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5xy - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y + 7 sau khi đã thu gọn là. Phương án nào sau đây chính xác?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 5"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 4"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho bài toán tự luyện (Đa thức): Bậc của đa thức Q = 3x$^4$y - 10x$^2$y$^2$ + 5xy - 3x$^4$y + 7 sau khi đã thu gọn là. Phương án nào sau đây chính xác?",
+            "choices": {
+              "A": "Bậc 0",
+              "B": "Bậc 5",
+              "C": "Bậc 2",
+              "D": "Bậc 4"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 29,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-30",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 30,
+          "difficulty": "Trung bình",
+          "prompt": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tính giá trị của đa thức P = x^{2}y - 2xy + 14 tại x = 2 và y = -1",
+          "choices": {
+            "A": "6",
+            "B": "10",
+            "C": "18",
+            "D": "14"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tính giá trị của đa thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y - 2xy + 14 tại x = 2 và y = -1"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "6"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "10"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "18"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "14"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các phép biến đổi trong Chương I, hãy tìm kết quả của bài toán: Tính giá trị của đa thức P = x$^2$y - 2xy + 14 tại x = 2 và y = -1",
+            "choices": {
+              "A": "6",
+              "B": "10",
+              "C": "18",
+              "D": "14"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 30,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-31",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 31,
+          "difficulty": "Trung bình",
+          "prompt": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Rút gọn biểu thức M = (x + 12)(x - 3) - x^{2} ta được. Hãy chọn đáp số đúng",
+          "choices": {
+            "A": "-36",
+            "B": "15x - 36",
+            "C": "2x^{2} + 9x - 36",
+            "D": "9x - 36"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Rút gọn biểu thức M = (x + 12)(x - 3) - "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được. Hãy chọn đáp số đúng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-36"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15x - 36"
+              }
+            ],
+            "C": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 9x - 36"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "9x - 36"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Một bài kiểm tra định kỳ nội dung Chương I nêu câu hỏi: Rút gọn biểu thức M = (x + 12)(x - 3) - x$^2$ ta được. Hãy chọn đáp số đúng",
+            "choices": {
+              "A": "-36",
+              "B": "15x - 36",
+              "C": "2x$^2$ + 9x - 36",
+              "D": "9x - 36"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 31,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-32",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 32,
+          "difficulty": "Trung bình",
+          "prompt": "Tìm lời giải đúng cho bài toán thông hiểu: Bậc của đa thức Q = 3x^{4}y - 13x^{2}y^{2} + 5xy - 3x^{4}y + 7 sau khi đã thu gọn là",
+          "choices": {
+            "A": "Bậc 0",
+            "B": "Bậc 2",
+            "C": "Bậc 4",
+            "D": "Bậc 5"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm lời giải đúng cho bài toán thông hiểu: Bậc của đa thức Q = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y - "
+            },
+            {
+              "t": "math",
+              "v": "13x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5xy - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y + 7 sau khi đã thu gọn là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 0"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 4"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm lời giải đúng cho bài toán thông hiểu: Bậc của đa thức Q = 3x$^4$y - 13x$^2$y$^2$ + 5xy - 3x$^4$y + 7 sau khi đã thu gọn là",
+            "choices": {
+              "A": "Bậc 0",
+              "B": "Bậc 2",
+              "C": "Bậc 4",
+              "D": "Bậc 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 32,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-33",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 33,
+          "difficulty": "Trung bình",
+          "prompt": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tính giá trị của đa thức P = x^{2}y - 2xy + 17 tại x = 2 và y = -1",
+          "choices": {
+            "A": "9",
+            "B": "17",
+            "C": "21",
+            "D": "13"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tính giá trị của đa thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y - 2xy + 17 tại x = 2 và y = -1"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "9"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "17"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng mối liên hệ giữa các đại lượng trong Chương I: Tính giá trị của đa thức P = x$^2$y - 2xy + 17 tại x = 2 và y = -1",
+            "choices": {
+              "A": "9",
+              "B": "17",
+              "C": "21",
+              "D": "13"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 33,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-34",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 34,
+          "difficulty": "Trung bình",
+          "prompt": "Hãy tính toán và chọn phương án đúng đối với bài tập: Rút gọn biểu thức M = (x + 15)(x - 3) - x^{2} ta được",
+          "choices": {
+            "A": "2x^{2} + 12x - 45",
+            "B": "18x - 45",
+            "C": "-45",
+            "D": "12x - 45"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Hãy tính toán và chọn phương án đúng đối với bài tập: Rút gọn biểu thức M = (x + 15)(x - 3) - "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 12x - 45"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "18x - 45"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-45"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "12x - 45"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Hãy tính toán và chọn phương án đúng đối với bài tập: Rút gọn biểu thức M = (x + 15)(x - 3) - x$^2$ ta được",
+            "choices": {
+              "A": "2x$^2$ + 12x - 45",
+              "B": "18x - 45",
+              "C": "-45",
+              "D": "12x - 45"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 34,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-35",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 35,
+          "difficulty": "Trung bình",
+          "prompt": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Bậc của đa thức Q = 3x^{4}y - 16x^{2}y^{2} + 5xy - 3x^{4}y + 7 sau khi đã thu gọn là",
+          "choices": {
+            "A": "Bậc 2",
+            "B": "Bậc 4",
+            "C": "Bậc 0",
+            "D": "Bậc 5"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Bậc của đa thức Q = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y - "
+            },
+            {
+              "t": "math",
+              "v": "16x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5xy - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y + 7 sau khi đã thu gọn là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 0"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 5"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Dựa trên các tính chất trọng tâm của Chương I, xét bài toán: Bậc của đa thức Q = 3x$^4$y - 16x$^2$y$^2$ + 5xy - 3x$^4$y + 7 sau khi đã thu gọn là",
+            "choices": {
+              "A": "Bậc 2",
+              "B": "Bậc 4",
+              "C": "Bậc 0",
+              "D": "Bậc 5"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 35,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-36",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 36,
+          "difficulty": "Trung bình",
+          "prompt": "Thực hành giải toán (Đa thức): Tính giá trị của đa thức P = x^{2}y - 2xy + 20 tại x = 2 và y = -1. Đáp án nào dưới đây thỏa mãn?",
+          "choices": {
+            "A": "20",
+            "B": "12",
+            "C": "16",
+            "D": "24"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thực hành giải toán (Đa thức): Tính giá trị của đa thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y - 2xy + 20 tại x = 2 và y = -1. Đáp án nào dưới đây thỏa mãn?"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "20"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "12"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "16"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thực hành giải toán (Đa thức): Tính giá trị của đa thức P = x$^2$y - 2xy + 20 tại x = 2 và y = -1. Đáp án nào dưới đây thỏa mãn?",
+            "choices": {
+              "A": "20",
+              "B": "12",
+              "C": "16",
+              "D": "24"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 36,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-37",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 37,
+          "difficulty": "Trung bình",
+          "prompt": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Rút gọn biểu thức M = (x + 18)(x - 3) - x^{2} ta được",
+          "choices": {
+            "A": "-54",
+            "B": "2x^{2} + 15x - 54",
+            "C": "21x - 54",
+            "D": "15x - 54"
+          },
+          "answer": "D",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Rút gọn biểu thức M = (x + 18)(x - 3) - "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-54"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 15x - 54"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "21x - 54"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15x - 54"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kiểm tra kỹ năng biến đổi và suy luận qua bài toán: Rút gọn biểu thức M = (x + 18)(x - 3) - x$^2$ ta được",
+            "choices": {
+              "A": "-54",
+              "B": "2x$^2$ + 15x - 54",
+              "C": "21x - 54",
+              "D": "15x - 54"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 37,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-38",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 38,
+          "difficulty": "Trung bình",
+          "prompt": "Cho giả thiết thuộc phạm vi Chương I: Bậc của đa thức Q = 3x^{4}y - 19x^{2}y^{2} + 5xy - 3x^{4}y + 7 sau khi đã thu gọn là. Kết luận đúng là",
+          "choices": {
+            "A": "Bậc 5",
+            "B": "Bậc 4",
+            "C": "Bậc 2",
+            "D": "Bậc 0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Cho giả thiết thuộc phạm vi Chương I: Bậc của đa thức Q = "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y - "
+            },
+            {
+              "t": "math",
+              "v": "19x^{2}"
+            },
+            {
+              "t": "math",
+              "v": "y^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " + 5xy - "
+            },
+            {
+              "t": "math",
+              "v": "3x^{4}"
+            },
+            {
+              "t": "txt",
+              "v": "y + 7 sau khi đã thu gọn là. Kết luận đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "Bậc 5"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "Bậc 4"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "Bậc 2"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "Bậc 0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Cho giả thiết thuộc phạm vi Chương I: Bậc của đa thức Q = 3x$^4$y - 19x$^2$y$^2$ + 5xy - 3x$^4$y + 7 sau khi đã thu gọn là. Kết luận đúng là",
+            "choices": {
+              "A": "Bậc 5",
+              "B": "Bậc 4",
+              "C": "Bậc 2",
+              "D": "Bậc 0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 38,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-39",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 39,
+          "difficulty": "Trung bình",
+          "prompt": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tính giá trị của đa thức P = x^{2}y - 2xy + 23 tại x = 2 và y = -1",
+          "choices": {
+            "A": "27",
+            "B": "23",
+            "C": "19",
+            "D": "15"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tính giá trị của đa thức P = "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": "y - 2xy + 23 tại x = 2 và y = -1"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "27"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "23"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Rút gọn hoặc tính giá trị theo yêu cầu sau của Chương I: Tính giá trị của đa thức P = x$^2$y - 2xy + 23 tại x = 2 và y = -1",
+            "choices": {
+              "A": "27",
+              "B": "23",
+              "C": "19",
+              "D": "15"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 39,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-40",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 40,
+          "difficulty": "Trung bình",
+          "prompt": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Rút gọn biểu thức M = (x + 21)(x - 3) - x^{2} ta được",
+          "choices": {
+            "A": "18x - 63",
+            "B": "2x^{2} + 18x - 63",
+            "C": "-63",
+            "D": "24x - 63"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Rút gọn biểu thức M = (x + 21)(x - 3) - "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}"
+            },
+            {
+              "t": "txt",
+              "v": " ta được"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "18x - 63"
+              }
+            ],
+            "B": [
+              {
+                "t": "math",
+                "v": "2x^{2}"
+              },
+              {
+                "t": "txt",
+                "v": " + 18x - 63"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-63"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "24x - 63"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xác định phương án đúng sau khi thực hiện phép tính / suy luận: Rút gọn biểu thức M = (x + 21)(x - 3) - x$^2$ ta được",
+            "choices": {
+              "A": "18x - 63",
+              "B": "2x$^2$ + 18x - 63",
+              "C": "-63",
+              "D": "24x - 63"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 40,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-41",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 41,
+          "difficulty": "Khó",
+          "prompt": "Tìm số tự nhiên n để đơn thức A = 5x^{n+1}y^{4} chia hết cho đơn thức B = 2x^{3}y^{n-1}",
+          "choices": {
+            "A": "n ∈ {2; 3; 4; 5}",
+            "B": "n ≥ 2",
+            "C": "n ∈ {3; 4; 5}",
+            "D": "n = 3"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm số tự nhiên n để đơn thức A = "
+            },
+            {
+              "t": "math",
+              "v": "5x^{n+1}"
+            },
+            {
+              "t": "math",
+              "v": "y^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " chia hết cho đơn thức B = "
+            },
+            {
+              "t": "math",
+              "v": "2x^{3}"
+            },
+            {
+              "t": "math",
+              "v": "y^{n-1}"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {2; 3; 4; 5}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {3; 4; 5}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm số tự nhiên n để đơn thức A = 5x$^{n+1}$y$^4$ chia hết cho đơn thức B = 2x$^3$y$^{n-1}$",
+            "choices": {
+              "A": "n $\\in$ {2; 3; 4; 5}",
+              "B": "n $\\ge$ 2",
+              "C": "n $\\in$ {3; 4; 5}",
+              "D": "n = 3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 41,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-42",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 42,
+          "difficulty": "Khó",
+          "prompt": "Bài toán vận dụng (Chương I – Đa thức): Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 13 không phụ thuộc vào biến x. Giá trị hằng số của T bằng. Kết quả đúng là",
+          "choices": {
+            "A": "-13",
+            "B": "15",
+            "C": "13",
+            "D": "0"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Bài toán vận dụng (Chương I – Đa thức): Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 13 không phụ thuộc vào biến x. Giá trị hằng số của T bằng. Kết quả đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-13"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "15"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "13"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Bài toán vận dụng (Chương I – Đa thức): Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 13 không phụ thuộc vào biến x. Giá trị hằng số của T bằng. Kết quả đúng là",
+            "choices": {
+              "A": "-13",
+              "B": "15",
+              "C": "13",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 42,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-43",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 43,
+          "difficulty": "Khó",
+          "prompt": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm số tự nhiên n để đơn thức A = 5x^{n+1}y^{4} chia hết cho đơn thức B = 2x^{3}y^{n-1}",
+          "choices": {
+            "A": "n ≥ 2",
+            "B": "n ∈ {3; 4; 5}",
+            "C": "n ∈ {2; 3; 4; 5}",
+            "D": "n = 3"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm số tự nhiên n để đơn thức A = "
+            },
+            {
+              "t": "math",
+              "v": "5x^{n+1}"
+            },
+            {
+              "t": "math",
+              "v": "y^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " chia hết cho đơn thức B = "
+            },
+            {
+              "t": "math",
+              "v": "2x^{3}"
+            },
+            {
+              "t": "math",
+              "v": "y^{n-1}"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {3; 4; 5}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {2; 3; 4; 5}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Vận dụng kiến thức nâng cao trong phạm vi Chương I để giải bài toán: Tìm số tự nhiên n để đơn thức A = 5x$^{n+1}$y$^4$ chia hết cho đơn thức B = 2x$^3$y$^{n-1}$",
+            "choices": {
+              "A": "n $\\ge$ 2",
+              "B": "n $\\in$ {3; 4; 5}",
+              "C": "n $\\in$ {2; 3; 4; 5}",
+              "D": "n = 3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 43,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-44",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 44,
+          "difficulty": "Khó",
+          "prompt": "Phân tích và giải bài toán tổng hợp sau của Chương I: Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 19 không phụ thuộc vào biến x. Giá trị hằng số của T bằng",
+          "choices": {
+            "A": "21",
+            "B": "19",
+            "C": "-19",
+            "D": "0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Phân tích và giải bài toán tổng hợp sau của Chương I: Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 19 không phụ thuộc vào biến x. Giá trị hằng số của T bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "21"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "19"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "-19"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Phân tích và giải bài toán tổng hợp sau của Chương I: Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 19 không phụ thuộc vào biến x. Giá trị hằng số của T bằng",
+            "choices": {
+              "A": "21",
+              "B": "19",
+              "C": "-19",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 44,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-45",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 45,
+          "difficulty": "Khó",
+          "prompt": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm số tự nhiên n để đơn thức A = 5x^{n+1}y^{4} chia hết cho đơn thức B = 2x^{3}y^{n-1}. Đáp số chính xác là",
+          "choices": {
+            "A": "n ∈ {3; 4; 5}",
+            "B": "n = 3",
+            "C": "n ∈ {2; 3; 4; 5}",
+            "D": "n ≥ 2"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm số tự nhiên n để đơn thức A = "
+            },
+            {
+              "t": "math",
+              "v": "5x^{n+1}"
+            },
+            {
+              "t": "math",
+              "v": "y^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " chia hết cho đơn thức B = "
+            },
+            {
+              "t": "math",
+              "v": "2x^{3}"
+            },
+            {
+              "t": "math",
+              "v": "y^{n-1}"
+            },
+            {
+              "t": "txt",
+              "v": ". Đáp số chính xác là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {3; 4; 5}"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {2; 3; 4; 5}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Thử thách tư duy trong phạm vi kiến thức Chương I: Tìm số tự nhiên n để đơn thức A = 5x$^{n+1}$y$^4$ chia hết cho đơn thức B = 2x$^3$y$^{n-1}$. Đáp số chính xác là",
+            "choices": {
+              "A": "n $\\in$ {3; 4; 5}",
+              "B": "n = 3",
+              "C": "n $\\in$ {2; 3; 4; 5}",
+              "D": "n $\\ge$ 2"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 45,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-46",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 46,
+          "difficulty": "Khó",
+          "prompt": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 25 không phụ thuộc vào biến x. Giá trị hằng số của T bằng",
+          "choices": {
+            "A": "-25",
+            "B": "0",
+            "C": "25",
+            "D": "27"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 25 không phụ thuộc vào biến x. Giá trị hằng số của T bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-25"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "25"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "27"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Sử dụng phương pháp giải toán của Chương I để tìm đáp án cho bài toán: Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 25 không phụ thuộc vào biến x. Giá trị hằng số của T bằng",
+            "choices": {
+              "A": "-25",
+              "B": "0",
+              "C": "25",
+              "D": "27"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 46,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-47",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 47,
+          "difficulty": "Khó",
+          "prompt": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm số tự nhiên n để đơn thức A = 5x^{n+1}y^{4} chia hết cho đơn thức B = 2x^{3}y^{n-1}",
+          "choices": {
+            "A": "n ≥ 2",
+            "B": "n ∈ {3; 4; 5}",
+            "C": "n ∈ {2; 3; 4; 5}",
+            "D": "n = 3"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm số tự nhiên n để đơn thức A = "
+            },
+            {
+              "t": "math",
+              "v": "5x^{n+1}"
+            },
+            {
+              "t": "math",
+              "v": "y^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " chia hết cho đơn thức B = "
+            },
+            {
+              "t": "math",
+              "v": "2x^{3}"
+            },
+            {
+              "t": "math",
+              "v": "y^{n-1}"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {3; 4; 5}"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {2; 3; 4; 5}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n = 3"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Xét bài toán vận dụng thực tiễn / nâng cao thuộc Chương I: Tìm số tự nhiên n để đơn thức A = 5x$^{n+1}$y$^4$ chia hết cho đơn thức B = 2x$^3$y$^{n-1}$",
+            "choices": {
+              "A": "n $\\ge$ 2",
+              "B": "n $\\in$ {3; 4; 5}",
+              "C": "n $\\in$ {2; 3; 4; 5}",
+              "D": "n = 3"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 47,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-48",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 48,
+          "difficulty": "Khó",
+          "prompt": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 31 không phụ thuộc vào biến x. Giá trị hằng số của T bằng",
+          "choices": {
+            "A": "31",
+            "B": "0",
+            "C": "33",
+            "D": "-31"
+          },
+          "answer": "A",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 31 không phụ thuộc vào biến x. Giá trị hằng số của T bằng"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "31"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "33"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "-31"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Tìm kết quả cuối cùng của bài toán phân loại học sinh khá giỏi (Chương I): Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 31 không phụ thuộc vào biến x. Giá trị hằng số của T bằng",
+            "choices": {
+              "A": "31",
+              "B": "0",
+              "C": "33",
+              "D": "-31"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 48,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-49",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 49,
+          "difficulty": "Khó",
+          "prompt": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm số tự nhiên n để đơn thức A = 5x^{n+1}y^{4} chia hết cho đơn thức B = 2x^{3}y^{n-1}",
+          "choices": {
+            "A": "n ≥ 2",
+            "B": "n = 3",
+            "C": "n ∈ {2; 3; 4; 5}",
+            "D": "n ∈ {3; 4; 5}"
+          },
+          "answer": "C",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm số tự nhiên n để đơn thức A = "
+            },
+            {
+              "t": "math",
+              "v": "5x^{n+1}"
+            },
+            {
+              "t": "math",
+              "v": "y^{4}"
+            },
+            {
+              "t": "txt",
+              "v": " chia hết cho đơn thức B = "
+            },
+            {
+              "t": "math",
+              "v": "2x^{3}"
+            },
+            {
+              "t": "math",
+              "v": "y^{n-1}"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\ge"
+              },
+              {
+                "t": "txt",
+                "v": " 2"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "n = 3"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {2; 3; 4; 5}"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "n "
+              },
+              {
+                "t": "math",
+                "v": "\\in"
+              },
+              {
+                "t": "txt",
+                "v": " {3; 4; 5}"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Kết hợp các tính chất đã học trong Chương I, hãy giải quyết bài toán: Tìm số tự nhiên n để đơn thức A = 5x$^{n+1}$y$^4$ chia hết cho đơn thức B = 2x$^3$y$^{n-1}$",
+            "choices": {
+              "A": "n $\\ge$ 2",
+              "B": "n = 3",
+              "C": "n $\\in$ {2; 3; 4; 5}",
+              "D": "n $\\in$ {3; 4; 5}"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 49,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        },
+        {
+          "id": "8-01-50",
+          "grade": 8,
+          "chapter": 1,
+          "chapterTitle": "ĐA THỨC",
+          "number": 50,
+          "difficulty": "Khó",
+          "prompt": "Câu hỏi vận dụng cao cuối Chương I: Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 37 không phụ thuộc vào biến x. Giá trị hằng số của T bằng. Phương án đúng là",
+          "choices": {
+            "A": "-37",
+            "B": "37",
+            "C": "39",
+            "D": "0"
+          },
+          "answer": "B",
+          "prompt_segments": [
+            {
+              "t": "txt",
+              "v": "Câu hỏi vận dụng cao cuối Chương I: Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 37 không phụ thuộc vào biến x. Giá trị hằng số của T bằng. Phương án đúng là"
+            }
+          ],
+          "choice_segments": {
+            "A": [
+              {
+                "t": "txt",
+                "v": "-37"
+              }
+            ],
+            "B": [
+              {
+                "t": "txt",
+                "v": "37"
+              }
+            ],
+            "C": [
+              {
+                "t": "txt",
+                "v": "39"
+              }
+            ],
+            "D": [
+              {
+                "t": "txt",
+                "v": "0"
+              }
+            ]
+          },
+          "issues": [],
+          "sourceTex": {
+            "question": "Câu hỏi vận dụng cao cuối Chương I: Chứng minh giá trị của biểu thức T = x(2x - 3) - 2x(x - 1) + x + 37 không phụ thuộc vào biến x. Giá trị hằng số của T bằng. Phương án đúng là",
+            "choices": {
+              "A": "-37",
+              "B": "37",
+              "C": "39",
+              "D": "0"
+            }
+          },
+          "provenance": {
+            "format": "LaTeX",
+            "sourceFile": "Phieu_Hoc_Tap_Toan_8_KNTT.tex",
+            "sourceQuestion": 50,
+            "sourceChapter": "I",
+            "answerKey": "Bảng đáp án Chương I",
+            "release": "USER_UPLOADED_2026-11-02"
+          },
+          "formattingFixes": []
+        }
+      ]
+    }
+  ]
+}
