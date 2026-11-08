@@ -51,7 +51,7 @@ const ROOT_PREFIXES = [
   'health'
 ];
 
-function rewriteRootPaths(content, base) {
+function rewriteRootPaths(content, base, ext) {
   let txt = content
     .replace(/((?:from|import)\s*['"])(\.?\.?\/[^'"?]+\.(?:m?js))(?:\?[^'"]*)?(['"])/g, `$1$2?v=${STAMP}$3`)
     .replace(/((?:src|href)=['"])(\/(?:dual|game-park)\/[^'"?]+\.(?:m?js|css))(?:\?[^'"]*)?(['"])/g, `$1$2?v=${STAMP}$3`)
@@ -60,10 +60,25 @@ function rewriteRootPaths(content, base) {
 
   if (!base) return txt;
   const prefixPattern = ROOT_PREFIXES.map(p => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
-  const attrRegex = new RegExp(`((?:src|href|poster|action)=['"]|(?:from|import)\\s*['"]|url\\(\\s*['"]?)/(${prefixPattern})`, 'g');
+
+  if (ext === '.mjs' || ext === '.js') {
+    // Only rewrite static/dynamic module imports starting with root /
+    const importFromRe = new RegExp(`((?:from|import)\\s*['"])/(${prefixPattern})`, 'g');
+    txt = txt.replace(importFromRe, `$1${base}/$2`);
+    const dynImportRe = new RegExp(`(import\\s*\\(\\s*['"])/(${prefixPattern})`, 'g');
+    txt = txt.replace(dynImportRe, `$1${base}/$2`);
+    return txt;
+  }
+
+  if (ext === '.css') {
+    const cssUrlRe = new RegExp(`(url\\(\\s*['"]?)/(${prefixPattern})`, 'g');
+    return txt.replace(cssUrlRe, `$1${base}/$2`);
+  }
+
+  // For .html: rewrite attributes and importmap entries
+  const attrRegex = new RegExp(`((?:src|href|poster|action)=['"]|url\\(\\s*['"]?)/(${prefixPattern})`, 'g');
   txt = txt.replace(attrRegex, `$1${base}/$2`);
-  const strRegex = new RegExp(`(['"\`])/(${prefixPattern})`, 'g');
-  txt = txt.replace(strRegex, `$1${base}/$2`);
+  txt = txt.replace(new RegExp(`"/(vendor/three\\.module\\.js[^"]*)"`, 'g'), `"${base}/$1"`);
   return txt;
 }
 
@@ -72,19 +87,35 @@ function makeStaticShimScript(base) {
 (function(){
   var BASE = ${JSON.stringify(base)};
   window.__MV_BASE_PATH__ = BASE;
+  var PREFIXES = ${JSON.stringify(ROOT_PREFIXES)};
+  function shouldPrefix(u){
+    if(!BASE || typeof u !== 'string') return false;
+    if(!u.startsWith('/') || u.startsWith(BASE + '/') || u.startsWith('//')) return false;
+    var clean = u.slice(1);
+    for(var i = 0; i < PREFIXES.length; i++){
+      if(clean.startsWith(PREFIXES[i]) || clean === 'r75' || clean === 'lab' || clean === 'game-park') return true;
+    }
+    return false;
+  }
   function mapUrl(u){
     if(typeof u !== 'string') return u;
-    if(BASE && u.startsWith('/') && !u.startsWith(BASE + '/') && !u.startsWith('//')){
-      u = BASE + u;
+    var origin = window.location && window.location.origin ? window.location.origin : '';
+    var hadOrigin = false;
+    if(origin && u.indexOf(origin + '/') === 0){
+      u = u.slice(origin.length);
+      hadOrigin = true;
     }
+    var finish = function(res){
+      return (hadOrigin && res.indexOf('/') === 0) ? (origin + res) : res;
+    };
     var qIdx = u.indexOf('?');
     var pathOnly = qIdx >= 0 ? u.slice(0, qIdx) : u;
     var query = qIdx >= 0 ? u.slice(qIdx) : '';
-    var rel = BASE && pathOnly.startsWith(BASE) ? pathOnly.slice(BASE.length) : pathOnly;
+    var rel = BASE && pathOnly.startsWith(BASE + '/') ? pathOnly.slice(BASE.length) : pathOnly;
     if(rel === '/api/discovery/r99/photo'){
       var params = new URLSearchParams(query);
       var id = params.get('id') || '';
-      return (BASE || '') + '/api/discovery/r99/photo/' + encodeURIComponent(id) + '.json';
+      return finish((BASE || '') + '/api/discovery/r99/photo/' + encodeURIComponent(id) + '.json');
     }
     var mTile = rel.match(/^\\/api\\/discovery\\/r99\\/(terrain|satellite)\\/(\\d+)\\/(\\d+)\\/(\\d+)$/);
     if(mTile){
@@ -102,9 +133,21 @@ function makeStaticShimScript(base) {
       '/api/discovery/unesco': '/api/discovery/unesco.json'
     };
     if(StaticJsonRoutes[rel]){
-      return (BASE || '') + StaticJsonRoutes[rel] + query;
+      return finish((BASE || '') + StaticJsonRoutes[rel] + query);
     }
-    return u;
+    if(shouldPrefix(u)){
+      return finish(BASE + u);
+    }
+    return finish(u);
+  }
+  if(window.Request){
+    var OrigRequest = window.Request;
+    window.Request = function(input, init){
+      if(typeof input === 'string') input = mapUrl(input);
+      else if(input && typeof input.url === 'string') input = new OrigRequest(mapUrl(input.url), input);
+      return new OrigRequest(input, init);
+    };
+    window.Request.prototype = OrigRequest.prototype;
   }
   var origFetch = window.fetch;
   if(origFetch){
@@ -124,9 +167,9 @@ function makeStaticShimScript(base) {
     return origOpen.apply(this, args);
   };
   if(BASE){
-    [HTMLImageElement, HTMLIFrameElement, HTMLScriptElement, HTMLLinkElement].forEach(function(Ctor){
+    [HTMLImageElement, HTMLIFrameElement, HTMLScriptElement, HTMLLinkElement, HTMLAnchorElement, HTMLMediaElement, HTMLSourceElement].forEach(function(Ctor){
       if(!Ctor || !Ctor.prototype) return;
-      var prop = Ctor === HTMLLinkElement ? 'href' : 'src';
+      var prop = (Ctor === HTMLLinkElement || Ctor === HTMLAnchorElement) ? 'href' : 'src';
       var desc = Object.getOwnPropertyDescriptor(Ctor.prototype, prop);
       if(desc && desc.set){
         Object.defineProperty(Ctor.prototype, prop, {
@@ -139,6 +182,21 @@ function makeStaticShimScript(base) {
         });
       }
     });
+    var origSetAttr = Element.prototype.setAttribute;
+    Element.prototype.setAttribute = function(name, value){
+      if((name === 'src' || name === 'href') && typeof value === 'string'){
+        value = mapUrl(value);
+      }
+      return origSetAttr.call(this, name, value);
+    };
+    var origWinOpen = window.open;
+    if(origWinOpen){
+      window.open = function(url){
+        var args = Array.prototype.slice.call(arguments);
+        if(typeof url === 'string') args[0] = mapUrl(url);
+        return origWinOpen.apply(this, args);
+      };
+    }
   }
 })();
 </script>`;
@@ -156,7 +214,7 @@ async function copyDirTransform(srcDir, destDir) {
       const ext = path.extname(entry.name).toLowerCase();
       if (['.html', '.mjs', '.js', '.css'].includes(ext) && entry.name !== 'three.module.js') {
         let txt = await fsp.readFile(srcPath, 'utf8');
-        txt = rewriteRootPaths(txt, BASE);
+        txt = rewriteRootPaths(txt, BASE, ext);
         if (ext === '.html' && txt.includes('<head>')) {
           txt = txt.replace('<head>', '<head>\n' + makeStaticShimScript(BASE));
         }
@@ -220,13 +278,13 @@ async function main() {
 
   // 1. Root index.html = Grand Campus (dual/index.html)
   let dualHtml = await fsp.readFile(path.join(ROOT, 'dual', 'index.html'), 'utf8');
-  dualHtml = rewriteRootPaths(dualHtml, BASE).replace('<head>', '<head>\n' + makeStaticShimScript(BASE));
+  dualHtml = rewriteRootPaths(dualHtml, BASE, '.html').replace('<head>', '<head>\n' + makeStaticShimScript(BASE));
   await fsp.writeFile(path.join(OUT, 'index.html'), dualHtml, 'utf8');
   await fsp.writeFile(path.join(OUT, '404.html'), dualHtml, 'utf8');
 
   // 2. /r75/index.html and /lab/index.html = Lab R75 (root index.html)
   let r75Html = await fsp.readFile(path.join(ROOT, 'index.html'), 'utf8');
-  r75Html = rewriteRootPaths(r75Html, BASE).replace('<head>', '<head>\n' + makeStaticShimScript(BASE));
+  r75Html = rewriteRootPaths(r75Html, BASE, '.html').replace('<head>', '<head>\n' + makeStaticShimScript(BASE));
   for (const sub of ['r75', 'lab']) {
     await fsp.mkdir(path.join(OUT, sub), { recursive: true });
     await fsp.writeFile(path.join(OUT, sub, 'index.html'), r75Html, 'utf8');
@@ -291,8 +349,7 @@ async function main() {
     await fsp.mkdir(photoDir, { recursive: true });
     for (const item of photosMeta) {
       if (item?.id) {
-        const mapped = { ...item, url: BASE && item.url?.startsWith('/') ? `${BASE}${item.url}` : item.url };
-        await fsp.writeFile(path.join(photoDir, `${item.id}.json`), JSON.stringify(mapped), 'utf8');
+        await fsp.writeFile(path.join(photoDir, `${item.id}.json`), JSON.stringify(item), 'utf8');
       }
     }
   } catch {}
